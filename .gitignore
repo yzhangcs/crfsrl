@@ -1,0 +1,34 @@
+# data files
+data
+
+# bash scripts
+*.sh
+
+# docs
+docs/_build
+
+# intermediate files
+build
+dist
+*.egg-info
+
+# experimental results
+exp
+results
+
+# log and config files
+*.log
+*.ini
+
+# pycache
+__pycache__
+
+# saved model
+*.pkl
+*.pt
+
+# hidden files
+.*
+
+# vscode
+.vscode
