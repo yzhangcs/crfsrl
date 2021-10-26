@@ -26,7 +26,7 @@ class SpanSRLMetric(Metric):
         self.prd_gold = 0
         self.eps = eps
 
-        self.script = os.path.join(self.DATA_PATH, 'srlconll-1.1')
+        self.script = os.path.join(self.DATA_PATH, 'srlconll-1.1/bin/srl-eval.pl')
         if not os.path.exists(self.script):
             download(self.URL, os.path.join(self.DATA_PATH, 'srlconll-1.1.tgz'))
 
