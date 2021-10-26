@@ -32,9 +32,8 @@ def download(url, dst=None, reload=False):
                 f.extractall(os.path.dirname(path))
     if tarfile.is_tarfile(path):
         with tarfile.open(path) as tar:
-            if len(tar.members) != 1:
-                raise RuntimeError('Only one file (not dir) is allowed in the tarfile.')
-            tar.extract(tar.members[0], os.path.dirname(path))
+            for i in tar:
+                tar.extract(i, os.path.dirname(path))
     return path
 
 
