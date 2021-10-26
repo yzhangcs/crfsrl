@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-from parser import CRFSemanticRoleLabelingParser
+from parser import CRF2oSemanticRoleLabelingParser
 
 from supar.cmds.cmd import parse
 
 
 def main():
     parser = argparse.ArgumentParser(description='Create first-order CRF Dependency Parser.')
-    parser.set_defaults(Parser=CRFSemanticRoleLabelingParser)
+    parser.set_defaults(Parser=CRF2oSemanticRoleLabelingParser)
     parser.add_argument('--prd', action='store_true', help='whether to use gold predicates')
     subparsers = parser.add_subparsers(title='Commands', dest='mode')
     # train
