@@ -20,16 +20,9 @@ if [ ! -d ${CONLL05}/conll05st-release ]; then
   echo "Downloading ConLL05 files"
   wget http://www.lsi.upc.edu/~srlconll/conll05st-release.tar.gz -O ${CONLL05}/conll05st-release.tar.gz
   wget http://www.lsi.upc.edu/~srlconll/conll05st-tests.tar.gz   -O ${CONLL05}/conll05st-tests.tar.gz
-  tar xf "${CONLL05}/conll05st-release.tar.gz" -C "${CONLL05}"
-  tar xf "${CONLL05}/conll05st-tests.tar.gz" -C "${CONLL05}"
+  tar xf ${CONLL05}/conll05st-release.tar.gz -C ${CONLL05}
+  tar xf ${CONLL05}/conll05st-tests.tar.gz -C ${CONLL05}
 fi
-if [ ! -d ${SRL}/srlconll-1.1 ]; then
-  echo "Downloading SRLEVAL scripts"
-  wget http://www.lsi.upc.edu/~srlconll/srlconll-1.1.tgz -O ${SRL}/srlconll-1.1.tgz
-  tar xf "${SRL}/srlconll-1.1.tgz" -C "${SRL}"
-fi
-export PERL5LIB="${SRL}/srlconll-1.1/lib:$PERL5LIB"
-export PATH="${SRL}/srlconll-1.1/bin:$PATH"
 
 TRAIN=train
 DEV=devel
