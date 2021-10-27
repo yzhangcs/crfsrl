@@ -19,6 +19,18 @@ fi
 export PERL5LIB="${srleval}/lib:$PERL5LIB"
 export PATH="${srleval}/bin:$PATH"
 
+
+if [[ $pred == *.conllu ]]; then
+  echo "Converting $pred to prop format"
+  python scripts/conllu2prop.py --conllu $pred --file $pred.prop
+  pred=$pred.prop
+fi
+if [[ $gold == *.conllu ]]; then
+  echo "Converting $gold to prop format"
+  python scripts/conllu2prop.py --conllu $gold --file $gold.prop
+  gold=$gold.prop
+fi
+
 P=$(perl ${srleval}/bin/srl-eval.pl $pred $gold | grep Overall | awk -F ' ' '{print $6}')
 R=$(perl ${srleval}/bin/srl-eval.pl $gold $pred | grep Overall | awk -F ' ' '{print $6}')
 printf  "%.2f %.2f %.2f\n" $P $R "$(bc -l <<< "2*$P*$R/($P+$R)")"
