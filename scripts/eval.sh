@@ -7,9 +7,9 @@ done
 
 DATA=~/.cache/supar/datasets
 
-echo "pred: ${pred:=pred.prop}"
-echo "gold: ${gold:=gold.prop}"
-echo "srleval:  ${srleval:=$DATA/srl/srlconll-1.1}"
+echo "pred:    ${pred:=pred.prop}"
+echo "gold:    ${gold:=gold.prop}"
+echo "srleval: ${srleval:=$DATA/srl/srlconll-1.1}"
 
 if [ ! -d $srleval ]; then
   echo "Downloading SRLEVAL scripts"
