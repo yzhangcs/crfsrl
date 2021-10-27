@@ -18,7 +18,7 @@ class SRLCRF(StructuredDistribution):
         self.c_mask = c_mask
 
     def __add__(self, other):
-        return SRLCRF(torch.stack((self.scores, other.scores), -1), self.mask)
+        return SRLCRF(torch.stack((self.scores, other.scores), -1), self.mask, self.c_mask)
 
     @lazy_property
     def argmax(self):
@@ -87,7 +87,7 @@ class SRL2oCRF(StructuredDistribution):
         self.c_mask = c_mask
 
     def __add__(self, other):
-        return SRL2oCRF([torch.stack((i, j), -1) for i, j in zip(self.scores, other.scores)], self.mask)
+        return SRL2oCRF([torch.stack((i, j), -1) for i, j in zip(self.scores, other.scores)], self.mask, self.c_mask)
 
     @lazy_property
     def argmax(self):
