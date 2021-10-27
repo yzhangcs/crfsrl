@@ -49,7 +49,7 @@ for dataset in TRAIN DEV; do
   fi
 done
 for dataset in TEST BROWN; do
-  if [ ! -f "${CONLL05}/${dataset,,}.prop" ]; then
+  if [ ! -f ${CONLL05}/${dataset,,}.prop ]; then
     echo "Generating the ${dataset,,} data"
     zcat ${CONLL05}/conll05st-release/${!dataset}/words/${!dataset}.words.gz > /tmp/$$.words
     zcat ${CONLL05}/conll05st-release/${!dataset}/props/${!dataset}.props.gz > /tmp/$$.props
@@ -69,3 +69,11 @@ rm -f ${CONLL05}/conll05st-tests.tar.gz
 for dataset in train dev test brown; do
   python scripts/prop2conllu.py --prop ${CONLL05}/$dataset.prop --file ${CONLL05}/$dataset.conllu
 done
+
+if [ ! -f $DATA/glove.6B.100d.txt ]; then
+  echo "Downloading Glove word embeddings"
+  mkdir -p $DATA/glove
+  wget https://nlp.stanford.edu/data/glove.6B.zip -O $DATA/glove/glove.6B.zip
+  unzip $DATA/glove/glove.6B.zip -d $DATA/glove
+  mv $DATA/glove/glove.6B.100d.txt $DATA && rm -rf $DATA/glove
+fi
