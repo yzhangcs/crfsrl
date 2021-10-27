@@ -5,7 +5,11 @@ import argparse
 import stanza
 from tqdm import tqdm
 
-pipeline = stanza.Pipeline(lang='en', processors='tokenize,lemma', verbose=False, tokenize_no_ssplit=True)
+pipeline = stanza.Pipeline(lang='en',
+                           processors='tokenize,lemma',
+                           verbose=False,
+                           tokenize_pretokenized=True,
+                           tokenize_no_ssplit=True)
 
 
 def build_roles(spans, length):
