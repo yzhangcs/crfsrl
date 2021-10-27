@@ -32,16 +32,18 @@ class SpanSRLMetric(Metric):
 
     def __call__(self, preds, golds):
         lens = [max(max([*i, *j], key=lambda x: max(x[:3]))[:3]) if i or j else 1 for i, j in zip(preds, golds)]
-        with tempfile.NamedTemporaryFile('w') as fp, tempfile.NamedTemporaryFile('w') as fg:
-            fp.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(preds)]))
-            fg.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(golds)]))
-            os.environ['PERL5LIB'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'lib') + os.pathsep + os.environ['PERL5LIB']
-            os.environ['PATH'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'bin') + os.pathsep + os.environ['PATH']
-            fp, fg = fp.name, fg.name
-            p_out = subprocess.check_output(['perl', f'{self.script}', f'{fp}', f'{fg}'], stderr=subprocess.STDOUT).decode()
-            r_out = subprocess.check_output(['perl', f'{self.script}', f'{fg}', f'{fp}'], stderr=subprocess.STDOUT).decode()
-            p_out = [i for i in p_out.split('\n') if 'Overall' in i][0].split()
-            r_out = [i for i in r_out.split('\n') if 'Overall' in i][0].split()
+        fpred, fgold = os.path.join(tempfile.mkdtemp(), 'pred'), os.path.join(tempfile.mkdtemp(), 'gold')
+        with open(fpred, 'w') as f:
+            f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(preds)]))
+        with open(fgold, 'w') as f:
+            f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(golds)]))
+        os.environ['PERL5LIB'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'lib') + os.pathsep + os.environ['PERL5LIB']
+        p_out = subprocess.check_output(['perl', f'{self.script}', f'{fpred}', f'{fgold}'], stderr=subprocess.STDOUT).decode()
+        r_out = subprocess.check_output(['perl', f'{self.script}', f'{fgold}', f'{fpred}'], stderr=subprocess.STDOUT).decode()
+        p_out = [i for i in p_out.split('\n') if 'Overall' in i][0].split()
+        r_out = [i for i in r_out.split('\n') if 'Overall' in i][0].split()
+        os.remove(fpred)
+        os.remove(fgold)
 
         self.tp += int(p_out[1])
         self.pred += int(p_out[3]) + int(p_out[1])
