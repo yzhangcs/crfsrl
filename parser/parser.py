@@ -8,13 +8,11 @@ from supar.parsers.parser import Parser
 from supar.utils import Config, Dataset, Embedding
 from supar.utils.common import BOS, PAD, UNK
 from supar.utils.field import ChartField, Field, RawField, SubwordField
-from supar.utils.logging import get_logger, progress_bar
+from supar.utils.logging import logger, progress_bar
 
 from .metric import SpanSRLMetric
 from .model import CRF2oSemanticRoleLabelingModel, CRFSemanticRoleLabelingModel
 from .transform import CoNLL
-
-logger = get_logger(__name__)
 
 
 class CRFSemanticRoleLabelingParser(Parser):
@@ -185,7 +183,7 @@ class CRFSemanticRoleLabelingParser(Parser):
         return preds
 
     @classmethod
-    def build(cls, path, min_freq=7, fix_len=20, **kwargs):
+    def build(cls, path, min_freq=2, fix_len=20, **kwargs):
         r"""
         Build a brand-new Parser, including initialization of all data fields and model parameters.
 
@@ -193,7 +191,7 @@ class CRFSemanticRoleLabelingParser(Parser):
             path (str):
                 The path of the model to be saved.
             min_freq (str):
-                The minimum frequency needed to include a token in the vocabulary. Default:7.
+                The minimum frequency needed to include a token in the vocabulary. Default: 2.
             fix_len (int):
                 The max length of all subword pieces. The excess part of each piece will be truncated.
                 Required if using CharLSTM/BERT.
@@ -455,7 +453,7 @@ class CRF2oSemanticRoleLabelingParser(Parser):
         return preds
 
     @classmethod
-    def build(cls, path, min_freq=7, fix_len=20, **kwargs):
+    def build(cls, path, min_freq=2, fix_len=20, **kwargs):
         r"""
         Build a brand-new Parser, including initialization of all data fields and model parameters.
 
@@ -463,7 +461,7 @@ class CRF2oSemanticRoleLabelingParser(Parser):
             path (str):
                 The path of the model to be saved.
             min_freq (str):
-                The minimum frequency needed to include a token in the vocabulary. Default:7.
+                The minimum frequency needed to include a token in the vocabulary. Default: 2.
             fix_len (int):
                 The max length of all subword pieces. The excess part of each piece will be truncated.
                 Required if using CharLSTM/BERT.

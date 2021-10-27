@@ -32,16 +32,16 @@ class SpanSRLMetric(Metric):
 
     def __call__(self, preds, golds):
         lens = [max(max([*i, *j], key=lambda x: max(x[:3]))[:3]) if i or j else 1 for i, j in zip(preds, golds)]
-        fpred, fgold = os.path.join(tempfile.mkdtemp(), 'pred'), os.path.join(tempfile.mkdtemp(), 'gold')
-        with open(fpred, 'w') as f:
-            f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(preds)]))
-        with open(fgold, 'w') as f:
-            f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(golds)]))
-        os.environ['PERL5LIB'] = os.path.join(*self.script.split(os.sep)[:-2], 'lib:$PERL5LIB')
-        p_out = subprocess.check_output(['perl', f'{self.script}', f'{fpred}', f'{fgold}'], stderr=subprocess.STDOUT).decode()
-        r_out = subprocess.check_output(['perl', f'{self.script}', f'{fgold}', f'{fpred}'], stderr=subprocess.STDOUT).decode()
-        p_out = [i for i in p_out.split('\n') if 'Overall' in i][0].split()
-        r_out = [i for i in r_out.split('\n') if 'Overall' in i][0].split()
+        with tempfile.NamedTemporaryFile('w') as fp, tempfile.NamedTemporaryFile('w') as fg:
+            fp.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(preds)]))
+            fg.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(golds)]))
+            os.environ['PERL5LIB'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'lib') + os.pathsep + os.environ['PERL5LIB']
+            os.environ['PATH'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'bin') + os.pathsep + os.environ['PATH']
+            fp, fg = fp.name, fg.name
+            p_out = subprocess.check_output(['perl', f'{self.script}', f'{fp}', f'{fg}'], stderr=subprocess.STDOUT).decode()
+            r_out = subprocess.check_output(['perl', f'{self.script}', f'{fg}', f'{fp}'], stderr=subprocess.STDOUT).decode()
+            p_out = [i for i in p_out.split('\n') if 'Overall' in i][0].split()
+            r_out = [i for i in r_out.split('\n') if 'Overall' in i][0].split()
 
         self.tp += int(p_out[1])
         self.pred += int(p_out[3]) + int(p_out[1])
@@ -63,6 +63,7 @@ class SpanSRLMetric(Metric):
             prds[prd-1] = str(prd)
             if prd not in args:
                 args[prd] = ['*'] * length
+                args[prd][prd-1] = '(V*)'
             args[prd][start-1] = f'({role}*'
             args[prd][end-1] += ')'
         args = [args[key] for key in sorted(args)]
