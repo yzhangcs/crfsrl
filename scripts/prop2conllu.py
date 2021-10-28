@@ -5,7 +5,6 @@ import argparse
 import stanza
 from tqdm import tqdm
 
-
 try:
     pipeline = stanza.Pipeline(lang='en',
                                processors='tokenize,lemma',
@@ -43,6 +42,7 @@ def prop2conllu(lines):
     if len(lines[0].split()[1:]) > 1:
         prds, *args = list(zip(*[line.split()[1:] for line in lines]))
         prds = [i for i, p in enumerate(prds, 1) if p != '-']
+        args = list(args) + [['*']*len(words) for _ in range(len(prds)-len(args))]
         for i, p in enumerate(prds):
             starts, rels = zip(*[(j, a.split('*')[0].split('(')[1]) for j, a in enumerate(args[i], 1) if a.startswith('(')])
             ends = [j for j, a in enumerate(args[i], 1) if a.endswith(')')]
