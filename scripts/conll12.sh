@@ -47,7 +47,7 @@ for file in TRAIN DEV TEST; do
         echo "$cols" >> ${CONLL12}/${file,,}.prop
       fi
     done
-    echo "Collecting ${CONLL12}/${file,,}.prop to conllu format"
+    echo "Converting ${CONLL12}/${file,,}.prop to the file of conllu format"
     python scripts/prop2conllu.py --prop ${CONLL12}/${file,,}.prop --file ${CONLL12}/${file,,}.conllu
   fi
 done
