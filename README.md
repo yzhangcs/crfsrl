@@ -10,9 +10,10 @@ The following packages should be installed:
 * [`Transformers`](https://github.com/huggingface/transformers): >= 4.0
 
 Run the following scripts to obtain the training data.
-Please make sure [PTB files](http://catalog.ldc.upenn.edu/LDC99T42) are available:
+Please make sure [PTB](http://catalog.ldc.upenn.edu/LDC99T42) and [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19) are available:
 ```sh
-bash scripts/conll05.sh PTB=<path-to-your-ptb-file> SRL=data
+bash scripts/conll05.sh PTB=<path-to-ptb>             SRL=data
+bash scripts/conll12.sh ONTONOTES=<path-to-ontonotes> SRL=data
 ```
 
 ## Run
