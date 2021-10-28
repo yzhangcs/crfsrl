@@ -7,7 +7,7 @@ from supar.cmds.cmd import parse
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Create first-order CRF Dependency Parser.')
+    parser = argparse.ArgumentParser(description='Create second-order CRF Dependency Parser.')
     parser.set_defaults(Parser=CRF2oSemanticRoleLabelingParser)
     parser.add_argument('--prd', action='store_true', help='whether to use gold predicates')
     subparsers = parser.add_subparsers(title='Commands', dest='mode')
