@@ -9,7 +9,7 @@ The following packages should be installed:
 * [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.7
 * [`Transformers`](https://github.com/huggingface/transformers): >= 4.0
 
-Run following scripts to obtain the training data.
+Run the following scripts to obtain the training data.
 Please make sure [PTB files](http://catalog.ldc.upenn.edu/LDC99T42) are available:
 ```sh
 bash scripts/conll05.sh PTB=<path-to-your-ptb-file> SRL=data
@@ -29,6 +29,18 @@ python -u crf2o.py train -b -c configs/conll05.crf2o.srl.lstm.char-lemma.ini -d 
 python -u crf.py   train -b -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --batch-size=1000 --encoder bert --bert bert-large-cased 
 # CRF2o
 python -u crf2o.py train -b -c configs/conll05.crf2o.srl.bert.ini -d 0 -p exp/conll05.crf2o.srl.bert/model --batch-size=1000 --encoder bert --bert bert-large-cased
+```
+To do evaluation:
+```sh
+# end-to-end
+python -u crf.py   evaluate -c configs/conll05.crf.srl.bert.ini  -d 0 -p exp/conll05.crf.srl.bert/model    --data data/conll05/test.conllu
+# w/ gold predicates
+python -u crf.py   evaluate -c configs/conll05.crf.srl.bert.ini  -d 0 -p exp/conll05.crf.srl.bert/model    --data data/conll05/test.conllu --prd
+```
+To make predictions:
+```sh
+python -u crf.py   predict  -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --data data/conll05/test.conllu --pred pred.conllu
+bash scripts/eval.sh pred=pred.conllu gold=data/conll05/test.conllu
 ```
 
 ## Contact
