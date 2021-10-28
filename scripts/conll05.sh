@@ -23,6 +23,13 @@ if [ ! -d ${CONLL05}/conll05st-release ]; then
   tar xf ${CONLL05}/conll05st-release.tar.gz -C ${CONLL05}
   tar xf ${CONLL05}/conll05st-tests.tar.gz -C ${CONLL05}
 fi
+if [ ! -d $srleval ]; then
+  echo "Downloading SRLEVAL scripts"
+  wget http://www.lsi.upc.edu/~srlconll/srlconll-1.1.tgz -O $(dirname $srleval)/srlconll-1.1.tgz
+  tar xf $(dirname $srleval)/srlconll-1.1.tgz -C $(dirname $srleval)
+fi
+export PERL5LIB="${srleval}/lib:$PERL5LIB"
+export PATH="${srleval}/bin:$PATH"
 
 TRAIN=train
 DEV=devel
