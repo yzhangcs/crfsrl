@@ -37,7 +37,7 @@ class SpanSRLMetric(Metric):
             f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(preds)]))
         with open(fgold, 'w') as f:
             f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(golds)]))
-        os.environ['PERL5LIB'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'lib') + os.pathsep + os.environ['PERL5LIB']
+        os.environ['PERL5LIB'] = os.path.join(self.DATA_PATH, 'srlconll-1.1/lib') + os.pathsep + os.environ.get('PERL5LIB', '')
         p_out = subprocess.check_output(['perl', f'{self.script}', f'{fpred}', f'{fgold}'], stderr=subprocess.STDOUT).decode()
         r_out = subprocess.check_output(['perl', f'{self.script}', f'{fgold}', f'{fpred}'], stderr=subprocess.STDOUT).decode()
         p_out = [i for i in p_out.split('\n') if 'Overall' in i][0].split()
