@@ -25,24 +25,19 @@ if [ ! -d $CONLL_ONTONOTES ]; then
   conda deactivate
 fi
 
-echo "Collecting files"
-# cat ${CONLL_ONTONOTES}/conll-formatted-ontonotes-5.0/data/train/data/english/annotations/*/*/*/*.gold_conll >> ${CONLL12}/train.english.v5_gold_conll
-# cat ${CONLL_ONTONOTES}/conll-formatted-ontonotes-5.0/data/development/data/english/annotations/*/*/*/*.gold_conll >> ${CONLL12}/dev.english.v5_gold_conll
-# cat ${CONLL_ONTONOTES}/conll-formatted-ontonotes-5.0/data/conll-2012-test/data/english/annotations/*/*/*/*.gold_conll >> ${CONLL12}/test.english.v5_gold_conll
-
-TRAIN=${CONLL12}/train.english.v5_gold_conll
-DEV=${CONLL12}/dev.english.v5_gold_conll
-TEST=${CONLL12}/test.english.v5_gold_conll
+TRAIN=${CONLL_ONTONOTES}/conll-formatted-ontonotes-5.0/data/train
+DEV=${CONLL_ONTONOTES}/conll-formatted-ontonotes-5.0/data/development
+TEST=${CONLL_ONTONOTES}/conll-formatted-ontonotes-5.0/data/conll-2012-test
 TRAIN_ID=scripts/conll12/ids/english/coref/train.id
 DEV_ID=scripts/conll12/ids/english/coref/development.id
 TEST_ID=scripts/conll12/ids/english/coref/test.id
 
 for file in TRAIN DEV TEST; do
-  if [ ! -f ${CONLL12}/${file,,}.prop]; then
-    echo "Converting ${!file} to prop format"
+  if [ ! -f ${CONLL12}/${file,,}.conllu ]; then
+    echo "Collecting files in ${file,,} to ${CONLL12}/${file,,}.prop"
     id_file="$file"_ID
     rm ${CONLL12}/${file,,}.prop
-    while IFS= read -r line; do
+    cat ${!file}/data/english/annotations/*/*/*/*.gold_conll | while IFS= read -r line; do
       id=$(awk -F ' ' '{print $1}' <<< "$line")
       if grep -Fq "$id" ${!id_file} ; then
         IFS=' ' read -ra cols <<< "$line"
@@ -51,6 +46,8 @@ for file in TRAIN DEV TEST; do
         cols=${cols:1}
         echo "$cols" >> ${CONLL12}/${file,,}.prop
       fi
-    done < ${!file}
+    done
+    echo "Collecting ${CONLL12}/${file,,}.prop to conllu format"
+    python scripts/prop2conllu.py --prop ${CONLL12}/${file,,}.prop --file ${CONLL12}/${file,,}.conllu
   fi
 done
