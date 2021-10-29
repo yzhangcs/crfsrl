@@ -1,6 +1,8 @@
 # crfsrl
 
-Code for "[Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments](http://arxiv.org/abs/2110.06865)".
+<p align="center"><img width="547" alt="image" src="https://user-images.githubusercontent.com/18402347/139386591-1f6cd3b4-77b7-402d-b2cf-2c4a73208c72.png"></p>
+
+Yu Zhang, Qingrong Xia, Shilin Zhou, Yong Jiang, Zhenghua Li, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021. [[arxiv](http://arxiv.org/abs/2110.06865)]
 
 ## Setup
 
