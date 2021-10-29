@@ -2,22 +2,18 @@
 
 import argparse
 
-import stanza
+import nltk
+from nltk.corpus import wordnet
+from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
-try:
-    pipeline = stanza.Pipeline(lang='en',
-                               processors='tokenize,lemma',
-                               verbose=False,
-                               tokenize_pretokenized=True,
-                               tokenize_no_ssplit=True)
-except Exception:
-    stanza.download(lang='en', resources_url='stanford')
-    pipeline = stanza.Pipeline(lang='en',
-                               processors='tokenize,lemma',
-                               verbose=False,
-                               tokenize_pretokenized=True,
-                               tokenize_no_ssplit=True)
+nltk.download('wordnet')
+
+
+def lemmatize(words):
+    lemmatizer = WordNetLemmatizer()
+    tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
+    return [lemmatizer.lemmatize(w, tag_dict.get(nltk.pos_tag([w])[0][1][0].upper(), wordnet.NOUN)) for w in words]
 
 
 def build_roles(spans, length):
@@ -37,12 +33,14 @@ def build_roles(spans, length):
 
 def prop2conllu(lines):
     words = [line.split()[0] for line in lines]
-    lemmas = [f'{word.lemma}' for word in pipeline(' '.join(words)).sentences[0].words]
+    lemmas = lemmatize(words)
     spans = []
-    if len(lines[0].split()[1:]) > 1:
+
+    if len(lines[0].split()) > 2:
         prds, *args = list(zip(*[line.split()[1:] for line in lines]))
         prds = [i for i, p in enumerate(prds, 1) if p != '-']
-        args = list(args) + [['*']*len(words) for _ in range(len(prds)-len(args))]
+        assert len(prds) == len(args)
+        # args = list(args) + [['*']*len(words) for _ in range(len(prds)-len(args))]
         for i, p in enumerate(prds):
             starts, rels = zip(*[(j, a.split('*')[0].split('(')[1]) for j, a in enumerate(args[i], 1) if a.startswith('(')])
             ends = [j for j, a in enumerate(args[i], 1) if a.endswith(')')]

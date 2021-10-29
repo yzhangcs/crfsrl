@@ -34,20 +34,15 @@ TEST_ID=scripts/conll12/ids/english/coref/test.id
 
 for file in TRAIN DEV TEST; do
   if [ ! -f ${CONLL12}/${file,,}.conllu ]; then
-    echo "Collecting files in ${file,,} to ${CONLL12}/${file,,}.prop"
     id_file="$file"_ID
-    rm ${CONLL12}/${file,,}.prop
-    cat ${!file}/data/english/annotations/*/*/*/*.gold_conll | while IFS= read -r line; do
-      id=$(awk -F ' ' '{print $1}' <<< "$line")
-      if grep -Fq "$id" ${!id_file} ; then
-        IFS=' ' read -ra cols <<< "$line"
-        cols=("${cols[3]}" "${cols[6]}" "${cols[@]:11:${#cols[@]}-12}")
-        cols=$(printf "\t%s" "${cols[@]}")
-        cols=${cols:1}
-        echo "$cols" >> ${CONLL12}/${file,,}.prop
-      fi
-    done
-    echo "Converting ${CONLL12}/${file,,}.prop to the file of conllu format"
+    rm -f ${CONLL12}/${file,,}.prop
+    if [ ! -f ${CONLL12}/${file,,}.gold_conll ]; then
+      echo "Collecting files in ${!file} to ${CONLL12}/${file,,}.gold_conll"
+      cat ${!file}/data/english/annotations/*/*/*/*.gold_conll > ${CONLL12}/${file,,}.gold_conll
+    fi
+    echo "Filtering annotations by id file"
+    python scripts/conll12/filter.py --prop ${CONLL12}/${file,,}.gold_conll --fid ${!id_file} --file ${CONLL12}/${file,,}.prop
+    echo "Converting ${CONLL12}/${file,,}.prop to conllu format"
     python scripts/prop2conllu.py --prop ${CONLL12}/${file,,}.prop --file ${CONLL12}/${file,,}.conllu
   fi
 done
