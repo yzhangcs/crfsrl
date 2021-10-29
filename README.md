@@ -1,6 +1,6 @@
 # crfsrl
 
-<p align="center"><img width="547" alt="image" src="https://user-images.githubusercontent.com/18402347/139386591-1f6cd3b4-77b7-402d-b2cf-2c4a73208c72.png"></p>
+<p align="center"><img width="454" alt="image" src="https://user-images.githubusercontent.com/18402347/139386770-a1ca94a6-76c0-4d4c-8965-34a505d59ad4.png"></p>
 
 Yu Zhang, Qingrong Xia, Shilin Zhou, Yong Jiang, Zhenghua Li, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021. [[arxiv](http://arxiv.org/abs/2110.06865)]
 
