@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 
 import argparse
-from parser import CRFSemanticRoleLabelingParser
 
 from supar.cmds.cmd import parse
+
+from crfsrl import CRFSemanticRoleLabelingParser
 
 
 def main():
