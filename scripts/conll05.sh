@@ -74,6 +74,7 @@ rm -f ${CONLL05}/conll05st-release.tar.gz
 rm -f ${CONLL05}/conll05st-tests.tar.gz
 
 for dataset in train dev test brown; do
+  echo "Converting ${CONLL05}/$dataset.prop to conllu format"
   python scripts/prop2conllu.py --prop ${CONLL05}/$dataset.prop --file ${CONLL05}/$dataset.conllu
 done
 

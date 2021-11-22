@@ -7,13 +7,11 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
-nltk.download('wordnet')
-
 
 def lemmatize(words):
     lemmatizer = WordNetLemmatizer()
     tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
-    return [lemmatizer.lemmatize(w, tag_dict.get(nltk.pos_tag([w])[0][1][0].upper(), wordnet.NOUN)) for w in words]
+    return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in nltk.pos_tag(words)]
 
 
 def build_roles(spans, length):
