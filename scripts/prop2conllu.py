@@ -10,8 +10,8 @@ from tqdm import tqdm
 
 def lemmatize(words):
     lemmatizer = WordNetLemmatizer()
-    tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
-    return [lemmatizer.lemmatize(w, tag_dict.get(p[0].upper(), wordnet.NOUN)) for w, p in nltk.pos_tag(words)]
+    maps = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
+    return [lemmatizer.lemmatize(w, maps[p[0].upper()]) if p[0].upper() in maps else w for w, p in nltk.pos_tag(words)]
 
 
 def build_roles(spans, length):
@@ -31,7 +31,8 @@ def build_roles(spans, length):
 
 def prop2conllu(lines):
     words = [line.split()[0] for line in lines]
-    lemmas = lemmatize(words)
+    lemmas, pred_lemmas = [line.split()[1] for line in lines], lemmatize(words)
+    lemmas = [i if i != '-' else pred for i, pred in zip(lemmas, pred_lemmas)]
     spans = []
 
     if len(lines[0].split()) > 2:
