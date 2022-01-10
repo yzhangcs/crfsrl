@@ -7,7 +7,7 @@ Yu Zhang, Qingrong Xia, Shilin Zhou, Yong Jiang, Zhenghua Li, Guohong Fu, Min Zh
 ## Setup
 
 The following packages should be installed:
-* [`SuPar`](https://github.com/yzhangcs/parser): == 1.1.3
+* [`SuPar`](https://github.com/yzhangcs/parser): == 1.1.4
 * [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.7
 * [`Transformers`](https://github.com/huggingface/transformers): >= 4.0
 
