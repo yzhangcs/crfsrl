@@ -20,8 +20,9 @@ def build_roles(spans, length):
         prd, start, end, label = span
         if label == 'O':
             continue
-        if '[prd]' not in rels[prd-1]:
+        if label == '[prd]':
             rels[prd-1] = '|'.join((rels[prd-1], '0:[prd]'))
+            continue
         rels[start-1] = '|'.join((rels[start-1], f'{prd}:B-{label}'))
         for i in range(start, end):
             rels[i] = '|'.join((rels[i], f'{prd}:I-{label}'))
@@ -35,12 +36,11 @@ def prop2conllu(lines):
     lemmas = [i if i != '-' else pred for i, pred in zip(lemmas, pred_lemmas)]
     spans = []
 
-    if len(lines[0].split()) > 2:
+    if len(lines[0].split()) >= 2:
         prds, *args = list(zip(*[line.split()[1:] for line in lines]))
         prds = [i for i, p in enumerate(prds, 1) if p != '-']
-        assert len(prds) == len(args)
-        # args = list(args) + [['*']*len(words) for _ in range(len(prds)-len(args))]
         for i, p in enumerate(prds):
+            spans.append((p, 1, len(words), '[prd]'))
             starts, rels = zip(*[(j, a.split('*')[0].split('(')[1]) for j, a in enumerate(args[i], 1) if a.startswith('(')])
             ends = [j for j, a in enumerate(args[i], 1) if a.endswith(')')]
             for s, r, e in zip(starts, rels, ends):
