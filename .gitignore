@@ -19,6 +19,11 @@ results
 # log and config files
 *.log
 *.ini
+log*
+
+# predicted results
+*.conllu
+*.final
 
 # pycache
 __pycache__
