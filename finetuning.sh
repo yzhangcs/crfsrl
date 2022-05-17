@@ -1,7 +1,7 @@
-# nohup bash finetuning2o.sh config=configs/conll05.crf.srl.bert.ini    path=exp/conll05.crf.srl.bert  bert=bert-large-cased   train=data/conll05/train.conllu dev=data/conll05/dev.conllu test=data/conll05/test.conllu ood=data/conll05/brown.conllu devices=4,5,6,7 > log.conll05.crf.bert    2>&1 &
-# nohup bash finetuning2o.sh config=configs/conll05.crf.srl.roberta.ini path=exp/conll05.crf.srl.roberta bert=roberta-large    train=data/conll05/train.conllu dev=data/conll05/dev.conllu test=data/conll05/test.conllu ood=data/conll05/brown.conllu devices=4,5,6,7 > log.conll05.crf.roberta 2>&1 &
-# nohup bash finetuning2o.sh config=configs/conll12.crf.srl.bert.ini    path=exp/conll12.crf.srl.bert    bert=bert-large-cased train=data/conll12/train.conllu dev=data/conll12/dev.conllu test=data/conll12/test.conllu ood=data/conll12/test.conllu  devices=4,5,6,7 > log.conll12.crf.bert 2>&1 &
-# nohup bash finetuning2o.sh config=configs/conll12.crf.srl.roberta.ini path=exp/conll12.crf.srl.roberta bert=roberta-large    train=data/conll12/train.conllu dev=data/conll12/dev.conllu test=data/conll12/test.conllu ood=data/conll12/test.conllu  devices=4,5,6,7 > log.conll12.crf.roberta 2>&1 &
+# nohup bash finetuning.sh config=configs/conll05.crf.srl.bert.ini    path=exp/conll05.crf.srl.bert  bert=bert-large-cased   train=data/conll05/train.conllu dev=data/conll05/dev.conllu test=data/conll05/test.conllu ood=data/conll05/brown.conllu devices=4,5,6,7 > log.conll05.crf.bert    2>&1 &
+# nohup bash finetuning.sh config=configs/conll05.crf.srl.roberta.ini path=exp/conll05.crf.srl.roberta bert=roberta-large    train=data/conll05/train.conllu dev=data/conll05/dev.conllu test=data/conll05/test.conllu ood=data/conll05/brown.conllu devices=4,5,6,7 > log.conll05.crf.roberta 2>&1 &
+# nohup bash finetuning.sh config=configs/conll12.crf.srl.bert.ini    path=exp/conll12.crf.srl.bert    bert=bert-large-cased train=data/conll12/train.conllu dev=data/conll12/dev.conllu test=data/conll12/test.conllu ood=data/conll12/test.conllu  devices=4,5,6,7 > log.conll12.crf.bert 2>&1 &
+# nohup bash finetuning.sh config=configs/conll12.crf.srl.roberta.ini path=exp/conll12.crf.srl.roberta bert=roberta-large    train=data/conll12/train.conllu dev=data/conll12/dev.conllu test=data/conll12/test.conllu ood=data/conll12/test.conllu  devices=4,5,6,7 > log.conll12.crf.roberta 2>&1 &
 args=$@
 for arg in $args; do
     eval "$arg"
@@ -16,7 +16,7 @@ echo "ood:     ${ood:=data/conll05/brown.conllu}"
 echo "bert:    ${config:=bert-large-cased}"
 echo "batch:   ${batch:=1000}"
 echo "dropout: ${dropout:=0.1}"
-echo "epochs:  ${epochs:=10}"
+echo "epochs:  ${epochs:=25}"
 echo "nu:      ${nu:=0.9}"
 echo "eps:     ${eps:=1e-12}"
 echo "devices: ${devices:=4,5,6,7}"
