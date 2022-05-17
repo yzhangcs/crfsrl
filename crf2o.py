@@ -2,7 +2,7 @@
 
 import argparse
 
-from supar.cmds.cmd import parse
+from supar.cmds.cmd import init
 
 from crfsrl import CRF2oSemanticRoleLabelingParser
 
@@ -17,6 +17,7 @@ def main():
     subparser.add_argument('--feat', '-f', choices=['tag', 'char', 'lemma', 'elmo', 'bert'], nargs='+', help='features to use')
     subparser.add_argument('--build', '-b', action='store_true', help='whether to build the model first')
     subparser.add_argument('--checkpoint', action='store_true', help='whether to load a checkpoint to restore training')
+    subparser.add_argument('--finetune', action='store_true', help='whether to finetune PLM models')
     subparser.add_argument('--encoder', choices=['lstm', 'transformer', 'bert'], default='lstm', help='encoder to use')
     subparser.add_argument('--max-len', type=int, help='max length of the sentences')
     subparser.add_argument('--buckets', default=32, type=int, help='max num of buckets to use')
@@ -37,7 +38,7 @@ def main():
     subparser.add_argument('--data', default='data/conll05/test.conllu', help='path to dataset')
     subparser.add_argument('--pred', default='pred.conllu', help='path to predicted result')
     subparser.add_argument('--prob', action='store_true', help='whether to output probs')
-    parse(parser)
+    init(parser)
 
 
 if __name__ == "__main__":

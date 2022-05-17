@@ -91,7 +91,8 @@ class SRL2oCRF(StructuredDistribution):
 
     @lazy_property
     def argmax(self):
-        return self.lens.new_zeros(self.mask.shape).masked_scatter_(self.mask, torch.where(self.backward(self.max.sum()))[2])
+        return self.lens.new_zeros(self.mask.shape).masked_scatter_(self.mask,
+                                                                    torch.where(self.backward(self.max.sum())[0])[2])
 
     def topk(self, k):
         raise NotImplementedError

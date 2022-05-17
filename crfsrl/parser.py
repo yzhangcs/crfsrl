@@ -1,14 +1,22 @@
 # -*- coding: utf-8 -*-
 
 import os
+from datetime import datetime, timedelta
 
 import torch
+import torch.distributed as dist
 import torch.nn as nn
 from supar.parsers.parser import Parser
 from supar.utils import Config, Dataset, Embedding
 from supar.utils.common import BOS, PAD, UNK
 from supar.utils.field import ChartField, Field, RawField, SubwordField
-from supar.utils.logging import logger, progress_bar
+from supar.utils.fn import set_rng_state
+from supar.utils.logging import init_logger, logger, progress_bar
+from supar.utils.metric import Metric
+from supar.utils.parallel import DistributedDataParallel as DDP
+from supar.utils.parallel import is_master
+from torch.optim import Adam
+from torch.optim.lr_scheduler import ExponentialLR
 
 from .metric import SpanSRLMetric
 from .model import CRF2oSemanticRoleLabelingModel, CRFSemanticRoleLabelingModel
@@ -30,7 +38,8 @@ class CRFSemanticRoleLabelingParser(Parser):
         self.TAG = self.transform.POS
         self.EDGE, self.ROLE, self.SPAN = self.transform.PHEAD
 
-    def train(self, train, dev, test, buckets=32, batch_size=5000, update_steps=1, verbose=True, **kwargs):
+    def train(self, train, dev, test, buckets=32,
+              batch_size=5000, update_steps=1, clip=5.0, epochs=5000, patience=100, verbose=True, **kwargs):
         r"""
         Args:
             train/dev/test (list[list] or str):
@@ -46,8 +55,84 @@ class CRFSemanticRoleLabelingParser(Parser):
             kwargs (dict):
                 A dict holding unconsumed arguments for updating training configs.
         """
+        args = self.args.update(locals())
+        init_logger(logger, verbose=args.verbose)
 
-        return super().train(**Config().update(locals()))
+        self.transform.train()
+        batch_size = batch_size // update_steps
+        if dist.is_initialized():
+            batch_size = batch_size // dist.get_world_size()
+        logger.info("Loading the data")
+        train = Dataset(self.transform, args.train, **args).build(batch_size, buckets, True, dist.is_initialized())
+        dev = Dataset(self.transform, args.dev).build(batch_size, buckets)
+        test = Dataset(self.transform, args.test).build(batch_size, buckets)
+        logger.info(f"\n{'train:':6} {train}\n{'dev:':6} {dev}\n{'test:':6} {test}\n")
+
+        if args.encoder == 'lstm':
+            if not args.finetune:
+                self.optimizer = Adam(self.model.parameters(), args.lr, (args.mu, args.nu), args.eps, args.weight_decay)
+                self.scheduler = ExponentialLR(self.optimizer, args.decay**(1/args.decay_steps))
+            else:
+                from transformers import AdamW, get_linear_schedule_with_warmup
+                steps = len(train.loader) * epochs // args.update_steps
+                self.optimizer = AdamW(
+                    [{'params': p, 'lr': args.lr * (1 if 'embed' in n.split('.')[0] else args.lr_rate)}
+                     for n, p in self.model.named_parameters()],
+                    args.lr)
+                self.scheduler = get_linear_schedule_with_warmup(self.optimizer, int(steps*args.warmup), steps)
+        else:
+            from transformers import AdamW, get_linear_schedule_with_warmup
+            steps = len(train.loader) * epochs // args.update_steps
+            self.optimizer = AdamW(
+                [{'params': p, 'lr': args.lr * (1 if n.startswith('encoder') else args.lr_rate)}
+                 for n, p in self.model.named_parameters()],
+                args.lr)
+            self.scheduler = get_linear_schedule_with_warmup(self.optimizer, int(steps*args.warmup), steps)
+
+        if dist.is_initialized():
+            self.model = DDP(self.model, device_ids=[args.local_rank], find_unused_parameters=True)
+
+        self.epoch, self.best_e, self.patience, self.best_metric, self.elapsed = 1, 1, patience, Metric(), timedelta()
+        if self.args.checkpoint:
+            self.optimizer.load_state_dict(self.checkpoint_state_dict.pop('optimizer_state_dict'))
+            self.scheduler.load_state_dict(self.checkpoint_state_dict.pop('scheduler_state_dict'))
+            set_rng_state(self.checkpoint_state_dict.pop('rng_state'))
+            for k, v in self.checkpoint_state_dict.items():
+                setattr(self, k, v)
+            train.loader.batch_sampler.epoch = self.epoch
+
+        for epoch in range(self.epoch, args.epochs + 1):
+            start = datetime.now()
+
+            logger.info(f"Epoch {epoch} / {args.epochs}:")
+            self._train(train.loader)
+            loss, dev_metric = self._evaluate(dev.loader)
+            logger.info(f"{'dev:':5} loss: {loss:.4f} - {dev_metric}")
+            loss, test_metric = self._evaluate(test.loader)
+            logger.info(f"{'test:':5} loss: {loss:.4f} - {test_metric}")
+
+            t = datetime.now() - start
+            self.epoch += 1
+            self.patience -= 1
+            self.elapsed += t
+
+            if dev_metric > self.best_metric:
+                self.best_e, self.patience, self.best_metric = epoch, patience, dev_metric
+                if is_master():
+                    self.save_checkpoint(args.path)
+                logger.info(f"{t}s elapsed (saved)\n")
+            else:
+                logger.info(f"{t}s elapsed\n")
+            if self.patience < 1:
+                break
+        parser = self.load(**args)
+        loss, metric = parser._evaluate(test.loader)
+        parser.save(args.path)
+
+        logger.info(f"Epoch {self.best_e} saved")
+        logger.info(f"{'dev:':5} {self.best_metric}")
+        logger.info(f"{'test:':5} {metric}")
+        logger.info(f"{self.elapsed}s elapsed, {self.elapsed / epoch}s/epoch")
 
     def evaluate(self, data, buckets=8, batch_size=5000, verbose=True, **kwargs):
         r"""
@@ -284,7 +369,7 @@ class CRFSemanticRoleLabelingParser(Parser):
         return cls(args, model, transform)
 
 
-class CRF2oSemanticRoleLabelingParser(Parser):
+class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
     r"""
     The implementation of Semantic Role Labeling Parser using second-order span-constrained CRF.
     """
