@@ -5,7 +5,7 @@ for arg in $args; do
     eval "$arg"
 done
 
-DATA=~/.cache/supar/datasets
+DATA=~/.cache/supar/data
 
 echo "pred:    ${pred:=pred.prop}"
 echo "gold:    ${gold:=gold.prop}"

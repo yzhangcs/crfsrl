@@ -5,7 +5,7 @@ for arg in $args; do
     eval "$arg"
 done
 
-DATA=~/.cache/supar/datasets
+DATA=~/.cache/supar/data
 
 echo "ONTONOTES: ${ONTONOTES:=$DATA/ontonotes-release-5.0}"
 echo "SRL:       ${SRL:=$DATA/srl}"

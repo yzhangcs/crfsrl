@@ -5,7 +5,7 @@ for arg in $args; do
     eval "$arg"
 done
 
-DATA=~/.cache/supar/datasets
+DATA=~/.cache/supar/data
 
 echo "PTB: ${PTB:=$DATA/LDC1999T42}"
 echo "SRL: ${SRL:=$DATA/srl}"
