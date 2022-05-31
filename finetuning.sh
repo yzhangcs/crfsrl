@@ -7,12 +7,14 @@ for arg in $args; do
     eval "$arg"
 done
 
+DATA=~/.cache/supar/data
+
 echo "config:  ${config:=config.ini}"
 echo "path:    ${path:=exp/conll05.crf.srl.bert}"
-echo "train:   ${train:=data/conll05/train.conllu}"
-echo "dev:     ${dev:=data/conll05/dev.conllu}"
-echo "test:    ${test:=data/conll05/test.conllu}"
-echo "ood:     ${ood:=data/conll05/brown.conllu}"
+echo "train:   ${train:=$DATA/srl/conll05/train.conllu}"
+echo "dev:     ${dev:=$DATA/srl/conll05/dev.conllu}"
+echo "test:    ${test:=$DATA/srl/conll05/test.conllu}"
+echo "ood:     ${ood:=$DATA/srl/conll05/brown.conllu}"
 echo "bert:    ${config:=bert-large-cased}"
 echo "batch:   ${batch:=1000}"
 echo "dropout: ${dropout:=0.1}"
