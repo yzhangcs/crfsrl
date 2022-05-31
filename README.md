@@ -10,6 +10,11 @@ The following packages should be installed:
 * [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.7
 * [`Transformers`](https://github.com/huggingface/transformers): >= 4.0
 
+Clone this repo recursively:
+```sh
+git clone https://github.com/yzhangcs/crfsrl.git --recursive
+```
+
 Run the following scripts to obtain the training data.
 Please make sure [PTB](http://catalog.ldc.upenn.edu/LDC99T42) and [OntoNotes](https://catalog.ldc.upenn.edu/LDC2013T19) are available:
 ```sh
