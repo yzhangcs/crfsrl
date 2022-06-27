@@ -8,6 +8,9 @@ from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
 
+nltk.download('averaged_perceptron_tagger')
+
+
 def lemmatize(words):
     lemmatizer = WordNetLemmatizer()
     maps = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
