@@ -7,8 +7,8 @@ Yu Zhang, Qingrong Xia, Shilin Zhou, Yong Jiang, Zhenghua Li, Guohong Fu, Min Zh
 ## Setup
 
 The following packages should be installed:
-* [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.7
-* [`Transformers`](https://github.com/huggingface/transformers): >= 4.0
+* [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.10
+* [`Transformers`](https://github.com/huggingface/transformers): >= 4.2
 
 Clone this repo recursively:
 ```sh
@@ -28,25 +28,25 @@ Try the following commands to train first-order CRF and second-order CRF2o model
 ```sh
 # LSTM
 # CRF
-python -u crf.py   train -b -c configs/conll05.crf.srl.lstm.char-lemma.ini   -d 0 -f char lemma -p exp/conll05.crf.srl.lstm.char-lemma/model
+python -u crf.py   train -b -c configs/conll05.crf.srl.lstm.char-lemma.ini   -d 0 -f char lemma -p exp/conll05.crf.srl.lstm.char-lemma/model   --cache --binarize
 # CRF2o
-python -u crf2o.py train -b -c configs/conll05.crf2o.srl.lstm.char-lemma.ini -d 0 -f char lemma -p exp/conll05.crf2o.srl.lstm.char-lemma/model
+python -u crf2o.py train -b -c configs/conll05.crf2o.srl.lstm.char-lemma.ini -d 0 -f char lemma -p exp/conll05.crf2o.srl.lstm.char-lemma/model --cache --binarize
 # BERT finetuning
 # CRF
-python -u crf.py   train -b -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --batch-size=1000 --encoder bert --bert bert-large-cased 
+python -u crf.py   train -b -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --batch-size=1000 --encoder bert --bert bert-large-cased --cache --binarize
 # CRF2o
-python -u crf2o.py train -b -c configs/conll05.crf2o.srl.bert.ini -d 0 -p exp/conll05.crf2o.srl.bert/model --batch-size=1000 --encoder bert --bert bert-large-cased
+python -u crf2o.py train -b -c configs/conll05.crf2o.srl.bert.ini -d 0 -p exp/conll05.crf2o.srl.bert/model --batch-size=1000 --encoder bert --bert bert-large-cased --cache --binarize
 ```
 To do evaluation:
 ```sh
 # end-to-end
-python -u crf.py   evaluate -c configs/conll05.crf.srl.bert.ini  -d 0 -p exp/conll05.crf.srl.bert/model    --data data/conll05/test.conllu
+python -u crf.py   evaluate -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model
 # w/ gold predicates
-python -u crf.py   evaluate -c configs/conll05.crf.srl.bert.ini  -d 0 -p exp/conll05.crf.srl.bert/model    --data data/conll05/test.conllu --prd
+python -u crf.py   evaluate -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model --prd
 ```
 To make predictions:
 ```sh
-python -u crf.py   predict  -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --data data/conll05/test.conllu --pred pred.conllu
+python -u crf.py   predict  -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model
 bash scripts/eval.sh pred=pred.conllu gold=data/conll05/test.conllu
 ```
 

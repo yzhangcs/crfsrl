@@ -14,7 +14,9 @@ from supar.utils.fn import set_rng_state
 from supar.utils.logging import init_logger, logger, progress_bar
 from supar.utils.metric import Metric
 from supar.utils.parallel import DistributedDataParallel as DDP
-from supar.utils.parallel import is_master
+from supar.utils.parallel import is_master, parallel
+from supar.utils.tokenizer import TransformerTokenizer
+from torch.cuda.amp import GradScaler
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
 
@@ -38,18 +40,22 @@ class CRFSemanticRoleLabelingParser(Parser):
         self.TAG = self.transform.POS
         self.EDGE, self.ROLE, self.SPAN = self.transform.PHEAD
 
-    def train(self, train, dev, test, buckets=32,
-              batch_size=5000, update_steps=1, clip=5.0, epochs=5000, patience=100, verbose=True, **kwargs):
+    def train(self, train, dev, test, buckets=32, workers=0, batch_size=5000, update_steps=1, cache=False,
+              clip=5.0, epochs=5000, patience=100, verbose=True, **kwargs):
         r"""
         Args:
-            train/dev/test (list[list] or str):
+            train/dev/test (str or Iterable):
                 Filenames of the train/dev/test datasets.
             buckets (int):
                 The number of buckets that sentences are assigned to. Default: 32.
+            workers (int):
+                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
             batch_size (int):
                 The number of tokens in each batch. Default: 5000.
             update_steps (int):
                 Gradient accumulation steps. Default: 1.
+            cache (bool):
+                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
             verbose (bool):
                 If ``True``, increases the output verbosity. Default: ``True``.
             kwargs (dict):
@@ -63,10 +69,15 @@ class CRFSemanticRoleLabelingParser(Parser):
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
         logger.info("Loading the data")
-        train = Dataset(self.transform, args.train, **args).build(batch_size, buckets, True, dist.is_initialized())
-        dev = Dataset(self.transform, args.dev).build(batch_size, buckets)
-        test = Dataset(self.transform, args.test).build(batch_size, buckets)
-        logger.info(f"\n{'train:':6} {train}\n{'dev:':6} {dev}\n{'test:':6} {test}\n")
+        train = Dataset(self.transform, args.train, **args).build(batch_size, buckets, True, dist.is_initialized(), workers)
+        dev = Dataset(self.transform, args.dev, **args).build(batch_size, buckets, False, dist.is_initialized(), workers)
+        logger.info(f"{'train:':6} {train}")
+        if not args.test:
+            logger.info(f"{'dev:':6} {dev}\n")
+        else:
+            test = Dataset(self.transform, args.test, **args).build(batch_size, buckets, False, dist.is_initialized(), workers)
+            logger.info(f"{'dev:':6} {dev}")
+            logger.info(f"{'test:':6} {test}\n")
 
         if args.encoder == 'lstm':
             if not args.finetune:
@@ -88,6 +99,7 @@ class CRFSemanticRoleLabelingParser(Parser):
                  for n, p in self.model.named_parameters()],
                 args.lr)
             self.scheduler = get_linear_schedule_with_warmup(self.optimizer, int(steps*args.warmup), steps)
+        self.scaler = GradScaler(enabled=args.amp)
 
         if dist.is_initialized():
             self.model = DDP(self.model, device_ids=[args.local_rank], find_unused_parameters=True)
@@ -96,6 +108,7 @@ class CRFSemanticRoleLabelingParser(Parser):
         if self.args.checkpoint:
             self.optimizer.load_state_dict(self.checkpoint_state_dict.pop('optimizer_state_dict'))
             self.scheduler.load_state_dict(self.checkpoint_state_dict.pop('scheduler_state_dict'))
+            self.scaler.load_state_dict(self.checkpoint_state_dict.pop('scaler_state_dict'))
             set_rng_state(self.checkpoint_state_dict.pop('rng_state'))
             for k, v in self.checkpoint_state_dict.items():
                 setattr(self, k, v)
@@ -106,18 +119,18 @@ class CRFSemanticRoleLabelingParser(Parser):
 
             logger.info(f"Epoch {epoch} / {args.epochs}:")
             self._train(train.loader)
-            loss, dev_metric = self._evaluate(dev.loader)
-            logger.info(f"{'dev:':5} loss: {loss:.4f} - {dev_metric}")
-            loss, test_metric = self._evaluate(test.loader)
-            logger.info(f"{'test:':5} loss: {loss:.4f} - {test_metric}")
+            metric = self._evaluate(dev.loader)
+            logger.info(f"{'dev:':5} {metric}")
+            if args.test:
+                logger.info(f"{'test:':5} {self._evaluate(test.loader)}")
 
             t = datetime.now() - start
             self.epoch += 1
             self.patience -= 1
             self.elapsed += t
 
-            if dev_metric > self.best_metric:
-                self.best_e, self.patience, self.best_metric = epoch, patience, dev_metric
+            if metric > self.best_metric:
+                self.best_e, self.patience, self.best_metric = epoch, patience, metric
                 if is_master():
                     self.save_checkpoint(args.path)
                 logger.info(f"{t}s elapsed (saved)\n")
@@ -125,24 +138,33 @@ class CRFSemanticRoleLabelingParser(Parser):
                 logger.info(f"{t}s elapsed\n")
             if self.patience < 1:
                 break
+        if dist.is_initialized():
+            dist.barrier()
+
         parser = self.load(**args)
-        loss, metric = parser._evaluate(test.loader)
-        parser.save(args.path)
+        # only allow the master device to save models
+        if is_master():
+            parser.save(args.path)
 
         logger.info(f"Epoch {self.best_e} saved")
         logger.info(f"{'dev:':5} {self.best_metric}")
-        logger.info(f"{'test:':5} {metric}")
+        if args.test:
+            logger.info(f"{'test:':5} {parser._evaluate(test.loader)}")
         logger.info(f"{self.elapsed}s elapsed, {self.elapsed / epoch}s/epoch")
 
-    def evaluate(self, data, buckets=8, batch_size=5000, verbose=True, **kwargs):
+    def evaluate(self, data, buckets=8, workers=0, batch_size=5000, cache=False, verbose=True, **kwargs):
         r"""
         Args:
-            data (str):
-                The data for evaluation, both list of instances and filename are allowed.
+            data (str or Iterable):
+                The data for evaluation. Both a filename and a list of instances are allowed.
             buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
+                The number of buckets that sentences are assigned to. Default: 8.
+            workers (int):
+                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
             batch_size (int):
                 The number of tokens in each batch. Default: 5000.
+            cache (bool):
+                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
             verbose (bool):
                 If ``True``, increases the output verbosity. Default: ``True``.
             kwargs (dict):
@@ -154,11 +176,14 @@ class CRFSemanticRoleLabelingParser(Parser):
 
         return super().evaluate(**Config().update(locals()))
 
-    def predict(self, data, pred=None, lang=None, buckets=8, batch_size=5000, verbose=True, **kwargs):
+    def predict(self, data, pred=None, lang=None, buckets=8, workers=0, batch_size=5000, cache=False, prob=False,
+                verbose=True, **kwargs):
         r"""
         Args:
-            data (list[list] or str):
-                The data for prediction, both a list of instances and filename are allowed.
+            data (str or Iterable):
+                The data for prediction.
+                - a filename. If ends with `.txt`, the parser will seek to make predictions line by line from plain texts.
+                - a list of instances.
             pred (str):
                 If specified, the predicted results will be saved to the file. Default: ``None``.
             lang (str):
@@ -166,9 +191,13 @@ class CRFSemanticRoleLabelingParser(Parser):
                 ``None`` if tokenization is not required.
                 Default: ``None``.
             buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
+                The number of buckets that sentences are assigned to. Default: 8.
+            workers (int):
+                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
             batch_size (int):
                 The number of tokens in each batch. Default: 5000.
+            cache (bool):
+                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
             prob (bool):
                 If ``True``, outputs the probabilities. Default: ``False``.
             verbose (bool):
@@ -177,7 +206,7 @@ class CRFSemanticRoleLabelingParser(Parser):
                 A dict holding unconsumed arguments for updating prediction configs.
 
         Returns:
-            A :class:`~supar.utils.Dataset` object that stores the predicted results.
+            A :class:`~supar.utils.Dataset` object containing all predictions if ``cache=False``, otherwise ``None``.
         """
 
         return super().predict(**Config().update(locals()))
@@ -205,19 +234,19 @@ class CRFSemanticRoleLabelingParser(Parser):
 
         return super().load(path, reload, **kwargs)
 
+    @parallel()
     def _train(self, loader):
-        self.model.train()
-
         bar = progress_bar(loader)
 
         for i, batch in enumerate(bar, 1):
-            words, *feats, edges, roles, spans = batch
+            words, *feats, edges, roles, spans = batch.compose(self.transform)
             word_mask = words.ne(self.args.pad_index)
             mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
             mask[:, 0] = 0
-            s_edge, s_role = self.model(words, feats)
-            loss = self.model.loss(s_edge, s_role, edges, roles, mask)
-            loss = loss / self.args.update_steps
+            with torch.autocast(self.device, enabled=self.args.amp):
+                s_edge, s_role = self.model(words, feats)
+                loss = self.model.loss(s_edge, s_role, edges, roles, mask)
+                loss = loss / self.args.update_steps
             loss.backward()
             nn.utils.clip_grad_norm_(self.model.parameters(), self.args.clip)
             if i % self.args.update_steps == 0:
@@ -227,45 +256,41 @@ class CRFSemanticRoleLabelingParser(Parser):
             bar.set_postfix_str(f"lr: {self.scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f}")
         logger.info(f"{bar.postfix}")
 
-    @torch.no_grad()
+    @parallel(training=False)
     def _evaluate(self, loader):
-        self.model.eval()
-
-        total_loss, metric = 0, SpanSRLMetric()
+        metric = SpanSRLMetric()
 
         for batch in loader:
-            words, *feats, edges, roles, spans = batch
+            words, *feats, edges, roles, spans = batch.compose(self.transform)
             word_mask = words.ne(self.args.pad_index)
             mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
             mask[:, 0] = 0
-            s_edge, s_role = self.model(words, feats)
-            loss = self.model.loss(s_edge, s_role, edges, roles, mask)
-            total_loss += loss.item()
+            with torch.autocast(self.device, enabled=self.args.amp):
+                s_edge, s_role = self.model(words, feats)
+                loss = self.model.loss(s_edge, s_role, edges, roles, mask)
             role_preds = self.model.decode(s_edge, s_role, mask)
-            metric([[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
-                   [[i for i in s if i[-1] != 'O'] for s in spans])
+            metric += SpanSRLMetric(
+                loss,
+                [[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
+                [[i for i in s if i[-1] != 'O'] for s in spans]
+            )
+        return metric
 
-        total_loss /= len(loader)
-
-        return total_loss, metric
-
-    @torch.no_grad()
+    @parallel(training=False, op=None)
     def _predict(self, loader):
-        self.model.eval()
-
-        preds = {'roles': [], 'probs': [] if self.args.prob else None}
         for batch in progress_bar(loader):
-            words, *feats = batch
+            words, *feats = batch.compose(self.transform)
             word_mask = words.ne(self.args.pad_index)
             mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
             mask[:, 0] = 0
             lens = mask.sum(-1)
-            s_edge, s_role = self.model(words, feats)
+            with torch.autocast(self.device, enabled=self.args.amp):
+                s_edge, s_role = self.model(words, feats)
             role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s] for s in self.model.decode(s_edge, s_role, mask)]
-            preds['roles'].extend([CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())])
+            batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
             if self.args.prob:
-                preds['probs'].extend([prob[1:i, :i].cpu() for i, prob in zip(lens.softmax(-1).unbind())])
-        return preds
+                batch.probs = [prob[1:i, :i].cpu() for i, prob in zip(lens.softmax(-1).unbind())]
+            yield from batch.sentences
 
     @classmethod
     def build(cls, path, min_freq=2, fix_len=20, **kwargs):
@@ -298,17 +323,9 @@ class CRFSemanticRoleLabelingParser(Parser):
         WORD = Field('words', pad=PAD, unk=UNK, bos=BOS, lower=True)
         TAG, CHAR, LEMMA, ELMO, BERT = None, None, None, None, None
         if args.encoder == 'bert':
-            from transformers import (AutoTokenizer, GPT2Tokenizer,
-                                      GPT2TokenizerFast)
-            t = AutoTokenizer.from_pretrained(args.bert)
-            WORD = SubwordField('words',
-                                pad=t.pad_token,
-                                unk=t.unk_token,
-                                bos=t.bos_token or t.cls_token,
-                                fix_len=args.fix_len,
-                                tokenize=t.tokenize,
-                                fn=None if not isinstance(t, (GPT2Tokenizer, GPT2TokenizerFast)) else lambda x: ' '+x)
-            WORD.vocab = t.get_vocab()
+            t = TransformerTokenizer(args.bert)
+            WORD = SubwordField('words', pad=t.pad, unk=t.unk, bos=t.bos, fix_len=args.fix_len, tokenize=t)
+            WORD.vocab = t.vocab
         else:
             WORD = Field('words', pad=PAD, unk=UNK, bos=BOS, lower=True)
             if 'tag' in args.feat:
@@ -322,17 +339,9 @@ class CRFSemanticRoleLabelingParser(Parser):
                 ELMO = RawField('elmo')
                 ELMO.compose = lambda x: batch_to_ids(x).to(WORD.device)
             if 'bert' in args.feat:
-                from transformers import (AutoTokenizer, GPT2Tokenizer,
-                                          GPT2TokenizerFast)
-                t = AutoTokenizer.from_pretrained(args.bert)
-                BERT = SubwordField('bert',
-                                    pad=t.pad_token,
-                                    unk=t.unk_token,
-                                    bos=t.bos_token or t.cls_token,
-                                    fix_len=args.fix_len,
-                                    tokenize=t.tokenize,
-                                    fn=None if not isinstance(t, (GPT2Tokenizer, GPT2TokenizerFast)) else lambda x: ' '+x)
-                BERT.vocab = t.get_vocab()
+                t = TransformerTokenizer(args.bert)
+                BERT = SubwordField('bert', pad=t.pad, unk=t.unk, bos=t.bos, fix_len=args.fix_len, tokenize=t)
+                BERT.vocab = t.vocab
         EDGE = ChartField('edges', use_vocab=False, fn=CoNLL.get_srl_edges)
         ROLE = ChartField('roles', unk='O', fn=CoNLL.get_srl_roles)
         SPAN = RawField('spans', fn=CoNLL.get_srl_spans)
@@ -340,7 +349,7 @@ class CRFSemanticRoleLabelingParser(Parser):
 
         train = Dataset(transform, args.train)
         if args.encoder != 'bert':
-            WORD.build(train, args.min_freq, (Embedding.load(args.embed, args.unk) if args.embed else None))
+            WORD.build(train, args.min_freq, (Embedding.load(args.embed) if args.embed else None), lambda x: x / torch.std(x))
             if TAG is not None:
                 TAG.build(train)
             if CHAR is not None:
@@ -363,10 +372,12 @@ class CRFSemanticRoleLabelingParser(Parser):
         })
         logger.info(f"{transform}")
         logger.info("Building the model")
-        model = cls.MODEL(**args).load_pretrained(WORD.embed if hasattr(WORD, 'embed') else None).to(args.device)
+        model = cls.MODEL(**args).load_pretrained(WORD.embed if hasattr(WORD, 'embed') else None)
         logger.info(f"{model}\n")
 
-        return cls(args, model, transform)
+        parser = cls(args, model, transform)
+        parser.model.to(parser.device)
+        return parser
 
 
 class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
@@ -384,17 +395,22 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
         self.TAG = self.transform.POS
         self.EDGE, self.ROLE, self.SPAN = self.transform.PHEAD
 
-    def train(self, train, dev, test, buckets=32, batch_size=5000, update_steps=1, verbose=True, **kwargs):
+    def train(self, train, dev, test, buckets=32, workers=0, batch_size=5000, update_steps=1, cache=False,
+              clip=5.0, epochs=5000, patience=100, verbose=True, **kwargs):
         r"""
         Args:
-            train/dev/test (list[list] or str):
+            train/dev/test (str or Iterable):
                 Filenames of the train/dev/test datasets.
             buckets (int):
                 The number of buckets that sentences are assigned to. Default: 32.
+            workers (int):
+                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
             batch_size (int):
                 The number of tokens in each batch. Default: 5000.
             update_steps (int):
                 Gradient accumulation steps. Default: 1.
+            cache (bool):
+                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
             verbose (bool):
                 If ``True``, increases the output verbosity. Default: ``True``.
             kwargs (dict):
@@ -403,15 +419,19 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
 
         return super().train(**Config().update(locals()))
 
-    def evaluate(self, data, buckets=8, batch_size=5000, verbose=True, **kwargs):
+    def evaluate(self, data, buckets=8, workers=0, batch_size=5000, cache=False, verbose=True, **kwargs):
         r"""
         Args:
-            data (str):
-                The data for evaluation, both list of instances and filename are allowed.
+            data (str or Iterable):
+                The data for evaluation. Both a filename and a list of instances are allowed.
             buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
+                The number of buckets that sentences are assigned to. Default: 8.
+            workers (int):
+                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
             batch_size (int):
                 The number of tokens in each batch. Default: 5000.
+            cache (bool):
+                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
             verbose (bool):
                 If ``True``, increases the output verbosity. Default: ``True``.
             kwargs (dict):
@@ -423,11 +443,14 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
 
         return super().evaluate(**Config().update(locals()))
 
-    def predict(self, data, pred=None, lang=None, buckets=8, batch_size=5000, verbose=True, **kwargs):
+    def predict(self, data, pred=None, lang=None, buckets=8, workers=0, batch_size=5000, cache=False, prob=False,
+                verbose=True, **kwargs):
         r"""
         Args:
-            data (list[list] or str):
-                The data for prediction, both a list of instances and filename are allowed.
+            data (str or Iterable):
+                The data for prediction.
+                - a filename. If ends with `.txt`, the parser will seek to make predictions line by line from plain texts.
+                - a list of instances.
             pred (str):
                 If specified, the predicted results will be saved to the file. Default: ``None``.
             lang (str):
@@ -435,9 +458,13 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
                 ``None`` if tokenization is not required.
                 Default: ``None``.
             buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
+                The number of buckets that sentences are assigned to. Default: 8.
+            workers (int):
+                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
             batch_size (int):
                 The number of tokens in each batch. Default: 5000.
+            cache (bool):
+                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
             prob (bool):
                 If ``True``, outputs the probabilities. Default: ``False``.
             verbose (bool):
@@ -446,7 +473,7 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
                 A dict holding unconsumed arguments for updating prediction configs.
 
         Returns:
-            A :class:`~supar.utils.Dataset` object that stores the predicted results.
+            A :class:`~supar.utils.Dataset` object containing all predictions if ``cache=False``, otherwise ``None``.
         """
 
         return super().predict(**Config().update(locals()))
@@ -480,13 +507,14 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
         bar = progress_bar(loader)
 
         for i, batch in enumerate(bar, 1):
-            words, *feats, edges, roles, spans = batch
+            words, *feats, edges, roles, spans = batch.compose(self.transform)
             word_mask = words.ne(self.args.pad_index)
             mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
             mask[:, 0] = 0
-            s_edge, s_sib, s_role = self.model(words, feats)
-            loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
-            loss = loss / self.args.update_steps
+            with torch.autocast(self.device, enabled=self.args.amp):
+                s_edge, s_sib, s_role = self.model(words, feats)
+                loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
+                loss = loss / self.args.update_steps
             loss.backward()
             nn.utils.clip_grad_norm_(self.model.parameters(), self.args.clip)
             if i % self.args.update_steps == 0:
@@ -496,46 +524,43 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
             bar.set_postfix_str(f"lr: {self.scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f}")
         logger.info(f"{bar.postfix}")
 
-    @torch.no_grad()
+    @parallel(training=False)
     def _evaluate(self, loader):
-        self.model.eval()
-
-        total_loss, metric = 0, SpanSRLMetric()
+        metric = SpanSRLMetric()
 
         for batch in loader:
-            words, *feats, edges, roles, spans = batch
+            words, *feats, edges, roles, spans = batch.compose(self.transform)
             word_mask = words.ne(self.args.pad_index)
             mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
             mask[:, 0] = 0
-            s_edge, s_sib, s_role = self.model(words, feats)
-            loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
-            total_loss += loss.item()
+            with torch.autocast(self.device, enabled=self.args.amp):
+                s_edge, s_sib, s_role = self.model(words, feats)
+                loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
             role_preds = self.model.decode(s_edge, s_sib, s_role, mask)
-            metric([[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
-                   [[i for i in s if i[-1] != 'O'] for s in spans])
+            metric += SpanSRLMetric(
+                loss,
+                [[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
+                [[i for i in s if i[-1] != 'O'] for s in spans]
+            )
 
-        total_loss /= len(loader)
+        return metric
 
-        return total_loss, metric
-
-    @torch.no_grad()
+    @parallel(training=False, op=None)
     def _predict(self, loader):
-        self.model.eval()
-
-        preds = {'roles': [], 'probs': [] if self.args.prob else None}
         for batch in progress_bar(loader):
-            words, *feats = batch
+            words, *feats = batch.compose(self.transform)
             word_mask = words.ne(self.args.pad_index)
             mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
             mask[:, 0] = 0
             lens = mask.sum(-1)
-            s_edge, s_sib, s_role = self.model(words, feats)
+            with torch.autocast(self.device, enabled=self.args.amp):
+                s_edge, s_sib, s_role = self.model(words, feats)
             role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s]
                           for s in self.model.decode(s_edge, s_sib, s_role, mask)]
-            preds['roles'].extend([CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())])
+            batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
             if self.args.prob:
-                preds['probs'].extend([prob[1:i, :i].cpu() for i, prob in zip(lens.softmax(-1).unbind())])
-        return preds
+                batch.probs = [prob[1:i, :i].cpu() for i, prob in zip(lens.softmax(-1).unbind())]
+            yield from batch.sentences
 
     @classmethod
     def build(cls, path, min_freq=2, fix_len=20, **kwargs):
@@ -610,7 +635,7 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
 
         train = Dataset(transform, args.train)
         if args.encoder != 'bert':
-            WORD.build(train, args.min_freq, (Embedding.load(args.embed, args.unk) if args.embed else None))
+            WORD.build(train, args.min_freq, (Embedding.load(args.embed) if args.embed else None), lambda x: x / torch.std(x))
             if TAG is not None:
                 TAG.build(train)
             if CHAR is not None:
@@ -633,7 +658,9 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
         })
         logger.info(f"{transform}")
         logger.info("Building the model")
-        model = cls.MODEL(**args).load_pretrained(WORD.embed if hasattr(WORD, 'embed') else None).to(args.device)
+        model = cls.MODEL(**args).load_pretrained(WORD.embed if hasattr(WORD, 'embed') else None)
         logger.info(f"{model}\n")
 
-        return cls(args, model, transform)
+        parser = cls(args, model, transform)
+        parser.model.to(parser.device)
+        return parser

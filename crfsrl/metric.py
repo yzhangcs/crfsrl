@@ -1,23 +1,32 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import annotations
+
 import os
 import shutil
 import subprocess
 import tempfile
+from typing import List, Optional, Tuple
 
 import torch
+from supar.utils.common import CACHE
+from supar.utils.fn import download
 from supar.utils.metric import Metric
-
-from .utils import download
 
 
 class SpanSRLMetric(Metric):
 
     URL = 'http://www.lsi.upc.edu/~srlconll/srlconll-1.1.tgz'
-    DATA_PATH = os.path.expanduser(os.path.join(torch.hub.DEFAULT_CACHE_DIR, 'supar', 'datasets', 'srl'))
+    PATH = os.path.join(CACHE, 'data', 'srl')
 
-    def __init__(self, eps=1e-12):
-        super().__init__()
+    def __init__(
+            self,
+            loss: Optional[float] = None,
+            preds: Optional[Tuple[torch.Tensor, torch.Tensor]] = None,
+            golds: Optional[Tuple[torch.Tensor, torch.Tensor]] = None,
+            eps=1e-12
+    ) -> SpanSRLMetric:
+        super().__init__(eps)
 
         self.tp = 0.0
         self.pred = 0.0
@@ -25,13 +34,25 @@ class SpanSRLMetric(Metric):
         self.prd_tp = 0
         self.prd_pred = 0
         self.prd_gold = 0
-        self.eps = eps
 
-        self.script = os.path.join(self.DATA_PATH, 'srlconll-1.1/bin/srl-eval.pl')
+        self.script = os.path.join(self.PATH, 'srlconll-1.1/bin/srl-eval.pl')
         if not os.path.exists(self.script):
-            download(self.URL, os.path.join(self.DATA_PATH, 'srlconll-1.1.tgz'))
+            download(self.URL, self.PATH)
 
-    def __call__(self, preds, golds):
+        if loss is not None:
+            self(loss, preds, golds)
+
+    def __repr__(self):
+        s = f"loss: {self.loss:.4f} - "
+        s += f"PRD: {self.prd_p:6.2%} {self.prd_r:6.2%} {self.prd_f:6.2%} P: {self.p:6.2%} R: {self.r:6.2%} F: {self.f:6.2%}"
+        return s
+
+    def __call__(
+        self,
+        loss: float,
+        preds: List,
+        golds: List,
+    ) -> SpanSRLMetric:
         lens = [max(max([*i, *j], key=lambda x: max(x[:3]))[:3]) if i or j else 1 for i, j in zip(preds, golds)]
         ftemp = tempfile.mkdtemp()
         fpred, fgold = os.path.join(ftemp, 'pred'), os.path.join(ftemp, 'gold')
@@ -39,13 +60,16 @@ class SpanSRLMetric(Metric):
             f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(preds)]))
         with open(fgold, 'w') as f:
             f.write('\n\n'.join([self.span2prop(spans, lens[i]) for i, spans in enumerate(golds)]))
-        os.environ['PERL5LIB'] = os.path.join(self.DATA_PATH, 'srlconll-1.1', 'lib:$PERL5LIB')
+        os.environ['PERL5LIB'] = os.path.join(self.PATH, 'srlconll-1.1', 'lib:$PERL5LIB')
         p_out = subprocess.check_output(['perl', f'{self.script}', f'{fpred}', f'{fgold}'], stderr=subprocess.STDOUT).decode()
         r_out = subprocess.check_output(['perl', f'{self.script}', f'{fgold}', f'{fpred}'], stderr=subprocess.STDOUT).decode()
         p_out = [i for i in p_out.split('\n') if 'Overall' in i][0].split()
         r_out = [i for i in r_out.split('\n') if 'Overall' in i][0].split()
         shutil.rmtree(ftemp)
 
+        self.n += len(preds)
+        self.count += 1
+        self.total_loss += float(loss)
         self.tp += int(p_out[1])
         self.pred += int(p_out[3]) + int(p_out[1])
         self.gold += int(r_out[3]) + int(p_out[1])
@@ -56,8 +80,19 @@ class SpanSRLMetric(Metric):
             self.prd_gold += len(prd_gold)
         return self
 
-    def __repr__(self):
-        return f"PRD: {self.prd_p:6.2%} {self.prd_r:6.2%} {self.prd_f:6.2%} P: {self.p:6.2%} R: {self.r:6.2%} F: {self.f:6.2%}"
+    def __add__(self, other: SpanSRLMetric) -> SpanSRLMetric:
+        metric = SpanSRLMetric(eps=self.eps)
+        metric.n = self.n + other.n
+        metric.count = self.count + other.count
+        metric.total_loss = self.total_loss + other.total_loss
+
+        metric.tp = self.tp + other.tp
+        metric.pred = self.pred + other.pred
+        metric.gold = self.gold + other.gold
+        metric.prd_tp = self.prd_tp + other.prd_tp
+        metric.prd_pred = self.prd_pred + other.prd_pred
+        metric.prd_gold = self.prd_gold + other.prd_gold
+        return metric
 
     @classmethod
     def span2prop(cls, spans, length):

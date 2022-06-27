@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 
-import os
-
-from supar.utils.logging import progress_bar
-from supar.utils.tokenizer import Tokenizer
-from supar.utils.transform import CoNLLSentence, Transform
+from supar.utils.transform import CoNLL
 
 
-class CoNLL(Transform):
+class CoNLL(CoNLL):
     r"""
     The CoNLL object holds ten fields required for CoNLL-X data format :cite:`buchholz-marsi-2006-conll`.
     Each field can be bound to one or more :class:`~supar.utils.field.Field` objects. For example,
@@ -239,123 +235,6 @@ class CoNLL(Transform):
         return labels
 
     @classmethod
-    def toconll(cls, tokens):
-        r"""
-        Converts a list of tokens to a string in CoNLL-X format.
-        Missing fields are filled with underscores.
-
-        Args:
-            tokens (list[str] or list[tuple]):
-                This can be either a list of words, word/pos pairs or word/lemma/pos triples.
-
-        Returns:
-            A string in CoNLL-X format.
-
-        Examples:
-            >>> print(CoNLL.toconll(['She', 'enjoys', 'playing', 'tennis', '.']))
-            1       She     _       _       _       _       _       _       _       _
-            2       enjoys  _       _       _       _       _       _       _       _
-            3       playing _       _       _       _       _       _       _       _
-            4       tennis  _       _       _       _       _       _       _       _
-            5       .       _       _       _       _       _       _       _       _
-
-            >>> print(CoNLL.toconll([('She',     'she',    'PRP'),
-                                     ('enjoys',  'enjoy',  'VBZ'),
-                                     ('playing', 'play',   'VBG'),
-                                     ('tennis',  'tennis', 'NN'),
-                                     ('.',       '_',      '.')]))
-            1       She     she     PRP     _       _       _       _       _       _
-            2       enjoys  enjoy   VBZ     _       _       _       _       _       _
-            3       playing play    VBG     _       _       _       _       _       _
-            4       tennis  tennis  NN      _       _       _       _       _       _
-            5       .       _       .       _       _       _       _       _       _
-
-        """
-
-        if isinstance(tokens[0], str):
-            s = '\n'.join([f"{i}\t{word}\t" + '\t'.join(['_']*8)
-                           for i, word in enumerate(tokens, 1)])
-        elif len(tokens[0]) == 2:
-            s = '\n'.join([f"{i}\t{word}\t_\t{tag}\t" + '\t'.join(['_']*6)
-                           for i, (word, tag) in enumerate(tokens, 1)])
-        elif len(tokens[0]) == 3:
-            s = '\n'.join([f"{i}\t{word}\t{lemma}\t{tag}\t" + '\t'.join(['_']*6)
-                           for i, (word, lemma, tag) in enumerate(tokens, 1)])
-        else:
-            raise RuntimeError(f"Invalid sequence {tokens}. Only list of str or list of word/pos/lemma tuples are support.")
-        return s + '\n'
-
-    @classmethod
-    def isprojective(cls, sequence):
-        r"""
-        Checks if a dependency tree is projective.
-        This also works for partial annotation.
-
-        Besides the obvious crossing arcs, the examples below illustrate two non-projective cases
-        which are hard to detect in the scenario of partial annotation.
-
-        Args:
-            sequence (list[int]):
-                A list of head indices.
-
-        Returns:
-            ``True`` if the tree is projective, ``False`` otherwise.
-
-        Examples:
-            >>> CoNLL.isprojective([2, -1, 1])  # -1 denotes un-annotated cases
-            False
-            >>> CoNLL.isprojective([3, -1, 2])
-            False
-        """
-
-        pairs = [(h, d) for d, h in enumerate(sequence, 1) if h >= 0]
-        for i, (hi, di) in enumerate(pairs):
-            for hj, dj in pairs[i+1:]:
-                (li, ri), (lj, rj) = sorted([hi, di]), sorted([hj, dj])
-                if li <= hj <= ri and hi == dj:
-                    return False
-                if lj <= hi <= rj and hj == di:
-                    return False
-                if (li < lj < ri or li < rj < ri) and (li - lj)*(ri - rj) > 0:
-                    return False
-        return True
-
-    @classmethod
-    def istree(cls, sequence, proj=False, multiroot=False):
-        r"""
-        Checks if the arcs form an valid dependency tree.
-
-        Args:
-            sequence (list[int]):
-                A list of head indices.
-            proj (bool):
-                If ``True``, requires the tree to be projective. Default: ``False``.
-            multiroot (bool):
-                If ``False``, requires the tree to contain only a single root. Default: ``True``.
-
-        Returns:
-            ``True`` if the arcs form an valid tree, ``False`` otherwise.
-
-        Examples:
-            >>> CoNLL.istree([3, 0, 0, 3], multiroot=True)
-            True
-            >>> CoNLL.istree([3, 0, 0, 3], proj=True)
-            False
-        """
-
-        from supar.utils.alg import tarjan
-        if proj and not cls.isprojective(sequence):
-            return False
-        n_roots = sum(head == 0 for head in sequence)
-        if n_roots == 0:
-            return False
-        if not multiroot and n_roots > 1:
-            return False
-        if any(i == head for i, head in enumerate(sequence, 1)):
-            return False
-        return next(tarjan(sequence), None) is None
-
-    @classmethod
     def factorize(cls, tags):
         spans = []
         for i, tag in enumerate(tags, 1):
@@ -371,48 +250,3 @@ class CoNLL(Transform):
             else:
                 spans[-1][1] += 1
         return spans
-
-    def load(self, data, lang=None, proj=False, max_len=None, **kwargs):
-        r"""
-        Loads the data in CoNLL-X format.
-        Also supports for loading data from CoNLL-U file with comments and non-integer IDs.
-
-        Args:
-            data (list[list] or str):
-                A list of instances or a filename.
-            lang (str):
-                Language code (e.g., ``en``) or language name (e.g., ``English``) for the text to tokenize.
-                ``None`` if tokenization is not required.
-                Default: ``None``.
-            proj (bool):
-                If ``True``, discards all non-projective sentences. Default: ``False``.
-            max_len (int):
-                Sentences exceeding the length will be discarded. Default: ``None``.
-
-        Returns:
-            A list of :class:`CoNLLSentence` instances.
-        """
-
-        if isinstance(data, str) and os.path.exists(data):
-            with open(data, 'r') as f:
-                lines = [line.strip() for line in f]
-        else:
-            if lang is not None:
-                tokenizer = Tokenizer(lang)
-                data = [tokenizer(i) for i in ([data] if isinstance(data, str) else data)]
-            else:
-                data = [data] if isinstance(data[0], str) else data
-            lines = '\n'.join([self.toconll(i) for i in data]).split('\n')
-
-        i, start, sentences = 0, 0, []
-        for line in progress_bar(lines):
-            if not line:
-                sentences.append(CoNLLSentence(self, lines[start:i]))
-                start = i + 1
-            i += 1
-        if proj:
-            sentences = [i for i in sentences if self.isprojective(list(map(int, i.arcs)))]
-        if max_len is not None:
-            sentences = [i for i in sentences if len(i) < max_len]
-
-        return sentences
