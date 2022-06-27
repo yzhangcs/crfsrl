@@ -77,11 +77,3 @@ for dataset in train dev test brown; do
   echo "Converting ${CONLL05}/$dataset.prop to conllu format"
   python scripts/prop2conllu.py --prop ${CONLL05}/$dataset.prop --file ${CONLL05}/$dataset.conllu
 done
-
-if [ ! -f $DATA/glove.6B.100d.txt ]; then
-  echo "Downloading Glove word embeddings"
-  mkdir -p $DATA/glove
-  wget https://nlp.stanford.edu/data/glove.6B.zip -O $DATA/glove/glove.6B.zip
-  unzip $DATA/glove/glove.6B.zip -d $DATA/glove
-  mv $DATA/glove/glove.6B.100d.txt $DATA && rm -rf $DATA/glove
-fi
