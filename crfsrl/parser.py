@@ -501,6 +501,7 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
 
         return super().load(path, reload, **kwargs)
 
+    @parallel()
     def _train(self, loader):
         self.model.train()
 
