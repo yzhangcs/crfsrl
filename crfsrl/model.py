@@ -124,16 +124,15 @@ class CRFSemanticRoleLabelingModel(Model):
                  n_edge_mlp=500,
                  n_role_mlp=100,
                  mlp_dropout=.33,
-                 scale=0,
                  pad_index=0,
                  unk_index=1,
                  **kwargs):
         super().__init__(**Config().update(locals()))
 
-        self.edge_mlp_d = MLP(n_in=self.args.n_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.edge_mlp_h = MLP(n_in=self.args.n_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.role_mlp_d = MLP(n_in=self.args.n_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
-        self.role_mlp_h = MLP(n_in=self.args.n_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
+        self.edge_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
+        self.edge_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
+        self.role_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
+        self.role_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
 
         self.edge_attn = Biaffine(n_in=n_edge_mlp, bias_x=True, bias_y=False)
         self.role_attn = Biaffine(n_in=n_role_mlp, n_out=n_roles,  bias_x=True, bias_y=True)
