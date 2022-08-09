@@ -13,11 +13,12 @@ from supar.utils.field import ChartField, Field, RawField, SubwordField
 from supar.utils.fn import set_rng_state
 from supar.utils.logging import init_logger, logger, progress_bar
 from supar.utils.metric import Metric
+from supar.utils.optim import LinearLR
 from supar.utils.parallel import DistributedDataParallel as DDP
 from supar.utils.parallel import is_master, parallel
 from supar.utils.tokenizer import TransformerTokenizer
 from torch.cuda.amp import GradScaler
-from torch.optim import Adam
+from torch.optim import Adam, AdamW
 from torch.optim.lr_scheduler import ExponentialLR
 
 from .metric import SpanSRLMetric
@@ -84,21 +85,19 @@ class CRFSemanticRoleLabelingParser(Parser):
                 self.optimizer = Adam(self.model.parameters(), args.lr, (args.mu, args.nu), args.eps, args.weight_decay)
                 self.scheduler = ExponentialLR(self.optimizer, args.decay**(1/args.decay_steps))
             else:
-                from transformers import AdamW, get_linear_schedule_with_warmup
                 steps = len(train.loader) * epochs // args.update_steps
                 self.optimizer = AdamW(
                     [{'params': p, 'lr': args.lr * (1 if 'embed' in n.split('.')[0] else args.lr_rate)}
                      for n, p in self.model.named_parameters()],
                     args.lr)
-                self.scheduler = get_linear_schedule_with_warmup(self.optimizer, int(steps*args.warmup), steps)
+                self.scheduler = LinearLR(self.optimizer, int(steps*args.warmup), steps)
         else:
-            from transformers import AdamW, get_linear_schedule_with_warmup
             steps = len(train.loader) * epochs // args.update_steps
             self.optimizer = AdamW(
                 [{'params': p, 'lr': args.lr * (1 if n.startswith('encoder') else args.lr_rate)}
                  for n, p in self.model.named_parameters()],
                 args.lr)
-            self.scheduler = get_linear_schedule_with_warmup(self.optimizer, int(steps*args.warmup), steps)
+            self.scheduler = LinearLR(self.optimizer, int(steps*args.warmup), steps)
         self.scaler = GradScaler(enabled=args.amp)
 
         if dist.is_initialized():
