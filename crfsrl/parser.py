@@ -288,7 +288,8 @@ class CRFSemanticRoleLabelingParser(Parser):
             role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s] for s in self.model.decode(s_edge, s_role, mask)]
             batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
             if self.args.prob:
-                batch.probs = [prob[1:i, :i].cpu() for i, prob in zip(lens.softmax(-1).unbind())]
+                scores = zip(*(s.cpu().unbind() for s in (s_edge, s_role)))
+                batch.probs = [(s[0][:i+1, :i+1], s[1][:i+1, :i+1]) for i, s in zip(lens.tolist(), scores)]
             yield from batch.sentences
 
     @classmethod
@@ -559,7 +560,9 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
                           for s in self.model.decode(s_edge, s_sib, s_role, mask)]
             batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
             if self.args.prob:
-                batch.probs = [prob[1:i, :i].cpu() for i, prob in zip(lens.softmax(-1).unbind())]
+                scores = zip(*(s.cpu().unbind() for s in (s_edge, s_sib, s_role)))
+                batch.probs = [(s[0][:i+1, :i+1], s[1][:i+1, :i+1, :i+1], s[2][:i+1, :i+1])
+                               for i, s in zip(lens.tolist(), scores)]
             yield from batch.sentences
 
     @classmethod
