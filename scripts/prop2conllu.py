@@ -7,7 +7,8 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
-
+nltk.download('omw-1.4')
+nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
 
