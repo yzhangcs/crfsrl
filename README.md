@@ -33,9 +33,9 @@ python -u crf.py   train -b -c configs/conll05.crf.srl.lstm.char-lemma.ini   -d 
 python -u crf2o.py train -b -c configs/conll05.crf2o.srl.lstm.char-lemma.ini -d 0 -f char lemma -p exp/conll05.crf2o.srl.lstm.char-lemma/model --cache --binarize
 # BERT finetuning
 # CRF
-python -u crf.py   train -b -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --batch-size=1000 --encoder bert --bert bert-large-cased --cache --binarize
+python -u crf.py   train -b -c configs/conll05.crf.srl.bert.ini   -d 0 -p exp/conll05.crf.srl.bert/model   --batch-size=2000 --encoder bert --bert bert-large-cased --cache --binarize
 # CRF2o
-python -u crf2o.py train -b -c configs/conll05.crf2o.srl.bert.ini -d 0 -p exp/conll05.crf2o.srl.bert/model --batch-size=1000 --encoder bert --bert bert-large-cased --cache --binarize
+python -u crf2o.py train -b -c configs/conll05.crf2o.srl.bert.ini -d 0 -p exp/conll05.crf2o.srl.bert/model --batch-size=2000 --encoder bert --bert bert-large-cased --cache --binarize
 ```
 To do evaluation:
 ```sh
