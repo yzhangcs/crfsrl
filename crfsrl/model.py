@@ -336,13 +336,13 @@ class CRF2oSemanticRoleLabelingModel(Model):
                  **kwargs):
         super().__init__(**Config().update(locals()))
 
-        self.edge_mlp_d = MLP(n_in=self.args.n_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.edge_mlp_h = MLP(n_in=self.args.n_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.sib_mlp_s = MLP(n_in=self.args.n_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
-        self.sib_mlp_d = MLP(n_in=self.args.n_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
-        self.sib_mlp_h = MLP(n_in=self.args.n_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
-        self.role_mlp_d = MLP(n_in=self.args.n_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
-        self.role_mlp_h = MLP(n_in=self.args.n_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
+        self.edge_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
+        self.edge_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
+        self.sib_mlp_s = MLP(n_in=self.args.n_encoder_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
+        self.sib_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
+        self.sib_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
+        self.role_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
+        self.role_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
 
         self.edge_attn = Biaffine(n_in=n_edge_mlp, bias_x=True, bias_y=False)
         self.sib_attn = Triaffine(n_in=n_sib_mlp, bias_x=True, bias_y=True)
