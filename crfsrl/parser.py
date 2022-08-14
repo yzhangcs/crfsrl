@@ -11,7 +11,7 @@ from supar.utils import Config, Dataset, Embedding
 from supar.utils.common import BOS, PAD, UNK
 from supar.utils.field import ChartField, Field, RawField, SubwordField
 from supar.utils.fn import set_rng_state
-from supar.utils.logging import init_logger, logger, progress_bar
+from supar.utils.logging import get_logger, init_logger, progress_bar
 from supar.utils.metric import Metric
 from supar.utils.optim import LinearLR
 from supar.utils.parallel import DistributedDataParallel as DDP
@@ -24,6 +24,8 @@ from torch.optim.lr_scheduler import ExponentialLR
 from .metric import SpanSRLMetric
 from .model import CRF2oSemanticRoleLabelingModel, CRFSemanticRoleLabelingModel
 from .transform import CoNLL
+
+logger = get_logger(__name__)
 
 
 class CRFSemanticRoleLabelingParser(Parser):
