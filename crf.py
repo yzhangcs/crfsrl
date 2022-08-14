@@ -24,8 +24,8 @@ def main():
     subparser.add_argument('--train', default=f'{CACHE}/data/srl/conll05/train.conllu', help='path to train file')
     subparser.add_argument('--dev', default=f'{CACHE}/data/srl/conll05/dev.conllu', help='path to dev file')
     subparser.add_argument('--test', default=f'{CACHE}/data/srl/conll05/test.conllu', help='path to test file')
-    subparser.add_argument('--embed', default=f'glove-6b-100', help='path to pretrained embeddings')
-    subparser.add_argument('--bert', default='bert-base-cased', help='which BERT model to use')
+    subparser.add_argument('--embed', default='glove-6b-100', help='path to pretrained embeddings')
+    subparser.add_argument('--bert', default='bert-large-cased', help='which BERT model to use')
     # evaluate
     subparser = subparsers.add_parser('evaluate', help='Evaluate the specified parser and dataset.')
     subparser.add_argument('--buckets', default=8, type=int, help='max num of buckets to use')

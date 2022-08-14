@@ -7,7 +7,7 @@ Yu Zhang, Qingrong Xia, Shilin Zhou, Yong Jiang, Zhenghua Li, Guohong Fu, Min Zh
 ## Setup
 
 The following packages should be installed:
-* [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.10
+* [`PyTorch`](https://github.com/pytorch/pytorch): >= 1.12.1
 * [`Transformers`](https://github.com/huggingface/transformers): >= 4.2
 
 Clone this repo recursively:
