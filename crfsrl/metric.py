@@ -26,7 +26,7 @@ class SpanSRLMetric(Metric):
             golds: Optional[Tuple[torch.Tensor, torch.Tensor]] = None,
             eps=1e-12
     ) -> SpanSRLMetric:
-        super().__init__(eps)
+        super().__init__(eps=eps)
 
         self.tp = 0.0
         self.pred = 0.0
