@@ -1,0 +1,504 @@
+#begin document (bn/abc/00/abc_0056); part 000
+bn/abc/00/abc_0056   0    0           In    IN  (TOP(S(PP*         -    -   -   -        *   (ARGM-LOC*     -
+bn/abc/00/abc_0056   0    1        other    JJ     (NP(NP*         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0    2         news    NN           *)      news   -   1   -        *            *     -
+bn/abc/00/abc_0056   0    3        today    NN      (NP*)))     today   -   2   -    (DATE)           *)   (1)
+bn/abc/00/abc_0056   0    4            ,     ,           *         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0    5          the    DT     (NP(NP*         -    -   -   -        *       (ARG1*     -
+bn/abc/00/abc_0056   0    6       annual    JJ           *         -    -   -   -    (DATE)           *     -
+bn/abc/00/abc_0056   0    7    Christmas   NNP           *         -    -   -   -    (DATE)           *     -
+bn/abc/00/abc_0056   0    8    migration    NN          *))        -    -   -   -        *            *)    -
+bn/abc/00/abc_0056   0    9           is   VBZ        (VP*         be  01   1   -        *          (V*)    -
+bn/abc/00/abc_0056   0   10        under    IN        (PP*         -    -   -   -        *       (ARG2*     -
+bn/abc/00/abc_0056   0   11          way    NN       (NP*))       way   -   4   -        *            *)    -
+bn/abc/00/abc_0056   0   12         from    IN        (PP*         -    -   -   -        *     (C-ARG1*     -
+bn/abc/00/abc_0056   0   13        every    DT  (NP(NP(NP*         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   14         part    NN           *)      part   -   1   -        *            *     -
+bn/abc/00/abc_0056   0   15           of    IN        (PP*         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   16          the    DT        (NP*         -    -   -   -        *            *   (11
+bn/abc/00/abc_0056   0   17      country    NN         *)))   country   -   3   -        *            *    11)
+bn/abc/00/abc_0056   0   18            ,     ,           *         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   19          and    CC           *         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   20         many    JJ     (NP(NP*         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   21        other    JJ           *         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   22        parts   NNS           *)      part   -   1   -        *            *     -
+bn/abc/00/abc_0056   0   23           of    IN        (PP*         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   24          the    DT        (NP*         -    -   -   -        *            *     -
+bn/abc/00/abc_0056   0   25        world    NN      *))))))     world   -   1   -        *            *)    -
+bn/abc/00/abc_0056   0   26            .     .          *))        -    -   -   -        *            *     -
+
+bn/abc/00/abc_0056   0   0       People    NNS   (TOP(S(NP*)   people   -   1   -   *      *    (ARG0*)   (ARG0*)   (4)
+bn/abc/00/abc_0056   0   1          are    VBP         (VP*        be  03   -   -   *    (V*)        *         *     -
+bn/abc/00/abc_0056   0   2       trying    VBG         (VP*       try  01   1   -   *      *       (V*)        *     -
+bn/abc/00/abc_0056   0   3           to     TO       (S(VP*        -    -   -   -   *      *    (ARG1*         *     -
+bn/abc/00/abc_0056   0   4        reach     VB         (VP*     reach  02   1   -   *      *         *       (V*)    -
+bn/abc/00/abc_0056   0   5        their   PRP$      (NP(NP*        -    -   -   -   *      *         *    (ARG1*    (4)
+bn/abc/00/abc_0056   0   6       people    NNS            *)   people   -   3   -   *      *         *         *     -
+bn/abc/00/abc_0056   0   7    somewhere     RB       (ADVP*        -    -   -   -   *      *         *         *     -
+bn/abc/00/abc_0056   0   8         else     RB      *)))))))       -    -   -   -   *      *         *)        *)    -
+bn/abc/00/abc_0056   0   9            .      .           *))       -    -   -   -   *      *         *         *     -
+
+bn/abc/00/abc_0056   0    0          New   NNP  (TOP(S(S(NP(NP*      -    -   -   -    (GPE*      *       (ARG1*        *   (5
+bn/abc/00/abc_0056   0    1         York   NNP                *      -    -   -   -        *      *            *        *    -
+bn/abc/00/abc_0056   0    2           's   POS                *)     -    -   -   -        *)     *            *        *    5)
+bn/abc/00/abc_0056   0    3           La   NNP            (NML*      -    -   -   -    (FAC*      *            *        *    -
+bn/abc/00/abc_0056   0    4      Guardia   NNP                *)     -    -   -   -        *      *            *        *    -
+bn/abc/00/abc_0056   0    5      Airport   NNP                *)     -    -   -   -        *)     *            *)       *    -
+bn/abc/00/abc_0056   0    6          has   VBZ             (VP*    have  01   -   -        *    (V*)           *        *    -
+bn/abc/00/abc_0056   0    7         been   VBN             (VP*      be  01   1   -        *      *          (V*)       *    -
+bn/abc/00/abc_0056   0    8            a    DT             (NP*      -    -   -   -        *      *       (ARG2*        *    -
+bn/abc/00/abc_0056   0    9    nightmare    NN                *)     -    -   -   -        *      *            *)       *    -
+bn/abc/00/abc_0056   0   10         this    DT             (NP*      -    -   -   -   (DATE*      *   (ARGM-TMP*        *    -
+bn/abc/00/abc_0056   0   11         year    NN             *))))     -    -   -   -        *)     *            *)       *    -
+bn/abc/00/abc_0056   0   12            ,     ,                *      -    -   -   -        *      *            *        *    -
+bn/abc/00/abc_0056   0   13          but    CC                *      -    -   -   -        *      *            *        *    -
+bn/abc/00/abc_0056   0   14        there    EX           (S(NP*)     -    -   -   -        *      *            *        *    -
+bn/abc/00/abc_0056   0   15           is   VBZ             (VP*      be  02   3   -        *      *            *      (V*)   -
+bn/abc/00/abc_0056   0   16         some    DT             (NP*      -    -   -   -        *      *            *   (ARG1*    -
+bn/abc/00/abc_0056   0   17         good    JJ                *      -    -   -   -        *      *            *        *    -
+bn/abc/00/abc_0056   0   18         news    NN              *)))   news   -   1   -        *      *            *        *)   -
+bn/abc/00/abc_0056   0   19            .     .               *))     -    -   -   -        *      *            *        *    -
+
+bn/abc/00/abc_0056   0    0        Even    RB   (TOP(S(PP(ADVP*)         -    -   -   -            *         *        *    (ARGM-ADV*             *     -
+bn/abc/00/abc_0056   0    1        with    IN                 *          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    2         the    DT           (NP(NP*          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    3         bad    JJ                 *          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    4     weather    NN                 *)         -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    5         and    CC                 *          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    6         the    DT           (NP(NP*          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    7      number    NN                 *)     number   -   1   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    8          of    IN              (PP*          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0    9      people   NNS           (NP(NP*)     people   -   1   -            *    (ARG1*)       *             *             *     -
+bn/abc/00/abc_0056   0   10      flying   VBG            (VP*)))        fly  01   1   -            *       (V*)       *             *             *     -
+bn/abc/00/abc_0056   0   11           ,     ,                 *          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0   12         the    DT        (PRN(S(NP*          -    -   -   -            *         *   (ARG0*             *             *     -
+bn/abc/00/abc_0056   0   13    industry    NN                 *)   industry   -   1   -            *         *        *)            *             *     -
+bn/abc/00/abc_0056   0   14        says   VBZ              (VP*         say  01   1   -            *         *      (V*)            *             *     -
+bn/abc/00/abc_0056   0   15          2     CD           (NP(NP*          -    -   -   -   (CARDINAL*         *   (ARG1*             *             *     -
+bn/abc/00/abc_0056   0   16     million    CD                 *)         -    -   -   -            *)        *        *             *             *     -
+bn/abc/00/abc_0056   0   17          in    IN              (PP*          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0   18         the    DT           (NP(NP*          -    -   -   -            *         *        *             *             *   (11
+bn/abc/00/abc_0056   0   19        U.S.   NNP                 *)         -    -   -   -         (GPE)        *        *             *             *     -
+bn/abc/00/abc_0056   0   20       alone    RB   (ADVP*))))))))))         -    -   -   -            *         *        *)            *)            *    11)
+bn/abc/00/abc_0056   0   21           ,     ,                 *          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0   22      things   NNS              (NP*)      thing   -   1   -            *         *        *        (ARG1*)            *    (0)
+bn/abc/00/abc_0056   0   23         are   VBP              (VP*          be  01   1   -            *         *        *           (V*)            *     -
+bn/abc/00/abc_0056   0   24         not    RB                 *          -    -   -   -            *         *        *    (ARGM-NEG*)            *     -
+bn/abc/00/abc_0056   0   25          as    RB       (ADJP(ADJP*          -    -   -   -            *         *        *        (ARG2*             *     -
+bn/abc/00/abc_0056   0   26         bad    JJ                 *)         -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0   27          as    IN            (SBAR*          -    -   -   -            *         *        *             *             *     -
+bn/abc/00/abc_0056   0   28        they   PRP            (S(NP*)         -    -   -   -            *         *        *             *        (ARG1*)   (0)
+bn/abc/00/abc_0056   0   29       might    MD              (VP*          -    -   -   -            *         *        *             *    (ARGM-MOD*)    -
+bn/abc/00/abc_0056   0   30          be    VB         (VP*))))))         be  01   1   -            *         *        *             *)          (V*)    -
+bn/abc/00/abc_0056   0   31           .     .                *))         -    -   -   -            *         *        *             *             *     -
+
+bn/abc/00/abc_0056   0   0        Here    RB   (TOP(SINV(ADVP*)   -   -   -   -          *         -
+bn/abc/00/abc_0056   0   1          's   VBZ              (VP*)   be  -   4   -          *         -
+bn/abc/00/abc_0056   0   2         ABC   NNP           (NP(NP*    -   -   -   -       (ORG)  (10|(12
+bn/abc/00/abc_0056   0   3          's   POS                 *)   -   -   -   -          *        10)
+bn/abc/00/abc_0056   0   4         Bob   NNP                 *    -   -   -   -   (PERSON*         -
+bn/abc/00/abc_0056   0   5    Jamieson   NNP                 *)   -   -   -   -          *)       12)
+bn/abc/00/abc_0056   0   6           .     .                *))   -   -   -   -          *         -
+
+bn/abc/00/abc_0056   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0    0          At    IN  (TOP(S(PP*          -    -   -   -            *         *   (ARGM-LOC*             *    -
+bn/abc/00/abc_0056   0    1     Chicago   NNP  (NP(NP(NP*          -    -   -   -         (GPE)        *            *             *   (2
+bn/abc/00/abc_0056   0    2          's   POS           *)         -    -   -   -            *         *            *             *    -
+bn/abc/00/abc_0056   0    3      O'Hare   NNP           *          -    -   -   -        (FAC*         *            *             *    -
+bn/abc/00/abc_0056   0    4     Airport   NNP           *)         -    -   -   -            *)        *            *             *    -
+bn/abc/00/abc_0056   0    5           ,     ,           *          -    -   -   -            *         *            *             *    -
+bn/abc/00/abc_0056   0    6      ground    NN     (NP(NP*      ground   -   1   -            *         *            *             *    -
+bn/abc/00/abc_0056   0    7        zero    CD           *)         -    -   -   -    (CARDINAL)        *            *             *    -
+bn/abc/00/abc_0056   0    8         for    IN        (PP*          -    -   -   -            *         *            *             *    -
+bn/abc/00/abc_0056   0    9         air    NN    (NP(NML*         air   -   4   -            *    (ARG1*)           *             *    -
+bn/abc/00/abc_0056   0   10      travel    NN           *)     travel  01   2   -            *       (V*)           *             *    -
+bn/abc/00/abc_0056   0   11    troubles   NNS          *))    trouble   -   4   -            *         *            *             *    -
+bn/abc/00/abc_0056   0   12         all    DT        (NP*          -    -   -   -       (DATE*         *            *             *    -
+bn/abc/00/abc_0056   0   13        year    NN        *))))         -    -   -   -            *)        *            *)            *    2)
+bn/abc/00/abc_0056   0   14         --      :           *          -    -   -   -            *         *            *             *    -
+bn/abc/00/abc_0056   0   15       there    EX        (NP*)         -    -   -   -            *         *            *             *    -
+bn/abc/00/abc_0056   0   16         was   VBD        (VP*          be  02   5   -            *         *          (V*)            *    -
+bn/abc/00/abc_0056   0   17           a    DT        (NP*          -    -   -   -            *         *       (ARG1*             *    -
+bn/abc/00/abc_0056   0   18     holiday    NN           *          -    -   -   -            *         *            *    (ARGM-TMP*)   -
+bn/abc/00/abc_0056   0   19    surprise    NN          *))   surprise  01   2   -            *         *            *)          (V*)   -
+bn/abc/00/abc_0056   0   20           .     .          *))         -    -   -   -            *         *            *             *    -
+
+bn/abc/00/abc_0056   0    0      220,000     CD  (TOP(S(S(NP*       -    -   -   -    (CARDINAL)  (ARG1*            *    -
+bn/abc/00/abc_0056   0    1    passengers   NNS             *)      -    -   -   -            *        *)           *    -
+bn/abc/00/abc_0056   0    2        jammed   VBD          (VP*      jam  01   1   -            *      (V*)           *    -
+bn/abc/00/abc_0056   0    3           the    DT          (NP*       -    -   -   -            *   (ARG2*            *   (2
+bn/abc/00/abc_0056   0    4       airport    NN           *)))      -    -   -   -            *        *)           *    2)
+bn/abc/00/abc_0056   0    5             ,     ,             *       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0    6           but    CC             *       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0    7          with    IN        (S(PP*       -    -   -   -            *        *   (ARGM-ADV*    -
+bn/abc/00/abc_0056   0    8          good    JJ       (NP(NP*       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0    9       weather    NN             *)      -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   10           and    CC             *       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   11         labor    NN       (NP(NP*       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   12         peace    NN             *)      -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   13            at    IN          (PP*       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   14        United   NNP          (NP*       -    -   -   -        (ORG*        *            *    -
+bn/abc/00/abc_0056   0   15      Airlines   NNP         *)))))      -    -   -   -            *)       *            *)   -
+bn/abc/00/abc_0056   0   16             ,     ,             *       -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   17         there    EX          (NP*)      -    -   -   -            *        *            *    -
+bn/abc/00/abc_0056   0   18          were   VBD          (VP*       be  02   5   -            *        *          (V*)   -
+bn/abc/00/abc_0056   0   19           few    JJ          (NP*       -    -   -   -            *        *       (ARG1*    -
+bn/abc/00/abc_0056   0   20        delays   NNS           *)))   delay   -   1   -            *        *            *)   -
+bn/abc/00/abc_0056   0   21             .     .            *))      -    -   -   -            *        *            *    -
+
+bn/abc/00/abc_0056   0   0          We   PRP   (TOP(S(NP*)   -   -   -   -        *     -
+bn/abc/00/abc_0056   0   1         're   VBP         (VP*    be  -   1   -        *     -
+bn/abc/00/abc_0056   0   2    actually    RB       (ADVP*)   -   -   -   -        *     -
+bn/abc/00/abc_0056   0   3          on    IN         (PP*    -   -   -   -        *     -
+bn/abc/00/abc_0056   0   4        time    NN        (NP*))   -   -   -   -        *     -
+bn/abc/00/abc_0056   0   5       today    NN        (NP*))   -   -   -   -    (DATE)   (1)
+bn/abc/00/abc_0056   0   6           .     .           *))   -   -   -   -        *     -
+
+bn/abc/00/abc_0056   0   0          A    DT   (TOP(NP(NP*        -    -   -   -   *        (ARG1*   -
+bn/abc/00/abc_0056   0   1       rare    JJ             *        -    -   -   -   *             *   -
+bn/abc/00/abc_0056   0   2      thing    NN             *)    thing   -   1   -   *             *)  -
+bn/abc/00/abc_0056   0   3       that   WDT   (SBAR(WHNP*)       -    -   -   -   *      (R-ARG1*)  -
+bn/abc/00/abc_0056   0   4    happens   VBZ        (S(VP*    happen  01   1   -   *           (V*)  -
+bn/abc/00/abc_0056   0   5       here    RB     (ADVP*))))       -    -   -   -   *    (ARGM-LOC*)  -
+bn/abc/00/abc_0056   0   6          .     .            *))       -    -   -   -   *             *   -
+
+bn/abc/00/abc_0056   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0    0           There    EX   (TOP(S(NP*)        -    -   -   -       *        *         *    -
+bn/abc/00/abc_0056   0    1            were   VBD         (VP*         be  02   -   -       *      (V*)        *    -
+bn/abc/00/abc_0056   0    2       scattered   VBN      (NP(NP*    scatter  01   1   -       *   (ARG1*       (V*)   -
+bn/abc/00/abc_0056   0    3          delays   NNS            *)     delay   -   1   -       *        *    (ARG1*)   -
+bn/abc/00/abc_0056   0    4              in    IN         (PP*         -    -   -   -       *        *         *    -
+bn/abc/00/abc_0056   0    5    Philadelphia   NNP      (NP(NP*)        -    -   -   -    (GPE)       *         *    -
+bn/abc/00/abc_0056   0    6               ,     ,            *         -    -   -   -       *        *         *    -
+bn/abc/00/abc_0056   0    7             New   NNP         (NP*         -    -   -   -   (GPE*        *         *   (5
+bn/abc/00/abc_0056   0    8            York   NNP            *)        -    -   -   -       *)       *         *    5)
+bn/abc/00/abc_0056   0    9             and    CC            *         -    -   -   -       *        *         *    -
+bn/abc/00/abc_0056   0   10          Boston   NNP     (NP*)))))        -    -   -   -    (GPE)       *)        *    -
+bn/abc/00/abc_0056   0   11               .     .           *))        -    -   -   -       *        *         *    -
+
+bn/abc/00/abc_0056   0    0          Snow    NN   (TOP(S(S(NP*)       -    -   -   -        *       (ARG1*)   (ARG0*)           *    -
+bn/abc/00/abc_0056   0    1          fell   VBD           (VP*      fall  01   1   -        *          (V*)        *            *    -
+bn/abc/00/abc_0056   0    2           all    DT      (ADVP(NP*        -    -   -   -   (DATE*   (ARGM-TMP*         *            *    -
+bn/abc/00/abc_0056   0    3           day    NN              *)      day   -   1   -        *            *         *            *    -
+bn/abc/00/abc_0056   0    4          long    RB              *)       -    -   -   -        *)           *)        *            *    -
+bn/abc/00/abc_0056   0    5            in    IN           (PP*        -    -   -   -        *   (ARGM-LOC*         *            *    -
+bn/abc/00/abc_0056   0    6           the    DT           (NP*        -    -   -   -        *            *         *            *   (7
+bn/abc/00/abc_0056   0    7     Northeast   NNP             *))       -    -   -   -     (LOC)           *)        *            *    7)
+bn/abc/00/abc_0056   0    8             ,     ,              *        -    -   -   -        *            *         *            *    -
+bn/abc/00/abc_0056   0    9       causing   VBG         (S(VP*     cause  01   1   -        *   (ARGM-PRD*       (V*)           *    -
+bn/abc/00/abc_0056   0   10          poor    JJ           (NP*        -    -   -   -        *            *    (ARG1*            *    -
+bn/abc/00/abc_0056   0   11    visibility    NN          *)))))       -    -   -   -        *            *)        *)           *    -
+bn/abc/00/abc_0056   0   12             ,     ,              *        -    -   -   -        *            *         *            *    -
+bn/abc/00/abc_0056   0   13           but    CC              *        -    -   -   -        *            *         *            *    -
+bn/abc/00/abc_0056   0   14        little    JJ         (S(NP*)       -    -   -   -        *            *         *       (ARG1*)   -
+bn/abc/00/abc_0056   0   15        stayed   VBD           (VP*      stay  01   1   -        *            *         *          (V*)   -
+bn/abc/00/abc_0056   0   16            on    IN           (PP*        -    -   -   -        *            *         *   (ARGM-LOC*    -
+bn/abc/00/abc_0056   0   17           the    DT           (NP*        -    -   -   -        *            *         *            *    -
+bn/abc/00/abc_0056   0   18        ground    NN           *))))   ground   -   1   -        *            *         *            *)   -
+bn/abc/00/abc_0056   0   19             .     .             *))       -    -   -   -        *            *         *            *    -
+
+bn/abc/00/abc_0056   0    0          Across    IN    (TOP(S(PP*         -    -   -   -       *   (ARGM-LOC*      *             *            *     -
+bn/abc/00/abc_0056   0    1             the    DT          (NP*         -    -   -   -       *            *      *             *            *   (11
+bn/abc/00/abc_0056   0    2         country    NN            *))   country   -   3   -       *            *)     *             *            *    11)
+bn/abc/00/abc_0056   0    3               ,     ,             *         -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0    4           skies   NNS        (S(NP*)        -    -   -   -       *       (ARG1*)     *             *            *     -
+bn/abc/00/abc_0056   0    5            were   VBD          (VP*         be  01   1   -       *          (V*)     *             *            *     -
+bn/abc/00/abc_0056   0    6           clear    JJ        (ADJP*)        -    -   -   -       *       (ARG2*)     *             *            *     -
+bn/abc/00/abc_0056   0    7              at    IN          (PP*         -    -   -   -       *   (ARGM-LOC*      *             *            *     -
+bn/abc/00/abc_0056   0    8          almost    RB       (NP(QP*         -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0    9           every    DT             *)        -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0   10           major    JJ             *         -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0   11         airline    NN             *    airline   -   1   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0   12             hub    NN          *))))       hub   -   3   -       *            *)     *             *            *     -
+bn/abc/00/abc_0056   0   13             and    CC             *         -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0   14          little    JJ        (S(NP*         -    -   -   -       *            *      *        (ARG1*       (ARG1*     -
+bn/abc/00/abc_0056   0   15          change    NN             *)    change   -   1   -       *            *      *             *)           *)    -
+bn/abc/00/abc_0056   0   16              is   VBZ          (VP*         be  01   -   -       *            *    (V*)            *            *     -
+bn/abc/00/abc_0056   0   17        expected   VBN          (VP*     expect  01   1   -       *            *      *           (V*)           *     -
+bn/abc/00/abc_0056   0   18        tomorrow    NN       (NP*))))        -    -   -   -       *            *      *    (ARGM-TMP*)           *     -
+bn/abc/00/abc_0056   0   19               ,     ,             *         -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0   20           which   WDT   (SBAR(WHNP*)        -    -   -   -       *            *      *             *     (R-ARG1*)    -
+bn/abc/00/abc_0056   0   21             was   VBD        (S(VP*         be  01   1   -       *            *      *             *          (V*)    -
+bn/abc/00/abc_0056   0   22    particularly    RB        (ADJP*         -    -   -   -       *            *      *             *       (ARG2*     -
+bn/abc/00/abc_0056   0   23         welcome    JJ             *)        -    -   -   -       *            *      *             *            *)    -
+bn/abc/00/abc_0056   0   24              at    IN          (PP*         -    -   -   -       *            *      *             *   (ARGM-LOC*     -
+bn/abc/00/abc_0056   0   25         Atlanta   NNP       (NP(NP*         -    -   -   -    (GPE)           *      *             *            *     -
+bn/abc/00/abc_0056   0   26              's   POS             *)        -    -   -   -       *            *      *             *            *     -
+bn/abc/00/abc_0056   0   27      Hartsfield   NNP             *         -    -   -   -   (FAC*            *      *             *            *     -
+bn/abc/00/abc_0056   0   28         Airport   NNP         *)))))        -    -   -   -       *)           *      *             *            *)    -
+bn/abc/00/abc_0056   0   29               .     .            *))        -    -   -   -       *            *      *             *            *     -
+
+bn/abc/00/abc_0056   0    0          Earlier    RBR   (TOP(S(NP(ADVP*)        -    -   -   -       (DATE*        *         *   (ARGM-TMP*      *     -
+bn/abc/00/abc_0056   0    1             this     DT                 *         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0    2             week     NN                 *)        -    -   -   -            *)       *         *            *)     *     -
+bn/abc/00/abc_0056   0    3                ,      ,                 *         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0    4              bad     JJ           (NP(NP*         -    -   -   -            *   (ARG1*         *       (ARG0*      *     -
+bn/abc/00/abc_0056   0    5          weather     NN                 *)        -    -   -   -            *        *)        *            *      *     -
+bn/abc/00/abc_0056   0    6            added    VBN              (VP*        add  02   1   -            *      (V*)        *            *      *     -
+bn/abc/00/abc_0056   0    7               to     IN              (PP*         -    -   -   -            *   (ARG2*         *            *      *     -
+bn/abc/00/abc_0056   0    8                a     DT           (NP(NP*         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0    9            labor     NN                 *      labor   -   3   -            *        *    (ARG2*)           *      *     -
+bn/abc/00/abc_0056   0   10          dispute     NN                 *)   dispute  01   1   -            *        *       (V*)           *      *     -
+bn/abc/00/abc_0056   0   11          between     IN              (PP*         -    -   -   -            *        *    (ARG0*            *      *     -
+bn/abc/00/abc_0056   0   12            Delta    NNP           (NP(NP*         -    -   -   -        (ORG*        *         *            *      *    (9
+bn/abc/00/abc_0056   0   13         Airlines    NNP                 *)        -    -   -   -            *)       *         *            *      *     9)
+bn/abc/00/abc_0056   0   14              and     CC                 *         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0   15              its   PRP$              (NP*         -    -   -   -            *        *         *            *      *    (9)
+bn/abc/00/abc_0056   0   16           pilots    NNS           *)))))))     pilot   -   2   -            *        *)        *)           *)     *     -
+bn/abc/00/abc_0056   0   17           caused    VBD              (VP*      cause  01   1   -            *        *         *          (V*)     *     -
+bn/abc/00/abc_0056   0   18           scores    NNS        (NP(NP(NP*)     score   -   8   -            *        *         *       (ARG1*      *     -
+bn/abc/00/abc_0056   0   19               of     IN              (PP*         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0   20    cancellations    NNS            (NP*)))        -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0   21              and     CC                 *         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0   22         hundreds    NNS           (NP(NP*)        -    -   -   -    (CARDINAL)       *         *            *      *     -
+bn/abc/00/abc_0056   0   23               of     IN              (PP*         -    -   -   -            *        *         *            *      *     -
+bn/abc/00/abc_0056   0   24           delays    NNS          (NP*)))))     delay  01   2   -            *        *         *            *)   (V*)    -
+bn/abc/00/abc_0056   0   25                .      .                *))        -    -   -   -            *        *         *            *      *     -
+
+bn/abc/00/abc_0056   0    0       Still     RB   (TOP(S(ADVP*)       -    -   -   -           *    (ARGM-DIS*)     *            *         *         *     -
+bn/abc/00/abc_0056   0    1           ,      ,              *        -    -   -   -           *             *      *            *         *         *     -
+bn/abc/00/abc_0056   0    2       Delta    NNP           (NP*)       -    -   -   -        (ORG)       (ARG0*)     *            *         *         *    (9)
+bn/abc/00/abc_0056   0    3        said    VBD           (VP*       say  01   1   -           *           (V*)     *            *         *         *     -
+bn/abc/00/abc_0056   0    4          it    PRP    (SBAR(S(NP*)       -    -   -   -           *        (ARG1*      *       (ARG1*)   (ARG0*)        *    (9)
+bn/abc/00/abc_0056   0    5         was    VBD           (VP*        be  03   -   -           *             *    (V*)           *         *         *     -
+bn/abc/00/abc_0056   0    6      forced    VBN           (VP*     force  01   1   -           *             *      *          (V*)        *         *     -
+bn/abc/00/abc_0056   0    7          to     TO         (S(VP*        -    -   -   -           *             *      *       (ARG2*         *         *     -
+bn/abc/00/abc_0056   0    8      cancel     VB           (VP*    cancel  01   1   -           *             *      *            *       (V*)        *     -
+bn/abc/00/abc_0056   0    9          5      CD        (NP(NP*        -    -   -   -   (PERCENT*             *      *            *    (ARG1*         *     -
+bn/abc/00/abc_0056   0   10           %     NN              *)       -    -   -   -           *)            *      *            *         *         *     -
+bn/abc/00/abc_0056   0   11          of     IN           (PP*        -    -   -   -           *             *      *            *         *         *     -
+bn/abc/00/abc_0056   0   12         its   PRP$        (NP(NP*        -    -   -   -           *             *      *            *         *         *    (9)
+bn/abc/00/abc_0056   0   13     flights    NNS              *)   flight   -   7   -           *             *      *            *         *         *     -
+bn/abc/00/abc_0056   0   14       today     NN     (NP*)))))))    today   -   2   -           *             *      *            *)        *)        *    (1)
+bn/abc/00/abc_0056   0   15           ,      ,              *        -    -   -   -           *             *      *            *         *         *     -
+bn/abc/00/abc_0056   0   16     because     IN         (SBAR*        -    -   -   -           *             *      *   (ARGM-CAU*         *         *     -
+bn/abc/00/abc_0056   0   17        some     DT         (S(NP*        -    -   -   -           *             *      *            *         *    (ARG0*     -
+bn/abc/00/abc_0056   0   18      pilots    NNS              *)    pilot   -   2   -           *             *      *            *         *         *)    -
+bn/abc/00/abc_0056   0   19     refused    VBD           (VP*    refuse  01   1   -           *             *      *            *         *       (V*)    -
+bn/abc/00/abc_0056   0   20    overtime     NN   (NP*)))))))))       -    -   -   -           *             *)     *            *)        *    (ARG1*)    -
+bn/abc/00/abc_0056   0   21           .      .             *))       -    -   -   -           *             *      *            *         *         *     -
+
+bn/abc/00/abc_0056   0    0       This    DT     (TOP(S(S(NP*         -    -   -   -        *       (ARG1*      *             *        *             *   -
+bn/abc/00/abc_0056   0    1    journey    NN                *)        -    -   -   -        *            *)     *             *        *             *   -
+bn/abc/00/abc_0056   0    2    started   VBD             (VP*      start  01   1   -        *          (V*)     *             *        *             *   -
+bn/abc/00/abc_0056   0    3         at    IN             (PP*         -    -   -   -        *   (ARGM-TMP*      *             *        *             *   -
+bn/abc/00/abc_0056   0    4      6:45     CD             (NP*         -    -   -   -   (TIME*            *      *             *        *             *   -
+bn/abc/00/abc_0056   0    5       a.m.    NN             *))))        -    -   -   -        *)           *)     *             *        *             *   -
+bn/abc/00/abc_0056   0    6          ,     ,                *         -    -   -   -        *            *      *             *        *             *   -
+bn/abc/00/abc_0056   0    7        and    CC                *         -    -   -   -        *            *      *             *        *             *   -
+bn/abc/00/abc_0056   0    8         it   PRP           (S(NP*)        -    -   -   -        *            *      *        (ARG0*)       *             *   -
+bn/abc/00/abc_0056   0    9       does   VBZ             (VP*         do  01   -   -        *            *    (V*)            *        *             *   -
+bn/abc/00/abc_0056   0   10        n't    RB                *         -    -   -   -        *            *      *    (ARGM-NEG*)       *             *   -
+bn/abc/00/abc_0056   0   11       look    VB             (VP*       look  02   2   -        *            *      *           (V*)       *             *   -
+bn/abc/00/abc_0056   0   12       like    IN           (SBAR*         -    -   -   -        *            *      *        (ARG1*        *             *   -
+bn/abc/00/abc_0056   0   13      there    EX           (S(NP*)        -    -   -   -        *            *      *             *        *             *   -
+bn/abc/00/abc_0056   0   14         's   VBZ             (VP*         be   -   3   -        *            *      *             *        *             *   -
+bn/abc/00/abc_0056   0   15        any    DT          (NP(NP*         -    -   -   -        *            *      *             *        *             *   -
+bn/abc/00/abc_0056   0   16    promise    NN                *)   promise  01   2   -        *            *      *             *      (V*)            *   -
+bn/abc/00/abc_0056   0   17         of    IN             (PP*         -    -   -   -        *            *      *             *   (ARG1*             *   -
+bn/abc/00/abc_0056   0   18    getting   VBG           (S(VP*        get  05   -   -        *            *      *             *        *           (V*)  -
+bn/abc/00/abc_0056   0   19        out    IN             (PP*         -    -   -   -        *            *      *             *        *        (ARG2*   -
+bn/abc/00/abc_0056   0   20         of    IN             (PP*         -    -   -   -        *            *      *             *        *             *   -
+bn/abc/00/abc_0056   0   21       here    RB         (ADVP*)))        -    -   -   -        *            *      *             *        *             *)  -
+bn/abc/00/abc_0056   0   22    tonight    NN   (NP*)))))))))))        -    -   -   -    (TIME)           *      *             *)       *)   (ARGM-TMP*)  -
+bn/abc/00/abc_0056   0   23          .     .               *))        -    -   -   -        *            *      *             *        *             *   -
+
+bn/abc/00/abc_0056   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0    0     Analysts   NNS    (TOP(S(NP*)    analyst   -   1   -        *    (ARG0*)            *     -
+bn/abc/00/abc_0056   0    1          say   VBP          (VP*         say  01   1   -        *       (V*)            *     -
+bn/abc/00/abc_0056   0    2    travelers   NNS   (SBAR(S(NP*)         -    -   -   -        *    (ARG1*        (ARG0*)    -
+bn/abc/00/abc_0056   0    3       should    MD          (VP*          -    -   -   -        *         *    (ARGM-MOD*)    -
+bn/abc/00/abc_0056   0    4        still    RB        (ADVP*)         -    -   -   -        *         *    (ARGM-TMP*)    -
+bn/abc/00/abc_0056   0    5     consider    VB          (VP*    consider  01   1   -        *         *           (V*)    -
+bn/abc/00/abc_0056   0    6        today    NN        (S(NP*)      today   -   2   -    (DATE)        *        (ARG1*    (1)
+bn/abc/00/abc_0056   0    7           an    DT          (NP*          -    -   -   -        *         *             *     -
+bn/abc/00/abc_0056   0    8        early    JJ             *          -    -   -   -        *         *             *     -
+bn/abc/00/abc_0056   0    9    Christmas   NNP             *          -    -   -   -    (DATE)        *             *     -
+bn/abc/00/abc_0056   0   10      present    NN       *)))))))    present   -   2   -        *         *)            *)    -
+bn/abc/00/abc_0056   0   11            .     .            *))         -    -   -   -        *         *             *     -
+
+bn/abc/00/abc_0056   0    0     Anybody    NN     (TOP(S(NP(NP*)         -    -   -   -        *      (ARG0*)            *         *            *   (ARG1*             *     -
+bn/abc/00/abc_0056   0    1        that   WDT       (SBAR(WHNP*)         -    -   -   -        *    (R-ARG0*)            *         *            *        *             *     -
+bn/abc/00/abc_0056   0    2      thinks   VBZ            (S(VP*       think  01   1   -        *         (V*)            *         *            *        *             *     -
+bn/abc/00/abc_0056   0    3        this    DT       (SBAR(S(NP*)         -    -   -   -        *      (ARG1*        (ARG1*)        *            *        *             *    (8)
+bn/abc/00/abc_0056   0    4        will    MD              (VP*          -    -   -   -        *           *    (ARGM-MOD*)        *            *        *             *     -
+bn/abc/00/abc_0056   0    5          be    VB              (VP*          be  01   1   -        *           *           (V*)        *            *        *             *     -
+bn/abc/00/abc_0056   0    6         the    DT           (NP(NP*          -    -   -   -        *           *        (ARG2*         *       (ARG2*        *             *     -
+bn/abc/00/abc_0056   0    7         way    NN                 *)        way   -   1   -        *           *             *         *            *)       *             *     -
+bn/abc/00/abc_0056   0    8        that   WDT     (SBAR(WHADVP*)         -    -   -   -        *           *             *         *     (R-ARG2*)       *             *     -
+bn/abc/00/abc_0056   0    9         air    NN            (S(NP*         air   -   4   -        *           *             *    (ARG1*)      (ARG1*        *             *     -
+bn/abc/00/abc_0056   0   10      travel    NN                 *)     travel  01   2   -        *           *             *       (V*)           *)       *             *     -
+bn/abc/00/abc_0056   0   11          is   VBZ              (VP*          be  01   1   -        *           *             *         *          (V*)       *             *     -
+bn/abc/00/abc_0056   0   12     through    IN           (PP(PP*          -    -   -   -        *           *             *         *   (ARGM-TMP*        *             *     -
+bn/abc/00/abc_0056   0   13         the    DT           (NP(NP*          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   14        rest    NN                 *)       rest   -   1   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   15          of    IN              (PP*          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   16         the    DT              (NP*          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   17    holidays   NNS              *))))         -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   18         and    CC                 *          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   19        into    IN              (PP*          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   20         the    DT              (NP*          -    -   -   -   (DATE*           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   21        year    NN                 *          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   22       2001     CD   *)))))))))))))))         -    -   -   -        *)          *)            *)        *            *)       *)            *     -
+bn/abc/00/abc_0056   0   23         are   VBP              (VP*          be  01   5   -        *           *             *         *            *      (V*)            *     -
+bn/abc/00/abc_0056   0   24          in    IN              (PP*          -    -   -   -        *           *             *         *            *   (ARG2*             *     -
+bn/abc/00/abc_0056   0   25         for    IN              (PP*          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   26           a    DT              (NP*          -    -   -   -        *           *             *         *            *        *             *     -
+bn/abc/00/abc_0056   0   27        real    JJ                 *          -    -   -   -        *           *             *         *            *        *    (ARGM-ADJ*)    -
+bn/abc/00/abc_0056   0   28    surprise    NN              *))))   surprise  01   2   -        *           *             *         *            *        *)          (V*)    -
+bn/abc/00/abc_0056   0   29           .     .                *))         -    -   -   -        *           *             *         *            *        *             *     -
+
+bn/abc/00/abc_0056   0    0       This    DT    (TOP(S(NP*)      -    -   -   -   *       (ARG1*)            *    (8)
+bn/abc/00/abc_0056   0    1         is   VBZ          (VP*       be  01   1   -   *          (V*)            *     -
+bn/abc/00/abc_0056   0    2        not    RB        (ADVP*       -    -   -   -   *   (ARGM-EXT*             *     -
+bn/abc/00/abc_0056   0    3         at    RB             *       -    -   -   -   *            *             *     -
+bn/abc/00/abc_0056   0    4        all    RB             *)      -    -   -   -   *            *)            *     -
+bn/abc/00/abc_0056   0    5        the    DT       (NP(NP*       -    -   -   -   *       (ARG2*        (ARG2*     -
+bn/abc/00/abc_0056   0    6        way    NN             *)     way   -   3   -   *            *             *)    -
+bn/abc/00/abc_0056   0    7     things   NNS   (SBAR(S(NP*)   thing   -   1   -   *            *        (ARG1*)    -
+bn/abc/00/abc_0056   0    8    usually    RB        (ADVP*)      -    -   -   -   *            *    (ARGM-ADV*)    -
+bn/abc/00/abc_0056   0    9        are   VBP      (VP*)))))      be  01   1   -   *            *)          (V*)    -
+bn/abc/00/abc_0056   0   10          .     .            *))      -    -   -   -   *            *             *     -
+
+bn/abc/00/abc_0056   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0    0        Which   WDT   (TOP(SBAR(WHNP*)        -    -   -   -            *        (ARG0*)     *             *   -
+bn/abc/00/abc_0056   0    1          may    MD            (S(VP*         -    -   -   -            *    (ARGM-MOD*)     *             *   -
+bn/abc/00/abc_0056   0    2      explain    VB              (VP*    explain  01   2   -            *           (V*)     *             *   -
+bn/abc/00/abc_0056   0    3          why   WRB     (SBAR(WHADVP*)        -    -   -   -            *        (ARG1*      *    (ARGM-CAU*)  -
+bn/abc/00/abc_0056   0    4           so    RB  (S(NP(ADJP(ADJP*         -    -   -   -            *             *      *        (ARG0*   -
+bn/abc/00/abc_0056   0    5         many    JJ                 *)        -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0    6            ,     ,                 *         -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0    7       almost    RB              (QP*         -    -   -   -   (CARDINAL*             *      *             *   -
+bn/abc/00/abc_0056   0    8          45     CD                 *         -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0    9      million    CD                *))        -    -   -   -            *)            *      *             *   -
+bn/abc/00/abc_0056   0   10       people   NNS                 *)    people   -   1   -            *             *      *             *)  -
+bn/abc/00/abc_0056   0   11            ,     ,                 *         -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0   12          are   VBP              (VP*         be  03   -   -            *             *    (V*)            *   -
+bn/abc/00/abc_0056   0   13    traveling   VBG              (VP*     travel  01   1   -            *             *      *           (V*)  -
+bn/abc/00/abc_0056   0   14           by    IN              (PP*         -    -   -   -            *             *      *    (ARGM-MNR*   -
+bn/abc/00/abc_0056   0   15          car    NN             (NP*))       car   -   2   -            *             *      *             *)  -
+bn/abc/00/abc_0056   0   16         this    DT              (NP*         -    -   -   -       (DATE*             *      *    (ARGM-TMP*   -
+bn/abc/00/abc_0056   0   17      weekend    NN                 *)        -    -   -   -            *)            *      *             *)  -
+bn/abc/00/abc_0056   0   18            ,     ,                 *         -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0   19           up    RB            (ADVP*         -    -   -   -            *             *      *    (ARGM-ADV*   -
+bn/abc/00/abc_0056   0   20      sharply    RB            (ADVP*)        -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0   21         from    IN              (PP*         -    -   -   -            *             *      *             *   -
+bn/abc/00/abc_0056   0   22         last    JJ              (NP*         -    -   -   -       (DATE*             *      *             *   -
+bn/abc/00/abc_0056   0   23         year    NN        *))))))))))        -    -   -   -            *)            *)     *             *)  -
+bn/abc/00/abc_0056   0   24            .     .                *))        -    -   -   -            *             *      *             *   -
+
+bn/abc/00/abc_0056   0   0         And    CC  (TOP(S*         -    -   -   -   *      *    (ARGM-DIS*)  -
+bn/abc/00/abc_0056   0   1         few    JJ     (NP*         -    -   -   -   *      *        (ARG1*   -
+bn/abc/00/abc_0056   0   2    problems   NNS        *)   problem   -   1   -   *      *             *)  -
+bn/abc/00/abc_0056   0   3         are   VBP     (VP*         be  03   -   -   *    (V*)            *   -
+bn/abc/00/abc_0056   0   4    reported   VBN    (VP*))    report  01   1   -   *      *           (V*)  -
+bn/abc/00/abc_0056   0   5           .     .       *))        -    -   -   -   *      *             *   -
+
+bn/abc/00/abc_0056   0   0       All   DT   (TOP(FRAG(NP*)  -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1    aboard   RB          (ADVP*)  -   -   -   -   *   -
+bn/abc/00/abc_0056   0   2         .    .              *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0   0        Amtrak   NNP    (TOP(S(NP*)       -    -   -   -    (ORG)     *     (ARG1*)       (ARG0*)   (3)
+bn/abc/00/abc_0056   0   1            is   VBZ          (VP*        be  03   -   -       *    (V*)         *             *     -
+bn/abc/00/abc_0056   0   2      expected   VBN          (VP*    expect  01   1   -       *      *        (V*)            *     -
+bn/abc/00/abc_0056   0   3            to    TO        (S(VP*        -    -   -   -       *      *   (C-ARG1*             *     -
+bn/abc/00/abc_0056   0   4          have    VB          (VP*      have  03   5   -       *      *          *           (V*)    -
+bn/abc/00/abc_0056   0   5          more   JJR          (NP*        -    -   -   -       *      *          *        (ARG1*     -
+bn/abc/00/abc_0056   0   6    passengers   NNS             *)       -    -   -   -       *      *          *             *)    -
+bn/abc/00/abc_0056   0   7           too    RB   (ADVP*))))))       -    -   -   -       *      *          *)   (ARGM-DIS*)    -
+bn/abc/00/abc_0056   0   8             .     .            *))       -    -   -   -       *      *          *             *     -
+
+bn/abc/00/abc_0056   0    0          I   PRP           (TOP(S(NP*)      -    -   -   -   *       (ARG0*)    -
+bn/abc/00/abc_0056   0    1       take   VBP                 (VP*     take  01   8   -   *          (V*)   (6)
+bn/abc/00/abc_0056   0    2        the    DT                 (NP*       -    -   -   -   *       (ARG1*     -
+bn/abc/00/abc_0056   0    3      train    NN                    *)   train   -   1   -   *            *)    -
+bn/abc/00/abc_0056   0    4    because    IN               (SBAR*       -    -   -   -   *   (ARGM-CAU*     -
+bn/abc/00/abc_0056   0    5         it   PRP               (S(NP*)      -    -   -   -   *            *    (6)
+bn/abc/00/abc_0056   0    6         's   VBZ                 (VP*       be   -   1   -   *            *     -
+bn/abc/00/abc_0056   0    7          a    DT  (ADJP(ADJP(ADVP(NP*       -    -   -   -   *            *     -
+bn/abc/00/abc_0056   0    8        lot    NN                    *)     lot   -   1   -   *            *     -
+bn/abc/00/abc_0056   0    9       more   RBR                    *)      -    -   -   -   *            *     -
+bn/abc/00/abc_0056   0   10       sane    JJ                    *)      -    -   -   -   *            *     -
+bn/abc/00/abc_0056   0   11       than    IN                 (PP*       -    -   -   -   *            *     -
+bn/abc/00/abc_0056   0   12     flying    NN           (NP*)))))))      -    -   -   -   *            *)    -
+bn/abc/00/abc_0056   0   13          .     .                   *))      -    -   -   -   *            *     -
+
+bn/abc/00/abc_0056   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/abc/00/abc_0056   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/abc/00/abc_0056   0    0           The    DT         (TOP(S(NP*         -    -      -   -            *      *   (ARG0*           *             *   (3
+bn/abc/00/abc_0056   0    1          rail    NN                  *         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0    2       carrier    NN                  *)   carrier   -      1   -            *      *        *)          *             *    3)
+bn/abc/00/abc_0056   0    3            is   VBZ               (VP*         be  03      -   -            *    (V*)       *           *             *    -
+bn/abc/00/abc_0056   0    4        adding   VBG               (VP*        add  02      1   -            *      *      (V*)          *             *    -
+bn/abc/00/abc_0056   0    5       16,000     CD            (NP(NP*         -    -      -   -    (CARDINAL)     *   (ARG1*           *             *    -
+bn/abc/00/abc_0056   0    6         seats   NNS                  *)      seat   -      1   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0    7            in    IN               (PP*         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0    8           the    DT            (NP(NP*         -    -      -   -            *      *        *           *             *   (7
+bn/abc/00/abc_0056   0    9     Northeast   NNP                  *)        -    -      -   -         (LOC)     *        *           *             *    -
+bn/abc/00/abc_0056   0   10         alone    RB           (ADVP*)))        -    -      -   -            *      *        *           *             *    7)
+bn/abc/00/abc_0056   0   11             ,     ,                  *         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   12          many    JJ            (NP(NP*)        -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   13           for    IN               (PP*         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   14    passengers   NNS            (NP(NP*)        -    -      -   -            *      *        *      (ARG0*)       (ARG0*)   -
+bn/abc/00/abc_0056   0   15           who    WP        (SBAR(WHNP*)        -    -      -   -            *      *        *    (R-ARG0*)     (R-ARG0*)   -
+bn/abc/00/abc_0056   0   16       decided   VBD             (S(VP*     decide  01      1   -            *      *        *         (V*)            *    -
+bn/abc/00/abc_0056   0   17           not    RB                (S*         -    -      -   -            *      *        *      (ARG1*    (ARGM-NEG*)   -
+bn/abc/00/abc_0056   0   18            to    TO               (VP*         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   19          take    VB               (VP*       take  01   14.1   -            *      *        *           *           (V*)   -
+bn/abc/00/abc_0056   0   20             a    DT            (NP(NP*         -    -      -   -            *      *        *           *        (ARG1*    -
+bn/abc/00/abc_0056   0   21        chance    NN                  *)    chance   -      3   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   22            on    IN               (PP*         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   23           the    DT            (NP(NP*         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   24       weather    NN                  *)        -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   25            or    CC                  *         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   26           the    DT               (NP*         -    -      -   -            *      *        *           *             *    -
+bn/abc/00/abc_0056   0   27      airlines   NNS   *))))))))))))))))   airline   -      1   -            *      *        *)          *)            *)   -
+bn/abc/00/abc_0056   0   28             .     .                 *))        -    -      -   -            *      *        *           *             *    -
+
+bn/abc/00/abc_0056   0   0         Bob   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*   (12
+bn/abc/00/abc_0056   0   1    Jamieson   NNP              *)  -   -   -   -          *)   12)
+bn/abc/00/abc_0056   0   2           ,     ,              *   -   -   -   -          *     -
+bn/abc/00/abc_0056   0   3         ABC   NNP           (NP*   -   -   -   -      (ORG*   (10
+bn/abc/00/abc_0056   0   4        News   NNP              *)  -   -   -   -          *)   10)
+bn/abc/00/abc_0056   0   5           ,     ,              *   -   -   -   -          *     -
+bn/abc/00/abc_0056   0   6         New   NNP           (NP*   -   -   -   -      (GPE*    (5
+bn/abc/00/abc_0056   0   7        York   NNP              *)  -   -   -   -          *)    5)
+bn/abc/00/abc_0056   0   8           .     .             *))  -   -   -   -          *     -
+
+bn/abc/00/abc_0056   0   0          We   PRP     (TOP(S(NP(NP*)      -    -   -   -   *   (ARG0*        *         *      *   -
+bn/abc/00/abc_0056   0   1         all    DT             (NP*))      -    -   -   -   *        *)       *         *      *   -
+bn/abc/00/abc_0056   0   2        know   VBP              (VP*     know  01   1   -   *      (V*)       *         *      *   -
+bn/abc/00/abc_0056   0   3          it   PRP   (SBAR(S(NP(NP*))      -    -   -   -   *   (ARG1*        *         *      *   -
+bn/abc/00/abc_0056   0   4        pays   VBZ              (VP*      pay  04   3   -   *        *      (V*)        *      *   -
+bn/abc/00/abc_0056   0   5          to    TO            (S(VP*       -    -   -   -   *        *   (ARG1*         *      *   -
+bn/abc/00/abc_0056   0   6        keep    VB              (VP*     keep  02   1   -   *        *        *       (V*)     *   -
+bn/abc/00/abc_0056   0   7    checking   VBG    (S(VP*)))))))))   check  01   1   -   *        *)       *)   (ARG1*)   (V*)  -
+bn/abc/00/abc_0056   0   8           .     .                *))      -    -   -   -   *        *        *         *      *   -
+
+bn/abc/00/abc_0056   0    0    abcnews.com   ADD      (TOP(S(NP*)        -    -   -   -        *    (ARG0*)           *     -
+bn/abc/00/abc_0056   0    1            has   VBZ            (VP*       have  03   2   -        *       (V*)           *     -
+bn/abc/00/abc_0056   0    2             up    IN  (NP(NP(NML(PP*         -    -   -   -        *    (ARG1*            *     -
+bn/abc/00/abc_0056   0    3             to    IN            (PP*         -    -   -   -        *         *            *     -
+bn/abc/00/abc_0056   0    4            the    DT            (NP*         -    -   -   -   (TIME*         *            *     -
+bn/abc/00/abc_0056   0    5         minute    NN            *))))    minute   -   2   -        *)        *            *     -
+bn/abc/00/abc_0056   0    6      reporting    NN               *)        -    -   -   -        *         *            *     -
+bn/abc/00/abc_0056   0    7             on    IN            (PP*         -    -   -   -        *         *            *     -
+bn/abc/00/abc_0056   0    8         travel    NN         (NP(NP*)    travel  01   1   -        *         *          (V*)    -
+bn/abc/00/abc_0056   0    9             in    IN            (PP*         -    -   -   -        *         *   (ARGM-LOC*     -
+bn/abc/00/abc_0056   0   10            the    DT            (NP*         -    -   -   -        *         *            *   (11
+bn/abc/00/abc_0056   0   11        country    NN          *))))))   country   -   3   -        *         *)           *)   11)
+bn/abc/00/abc_0056   0   12              .     .              *))        -    -   -   -        *         *            *     -
+
+#end document

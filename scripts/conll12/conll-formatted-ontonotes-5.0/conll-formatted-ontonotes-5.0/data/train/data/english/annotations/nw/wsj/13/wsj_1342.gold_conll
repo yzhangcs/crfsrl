@@ -1,0 +1,57 @@
+#begin document (nw/wsj/13/wsj_1342); part 000
+nw/wsj/13/wsj_1342   0    0     Annualized     JJ  (TOP(NP(NP(NP*            -    -   -   -       *             *       (ARG1*   -
+nw/wsj/13/wsj_1342   0    1       interest     NN               *      interest   -   4   -       *             *            *   -
+nw/wsj/13/wsj_1342   0    2          rates    NNS               *)         rate   -   1   -       *             *            *)  -
+nw/wsj/13/wsj_1342   0    3             on     IN            (PP*            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0    4        certain     JJ            (NP*            -    -   -   -       *    (ARGM-ADJ*)           *   -
+nw/wsj/13/wsj_1342   0    5    investments    NNS             *)))   investment  01   3   -       *           (V*)           *   -
+nw/wsj/13/wsj_1342   0    6             as     IN          (SBAR*            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0    7       reported    VBN          (S(VP*        report  01   1   -       *             *          (V*)  -
+nw/wsj/13/wsj_1342   0    8             by     IN            (PP*            -    -   -   -       *             *       (ARG0*   -
+nw/wsj/13/wsj_1342   0    9            the     DT            (NP*            -    -   -   -   (ORG*             *            *   -
+nw/wsj/13/wsj_1342   0   10        Federal    NNP               *            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0   11        Reserve    NNP               *            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0   12          Board    NNP              *))           -    -   -   -       *)            *            *)  -
+nw/wsj/13/wsj_1342   0   13             on     IN            (PP*            -    -   -   -       *             *   (ARGM-MNR*   -
+nw/wsj/13/wsj_1342   0   14              a     DT            (NP*            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0   15         weekly     JJ           (NML*            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0   16             -    HYPH               *            -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0   17        average     NN               *)           -    -   -   -       *             *            *   -
+nw/wsj/13/wsj_1342   0   18          basis     NN           *)))))        basis   -   1   -       *             *            *)  -
+nw/wsj/13/wsj_1342   0   19              :      :              *))           -    -   -   -       *             *            *   -
+
+nw/wsj/13/wsj_1342   0   0             a   LS   (TOP(FRAG(LST*)     -   -   -   -   *   -
+nw/wsj/13/wsj_1342   0   1            -     :                *      -   -   -   -   *   -
+nw/wsj/13/wsj_1342   0   2    Discounted   JJ             (NP*      -   -   -   -   *   -
+nw/wsj/13/wsj_1342   0   3          rate   NN                *    rate  -   1   -   *   -
+nw/wsj/13/wsj_1342   0   4             .    .              *)))     -   -   -   -   *   -
+
+nw/wsj/13/wsj_1342   0    0            b    LS   (TOP(FRAG(LST*)    -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0    1           -      :                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0    2         Week    NN          (NP(NP*)    -    -   -   -   (DATE*       (ARG1*)  -
+nw/wsj/13/wsj_1342   0    3        ended   VBN             (VP*    end  01   1   -        *          (V*)  -
+nw/wsj/13/wsj_1342   0    4    Wednesday   NNP          (NP(NP*     -    -   -   -        *   (ARGM-TMP*   -
+nw/wsj/13/wsj_1342   0    5            ,     ,                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0    6      October   NNP                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0    7          18     CD                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0    8            ,     ,                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0    9        1989     CD                *)    -    -   -   -        *)           *   -
+nw/wsj/13/wsj_1342   0   10          and    CC                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0   11    Wednesday   NNP             (NP*     -    -   -   -   (DATE*            *   -
+nw/wsj/13/wsj_1342   0   12      October   NNP                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0   13          11     CD                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0   14            ,     ,                *     -    -   -   -        *            *   -
+nw/wsj/13/wsj_1342   0   15        1989     CD             *))))    -    -   -   -        *)           *)  -
+nw/wsj/13/wsj_1342   0   16            .     .               *))    -    -   -   -        *            *   -
+
+nw/wsj/13/wsj_1342   0   0           c    LS   (TOP(FRAG(LST*)         -    -   -   -   *         *   -
+nw/wsj/13/wsj_1342   0   1          -      :                *          -    -   -   -   *         *   -
+nw/wsj/13/wsj_1342   0   2      Yields   NNS          (NP(NP*)      yield   -   2   -   *    (ARG1*)  -
+nw/wsj/13/wsj_1342   0   3           ,     ,                *          -    -   -   -   *         *   -
+nw/wsj/13/wsj_1342   0   4    adjusted   VBN             (VP*      adjust  01   1   -   *       (V*)  -
+nw/wsj/13/wsj_1342   0   5         for    IN             (PP*          -    -   -   -   *    (ARG4*   -
+nw/wsj/13/wsj_1342   0   6    constant    JJ             (NP*          -    -   -   -   *         *   -
+nw/wsj/13/wsj_1342   0   7    maturity    NN             *))))   maturity   -   3   -   *         *)  -
+nw/wsj/13/wsj_1342   0   8           .     .               *))         -    -   -   -   *         *   -
+
+#end document

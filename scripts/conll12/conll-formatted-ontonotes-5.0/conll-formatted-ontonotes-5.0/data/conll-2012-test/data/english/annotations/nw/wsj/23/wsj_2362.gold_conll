@@ -1,0 +1,868 @@
+#begin document (nw/wsj/23/wsj_2362); part 000
+nw/wsj/23/wsj_2362   0    0          British    NNP  (TOP(S(NP(NP*           -    -   -   -        (ORG*   (ARG0*            *        *             *      (3|(8
+nw/wsj/23/wsj_2362   0    1        Aerospace    NNP              *           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0    2              PLC    NNP              *)          -    -   -   -            *)       *            *        *             *          3)
+nw/wsj/23/wsj_2362   0    3              and     CC              *           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0    4           France    NNP        (NP(NP*           -    -   -   -         (GPE)       *            *        *             *    (10|(11)
+nw/wsj/23/wsj_2362   0    5               's    POS              *)          -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0    6          Thomson    NNP              *           -    -   -   -        (ORG*        *            *        *             *          -
+nw/wsj/23/wsj_2362   0    7               -    HYPH              *           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0    8              CSF    NNP              *           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0    9             S.A.    NNP             *))          -    -   -   -            *)       *)           *        *             *      10)|8)
+nw/wsj/23/wsj_2362   0   10             said    VBD           (VP*          say  01   1   -            *      (V*)           *        *             *          -
+nw/wsj/23/wsj_2362   0   11             they    PRP    (SBAR(S(NP*)          -    -   -   -            *   (ARG1*       (ARG1*)       *        (ARG0*)        (8)
+nw/wsj/23/wsj_2362   0   12              are    VBP           (VP*           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   13          nearing    VBG           (VP*         near  01   1   -            *        *          (V*)       *             *          -
+nw/wsj/23/wsj_2362   0   14               an     DT           (NP*           -    -   -   -            *        *       (ARG2*        *             *          -
+nw/wsj/23/wsj_2362   0   15        agreement     NN              *    agreement   -   1   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   16               to     TO         (S(VP*           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   17            merge     VB           (VP*        merge  01   1   -            *        *            *      (V*)            *        (13)
+nw/wsj/23/wsj_2362   0   18            their   PRP$           (NP*           -    -   -   -            *        *            *   (ARG1*             *         (8)
+nw/wsj/23/wsj_2362   0   19           guided    VBN          (NML*           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   20               -    HYPH              *           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   21          missile     NN              *)          -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   22        divisions    NNS          *)))))    division   -   5   -            *        *            *)       *)            *          -
+nw/wsj/23/wsj_2362   0   23                ,      ,              *           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   24          greatly     RB       (S(ADVP*)          -    -   -   -            *        *   (ARGM-ADV*        *    (ARGM-MNR*)         -
+nw/wsj/23/wsj_2362   0   25        expanding    VBG           (VP*       expand  01   1   -            *        *            *        *           (V*)         -
+nw/wsj/23/wsj_2362   0   26    collaboration     NN        (NP(NP*)          -    -   -   -            *        *            *        *        (ARG1*          -
+nw/wsj/23/wsj_2362   0   27          between     IN           (PP*           -    -   -   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   28              the     DT           (NP*           -    -   -   -            *        *            *        *             *         (8
+nw/wsj/23/wsj_2362   0   29              two     CD              *           -    -   -   -    (CARDINAL)       *            *        *             *          -
+nw/wsj/23/wsj_2362   0   30          defense     NN              *      defense   -   7   -            *        *            *        *             *          -
+nw/wsj/23/wsj_2362   0   31      contractors    NNS     *))))))))))          -    -   -   -            *        *)           *)       *             *)         8)
+nw/wsj/23/wsj_2362   0   32                .      .             *))          -    -   -   -            *        *            *        *             *          -
+
+nw/wsj/23/wsj_2362   0    0             The      DT    (TOP(S(NP(NP*         -    -   -   -            *        (ARG1*             *        (ARG1*   (13
+nw/wsj/23/wsj_2362   0    1             50       CD             (QP*         -    -   -   -   (CARDINAL*             *             *             *     -
+nw/wsj/23/wsj_2362   0    2              -     HYPH                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0    3             50       NN                *)        -    -   -   -            *)            *             *             *     -
+nw/wsj/23/wsj_2362   0    4           joint      JJ                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0    5         venture      NN                *)   venture   -   3   -            *             *)            *             *     -
+nw/wsj/23/wsj_2362   0    6               ,       ,                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0    7           which     WDT      (SBAR(WHNP*)        -    -   -   -            *      (R-ARG1*)            *             *     -
+nw/wsj/23/wsj_2362   0    8             may      MD           (S(VP*         -    -   -   -            *    (ARGM-MOD*)            *             *     -
+nw/wsj/23/wsj_2362   0    9              be      VB             (VP*         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   10          dubbed     VBN             (VP*        dub  01   1   -            *           (V*)            *             *     -
+nw/wsj/23/wsj_2362   0   11    Eurodynamics    NNPS     (S(NP*)))))))        -    -   -   -         (ORG)       (ARG2*)            *             *     -
+nw/wsj/23/wsj_2362   0   12               ,       ,                *)        -    -   -   -            *             *             *             *)   13)
+nw/wsj/23/wsj_2362   0   13           would      MD          (VP(VP*         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   14            have      VB             (VP*       have   -   2   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   15        combined      JJ          (NP(NP*         -    -   -   -            *             *    (ARGM-ADJ*)            *     -
+nw/wsj/23/wsj_2362   0   16          annual      JJ                *         -    -   -   -        (DATE)            *    (ARGM-TMP*)            *     -
+nw/wsj/23/wsj_2362   0   17           sales     NNS                *)      sale  01   1   -            *             *           (V*)            *     -
+nw/wsj/23/wsj_2362   0   18              of      IN             (PP*         -    -   -   -            *             *        (ARG3*             *     -
+nw/wsj/23/wsj_2362   0   19              at      RB  (NP(NP(QP(ADVP*         -    -   -   -      (MONEY*             *             *             *     -
+nw/wsj/23/wsj_2362   0   20           least     RBS                *)        -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   21               #       $                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   22            1.4       CD                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   23         billion      CD               *))        -    -   -   -            *)            *             *             *     -
+nw/wsj/23/wsj_2362   0   24          -LRB-   -LRB-                 *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   25               $       $          (NP(QP*         -    -   -   -      (MONEY*             *             *             *     -
+nw/wsj/23/wsj_2362   0   26           2.17       CD                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   27         billion      CD               *))        -    -   -   -            *)            *             *             *     -
+nw/wsj/23/wsj_2362   0   28          -RRB-   -RRB-             *)))))        -    -   -   -            *             *             *)            *     -
+nw/wsj/23/wsj_2362   0   29             and      CC                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   30           would      MD             (VP*         -    -   -   -            *             *             *    (ARGM-MOD*)    -
+nw/wsj/23/wsj_2362   0   31              be      VB             (VP*         be  01   1   -            *             *             *           (V*)    -
+nw/wsj/23/wsj_2362   0   32           among      IN             (PP*         -    -   -   -            *             *             *        (ARG2*     -
+nw/wsj/23/wsj_2362   0   33             the      DT          (NP(NP*         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   34           world      NN                *      world   -   1   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   35              's     POS                *)        -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   36         largest     JJS                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   37         missile      NN                *         -    -   -   -            *             *             *             *     -
+nw/wsj/23/wsj_2362   0   38          makers     NNS            *)))))     maker   -   1   -            *             *             *             *)    -
+nw/wsj/23/wsj_2362   0   39               .       .               *))        -    -   -   -            *             *             *             *     -
+
+nw/wsj/23/wsj_2362   0    0           After    IN  (TOP(S(PP*            -    -   -   -        *      *   (ARGM-TMP*        *            *     -
+nw/wsj/23/wsj_2362   0    1             two    CD     (NP(NP*            -    -   -   -   (DATE*      *            *        *            *     -
+nw/wsj/23/wsj_2362   0    2           years   NNS           *)           -    -   -   -        *)     *            *        *            *     -
+nw/wsj/23/wsj_2362   0    3              of    IN        (PP*            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0    4           talks   NNS     (NP*))))         talk  01   3   -        *    (V*)           *)       *            *     -
+nw/wsj/23/wsj_2362   0    5               ,     ,           *            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0    6           plans   NNS     (NP(NP*)         plan   -   2   -        *      *       (ARG1*        *            *     -
+nw/wsj/23/wsj_2362   0    7             for    IN        (PP*            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0    8             the    DT        (NP*            -    -   -   -        *      *            *        *            *   (13
+nw/wsj/23/wsj_2362   0    9         venture    NN         *)))      venture   -   3   -        *      *            *)       *            *    13)
+nw/wsj/23/wsj_2362   0   10             are   VBP        (VP*            be  01   1   -        *      *          (V*)       *            *     -
+nw/wsj/23/wsj_2362   0   11    sufficiently    RB      (ADJP*            -    -   -   -        *      *       (ARG2*        *            *     -
+nw/wsj/23/wsj_2362   0   12        advanced    JJ           *            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0   13             for    IN      (SBAR*            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0   14             the    DT      (S(NP*            -    -   -   -        *      *            *   (ARG0*            *    (8
+nw/wsj/23/wsj_2362   0   15       companies   NNS           *)      company   -   1   -        *      *            *        *)           *     8)
+nw/wsj/23/wsj_2362   0   16              to    TO        (VP*            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0   17            seek    VB        (VP*          seek  01   1   -        *      *            *      (V*)           *     -
+nw/wsj/23/wsj_2362   0   18          French    JJ   (NP(ADJP*            -    -   -   -    (NORP)     *            *   (ARG1*   (ARGM-ADJ*     -
+nw/wsj/23/wsj_2362   0   19             and    CC           *            -    -   -   -        *      *            *        *            *     -
+nw/wsj/23/wsj_2362   0   20         British    JJ           *)           -    -   -   -    (NORP)     *            *        *            *)    -
+nw/wsj/23/wsj_2362   0   21      government    NN           *    government   -   1   -        *      *            *        *       (ARG0*)    -
+nw/wsj/23/wsj_2362   0   22       clearance    NN     *)))))))    clearance  01   2   -        *      *            *)       *)         (V*)    -
+nw/wsj/23/wsj_2362   0   23               .     .          *))           -    -   -   -        *      *            *        *            *     -
+
+nw/wsj/23/wsj_2362   0    0          The     DT  (TOP(S(NP*           -    -   -   -        *   (ARG0*   (8
+nw/wsj/23/wsj_2362   0    1    companies    NNS           *)     company   -   1   -        *        *)   8)
+nw/wsj/23/wsj_2362   0    2         hope    VBP        (VP*         hope  01   1   -        *      (V*)   -
+nw/wsj/23/wsj_2362   0    3          for     IN        (PP*           -    -   -   -        *   (ARG1*    -
+nw/wsj/23/wsj_2362   0    4            a     DT     (NP(NP*           -    -   -   -        *        *    -
+nw/wsj/23/wsj_2362   0    5        final     JJ           *           -    -   -   -        *        *    -
+nw/wsj/23/wsj_2362   0    6    agreement     NN           *)   agreement   -   1   -        *        *    -
+nw/wsj/23/wsj_2362   0    7           by     IN        (PP*           -    -   -   -        *        *    -
+nw/wsj/23/wsj_2362   0    8         year     NN        (NP*           -    -   -   -   (DATE*        *    -
+nw/wsj/23/wsj_2362   0    9           -    HYPH           *           -    -   -   -        *        *    -
+nw/wsj/23/wsj_2362   0   10          end     NN       *)))))          -    -   -   -        *)       *)   -
+nw/wsj/23/wsj_2362   0   11            .      .          *))          -    -   -   -        *        *    -
+
+nw/wsj/23/wsj_2362   0    0            The    DT  (TOP(S(NP*            -    -   -   -            *        (ARG0*             *        (ARG0*   (ARG0*   (13
+nw/wsj/23/wsj_2362   0    1        venture    NN           *)      venture   -   3   -            *             *)            *             *)       *)   13)
+nw/wsj/23/wsj_2362   0    2          would    MD        (VP*            -    -   -   -            *    (ARGM-MOD*)            *    (ARGM-MOD*)       *     -
+nw/wsj/23/wsj_2362   0    3     strengthen    VB     (VP(VP*    strengthen  01   1   -            *           (V*)            *             *        *     -
+nw/wsj/23/wsj_2362   0    4            the    DT     (NP(NP*            -    -   -   -            *        (ARG1*             *             *        *     -
+nw/wsj/23/wsj_2362   0    5        rapidly    RB      (ADJP*            -    -   -   -            *             *    (ARGM-MNR*)            *        *     -
+nw/wsj/23/wsj_2362   0    6        growing   VBG           *)         grow  01   4   -            *             *           (V*)            *        *     -
+nw/wsj/23/wsj_2362   0    7           ties   NNS           *)          tie   -   2   -            *             *        (ARG1*)            *        *     -
+nw/wsj/23/wsj_2362   0    8        between    IN        (PP*            -    -   -   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0    9            the    DT        (NP*            -    -   -   -            *             *             *             *        *    (8
+nw/wsj/23/wsj_2362   0   10            two    CD           *            -    -   -   -    (CARDINAL)            *             *             *        *     -
+nw/wsj/23/wsj_2362   0   11      companies   NNS        *))))      company   -   1   -            *             *)            *             *        *     8)
+nw/wsj/23/wsj_2362   0   12              ,     ,           *            -    -   -   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   13            and    CC           *            -    -   -   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   14           help    VB        (VP*          help  01   1   -            *             *             *           (V*)       *     -
+nw/wsj/23/wsj_2362   0   15           make    VB        (VP*          make  02   3   -            *             *             *        (ARG1*      (V*)    -
+nw/wsj/23/wsj_2362   0   16           them   PRP      (S(NP*)           -    -   -   -            *             *             *             *   (ARG1*    (8)
+nw/wsj/23/wsj_2362   0   17              a    DT     (NP(NP*            -    -   -   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   18        leading    JJ           *            -    -   -   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   19          force    NN           *)        force   -   3   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   20             in    IN        (PP*            -    -   -   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   21       European    JJ        (NP*            -    -   -   -        (NORP)            *             *             *        *     -
+nw/wsj/23/wsj_2362   0   22        defense    NN           *       defense   -   7   -            *             *             *             *        *     -
+nw/wsj/23/wsj_2362   0   23    contracting    NN    *))))))))           -    -   -   -            *             *             *             *)       *)    -
+nw/wsj/23/wsj_2362   0   24              .     .          *))           -    -   -   -            *             *             *             *        *     -
+
+nw/wsj/23/wsj_2362   0    0              In     IN  (TOP(S(PP*             -    -   -   -        *   (ARGM-TMP*   -
+nw/wsj/23/wsj_2362   0    1          recent     JJ        (NP*             -    -   -   -   (DATE*            *   -
+nw/wsj/23/wsj_2362   0    2          months    NNS          *))         month   -   1   -        *)           *)  -
+nw/wsj/23/wsj_2362   0    3               ,      ,           *             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0    4               a     DT     (NP(NP*             -    -   -   -        *       (ARG0*   -
+nw/wsj/23/wsj_2362   0    5          string     NN           *)        string   -   4   -        *            *   -
+nw/wsj/23/wsj_2362   0    6              of     IN        (PP*             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0    7    cross-border     JJ     (NP(NP*             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0    8         mergers    NNS           *)            -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0    9             and     CC           *             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   10           joint     JJ        (NP*             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   11        ventures    NNS        *))))       venture   -   3   -        *            *)  -
+nw/wsj/23/wsj_2362   0   12            have    VBP        (VP*             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   13        reshaped    VBN        (VP*        reshape  01   1   -        *          (V*)  -
+nw/wsj/23/wsj_2362   0   14             the     DT     (NP(NP*             -    -   -   -        *       (ARG1*   -
+nw/wsj/23/wsj_2362   0   15            once     RB      (ADJP*             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   16              -    HYPH           *             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   17      balkanized    VBN           *)            -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   18           world     NN           *)         world   -   2   -        *            *   -
+nw/wsj/23/wsj_2362   0   19              of     IN        (PP*             -    -   -   -        *            *   -
+nw/wsj/23/wsj_2362   0   20        European     JJ        (NP*             -    -   -   -    (NORP)           *   -
+nw/wsj/23/wsj_2362   0   21            arms    NNS           *            arm   -   2   -        *            *   -
+nw/wsj/23/wsj_2362   0   22     manufacture     NN       *)))))   manufacture   -   1   -        *            *)  -
+nw/wsj/23/wsj_2362   0   23               .      .          *))            -    -   -   -        *            *   -
+
+nw/wsj/23/wsj_2362   0    0        Already     RB   (TOP(S(ADVP*)            -    -   -   -        *    (ARGM-TMP*)       -
+nw/wsj/23/wsj_2362   0    1              ,      ,              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0    2        British    NNP        (NP(NP*             -    -   -   -    (ORG*        (ARG0*    (3|(8
+nw/wsj/23/wsj_2362   0    3      Aerospace    NNP              *)            -    -   -   -        *)            *        3)
+nw/wsj/23/wsj_2362   0    4            and     CC              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0    5         French     JJ  (NP(ADJP(NML*             -    -   -   -    (NORP)            *      (10
+nw/wsj/23/wsj_2362   0    6     government     NN              *)            -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0    7             -    HYPH              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0    8     controlled    VBN              *)            -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0    9        Thomson    NNP              *             -    -   -   -    (ORG*             *        -
+nw/wsj/23/wsj_2362   0   10             -    HYPH              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   11            CSF    NNP             *))            -    -   -   -        *)            *)   10)|8)
+nw/wsj/23/wsj_2362   0   12    collaborate    VBP           (VP*    collaborate  01   1   -        *           (V*)       -
+nw/wsj/23/wsj_2362   0   13             on     IN        (PP(PP*             -    -   -   -        *        (ARG2*        -
+nw/wsj/23/wsj_2362   0   14              a     DT           (NP*             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   15        British     JJ              *             -    -   -   -    (NORP)            *        -
+nw/wsj/23/wsj_2362   0   16        missile     NN              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   17       contract     NN             *))      contract   -   1   -        *             *)       -
+nw/wsj/23/wsj_2362   0   18            and     CC              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   19             on     IN           (PP*             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   20             an     DT           (NP*             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   21            air     NN      (NML(NML*             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   22             -    HYPH              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   23        traffic     NN              *)            -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   24        control     NN              *)       control   -   7   -        *             *        -
+nw/wsj/23/wsj_2362   0   25          radar     NN              *             -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   26         system     NN           *))))            -    -   -   -        *             *        -
+nw/wsj/23/wsj_2362   0   27              .      .             *))            -    -   -   -        *             *        -
+
+nw/wsj/23/wsj_2362   0    0             Just    RB         (TOP(S(NP*          -    -   -   -   (DATE*   (ARGM-TMP*             *         *        *       -
+nw/wsj/23/wsj_2362   0    1             last    JJ                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0    2             week    NN                  *)         -    -   -   -        *)           *)            *         *        *       -
+nw/wsj/23/wsj_2362   0    3             they   PRP               (NP*)         -    -   -   -        *       (ARG0*)            *         *        *      (8)
+nw/wsj/23/wsj_2362   0    4        announced   VBD               (VP*    announce  01   1   -        *          (V*)            *         *        *       -
+nw/wsj/23/wsj_2362   0    5             they   PRP        (SBAR(S(NP*)         -    -   -   -        *       (ARG1*        (ARG0*)   (ARG0*)       *      (8)
+nw/wsj/23/wsj_2362   0    6              may    MD               (VP*          -    -   -   -        *            *    (ARGM-MOD*)        *        *       -
+nw/wsj/23/wsj_2362   0    7             make    VB               (VP*        make   -   1   -        *            *    (ARGM-LVB*)        *        *       -
+nw/wsj/23/wsj_2362   0    8                a    DT               (NP*          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0    9            joint    JJ                  *          -    -   -   -        *            *    (ARGM-MNR*)        *        *       -
+nw/wsj/23/wsj_2362   0   10              bid    NN                  *         bid  01   1   -        *            *           (V*)        *        *       -
+nw/wsj/23/wsj_2362   0   11               to    TO             (S(VP*          -    -   -   -        *            *        (ARG1*         *        *       -
+nw/wsj/23/wsj_2362   0   12              buy    VB               (VP*         buy  01   6   -        *            *             *       (V*)       *       -
+nw/wsj/23/wsj_2362   0   13         Ferranti   NNP            (NP(NP*          -    -   -   -    (ORG*            *             *    (ARG1*        *      (5
+nw/wsj/23/wsj_2362   0   14    International   NNP                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   15           Signal   NNP                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   16              PLC   NNP                  *)         -    -   -   -        *)           *             *         *        *       -
+nw/wsj/23/wsj_2362   0   17                ,     ,                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   18                a    DT            (NP(NP*          -    -   -   -        *            *             *         *   (ARG1*       -
+nw/wsj/23/wsj_2362   0   19          smaller   JJR                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   20          British    JJ                  *          -    -   -   -    (NORP)           *             *         *        *       -
+nw/wsj/23/wsj_2362   0   21          defense    NN                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   22       contractor    NN                  *)         -    -   -   -        *            *             *         *        *)      -
+nw/wsj/23/wsj_2362   0   23           rocked   VBN               (VP*        rock  01   4   -        *            *             *         *      (V*)      -
+nw/wsj/23/wsj_2362   0   24               by    IN               (PP*          -    -   -   -        *            *             *         *   (ARG0*       -
+nw/wsj/23/wsj_2362   0   25          alleged    JJ            (NP(NP*          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   26       accounting    NN                  *          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   27            fraud    NN                  *)         -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   28               at    IN               (PP*          -    -   -   -        *            *             *         *        *       -
+nw/wsj/23/wsj_2362   0   29                a    DT               (NP*          -    -   -   -        *            *             *         *        *      (7
+nw/wsj/23/wsj_2362   0   30             U.S.   NNP                  *          -    -   -   -     (GPE)           *             *         *        *       -
+nw/wsj/23/wsj_2362   0   31             unit    NN   *))))))))))))))))       unit   -   2   -        *            *)            *)        *)       *)   7)|5)
+nw/wsj/23/wsj_2362   0   32                .     .                 *))         -    -   -   -        *            *             *         *        *       -
+
+nw/wsj/23/wsj_2362   0    0              The     DT  (TOP(S(NP(NP*          -    -   -   -       *       (ARG2*       -
+nw/wsj/23/wsj_2362   0    1           sudden     JJ              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0    2          romance     NN              *)         -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0    3               of     IN           (PP*          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0    4          British    NNP     (NP(NP(NP*          -    -   -   -   (ORG*            *   (3|(8
+nw/wsj/23/wsj_2362   0    5        Aerospace    NNP              *)         -    -   -   -       *)           *       3)
+nw/wsj/23/wsj_2362   0    6              and     CC              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0    7          Thomson    NNP           (NP*          -    -   -   -   (ORG*            *     (10
+nw/wsj/23/wsj_2362   0    8               -    HYPH              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0    9              CSF    NNP             *))         -    -   -   -       *)           *      10)
+nw/wsj/23/wsj_2362   0   10              --       :              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   11    traditionally     RB              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   12           bitter     JJ        (NP(NP*          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   13      competitors    NNS              *)         -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   14              for     IN           (PP*          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   15           Middle    NNP   (NP(NML(NML*          -    -   -   -   (LOC*            *       -
+nw/wsj/23/wsj_2362   0   16             East    NNP              *)         -    -   -   -       *)           *       -
+nw/wsj/23/wsj_2362   0   17              and     CC              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   18            Third    NNP          (NML*          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   19            World    NNP             *))         -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   20          weapons    NNS              *      weapon   -   1   -       *            *       -
+nw/wsj/23/wsj_2362   0   21        contracts    NNS            *)))   contract   -   1   -       *            *       -
+nw/wsj/23/wsj_2362   0   22              --       :            *)))         -    -   -   -       *            *)      8)
+nw/wsj/23/wsj_2362   0   23               is    VBZ           (VP*          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   24         stirring    VBG           (VP*        stir  02   2   -       *          (V*)      -
+nw/wsj/23/wsj_2362   0   25      controversy     NN           (NP*)         -    -   -   -       *       (ARG1*)      -
+nw/wsj/23/wsj_2362   0   26               in     IN           (PP*          -    -   -   -       *   (ARGM-LOC*       -
+nw/wsj/23/wsj_2362   0   27          Western    NNP        (NP(NP*          -    -   -   -   (LOC*            *       -
+nw/wsj/23/wsj_2362   0   28           Europe    NNP              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   29               's    POS              *)         -    -   -   -       *)           *       -
+nw/wsj/23/wsj_2362   0   30          defense     NN              *          -    -   -   -       *            *       -
+nw/wsj/23/wsj_2362   0   31         industry     NN           *))))         -    -   -   -       *            *)      -
+nw/wsj/23/wsj_2362   0   32                .      .             *))         -    -   -   -       *            *       -
+
+nw/wsj/23/wsj_2362   0    0          Most    RBS   (TOP(SINV(ADVP*)         -    -   -   -       *    (ARGM-ADV*)     *        *          -
+nw/wsj/23/wsj_2362   0    1    threatened    VBN              (VP*    threaten  01   2   -       *           (V*)     *        *          -
+nw/wsj/23/wsj_2362   0    2            by     IN              (PP*          -    -   -   -       *        (ARG0*      *        *          -
+nw/wsj/23/wsj_2362   0    3        closer    JJR              (NP*          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0    4       British    NNP         (NML(NML*          -    -   -   -   (ORG*             *      *        *         (8
+nw/wsj/23/wsj_2362   0    5     Aerospace    NNP                 *)         -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0    6            -    HYPH                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0    7       Thomson    NNP            (NML*))         -    -   -   -       *)            *      *        *          8)
+nw/wsj/23/wsj_2362   0    8          ties    NNS               *)))        tie   -   2   -       *             *)     *        *          -
+nw/wsj/23/wsj_2362   0    9         would     MD              (VP*          -    -   -   -       *    (ARGM-MOD*)     *        *          -
+nw/wsj/23/wsj_2362   0   10            be     VB             (VP*))         be  03   1   -       *             *    (V*)       *          -
+nw/wsj/23/wsj_2362   0   11         their   PRP$           (NP(NP*          -    -   -   -       *        (ARG2*      *   (ARG2*         (8)
+nw/wsj/23/wsj_2362   0   12    respective     JJ                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   13      national     JJ                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   14        rivals    NNS                 *)         -    -   -   -       *             *      *        *)         -
+nw/wsj/23/wsj_2362   0   15             ,      ,                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   16     including    VBG              (PP*     include  01   1   -       *             *      *      (V*)         -
+nw/wsj/23/wsj_2362   0   17         Matra    NNP        (NP(NP(NP*          -    -   -   -   (ORG*             *      *   (ARG1*    (12|(14
+nw/wsj/23/wsj_2362   0   18          S.A.    NNP                 *)         -    -   -   -       *)            *      *        *          -
+nw/wsj/23/wsj_2362   0   19            in     IN              (PP*          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   20        France    NNP            (NP*)))         -    -   -   -    (GPE)            *      *        *    (11)|12)
+nw/wsj/23/wsj_2362   0   21           and     CC                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   22       Britain    NNP           (NP(NP*          -    -   -   -    (GPE)            *      *        *      (1|(6)
+nw/wsj/23/wsj_2362   0   23            's    POS                 *)         -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   24       General    NNP                 *          -    -   -   -   (ORG*             *      *        *          -
+nw/wsj/23/wsj_2362   0   25      Electric    NNP                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   26           Co.    NNP                 *          -    -   -   -       *             *      *        *          -
+nw/wsj/23/wsj_2362   0   27           PLC    NNP              *))))         -    -   -   -       *)            *)     *        *)     14)|1)
+nw/wsj/23/wsj_2362   0   28             .      .                *))         -    -   -   -       *             *      *        *          -
+
+nw/wsj/23/wsj_2362   0    0            But     CC        (TOP(S*       -    -   -   -       *    (ARGM-DIS*)        *         -
+nw/wsj/23/wsj_2362   0    1        neither     CC           (NP*       -    -   -   -       *        (ARG1*         *       (14
+nw/wsj/23/wsj_2362   0    2          Matra    NNP           (NP*)      -    -   -   -    (ORG)            *         *       (12)
+nw/wsj/23/wsj_2362   0    3            nor     CC              *       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0    4            GEC    NNP        (NP(NP*)      -    -   -   -    (ORG)            *         *        (1
+nw/wsj/23/wsj_2362   0    5            --       :              *       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0    6      unrelated     JJ         (ADJP*       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0    7             to     IN           (PP*       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0    8       Stamford    NNP  (NP(ADJP(NML*       -    -   -   -    (GPE)            *         *         -
+nw/wsj/23/wsj_2362   0    9              ,      ,              *       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0   10          Conn.    NNP              *)      -    -   -   -    (GPE)            *         *         -
+nw/wsj/23/wsj_2362   0   11             -    HYPH              *       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0   12          based    VBN              *)      -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0   13        General    NNP              *       -    -   -   -   (ORG*             *         *         -
+nw/wsj/23/wsj_2362   0   14       Electric    NNP              *       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0   15            Co.    NNP            *)))      -    -   -   -       *)            *         *         -
+nw/wsj/23/wsj_2362   0   16            --       :             *))      -    -   -   -       *             *)        *     14)|1)
+nw/wsj/23/wsj_2362   0   17            are    VBP           (VP*       -    -   -   -       *             *         *         -
+nw/wsj/23/wsj_2362   0   18        sitting    VBG           (VP*      sit  01   3   -       *           (V*)        *         -
+nw/wsj/23/wsj_2362   0   19        quietly     RB         (ADVP*)      -    -   -   -       *    (ARGM-MNR*         *         -
+nw/wsj/23/wsj_2362   0   20             by     RB         (ADVP*)      -    -   -   -       *             *)        *         -
+nw/wsj/23/wsj_2362   0   21             as     IN         (SBAR*       -    -   -   -       *    (ARGM-TMP*         *         -
+nw/wsj/23/wsj_2362   0   22          their   PRP$         (S(NP*       -    -   -   -       *             *    (ARG0*    (8|(14)
+nw/wsj/23/wsj_2362   0   23    competitors    NNS              *)      -    -   -   -       *             *         *)        8)
+nw/wsj/23/wsj_2362   0   24           join    VBP           (VP*     join  01   1   -       *             *       (V*)        -
+nw/wsj/23/wsj_2362   0   25         forces    NNS      (NP*))))))   force   -   3   -       *             *)   (ARG1*)        -
+nw/wsj/23/wsj_2362   0   26              .      .             *))      -    -   -   -       *             *         *         -
+
+nw/wsj/23/wsj_2362   0    0     Yesterday     NN         (TOP(S(NP*)    yesterday   -   1   -    (DATE)   (ARGM-TMP*)            *         *             *        -
+nw/wsj/23/wsj_2362   0    1             ,      ,                  *            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0    2             a     DT            (NP(NP*            -    -   -   -        *        (ARG0*             *         *             *       (2
+nw/wsj/23/wsj_2362   0    3        source     NN                  *)       source   -   3   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0    4         close     JJ             (ADJP*            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0    5            to     IN               (PP*            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0    6           GEC    NNP            (NP*))))           -    -   -   -     (ORG)            *)            *         *             *    (1)|2)
+nw/wsj/23/wsj_2362   0    7     confirmed    VBD               (VP*       confirm  01   1   -        *           (V*)            *         *             *        -
+nw/wsj/23/wsj_2362   0    8          that     IN             (SBAR*            -    -   -   -        *        (ARG1*             *         *             *        -
+nw/wsj/23/wsj_2362   0    9           his   PRP$             (S(NP*            -    -   -   -        *             *        (ARG0*         *             *    (1|(2)
+nw/wsj/23/wsj_2362   0   10       company     NN                  *)      company   -   1   -        *             *             *)        *             *        1)
+nw/wsj/23/wsj_2362   0   11           may     MD               (VP*            -    -   -   -        *             *    (ARGM-MOD*)        *             *        -
+nw/wsj/23/wsj_2362   0   12          join     VB               (VP*          join  01   2   -        *             *           (V*)        *             *        -
+nw/wsj/23/wsj_2362   0   13           the     DT               (NP*            -    -   -   -        *             *        (ARG1*         *             *        -
+nw/wsj/23/wsj_2362   0   14      Ferranti    NNP                  *            -    -   -   -     (ORG)            *             *    (ARG2*)            *       (5)
+nw/wsj/23/wsj_2362   0   15         fight     NN                  *)        fight  01   2   -        *             *             *)      (V*)            *        -
+nw/wsj/23/wsj_2362   0   16             ,      ,                  *            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0   17            as     IN               (PP*            -    -   -   -        *             *    (ARGM-ADV*         *             *        -
+nw/wsj/23/wsj_2362   0   18          part     NN            (NP(NP*)         part   -   1   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0   19            of     IN               (PP*            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0   20             a     DT            (NP(NP*            -    -   -   -        *             *             *         *        (ARG0*        -
+nw/wsj/23/wsj_2362   0   21      possible     JJ                  *            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0   22    consortium     NN                  *)   consortium   -   1   -        *             *             *         *             *)       -
+nw/wsj/23/wsj_2362   0   23          that    WDT        (SBAR(WHNP*)           -    -   -   -        *             *             *         *      (R-ARG0*)       -
+nw/wsj/23/wsj_2362   0   24         would     MD             (S(VP*            -    -   -   -        *             *             *         *    (ARGM-MOD*)       -
+nw/wsj/23/wsj_2362   0   25           bid     VB               (VP*           bid  01   1   -        *             *             *         *           (V*)       -
+nw/wsj/23/wsj_2362   0   26       against     IN               (PP*            -    -   -   -        *             *             *         *    (ARGM-MNR*        -
+nw/wsj/23/wsj_2362   0   27       British    NNP            (NP(NP*            -    -   -   -    (ORG*             *             *         *             *    (3|(8
+nw/wsj/23/wsj_2362   0   28     Aerospace    NNP                  *)           -    -   -   -        *)            *             *         *             *        3)
+nw/wsj/23/wsj_2362   0   29           and     CC                  *            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0   30       Thomson    NNP               (NP*            -    -   -   -    (ORG*             *             *         *             *      (10
+nw/wsj/23/wsj_2362   0   31            -    HYPH                  *            -    -   -   -        *             *             *         *             *        -
+nw/wsj/23/wsj_2362   0   32           CSF    NNP   *))))))))))))))))           -    -   -   -        *)            *)            *)        *             *)   10)|8)
+nw/wsj/23/wsj_2362   0   33             .      .                 *))           -    -   -   -        *             *             *         *             *        -
+
+nw/wsj/23/wsj_2362   0    0    Companies    NNS   (TOP(S(NP(NP*)   company   -   1   -       *      (R-ARG2*)            *   (ARG2*       -
+nw/wsj/23/wsj_2362   0    1         with     IN     (SBAR(WHPP*         -    -   -   -       *        (ARG2*             *        *       -
+nw/wsj/23/wsj_2362   0    2        which    WDT         (WHNP*))        -    -   -   -       *             *)            *        *       -
+nw/wsj/23/wsj_2362   0    3          GEC    NNP          (S(NP*)        -    -   -   -    (ORG)       (ARG0*)            *        *      (1)
+nw/wsj/23/wsj_2362   0    4          has    VBZ            (VP*         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0    5          had    VBD            (VP*       have   -   2   -       *    (ARGM-LVB*)            *        *       -
+nw/wsj/23/wsj_2362   0    6        talks    NNS         (NP(NP*)      talk  01   3   -       *           (V*)            *        *       -
+nw/wsj/23/wsj_2362   0    7        about     IN            (PP*         -    -   -   -       *        (ARG1*             *        *       -
+nw/wsj/23/wsj_2362   0    8            a     DT            (NP*         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0    9     possible     JJ               *         -    -   -   -       *             *    (ARGM-ADJ*)       *       -
+nw/wsj/23/wsj_2362   0   10        joint     JJ               *         -    -   -   -       *             *    (ARGM-MNR*)       *       -
+nw/wsj/23/wsj_2362   0   11     Ferranti    NNP               *         -    -   -   -    (ORG)            *        (ARG1*)       *      (5)
+nw/wsj/23/wsj_2362   0   12          bid     NN        *))))))))       bid  01   1   -       *             *)          (V*)       *)      -
+nw/wsj/23/wsj_2362   0   13      include    VBP            (VP*    include  01   1   -       *             *             *      (V*)      -
+nw/wsj/23/wsj_2362   0   14        Matra    NNP         (NP(NP*)        -    -   -   -    (ORG)            *             *   (ARG1*     (12)
+nw/wsj/23/wsj_2362   0   15            ,      ,               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   16      Britain    NNP         (NP(NP*         -    -   -   -    (GPE)            *             *        *      (6)
+nw/wsj/23/wsj_2362   0   17           's    POS               *)        -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   18        Dowty    NNP               *         -    -   -   -   (ORG*             *             *        *       -
+nw/wsj/23/wsj_2362   0   19        Group    NNP               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   20          PLC    NNP               *)        -    -   -   -       *)            *             *        *       -
+nw/wsj/23/wsj_2362   0   21            ,      ,               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   22         West    NNP         (NP(NP*         -    -   -   -   (GPE*             *             *        *   (0|(9
+nw/wsj/23/wsj_2362   0   23      Germany    NNP               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   24           's    POS               *)        -    -   -   -       *)            *             *        *       0)
+nw/wsj/23/wsj_2362   0   25      Daimler    NNP               *         -    -   -   -   (ORG*             *             *        *       -
+nw/wsj/23/wsj_2362   0   26           -    HYPH               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   27         Benz    NNP               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   28           AG    NNP               *)        -    -   -   -       *)            *             *        *       9)
+nw/wsj/23/wsj_2362   0   29            ,      ,               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   30          and     CC               *         -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   31       France    NNP         (NP(NP*         -    -   -   -    (GPE)            *             *        *     (11)
+nw/wsj/23/wsj_2362   0   32           's    POS               *)        -    -   -   -       *             *             *        *       -
+nw/wsj/23/wsj_2362   0   33     Dassault    NNP               *         -    -   -   -    (ORG)            *             *        *       -
+nw/wsj/23/wsj_2362   0   34        group     NN             *)))     group   -   1   -       *             *             *        *)      -
+nw/wsj/23/wsj_2362   0   35            .      .              *))        -    -   -   -       *             *             *        *       -
+
+nw/wsj/23/wsj_2362   0    0          But     CC       (TOP(S(S*          -    -   -   -        *    (ARGM-DIS*)       *        *   (ARG1*     -
+nw/wsj/23/wsj_2362   0    1           it    PRP            (NP*)         -    -   -   -        *        (ARG1*)       *        *        *     -
+nw/wsj/23/wsj_2362   0    2          may     MD            (VP*          -    -   -   -        *    (ARGM-MOD*)       *        *        *     -
+nw/wsj/23/wsj_2362   0    3           be     VB            (VP*          be  01   6   -        *           (V*)       *        *        *     -
+nw/wsj/23/wsj_2362   0    4        weeks    NNS            (NP*)         -    -   -   -    (DATE)       (ARG2*)       *        *        *     -
+nw/wsj/23/wsj_2362   0    5       before     IN          (SBAR*          -    -   -   -        *    (ARGM-ADV*        *        *        *     -
+nw/wsj/23/wsj_2362   0    6          GEC    NNP       (S(NP(NP*)         -    -   -   -     (ORG)            *   (ARG0*   (ARG0*        *    (1)
+nw/wsj/23/wsj_2362   0    7          and     CC               *          -    -   -   -        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0    8          its   PRP$            (NP*          -    -   -   -        *             *        *        *        *    (1)
+nw/wsj/23/wsj_2362   0    9    potential     JJ               *          -    -   -   -        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   10     partners    NNS              *))    partner   -   3   -        *             *        *)       *)       *     -
+nw/wsj/23/wsj_2362   0   11       decide    VBP            (VP*      decide  01   1   -        *             *      (V*)       *        *     -
+nw/wsj/23/wsj_2362   0   12      whether     IN          (SBAR*          -    -   -   -        *             *   (ARG1*        *        *     -
+nw/wsj/23/wsj_2362   0   13           to     TO          (S(VP*          -    -   -   -        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   14          bid     VB   (VP*))))))))))        bid  01   1   -        *             *)       *)     (V*)       *)    -
+nw/wsj/23/wsj_2362   0   15            ,      ,               *          -    -   -   -        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   16          the     DT            (NP*          -    -   -   -        *             *        *        *   (ARG0*    (2
+nw/wsj/23/wsj_2362   0   17       source     NN               *)     source   -   3   -        *             *        *        *        *)    2)
+nw/wsj/23/wsj_2362   0   18    indicated    VBD            (VP*)   indicate  01   3   -        *             *        *        *      (V*)    -
+nw/wsj/23/wsj_2362   0   19            .      .              *))         -    -   -   -        *             *        *        *        *     -
+
+nw/wsj/23/wsj_2362   0    0              GEC   NNP             (TOP(S(NP*)         -    -   -   -        (ORG)       (ARG0*)   (ARG0*)            *           *            *    (1)
+nw/wsj/23/wsj_2362   0    1            plans   VBZ                   (VP*        plan  01   1   -           *           (V*)        *             *           *            *     -
+nw/wsj/23/wsj_2362   0    2            first    RB                 (ADVP*)         -    -   -   -    (ORDINAL)   (ARGM-TMP*)        *             *           *            *     -
+nw/wsj/23/wsj_2362   0    3               to    TO                 (S(VP*          -    -   -   -           *        (ARG1*         *             *           *            *     -
+nw/wsj/23/wsj_2362   0    4            study    VB                   (VP*       study  01   1   -           *             *       (V*)            *           *            *     -
+nw/wsj/23/wsj_2362   0    5         Ferranti   NNP             (NP(NP(NP*          -    -   -   -        (ORG)            *    (ARG1*        (ARG1*      (ARG2*            *    (5)
+nw/wsj/23/wsj_2362   0    6               's   POS                      *)         -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0    7        financial    JJ                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0    8         accounts   NNS                      *)    account   -   1   -           *             *         *             *)          *)           *     -
+nw/wsj/23/wsj_2362   0    9                ,     ,                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   10            which   WDT            (SBAR(WHNP*)         -    -   -   -           *             *         *      (C-ARG1*)   (R-ARG2*)           *     -
+nw/wsj/23/wsj_2362   0   11         auditors   NNS                 (S(NP*)         -    -   -   -           *             *         *        (ARG0*)          *            *     -
+nw/wsj/23/wsj_2362   0   12         recently    RB                 (ADVP*)         -    -   -   -           *             *         *    (ARGM-TMP*)          *            *     -
+nw/wsj/23/wsj_2362   0   13             said   VBD                   (VP*         say  01   1   -           *             *         *           (V*)          *            *     -
+nw/wsj/23/wsj_2362   0   14         included   VBD            (SBAR(S(VP*     include  01   1   -           *             *         *      (C-ARG1*         (V*)           *     -
+nw/wsj/23/wsj_2362   0   15                #     $             (NP(NP(QP*          -    -   -   -     (MONEY*             *         *             *      (ARG1*            *     -
+nw/wsj/23/wsj_2362   0   16             215     CD                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   17          million    CD                     *))         -    -   -   -           *)            *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   18               in    IN                   (PP*          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   19       fictitious    JJ                (NP(NP*          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   20        contracts   NNS                      *)   contract   -   1   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   21               at    IN                   (PP*          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   22                a    DT             (NP(NP(NP*          -    -   -   -           *             *         *             *           *       (ARG2*    (7
+nw/wsj/23/wsj_2362   0   23             U.S.   NNP                      *          -    -   -   -        (GPE)            *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   24             unit    NN                      *)       unit   -   2   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   25                ,     ,                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   26    International   NNP                   (NP*          -    -   -   -       (ORG*             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   27           Signal   NNP                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   28                &    CC                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   29          Control   NNP                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   30            Group   NNP                     *))         -    -   -   -           *)            *         *             *           *            *)    -
+nw/wsj/23/wsj_2362   0   31                ,     ,                      *          -    -   -   -           *             *         *             *           *            *     -
+nw/wsj/23/wsj_2362   0   32             with    IN            (SBAR(WHPP*          -    -   -   -           *             *         *             *           *     (R-ARG2*     -
+nw/wsj/23/wsj_2362   0   33            which   WDT                (WHNP*))         -    -   -   -           *             *         *             *           *            *)    -
+nw/wsj/23/wsj_2362   0   34         Ferranti   NNP                 (S(NP*)         -    -   -   -        (ORG)            *         *             *           *       (ARG1*)   (5)
+nw/wsj/23/wsj_2362   0   35           merged   VBD                   (VP*       merge  01   1   -           *             *         *             *           *          (V*)    -
+nw/wsj/23/wsj_2362   0   36             last    JJ                   (NP*          -    -   -   -      (DATE*             *         *             *           *   (ARGM-TMP*     -
+nw/wsj/23/wsj_2362   0   37             year    NN   *))))))))))))))))))))         -    -   -   -           *)            *)        *)            *)          *)           *)    7)
+nw/wsj/23/wsj_2362   0   38                .     .                     *))         -    -   -   -           *             *         *             *           *            *     -
+
+nw/wsj/23/wsj_2362   0    0             Also     RB   (TOP(S(S(ADVP*)              -    -   -   -        *         *    (ARGM-DIS*)        *         *             *     -
+nw/wsj/23/wsj_2362   0    1                ,      ,                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0    2              any     DT             (NP*               -    -   -   -        *         *        (ARG1*         *         *             *     -
+nw/wsj/23/wsj_2362   0    3              GEC    NNP                *               -    -   -   -     (ORG)   (ARG0*)            *         *         *             *    (1)
+nw/wsj/23/wsj_2362   0    4              bid     NN                *)             bid  01   1   -        *       (V*)            *)        *         *             *     -
+nw/wsj/23/wsj_2362   0    5            might     MD             (VP*               -    -   -   -        *         *    (ARGM-MOD*)        *         *             *     -
+nw/wsj/23/wsj_2362   0    6               be     VB             (VP*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0    7          blocked    VBN             (VP*            block  01   2   -        *         *           (V*)        *         *             *     -
+nw/wsj/23/wsj_2362   0    8               by     IN             (PP*               -    -   -   -        *         *        (ARG0*         *         *             *     -
+nw/wsj/23/wsj_2362   0    9          British     JJ             (NP*               -    -   -   -    (NORP)        *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   10        antitrust     JJ                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   11       regulators    NNS           *))))))       regulator   -   2   -        *         *             *)        *         *             *     -
+nw/wsj/23/wsj_2362   0   12                ;      :                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   13         Ferranti    NNP         (S(S(NP*)              -    -   -   -     (ORG)        *             *    (ARG1*)        *             *    (5)
+nw/wsj/23/wsj_2362   0   14               is    VBZ             (VP*               be  01   2   -        *         *             *       (V*)        *             *     -
+nw/wsj/23/wsj_2362   0   15              GEC    NNP       (NP(NP(NP*               -    -   -   -     (ORG)        *             *    (ARG2*         *             *    (1)
+nw/wsj/23/wsj_2362   0   16               's    POS                *)              -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   17             main     JJ                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   18       competitor     NN                *)              -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   19               on     IN             (PP*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   20          several     JJ             (NP*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   21              key     JJ                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   22          defense     NN            (NML*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   23               -    HYPH                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   24      electronics    NNS                *)              -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   25        contracts    NNS            *)))))        contract   -   1   -        *         *             *         *)        *             *     -
+nw/wsj/23/wsj_2362   0   26                ,      ,                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   27              and     CC                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   28              its   PRP$        (S(NP(NP*               -    -   -   -        *         *             *         *    (ARG1*)       (ARG0*    (5)
+nw/wsj/23/wsj_2362   0   29         purchase     NN                *)        purchase  01   1   -        *         *             *         *       (V*)            *     -
+nw/wsj/23/wsj_2362   0   30               by     IN             (PP*               -    -   -   -        *         *             *         *    (ARG0*             *     -
+nw/wsj/23/wsj_2362   0   31              GEC    NNP           (NP*)))              -    -   -   -     (ORG)        *             *         *         *)            *)   (1)
+nw/wsj/23/wsj_2362   0   32              may     MD             (VP*               -    -   -   -        *         *             *         *         *    (ARGM-MOD*)    -
+nw/wsj/23/wsj_2362   0   33         heighten     VB             (VP*         heighten  01   2   -        *         *             *         *         *           (V*)    -
+nw/wsj/23/wsj_2362   0   34          British    NNP       (NP(NP(NP*               -    -   -   -    (ORG*         *             *         *         *        (ARG1*     -
+nw/wsj/23/wsj_2362   0   35          Defense    NNP                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   36         Ministry    NNP                *)              -    -   -   -        *)        *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   37          worries    NNS                *)           worry   -   1   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   38            about     IN             (PP*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   39    concentration     NN          (NP(NP*)   concentration   -   2   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   40               in     IN             (PP*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   41              the     DT          (NP(NP*               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   42          country     NN                *          country   -   3   -        *         *             *         *         *             *    (6)
+nw/wsj/23/wsj_2362   0   43               's    POS                *)              -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   44          defense     NN                *               -    -   -   -        *         *             *         *         *             *     -
+nw/wsj/23/wsj_2362   0   45         industry     NN        *)))))))))              -    -   -   -        *         *             *         *         *             *)    -
+nw/wsj/23/wsj_2362   0   46                .      .               *))              -    -   -   -        *         *             *         *         *             *     -
+
+nw/wsj/23/wsj_2362   0    0               A    DT  (TOP(S(NP*            -    -   -   -       *         *        (ARG0*        (ARG0*     -
+nw/wsj/23/wsj_2362   0    1      consortium    NN           *    consortium   -   1   -       *    (ARG0*)            *             *     -
+nw/wsj/23/wsj_2362   0    2             bid    NN           *)          bid  01   2   -       *       (V*)            *)            *)    -
+nw/wsj/23/wsj_2362   0    3               ,     ,           *            -    -   -   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0    4         however    RB      (ADVP*)           -    -   -   -       *         *    (ARGM-DIS*)            *     -
+nw/wsj/23/wsj_2362   0    5               ,     ,           *            -    -   -   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0    6           would    MD     (VP(VP*            -    -   -   -       *         *    (ARGM-MOD*)            *     -
+nw/wsj/23/wsj_2362   0    7        diminish    VB        (VP*      diminish  01   1   -       *         *           (V*)            *     -
+nw/wsj/23/wsj_2362   0    8             GEC   NNP  (NP(NP(NP*            -    -   -   -    (ORG)        *        (ARG1*             *    (1)
+nw/wsj/23/wsj_2362   0    9              's   POS           *)           -    -   -   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0   10          direct    JJ           *            -    -   -   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0   11            role    NN           *)         role   -   1   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0   12              in    IN        (PP*            -    -   -   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0   13        Ferranti   NNP    (NP*)))))           -    -   -   -    (ORG)        *             *)            *    (5)
+nw/wsj/23/wsj_2362   0   14             and    CC           *            -    -   -   -       *         *             *             *     -
+nw/wsj/23/wsj_2362   0   15           might    MD        (VP*            -    -   -   -       *         *             *    (ARGM-MOD*)    -
+nw/wsj/23/wsj_2362   0   16    consequently    RB      (ADVP*)           -    -   -   -       *         *             *    (ARGM-TMP*)    -
+nw/wsj/23/wsj_2362   0   17         appease    VB        (VP*       appease  01   1   -       *         *             *           (V*)    -
+nw/wsj/23/wsj_2362   0   18        ministry    NN        (NP*            -    -   -   -       *         *             *        (ARG1*     -
+nw/wsj/23/wsj_2362   0   19       officials   NNS        *))))     official   -   1   -       *         *             *             *)    -
+nw/wsj/23/wsj_2362   0   20               .     .          *))           -    -   -   -       *         *             *             *     -
+
+nw/wsj/23/wsj_2362   0    0              A    DT    (TOP(S(S(NP*             -    -   -   -       *        *        *      *         *         *    (4
+nw/wsj/23/wsj_2362   0    1        British   NNP           (NML*             -    -   -   -   (ORG*        *        *      *         *         *    (3
+nw/wsj/23/wsj_2362   0    2      Aerospace   NNP               *)            -    -   -   -       *)       *        *      *         *         *     3)
+nw/wsj/23/wsj_2362   0    3    spokeswoman    NN               *)            -    -   -   -       *        *        *      *         *         *     4)
+nw/wsj/23/wsj_2362   0    4       appeared   VBD            (VP*         appear  02   1   -       *      (V*)       *      *         *         *     -
+nw/wsj/23/wsj_2362   0    5    unperturbed    JJ        (S(ADJP*             -    -   -   -       *   (ARG1*        *      *         *         *     -
+nw/wsj/23/wsj_2362   0    6             by    IN            (PP*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0    7            the    DT         (NP(NP*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0    8       prospect    NN               *)      prospect   -   1   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0    9             of    IN            (PP*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   10              a    DT         (NP(NP*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   11          fight    NN               *)         fight  01   2   -       *        *      (V*)     *         *         *     -
+nw/wsj/23/wsj_2362   0   12           with    IN            (PP*             -    -   -   -       *        *   (ARG1*      *         *         *     -
+nw/wsj/23/wsj_2362   0   13            GEC   NNP           (NP*))            -    -   -   -    (ORG)       *        *)     *         *         *    (1)
+nw/wsj/23/wsj_2362   0   14            for    IN            (PP*             -    -   -   -       *        *   (ARG2*      *         *         *     -
+nw/wsj/23/wsj_2362   0   15       Ferranti   NNP   (NP*))))))))))            -    -   -   -    (ORG)       *)       *)     *         *         *    (5)
+nw/wsj/23/wsj_2362   0   16              :     :               *             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   17             ``    ``             (S*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   18    Competition    NN          (S(NP*)   competition  01   1   -       *        *        *    (V*)   (ARG1*)   (ARG1*     -
+nw/wsj/23/wsj_2362   0   19             is   VBZ            (VP*             be  01   2   -       *        *        *      *       (V*)        *     -
+nw/wsj/23/wsj_2362   0   20            the    DT         (NP(NP*             -    -   -   -       *        *        *      *    (ARG2*         *     -
+nw/wsj/23/wsj_2362   0   21           name    NN               *)          name   -   8   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   22             of    IN            (PP*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   23            the    DT            (NP*             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   24           game    NN           *)))))          game   -   2   -       *        *        *      *         *)        *)    -
+nw/wsj/23/wsj_2362   0   25              ,     ,               *             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   26             ''    ''               *             -    -   -   -       *        *        *      *         *         *     -
+nw/wsj/23/wsj_2362   0   27            she   PRP            (NP*)            -    -   -   -       *        *        *      *         *    (ARG0*)   (4)
+nw/wsj/23/wsj_2362   0   28           said   VBD           (VP*))           say  01   1   -       *        *        *      *         *       (V*)    -
+nw/wsj/23/wsj_2362   0   29              .     .              *))            -    -   -   -       *        *        *      *         *         *     -
+
+nw/wsj/23/wsj_2362   0    0            At    RB  (TOP(S(NP(NP(QP(ADVP*         -    -   -   -   (CARDINAL*   (ARG0*         *    (12
+nw/wsj/23/wsj_2362   0    1         least   RBS                      *)        -    -   -   -            *        *         *      -
+nw/wsj/23/wsj_2362   0    2           one    CD                      *)        -    -   -   -            *)       *         *      -
+nw/wsj/23/wsj_2362   0    3     potential    JJ                      *         -    -   -   -            *        *         *      -
+nw/wsj/23/wsj_2362   0    4           GEC   NNP                      *         -    -   -   -         (ORG)       *         *      -
+nw/wsj/23/wsj_2362   0    5       partner    NN                      *)   partner   -   3   -            *        *         *      -
+nw/wsj/23/wsj_2362   0    6             ,     ,                      *         -    -   -   -            *        *         *      -
+nw/wsj/23/wsj_2362   0    7         Matra   NNP                   (NP*)        -    -   -   -         (ORG)       *         *      -
+nw/wsj/23/wsj_2362   0    8             ,     ,                      *)        -    -   -   -            *        *)        *     12)
+nw/wsj/23/wsj_2362   0    9       insists   VBZ                   (VP*     insist  01   2   -            *      (V*)        *      -
+nw/wsj/23/wsj_2362   0   10            it   PRP            (SBAR(S(NP*)        -    -   -   -            *   (ARG1*    (ARG1*)   (12)
+nw/wsj/23/wsj_2362   0   11            is   VBZ                   (VP*         be  01   1   -            *        *       (V*)     -
+nw/wsj/23/wsj_2362   0   12           n't    RB                      *         -    -   -   -            *        *         *      -
+nw/wsj/23/wsj_2362   0   13    interested    JJ                 (ADJP*         -    -   -   -            *        *    (ARG2*      -
+nw/wsj/23/wsj_2362   0   14            in    IN                   (PP*         -    -   -   -            *        *         *      -
+nw/wsj/23/wsj_2362   0   15      Ferranti   NNP             (NP*)))))))        -    -   -   -         (ORG)       *)        *)    (5)
+nw/wsj/23/wsj_2362   0   16             .     .                     *))        -    -   -   -            *        *         *      -
+
+nw/wsj/23/wsj_2362   0    0          ``    ``             (TOP(S*          -    -   -   -        *         *         *             *             *      -
+nw/wsj/23/wsj_2362   0    1          We   PRP              (S(NP*)         -    -   -   -        *    (ARG0*)        *             *        (ARG1*    (12)
+nw/wsj/23/wsj_2362   0    2        have   VBP                (VP*        have  03   2   -        *       (V*)        *             *             *      -
+nw/wsj/23/wsj_2362   0    3     nothing    NN             (NP(NP*)    nothing   -   2   -        *    (ARG1*    (ARG1*)            *             *      -
+nw/wsj/23/wsj_2362   0    4          to    TO         (SBAR(S(VP*          -    -   -   -        *         *         *             *             *      -
+nw/wsj/23/wsj_2362   0    5         say    VB                (VP*         say  01   1   -        *         *       (V*)            *             *      -
+nw/wsj/23/wsj_2362   0    6       about    IN                (PP*          -    -   -   -        *         *    (ARG3*             *             *      -
+nw/wsj/23/wsj_2362   0    7        this    DT             (NP(NP*          -    -   -   -        *         *         *        (ARG0*             *      -
+nw/wsj/23/wsj_2362   0    8      affair    NN                   *)         -    -   -   -        *         *         *             *)            *      -
+nw/wsj/23/wsj_2362   0    9           ,     ,                   *          -    -   -   -        *         *         *             *             *      -
+nw/wsj/23/wsj_2362   0   10       which   WDT         (SBAR(WHNP*)         -    -   -   -        *         *         *      (R-ARG0*)            *      -
+nw/wsj/23/wsj_2362   0   11        does   VBZ              (S(VP*          -    -   -   -        *         *         *             *             *      -
+nw/wsj/23/wsj_2362   0   12         n't    RB                   *          -    -   -   -        *         *         *    (ARGM-NEG*)            *      -
+nw/wsj/23/wsj_2362   0   13     concern    VB                (VP*     concern  02   1   -        *         *         *           (V*)            *      -
+nw/wsj/23/wsj_2362   0   14          us   PRP   (NP*))))))))))))))         -    -   -   -        *         *)        *)       (ARG1*)            *)   (12)
+nw/wsj/23/wsj_2362   0   15           ,     ,                   *          -    -   -   -        *         *         *             *             *      -
+nw/wsj/23/wsj_2362   0   16          ''    ''                   *          -    -   -   -        *         *         *             *             *      -
+nw/wsj/23/wsj_2362   0   17           a    DT                (NP*          -    -   -   -        *         *         *             *        (ARG0*      -
+nw/wsj/23/wsj_2362   0   18       Matra   NNP                   *          -    -   -   -     (ORG)        *         *             *             *    (12)
+nw/wsj/23/wsj_2362   0   19    official    NN                   *)   official   -   1   -        *         *         *             *             *)     -
+nw/wsj/23/wsj_2362   0   20        said   VBD                (VP*         say  01   1   -        *         *         *             *           (V*)     -
+nw/wsj/23/wsj_2362   0   21      Sunday   NNP               (NP*))         -    -   -   -    (DATE)        *         *             *    (ARGM-TMP*)     -
+nw/wsj/23/wsj_2362   0   22           .     .                  *))         -    -   -   -        *         *         *             *             *      -
+
+nw/wsj/23/wsj_2362   0    0            The    DT  (TOP(S(NP*             -    -   -   -       *     (ARG1*       (ARG1*             *   (13
+nw/wsj/23/wsj_2362   0    1        missile    NN           *             -    -   -   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0    2        venture    NN           *)       venture   -   3   -       *          *)           *)            *    13)
+nw/wsj/23/wsj_2362   0    3              ,     ,       (PRN*             -    -   -   -       *          *   (ARGM-ADV*             *     -
+nw/wsj/23/wsj_2362   0    4            the    DT      (S(NP*             -    -   -   -       *     (ARG0*            *             *    (4
+nw/wsj/23/wsj_2362   0    5        British   NNP       (NML*             -    -   -   -   (ORG*          *            *             *    (3
+nw/wsj/23/wsj_2362   0    6      Aerospace   NNP           *)            -    -   -   -       *)         *            *             *     3)
+nw/wsj/23/wsj_2362   0    7    spokeswoman    NN           *)            -    -   -   -       *          *)           *             *     4)
+nw/wsj/23/wsj_2362   0    8           said   VBD       (VP*))           say  01   1   -       *        (V*)           *             *     -
+nw/wsj/23/wsj_2362   0    9              ,     ,           *)            -    -   -   -       *          *            *)            *     -
+nw/wsj/23/wsj_2362   0   10             is   VBZ        (VP*             be  01   1   -       *   (C-ARG1*          (V*)            *     -
+nw/wsj/23/wsj_2362   0   11              a    DT     (NP(NP*             -    -   -   -       *          *       (ARG2*             *     -
+nw/wsj/23/wsj_2362   0   12         needed    JJ           *             -    -   -   -       *          *            *    (ARGM-ADJ*)    -
+nw/wsj/23/wsj_2362   0   13       response    NN           *)      response  01   1   -       *          *            *           (V*)    -
+nw/wsj/23/wsj_2362   0   14             to    IN        (PP*             -    -   -   -       *          *            *        (ARG1*     -
+nw/wsj/23/wsj_2362   0   15            the    DT     (NP(NP*             -    -   -   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   16             ``    ``           *             -    -   -   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   17            new    JJ           *             -    -   -   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   18    environment    NN           *    environment   -   1   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   19             ''    ''           *)            -    -   -   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   20             in    IN        (PP*             -    -   -   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   21        defense    NN        (NP*        defense   -   7   -       *          *            *             *     -
+nw/wsj/23/wsj_2362   0   22    contracting    NN      *))))))            -    -   -   -       *          *)           *)            *)    -
+nw/wsj/23/wsj_2362   0   23              .     .          *))            -    -   -   -       *          *            *             *     -
+
+nw/wsj/23/wsj_2362   0    0             For     IN     (TOP(S(PP*          -    -    -   -        *   (ARGM-ADV*            *        *       -
+nw/wsj/23/wsj_2362   0    1            both     DT           (NP*          -    -    -   -        *            *            *        *      (8
+nw/wsj/23/wsj_2362   0    2         Thomson    NNP           (NP*)         -    -    -   -     (ORG)           *            *        *     (10)
+nw/wsj/23/wsj_2362   0    3             and     CC              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0    4         British    NNP           (NP*          -    -    -   -    (ORG*            *            *        *      (3
+nw/wsj/23/wsj_2362   0    5       Aerospace    NNP            *)))         -    -    -   -        *)           *)           *        *    8)|3)
+nw/wsj/23/wsj_2362   0    6               ,      ,              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0    7        earnings    NNS      (S(NP(NP*)   earnings   -    1   -        *       (ARG1*            *        *       -
+nw/wsj/23/wsj_2362   0    8              in     IN           (PP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0    9           their   PRP$           (NP*          -    -    -   -        *            *            *        *      (8)
+nw/wsj/23/wsj_2362   0   10            home     NN              *        home   -    1   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   11         markets    NNS            *)))     market   -    1   -        *            *)           *        *       -
+nw/wsj/23/wsj_2362   0   12            have    VBP           (VP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   13            come    VBN           (VP*        come  04   11   -        *          (V*)           *        *       -
+nw/wsj/23/wsj_2362   0   14           under     IN           (PP*          -    -    -   -        *   (ARGM-MNR*            *        *       -
+nw/wsj/23/wsj_2362   0   15        pressure     NN        (NP(NP*)   pressure   -    2   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   16            from     IN           (PP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   17    increasingly     RB      (NP(ADJP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   18           tight     JJ              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   19              -    HYPH              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   20          fisted     JJ              *)         -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   21         defense     NN              *     defense   -    8   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   22      ministries    NNS        *)))))))         -    -    -   -        *            *)           *        *       -
+nw/wsj/23/wsj_2362   0   23               ;      :              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   24             and     CC              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   25          Middle    NNP  (S(NP(NP(NML*          -    -    -   -    (LOC*            *       (ARG2*   (ARG1*       -
+nw/wsj/23/wsj_2362   0   26            East    NNP              *)         -    -    -   -        *)           *            *)       *       -
+nw/wsj/23/wsj_2362   0   27           sales    NNS              *)       sale  01    1   -        *            *          (V*)       *       -
+nw/wsj/23/wsj_2362   0   28               ,      ,              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   29               a     DT        (NP(NP*          -    -    -   -        *            *   (ARGM-ADJ*        *       -
+nw/wsj/23/wsj_2362   0   30     traditional     JJ              *          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   31        mainstay     NN              *)         -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   32             for     IN           (PP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   33            both     DT        (NP(NP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   34       companies    NNS              *     company   -    1   -        *            *            *        *      (8)
+nw/wsj/23/wsj_2362   0   35               '    POS              *)         -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   36         exports    NNS            *)))     export   -    1   -        *            *            *)       *       -
+nw/wsj/23/wsj_2362   0   37               ,      ,              *)         -    -    -   -        *            *            *        *)      -
+nw/wsj/23/wsj_2362   0   38            have    VBP           (VP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   39            been    VBN           (VP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   40            hurt    VBN           (VP*        hurt  01    2   -        *            *            *      (V*)      -
+nw/wsj/23/wsj_2362   0   41              by     IN           (PP*          -    -    -   -        *            *            *   (ARG2*       -
+nw/wsj/23/wsj_2362   0   42            five     CD        (NP(NP*          -    -    -   -   (DATE*            *            *        *       -
+nw/wsj/23/wsj_2362   0   43           years    NNS              *)         -    -    -   -        *)           *            *        *       -
+nw/wsj/23/wsj_2362   0   44              of     IN           (PP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   45            weak     JJ           (NP*          -    -    -   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   46             oil     NN              *         oil   -    1   -        *            *            *        *       -
+nw/wsj/23/wsj_2362   0   47          prices    NNS       *))))))))      price   -    1   -        *            *            *        *)      -
+nw/wsj/23/wsj_2362   0   48               .      .             *))         -    -    -   -        *            *            *        *       -
+
+nw/wsj/23/wsj_2362   0   0           The    DT  (TOP(S(NP(NP(NP*            -    -   -   -       *    (ARG1*      -
+nw/wsj/23/wsj_2362   0   1       venture    NN                 *       venture   -   3   -       *         *    (13)
+nw/wsj/23/wsj_2362   0   2            's   POS                 *)           -    -   -   -       *         *      -
+nw/wsj/23/wsj_2362   0   3    importance    NN                 *)   importance   -   1   -       *         *      -
+nw/wsj/23/wsj_2362   0   4           for    IN              (PP*            -    -   -   -       *         *      -
+nw/wsj/23/wsj_2362   0   5       Thomson   NNP            (NP*)))           -    -   -   -    (ORG)        *)   (10)
+nw/wsj/23/wsj_2362   0   6            is   VBZ              (VP*            be  01   1   -       *       (V*)     -
+nw/wsj/23/wsj_2362   0   7         great    JJ           (ADJP*))           -    -   -   -       *    (ARG2*)     -
+nw/wsj/23/wsj_2362   0   8             .     .                *))           -    -   -   -       *         *      -
+
+nw/wsj/23/wsj_2362   0    0        Thomson    NNP      (TOP(S(NP*)            -    -   -   -     (ORG)   (ARG0*)       *        *    (10)
+nw/wsj/23/wsj_2362   0    1          feels    VBZ            (VP*           feel  02   3   -        *       (V*)       *        *      -
+nw/wsj/23/wsj_2362   0    2            the     DT  (SBAR(S(NP(NP*             -    -   -   -        *    (ARG1*   (ARG0*   (ARG0*      -
+nw/wsj/23/wsj_2362   0    3         future     NN               *)        future   -   4   -        *         *        *        *      -
+nw/wsj/23/wsj_2362   0    4             of     IN            (PP*             -    -   -   -        *         *        *        *      -
+nw/wsj/23/wsj_2362   0    5            its   PRP$            (NP*             -    -   -   -        *         *        *        *    (10)
+nw/wsj/23/wsj_2362   0    6        defense     NN               *        defense   -   7   -        *         *        *        *      -
+nw/wsj/23/wsj_2362   0    7       business     NN             *)))      business   -   1   -        *         *        *)       *)     -
+nw/wsj/23/wsj_2362   0    8        depends    VBZ            (VP*         depend  01   1   -        *         *      (V*)       *      -
+nw/wsj/23/wsj_2362   0    9             on     IN            (PP*             -    -   -   -        *         *   (ARG1*        *      -
+nw/wsj/23/wsj_2362   0   10       building    VBG          (S(VP*          build  02   2   -        *         *        *      (V*)     -
+nw/wsj/23/wsj_2362   0   11    cooperation     NN         (NP(NP*)   cooperation   -   2   -        *         *        *   (ARG1*      -
+nw/wsj/23/wsj_2362   0   12           with     IN            (PP*             -    -   -   -        *         *        *        *      -
+nw/wsj/23/wsj_2362   0   13          other     JJ            (NP*             -    -   -   -        *         *        *        *      -
+nw/wsj/23/wsj_2362   0   14      Europeans   NNPS      *))))))))))            -    -   -   -    (NORP)        *)       *)       *)     -
+nw/wsj/23/wsj_2362   0   15              .      .              *))            -    -   -   -        *         *        *        *      -
+
+nw/wsj/23/wsj_2362   0    0              The     DT  (TOP(S(S(NP*             -    -   -   -        *   (ARG0*             *        *        *        *     -
+nw/wsj/23/wsj_2362   0    1         European     JJ             *             -    -   -   -    (NORP)       *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0    2          defense     NN             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0    3         industry     NN             *)            -    -   -   -        *        *)            *        *        *        *     -
+nw/wsj/23/wsj_2362   0    4               is    VBZ          (VP*             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0    5    consolidating    VBG        (VP*)))   consolidate  01   1   -        *      (V*)            *        *        *        *     -
+nw/wsj/23/wsj_2362   0    6                ;      :             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0    7              for     IN        (S(PP*             -    -   -   -        *        *    (ARGM-DIS*        *        *        *     -
+nw/wsj/23/wsj_2362   0    8         instance     NN         (NP*))            -    -   -   -        *        *             *)       *        *        *     -
+nw/wsj/23/wsj_2362   0    9                ,      ,             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   10             West    NNP     (S(NP(NP*             -    -   -   -    (GPE*        *        (ARG0*        *        *        *    (0
+nw/wsj/23/wsj_2362   0   11          Germany    NNP             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   12               's    POS             *)            -    -   -   -        *)       *             *        *        *        *     0)
+nw/wsj/23/wsj_2362   0   13          Siemens    NNP             *             -    -   -   -    (ORG*        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   14               AG    NNP             *)            -    -   -   -        *)       *             *)       *        *        *     -
+nw/wsj/23/wsj_2362   0   15         recently     RB        (ADVP*)            -    -   -   -        *        *    (ARGM-TMP*)       *        *        *     -
+nw/wsj/23/wsj_2362   0   16           joined    VBD          (VP*           join  01   3   -        *        *           (V*)       *        *        *     -
+nw/wsj/23/wsj_2362   0   17              GEC    NNP          (NP*)            -    -   -   -     (ORG)       *        (ARG1*)       *        *        *    (1)
+nw/wsj/23/wsj_2362   0   18               in     IN          (PP*             -    -   -   -        *        *    (ARGM-LOC*        *        *        *     -
+nw/wsj/23/wsj_2362   0   19                a     DT       (NP(NP*             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   20         takeover     NN             *)      takeover  01   2   -        *        *             *      (V*)       *        *     -
+nw/wsj/23/wsj_2362   0   21               of     IN          (PP*             -    -   -   -        *        *             *   (ARG1*        *        *     -
+nw/wsj/23/wsj_2362   0   22          Britain    NNP       (NP(NP*             -    -   -   -     (GPE)       *             *        *        *        *    (6)
+nw/wsj/23/wsj_2362   0   23               's    POS             *)            -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   24          Plessey    NNP             *             -    -   -   -    (ORG*        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   25              Co.    NNP        *))))))            -    -   -   -        *)       *             *)       *)       *        *     -
+nw/wsj/23/wsj_2362   0   26                ,      ,             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   27              and     CC             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   28          Daimler    NNP        (S(NP*             -    -   -   -    (ORG*        *             *        *   (ARG0*   (ARG0*    (9
+nw/wsj/23/wsj_2362   0   29               -    HYPH             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   30             Benz    NNP             *)            -    -   -   -        *)       *             *        *        *)       *)    9)
+nw/wsj/23/wsj_2362   0   31           agreed    VBD          (VP*          agree  01   3   -        *        *             *        *      (V*)       *     -
+nw/wsj/23/wsj_2362   0   32               to     TO        (S(VP*             -    -   -   -        *        *             *        *   (ARG1*        *     -
+nw/wsj/23/wsj_2362   0   33              buy     VB          (VP*            buy  01   6   -        *        *             *        *        *      (V*)    -
+nw/wsj/23/wsj_2362   0   34    Messerschmitt    NNP          (NP*             -    -   -   -    (ORG*        *             *        *        *   (ARG1*     -
+nw/wsj/23/wsj_2362   0   35               -    HYPH             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   36          Boelkow    NNP             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   37            Blohm    NNP             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   38            G.m.b    NNP             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   39                .      .             *             -    -   -   -        *        *             *        *        *        *     -
+nw/wsj/23/wsj_2362   0   40                H    NNP       *)))))))            -    -   -   -        *)       *             *        *        *)       *)    -
+nw/wsj/23/wsj_2362   0   41                .      .            *))            -    -   -   -        *        *             *        *        *        *     -
+
+nw/wsj/23/wsj_2362   0    0              In     IN  (TOP(S(S(PP*             -    -   -   -       *    (ARGM-LOC*             *          *            *      -
+nw/wsj/23/wsj_2362   0    1        missiles    NNS         (NP*))            -    -   -   -       *             *)            *          *            *      -
+nw/wsj/23/wsj_2362   0    2               ,      ,             *             -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0    3         Thomson    NNP          (NP*)            -    -   -   -    (ORG)       (ARG1*)            *          *            *    (10)
+nw/wsj/23/wsj_2362   0    4              is    VBZ          (VP*             -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0    5         already     RB        (ADVP*)            -    -   -   -       *    (ARGM-TMP*)            *          *            *      -
+nw/wsj/23/wsj_2362   0    6    overshadowed    VBN          (VP*     overshadow  01   1   -       *           (V*)            *          *            *      -
+nw/wsj/23/wsj_2362   0    7              by     IN       (PP(PP*             -    -   -   -       *        (ARG0*             *          *            *      -
+nw/wsj/23/wsj_2362   0    8         British    NNP          (NP*             -    -   -   -   (ORG*             *             *          *            *     (3
+nw/wsj/23/wsj_2362   0    9       Aerospace    NNP            *))            -    -   -   -       *)            *             *          *            *      3)
+nw/wsj/23/wsj_2362   0   10             and     CC             *             -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   11              by     IN          (PP*             -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   12             its   PRP$       (NP(NP*             -    -   -   -       *             *             *          *            *    (10)
+nw/wsj/23/wsj_2362   0   13            home     NN             *           home   -   1   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   14           rival     NN             *)            -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   15               ,      ,             *             -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   16          France    NNP       (NP(NP*             -    -   -   -    (GPE)            *             *          *            *    (11)
+nw/wsj/23/wsj_2362   0   17              's    POS             *)            -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   18    Aerospatiale    NNP             *             -    -   -   -   (ORG*             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   19            S.A.    NNP       *)))))))            -    -   -   -       *)            *)            *          *            *      -
+nw/wsj/23/wsj_2362   0   20               ;      :             *             -    -   -   -       *             *             *          *            *      -
+nw/wsj/23/wsj_2362   0   21              to     TO      (S(S(VP*             -    -   -   -       *             *             *   (R-ARG1*     (R-ARG0*      -
+nw/wsj/23/wsj_2362   0   22          better    RBR        (ADVP*)            -    -   -   -       *             *    (ARGM-ADV*)         *            *      -
+nw/wsj/23/wsj_2362   0   23         compete     VB        (VP*)))       compete  01   1   -       *             *           (V*)         *)           *)     -
+nw/wsj/23/wsj_2362   0   24               ,      ,         (PRN*             -    -   -   -       *             *             *          *   (ARGM-DIS*      -
+nw/wsj/23/wsj_2362   0   25         Thomson    NNP        (S(NP*             -    -   -   -    (ORG)            *             *     (ARG0*            *    (10)
+nw/wsj/23/wsj_2362   0   26       officials    NNS             *)      official   -   1   -       *             *             *          *)           *      -
+nw/wsj/23/wsj_2362   0   27             say    VBP         (VP*))           say  01   1   -       *             *             *        (V*)           *      -
+nw/wsj/23/wsj_2362   0   28               ,      ,             *)            -    -   -   -       *             *             *          *            *)     -
+nw/wsj/23/wsj_2362   0   29            they    PRP          (NP*)            -    -   -   -       *             *        (ARG0*)  (C-ARG1*       (ARG0*)   (10)
+nw/wsj/23/wsj_2362   0   30            need    VBP          (VP*           need  01   1   -       *             *             *          *          (V*)     -
+nw/wsj/23/wsj_2362   0   31               a     DT          (NP*             -    -   -   -       *             *             *          *       (ARG1*      -
+nw/wsj/23/wsj_2362   0   32     partnership     NN           *)))   partnership   -   1   -       *             *             *          *)           *)     -
+nw/wsj/23/wsj_2362   0   33               .      .            *))            -    -   -   -       *             *             *          *            *      -
+
+nw/wsj/23/wsj_2362   0    0           To     TO  (TOP(S(S(VP*           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0    1      justify     VB          (VP*      justify  01   1   -            *       (V*)           *      -
+nw/wsj/23/wsj_2362   0    2          50      CD    (NP(NP(QP*           -    -   -   -   (CARDINAL*    (ARG1*   (ARGM-EXT*      -
+nw/wsj/23/wsj_2362   0    3           -    HYPH             *           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0    4          50      NN             *)          -    -   -   -            *)        *            *)     -
+nw/wsj/23/wsj_2362   0    5    ownership     NN             *)   ownership  01   1   -            *         *          (V*)     -
+nw/wsj/23/wsj_2362   0    6           of     IN          (PP*           -    -   -   -            *         *       (ARG1*      -
+nw/wsj/23/wsj_2362   0    7          the     DT          (NP*           -    -   -   -            *         *            *    (13
+nw/wsj/23/wsj_2362   0    8      planned     JJ             *           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0    9      venture     NN        *))))))     venture   -   3   -            *         *)           *)    13)
+nw/wsj/23/wsj_2362   0   10            ,      ,             *           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   11      Thomson    NNP          (NP*)          -    -   -   -         (ORG)   (ARG0*)           *    (10)
+nw/wsj/23/wsj_2362   0   12        would     MD          (VP*           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   13         make     VB          (VP*         make   -   1   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   14            a     DT          (NP*           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   15         cash     NN             *         cash   -   2   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   16      payment     NN             *)     payment   -   1   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   17           to     IN          (PP*           -    -   -   -            *         *            *      -
+nw/wsj/23/wsj_2362   0   18      British    NNP          (NP*           -    -   -   -        (ORG*         *            *     (3
+nw/wsj/23/wsj_2362   0   19    Aerospace    NNP          *))))          -    -   -   -            *)        *            *      3)
+nw/wsj/23/wsj_2362   0   20            .      .            *))          -    -   -   -            *         *            *      -
+
+nw/wsj/23/wsj_2362   0    0       Annual    JJ  (TOP(S(S(NP(NP*          -    -   -   -     (DATE)  (ARG1*   (ARG1*      -
+nw/wsj/23/wsj_2362   0    1      revenue    NN                *)    revenue   -   1   -         *        *        *      -
+nw/wsj/23/wsj_2362   0    2           of    IN             (PP*          -    -   -   -         *        *        *      -
+nw/wsj/23/wsj_2362   0    3      British   NNP          (NP(NP*          -    -   -   -     (ORG*        *        *     (3
+nw/wsj/23/wsj_2362   0    4    Aerospace   NNP                *          -    -   -   -         *        *        *      -
+nw/wsj/23/wsj_2362   0    5           's   POS                *)         -    -   -   -         *)       *        *      3)
+nw/wsj/23/wsj_2362   0    6      missile    NN                *          -    -   -   -         *        *        *      -
+nw/wsj/23/wsj_2362   0    7     business    NN              *)))   business   -   1   -         *        *)       *      -
+nw/wsj/23/wsj_2362   0    8           is   VBZ             (VP*          be  01   1   -         *      (V*)       *      -
+nw/wsj/23/wsj_2362   0    9        about    RB          (NP(QP*          -    -   -   -   (MONEY*   (ARG2*        *      -
+nw/wsj/23/wsj_2362   0   10            #     $                *          -    -   -   -         *        *        *      -
+nw/wsj/23/wsj_2362   0   11         950     CD                *          -    -   -   -         *        *        *      -
+nw/wsj/23/wsj_2362   0   12      million    CD             *))))         -    -   -   -         *)       *)       *)     -
+nw/wsj/23/wsj_2362   0   13            ,     ,                *          -    -   -   -         *        *        *      -
+nw/wsj/23/wsj_2362   0   14            a    DT             (NP*          -    -   -   -         *        *   (ARG0*      -
+nw/wsj/23/wsj_2362   0   15      Thomson   NNP                *          -    -   -   -      (ORG)       *        *    (10)
+nw/wsj/23/wsj_2362   0   16    spokesman    NN                *)         -    -   -   -         *        *        *)     -
+nw/wsj/23/wsj_2362   0   17         said   VBD             (VP*)        say  01   1   -         *        *      (V*)     -
+nw/wsj/23/wsj_2362   0   18            .     .               *))         -    -   -   -         *        *        *      -
+
+nw/wsj/23/wsj_2362   0    0      British    NNP  (TOP(S(NP(NP*         -    -   -   -       (ORG*   (ARG2*    (3
+nw/wsj/23/wsj_2362   0    1    Aerospace    NNP              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0    2           's    POS              *)        -    -   -   -           *)       *     3)
+nw/wsj/23/wsj_2362   0    3        chief     JJ              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0    4      missile     NN              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0    5     products    NNS              *)   product   -   1   -           *        *)    -
+nw/wsj/23/wsj_2362   0    6      include    VBP           (VP*    include  01   1   -           *      (V*)    -
+nw/wsj/23/wsj_2362   0    7          its   PRP$        (NP(NP*         -    -   -   -           *   (ARG1*    (3)
+nw/wsj/23/wsj_2362   0    8          17      CD     (ADJP(NML*         -    -   -   -      (DATE*        *     -
+nw/wsj/23/wsj_2362   0    9           -    HYPH              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   10         year     NN              *)        -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   11           -    HYPH              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   12          old     JJ              *)        -    -   -   -           *)       *     -
+nw/wsj/23/wsj_2362   0   13       family     NN              *)    family   -   1   -           *        *     -
+nw/wsj/23/wsj_2362   0   14           of     IN           (PP*         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   15       Rapier     NN           (NP*         -    -   -   -    (PRODUCT)       *     -
+nw/wsj/23/wsj_2362   0   16      surface     NN      (NML(NML*)        -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   17           -    HYPH              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   18           to     IN           (PP*         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   19           -    HYPH              *         -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   20          air     NN         (NP*)))        -    -   -   -           *        *     -
+nw/wsj/23/wsj_2362   0   21     missiles    NNS           *))))        -    -   -   -           *        *)    -
+nw/wsj/23/wsj_2362   0   22            .      .             *))        -    -   -   -           *        *     -
+
+nw/wsj/23/wsj_2362   0    0      Thomson    NNP  (TOP(S(NP*         -    -   -   -         (ORG)      (ARG2*    (10)
+nw/wsj/23/wsj_2362   0    1      missile     NN           *         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0    2     products    NNS           *)   product   -   1   -            *            *)     -
+nw/wsj/23/wsj_2362   0    3            ,      ,           *         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0    4         with     IN        (PP*         -    -   -   -            *   (ARGM-ADV*      -
+nw/wsj/23/wsj_2362   0    5        about     RB     (NP(QP*         -    -   -   -   (CARDINAL*            *      -
+nw/wsj/23/wsj_2362   0    6         half    PDT           *)        -    -   -   -            *)           *      -
+nw/wsj/23/wsj_2362   0    7      British    NNP        (NP*         -    -   -   -        (ORG*            *     (3
+nw/wsj/23/wsj_2362   0    8    Aerospace    NNP           *         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0    9           's    POS           *)        -    -   -   -            *)           *      3)
+nw/wsj/23/wsj_2362   0   10       annual     JJ           *         -    -   -   -        (DATE)           *      -
+nw/wsj/23/wsj_2362   0   11      revenue     NN          *))   revenue   -   1   -            *            *)     -
+nw/wsj/23/wsj_2362   0   12            ,      ,           *         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   13      include    VBP        (VP*    include  01   1   -            *          (V*)     -
+nw/wsj/23/wsj_2362   0   14          the     DT        (NP*         -    -   -   -            *       (ARG1*      -
+nw/wsj/23/wsj_2362   0   15      Crotale    NNP           *         -    -   -   -     (PRODUCT)           *      -
+nw/wsj/23/wsj_2362   0   16      surface     NN   (NML(NML*)        -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   17           -    HYPH           *         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   18           to     IN        (PP*         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   19           -    HYPH           *         -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   20          air     NN       (NP*))        -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   21      missile     NN           *)        -    -   -   -            *            *      -
+nw/wsj/23/wsj_2362   0   22       family     NN          *))    family   -   4   -            *            *)     -
+nw/wsj/23/wsj_2362   0   23            .      .          *))        -    -   -   -            *            *      -
+
+#end document

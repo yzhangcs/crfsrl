@@ -1,0 +1,815 @@
+#begin document (nw/wsj/20/wsj_2031); part 000
+nw/wsj/20/wsj_2031   0    0        William   NNP          (TOP(S(NP(NP*          -    -   -   -   (PERSON*   (ARG0*             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    1        Seidman   NNP                      *)         -    -   -   -          *)       *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    2              ,     ,                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    3       chairman    NN                (NP(NP*)         -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    4             of    IN                   (PP*          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    5            the    DT                   (NP*          -    -   -   -      (ORG*        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    6        Federal   NNP                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    7        Deposit   NNP                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    8      Insurance   NNP                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0    9          Corp.   NNP                    *)))         -    -   -   -          *)       *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   10              ,     ,                      *)         -    -   -   -          *        *)            *        *         *             *   -
+nw/wsj/20/wsj_2031   0   11           said   VBD                   (VP*         say  01   -   -          *      (V*)            *        *         *             *   -
+nw/wsj/20/wsj_2031   0   12        Lincoln   NNP            (SBAR(S(NP*          -    -   -   -      (ORG*   (ARG1*        (ARG1*        *         *             *   -
+nw/wsj/20/wsj_2031   0   13        Savings   NNP                  (NML*          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   14              &    CC                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   15           Loan   NNP                      *)         -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   16    Association   NNP                      *)         -    -   -   -          *)       *             *)       *         *             *   -
+nw/wsj/20/wsj_2031   0   17         should    MD                   (VP*          -    -   -   -          *        *    (ARGM-MOD*)       *         *             *   -
+nw/wsj/20/wsj_2031   0   18           have    VB                   (VP*          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   19           been   VBN                   (VP*          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   20         seized   VBN                   (VP*       seize  01   3   -          *        *           (V*)       *         *             *   -
+nw/wsj/20/wsj_2031   0   21             by    IN                   (PP*          -    -   -   -          *        *        (ARG0*        *         *             *   -
+nw/wsj/20/wsj_2031   0   22            the    DT                   (NP*          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   23     government    NN                     *))         -    -   -   -          *        *             *)       *         *             *   -
+nw/wsj/20/wsj_2031   0   24             in    IN                   (PP*          -    -   -   -          *        *    (ARGM-TMP*        *         *             *   -
+nw/wsj/20/wsj_2031   0   25          1986     CD                  (NP*))         -    -   -   -      (DATE)       *             *)       *         *             *   -
+nw/wsj/20/wsj_2031   0   26             to    TO                 (S(VP*          -    -   -   -          *        *    (ARGM-PRP*        *         *             *   -
+nw/wsj/20/wsj_2031   0   27        contain    VB                   (VP*     contain  01   -   -          *        *             *      (V*)        *             *   -
+nw/wsj/20/wsj_2031   0   28         losses   NNS                (NP(NP*)         -    -   -   -          *        *             *   (ARG1*         *        (ARG1*)  -
+nw/wsj/20/wsj_2031   0   29           that   WDT            (SBAR(WHNP*)         -    -   -   -          *        *             *        *         *      (R-ARG1*)  -
+nw/wsj/20/wsj_2031   0   30             he   PRP                 (S(NP*)         -    -   -   -          *        *             *        *    (ARG0*)            *   -
+nw/wsj/20/wsj_2031   0   31      estimated   VBD                   (VP*    estimate  01   1   -          *        *             *        *       (V*)            *   -
+nw/wsj/20/wsj_2031   0   32           will    MD            (SBAR(S(VP*          -    -   -   -          *        *             *        *    (ARG1*    (ARGM-MOD*)  -
+nw/wsj/20/wsj_2031   0   33           cost    VB                   (VP*        cost  01   -   -          *        *             *        *         *           (V*)  -
+nw/wsj/20/wsj_2031   0   34      taxpayers   NNS                   (NP*)         -    -   -   -          *        *             *        *         *        (ARG3*)  -
+nw/wsj/20/wsj_2031   0   35             as    RB                (NP(QP*          -    -   -   -    (MONEY*        *             *        *         *        (ARG2*   -
+nw/wsj/20/wsj_2031   0   36           much    RB                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   37             as    IN                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   38              $     $                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   39             2     CD                      *          -    -   -   -          *        *             *        *         *             *   -
+nw/wsj/20/wsj_2031   0   40        billion    CD   *))))))))))))))))))))         -    -   -   -          *)       *)            *)       *)        *)            *)  -
+nw/wsj/20/wsj_2031   0   41              .     .                     *))         -    -   -   -          *        *             *        *         *             *   -
+
+nw/wsj/20/wsj_2031   0    0           Mr.    NNP  (TOP(S(NP(NP*         -    -   -   -          *      (ARG1*       (ARG0*            *        *   -
+nw/wsj/20/wsj_2031   0    1       Seidman    NNP              *)        -    -   -   -    (PERSON)          *)           *            *        *   -
+nw/wsj/20/wsj_2031   0    2             ,      ,              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0    3           who     WP    (SBAR(WHNP*)        -    -   -   -          *    (R-ARG1*)           *            *        *   -
+nw/wsj/20/wsj_2031   0    4           has    VBZ         (S(VP*         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0    5          been    VBN           (VP*         be  01   -   -          *         (V*)           *            *        *   -
+nw/wsj/20/wsj_2031   0    6           the     DT        (NP(NP*         -    -   -   -          *      (ARG2*            *            *        *   -
+nw/wsj/20/wsj_2031   0    7        nation     NN              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0    8            's    POS              *)        -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0    9           top     JJ              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   10          bank     NN              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   11     regulator     NN          *)))))        -    -   -   -          *           *)           *            *        *   -
+nw/wsj/20/wsj_2031   0   12             ,      ,              *)        -    -   -   -          *           *            *)           *        *   -
+nw/wsj/20/wsj_2031   0   13     inherited    VBD           (VP*    inherit  01   2   -          *           *          (V*)           *        *   -
+nw/wsj/20/wsj_2031   0   14           the     DT        (NP(NP*         -    -   -   -          *           *       (ARG1*            *        *   -
+nw/wsj/20/wsj_2031   0   15      problems    NNS              *)        -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   16            of     IN           (PP*         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   17       Lincoln    NNP        (NP(NP*)        -    -   -   -       (ORG)          *            *       (ARG1*)       *   -
+nw/wsj/20/wsj_2031   0   18             ,      ,              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   19         based    VBN           (VP*       base  01   -   -          *           *            *          (V*)       *   -
+nw/wsj/20/wsj_2031   0   20            in     IN           (PP*         -    -   -   -          *           *            *   (ARGM-LOC*        *   -
+nw/wsj/20/wsj_2031   0   21        Irvine    NNP        (NP(NP*)        -    -   -   -       (GPE)          *            *            *        *   -
+nw/wsj/20/wsj_2031   0   22             ,      ,              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   23        Calif.    NNP           (NP*)        -    -   -   -       (GPE)          *            *            *        *   -
+nw/wsj/20/wsj_2031   0   24             ,      ,         *))))))        -    -   -   -          *           *            *)           *)       *   -
+nw/wsj/20/wsj_2031   0   25         after     IN         (SBAR*         -    -   -   -          *           *   (ARGM-TMP*            *        *   -
+nw/wsj/20/wsj_2031   0   26           his   PRP$         (S(NP*         -    -   -   -          *           *            *            *   (ARG1*   -
+nw/wsj/20/wsj_2031   0   27    regulatory     JJ              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   28          role     NN              *)        -    -   -   -          *           *            *            *        *)  -
+nw/wsj/20/wsj_2031   0   29           was    VBD           (VP*         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   30      expanded    VBN           (VP*     expand  01   -   -          *           *            *            *      (V*)  -
+nw/wsj/20/wsj_2031   0   31            by     IN           (PP*         -    -   -   -          *           *            *            *   (ARG0*   -
+nw/wsj/20/wsj_2031   0   32           the     DT           (NP*         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   33           new     JJ              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   34       savings    NNS      (NML(NML*         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   35            -    HYPH              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   36           and     CC              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   37            -    HYPH              *         -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   38          loan     NN              *)        -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   39       bailout     NN              *)        -    -   -   -          *           *            *            *        *   -
+nw/wsj/20/wsj_2031   0   40           law     NN        *)))))))        -    -   -   -          *           *            *)           *        *)  -
+nw/wsj/20/wsj_2031   0   41             .      .             *))        -    -   -   -          *           *            *            *        *   -
+
+nw/wsj/20/wsj_2031   0    0             He    PRP        (TOP(S(NP*)            -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    1           made    VBD              (VP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    2            his   PRP$              (NP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    3       comments    NNS                 *)            -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    4         before     IN              (PP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    5          House    NNP          (NP(NML*             -    -   -   -   (ORG*        *        *         *   -
+nw/wsj/20/wsj_2031   0    6        Banking    NNP                 *             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    7      Committee    NNP                 *)            -    -   -   -       *)       *        *         *   -
+nw/wsj/20/wsj_2031   0    8       hearings    NNS                 *             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0    9             to     TO            (S(VP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   10    investigate     VB              (VP*    investigate  01   1   -       *      (V*)       *         *   -
+nw/wsj/20/wsj_2031   0   11           what     WP       (SBAR(WHNP*)            -    -   -   -       *   (ARG1*        *    (ARG1*)  -
+nw/wsj/20/wsj_2031   0   12        appears    VBZ            (S(VP*         appear  02   -   -       *        *      (V*)        *   -
+nw/wsj/20/wsj_2031   0   13             to     TO            (S(VP*             -    -   -   -       *        *   (ARG1*         *   -
+nw/wsj/20/wsj_2031   0   14             be     VB              (VP*             be  01   -   -       *        *        *       (V*)  -
+nw/wsj/20/wsj_2031   0   15            the     DT           (NP(NP*             -    -   -   -       *        *        *    (ARG2*   -
+nw/wsj/20/wsj_2031   0   16        biggest    JJS                 *             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   17         thrift     NN                 *             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   18       disaster     NN                 *)            -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   19             in     IN              (PP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   20              a     DT              (NP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   21        scandal     NN            (ADJP*             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   22             -    HYPH                 *             -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   23         ridden     JJ                 *)            -    -   -   -       *        *        *         *   -
+nw/wsj/20/wsj_2031   0   24       industry     NN   *)))))))))))))))            -    -   -   -       *        *)       *)        *)  -
+nw/wsj/20/wsj_2031   0   25              .      .                *))            -    -   -   -       *        *        *         *   -
+
+nw/wsj/20/wsj_2031   0    0            The    DT         (TOP(S(NP*            -    -   -   -          *      *        (ARG0*           *             *   -
+nw/wsj/20/wsj_2031   0    1        inquiry    NN                  *)      inquiry  01   1   -          *    (V*)            *)          *             *   -
+nw/wsj/20/wsj_2031   0    2           also    RB             (ADVP*)           -    -   -   -          *      *    (ARGM-DIS*)          *             *   -
+nw/wsj/20/wsj_2031   0    3           will    MD               (VP*            -    -   -   -          *      *    (ARGM-MOD*)          *             *   -
+nw/wsj/20/wsj_2031   0    4          cover    VB               (VP*         cover  01   -   -          *      *           (V*)          *             *   -
+nw/wsj/20/wsj_2031   0    5            the    DT            (NP(NP*            -    -   -   -          *      *        (ARG1*           *             *   -
+nw/wsj/20/wsj_2031   0    6        actions   NNS                  *)           -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0    7             of    IN               (PP*            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0    8        Charles   NNP            (NP(NP*            -    -   -   -   (PERSON*      *             *      (ARG1*        (ARG0*   -
+nw/wsj/20/wsj_2031   0    9        Keating   NNP                  *            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   10            Jr.   NNP                  *)           -    -   -   -          *)     *             *           *)            *)  -
+nw/wsj/20/wsj_2031   0   11              ,     ,                  *            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   12            who    WP   (SBAR(SBAR(WHNP*)           -    -   -   -          *      *             *    (R-ARG1*)            *   -
+nw/wsj/20/wsj_2031   0   13             is   VBZ             (S(VP*            be  01   -   -          *      *             *         (V*)            *   -
+nw/wsj/20/wsj_2031   0   14       chairman    NN            (NP(NP*)           -    -   -   -          *      *             *      (ARG2*             *   -
+nw/wsj/20/wsj_2031   0   15             of    IN               (PP*            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   16       American   NNP            (NP(NP*            -    -   -   -      (ORG*      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   17    Continental   NNP                  *            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   18          Corp.   NNP                  *)           -    -   -   -          *)     *             *           *             *   -
+nw/wsj/20/wsj_2031   0   19              ,     ,                  *            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   20        Lincoln   NNP            (NP(NP*            -    -   -   -       (ORG)     *             *           *             *   -
+nw/wsj/20/wsj_2031   0   21             's   POS                  *)           -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   22         parent    NN            *)))))))           -    -   -   -          *      *             *           *)            *   -
+nw/wsj/20/wsj_2031   0   23              ,     ,                  *            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   24            and    CC                  *            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   25            who    WP        (SBAR(WHNP*)           -    -   -   -          *      *             *           *      (R-ARG0*)  -
+nw/wsj/20/wsj_2031   0   26    contributed   VBD             (S(VP*    contribute  01   -   -          *      *             *           *           (V*)  -
+nw/wsj/20/wsj_2031   0   27        heavily    RB             (ADVP*)           -    -   -   -          *      *             *           *    (ARGM-MNR*)  -
+nw/wsj/20/wsj_2031   0   28             to    IN               (PP*            -    -   -   -          *      *             *           *        (ARG2*   -
+nw/wsj/20/wsj_2031   0   29        several    JJ               (NP*            -    -   -   -          *      *             *           *             *   -
+nw/wsj/20/wsj_2031   0   30           U.S.   NNP                  *            -    -   -   -       (GPE)     *             *           *             *   -
+nw/wsj/20/wsj_2031   0   31       senators   NNS        *)))))))))))           -    -   -   -          *      *             *)          *             *)  -
+nw/wsj/20/wsj_2031   0   32              .     .                 *))           -    -   -   -          *      *             *           *             *   -
+
+nw/wsj/20/wsj_2031   0    0            Mr.   NNP      (TOP(S(NP*        -    -   -   -          *   (ARG0*            *        *        *        *   -
+nw/wsj/20/wsj_2031   0    1        Seidman   NNP               *)       -    -   -   -    (PERSON)       *)           *        *        *        *   -
+nw/wsj/20/wsj_2031   0    2           told   VBD            (VP*      tell  01   -   -          *      (V*)           *        *        *        *   -
+nw/wsj/20/wsj_2031   0    3            the    DT            (NP*        -    -   -   -          *   (ARG2*            *        *        *        *   -
+nw/wsj/20/wsj_2031   0    4      committee    NN               *)       -    -   -   -          *        *)           *        *        *        *   -
+nw/wsj/20/wsj_2031   0    5           that    IN          (SBAR*        -    -   -   -          *   (ARG1*            *        *        *        *   -
+nw/wsj/20/wsj_2031   0    6            the    DT       (S(NP(NP*        -    -   -   -      (ORG*        *            *        *   (ARG0*        *   -
+nw/wsj/20/wsj_2031   0    7     Resolution   NNP               *        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0    8          Trust   NNP               *        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0    9          Corp.   NNP               *)       -    -   -   -          *)       *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   10              ,     ,               *        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   11            the    DT         (NP(NP*        -    -   -   -          *        *       (ARG1*        *        *        *   -
+nw/wsj/20/wsj_2031   0   12         agency    NN               *)       -    -   -   -          *        *            *)       *        *        *   -
+nw/wsj/20/wsj_2031   0   13        created   VBD            (VP*    create  01   -   -          *        *          (V*)       *        *        *   -
+nw/wsj/20/wsj_2031   0   14             to    TO          (S(VP*        -    -   -   -          *        *   (ARGM-PRP*        *        *        *   -
+nw/wsj/20/wsj_2031   0   15           sell    VB            (VP*      sell  01   -   -          *        *            *      (V*)       *        *   -
+nw/wsj/20/wsj_2031   0   16           sick    JJ            (NP*        -    -   -   -          *        *            *   (ARG1*        *        *   -
+nw/wsj/20/wsj_2031   0   17        thrifts   NNS          *))))))       -    -   -   -          *        *            *)       *)       *        *   -
+nw/wsj/20/wsj_2031   0   18              ,     ,               *)       -    -   -   -          *        *            *        *        *)       *   -
+nw/wsj/20/wsj_2031   0   19            has   VBZ            (VP*        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   20        studied   VBN            (VP*     study  01   -   -          *        *            *        *      (V*)       *   -
+nw/wsj/20/wsj_2031   0   21        Lincoln    NN   (NP(NP(NP(NP*        -    -   -   -       (ORG)       *            *        *   (ARG1*   (ARG1*   -
+nw/wsj/20/wsj_2031   0   22             's   POS               *)       -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   23    examination    NN               *        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   24        reports   NNS               *)       -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   25             by    IN            (PP*        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   26         former    JJ            (NP*        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   27     regulators   NNS             *)))       -    -   -   -          *        *            *        *        *        *)  -
+nw/wsj/20/wsj_2031   0   28         dating   VBG            (VP*      date  01   -   -          *        *            *        *        *      (V*)  -
+nw/wsj/20/wsj_2031   0   29           back    RB          (ADVP*        -    -   -   -          *        *            *        *        *   (ARG2*   -
+nw/wsj/20/wsj_2031   0   30             to    IN            (PP*        -    -   -   -          *        *            *        *        *        *   -
+nw/wsj/20/wsj_2031   0   31          1986     CD   (NP*))))))))))       -    -   -   -      (DATE)       *)           *        *        *)       *)  -
+nw/wsj/20/wsj_2031   0   32              .     .              *))       -    -   -   -          *        *            *        *        *        *   -
+
+nw/wsj/20/wsj_2031   0    0              ``     ``        (TOP(S*          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0    1              My   PRP$         (S(NP*          -    -   -   -            *   (ARG0*            *             *         *   (ARG1*   -
+nw/wsj/20/wsj_2031   0    2           staff     NN              *)         -    -   -   -            *        *)           *             *         *        *   -
+nw/wsj/20/wsj_2031   0    3       indicated    VBD           (VP*    indicate  01   -   -            *      (V*)           *             *         *        *   -
+nw/wsj/20/wsj_2031   0    4            that     IN         (SBAR*          -    -   -   -            *   (ARG1*            *             *         *        *   -
+nw/wsj/20/wsj_2031   0    5             had    VBD  (S(SBAR(SINV*          -    -   -   -            *        *            *    (ARGM-ADV*         *        *   -
+nw/wsj/20/wsj_2031   0    6              we    PRP           (NP*)         -    -   -   -            *        *       (ARG0*)            *         *        *   -
+nw/wsj/20/wsj_2031   0    7            made    VBN           (VP*        make  01   -   -            *        *          (V*)            *         *        *   -
+nw/wsj/20/wsj_2031   0    8            such     JJ           (NP*          -    -   -   -            *        *       (ARG1*             *         *        *   -
+nw/wsj/20/wsj_2031   0    9        findings    NNS              *)         -    -   -   -            *        *            *)            *         *        *   -
+nw/wsj/20/wsj_2031   0   10              in     IN           (PP*          -    -   -   -            *        *   (ARGM-LOC*             *         *        *   -
+nw/wsj/20/wsj_2031   0   11             one     CD        (NP(NP*)         -    -   -   -    (CARDINAL)       *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   12              of     IN           (PP*          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   13             our   PRP$           (NP*          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   14             own     JJ              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   15    institutions    NNS        *)))))))         -    -   -   -            *        *            *)            *)        *        *   -
+nw/wsj/20/wsj_2031   0   16               ,      ,              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   17              we    PRP           (NP*)         -    -   -   -            *        *            *        (ARG0*)   (ARG0*)       *   -
+nw/wsj/20/wsj_2031   0   18           would     MD           (VP*          -    -   -   -            *        *            *    (ARGM-MOD*)        *        *   -
+nw/wsj/20/wsj_2031   0   19            have     VB           (VP*          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   20          sought    VBN           (VP*        seek  01   -   -            *        *            *           (V*)        *        *   -
+nw/wsj/20/wsj_2031   0   21              an     DT           (NP*          -    -   -   -            *        *            *        (ARG1*         *        *   -
+nw/wsj/20/wsj_2031   0   22       immediate     JJ              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   23           cease     VB     (NML(S(VP*          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   24              -    HYPH              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   25             and     CC              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   26              -    HYPH              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   27          desist     VB            *)))         -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   28           order     NN              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   29              to     TO         (S(VP*          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   30            stop     VB           (VP*        stop  01   -   -            *        *            *             *       (V*)       *   -
+nw/wsj/20/wsj_2031   0   31             the     DT           (NP*          -    -   -   -            *        *            *             *    (ARG1*        *   -
+nw/wsj/20/wsj_2031   0   32       hazardous     JJ              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   33      operations    NNS   *))))))))))))         -    -   -   -            *        *)           *             *)        *)       *)  -
+nw/wsj/20/wsj_2031   0   34               ,      ,              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   35              ''     ''              *          -    -   -   -            *        *            *             *         *        *   -
+nw/wsj/20/wsj_2031   0   36             Mr.    NNP           (NP*          -    -   -   -            *        *            *             *         *   (ARG0*   -
+nw/wsj/20/wsj_2031   0   37         Seidman    NNP              *)         -    -   -   -      (PERSON)       *            *             *         *        *)  -
+nw/wsj/20/wsj_2031   0   38            said    VBD           (VP*)        say  01   -   -            *        *            *             *         *      (V*)  -
+nw/wsj/20/wsj_2031   0   39               .      .             *))         -    -   -   -            *        *            *             *         *        *   -
+
+nw/wsj/20/wsj_2031   0    0            When    WRB   (TOP(S(SBAR(WHADVP*)      -    -   -   -            *    (ARGM-TMP*)  (ARGM-TMP*           *   -
+nw/wsj/20/wsj_2031   0    1         Lincoln    NNP                (S(NP*)      -    -   -   -         (ORG)       (ARG1*)           *           *   -
+nw/wsj/20/wsj_2031   0    2             was    VBD                  (VP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0    3          seized    VBN                  (VP*    seize  01   3   -            *           (V*)           *           *   -
+nw/wsj/20/wsj_2031   0    4              by     IN                  (PP*       -    -   -   -            *        (ARG0*            *           *   -
+nw/wsj/20/wsj_2031   0    5             the     DT                  (NP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0    6      government     NN                *))))))      -    -   -   -            *             *)           *)          *   -
+nw/wsj/20/wsj_2031   0    7               ,      ,                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0    8             for     IN                  (PP*       -    -   -   -            *             *   (ARGM-DIS*           *   -
+nw/wsj/20/wsj_2031   0    9         example     NN                 (NP*))      -    -   -   -            *             *            *)          *   -
+nw/wsj/20/wsj_2031   0   10               ,      ,                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   11             15      CD            (NP(NP(NP*       -    -   -   -    (PERCENT*             *       (ARG1*           *   -
+nw/wsj/20/wsj_2031   0   12               %     NN                     *)      -    -   -   -            *)            *            *           *   -
+nw/wsj/20/wsj_2031   0   13              of     IN                  (PP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   14             its   PRP$                  (NP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   15           loans    NNS                   *)))      -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   16               ,      ,                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   17              or     CC                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   18               $      $               (NP(QP*       -    -   -   -      (MONEY*             *            *           *   -
+nw/wsj/20/wsj_2031   0   19            250      CD                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   20         million     CD                    *))      -    -   -   -            *)            *            *           *   -
+nw/wsj/20/wsj_2031   0   21               ,      ,                     *)      -    -   -   -            *             *            *)          *   -
+nw/wsj/20/wsj_2031   0   22            were    VBD                  (VP*       be  01   -   -            *             *          (V*)          *   -
+nw/wsj/20/wsj_2031   0   23              to     IN                  (PP*       -    -   -   -            *             *       (ARG2*           *   -
+nw/wsj/20/wsj_2031   0   24       borrowers    NNS               (NP(NP*)      -    -   -   -            *             *            *      (ARG0*)  -
+nw/wsj/20/wsj_2031   0   25             who     WP           (SBAR(WHNP*)      -    -   -   -            *             *            *    (R-ARG0*)  -
+nw/wsj/20/wsj_2031   0   26            were    VBD                (S(VP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   27          buying    VBG                  (VP*      buy  01   -   -            *             *            *         (V*)  -
+nw/wsj/20/wsj_2031   0   28            real     JJ                  (NP*       -    -   -   -            *             *            *      (ARG1*   -
+nw/wsj/20/wsj_2031   0   29          estate     NN                     *)      -    -   -   -            *             *            *           *)  -
+nw/wsj/20/wsj_2031   0   30            from     IN                  (PP*       -    -   -   -            *             *            *      (ARG2*   -
+nw/wsj/20/wsj_2031   0   31             one     CD               (NP(NP*)      -    -   -   -    (CARDINAL)            *            *           *   -
+nw/wsj/20/wsj_2031   0   32              of     IN                  (PP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   33        American    NNP               (NP(NP*       -    -   -   -        (ORG*             *            *           *   -
+nw/wsj/20/wsj_2031   0   34     Continental    NNP                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   35              's    POS                     *)      -    -   -   -            *)            *            *           *   -
+nw/wsj/20/wsj_2031   0   36             50      CD                     *       -    -   -   -    (CARDINAL)            *            *           *   -
+nw/wsj/20/wsj_2031   0   37           other     JJ                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   38    subsidiaries    NNS            *))))))))))      -    -   -   -            *             *            *)          *)  -
+nw/wsj/20/wsj_2031   0   39               ,      ,                     *       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   40       according    VBG                  (PP*       -    -   -   -            *             *   (ARGM-ADV*           *   -
+nw/wsj/20/wsj_2031   0   41              to     IN                  (PP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   42             Mr.    NNP                  (NP*       -    -   -   -            *             *            *           *   -
+nw/wsj/20/wsj_2031   0   43         Seidman    NNP                  *))))      -    -   -   -      (PERSON)            *            *)          *   -
+nw/wsj/20/wsj_2031   0   44               .      .                    *))      -    -   -   -            *             *            *           *   -
+
+nw/wsj/20/wsj_2031   0    0                But    CC              (TOP(S*      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0    1                the    DT                 (NP*      -    -   -   -        *        (ARG1*               *        *   -
+nw/wsj/20/wsj_2031   0    2         government    NN                    *)     -    -   -   -        *             *)              *        *   -
+nw/wsj/20/wsj_2031   0    3                did   VBD                 (VP*      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0    4                n't    RB                    *      -    -   -   -        *    (ARGM-NEG*)              *        *   -
+nw/wsj/20/wsj_2031   0    5               step    VB                 (VP*    step  02   -   -        *           (V*)              *        *   -
+nw/wsj/20/wsj_2031   0    6                 in    RB               (ADVP*)     -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0    7              until    IN                 (PP*      -    -   -   -        *    (ARGM-TMP*               *        *   -
+nw/wsj/20/wsj_2031   0    8                six    CD  (ADVP(ADVP(ADVP(NP*      -    -   -   -   (DATE*             *      (ARGM-TMP*        *   -
+nw/wsj/20/wsj_2031   0    9             months   NNS                    *)     -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   10                ago    RB                    *)     -    -   -   -        *)            *               *)       *   -
+nw/wsj/20/wsj_2031   0   11                  ,     ,                    *      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   12               when   WRB        (SBAR(WHADVP*)     -    -   -   -        *             *    (R-ARGM-TMP*)       *   -
+nw/wsj/20/wsj_2031   0   13             thrift    NN               (S(NP*      -    -   -   -        *             *          (ARG0*        *   -
+nw/wsj/20/wsj_2031   0   14          officials   NNS                    *)     -    -   -   -        *             *               *)       *   -
+nw/wsj/20/wsj_2031   0   15                put   VBD                 (VP*     put  01   -   -        *             *             (V*)       *   -
+nw/wsj/20/wsj_2031   0   16            Lincoln   NNP                 (NP*)     -    -   -   -     (ORG)            *          (ARG1*)       *   -
+nw/wsj/20/wsj_2031   0   17               into    IN                 (PP*      -    -   -   -        *             *          (ARG2*        *   -
+nw/wsj/20/wsj_2031   0   18    conservatorship    NN            (NP*))))))     -    -   -   -        *             *               *)       *   -
+nw/wsj/20/wsj_2031   0   19                --      :                    *      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   20                the    DT              (NP(NP*      -    -   -   -   (DATE*             *               *        *   -
+nw/wsj/20/wsj_2031   0   21                day    NN                    *)     -    -   -   -        *)            *               *        *   -
+nw/wsj/20/wsj_2031   0   22              after    IN               (SBAR*      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   23           American   NNP               (S(NP*      -    -   -   -    (ORG*             *               *   (ARG0*   -
+nw/wsj/20/wsj_2031   0   24        Continental   NNP                    *)     -    -   -   -        *)            *               *        *)  -
+nw/wsj/20/wsj_2031   0   25              filed   VBD                 (VP*    file  02   -   -        *             *               *      (V*)  -
+nw/wsj/20/wsj_2031   0   26                for    IN                 (PP*      -    -   -   -        *             *               *   (ARG1*   -
+nw/wsj/20/wsj_2031   0   27            Chapter    NN          (NP(NP(NML*      -    -   -   -    (LAW*             *               *        *   -
+nw/wsj/20/wsj_2031   0   28                11     CD                    *)     -    -   -   -        *)            *               *        *   -
+nw/wsj/20/wsj_2031   0   29         bankruptcy    NN                    *      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   30         protection    NN                    *)     -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   31               from    IN                 (PP*      -    -   -   -        *             *               *        *   -
+nw/wsj/20/wsj_2031   0   32          creditors   NNS      (NP*))))))))))))     -    -   -   -        *             *)              *        *)  -
+nw/wsj/20/wsj_2031   0   33                  .     .                   *))     -    -   -   -        *             *               *        *   -
+
+nw/wsj/20/wsj_2031   0    0           The     DT         (TOP(S(NP*        -    -   -   -         *   (ARG1*        *         *           *   -
+nw/wsj/20/wsj_2031   0    1    bankruptcy     NN                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    2        filing     NN                  *)       -    -   -   -         *        *)       *         *           *   -
+nw/wsj/20/wsj_2031   0    3             ,      ,              (PRN*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    4           the     DT             (S(NP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    5    government     NN                  *)       -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    6           has    VBZ               (VP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    7       charged    VBN               (VP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    8            in     IN               (PP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0    9             a     DT               (NP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   10             $      $           (NML(QP*        -    -   -   -   (MONEY*        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   11          1.1      CD                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   12       billion     CD                 *))       -    -   -   -         *)       *        *         *           *   -
+nw/wsj/20/wsj_2031   0   13         civil     JJ                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   14       lawsuit     NN              *)))))       -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   15             ,      ,                  *)       -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   16           was    VBD               (VP*        be  01   -   -         *      (V*)       *         *           *   -
+nw/wsj/20/wsj_2031   0   17          part     NN            (NP(NP*)       -    -   -   -         *   (ARG2*        *         *           *   -
+nw/wsj/20/wsj_2031   0   18            of     IN               (PP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   19             a     DT               (NP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   20       pattern     NN                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   21            to     TO             (S(VP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   22         shift     VB               (VP*     shift  01   1   -         *        *      (V*)        *           *   -
+nw/wsj/20/wsj_2031   0   23       insured    VBN               (NP*    insure  02   1   -         *        *   (ARG1*       (V*)          *   -
+nw/wsj/20/wsj_2031   0   24      deposits    NNS                  *)       -    -   -   -         *        *        *)   (ARG1*)          *   -
+nw/wsj/20/wsj_2031   0   25            to     IN               (PP*        -    -   -   -         *        *   (ARG2*         *           *   -
+nw/wsj/20/wsj_2031   0   26           the     DT            (NP(NP*        -    -   -   -         *        *        *         *      (ARG0*   -
+nw/wsj/20/wsj_2031   0   27        parent     NN                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   28       company     NN                  *)       -    -   -   -         *        *        *         *           *)  -
+nw/wsj/20/wsj_2031   0   29             ,      ,                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   30         which    WDT        (SBAR(WHNP*)       -    -   -   -         *        *        *         *    (R-ARG0*)  -
+nw/wsj/20/wsj_2031   0   31          used    VBD             (S(VP*       use  01   -   -         *        *        *         *         (V*)  -
+nw/wsj/20/wsj_2031   0   32           the     DT               (NP*        -    -   -   -         *        *        *         *      (ARG1*   -
+nw/wsj/20/wsj_2031   0   33      deposits    NNS                  *)       -    -   -   -         *        *        *         *           *)  -
+nw/wsj/20/wsj_2031   0   34            as     IN               (PP*        -    -   -   -         *        *        *         *      (ARG2*   -
+nw/wsj/20/wsj_2031   0   35             a     DT            (NP(NP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   36         cache     NN                  *)       -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   37           for     IN               (PP*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   38          real     JJ           (NP(NML*        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   39            -    HYPH                  *        -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   40        estate     NN                  *)       -    -   -   -         *        *        *         *           *   -
+nw/wsj/20/wsj_2031   0   41         deals    NNS   *))))))))))))))))       -    -   -   -         *        *)       *)        *           *)  -
+nw/wsj/20/wsj_2031   0   42             .      .                 *))       -    -   -   -         *        *        *         *           *   -
+
+nw/wsj/20/wsj_2031   0    0             The    DT  (TOP(S(NP(NP*          -    -   -   -        *      (ARG1*        (ARG1*   -
+nw/wsj/20/wsj_2031   0    1        deposits   NNS              *)         -    -   -   -        *           *)            *   -
+nw/wsj/20/wsj_2031   0    2            that   WDT    (SBAR(WHNP*)         -    -   -   -        *    (R-ARG1*)            *   -
+nw/wsj/20/wsj_2031   0    3            have   VBP         (S(VP*          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0    4            been   VBN           (VP*          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0    5     transferred   VBN           (VP*    transfer  01   -   -        *         (V*)            *   -
+nw/wsj/20/wsj_2031   0    6              to    IN           (PP*          -    -   -   -        *      (ARG2*             *   -
+nw/wsj/20/wsj_2031   0    7           other    JJ           (NP*          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0    8    subsidiaries   NNS       *))))))))         -    -   -   -        *           *)            *)  -
+nw/wsj/20/wsj_2031   0    9             are   VBP           (VP*          be  01   -   -        *           *           (V*)  -
+nw/wsj/20/wsj_2031   0   10             now    RB         (ADVP*)         -    -   -   -    (DATE)          *    (ARGM-TMP*)  -
+nw/wsj/20/wsj_2031   0   11           under    IN           (PP*          -    -   -   -        *           *        (ARG2*   -
+nw/wsj/20/wsj_2031   0   12             the    DT        (NP(NP*          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0   13    jurisdiction    NN              *)         -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0   14              of    IN           (PP*          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0   15             the    DT           (NP*          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0   16      bankruptcy    NN              *          -    -   -   -        *           *             *   -
+nw/wsj/20/wsj_2031   0   17           court    NN          *)))))         -    -   -   -        *           *             *)  -
+nw/wsj/20/wsj_2031   0   18               .     .             *))         -    -   -   -        *           *             *   -
+
+nw/wsj/20/wsj_2031   0    0            ``      ``               (TOP(S*       -    -   -   -          *         *        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0    1             I     PRP                (S(NP*)      -    -   -   -          *    (ARG0*)       *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0    2         think     VBP                  (VP*    think  01   -   -          *       (V*)       *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0    3            it     PRP       (SBAR(S(NP(NP*))      -    -   -   -          *    (ARG1*        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0    4            's     VBZ                  (VP*       be  01   -   -          *         *      (V*)       *         *         *        *   -
+nw/wsj/20/wsj_2031   0    5        fairly      RB                (ADJP*       -    -   -   -          *         *   (ARG2*        *         *         *        *   -
+nw/wsj/20/wsj_2031   0    6         clear      JJ                     *)      -    -   -   -          *         *        *)       *         *         *        *   -
+nw/wsj/20/wsj_2031   0    7        -LCB-   -LRB-               (SBAR(S*       -    -   -   -          *         *   (ARG1*        *         *         *        *   -
+nw/wsj/20/wsj_2031   0    8           Mr.     NNP                  (NP*       -    -   -   -          *         *        *   (ARG0*         *         *        *   -
+nw/wsj/20/wsj_2031   0    9       Keating     NNP                     *)      -    -   -   -    (PERSON)        *        *        *)        *         *        *   -
+nw/wsj/20/wsj_2031   0   10        -RCB-   -RRB-                      *       -    -   -   -          *         *        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0   11          knew     VBD                  (VP*     know  01   1   -          *         *        *      (V*)        *         *        *   -
+nw/wsj/20/wsj_2031   0   12             ,       ,                     *       -    -   -   -          *         *        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0   13            ''      ''                     *       -    -   -   -          *         *        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0   14          that      IN                (SBAR*       -    -   -   -          *         *        *   (ARG1*         *         *        *   -
+nw/wsj/20/wsj_2031   0   15    regulators     NNS                (S(NP*)      -    -   -   -          *         *        *        *    (ARG1*)   (ARG0*)       *   -
+nw/wsj/20/wsj_2031   0   16          were     VBD                  (VP*       -    -   -   -          *         *        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0   17           set     VBN                  (VP*      set  08   -   -          *         *        *        *       (V*)        *        *   -
+nw/wsj/20/wsj_2031   0   18            to      TO                (S(VP*       -    -   -   -          *         *        *        *    (ARG2*         *        *   -
+nw/wsj/20/wsj_2031   0   19         seize      VB                  (VP*    seize  01   3   -          *         *        *        *         *       (V*)       *   -
+nw/wsj/20/wsj_2031   0   20       Lincoln     NNP   (NP*))))))))))))))))      -    -   -   -       (ORG)        *)       *)       *)        *)   (ARG1*)       *   -
+nw/wsj/20/wsj_2031   0   21             ,       ,                     *       -    -   -   -          *         *        *        *         *         *        *   -
+nw/wsj/20/wsj_2031   0   22           Mr.     NNP                  (NP*       -    -   -   -          *         *        *        *         *         *   (ARG0*   -
+nw/wsj/20/wsj_2031   0   23       Seidman     NNP                     *)      -    -   -   -    (PERSON)        *        *        *         *         *        *)  -
+nw/wsj/20/wsj_2031   0   24          said     VBD                  (VP*)     say  01   -   -          *         *        *        *         *         *      (V*)  -
+nw/wsj/20/wsj_2031   0   25             .       .                    *))      -    -   -   -          *         *        *        *         *         *        *   -
+
+nw/wsj/20/wsj_2031   0    0          Further    JJ  (TOP(S(NP*        -    -   -   -          *        (ARG1*   -
+nw/wsj/20/wsj_2031   0    1    investigation    NN           *)       -    -   -   -          *             *)  -
+nw/wsj/20/wsj_2031   0    2                ,     ,       (PRN*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0    3               he   PRP      (S(NP*)       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0    4             said   VBD       (VP*))       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0    5                ,     ,           *)       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0    6              may    MD        (VP*        -    -   -   -          *    (ARGM-MOD*)  -
+nw/wsj/20/wsj_2031   0    7           result    VB        (VP*    result  01   1   -          *           (V*)  -
+nw/wsj/20/wsj_2031   0    8               in    IN        (PP*        -    -   -   -          *        (ARG2*   -
+nw/wsj/20/wsj_2031   0    9          further    JJ     (NP(NP*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   10          actions   NNS           *)       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   11          against    IN        (PP*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   12          Lincoln   NNP     (NP(NP*        -    -   -   -       (ORG)            *   -
+nw/wsj/20/wsj_2031   0   13               's   POS           *)       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   14       executives   NNS          *))       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   15                ,     ,       (PRN*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   16             said   VBD   (SINV(VP*)       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   17              Mr.   NNP        (NP*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   18          Seidman   NNP          *))       -    -   -   -    (PERSON)            *   -
+nw/wsj/20/wsj_2031   0   19                ,     ,           *)       -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   20               ``    ``           *        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   21        including   VBG        (PP*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   22            fraud    NN        (NP*        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   23          actions   NNS      *))))))       -    -   -   -          *             *)  -
+nw/wsj/20/wsj_2031   0   24                .     .           *        -    -   -   -          *             *   -
+nw/wsj/20/wsj_2031   0   25               ''    ''          *))       -    -   -   -          *             *   -
+
+nw/wsj/20/wsj_2031   0    0           Mr.    NNP  (TOP(S(NP*        -    -   -   -          *       (ARG0*   (ARG0*             *   -
+nw/wsj/20/wsj_2031   0    1       Keating    NNP           *)       -    -   -   -    (PERSON)           *)       *)            *   -
+nw/wsj/20/wsj_2031   0    2             ,      ,           *        -    -   -   -          *            *        *             *   -
+nw/wsj/20/wsj_2031   0    3           for     IN        (PP*        -    -   -   -          *   (ARGM-ADV*        *             *   -
+nw/wsj/20/wsj_2031   0    4           his   PRP$        (NP*        -    -   -   -          *            *        *             *   -
+nw/wsj/20/wsj_2031   0    5          part     NN          *))       -    -   -   -          *            *)       *             *   -
+nw/wsj/20/wsj_2031   0    6             ,      ,           *        -    -   -   -          *            *        *             *   -
+nw/wsj/20/wsj_2031   0    7           has    VBZ        (VP*        -    -   -   -          *            *        *             *   -
+nw/wsj/20/wsj_2031   0    8         filed    VBN        (VP*      file  01   -   -          *          (V*)       *             *   -
+nw/wsj/20/wsj_2031   0    9          suit     NN        (NP*)       -    -   -   -          *       (ARG1*)       *             *   -
+nw/wsj/20/wsj_2031   0   10      alleging    VBG      (S(VP*    allege  01   1   -          *   (ARGM-PRD*      (V*)            *   -
+nw/wsj/20/wsj_2031   0   11          that     IN      (SBAR*        -    -   -   -          *            *   (ARG1*             *   -
+nw/wsj/20/wsj_2031   0   12    regulators    NNS      (S(NP*)       -    -   -   -          *            *        *        (ARG0*)  -
+nw/wsj/20/wsj_2031   0   13    unlawfully     RB      (ADVP*)       -    -   -   -          *            *        *    (ARGM-MNR*)  -
+nw/wsj/20/wsj_2031   0   14        seized    VBD        (VP*     seize  01   3   -          *            *        *           (V*)  -
+nw/wsj/20/wsj_2031   0   15           the     DT        (NP*        -    -   -   -          *            *        *        (ARG1*   -
+nw/wsj/20/wsj_2031   0   16        thrift     NN    *))))))))       -    -   -   -          *            *)       *)            *)  -
+nw/wsj/20/wsj_2031   0   17             .      .          *))       -    -   -   -          *            *        *             *   -
+
+nw/wsj/20/wsj_2031   0    0            Leonard   NNP     (TOP(S(NP(NP*         -    -   -   -   (PERSON*   (ARG0*       (ARG0*   (ARG0*             *   -
+nw/wsj/20/wsj_2031   0    1            Bickwit   NNP                 *)        -    -   -   -          *)       *            *        *)            *   -
+nw/wsj/20/wsj_2031   0    2                  ,     ,                 *         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0    3                 an    DT           (NP(NP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0    4           attorney    NN                 *)        -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0    5                 in    IN              (PP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0    6         Washington   NNP             (NP*))        -    -   -   -       (GPE)       *            *        *             *   -
+nw/wsj/20/wsj_2031   0    7                for    IN              (PP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0    8                Mr.   NNP              (NP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0    9            Keating   NNP               *)))        -    -   -   -    (PERSON)       *            *        *             *   -
+nw/wsj/20/wsj_2031   0   10                  ,     ,                 *)        -    -   -   -          *        *)           *)       *             *   -
+nw/wsj/20/wsj_2031   0   11           declined   VBD              (VP*    decline  02   -   -          *      (V*)           *        *             *   -
+nw/wsj/20/wsj_2031   0   12                 to    TO            (S(VP*         -    -   -   -          *   (ARG1*            *        *             *   -
+nw/wsj/20/wsj_2031   0   13            comment    VB              (VP*    comment  01   1   -          *        *          (V*)       *             *   -
+nw/wsj/20/wsj_2031   0   14                 on    IN              (PP*         -    -   -   -          *        *       (ARG1*        *             *   -
+nw/wsj/20/wsj_2031   0   15                the    DT              (NP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   16           hearings   NNS                *))        -    -   -   -          *        *            *)       *             *   -
+nw/wsj/20/wsj_2031   0   17                  ,     ,                 *         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   18             except    IN            (SBAR*         -    -   -   -          *        *   (ARGM-ADV*        *             *   -
+nw/wsj/20/wsj_2031   0   19                 to    TO            (S(VP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   20                say    VB              (VP*        say  01   -   -          *        *            *      (V*)            *   -
+nw/wsj/20/wsj_2031   0   21                  ,     ,            (SBAR*         -    -   -   -          *        *            *   (ARG1*             *   -
+nw/wsj/20/wsj_2031   0   22                 ``    ``                 *         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   23                 We   PRP            (S(NP*)        -    -   -   -          *        *            *        *        (ARG0*)  -
+nw/wsj/20/wsj_2031   0   24               will    MD              (VP*         -    -   -   -          *        *            *        *    (ARGM-MOD*)  -
+nw/wsj/20/wsj_2031   0   25                 be    VB              (VP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   26         responding   VBG              (VP*    respond  01   -   -          *        *            *        *           (V*)  -
+nw/wsj/20/wsj_2031   0   27    comprehensively    RB            (ADVP*)        -    -   -   -          *        *            *        *    (ARGM-MNR*)  -
+nw/wsj/20/wsj_2031   0   28                 in    IN              (PP*         -    -   -   -          *        *            *        *    (ARGM-LOC*   -
+nw/wsj/20/wsj_2031   0   29            several    JJ              (NP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   30             forums   NNS                *))        -    -   -   -          *        *            *        *             *)  -
+nw/wsj/20/wsj_2031   0   31                 to    IN              (PP*         -    -   -   -          *        *            *        *        (ARG1*   -
+nw/wsj/20/wsj_2031   0   32               each    DT           (NP(NP*)        -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   33                 of    IN              (PP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   34              these    DT              (NP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   35        allegations   NNS              *))))        -    -   -   -          *        *            *        *             *)  -
+nw/wsj/20/wsj_2031   0   36                 at    IN              (PP*         -    -   -   -          *        *            *        *    (ARGM-TMP*   -
+nw/wsj/20/wsj_2031   0   37                the    DT              (NP*         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   38        appropriate    JJ                 *         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   39               time    NN   *)))))))))))))))        -    -   -   -          *        *)           *)       *)            *)  -
+nw/wsj/20/wsj_2031   0   40                  .     .                 *         -    -   -   -          *        *            *        *             *   -
+nw/wsj/20/wsj_2031   0   41                 ''    ''                *))        -    -   -   -          *        *            *        *             *   -
+
+nw/wsj/20/wsj_2031   0    0          Lincoln   NNP  (TOP(S(NP(NP(NP*         -    -   -   -         (ORG)       *        *           *   -
+nw/wsj/20/wsj_2031   0    1               's   POS                 *)        -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    2        treatment    NN                 *)        -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    3               by    IN              (PP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    4           former    JJ              (NP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    5           thrift    NN                 *         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    6       regulators   NNS                *))        -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    7                ,     ,                 *         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    8               in    IN              (PP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0    9               an    DT           (NP(NP*         -    -   -   -            *   (ARG1*        *           *   -
+nw/wsj/20/wsj_2031   0   10           agency    NN                 *)        -    -   -   -            *        *)       *           *   -
+nw/wsj/20/wsj_2031   0   11        disbanded   VBN              (VP*    disband  01   1   -            *      (V*)       *           *   -
+nw/wsj/20/wsj_2031   0   12               by    IN              (PP*         -    -   -   -            *   (ARG0*        *           *   -
+nw/wsj/20/wsj_2031   0   13              the    DT              (NP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   14              new    JJ                 *         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   15              law    NN             *)))))        -    -   -   -            *        *)       *           *   -
+nw/wsj/20/wsj_2031   0   16                ,     ,                 *)        -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   17              has   VBZ              (VP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   18           proved   VBN              (VP*      prove  01   -   -            *        *      (V*)          *   -
+nw/wsj/20/wsj_2031   0   19     embarrassing    JJ          (S(ADJP*         -    -   -   -            *        *   (ARG1*           *   -
+nw/wsj/20/wsj_2031   0   20              for    IN              (PP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   21             five    CD           (NP(NP*         -    -   -   -    (CARDINAL)       *        *      (ARG0*   -
+nw/wsj/20/wsj_2031   0   22         senators   NNS                 *)        -    -   -   -            *        *        *           *)  -
+nw/wsj/20/wsj_2031   0   23              who    WP       (SBAR(WHNP*)        -    -   -   -            *        *        *    (R-ARG0*)  -
+nw/wsj/20/wsj_2031   0   24         received   VBD            (S(VP*    receive  01   -   -            *        *        *         (V*)  -
+nw/wsj/20/wsj_2031   0   25        thousands   NNS           (NP(NP*)        -    -   -   -      (MONEY*        *        *      (ARG1*   -
+nw/wsj/20/wsj_2031   0   26               of    IN              (PP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   27          dollars   NNS             (NP*))        -    -   -   -            *)       *        *           *   -
+nw/wsj/20/wsj_2031   0   28               in    IN              (PP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   29         campaign    NN              (NP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   30    contributions   NNS               *)))        -    -   -   -            *        *        *           *)  -
+nw/wsj/20/wsj_2031   0   31             from    IN              (PP*         -    -   -   -            *        *        *      (ARG2*   -
+nw/wsj/20/wsj_2031   0   32              Mr.   NNP              (NP*         -    -   -   -            *        *        *           *   -
+nw/wsj/20/wsj_2031   0   33          Keating   NNP       *)))))))))))        -    -   -   -      (PERSON)       *        *)          *)  -
+nw/wsj/20/wsj_2031   0   34                .     .                *))        -    -   -   -            *        *        *           *   -
+
+nw/wsj/20/wsj_2031   0    0              Mr.     NNP             (TOP(S(NP*         -    -   -   -          *        (ARG0*           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    1          Seidman     NNP                      *)        -    -   -   -    (PERSON)            *)          *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    2             said     VBD                   (VP*        say  01   -   -          *           (V*)          *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    3        yesterday      NN                   (NP*)        -    -   -   -      (DATE)   (ARGM-TMP*)          *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    4                ,       ,                      *         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    5              for      IN                   (PP*         -    -   -   -          *    (ARGM-DIS*           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    6          example      NN                  (NP*))        -    -   -   -          *             *)          *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    7                ,       ,                      *         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    8             that      IN                 (SBAR*         -    -   -   -          *        (ARG1*           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0    9             Sen.     NNP           (S(NP(NP(NP*         -    -   -   -          *             *      (ARG0*   (ARG0*   (ARG0*         *             *   -
+nw/wsj/20/wsj_2031   0   10           Dennis     NNP                      *         -    -   -   -   (PERSON*             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   11        DeConcini     NNP                      *)        -    -   -   -          *)            *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   12           -LRB-   -LRB-                    (NP*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   13               D.     NNP                   (NP*)        -    -   -   -      (NORP)            *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   14                ,       ,                      *         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   15            Ariz.     NNP                   (NP*)        -    -   -   -       (GPE)            *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   16           -RRB-   -RRB-                      *))        -    -   -   -          *             *           *)       *        *         *             *   -
+nw/wsj/20/wsj_2031   0   17                ,       ,                      *         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   18              who      WP            (SBAR(WHNP*)        -    -   -   -          *             *    (R-ARG0*)       *        *         *             *   -
+nw/wsj/20/wsj_2031   0   19         received     VBD                 (S(VP*    receive  01   -   -          *             *         (V*)       *        *         *             *   -
+nw/wsj/20/wsj_2031   0   20                $       $                (NP(NP*         -    -   -   -          *             *      (ARG1*        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   21          48,100       CD                      *)        -    -   -   -     (MONEY)            *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   22               in      IN                   (PP*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   23    contributions     NNS                 (NP*)))        -    -   -   -          *             *           *)       *        *         *             *   -
+nw/wsj/20/wsj_2031   0   24             from      IN                   (PP*         -    -   -   -          *             *      (ARG2*        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   25              Mr.     NNP                   (NP*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   26          Keating     NNP                  *)))))        -    -   -   -    (PERSON)            *           *)       *        *         *             *   -
+nw/wsj/20/wsj_2031   0   27                ,       ,                      *)        -    -   -   -          *             *           *        *)       *)        *             *   -
+nw/wsj/20/wsj_2031   0   28           phoned     VBD                   (VP*      phone  01   1   -          *             *           *      (V*)       *         *             *   -
+nw/wsj/20/wsj_2031   0   29              Mr.     NNP                   (NP*         -    -   -   -          *             *           *   (ARG1*        *         *             *   -
+nw/wsj/20/wsj_2031   0   30          Seidman     NNP                      *)        -    -   -   -    (PERSON)            *           *        *)       *         *             *   -
+nw/wsj/20/wsj_2031   0   31               to      TO                 (S(VP*         -    -   -   -          *             *           *   (ARG2*        *         *             *   -
+nw/wsj/20/wsj_2031   0   32          request      VB                   (VP*    request  01   1   -          *             *           *        *      (V*)        *             *   -
+nw/wsj/20/wsj_2031   0   33             that      IN                 (SBAR*         -    -   -   -          *             *           *        *   (ARG1*         *             *   -
+nw/wsj/20/wsj_2031   0   34               he     PRP                 (S(NP*)        -    -   -   -          *             *           *        *        *    (ARG0*)            *   -
+nw/wsj/20/wsj_2031   0   35             push      VB                   (VP*       push  04   -   -          *             *           *        *        *       (V*)            *   -
+nw/wsj/20/wsj_2031   0   36              for      IN                   (PP*         -    -   -   -          *             *           *        *        *    (ARG1*             *   -
+nw/wsj/20/wsj_2031   0   37                a      DT                (NP(NP*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   38             sale      NN                      *)        -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   39               of      IN                   (PP*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   40          Lincoln     NNP                  (NP*))        -    -   -   -       (ORG)            *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   41           before      IN                 (SBAR*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   42               it     PRP                 (S(NP*)        -    -   -   -          *             *           *        *        *         *        (ARG1*)  -
+nw/wsj/20/wsj_2031   0   43            would      MD                   (VP*         -    -   -   -          *             *           *        *        *         *    (ARGM-MOD*)  -
+nw/wsj/20/wsj_2031   0   44               be      VB                   (VP*         -    -   -   -          *             *           *        *        *         *             *   -
+nw/wsj/20/wsj_2031   0   45           seized     VBN   (VP*)))))))))))))))))     seize  01   -   -          *             *)          *        *)       *)        *)          (V*)  -
+nw/wsj/20/wsj_2031   0   46                .       .                     *))        -    -   -   -          *             *           *        *        *         *             *   -
+
+nw/wsj/20/wsj_2031   0    0            After    IN  (TOP(S(SBAR*        -    -   -   -          *        *   (ARGM-TMP*   -
+nw/wsj/20/wsj_2031   0    1              the    DT        (S(NP*        -    -   -   -          *   (ARG1*            *   -
+nw/wsj/20/wsj_2031   0    2       government    NN             *        -    -   -   -          *        *            *   -
+nw/wsj/20/wsj_2031   0    3          lawsuit    NN             *)       -    -   -   -          *        *)           *   -
+nw/wsj/20/wsj_2031   0    4              was   VBD          (VP*        -    -   -   -          *        *            *   -
+nw/wsj/20/wsj_2031   0    5            filed   VBN          (VP*      file  01   -   -          *      (V*)           *   -
+nw/wsj/20/wsj_2031   0    6          against    IN          (PP*        -    -   -   -          *   (ARG3*            *   -
+nw/wsj/20/wsj_2031   0    7          Lincoln   NNP     (NP*))))))       -    -   -   -       (ORG)       *)           *)  -
+nw/wsj/20/wsj_2031   0    8                ,     ,             *        -    -   -   -          *        *            *   -
+nw/wsj/20/wsj_2031   0    9             Sen.   NNP          (NP*        -    -   -   -          *        *       (ARG0*   -
+nw/wsj/20/wsj_2031   0   10        DeConcini   NNP             *)       -    -   -   -    (PERSON)       *            *)  -
+nw/wsj/20/wsj_2031   0   11         returned   VBD          (VP*    return  02   -   -          *        *          (V*)  -
+nw/wsj/20/wsj_2031   0   12              the    DT          (NP*        -    -   -   -          *        *       (ARG1*   -
+nw/wsj/20/wsj_2031   0   13         campaign    NN             *        -    -   -   -          *        *            *   -
+nw/wsj/20/wsj_2031   0   14    contributions   NNS            *))       -    -   -   -          *        *            *)  -
+nw/wsj/20/wsj_2031   0   15                .     .            *))       -    -   -   -          *        *            *   -
+
+nw/wsj/20/wsj_2031   0    0          The      DT  (TOP(S(NP(NP*      -    -   -   -            *        (ARG0*            *        *   -
+nw/wsj/20/wsj_2031   0    1      senator      NN              *      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0    2           's     POS              *)     -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0    3    spokesman      NN              *)     -    -   -   -            *             *)           *        *   -
+nw/wsj/20/wsj_2031   0    4         said     VBD           (VP*     say  01   -   -            *           (V*)           *        *   -
+nw/wsj/20/wsj_2031   0    5    yesterday      NN           (NP*)     -    -   -   -        (DATE)   (ARGM-TMP*)           *        *   -
+nw/wsj/20/wsj_2031   0    6         that      IN         (SBAR*      -    -   -   -            *        (ARG1*            *        *   -
+nw/wsj/20/wsj_2031   0    7           he     PRP         (S(NP*)     -    -   -   -            *             *       (ARG0*)       *   -
+nw/wsj/20/wsj_2031   0    8       pushed     VBD           (VP*    push  02   -   -            *             *          (V*)       *   -
+nw/wsj/20/wsj_2031   0    9          for      IN           (PP*      -    -   -   -            *             *       (ARG2*        *   -
+nw/wsj/20/wsj_2031   0   10          the      DT        (NP(NP*      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   11         sale      NN              *)     -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   12           of      IN           (PP*      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   13      Lincoln     NNP        (NP*))))     -    -   -   -         (ORG)            *            *)       *   -
+nw/wsj/20/wsj_2031   0   14      because      IN         (SBAR*      -    -   -   -            *             *   (ARGM-CAU*        *   -
+nw/wsj/20/wsj_2031   0   15           ``      ``              *      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   16     hundreds     NNS      (S(NP(NP*)     -    -   -   -    (CARDINAL)            *            *   (ARG1*   -
+nw/wsj/20/wsj_2031   0   17           of      IN           (PP*      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   18      Arizona     NNP        (NP(NP*      -    -   -   -         (GPE)            *            *        *   -
+nw/wsj/20/wsj_2031   0   19         jobs     NNS              *)     -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   20       -LCB-   -LRB-               *      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   21           at      IN           (PP*      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   22      Lincoln     NNP          (NP*))     -    -   -   -         (ORG)            *            *        *   -
+nw/wsj/20/wsj_2031   0   23       -RCB-   -RRB-             *)))     -    -   -   -            *             *            *        *)  -
+nw/wsj/20/wsj_2031   0   24         were     VBD           (VP*      be  01   -   -            *             *            *      (V*)  -
+nw/wsj/20/wsj_2031   0   25           on      IN           (PP*      -    -   -   -            *             *            *   (ARG2*   -
+nw/wsj/20/wsj_2031   0   26          the      DT           (NP*      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   27         line      NN      *)))))))))     -    -   -   -            *             *)           *)       *)  -
+nw/wsj/20/wsj_2031   0   28            .       .              *      -    -   -   -            *             *            *        *   -
+nw/wsj/20/wsj_2031   0   29           ''      ''             *))     -    -   -   -            *             *            *        *   -
+
+nw/wsj/20/wsj_2031   0    0           Senate     NNP  (TOP(S(NP(NP(NML(NML*         -    -   -   -      (ORG*        (ARG0*            *   -
+nw/wsj/20/wsj_2031   0    1          Banking     NNP                      *         -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0    2        Committee     NNP                      *)        -    -   -   -          *)            *            *   -
+nw/wsj/20/wsj_2031   0    3         Chairman     NNP                      *)        -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0    4           Donald     NNP                      *         -    -   -   -   (PERSON*             *            *   -
+nw/wsj/20/wsj_2031   0    5           Riegle     NNP                      *)        -    -   -   -          *)            *            *   -
+nw/wsj/20/wsj_2031   0    6           -LRB-   -LRB-                    (NP*         -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0    7               D.     NNP                   (NP*)        -    -   -   -      (NORP)            *            *   -
+nw/wsj/20/wsj_2031   0    8                ,       ,                      *         -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0    9             Mich     NNP                   (NP*         -    -   -   -      (GPE*             *            *   -
+nw/wsj/20/wsj_2031   0   10                .       .                      *)        -    -   -   -          *)            *            *   -
+nw/wsj/20/wsj_2031   0   11           -RRB-   -RRB-                      *))        -    -   -   -          *             *)           *   -
+nw/wsj/20/wsj_2031   0   12              has     VBZ                   (VP*         -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0   13             also      RB                 (ADVP*)        -    -   -   -          *    (ARGM-DIS*)           *   -
+nw/wsj/20/wsj_2031   0   14         returned     VBN                   (VP*     return  02   -   -          *           (V*)           *   -
+nw/wsj/20/wsj_2031   0   15    contributions     NNS                (NP(NP*)        -    -   -   -          *        (ARG1*       (ARG1*)  -
+nw/wsj/20/wsj_2031   0   16               he     PRP            (SBAR(S(NP*)        -    -   -   -          *             *       (ARG0*)  -
+nw/wsj/20/wsj_2031   0   17         received     VBD                   (VP*    receive  01   -   -          *             *          (V*)  -
+nw/wsj/20/wsj_2031   0   18             from      IN                   (PP*         -    -   -   -          *             *       (ARG2*   -
+nw/wsj/20/wsj_2031   0   19              Mr.     NNP                   (NP*         -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0   20          Keating     NNP                     *))        -    -   -   -    (PERSON)            *            *)  -
+nw/wsj/20/wsj_2031   0   21                a      DT              (ADVP(NP*         -    -   -   -     (DATE*             *   (ARGM-TMP*   -
+nw/wsj/20/wsj_2031   0   22             year      NN                      *)        -    -   -   -          *             *            *   -
+nw/wsj/20/wsj_2031   0   23              ago      IN                *)))))))        -    -   -   -          *)            *)           *)  -
+nw/wsj/20/wsj_2031   0   24                .       .                     *))        -    -   -   -          *             *            *   -
+
+nw/wsj/20/wsj_2031   0    0            Sens.    NNPS     (TOP(S(NP*           -    -   -   -          *        (ARG0*        (ARG0*       (ARG0*   -
+nw/wsj/20/wsj_2031   0    1             John     NNP      (NML(NML*           -    -   -   -   (PERSON*             *             *            *   -
+nw/wsj/20/wsj_2031   0    2            Glenn     NNP              *)          -    -   -   -          *)            *             *            *   -
+nw/wsj/20/wsj_2031   0    3           -LRB-   -LRB-               *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0    4               D.     NNP        (NP(NP*)          -    -   -   -      (NORP)            *             *            *   -
+nw/wsj/20/wsj_2031   0    5                ,       ,              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0    6             Ohio     NNP          (NP*))          -    -   -   -       (GPE)            *             *            *   -
+nw/wsj/20/wsj_2031   0    7           -RRB-   -RRB-               *)          -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0    8                ,       ,              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0    9             John     NNP      (NML(NML*           -    -   -   -   (PERSON*             *             *            *   -
+nw/wsj/20/wsj_2031   0   10           McCain     NNP              *)          -    -   -   -          *)            *             *            *   -
+nw/wsj/20/wsj_2031   0   11                ,       ,              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   12           -LRB-   -LRB-               *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   13               R.     NNP        (NP(NP*)          -    -   -   -      (NORP)            *             *            *   -
+nw/wsj/20/wsj_2031   0   14                ,       ,              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   15            Ariz.     NNP          (NP*))          -    -   -   -       (GPE)            *             *            *   -
+nw/wsj/20/wsj_2031   0   16           -RRB-   -RRB-               *)          -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   17              and      CC              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   18             Alan     NNP      (NML(NML*           -    -   -   -   (PERSON*             *             *            *   -
+nw/wsj/20/wsj_2031   0   19         Cranston     NNP              *)          -    -   -   -          *)            *             *            *   -
+nw/wsj/20/wsj_2031   0   20           -LRB-   -LRB-               *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   21               D.     NNP        (NP(NP*)          -    -   -   -      (NORP)            *             *            *   -
+nw/wsj/20/wsj_2031   0   22                ,       ,              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   23           Calif.     NNP          (NP*))          -    -   -   -       (GPE)            *             *            *   -
+nw/wsj/20/wsj_2031   0   24           -RRB-   -RRB-              *))          -    -   -   -          *             *)            *)           *)  -
+nw/wsj/20/wsj_2031   0   25             also      RB         (ADVP*)          -    -   -   -          *    (ARGM-DIS*)   (ARGM-DIS*)           *   -
+nw/wsj/20/wsj_2031   0   26         received     VBD        (VP(VP*      receive  01   -   -          *           (V*)            *            *   -
+nw/wsj/20/wsj_2031   0   27      substantial      JJ           (NP*           -    -   -   -          *        (ARG1*             *            *   -
+nw/wsj/20/wsj_2031   0   28    contributions     NNS              *)          -    -   -   -          *             *)            *            *   -
+nw/wsj/20/wsj_2031   0   29             from      IN           (PP*           -    -   -   -          *        (ARG2*             *            *   -
+nw/wsj/20/wsj_2031   0   30              Mr.     NNP           (NP*           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   31          Keating     NNP            *)))          -    -   -   -    (PERSON)            *)            *            *   -
+nw/wsj/20/wsj_2031   0   32              and      CC              *           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   33           sought     VBD           (VP*         seek  01   -   -          *             *           (V*)           *   -
+nw/wsj/20/wsj_2031   0   34               to      TO         (S(VP*           -    -   -   -          *             *        (ARG1*            *   -
+nw/wsj/20/wsj_2031   0   35        intervene      VB           (VP*    intervene  01   1   -          *             *             *          (V*)  -
+nw/wsj/20/wsj_2031   0   36               on      IN           (PP*           -    -   -   -          *             *             *   (ARGM-GOL*   -
+nw/wsj/20/wsj_2031   0   37           behalf      NN        (NP(NP*)          -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   38               of      IN           (PP*           -    -   -   -          *             *             *            *   -
+nw/wsj/20/wsj_2031   0   39          Lincoln     NNP   (NP*)))))))))          -    -   -   -       (ORG)            *             *)           *)  -
+nw/wsj/20/wsj_2031   0   40                .       .             *))          -    -   -   -          *             *             *            *   -
+
+nw/wsj/20/wsj_2031   0    0          House     NNP  (TOP(S(NP(NP(NML(NML*           -    -   -   -      (ORG*   (ARG0*        *            *   -
+nw/wsj/20/wsj_2031   0    1        Banking     NNP                      *           -    -   -   -          *        *        *            *   -
+nw/wsj/20/wsj_2031   0    2      Committee     NNP                      *)          -    -   -   -          *)       *        *            *   -
+nw/wsj/20/wsj_2031   0    3       Chairman     NNP                      *)          -    -   -   -          *        *        *            *   -
+nw/wsj/20/wsj_2031   0    4          Henry     NNP                      *           -    -   -   -   (PERSON*        *        *            *   -
+nw/wsj/20/wsj_2031   0    5       Gonzalez     NNP                      *)          -    -   -   -          *)       *        *            *   -
+nw/wsj/20/wsj_2031   0    6         -LRB-   -LRB-                    (NP*           -    -   -   -          *        *        *            *   -
+nw/wsj/20/wsj_2031   0    7             D.     NNP                   (NP*)          -    -   -   -      (NORP)       *        *            *   -
+nw/wsj/20/wsj_2031   0    8              ,       ,                      *           -    -   -   -          *        *        *            *   -
+nw/wsj/20/wsj_2031   0    9          Texas     NNP                   (NP*)          -    -   -   -       (GPE)       *        *            *   -
+nw/wsj/20/wsj_2031   0   10         -RRB-   -RRB-                      *))          -    -   -   -          *        *)       *            *   -
+nw/wsj/20/wsj_2031   0   11           said     VBD                   (VP*          say  01   -   -          *      (V*)       *            *   -
+nw/wsj/20/wsj_2031   0   12           Sen.     NNP            (SBAR(S(NP*           -    -   -   -          *   (ARG1*   (ARG0*       (ARG1*   -
+nw/wsj/20/wsj_2031   0   13       Cranston     NNP                      *)          -    -   -   -    (PERSON)       *        *)           *)  -
+nw/wsj/20/wsj_2031   0   14    volunteered     VBD                   (VP*    volunteer  01   1   -          *        *      (V*)           *   -
+nw/wsj/20/wsj_2031   0   15             to      TO                 (S(VP*           -    -   -   -          *        *   (ARG1*            *   -
+nw/wsj/20/wsj_2031   0   16         appear      VB                   (VP*       appear  01   -   -          *        *        *          (V*)  -
+nw/wsj/20/wsj_2031   0   17         before      IN                   (PP*           -    -   -   -          *        *        *   (ARGM-LOC*   -
+nw/wsj/20/wsj_2031   0   18            the      DT                   (NP*           -    -   -   -          *        *        *            *   -
+nw/wsj/20/wsj_2031   0   19          House     NNP                      *           -    -   -   -       (ORG)       *        *            *   -
+nw/wsj/20/wsj_2031   0   20      committee      NN                     *))          -    -   -   -          *        *        *            *)  -
+nw/wsj/20/wsj_2031   0   21              ,       ,                      *           -    -   -   -          *        *        *            *   -
+nw/wsj/20/wsj_2031   0   22             if      IN                 (SBAR*           -    -   -   -          *        *        *   (ARGM-ADV*   -
+nw/wsj/20/wsj_2031   0   23      necessary      JJ   (FRAG(ADJP*))))))))))          -    -   -   -          *        *)       *)           *)  -
+nw/wsj/20/wsj_2031   0   24              .       .                     *))          -    -   -   -          *        *        *            *   -
+
+nw/wsj/20/wsj_2031   0    0          But    CC       (TOP(S*        -    -   -   -   *    (ARGM-DIS*)       *             *   -
+nw/wsj/20/wsj_2031   0    1            a    DT          (NP*        -    -   -   -   *        (ARG0*        *             *   -
+nw/wsj/20/wsj_2031   0    2    committee    NN             *        -    -   -   -   *             *        *             *   -
+nw/wsj/20/wsj_2031   0    3        staff    NN             *        -    -   -   -   *             *        *             *   -
+nw/wsj/20/wsj_2031   0    4       member    NN             *)       -    -   -   -   *             *)       *             *   -
+nw/wsj/20/wsj_2031   0    5         said   VBD          (VP*       say  01   -   -   *           (V*)       *             *   -
+nw/wsj/20/wsj_2031   0    6          the    DT   (SBAR(S(NP*        -    -   -   -   *        (ARG1*   (ARG1*        (ARG0*   -
+nw/wsj/20/wsj_2031   0    7        panel    NN             *)       -    -   -   -   *             *        *)            *)  -
+nw/wsj/20/wsj_2031   0    8           is   VBZ          (VP*        be  01   -   -   *             *      (V*)            *   -
+nw/wsj/20/wsj_2031   0    9     unlikely    JJ        (ADJP*        -    -   -   -   *             *   (ARG2*             *   -
+nw/wsj/20/wsj_2031   0   10           to    TO        (S(VP*        -    -   -   -   *             *        *             *   -
+nw/wsj/20/wsj_2031   0   11       pursue    VB          (VP*    pursue  01   -   -   *             *        *           (V*)  -
+nw/wsj/20/wsj_2031   0   12      closely    RB        (ADVP*)       -    -   -   -   *             *        *    (ARGM-MNR*)  -
+nw/wsj/20/wsj_2031   0   13          the    DT       (NP(NP*        -    -   -   -   *             *        *        (ARG1*   -
+nw/wsj/20/wsj_2031   0   14         role    NN             *)       -    -   -   -   *             *        *             *   -
+nw/wsj/20/wsj_2031   0   15           of    IN          (PP*        -    -   -   -   *             *        *             *   -
+nw/wsj/20/wsj_2031   0   16          the    DT          (NP*        -    -   -   -   *             *        *             *   -
+nw/wsj/20/wsj_2031   0   17     senators   NNS   *)))))))))))       -    -   -   -   *             *)       *)            *)  -
+nw/wsj/20/wsj_2031   0   18            .     .            *))       -    -   -   -   *             *        *             *   -
+
+nw/wsj/20/wsj_2031   0    0           At    IN   (TOP(S(PP*      -    -   -   -          *   (ARGM-LOC*             *   -
+nw/wsj/20/wsj_2031   0    1          the    DT         (NP*      -    -   -   -          *            *             *   -
+nw/wsj/20/wsj_2031   0    2      hearing    NN           *))     -    -   -   -          *            *)            *   -
+nw/wsj/20/wsj_2031   0    3            ,     ,            *      -    -   -   -          *            *             *   -
+nw/wsj/20/wsj_2031   0    4          Mr.   NNP         (NP*      -    -   -   -          *       (ARG0*             *   -
+nw/wsj/20/wsj_2031   0    5      Seidman   NNP            *)     -    -   -   -    (PERSON)           *)            *   -
+nw/wsj/20/wsj_2031   0    6         said   VBD         (VP*     say  01   -   -          *          (V*)            *   -
+nw/wsj/20/wsj_2031   0    7          the    DT  (SBAR(S(NP*      -    -   -   -          *       (ARG1*        (ARG0*   -
+nw/wsj/20/wsj_2031   0    8          RTC   NNP            *)     -    -   -   -       (ORG)           *             *)  -
+nw/wsj/20/wsj_2031   0    9          has   VBZ         (VP*      -    -   -   -          *            *             *   -
+nw/wsj/20/wsj_2031   0   10      already    RB       (ADVP*)     -    -   -   -          *            *    (ARGM-TMP*)  -
+nw/wsj/20/wsj_2031   0   11       pumped   VBN         (VP*    pump  01   2   -          *            *           (V*)  -
+nw/wsj/20/wsj_2031   0   12            $     $      (NP(QP*      -    -   -   -    (MONEY*            *        (ARG2*   -
+nw/wsj/20/wsj_2031   0   13         729     CD            *      -    -   -   -          *            *             *   -
+nw/wsj/20/wsj_2031   0   14      million    CD           *))     -    -   -   -          *)           *             *)  -
+nw/wsj/20/wsj_2031   0   15         into    IN         (PP*      -    -   -   -          *            *        (ARG1*   -
+nw/wsj/20/wsj_2031   0   16      Lincoln   NNP        (NP*))     -    -   -   -       (ORG)           *             *)  -
+nw/wsj/20/wsj_2031   0   17          for    IN         (PP*      -    -   -   -          *            *    (ARGM-PNC*   -
+nw/wsj/20/wsj_2031   0   18    liquidity    NN   (NP*)))))))     -    -   -   -          *            *)            *)  -
+nw/wsj/20/wsj_2031   0   19            .     .           *))     -    -   -   -          *            *             *   -
+
+nw/wsj/20/wsj_2031   0    0              He   PRP   (TOP(S(NP*)            -    -   -   -         *        (ARG0*)        *   -
+nw/wsj/20/wsj_2031   0    1            also    RB       (ADVP*)            -    -   -   -         *    (ARGM-ADV*)        *   -
+nw/wsj/20/wsj_2031   0    2            held   VBD         (VP*           hold  15   -   -         *           (V*)        *   -
+nw/wsj/20/wsj_2031   0    3             out    RP        (PRT*)            -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0    4          little    JJ      (NP(NP*             -    -   -   -         *        (ARG1*         *   -
+nw/wsj/20/wsj_2031   0    5            hope    NN            *)            -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0    6              of    IN         (PP*             -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0    7     restitution    NN      (NP(NP*)            -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0    8             for    IN         (PP*             -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0    9      purchasers   NNS      (NP(NP*)            -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0   10              of    IN         (PP*             -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0   11               $     $   (NP(NP(QP*             -    -   -   -   (MONEY*             *         *   -
+nw/wsj/20/wsj_2031   0   12            225     CD            *             -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0   13         million    CD           *))            -    -   -   -         *)            *         *   -
+nw/wsj/20/wsj_2031   0   14              in    IN         (PP*             -    -   -   -         *             *         *   -
+nw/wsj/20/wsj_2031   0   15        American   NNP     (NP(NML*             -    -   -   -     (ORG*             *         *   -
+nw/wsj/20/wsj_2031   0   16     Continental   NNP            *)            -    -   -   -         *)            *         *   -
+nw/wsj/20/wsj_2031   0   17    subordinated   VBN            *    subordinate  01   1   -         *             *       (V*)  -
+nw/wsj/20/wsj_2031   0   18            debt    NN   *))))))))))            -    -   -   -         *             *)   (ARG1*)  -
+nw/wsj/20/wsj_2031   0   19               .     .           *))            -    -   -   -         *             *         *   -
+
+nw/wsj/20/wsj_2031   0    0            Some     DT       (TOP(S(NP(NP*)        -    -   -   -   *       (ARG0*        *         *         *   -
+nw/wsj/20/wsj_2031   0    1              of     IN                (PP*         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0    2           those     DT                (NP*         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0    3     debtholders    NNS                 *)))        -    -   -   -   *            *)       *         *         *   -
+nw/wsj/20/wsj_2031   0    4            have    VBP                (VP*         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0    5           filed    VBN                (VP*       file  01   -   -   *          (V*)       *         *         *   -
+nw/wsj/20/wsj_2031   0    6               a     DT                (NP*         -    -   -   -   *       (ARG1*        *         *         *   -
+nw/wsj/20/wsj_2031   0    7            suit     NN                   *)        -    -   -   -   *            *)       *         *         *   -
+nw/wsj/20/wsj_2031   0    8               ,      ,                   *         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0    9          saying    VBG              (S(VP*        say  01   -   -   *   (ARGM-PRD*      (V*)        *         *   -
+nw/wsj/20/wsj_2031   0   10            they    PRP         (SBAR(S(NP*)        -    -   -   -   *            *   (ARG1*    (ARG0*)        *   -
+nw/wsj/20/wsj_2031   0   11        believed    VBD                (VP*    believe  01   -   -   *            *        *       (V*)        *   -
+nw/wsj/20/wsj_2031   0   12            they    PRP         (SBAR(S(NP*)        -    -   -   -   *            *        *    (ARG1*    (ARG0*)  -
+nw/wsj/20/wsj_2031   0   13            were    VBD                (VP*         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0   14          buying    VBG                (VP*        buy  01   -   -   *            *        *         *       (V*)  -
+nw/wsj/20/wsj_2031   0   15      government     NN        (NP(NP(ADJP*         -    -   -   -   *            *        *         *    (ARG1*   -
+nw/wsj/20/wsj_2031   0   16              -    HYPH                   *         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0   17         insured    VBN                   *)    insure   -   1   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0   18    certificates    NNS                   *)        -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0   19              of     IN                (PP*         -    -   -   -   *            *        *         *         *   -
+nw/wsj/20/wsj_2031   0   20         deposit     NN   (NP*))))))))))))))        -    -   -   -   *            *)       *)        *)        *)  -
+nw/wsj/20/wsj_2031   0   21               .      .                  *))        -    -   -   -   *            *        *         *         *   -
+
+nw/wsj/20/wsj_2031   0    0       ``    ``  (TOP(S*     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0    1       We   PRP   (S(NP*)    -    -   -   -        *    (ARG0*)  -
+nw/wsj/20/wsj_2031   0    2     have   VBP     (VP*     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0    3       no    DT     (NP*     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0    4    plans   NNS        *)    -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0    5       at    IN     (PP*     -    -   -   -   (DATE*         *   -
+nw/wsj/20/wsj_2031   0    6     this    DT     (NP*     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0    7     time    NN       *))    -    -   -   -        *)        *   -
+nw/wsj/20/wsj_2031   0    8       to    TO   (S(VP*     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0    9      pay    VB     (VP*    pay  02   -   -        *       (V*)  -
+nw/wsj/20/wsj_2031   0   10      off    RP    (PRT*)    -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0   11    those    DT     (NP*     -    -   -   -        *    (ARG1*   -
+nw/wsj/20/wsj_2031   0   12    notes   NNS   *))))))    -    -   -   -        *         *)  -
+nw/wsj/20/wsj_2031   0   13        ,     ,        *     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0   14       ''    ''        *     -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0   15       he   PRP     (NP*)    -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0   16     said   VBD     (VP*)    -    -   -   -        *         *   -
+nw/wsj/20/wsj_2031   0   17        .     .       *))    -    -   -   -        *         *   -
+
+#end document

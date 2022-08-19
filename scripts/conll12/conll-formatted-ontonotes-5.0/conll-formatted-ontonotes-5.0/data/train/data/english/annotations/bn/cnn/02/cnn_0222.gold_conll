@@ -1,0 +1,110 @@
+#begin document (bn/cnn/02/cnn_0222); part 000
+bn/cnn/02/cnn_0222   0    0      Convicted   VBN  (TOP(S(NP(NML*        -    -   -   -          *        (ARG1*      *         *   (1
+bn/cnn/02/cnn_0222   0    1       Oklahoma   NNP       (NML(NML*        -    -   -   -    (EVENT*             *      *         *   (2
+bn/cnn/02/cnn_0222   0    2           City   NNP               *)       -    -   -   -          *             *      *         *    2)
+bn/cnn/02/cnn_0222   0    3        bombing    NN               *)       -    -   -   -          *)            *      *         *    -
+bn/cnn/02/cnn_0222   0    4    conspirator    NN               *)       -    -   -   -          *             *      *         *    -
+bn/cnn/02/cnn_0222   0    5          Terry   NNP               *        -    -   -   -   (PERSON*             *      *         *    -
+bn/cnn/02/cnn_0222   0    6        Nichols   NNP               *)       -    -   -   -          *)            *)     *         *    1)
+bn/cnn/02/cnn_0222   0    7           will    MD            (VP*        -    -   -   -          *    (ARGM-MOD*)     *         *    -
+bn/cnn/02/cnn_0222   0    8          stand    VB            (VP*     stand  04   8   -          *           (V*)     *         *    -
+bn/cnn/02/cnn_0222   0    9          trial    NN            (NP*)    trial  02   3   -          *        (ARG2*)   (V*)        *    -
+bn/cnn/02/cnn_0222   0   10          again    RB          (ADVP*)       -    -   -   -          *    (ARGM-ADV*)     *         *    -
+bn/cnn/02/cnn_0222   0   11             on    IN            (PP*        -    -   -   -          *    (ARGM-ADV*      *         *    -
+bn/cnn/02/cnn_0222   0   12          state    NN            (NP*     state   -   2   -          *             *      *    (ARG0*)   -
+bn/cnn/02/cnn_0222   0   13         murder    NN               *    murder   -   1   -          *             *      *    (ARG1*)   -
+bn/cnn/02/cnn_0222   0   14        charges   NNS            *))))   charge  03   3   -          *             *)     *       (V*)   -
+bn/cnn/02/cnn_0222   0   15              .     .              *))       -    -   -   -          *             *      *         *    -
+
+bn/cnn/02/cnn_0222   0    0         Nichols    NNP   (TOP(S(NP*)      -    -   -   -      (PERSON)     *    (ARG0*)       *             *    (1)
+bn/cnn/02/cnn_0222   0    1              is    VBZ         (VP*       be  03   -   -            *    (V*)        *        *             *     -
+bn/cnn/02/cnn_0222   0    2         serving    VBG         (VP*    serve  01   5   -            *      *       (V*)       *             *     -
+bn/cnn/02/cnn_0222   0    3               a     DT      (NP(NP*       -    -   -   -            *      *    (ARG1*        *             *     -
+bn/cnn/02/cnn_0222   0    4            life     NN            *       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0    5            term     NN            *)      -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0    6             for     IN         (PP*       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0    7             his   PRP$      (NP(NP*       -    -   -   -            *      *         *   (ARG1*             *    (1)
+bn/cnn/02/cnn_0222   0    8         federal     JJ            *       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0    9    manslaughter     NN        (NML*       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   10             and     CC            *       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   11      conspiracy     NN            *)      -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   12     convictions    NNS            *)      -    -   -   -            *      *         *        *)            *     -
+bn/cnn/02/cnn_0222   0   13        stemming    VBG         (VP*     stem  01   1   -            *      *         *      (V*)            *     -
+bn/cnn/02/cnn_0222   0   14            from     IN         (PP*       -    -   -   -            *      *         *   (ARG2*             *     -
+bn/cnn/02/cnn_0222   0   15             the     DT      (NP(NP*       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   16          deaths    NNS            *)   death   -   1   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   17              of     IN         (PP*       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   18           eight     CD         (NP*       -    -   -   -    (CARDINAL)     *         *        *             *     -
+bn/cnn/02/cnn_0222   0   19         federal     JJ            *       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   20       employees    NNS           *))      -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   21              in     IN         (PP*       -    -   -   -            *      *         *        *             *     -
+bn/cnn/02/cnn_0222   0   22             the     DT         (NP*       -    -   -   -            *      *         *        *             *    (0
+bn/cnn/02/cnn_0222   0   23           1995      CD            *       -    -   -   -        (DATE)     *         *        *    (ARGM-TMP*)    -
+bn/cnn/02/cnn_0222   0   24           blast     NN   *))))))))))   blast  03   4   -            *      *         *)       *)          (V*)    0)
+bn/cnn/02/cnn_0222   0   25               .      .           *))      -    -   -   -            *      *         *        *             *     -
+
+bn/cnn/02/cnn_0222   0    0             An    DT       (TOP(S(NP*          -    -   -   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0    1       Oklahoma   NNP            (NML*          -    -   -   -        (GPE*      *            *             *            *            *    (2
+bn/cnn/02/cnn_0222   0    2           City   NNP                *)         -    -   -   -            *)     *            *             *            *            *     2)
+bn/cnn/02/cnn_0222   0    3          judge    NN                *)      judge   -   1   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0    4            has   VBZ             (VP*        have  01   -   -            *    (V*)           *             *            *            *     -
+bn/cnn/02/cnn_0222   0    5          ruled   VBN             (VP*          -    -   -   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0    6    prosecutors   NNS      (SBAR(S(NP*)         -    -   -   -            *      *       (ARG0*)            *            *            *    (3)
+bn/cnn/02/cnn_0222   0    7      presented   VBD             (VP*     present  01   2   -            *      *          (V*)            *            *            *     -
+bn/cnn/02/cnn_0222   0    8         enough    JJ          (NP(NP*          -    -   -   -            *      *       (ARG1*             *            *            *     -
+bn/cnn/02/cnn_0222   0    9       evidence    NN               *))   evidence   -   3   -            *      *            *)            *            *            *     -
+bn/cnn/02/cnn_0222   0   10             at    IN             (PP*          -    -   -   -            *      *   (ARGM-LOC*             *            *            *     -
+bn/cnn/02/cnn_0222   0   11              a    DT             (NP*          -    -   -   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0   12    preliminary    JJ                *          -    -   -   -            *      *            *    (ARGM-TMP*)           *            *     -
+bn/cnn/02/cnn_0222   0   13        hearing    NN               *))    hearing  01   1   -            *      *            *)          (V*)           *            *     -
+bn/cnn/02/cnn_0222   0   14             to    TO           (S(VP*          -    -   -   -            *      *     (C-ARG1*             *            *            *     -
+bn/cnn/02/cnn_0222   0   15            try    VB             (VP*         try  02   3   -            *      *            *             *          (V*)           *     -
+bn/cnn/02/cnn_0222   0   16        Nichols   NNP             (NP*)         -    -   -   -      (PERSON)     *            *             *       (ARG1*)           *    (1)
+bn/cnn/02/cnn_0222   0   17             on    IN             (PP*          -    -   -   -            *      *            *             *   (ARGM-ADV*            *     -
+bn/cnn/02/cnn_0222   0   18         murder    NN          (NP(NP*      murder   -   1   -            *      *            *             *            *       (ARG1*)    -
+bn/cnn/02/cnn_0222   0   19        charges   NNS                *)     charge  03   3   -            *      *            *             *            *          (V*)    -
+bn/cnn/02/cnn_0222   0   20            for    IN             (PP*          -    -   -   -            *      *            *             *            *   (ARGM-GOL*     -
+bn/cnn/02/cnn_0222   0   21            the    DT          (NP(NP*          -    -   -   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0   22          other    JJ                *          -    -   -   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0   23           160     CD                *          -    -   -   -    (CARDINAL)     *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0   24        victims   NNS                *)     victim   -   1   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0   25             of    IN             (PP*          -    -   -   -            *      *            *             *            *            *     -
+bn/cnn/02/cnn_0222   0   26            the    DT             (NP*          -    -   -   -            *      *            *             *            *            *    (0
+bn/cnn/02/cnn_0222   0   27         attack    NN   *))))))))))))))         -    -   -   -            *      *            *)            *            *)           *)    0)
+bn/cnn/02/cnn_0222   0   28              .     .               *))         -    -   -   -            *      *            *             *            *            *     -
+
+bn/cnn/02/cnn_0222   0   0       They   PRP   (TOP(S(NP*)        -    -   -   -   *        (ARG0*)   (3)
+bn/cnn/02/cnn_0222   0   1       will    MD         (VP*         -    -   -   -   *    (ARGM-MOD*)    -
+bn/cnn/02/cnn_0222   0   2       seek    VB         (VP*       seek  01   1   -   *           (V*)    -
+bn/cnn/02/cnn_0222   0   3        the    DT         (NP*         -    -   -   -   *        (ARG1*     -
+bn/cnn/02/cnn_0222   0   4      death    NN            *      death   -   1   -   *             *     -
+bn/cnn/02/cnn_0222   0   5    penalty    NN          *)))   penalty   -   1   -   *             *)    -
+bn/cnn/02/cnn_0222   0   6          .     .           *))        -    -   -   -   *             *     -
+
+bn/cnn/02/cnn_0222   0    0      Timothy   NNP  (TOP(S(NP(NP*         -    -   -   -   (PERSON*        *   (ARG0*           *      *       (ARG1*   -
+bn/cnn/02/cnn_0222   0    1      McVeigh   NNP              *)        -    -   -   -          *)       *        *)          *      *            *   -
+bn/cnn/02/cnn_0222   0    2            ,     ,              *         -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0    3    convicted   VBN           (VP*    convict  01   1   -          *      (V*)       *           *      *            *   -
+bn/cnn/02/cnn_0222   0    4           of    IN           (PP*         -    -   -   -          *   (ARG2*        *           *      *            *   -
+bn/cnn/02/cnn_0222   0    5      setting   VBG         (S(VP*        set  05   6   -          *        *      (V*)          *      *            *   -
+bn/cnn/02/cnn_0222   0    6          off    RP          (PRT*)        -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0    7          the    DT        (NP(NP*         -    -   -   -          *        *   (ARG1*      (ARG0*      *            *   -
+bn/cnn/02/cnn_0222   0    8         bomb    NN              *)        -    -   -   -          *        *        *           *)     *            *   -
+bn/cnn/02/cnn_0222   0    9         that   WDT    (SBAR(WHNP*)        -    -   -   -          *        *        *    (R-ARG0*)     *            *   -
+bn/cnn/02/cnn_0222   0   10    destroyed   VBD         (S(VP*    destroy  01   1   -          *        *        *         (V*)     *            *   -
+bn/cnn/02/cnn_0222   0   11          the    DT           (NP*         -    -   -   -      (FAC*        *        *      (ARG1*      *            *   -
+bn/cnn/02/cnn_0222   0   12       Alfred   NNP          (NML*         -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   13           P.   NNP              *         -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   14       Murrah   NNP              *)        -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   15      Federal   NNP              *         -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   16     Building   NNP     *))))))))))        -    -   -   -          *)       *)       *)          *)     *            *)  -
+bn/cnn/02/cnn_0222   0   17            ,     ,              *         -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   18          was   VBD           (VP*         be  03   -   -          *        *        *           *    (V*)           *   -
+bn/cnn/02/cnn_0222   0   19     executed   VBN           (VP*    execute  01   1   -          *        *        *           *      *          (V*)  -
+bn/cnn/02/cnn_0222   0   20       nearly    RB   (ADVP(NP(QP*         -    -   -   -     (DATE*        *        *           *      *   (ARGM-TMP*   -
+bn/cnn/02/cnn_0222   0   21          two    CD              *)        -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   22        years   NNS              *)        -    -   -   -          *        *        *           *      *            *   -
+bn/cnn/02/cnn_0222   0   23          ago    RB            *)))        -    -   -   -          *)       *        *           *      *            *)  -
+bn/cnn/02/cnn_0222   0   24            .     .             *))        -    -   -   -          *        *        *           *      *            *   -
+
+#end document

@@ -1,0 +1,485 @@
+#begin document (bn/abc/00/abc_0066); part 000
+bn/abc/00/abc_0066   0    0           In     IN    (TOP(S(PP*          -    -   -   -       *           *    (ARGM-LOC*        -
+bn/abc/00/abc_0066   0    1          the     DT       (NP(NP*          -    -   -   -   (LOC*           *             *       (9
+bn/abc/00/abc_0066   0    2    Galapagos    NNP             *          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0    3      Islands   NNPS             *)         -    -   -   -       *)          *             *        -
+bn/abc/00/abc_0066   0    4           of     IN          (PP*          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0    5      Ecuador    NNP       (NP*))))         -    -   -   -    (GPE)          *             *)   (4)|9)
+bn/abc/00/abc_0066   0    6            ,      ,             *          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0    7          the     DT       (NP(NP*          -    -   -   -       *      (ARG0*        (ARG1*      (11
+bn/abc/00/abc_0066   0    8          oil     NN             *          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0    9        spill     NN             *)         -    -   -   -       *           *)            *        -
+bn/abc/00/abc_0066   0   10         that    WDT   (SBAR(WHNP*)         -    -   -   -       *    (R-ARG0*)            *        -
+bn/abc/00/abc_0066   0   11    threatens    VBZ        (S(VP*    threaten  01   2   -       *         (V*)            *        -
+bn/abc/00/abc_0066   0   12           so     RB  (NP(NP(ADJP*          -    -   -   -       *      (ARG2*             *       (8
+bn/abc/00/abc_0066   0   13         many     JJ             *)         -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   14      species    NNS             *)         -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   15           of     IN          (PP*          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   16         rare     JJ          (NP*          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   17        birds    NNS             *          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   18          and     CC             *          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   19      animals    NNS       *)))))))         -    -   -   -       *           *)            *)   11)|8)
+bn/abc/00/abc_0066   0   20           is    VBZ          (VP*          be  01   1   -       *           *           (V*)       -
+bn/abc/00/abc_0066   0   21          now     RB        (ADVP*)         -    -   -   -       *           *    (ARGM-TMP*)       -
+bn/abc/00/abc_0066   0   22          the     DT       (NP(NP*          -    -   -   -       *           *        (ARG2*        -
+bn/abc/00/abc_0066   0   23         size     NN             *)       size   -   1   -       *           *             *        -
+bn/abc/00/abc_0066   0   24           of     IN          (PP*          -    -   -   -       *           *             *        -
+bn/abc/00/abc_0066   0   25          Los    NNP          (NP*          -    -   -   -   (GPE*           *             *        -
+bn/abc/00/abc_0066   0   26      Angeles    NNP          *))))         -    -   -   -       *)          *             *)       -
+bn/abc/00/abc_0066   0   27            .      .            *))         -    -   -   -       *           *             *        -
+
+bn/abc/00/abc_0066   0    0        Cleanup    JJ  (TOP(S(NP*          -    -   -   -            *      *        (ARG0*   (ARG0*         *    -
+bn/abc/00/abc_0066   0    1          teams   NNS           *)       team   -   1   -            *      *             *)       *)        *    -
+bn/abc/00/abc_0066   0    2            are   VBP        (VP*          be  03   -   -            *    (V*)            *        *         *    -
+bn/abc/00/abc_0066   0    3    desperately    RB      (ADVP*)         -    -   -   -            *      *    (ARGM-MNR*)       *         *    -
+bn/abc/00/abc_0066   0    4         trying   VBG        (VP*         try  01   1   -            *      *           (V*)       *         *    -
+bn/abc/00/abc_0066   0    5             to    TO      (S(VP*          -    -   -   -            *      *        (ARG1*        *         *    -
+bn/abc/00/abc_0066   0    6           save    VB        (VP*        save  02   1   -            *      *             *      (V*)        *    -
+bn/abc/00/abc_0066   0    7            the    DT     (NP(NP*          -    -   -   -            *      *             *   (ARG1*         *   (8
+bn/abc/00/abc_0066   0    8       hundreds   NNS           *)         -    -   -   -    (CARDINAL)     *             *        *         *    -
+bn/abc/00/abc_0066   0    9             of    IN        (PP*          -    -   -   -            *      *             *        *         *    -
+bn/abc/00/abc_0066   0   10     endangered   VBN        (NP*    endanger  01   1   -            *      *             *        *       (V*)   -
+bn/abc/00/abc_0066   0   11        species   NNS    *))))))))         -    -   -   -            *      *             *)       *)   (ARG1*)   8)
+bn/abc/00/abc_0066   0   12              .     .          *))         -    -   -   -            *      *             *        *         *    -
+
+bn/abc/00/abc_0066   0    0            A     DT  (TOP(S(S(NP*     -    -      -   -          *       (ARG1*             *         (2
+bn/abc/00/abc_0066   0    1       tanker     NN             *)    -    -      -   -          *            *)            *          2)
+bn/abc/00/abc_0066   0    2          ran    VBD          (VP*    run  10   13.9   -          *          (V*)            *          -
+bn/abc/00/abc_0066   0    3      aground     RB        (ADVP*)    -    -      -   -          *       (ARG2*)            *          -
+bn/abc/00/abc_0066   0    4         last     JJ          (NP*     -    -      -   -     (DATE*   (ARGM-TMP*             *          -
+bn/abc/00/abc_0066   0    5         week     NN             *)    -    -      -   -          *)           *)            *          -
+bn/abc/00/abc_0066   0    6          off     IN          (PP*     -    -      -   -          *   (ARGM-LOC*             *          -
+bn/abc/00/abc_0066   0    7          San    NNP          (NP*     -    -      -   -      (LOC*            *             *        (17
+bn/abc/00/abc_0066   0    8    Cristobal    NNP             *     -    -      -   -          *            *             *          -
+bn/abc/00/abc_0066   0    9       Island    NNP          *))))    -    -      -   -          *)           *)            *         17)
+bn/abc/00/abc_0066   0   10            ,      ,             *     -    -      -   -          *            *             *          -
+bn/abc/00/abc_0066   0   11          and     CC             *     -    -      -   -          *            *             *          -
+bn/abc/00/abc_0066   0   12          our   PRP$        (S(NP*     -    -      -   -          *            *        (ARG1*    (12|(15)
+bn/abc/00/abc_0066   0   13          Ned    NNP             *     -    -      -   -   (PERSON*            *             *          -
+bn/abc/00/abc_0066   0   14       Potter    NNP             *)    -    -      -   -          *)           *             *)        12)
+bn/abc/00/abc_0066   0   15           is    VBZ          (VP*     be  01      4   -          *            *           (V*)         -
+bn/abc/00/abc_0066   0   16        there     RB        (ADVP*)    -    -      -   -          *            *        (ARG2*)         -
+bn/abc/00/abc_0066   0   17      tonight     NN        (NP*)))    -    -      -   -      (TIME)           *    (ARGM-TMP*)         -
+bn/abc/00/abc_0066   0   18            .      .            *))    -    -      -   -          *            *             *          -
+
+bn/abc/00/abc_0066   0    0           This     DT    (TOP(S(S(NP*          -    -   -   -       (TIME*   (ARGM-TMP*            *            *      *             *        *     -
+bn/abc/00/abc_0066   0    1        morning     NN               *)    morning   -   1   -            *)           *)           *            *      *             *        *     -
+bn/abc/00/abc_0066   0    2              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0    3            the     DT            (NP*          -    -   -   -            *       (ARG1*            *            *      *             *        *    (2
+bn/abc/00/abc_0066   0    4         tanker     NN               *)         -    -   -   -            *            *)           *            *      *             *        *     2)
+bn/abc/00/abc_0066   0    5            was    VBD            (VP*          be  01   1   -            *          (V*)           *            *      *             *        *     -
+bn/abc/00/abc_0066   0    6    practically     RB       (PP(ADVP*)         -    -   -   -            *       (ARG2*            *            *      *             *        *     -
+bn/abc/00/abc_0066   0    7             on     IN               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0    8            its   PRP$            (NP*          -    -   -   -            *            *            *            *      *             *        *    (2)
+bn/abc/00/abc_0066   0    9           side     NN              *))       side   -   2   -            *            *)           *            *      *             *        *     -
+bn/abc/00/abc_0066   0   10              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   11            the     DT          (S(NP*          -    -   -   -            *   (ARGM-ADV*       (ARG0*            *      *             *        *     -
+bn/abc/00/abc_0066   0   12          waves    NNS               *)         -    -   -   -            *            *            *)           *      *             *        *     -
+bn/abc/00/abc_0066   0   13       breaking    VBG            (VP*       break  04   1   -            *            *          (V*)           *      *             *        *     -
+bn/abc/00/abc_0066   0   14             it    PRP            (NP*)         -    -   -   -            *            *       (ARG1*)           *      *             *        *    (2)
+bn/abc/00/abc_0066   0   15            off     RP           (PRT*)         -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   16           just     RB      (PP(NP(QP*          -    -   -   -   (QUANTITY*            *   (ARGM-LOC*            *      *             *        *     -
+bn/abc/00/abc_0066   0   17           500      CD               *)         -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   18          yards    NNS               *)       yard   -   1   -            *)           *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   19           from     IN            (PP*          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   20            San    NNP            (NP*          -    -   -   -        (LOC*            *            *            *      *             *        *   (17
+bn/abc/00/abc_0066   0   21      Cristobal    NNP               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   22         Island    NNP         *)))))))         -    -   -   -            *)           *)           *)           *      *             *        *    17)
+bn/abc/00/abc_0066   0   23              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   24            and     CC               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   25        despite     IN          (S(PP*          -    -   -   -            *            *            *   (ARGM-ADV*      *             *        *     -
+bn/abc/00/abc_0066   0   26          their   PRP$            (NP*          -    -   -   -            *            *            *            *      *             *        *    (1)
+bn/abc/00/abc_0066   0   27           best    JJS               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   28        efforts    NNS              *))     effort   -   1   -            *            *            *            *)     *             *        *     -
+bn/abc/00/abc_0066   0   29              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   30      officials    NNS            (NP*)   official   -   1   -            *            *            *       (ARG0*)     *             *        *    (1)
+bn/abc/00/abc_0066   0   31           said    VBD            (VP*         say  01   1   -            *            *            *          (V*)     *             *        *     -
+bn/abc/00/abc_0066   0   32       200,000      CD  (SBAR(S(NP(NP*          -    -   -   -   (QUANTITY*            *            *       (ARG1*      *        (ARG1*   (ARG0*     -
+bn/abc/00/abc_0066   0   33        gallons    NNS               *)         -    -   -   -            *)           *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   34             of     IN            (PP*          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   35         engine     NN            (NP*          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   36           fuel     NN             *)))         -    -   -   -            *            *            *            *      *             *)       *)    -
+bn/abc/00/abc_0066   0   37            had    VBD            (VP*        have  01   -   -            *            *            *            *    (V*)            *        *     -
+bn/abc/00/abc_0066   0   38        already     RB          (ADVP*)         -    -   -   -            *            *            *            *      *    (ARGM-TMP*)       *     -
+bn/abc/00/abc_0066   0   39         leaked    VBN            (VP*        leak  01   2   -            *            *            *            *      *           (V*)       *     -
+bn/abc/00/abc_0066   0   40           from     IN            (PP*          -    -   -   -            *            *            *            *      *        (ARG0*        *     -
+bn/abc/00/abc_0066   0   41            the     DT            (NP*          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   42           hull     NN              *))         -    -   -   -            *            *            *            *      *             *)       *     -
+bn/abc/00/abc_0066   0   43              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   44    endangering    VBG          (S(VP*    endanger  01   1   -            *            *            *            *      *    (ARGM-ADV*      (V*)    -
+bn/abc/00/abc_0066   0   45            sea     NN         (NP(NP*          -    -   -   -            *            *            *            *      *             *   (ARG1*     -
+bn/abc/00/abc_0066   0   46          lions    NNS               *)         -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   47              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   48       pelicans    NNS            (NP*)         -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   49              ,      ,               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   50          crabs    NNS            (NP*)         -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   51            and     CC               *          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   52          other     JJ            (NP*          -    -   -   -            *            *            *            *      *             *        *     -
+bn/abc/00/abc_0066   0   53        species    NNS      *))))))))))         -    -   -   -            *            *            *            *)     *             *)       *)    -
+bn/abc/00/abc_0066   0   54              .      .              *))         -    -   -   -            *            *            *            *      *             *        *     -
+
+bn/abc/00/abc_0066   0    0             The    DT    (TOP(S(NP(NP*           -    -      -   -   *        (ARG1*   (ARG1*            *      -
+bn/abc/00/abc_0066   0    1            best   JJS                *           -    -      -   -   *             *        *            *      -
+bn/abc/00/abc_0066   0    2           thing    NN                *)       thing   -      1   -   *             *)       *            *      -
+bn/abc/00/abc_0066   0    3            that   WDT      (SBAR(WHNP*)          -    -      -   -   *      (R-ARG1*)       *            *      -
+bn/abc/00/abc_0066   0    4             you   PRP           (S(NP*)          -    -      -   -   *        (ARG0*)       *            *      -
+bn/abc/00/abc_0066   0    5             can    MD             (VP*           -    -      -   -   *    (ARGM-MOD*)       *            *      -
+bn/abc/00/abc_0066   0    6              do    VB         (VP*)))))          do  02      1   -   *           (V*)       *)           *      -
+bn/abc/00/abc_0066   0    7              is   VBZ             (VP*           be  01      -   -   *             *      (V*)           *      -
+bn/abc/00/abc_0066   0    8            take    VB           (S(VP*         take  01   14.1   -   *             *   (ARG2*          (V*)     -
+bn/abc/00/abc_0066   0    9            care    NN             (NP*         care   -      2   -   *             *        *       (ARG1*)     -
+bn/abc/00/abc_0066   0   10              of    IN             (PP*           -    -      -   -   *             *        *       (ARG2*      -
+bn/abc/00/abc_0066   0   11             the    DT          (NP(NP*           -    -      -   -   *             *        *            *    (10
+bn/abc/00/abc_0066   0   12             oil    NN                *)         oil   -      1   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   13            here    RB        (ADVP*))))          -    -      -   -   *             *        *            *)    10)
+bn/abc/00/abc_0066   0   14              at    IN             (PP*           -    -      -   -   *             *        *   (ARGM-LOC*      -
+bn/abc/00/abc_0066   0   15             the    DT       (NP(NP(NP*           -    -      -   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   16          source    NN                *)      source   -      4   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   17              of    IN             (PP*           -    -      -   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   18       pollution    NN           (NP*)))   pollution   -      1   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   19               ,     ,                *           -    -      -   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   20           where   WRB    (SBAR(WHADVP*)          -    -      -   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   21              it   PRP           (S(NP*)          -    -      -   -   *             *        *            *    (10)
+bn/abc/00/abc_0066   0   22              's   VBZ             (VP*           be   -      1   -   *             *        *            *      -
+bn/abc/00/abc_0066   0   23    concentrated    JJ   (ADJP*)))))))))          -    -      -   -   *             *        *)           *)     -
+bn/abc/00/abc_0066   0   24               .     .               *))          -    -      -   -   *             *        *            *      -
+
+bn/abc/00/abc_0066   0    0         Ed   NNP  (TOP(S(NP*         -    -   -   -   (PERSON*   (ARG0*            *        *     -
+bn/abc/00/abc_0066   0    1    Stanton   NNP           *)        -    -   -   -          *)       *)           *        *     -
+bn/abc/00/abc_0066   0    2      heads   VBZ        (VP*       head  01   2   -          *      (V*)           *        *     -
+bn/abc/00/abc_0066   0    3          a    DT     (NP(NP*         -    -   -   -          *   (ARG1*       (ARG1*        *   (16
+bn/abc/00/abc_0066   0    4       U.S.   NNP       (NML*         -    -   -   -      (ORG*        *            *        *     -
+bn/abc/00/abc_0066   0    5      Coast   NNP           *         -    -   -   -          *        *            *        *     -
+bn/abc/00/abc_0066   0    6      Guard   NNP           *)        -    -   -   -          *)       *            *        *     -
+bn/abc/00/abc_0066   0    7       team    NN           *)      team   -   1   -          *        *            *)       *     -
+bn/abc/00/abc_0066   0    8          ,     ,           *         -    -   -   -          *        *            *        *     -
+bn/abc/00/abc_0066   0    9       sent   VBN        (VP*       send  03   2   -          *        *          (V*)       *     -
+bn/abc/00/abc_0066   0   10       here    RB      (ADVP*)        -    -   -   -          *        *       (ARG2*)       *     -
+bn/abc/00/abc_0066   0   11         at    IN        (PP*         -    -   -   -          *        *   (ARGM-ADV*        *     -
+bn/abc/00/abc_0066   0   12    Ecuador   NNP     (NP(NP*         -    -   -   -       (GPE)       *            *   (ARG0*    (4
+bn/abc/00/abc_0066   0   13         's   POS           *)        -    -   -   -          *        *            *        *)    4)
+bn/abc/00/abc_0066   0   14    request    NN       *)))))   request  01   2   -          *        *)           *)     (V*)   16)
+bn/abc/00/abc_0066   0   15          .     .          *))        -    -   -   -          *        *            *        *     -
+
+bn/abc/00/abc_0066   0    0         From    IN        (TOP(S(PP*        -    -   -   -       *   (ARGM-DIR*            *         *             *      -
+bn/abc/00/abc_0066   0    1       Mobile   NNP           (NP(NP*)       -    -   -   -    (GPE)           *            *         *             *      -
+bn/abc/00/abc_0066   0    2            ,     ,                 *        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0    3      Alabama   NNP            (NP*)))       -    -   -   -    (GPE)           *)           *         *             *      -
+bn/abc/00/abc_0066   0    4            ,     ,                 *        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0    5         they   PRP              (NP*)       -    -   -   -       *       (ARG0*)      (ARG0*)        *             *    (16)
+bn/abc/00/abc_0066   0    6          're   VBP              (VP*        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0    7       trying   VBG              (VP*       try  01   1   -       *          (V*)           *         *             *      -
+bn/abc/00/abc_0066   0    8            ,     ,                 *        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0    9      against    IN              (PP*        -    -   -   -       *   (ARGM-ADV*            *         *             *      -
+bn/abc/00/abc_0066   0   10          the    DT              (NP*        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0   11         odds   NNS                *))       -    -   -   -       *            *)           *         *             *      -
+bn/abc/00/abc_0066   0   12            ,     ,                 *        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0   13           to    TO            (S(VP*        -    -   -   -       *       (ARG1*            *         *             *      -
+bn/abc/00/abc_0066   0   14         pump    VB              (VP*      pump  03   2   -       *            *          (V*)        *             *      -
+bn/abc/00/abc_0066   0   15          any    DT              (NP*        -    -   -   -       *            *       (ARG2*         *             *    (13
+bn/abc/00/abc_0066   0   16    remaining   VBG                 *    remain  01   -   -       *            *            *       (V*)            *      -
+bn/abc/00/abc_0066   0   17         fuel    NN                 *)       -    -   -   -       *            *            *)   (ARG1*)            *     13)
+bn/abc/00/abc_0066   0   18         from    IN              (PP*        -    -   -   -       *            *       (ARG1*         *             *      -
+bn/abc/00/abc_0066   0   19          the    DT              (NP*        -    -   -   -       *            *            *         *             *     (2
+bn/abc/00/abc_0066   0   20         ship    NN                *))       -    -   -   -       *            *            *)        *             *      2)
+bn/abc/00/abc_0066   0   21           so    IN            (SBAR*        -    -   -   -       *            *   (ARGM-PRP*         *             *      -
+bn/abc/00/abc_0066   0   22         that    IN                 *        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0   23           it   PRP            (S(NP*)       -    -   -   -       *            *            *         *        (ARG1*)   (13)
+bn/abc/00/abc_0066   0   24           wo    MD              (VP*        -    -   -   -       *            *            *         *    (ARGM-MOD*)     -
+bn/abc/00/abc_0066   0   25          n't    RB                 *        -    -   -   -       *            *            *         *    (ARGM-NEG*)     -
+bn/abc/00/abc_0066   0   26        spill    VB              (VP*     spill  01   1   -       *            *            *         *           (V*)     -
+bn/abc/00/abc_0066   0   27         into    IN              (PP*        -    -   -   -       *            *            *         *        (ARG2*      -
+bn/abc/00/abc_0066   0   28          the    DT              (NP*        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0   29        ocean    NN                *))       -    -   -   -       *            *            *         *             *)     -
+bn/abc/00/abc_0066   0   30            ,     ,                 *        -    -   -   -       *            *            *         *             *      -
+bn/abc/00/abc_0066   0   31          too    RB   (ADVP*))))))))))       -    -   -   -       *            *)           *)        *    (ARGM-DIS*)     -
+bn/abc/00/abc_0066   0   32            .     .                *))       -    -   -   -       *            *            *         *             *      -
+
+bn/abc/00/abc_0066   0    0            You   PRP      (TOP(S(NP*)       -    -   -   -   *    (ARG1*)          *    -
+bn/abc/00/abc_0066   0    1         become   VBP            (VP*    become  01   1   -   *       (V*)          *    -
+bn/abc/00/abc_0066   0    2    sympathetic    JJ          (ADJP*        -    -   -   -   *    (ARG2*           *    -
+bn/abc/00/abc_0066   0    3            and    CC               *        -    -   -   -   *         *           *    -
+bn/abc/00/abc_0066   0    4     empathetic    JJ               *        -    -   -   -   *         *           *    -
+bn/abc/00/abc_0066   0    5           with    IN            (PP*        -    -   -   -   *         *           *    -
+bn/abc/00/abc_0066   0    6            the    DT         (NP(NP*        -    -   -   -   *         *      (ARG1*   (7
+bn/abc/00/abc_0066   0    7         people   NNS               *)   people   -   1   -   *         *           *)   -
+bn/abc/00/abc_0066   0    8           that   WDT     (SBAR(WHNP*)       -    -   -   -   *         *    (R-ARG1*)   -
+bn/abc/00/abc_0066   0    9            are   VBP          (S(VP*        be  01   4   -   *         *         (V*)   -
+bn/abc/00/abc_0066   0   10           here    RB   (ADVP*))))))))       -    -   -   -   *         *)     (ARG2*)   7)
+bn/abc/00/abc_0066   0   11              .     .              *))       -    -   -   -   *         *           *    -
+
+bn/abc/00/abc_0066   0    0           They   PRP   (TOP(S(S(NP*)           -    -    -   -   *        (ARG0*)   (7)
+bn/abc/00/abc_0066   0    1            've   VBP           (VP*          have   -   12   -   *             *     -
+bn/abc/00/abc_0066   0    2          never    RB         (ADVP*)           -    -    -   -   *    (ARGM-NEG*)    -
+bn/abc/00/abc_0066   0    3    experienced   VBN           (VP*    experience  01    1   -   *           (V*)    -
+bn/abc/00/abc_0066   0    4       anything    NN        (NP(NP*)           -    -    -   -   *        (ARG1*     -
+bn/abc/00/abc_0066   0    5           like    IN           (PP*            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0    6           this    DT      (NP*))))))           -    -    -   -   *             *)   (5)
+bn/abc/00/abc_0066   0    7              ,     ,              *            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0    8            and    CC              *            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0    9            for    IN         (S(PP*            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0   10           them   PRP          (NP*))           -    -    -   -   *             *    (7)
+bn/abc/00/abc_0066   0   11              ,     ,              *            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0   12             it   PRP           (NP*)           -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0   13             's   VBZ           (VP*            be   -    1   -   *             *     -
+bn/abc/00/abc_0066   0   14             an    DT           (NP*            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0   15      emotional    JJ              *            -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0   16        turmoil    NN            *)))           -    -    -   -   *             *     -
+bn/abc/00/abc_0066   0   17              .     .             *))           -    -    -   -   *             *     -
+
+bn/abc/00/abc_0066   0    0       Indeed    RB   (TOP(S(ADVP*)       -    -   -   -            *    (ARGM-DIS*)           *       -
+bn/abc/00/abc_0066   0    1            ,     ,              *        -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0    2     hundreds   NNS        (NP(NP*)       -    -   -   -    (CARDINAL)       (ARG1*       (ARG0*      (0
+bn/abc/00/abc_0066   0    3           of    IN           (PP*        -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0    4       people   NNS          (NP*))   people   -   1   -            *             *            *       -
+bn/abc/00/abc_0066   0    5         from    IN           (PP*        -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0    6       around    IN           (PP*        -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0    7          the    DT           (NP*        -    -   -   -            *             *            *      (9
+bn/abc/00/abc_0066   0    8    Galapagos   NNP           *))))       -    -   -   -         (LOC)            *)           *)   9)|0)
+bn/abc/00/abc_0066   0    9     gathered   VBD           (VP*    gather  01   2   -            *           (V*)           *       -
+bn/abc/00/abc_0066   0   10           in    IN           (PP*        -    -   -   -            *    (ARGM-LOC*            *       -
+bn/abc/00/abc_0066   0   11          the    DT        (NP(NP*        -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0   12       harbor    NN              *)       -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0   13         here    RB       (ADVP*)))       -    -   -   -            *             *)           *       -
+bn/abc/00/abc_0066   0   14           to    TO         (S(VP*        -    -   -   -            *    (ARGM-PRP*            *       -
+bn/abc/00/abc_0066   0   15         help    VB           (VP*      help  01   1   -            *             *          (V*)      -
+bn/abc/00/abc_0066   0   16           in    IN           (PP*        -    -   -   -            *             *   (ARGM-MNR*       -
+bn/abc/00/abc_0066   0   17          any    DT        (NP(NP*        -    -   -   -            *             *            *       -
+bn/abc/00/abc_0066   0   18          way    NN              *)      way   -   1   -            *             *            *       -
+bn/abc/00/abc_0066   0   19         they   PRP    (SBAR(S(NP*)       -    -   -   -            *             *            *      (0)
+bn/abc/00/abc_0066   0   20        could    MD   (VP*)))))))))       -    -   -   -            *             *)           *)      -
+bn/abc/00/abc_0066   0   21            .     .             *))       -    -   -   -            *             *            *       -
+
+bn/abc/00/abc_0066   0    0    Fishermen    NNS   (TOP(FRAG(NP(NP*)      -    -     -   -   *   (ARG0*   (ARG0*    (3
+bn/abc/00/abc_0066   0    1           in     IN               (PP*       -    -     -   -   *        *        *     -
+bn/abc/00/abc_0066   0    2        their   PRP$               (NP*       -    -     -   -   *        *        *    (3)
+bn/abc/00/abc_0066   0    3        boats    NNS                *)))      -    -     -   -   *        *)       *)    3)
+bn/abc/00/abc_0066   0    4            ,      ,                  *       -    -     -   -   *        *        *     -
+bn/abc/00/abc_0066   0    5       trying    VBG               (VP*      try  01     1   -   *      (V*)       *     -
+bn/abc/00/abc_0066   0    6           to     TO             (S(VP*       -    -     -   -   *   (ARG1*        *     -
+bn/abc/00/abc_0066   0    7        clean     VB               (VP*    clean  02   5.6   -   *        *      (V*)    -
+bn/abc/00/abc_0066   0    8           up     RP              (PRT*)      -    -     -   -   *        *        *     -
+bn/abc/00/abc_0066   0    9          the     DT               (NP*       -    -     -   -   *        *   (ARG1*     -
+bn/abc/00/abc_0066   0   10       waters    NNS              *)))))   water   -     3   -   *        *)       *)    -
+bn/abc/00/abc_0066   0   11            .      .                 *))      -    -     -   -   *        *        *     -
+
+bn/abc/00/abc_0066   0    0        Others   NNS   (TOP(FRAG(NP*)      -    -     -   -   *    (ARG0*)   (ARG0*)      (ARG0*)  -
+bn/abc/00/abc_0066   0    1        trying   VBG         (VP(VP*      try  01     1   -   *       (V*)        *            *   -
+bn/abc/00/abc_0066   0    2            to    TO          (S(VP*       -    -     -   -   *    (ARG1*         *            *   -
+bn/abc/00/abc_0066   0    3         clean    VB            (VP*    clean  02   5.6   -   *         *       (V*)           *   -
+bn/abc/00/abc_0066   0    4            up    RP           (PRT*)      -    -     -   -   *         *         *            *   -
+bn/abc/00/abc_0066   0    5    shorelines   NNS        (NP*)))))      -    -     -   -   *         *)   (ARG1*)           *   -
+bn/abc/00/abc_0066   0    6             ,     ,               *       -    -     -   -   *         *         *            *   -
+bn/abc/00/abc_0066   0    7        saving   VBG            (VP*     save  02     1   -   *         *         *          (V*)  -
+bn/abc/00/abc_0066   0    8         birds   NNS           (NP*))      -    -     -   -   *         *         *       (ARG1*)  -
+bn/abc/00/abc_0066   0    9             ,     ,               *       -    -     -   -   *         *         *            *   -
+bn/abc/00/abc_0066   0   10           all    RB       (PP(ADVP*)      -    -     -   -   *         *         *   (ARGM-MNR*   -
+bn/abc/00/abc_0066   0   11            by    IN               *       -    -     -   -   *         *         *            *   -
+bn/abc/00/abc_0066   0   12          hand    NN          (NP*)))    hand   -    20   -   *         *         *            *)  -
+bn/abc/00/abc_0066   0   13             .     .              *))      -    -     -   -   *         *         *            *   -
+
+bn/abc/00/abc_0066   0   0        How   WRB  (TOP(SBARQ(WHNP(WHADJP*       -    -    -   -   *      *        (ARG1*   -
+bn/abc/00/abc_0066   0   1       many    JJ                        *)      -    -    -   -   *      *             *   -
+bn/abc/00/abc_0066   0   2    animals   NNS                        *)      -    -    -   -   *      *             *)  -
+bn/abc/00/abc_0066   0   3       have   VBP                     (SQ*     have  01   12   -   *    (V*)            *   -
+bn/abc/00/abc_0066   0   4        you   PRP                     (NP*)      -    -    -   -   *      *        (ARG0*)  -
+bn/abc/00/abc_0066   0   5    cleaned   VBN                     (VP*    clean  01    1   -   *      *           (V*)  -
+bn/abc/00/abc_0066   0   6        off    RP                  (PRT*)))      -    -    -   -   *      *    (ARGM-PRD*)  -
+bn/abc/00/abc_0066   0   7          ?     .                       *))      -    -    -   -   *      *             *   -
+
+bn/abc/00/abc_0066   0   0      This    DT   (TOP(S(NP*)    -    -   -   -           *    (ARG1*)  -
+bn/abc/00/abc_0066   0   1        is   VBZ         (VP*     be  01   1   -           *       (V*)  -
+bn/abc/00/abc_0066   0   2       the    DT         (NP*     -    -   -   -           *    (ARG2*   -
+bn/abc/00/abc_0066   0   3    fourth    JJ            *     -    -   -   -    (ORDINAL)        *   -
+bn/abc/00/abc_0066   0   4       one    NN           *))   one   -   2   -           *         *)  -
+bn/abc/00/abc_0066   0   5         .     .           *))    -    -   -   -           *         *   -
+
+bn/abc/00/abc_0066   0    0         The    DT      (TOP(S(NP*         -    -   -   -            *       (ARG1*   (ARG0*           *    -
+bn/abc/00/abc_0066   0    1          ``    ``               *         -    -   -   -            *            *        *           *    -
+bn/abc/00/abc_0066   0    2     Jessica   NNP               *         -    -   -   -     (PRODUCT)           *        *           *    -
+bn/abc/00/abc_0066   0    3          ''    ''               *)        -    -   -   -            *            *)       *)          *    -
+bn/abc/00/abc_0066   0    4         was   VBD            (VP*         be  01   4   -            *          (V*)       *           *    -
+bn/abc/00/abc_0066   0    5        here    RB          (ADVP*)        -    -   -   -            *       (ARG2*)       *           *    -
+bn/abc/00/abc_0066   0    6          to    TO          (S(VP*         -    -   -   -            *   (ARGM-PRP*        *           *    -
+bn/abc/00/abc_0066   0    7     deliver    VB            (VP*    deliver  01   5   -            *            *      (V*)          *    -
+bn/abc/00/abc_0066   0    8        fuel    NN         (NP(NP*)        -    -   -   -            *            *   (ARG1*           *    -
+bn/abc/00/abc_0066   0    9         for    IN            (PP*         -    -   -   -            *            *        *           *    -
+bn/abc/00/abc_0066   0   10        tour    NN         (NP(NP*       tour   -   1   -            *            *        *      (ARG0*    -
+bn/abc/00/abc_0066   0   11       boats   NNS               *)        -    -   -   -            *            *        *           *)   -
+bn/abc/00/abc_0066   0   12           ,     ,               *         -    -   -   -            *            *        *           *    -
+bn/abc/00/abc_0066   0   13       which   WDT     (SBAR(WHNP*)        -    -   -   -            *            *        *    (R-ARG0*)   -
+bn/abc/00/abc_0066   0   14       bring   VBP          (S(VP*      bring  01   1   -            *            *        *         (V*)   -
+bn/abc/00/abc_0066   0   15        many    JJ         (NP(NP*)        -    -   -   -            *            *        *      (ARG1*    -
+bn/abc/00/abc_0066   0   16          of    IN            (PP*         -    -   -   -            *            *        *           *    -
+bn/abc/00/abc_0066   0   17         the    DT         (NP(NP*         -    -   -   -            *            *        *           *   (9
+bn/abc/00/abc_0066   0   18      island    NN               *         -    -   -   -            *            *        *           *    -
+bn/abc/00/abc_0066   0   19          's   POS               *)        -    -   -   -            *            *        *           *    9)
+bn/abc/00/abc_0066   0   20     45,000     CD               *         -    -   -   -    (CARDINAL)           *        *           *    -
+bn/abc/00/abc_0066   0   21    visitors   NNS   *)))))))))))))        -    -   -   -            *            *)       *)          *)   -
+bn/abc/00/abc_0066   0   22           .     .              *))        -    -   -   -            *            *        *           *    -
+
+bn/abc/00/abc_0066   0    0             In    IN     (TOP(S(PP*             -    -   -   -   *      *   (ARGM-DIS*            *        *     -
+bn/abc/00/abc_0066   0    1          other    JJ           (NP*             -    -   -   -   *      *            *            *        *     -
+bn/abc/00/abc_0066   0    2          words   NNS             *))          word   -   2   -   *      *            *)           *        *     -
+bn/abc/00/abc_0066   0    3              ,     ,              *             -    -   -   -   *      *            *            *        *     -
+bn/abc/00/abc_0066   0    4            the    DT        (NP(NP*             -    -   -   -   *      *       (ARG1*            *        *    (6
+bn/abc/00/abc_0066   0    5    environment    NN              *)   environment   -   2   -   *      *            *            *        *     -
+bn/abc/00/abc_0066   0    6           here    RB        (ADVP*))            -    -   -   -   *      *            *)           *        *     6)
+bn/abc/00/abc_0066   0    7            was   VBD           (VP*             be  03   -   -   *    (V*)           *            *        *     -
+bn/abc/00/abc_0066   0    8        damaged   VBN           (VP*)        damage  01   1   -   *      *          (V*)           *        *     -
+bn/abc/00/abc_0066   0    9              ,     ,              *             -    -   -   -   *      *            *            *        *     -
+bn/abc/00/abc_0066   0   10             in    IN           (PP*             -    -   -   -   *      *   (ARGM-ADV*            *        *     -
+bn/abc/00/abc_0066   0   11           part    NN          (NP*))          part   -   2   -   *      *            *)           *        *     -
+bn/abc/00/abc_0066   0   12              ,     ,              *             -    -   -   -   *      *            *            *        *     -
+bn/abc/00/abc_0066   0   13        because    IN         (SBAR*             -    -   -   -   *      *   (ARGM-CAU*            *        *     -
+bn/abc/00/abc_0066   0   14             so    RB    (S(NP(ADJP*             -    -   -   -   *      *            *       (ARG1*   (ARG0*     -
+bn/abc/00/abc_0066   0   15           many    JJ              *)            -    -   -   -   *      *            *            *        *     -
+bn/abc/00/abc_0066   0   16         people   NNS              *)        people   -   1   -   *      *            *            *)       *)    -
+bn/abc/00/abc_0066   0   17           come   VBP           (VP*           come  01   1   -   *      *            *          (V*)       *     -
+bn/abc/00/abc_0066   0   18             to    TO         (S(VP*             -    -   -   -   *      *            *   (ARGM-PRP*        *     -
+bn/abc/00/abc_0066   0   19         marvel    VB           (VP*         marvel  02   -   -   *      *            *            *      (V*)    -
+bn/abc/00/abc_0066   0   20             at    IN           (PP*             -    -   -   -   *      *            *            *   (ARG1*     -
+bn/abc/00/abc_0066   0   21             it   PRP   (NP*)))))))))            -    -   -   -   *      *            *)           *)       *)   (6)
+bn/abc/00/abc_0066   0   22              .     .             *))            -    -   -   -   *      *            *            *        *     -
+
+bn/abc/00/abc_0066   0    0           The     DT    (TOP(S(S(NP*           -    -   -   -          *   (ARG1*         *             *     (9
+bn/abc/00/abc_0066   0    1     Galapagos    NNP               *)          -    -   -   -       (LOC)       *)        *             *      9)
+bn/abc/00/abc_0066   0    2           are    VBP            (VP*           be  01   1   -          *      (V*)        *             *      -
+bn/abc/00/abc_0066   0    3      hallowed     JJ         (NP(NP*           -    -   -   -          *   (ARG2*         *             *      -
+bn/abc/00/abc_0066   0    4        ground     NN               *)      ground   -   4   -          *        *         *             *      -
+bn/abc/00/abc_0066   0    5            to     IN            (PP*           -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0    6          many     JJ            (NP*           -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0    7    scientists    NNS           *)))))          -    -   -   -          *        *)        *             *      -
+bn/abc/00/abc_0066   0    8             ,      ,               *           -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0    9           for     CC               *           -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0   10            it    PRP          (S(NP*)          -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0   11           was    VBD            (VP*           be  01   4   -          *        *       (V*)            *      -
+bn/abc/00/abc_0066   0   12          here     RB          (ADVP*)          -    -   -   -          *        *    (ARG2*)            *      -
+bn/abc/00/abc_0066   0   13          that    WDT   (SBAR(WHADVP*)          -    -   -   -          *        *    (ARG1*    (ARGM-LOC*)     -
+bn/abc/00/abc_0066   0   14       Charles    NNP          (S(NP*           -    -   -   -   (PERSON*        *         *        (ARG0*    (14
+bn/abc/00/abc_0066   0   15        Darwin    NNP               *)          -    -   -   -          *)       *         *             *)    14)
+bn/abc/00/abc_0066   0   16       derived    VBD            (VP*       derive  01   2   -          *        *         *           (V*)     -
+bn/abc/00/abc_0066   0   17           his   PRP$         (NP(NP*           -    -   -   -          *        *         *        (ARG1*    (14)
+bn/abc/00/abc_0066   0   18        theory     NN               *)          -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0   19            of     IN            (PP*           -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0   20       natural     JJ            (NP*           -    -   -   -          *        *         *             *      -
+bn/abc/00/abc_0066   0   21     selection     NN        *))))))))   selection   -   4   -          *        *         *)            *)     -
+bn/abc/00/abc_0066   0   22             .      .              *))          -    -   -   -          *        *         *             *      -
+
+bn/abc/00/abc_0066   0    0            Now    RB   (TOP(S(S(ADVP*)       -    -   -   -        *         *    (ARGM-TMP*)            *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    1           many    JJ          (NP(NP*)       -    -   -   -        *         *        (ARG1*             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    2             of    IN             (PP*        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    3            the    DT          (NP(NP*        -    -   -   -        *    (ARG1*             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    4           fish    NN                *)       -    -   -   -        *         *)            *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    5             he   PRP      (SBAR(S(NP*)       -    -   -   -        *    (ARG0*)            *             *             *        *            *      *            *    (14)
+bn/abc/00/abc_0066   0    6            saw   VBD        (VP*))))))      see  01   -   -        *       (V*)            *)            *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    7            are   VBP             (VP*        be  01   1   -        *         *           (V*)            *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    8             in    IN             (PP*        -    -   -   -        *         *        (ARG2*             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0    9         danger    NN            (NP*))   danger   -   1   -        *         *             *)            *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   10        because    IN           (SBAR*        -    -   -   -        *         *    (ARGM-CAU*             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   11     pollutants   NNS           (S(NP*)       -    -   -   -        *         *             *        (ARG0*)       (ARG0*)       *            *      *            *      -
+bn/abc/00/abc_0066   0   12          could    MD             (VP*        -    -   -   -        *         *             *    (ARGM-MOD*)   (ARGM-MOD*)       *            *      *            *      -
+bn/abc/00/abc_0066   0   13           sink    VB             (VP*      sink  01   1   -        *         *             *           (V*)            *        *            *      *            *      -
+bn/abc/00/abc_0066   0   14            and    CC                *        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   15           kill    VB                *      kill  01   1   -        *         *             *             *           (V*)       *            *      *            *      -
+bn/abc/00/abc_0066   0   16            the    DT          (NP(NP*        -    -   -   -        *         *             *        (ARG1*        (ARG1*        *            *      *            *      -
+bn/abc/00/abc_0066   0   17          algae    NN                *)       -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   18             on    IN      (SBAR(WHPP*        -    -   -   -        *         *             *             *             *   (ARG1*            *      *            *      -
+bn/abc/00/abc_0066   0   19          which   WDT          (WHNP*))       -    -   -   -        *         *             *             *             *        *)           *      *            *      -
+bn/abc/00/abc_0066   0   20     underwater    JJ           (S(NP*        -    -   -   -        *         *             *             *             *   (ARG0*            *      *            *      -
+bn/abc/00/abc_0066   0   21           life    NN                *)     life   -   7   -        *         *             *             *             *        *)           *      *            *      -
+bn/abc/00/abc_0066   0   22        depends   VBZ    (VP*))))))))))   depend  01   2   -        *         *             *)            *)            *)     (V*)           *      *            *      -
+bn/abc/00/abc_0066   0   23              ,     ,                *        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   24            but    CC                *        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   25           late    JJ           (S(NP*        -    -   -   -   (TIME*         *             *             *             *        *   (ARGM-TMP*      *            *      -
+bn/abc/00/abc_0066   0   26          today    NN                *)    today   -   2   -        *)        *             *             *             *        *            *)     *            *      -
+bn/abc/00/abc_0066   0   27              ,     ,                *        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   28            the    DT          (NP(NP*        -    -   -   -        *         *             *             *             *        *       (ARG1*      *            *      -
+bn/abc/00/abc_0066   0   29           news    NN               *))     news   -   1   -        *         *             *             *             *        *            *)     *            *      -
+bn/abc/00/abc_0066   0   30            was   VBD             (VP*        be  01   1   -        *         *             *             *             *        *          (V*)     *            *      -
+bn/abc/00/abc_0066   0   31    encouraging    JJ     (ADJP(ADJP*))       -    -   -   -        *         *             *             *             *        *       (ARG2*)     *            *      -
+bn/abc/00/abc_0066   0   32            --      :                *        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   33           that    IN           (SBAR*        -    -   -   -        *         *             *             *             *        *     (C-ARG1*      *            *      -
+bn/abc/00/abc_0066   0   34           wind    NN           (S(NP*      wind   -   1   -        *         *             *             *             *        *            *      *       (ARG0*      -
+bn/abc/00/abc_0066   0   35            and    CC                *        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   36       currents   NNS                *)       -    -   -   -        *         *             *             *             *        *            *      *            *)     -
+bn/abc/00/abc_0066   0   37           were   VBD             (VP*        be  03   -   -        *         *             *             *             *        *            *    (V*)           *      -
+bn/abc/00/abc_0066   0   38       carrying   VBG             (VP*     carry  01   1   -        *         *             *             *             *        *            *      *          (V*)     -
+bn/abc/00/abc_0066   0   39           most   JJS          (NP(NP*)       -    -   -   -        *         *             *             *             *        *            *      *       (ARG1*      -
+bn/abc/00/abc_0066   0   40             of    IN             (PP*        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   41            the    DT             (NP*        -    -   -   -        *         *             *             *             *        *            *      *            *    (11
+bn/abc/00/abc_0066   0   42          spill    NN              *)))       -    -   -   -        *         *             *             *             *        *            *      *            *)    11)
+bn/abc/00/abc_0066   0   43           away    RB           (ADVP*        -    -   -   -        *         *             *             *             *        *            *      *   (ARGM-DIR*      -
+bn/abc/00/abc_0066   0   44           from    IN             (PP*        -    -   -   -        *         *             *             *             *        *            *      *            *      -
+bn/abc/00/abc_0066   0   45           land    NN     (NP*)))))))))     land   -   2   -        *         *             *             *             *        *            *)     *            *)     -
+bn/abc/00/abc_0066   0   46              .     .               *))       -    -   -   -        *         *             *             *             *        *            *      *            *      -
+
+bn/abc/00/abc_0066   0    0            I   PRP   (TOP(S(NP*)          -    -   -   -   *    (ARG0*)            *    -
+bn/abc/00/abc_0066   0    1         have   VBP         (VP*         have  03   4   -   *       (V*)            *    -
+bn/abc/00/abc_0066   0    2            a    DT      (NP(NP*           -    -   -   -   *    (ARG1*             *    -
+bn/abc/00/abc_0066   0    3      mixture    NN            *)          -    -   -   -   *         *             *    -
+bn/abc/00/abc_0066   0    4           of    IN         (PP*           -    -   -   -   *         *             *    -
+bn/abc/00/abc_0066   0    5      anxiety    NN   (NP(NP(NP*)     anxiety   -   2   -   *         *             *    -
+bn/abc/00/abc_0066   0    6        about    IN         (PP*           -    -   -   -   *         *             *    -
+bn/abc/00/abc_0066   0    7          the    DT         (NP*           -    -   -   -   *         *             *   (5
+bn/abc/00/abc_0066   0    8    situation    NN          *)))   situation   -   1   -   *         *             *    5)
+bn/abc/00/abc_0066   0    9            ,     ,            *           -    -   -   -   *         *             *    -
+bn/abc/00/abc_0066   0   10          and    CC            *           -    -   -   -   *         *             *    -
+bn/abc/00/abc_0066   0   11         also    RB       (ADVP*)          -    -   -   -   *         *    (ARGM-ADJ*)   -
+bn/abc/00/abc_0066   0   12       relief    NN         (NP*)      relief  01   1   -   *         *           (V*)   -
+bn/abc/00/abc_0066   0   13            ,     ,            *           -    -   -   -   *         *             *    -
+bn/abc/00/abc_0066   0   14       though    RB   (ADVP*)))))          -    -   -   -   *         *)   (ARGM-ADJ*)   -
+bn/abc/00/abc_0066   0   15            .     .           *))          -    -   -   -   *         *             *    -
+
+bn/abc/00/abc_0066   0   0       We   PRP   (TOP(S(NP*)     -    -    -   -   *    (ARG1*)  -
+bn/abc/00/abc_0066   0   1      've   VBP         (VP*    have   -   12   -   *         *   -
+bn/abc/00/abc_0066   0   2     been   VBN         (VP*      be  01    1   -   *       (V*)  -
+bn/abc/00/abc_0066   0   3    lucky    JJ     (ADJP*)))     -    -    -   -   *    (ARG2*)  -
+bn/abc/00/abc_0066   0   4        .     .           *))     -    -    -   -   *         *   -
+
+bn/abc/00/abc_0066   0   0    Lucky   JJ   (TOP(FRAG(ADJP*)      -   -   -   -   *   -
+bn/abc/00/abc_0066   0   1        ,    ,                 *       -   -   -   -   *   -
+bn/abc/00/abc_0066   0   2      but   CC                 *       -   -   -   -   *   -
+bn/abc/00/abc_0066   0   3     only   RB         (PP(ADVP*)      -   -   -   -   *   -
+bn/abc/00/abc_0066   0   4       up   IN                 *       -   -   -   -   *   -
+bn/abc/00/abc_0066   0   5       to   IN              (PP*       -   -   -   -   *   -
+bn/abc/00/abc_0066   0   6        a   DT              (NP*       -   -   -   -   *   -
+bn/abc/00/abc_0066   0   7    point   NN               *)))   point  -   5   -   *   -
+bn/abc/00/abc_0066   0   8        .    .                *))      -   -   -   -   *   -
+
+bn/abc/00/abc_0066   0    0        This     DT    (TOP(S(NP*         -    -   -   -        *      *   (ARG0*   (ARG0*         *    (9
+bn/abc/00/abc_0066   0    1       place     NN             *)     place   -   1   -        *      *        *)       *)        *     9)
+bn/abc/00/abc_0066   0    2         has    VBZ       (VP(VP*       have  01   -   -        *    (V*)       *        *         *     -
+bn/abc/00/abc_0066   0    3    suffered    VBN          (VP*     suffer  01   1   -        *      *      (V*)       *         *     -
+bn/abc/00/abc_0066   0    4         its   PRP$       (NP(NP*         -    -   -   -        *      *   (ARG1*        *         *    (9)
+bn/abc/00/abc_0066   0    5       worst    JJS             *         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0    6      crisis     NN             *)        -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0    7          in     IN          (PP*         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0    8     decades    NNS      (NP*)))))    decade   -   1   -    (DATE)     *        *)       *         *     -
+bn/abc/00/abc_0066   0    9           ,      ,             *         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0   10         and     CC             *         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0   11       found    VBD          (VP*       find  02   1   -        *      *        *      (V*)        *     -
+bn/abc/00/abc_0066   0   12      itself    PRP        (S(NP*)        -    -   -   -        *      *        *   (ARG1*    (ARG0*)   (9)
+bn/abc/00/abc_0066   0   13      almost     RB        (ADJP*         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0   14    helpless     JJ             *         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0   15          to     TO        (S(VP*         -    -   -   -        *      *        *        *         *     -
+bn/abc/00/abc_0066   0   16     protect     VB          (VP*    protect  01   1   -        *      *        *        *       (V*)    -
+bn/abc/00/abc_0066   0   17      itself    PRP   (NP*))))))))        -    -   -   -        *      *        *        *)   (ARG1*)   (9)
+bn/abc/00/abc_0066   0   18           .      .            *))        -    -   -   -        *      *        *        *         *     -
+
+bn/abc/00/abc_0066   0    0          Ned    NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*      (12
+bn/abc/00/abc_0066   0    1       Potter    NNP              *)  -   -   -   -          *)      12)
+bn/abc/00/abc_0066   0    2            ,      ,              *   -   -   -   -          *        -
+bn/abc/00/abc_0066   0    3          ABC    NNP           (NP*   -   -   -   -      (ORG*      (15
+bn/abc/00/abc_0066   0    4         News    NNP              *)  -   -   -   -          *)      15)
+bn/abc/00/abc_0066   0    5            ,      ,              *   -   -   -   -          *        -
+bn/abc/00/abc_0066   0    6           on     IN           (PP*   -   -   -   -          *        -
+bn/abc/00/abc_0066   0    7          San    NNP        (NP(NP*   -   -   -   -      (LOC*      (17
+bn/abc/00/abc_0066   0    8    Cristobal    NNP              *)  -   -   -   -          *)       -
+bn/abc/00/abc_0066   0    9           in     IN           (PP*   -   -   -   -          *        -
+bn/abc/00/abc_0066   0   10          the     DT           (NP*   -   -   -   -      (LOC*       (9
+bn/abc/00/abc_0066   0   11    Galapagos    NNP              *   -   -   -   -          *        -
+bn/abc/00/abc_0066   0   12      Islands   NNPS           *))))  -   -   -   -          *)   17)|9)
+bn/abc/00/abc_0066   0   13            .      .             *))  -   -   -   -          *        -
+
+#end document

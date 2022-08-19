@@ -1,0 +1,717 @@
+#begin document (nw/wsj/00/wsj_0047); part 000
+nw/wsj/00/wsj_0047   0    0            The     DT  (TOP(S(NP(NP*          -    -   -   -   (ORG*   (ARG0*   (ARG0*         *   -
+nw/wsj/00/wsj_0047   0    1     Department    NNP              *)         -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0    2             of     IN           (PP*          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0    3         Health    NNP        (NP(NP*)         -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0    4            and     CC              *          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0    5          Human    NNP           (NP*          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0    6       Services   NNPS           *))))         -    -   -   -       *)       *)       *)        *   -
+nw/wsj/00/wsj_0047   0    7          plans    VBZ           (VP*        plan  01   -   -       *      (V*)       *         *   -
+nw/wsj/00/wsj_0047   0    8             to     TO         (S(VP*          -    -   -   -       *   (ARG1*        *         *   -
+nw/wsj/00/wsj_0047   0    9         extend     VB           (VP*      extend  01   -   -       *        *      (V*)        *   -
+nw/wsj/00/wsj_0047   0   10            its   PRP$        (NP(NP*          -    -   -   -       *        *   (ARG1*         *   -
+nw/wsj/00/wsj_0047   0   11     moratorium     NN              *)         -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   12             on     IN           (PP*          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   13        federal     JJ        (NP(NP*          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   14        funding     NN              *)       fund   -   1   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   15             of     IN           (PP*          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   16       research     NN        (NP(NP*)   research   -   1   -       *        *        *    (ARG2*)  -
+nw/wsj/00/wsj_0047   0   17      involving    VBG           (VP*     involve  01   -   -       *        *        *       (V*)  -
+nw/wsj/00/wsj_0047   0   18          fetal     JJ       (NP(NML*          -    -   -   -       *        *        *    (ARG1*   -
+nw/wsj/00/wsj_0047   0   19             -    HYPH              *          -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   20         tissue     NN              *)         -    -   -   -       *        *        *         *   -
+nw/wsj/00/wsj_0047   0   21    transplants    NNS    *)))))))))))         -    -   -   -       *        *)       *)        *)  -
+nw/wsj/00/wsj_0047   0   22              .      .             *))         -    -   -   -       *        *        *         *   -
+
+nw/wsj/00/wsj_0047   0    0            Medical    JJ      (TOP(S(NP*         -    -   -   -   *   (ARG0*             *        *   -
+nw/wsj/00/wsj_0047   0    1        researchers   NNS               *)        -    -   -   -   *        *)            *        *   -
+nw/wsj/00/wsj_0047   0    2            believe   VBP            (VP*    believe  01   -   -   *      (V*)            *        *   -
+nw/wsj/00/wsj_0047   0    3                the    DT  (SBAR(S(NP(NP*         -    -   -   -   *   (ARG1*        (ARG0*   (ARG0*   -
+nw/wsj/00/wsj_0047   0    4    transplantation    NN               *)        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0    5                 of    IN            (PP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0    6              small    JJ         (NP(NP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0    7            amounts   NNS               *)        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0    8                 of    IN            (PP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0    9              fetal    JJ            (NP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   10             tissue    NN            *))))        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   11               into    IN            (PP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   12             humans   NNS          (NP*)))        -    -   -   -   *        *             *)       *)  -
+nw/wsj/00/wsj_0047   0   13              could    MD            (VP*         -    -   -   -   *        *    (ARGM-MOD*)       *   -
+nw/wsj/00/wsj_0047   0   14               help    VB            (VP*       help  01   -   -   *        *           (V*)       *   -
+nw/wsj/00/wsj_0047   0   15              treat    VB          (S(VP*      treat  03   -   -   *        *        (ARG1*      (V*)  -
+nw/wsj/00/wsj_0047   0   16           juvenile    JJ         (NP(NP*         -    -   -   -   *        *             *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   17           diabetes    NN               *)        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   18                and    CC               *         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   19               such    JJ         (NP(NP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   20       degenerative    JJ               *         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   21           diseases   NNS               *)        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   22                 as    IN            (PP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   23          Alzheimer   NNP         (NP(NP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   24                 's   POS               *)        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   25                  ,     ,               *         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   26          Parkinson   NNP            (NP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   27                 's   POS               *)        -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   28                and    CC               *         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   29         Huntington   NNP            (NP*         -    -   -   -   *        *             *        *   -
+nw/wsj/00/wsj_0047   0   30                 's   POS    *))))))))))))        -    -   -   -   *        *)            *)       *)  -
+nw/wsj/00/wsj_0047   0   31                  .     .              *))        -    -   -   -   *        *             *        *   -
+
+nw/wsj/00/wsj_0047   0    0                  But     CC           (TOP(S*          -    -   -   -   *    (ARGM-DIS*)        *         *             *        *   -
+nw/wsj/00/wsj_0047   0    1    anti-abortionists    NNS              (NP*)         -    -   -   -   *        (ARG0*)        *         *             *        *   -
+nw/wsj/00/wsj_0047   0    2               oppose    VBP              (VP*      oppose  01   -   -   *           (V*)        *         *             *        *   -
+nw/wsj/00/wsj_0047   0    3                 such     JJ              (NP*          -    -   -   -   *        (ARG1*         *         *             *        *   -
+nw/wsj/00/wsj_0047   0    4             research     NN                 *)   research   -   1   -   *             *)        *         *             *        *   -
+nw/wsj/00/wsj_0047   0    5              because     IN            (SBAR*          -    -   -   -   *    (ARGM-CAU*         *         *             *        *   -
+nw/wsj/00/wsj_0047   0    6                 they    PRP            (S(NP*)         -    -   -   -   *             *    (ARG0*)        *             *        *   -
+nw/wsj/00/wsj_0047   0    7                worry    VBP              (VP*       worry  01   -   -   *             *       (V*)        *             *        *   -
+nw/wsj/00/wsj_0047   0    8                 that     IN            (SBAR*          -    -   -   -   *             *    (ARG1*         *             *        *   -
+nw/wsj/00/wsj_0047   0    9                  the     DT         (S(NP(NP*          -    -   -   -   *             *         *         *        (ARG0*        *   -
+nw/wsj/00/wsj_0047   0   10          development     NN                 *)         -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/00/wsj_0047   0   11                   of     IN              (PP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/00/wsj_0047   0   12            therapies    NNS           (NP(NP*)         -    -   -   -   *             *         *    (ARG0*)            *        *   -
+nw/wsj/00/wsj_0047   0   13                using    VBG              (VP*         use  01   -   -   *             *         *       (V*)            *        *   -
+nw/wsj/00/wsj_0047   0   14                fetal     JJ          (NP(NML*          -    -   -   -   *             *         *    (ARG1*             *        *   -
+nw/wsj/00/wsj_0047   0   15                   -    HYPH                 *          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/00/wsj_0047   0   16               tissue     NN                 *)         -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/00/wsj_0047   0   17          transplants    NNS             *)))))         -    -   -   -   *             *         *         *)            *)       *   -
+nw/wsj/00/wsj_0047   0   18                could     MD              (VP*          -    -   -   -   *             *         *         *    (ARGM-MOD*)       *   -
+nw/wsj/00/wsj_0047   0   19                 lead     VB              (VP*        lead  03   -   -   *             *         *         *           (V*)       *   -
+nw/wsj/00/wsj_0047   0   20                   to     IN              (PP*          -    -   -   -   *             *         *         *        (ARG2*        *   -
+nw/wsj/00/wsj_0047   0   21                   an     DT           (NP(NP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/00/wsj_0047   0   22             increase     NN                 *)   increase  01   1   -   *             *         *         *             *      (V*)  -
+nw/wsj/00/wsj_0047   0   23                   in     IN              (PP*          -    -   -   -   *             *         *         *             *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   24            abortions    NNS   (NP*))))))))))))         -    -   -   -   *             *)        *)        *             *)       *)  -
+nw/wsj/00/wsj_0047   0   25                    .      .                *))         -    -   -   -   *             *         *         *             *        *   -
+
+nw/wsj/00/wsj_0047   0    0           James    NNP   (TOP(S(NP(NP*          -    -   -   -   (PERSON*   (ARG0*             *   -
+nw/wsj/00/wsj_0047   0    1           Mason    NNP               *)         -    -   -   -          *)       *             *   -
+nw/wsj/00/wsj_0047   0    2               ,      ,               *          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0    3       assistant     NN         (NP(NP*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0    4       secretary     NN               *)         -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0    5             for     IN            (PP*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0    6          health     NN          (NP*)))         -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0    7               ,      ,               *)         -    -   -   -          *        *)            *   -
+nw/wsj/00/wsj_0047   0    8            said    VBD            (VP*         say  01   -   -          *      (V*)            *   -
+nw/wsj/00/wsj_0047   0    9             the     DT  (SBAR(S(NP(NP*          -    -   -   -          *   (ARG1*        (ARG1*   -
+nw/wsj/00/wsj_0047   0   10             ban     NN               *)         -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   11              on     IN            (PP*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   12         federal     JJ         (NP(NP*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   13         funding     NN               *)       fund   -   1   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   14              of     IN            (PP*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   15           fetal     JJ        (NP(NML*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   16              -    HYPH               *          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   17          tissue     NN               *)         -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   18      transplant     NN               *          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   19        research     NN           *)))))   research   -   1   -          *        *             *)  -
+nw/wsj/00/wsj_0047   0   20              ``     ``               *          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   21          should     MD            (VP*          -    -   -   -          *        *    (ARGM-MOD*)  -
+nw/wsj/00/wsj_0047   0   22              be     VB            (VP*          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   23       continued    VBN            (VP*    continue  01   -   -          *        *           (V*)  -
+nw/wsj/00/wsj_0047   0   24    indefinitely     RB    (ADVP*)))))))         -    -   -   -          *        *)   (ARGM-TMP*)  -
+nw/wsj/00/wsj_0047   0   25               .      .               *          -    -   -   -          *        *             *   -
+nw/wsj/00/wsj_0047   0   26              ''     ''              *))         -    -   -   -          *        *             *   -
+
+nw/wsj/00/wsj_0047   0    0             He    PRP       (TOP(S(NP*)         -    -   -   -   *    (ARG0*)            *             *         *             *   -
+nw/wsj/00/wsj_0047   0    1           said    VBD             (VP*         say  01   -   -   *       (V*)            *             *         *             *   -
+nw/wsj/00/wsj_0047   0    2            the     DT      (SBAR(S(NP*          -    -   -   -   *    (ARG1*        (ARG0*             *         *             *   -
+nw/wsj/00/wsj_0047   0    3            ban     NN                *)         -    -   -   -   *         *             *)            *         *             *   -
+nw/wsj/00/wsj_0047   0    4             wo     MD             (VP*          -    -   -   -   *         *    (ARGM-MOD*)            *         *             *   -
+nw/wsj/00/wsj_0047   0    5            n't     RB                *          -    -   -   -   *         *    (ARGM-NEG*)            *         *             *   -
+nw/wsj/00/wsj_0047   0    6           stop     VB             (VP*        stop  01   -   -   *         *           (V*)            *         *             *   -
+nw/wsj/00/wsj_0047   0    7      privately     RB  (NP(NP(NP(ADJP*          -    -   -   -   *         *        (ARG1*    (ARGM-MNR*)        *        (ARG2*   -
+nw/wsj/00/wsj_0047   0    8         funded    VBN                *)       fund  01   -   -   *         *             *           (V*)        *             *   -
+nw/wsj/00/wsj_0047   0    9         tissue     NN            (NML*          -    -   -   -   *         *             *        (ARG1*         *             *   -
+nw/wsj/00/wsj_0047   0   10             -    HYPH                *          -    -   -   -   *         *             *             *         *             *   -
+nw/wsj/00/wsj_0047   0   11     transplant     NN                *)         -    -   -   -   *         *             *             *         *             *   -
+nw/wsj/00/wsj_0047   0   12       research     NN                *)   research   -   1   -   *         *             *             *)        *             *   -
+nw/wsj/00/wsj_0047   0   13             or     CC                *          -    -   -   -   *         *             *             *         *             *   -
+nw/wsj/00/wsj_0047   0   14      federally     RB        (NP(ADJP*          -    -   -   -   *         *             *             *    (ARG0*)            *   -
+nw/wsj/00/wsj_0047   0   15         funded    VBN                *)       fund  01   -   -   *         *             *             *       (V*)            *   -
+nw/wsj/00/wsj_0047   0   16          fetal     JJ            (NML*          -    -   -   -   *         *             *             *    (ARG1*             *   -
+nw/wsj/00/wsj_0047   0   17             -    HYPH                *          -    -   -   -   *         *             *             *         *             *   -
+nw/wsj/00/wsj_0047   0   18         tissue     NN                *)         -    -   -   -   *         *             *             *         *             *   -
+nw/wsj/00/wsj_0047   0   19       research     NN               *))   research   -   1   -   *         *             *             *         *)            *)  -
+nw/wsj/00/wsj_0047   0   20           that    WDT      (SBAR(WHNP*)         -    -   -   -   *         *             *             *         *      (R-ARG2*)  -
+nw/wsj/00/wsj_0047   0   21           does    VBZ           (S(VP*          -    -   -   -   *         *             *             *         *             *   -
+nw/wsj/00/wsj_0047   0   22            n't     RB                *          -    -   -   -   *         *             *             *         *    (ARGM-NEG*)  -
+nw/wsj/00/wsj_0047   0   23        involve     VB             (VP*     involve  01   -   -   *         *             *             *         *           (V*)  -
+nw/wsj/00/wsj_0047   0   24    transplants    NNS   (NP*)))))))))))         -    -   -   -   *         *)            *)            *         *        (ARG1*)  -
+nw/wsj/00/wsj_0047   0   25              .      .               *))         -    -   -   -   *         *             *             *         *             *   -
+
+nw/wsj/00/wsj_0047   0    0    Department     NN                 (TOP(S(NP*         -    -   -   -          *   (ARG0*             *             *   -
+nw/wsj/00/wsj_0047   0    1     officials    NNS                          *)        -    -   -   -          *        *)            *             *   -
+nw/wsj/00/wsj_0047   0    2           say    VBP                       (VP*        say  01   -   -          *      (V*)            *             *   -
+nw/wsj/00/wsj_0047   0    3          that     IN                     (SBAR*         -    -   -   -          *   (ARG1*             *             *   -
+nw/wsj/00/wsj_0047   0    4           HHS    NNP                 (S(NP(NML*         -    -   -   -       (ORG)       *        (ARG0*             *   -
+nw/wsj/00/wsj_0047   0    5     Secretary    NNP                          *)        -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0    6         Louis    NNP                          *         -    -   -   -   (PERSON*        *             *             *   -
+nw/wsj/00/wsj_0047   0    7      Sullivan    NNP                          *)        -    -   -   -          *)       *             *)            *   -
+nw/wsj/00/wsj_0047   0    8          will     MD                       (VP*         -    -   -   -          *        *    (ARGM-MOD*)            *   -
+nw/wsj/00/wsj_0047   0    9       support     VB                       (VP*    support  01   -   -          *        *           (V*)            *   -
+nw/wsj/00/wsj_0047   0   10           Dr.    NNP                 (NP(NP(NP*         -    -   -   -          *        *        (ARG1*        (ARG1*   -
+nw/wsj/00/wsj_0047   0   11         Mason    NNP                          *         -    -   -   -    (PERSON)       *             *             *   -
+nw/wsj/00/wsj_0047   0   12            's    POS                          *)        -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   13        ruling     NN                          *)        -    -   -   -          *        *             *             *)  -
+nw/wsj/00/wsj_0047   0   14             ,      ,                          *         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   15         which    WDT                (SBAR(WHNP*)        -    -   -   -          *        *             *      (R-ARG1*)  -
+nw/wsj/00/wsj_0047   0   16          will     MD                     (S(VP*         -    -   -   -          *        *             *    (ARGM-MOD*)  -
+nw/wsj/00/wsj_0047   0   17            be     VB                       (VP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   18        issued    VBN                       (VP*      issue  01   -   -          *        *             *           (V*)  -
+nw/wsj/00/wsj_0047   0   19          soon     RB                     (ADVP*)        -    -   -   -          *        *             *    (ARGM-TMP*)  -
+nw/wsj/00/wsj_0047   0   20            in     IN                       (PP*         -    -   -   -          *        *             *    (ARGM-MNR*   -
+nw/wsj/00/wsj_0047   0   21           the     DT                    (NP(NP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   22          form     NN                          *)        -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   23            of     IN                       (PP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   24             a     DT                    (NP(NP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   25        letter     NN                          *)        -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   26            to     IN                       (PP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   27           the     DT                    (NP(NP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   28        acting     JJ                          *         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   29      director     NN                          *)        -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   30            of     IN                       (PP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   31           the     DT                    (NP(NP*         -    -   -   -      (ORG*        *             *             *   -
+nw/wsj/00/wsj_0047   0   32      National    NNP                          *         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   33    Institutes   NNPS                          *)        -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   34            of     IN                       (PP*         -    -   -   -          *        *             *             *   -
+nw/wsj/00/wsj_0047   0   35        Health    NNP   (NP*)))))))))))))))))))))        -    -   -   -          *)       *)            *)            *)  -
+nw/wsj/00/wsj_0047   0   36             .      .                         *))        -    -   -   -          *        *             *             *   -
+
+nw/wsj/00/wsj_0047   0    0          Both    DT      (TOP(S(NP*          -    -   -   -          *       (ARG0*               *   -
+nw/wsj/00/wsj_0047   0    1           Dr.   NNP            (NP*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0    2         Mason   NNP               *)         -    -   -   -    (PERSON)           *               *   -
+nw/wsj/00/wsj_0047   0    3           and    CC               *          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0    4           Dr.   NNP            (NP*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0    5      Sullivan   NNP              *))         -    -   -   -    (PERSON)           *)              *   -
+nw/wsj/00/wsj_0047   0    6        oppose   VBP            (VP*      oppose  01   -   -          *          (V*)              *   -
+nw/wsj/00/wsj_0047   0    7       federal    JJ         (NP(NP*          -    -   -   -          *       (ARG1*               *   -
+nw/wsj/00/wsj_0047   0    8       funding    NN               *)       fund   -   1   -          *            *               *   -
+nw/wsj/00/wsj_0047   0    9           for    IN            (PP*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   10      abortion    NN          (NP*)))         -    -   -   -          *            *)              *   -
+nw/wsj/00/wsj_0047   0   11             ,     ,               *          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   12            as    IN          (SBAR*          -    -   -   -          *   (ARGM-ADV*               *   -
+nw/wsj/00/wsj_0047   0   13          does   VBZ          (SINV*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   14     President   NNP            (NP*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   15          Bush   NNP             *)))         -    -   -   -    (PERSON)           *)              *   -
+nw/wsj/00/wsj_0047   0   16             ,     ,               *          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   17        except    IN            (PP*          -    -   -   -          *   (ARGM-ADV*               *   -
+nw/wsj/00/wsj_0047   0   18            in    IN            (PP*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   19         cases   NNS         (NP(NP*)         -    -   -   -          *            *      (ARGM-LOC*)  -
+nw/wsj/00/wsj_0047   0   20         where   WRB   (SBAR(WHADVP*)         -    -   -   -          *            *    (R-ARGM-LOC*)  -
+nw/wsj/00/wsj_0047   0   21             a    DT       (S(NP(NP*          -    -   -   -          *            *          (ARG2*   -
+nw/wsj/00/wsj_0047   0   22         woman    NN               *          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   23            's   POS               *)         -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   24          life    NN               *)         -    -   -   -          *            *               *)  -
+nw/wsj/00/wsj_0047   0   25            is   VBZ            (VP*          -    -   -   -          *            *               *   -
+nw/wsj/00/wsj_0047   0   26    threatened   VBN     (VP*))))))))   threaten  01   -   -          *            *)            (V*)  -
+nw/wsj/00/wsj_0047   0   27             .     .              *))         -    -   -   -          *            *               *   -
+
+nw/wsj/00/wsj_0047   0    0             The     DT           (TOP(S(NP*          -    -   -   -        *       (ARG1*               *        *   -
+nw/wsj/00/wsj_0047   0    1     controversy     NN                    *)         -    -   -   -        *            *)              *        *   -
+nw/wsj/00/wsj_0047   0    2           began    VBD                 (VP*       begin  01   -   -        *          (V*)              *        *   -
+nw/wsj/00/wsj_0047   0    3              in     IN                 (PP*          -    -   -   -        *   (ARGM-TMP*      (ARGM-TMP*        *   -
+nw/wsj/00/wsj_0047   0    4           1987      CD                (NP*))         -    -   -   -    (DATE)           *)              *)       *   -
+nw/wsj/00/wsj_0047   0    5            when    WRB        (SBAR(WHADVP*)         -    -   -   -        *   (ARGM-TMP*    (R-ARGM-TMP*)       *   -
+nw/wsj/00/wsj_0047   0    6             the     DT            (S(NP(NP*          -    -   -   -    (ORG*            *          (ARG0*        *   -
+nw/wsj/00/wsj_0047   0    7        National    NNP                    *          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0    8      Institutes   NNPS                    *)         -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0    9              of     IN                 (PP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   10          Health    NNP                (NP*))         -    -   -   -        *)           *               *        *   -
+nw/wsj/00/wsj_0047   0   11               ,      ,                    *          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   12           aware     JJ               (ADJP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   13              of     IN                 (PP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   14             the     DT              (NP(NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   15          policy     NN                    *          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   16    implications    NNS                    *)         -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   17              of     IN                 (PP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   18             its   PRP$                 (NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   19        research     NN                *)))))   research   -   1   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   20               ,      ,                    *)         -    -   -   -        *            *               *)       *   -
+nw/wsj/00/wsj_0047   0   21           asked    VBD                 (VP*         ask  02   -   -        *            *             (V*)       *   -
+nw/wsj/00/wsj_0047   0   22             for     IN                 (PP*          -    -   -   -        *            *          (ARG1*        *   -
+nw/wsj/00/wsj_0047   0   23              an     DT              (NP(NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   24             HHS    NNP                    *          -    -   -   -     (ORG)           *               *        *   -
+nw/wsj/00/wsj_0047   0   25          review     NN                    *)         -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   26              of     IN                 (PP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   27             its   PRP$                 (NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   28            plan     NN                    *          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   29              to     TO               (S(VP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   30         implant     VB                 (VP*     implant  01   1   -        *            *               *      (V*)  -
+nw/wsj/00/wsj_0047   0   31           fetal     JJ                 (NP*          -    -   -   -        *            *               *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   32          tissue     NN                    *)         -    -   -   -        *            *               *        *)  -
+nw/wsj/00/wsj_0047   0   33            into     IN                 (PP*          -    -   -   -        *            *               *   (ARG2*   -
+nw/wsj/00/wsj_0047   0   34             the     DT              (NP(NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   35           brain     NN                    *)         -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   36              of     IN                 (PP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   37               a     DT              (NP(NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   38         patient     NN                    *)         -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   39       suffering     NN                 (VP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   40            from     IN                 (PP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   41       Parkinson   NNPS              (NP(NP*          -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   42              's    POS                    *)         -    -   -   -        *            *               *        *   -
+nw/wsj/00/wsj_0047   0   43         disease     NN   *))))))))))))))))))         -    -   -   -        *            *)              *)       *)  -
+nw/wsj/00/wsj_0047   0   44               .      .                   *))         -    -   -   -        *            *               *        *   -
+
+nw/wsj/00/wsj_0047   0    0           The    DT  (TOP(S(NP*          -    -   -   -   *       (ARG0*   -
+nw/wsj/00/wsj_0047   0    1    department    NN           *)         -    -   -   -   *            *)  -
+nw/wsj/00/wsj_0047   0    2        placed   VBD        (VP*       place  01   -   -   *          (V*)  -
+nw/wsj/00/wsj_0047   0    3             a    DT        (NP*          -    -   -   -   *       (ARG1*   -
+nw/wsj/00/wsj_0047   0    4    moratorium    NN           *)         -    -   -   -   *            *)  -
+nw/wsj/00/wsj_0047   0    5            on    IN        (PP*          -    -   -   -   *       (ARG2*   -
+nw/wsj/00/wsj_0047   0    6           the    DT        (NP*          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0    7      research    NN          *))   research   -   1   -   *            *)  -
+nw/wsj/00/wsj_0047   0    8             ,     ,           *          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0    9       pending   VBG      (S(VP*          -    -   -   -   *   (ARGM-ADV*   -
+nw/wsj/00/wsj_0047   0   10             a    DT     (NP(NP*          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   11        review    NN           *)         -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   12            of    IN        (PP*          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   13    scientific    JJ   (NP(ADJP*          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   14             ,     ,           *          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   15         legal    JJ           *          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   16           and    CC           *          -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   17       ethical    JJ           *)         -    -   -   -   *            *   -
+nw/wsj/00/wsj_0047   0   18        issues   NNS      *))))))         -    -   -   -   *            *)  -
+nw/wsj/00/wsj_0047   0   19             .     .          *))         -    -   -   -   *            *   -
+
+nw/wsj/00/wsj_0047   0    0                A     DT  (TOP(S(S(NP(NP*           -    -   -   -        *       (ARG0*            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    1         majority     NN                *)          -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    2               of     IN             (PP*           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    3               an     DT             (NP*           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    4              NIH    NNP           (ADJP*           -    -   -   -     (ORG)           *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    5               -    HYPH                *           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    6        appointed    VBN                *)          -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    7            panel     NN              *)))          -    -   -   -        *            *)           *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    8      recommended    VBD             (VP*    recommend  01   1   -        *          (V*)           *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0    9             late     RB        (NP(ADVP*)          -    -   -   -   (DATE*   (ARGM-TMP*            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   10             last     JJ                *           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   11             year     NN                *)          -    -   -   -        *)           *)           *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   12             that     IN           (SBAR*           -    -   -   -        *       (ARG1*            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   13              the     DT           (S(NP*           -    -   -   -        *            *       (ARG1*        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   14         research     NN                *)    research   -   1   -        *            *            *)       *            *          *        *   -
+nw/wsj/00/wsj_0047   0   15         continue     VB             (VP*     continue  01   -   -        *            *          (V*)       *            *          *        *   -
+nw/wsj/00/wsj_0047   0   16            under     IN             (PP*           -    -   -   -        *            *   (ARGM-MNR*        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   17        carefully     RB        (NP(ADJP*           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   18       controlled    VBN                *)          -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   19       conditions    NNS          *)))))))          -    -   -   -        *            *)           *)       *            *          *        *   -
+nw/wsj/00/wsj_0047   0   20                ,      ,                *           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   21              but     CC                *           -    -   -   -        *            *            *        *            *          *        *   -
+nw/wsj/00/wsj_0047   0   22              the     DT           (S(NP*           -    -   -   -        *            *            *   (ARG1*       (ARG1*          *        *   -
+nw/wsj/00/wsj_0047   0   23            issue     NN                *)          -    -   -   -        *            *            *        *)           *)         *        *   -
+nw/wsj/00/wsj_0047   0   24           became    VBD             (VP*       become  01   -   -        *            *            *      (V*)           *          *        *   -
+nw/wsj/00/wsj_0047   0   25        embroiled    VBN             (VP*      embroil  01   -   -        *            *            *   (ARG2*          (V*)         *        *   -
+nw/wsj/00/wsj_0047   0   26               in     IN             (PP*           -    -   -   -        *            *            *        *       (ARG2*          *        *   -
+nw/wsj/00/wsj_0047   0   27         politics    NNS            (NP*))          -    -   -   -        *            *            *        *            *)         *        *   -
+nw/wsj/00/wsj_0047   0   28               as     IN           (SBAR*           -    -   -   -        *            *            *        *   (ARGM-TMP*          *        *   -
+nw/wsj/00/wsj_0047   0   29    anti-abortion     JJ           (S(NP*           -    -   -   -        *            *            *        *            *     (ARG1*   (ARG0*   -
+nw/wsj/00/wsj_0047   0   30           groups    NNS                *)          -    -   -   -        *            *            *        *            *          *)       *)  -
+nw/wsj/00/wsj_0047   0   31        continued    VBD             (VP*     continue  01   -   -        *            *            *        *            *        (V*)       *   -
+nw/wsj/00/wsj_0047   0   32               to     TO           (S(VP*           -    -   -   -        *            *            *        *            *   (C-ARG1*        *   -
+nw/wsj/00/wsj_0047   0   33           oppose     VB             (VP*       oppose  01   -   -        *            *            *        *            *          *      (V*)  -
+nw/wsj/00/wsj_0047   0   34          federal     JJ             (NP*           -    -   -   -        *            *            *        *            *          *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   35          funding     NN       *))))))))))        fund   -   1   -        *            *            *        *)           *)         *)       *)  -
+nw/wsj/00/wsj_0047   0   36                .      .               *))          -    -   -   -        *            *            *        *            *          *        *   -
+
+nw/wsj/00/wsj_0047   0    0               The     DT            (TOP(S(NP*         -    -   -   -       *   (ARG0*        *        *   -
+nw/wsj/00/wsj_0047   0    1           dispute     NN                     *)        -    -   -   -       *        *)       *        *   -
+nw/wsj/00/wsj_0047   0    2               has    VBZ                  (VP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0    3          hampered    VBN                  (VP*     hamper  01   1   -       *      (V*)       *        *   -
+nw/wsj/00/wsj_0047   0    4               the     DT               (NP(NP*         -    -   -   -       *   (ARG1*        *        *   -
+nw/wsj/00/wsj_0047   0    5    administration     NN                     *         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0    6                's    POS                     *)        -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0    7           efforts    NNS                     *         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0    8                to     TO                (S(VP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0    9           recruit     VB                  (VP*    recruit  01   1   -       *        *      (V*)       *   -
+nw/wsj/00/wsj_0047   0   10         prominent     JJ               (NP(NP*         -    -   -   -       *        *   (ARG1*   (ARG2*   -
+nw/wsj/00/wsj_0047   0   11           doctors    NNS                     *)        -    -   -   -       *        *        *        *)  -
+nw/wsj/00/wsj_0047   0   12                to     TO           (SBAR(S(VP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   13              fill     VB                  (VP*       fill  01   -   -       *        *        *      (V*)  -
+nw/wsj/00/wsj_0047   0   14       prestigious     JJ               (NP(NP*         -    -   -   -       *        *        *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   15             posts    NNS                     *)        -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   16                at     IN                  (PP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   17               the     DT               (NP(NP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   18              helm     NN                     *)        -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   19                of     IN                  (PP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   20               the     DT               (NP(NP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   21               NIH    NNP                     *)        -    -   -   -    (ORG)       *        *        *   -
+nw/wsj/00/wsj_0047   0   22               and     CC                     *         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   23               the     DT               (NP(NP*         -    -   -   -   (ORG*        *        *        *   -
+nw/wsj/00/wsj_0047   0   24           Centers   NNPS                     *)        -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   25               for     IN                  (PP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   26           Disease    NNP                  (NP*         -    -   -   -       *        *        *        *   -
+nw/wsj/00/wsj_0047   0   27           Control    NNP   *)))))))))))))))))))        -    -   -   -       *)       *)       *)       *)  -
+nw/wsj/00/wsj_0047   0   28                 .      .                    *))        -    -   -   -       *        *        *        *   -
+
+nw/wsj/00/wsj_0047   0    0           Several     JJ   (TOP(S(NP*          -    -   -   -   *       (ARG0*         *   -
+nw/wsj/00/wsj_0047   0    1        candidates    NNS            *)         -    -   -   -   *            *)        *   -
+nw/wsj/00/wsj_0047   0    2              have    VBP         (VP*          -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0    3         withdrawn    VBN         (VP*    withdraw  01   -   -   *          (V*)        *   -
+nw/wsj/00/wsj_0047   0    4             their   PRP$         (NP*          -    -   -   -   *       (ARG1*         *   -
+nw/wsj/00/wsj_0047   0    5             names    NNS            *)         -    -   -   -   *            *)        *   -
+nw/wsj/00/wsj_0047   0    6              from     IN         (PP*          -    -   -   -   *       (ARG2*         *   -
+nw/wsj/00/wsj_0047   0    7     consideration     NN        (NP*))         -    -   -   -   *            *)        *   -
+nw/wsj/00/wsj_0047   0    8             after     IN       (SBAR*          -    -   -   -   *   (ARGM-TMP*         *   -
+nw/wsj/00/wsj_0047   0    9    administration     NN       (S(NP*          -    -   -   -   *            *    (ARG0*   -
+nw/wsj/00/wsj_0047   0   10         officials    NNS            *)         -    -   -   -   *            *         *)  -
+nw/wsj/00/wsj_0047   0   11             asked    VBD         (VP*         ask  02   -   -   *            *       (V*)  -
+nw/wsj/00/wsj_0047   0   12              them    PRP         (NP*)         -    -   -   -   *            *    (ARG2*)  -
+nw/wsj/00/wsj_0047   0   13               for     IN         (PP*          -    -   -   -   *            *    (ARG1*   -
+nw/wsj/00/wsj_0047   0   14             their   PRP$      (NP(NP*          -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   15             views    NNS            *)         -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   16                on     IN         (PP*          -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   17          abortion     NN      (NP(NP*)         -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   18               and     CC            *          -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   19             fetal     JJ     (NP(NML*          -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   20                -    HYPH            *          -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   21            tissue     NN            *)         -    -   -   -   *            *         *   -
+nw/wsj/00/wsj_0047   0   22       transplants    NNS   *))))))))))         -    -   -   -   *            *)        *)  -
+nw/wsj/00/wsj_0047   0   23                 .      .           *))         -    -   -   -   *            *         *   -
+
+nw/wsj/00/wsj_0047   0    0           Antonio   NNP  (TOP(S(NP(NP*          -    -   -   -   (PERSON*      (ARG1*      (ARG0*        (ARG0*         *   -
+nw/wsj/00/wsj_0047   0    1           Novello   NNP              *)         -    -   -   -          *)          *)          *)            *         *   -
+nw/wsj/00/wsj_0047   0    2                 ,     ,              *          -    -   -   -          *           *           *             *         *   -
+nw/wsj/00/wsj_0047   0    3              whom    WP    (SBAR(WHNP*)         -    -   -   -          *    (R-ARG1*)   (R-ARG0*)            *         *   -
+nw/wsj/00/wsj_0047   0    4               Mr.   NNP         (S(NP*          -    -   -   -          *      (ARG0*           *             *         *   -
+nw/wsj/00/wsj_0047   0    5              Bush   NNP              *)         -    -   -   -    (PERSON)          *)          *             *         *   -
+nw/wsj/00/wsj_0047   0    6         nominated   VBD           (VP*    nominate  01   1   -          *         (V*)          *             *         *   -
+nw/wsj/00/wsj_0047   0    7                to    TO         (S(VP*          -    -   -   -          *      (ARG2*           *             *         *   -
+nw/wsj/00/wsj_0047   0    8             serve    VB           (VP*       serve  01   -   -          *           *         (V*)            *         *   -
+nw/wsj/00/wsj_0047   0    9                as    IN           (PP*          -    -   -   -          *           *      (ARG1*             *         *   -
+nw/wsj/00/wsj_0047   0   10           surgeon    NN           (NP*          -    -   -   -          *           *           *             *         *   -
+nw/wsj/00/wsj_0047   0   11           general    NN       *))))))))         -    -   -   -          *           *)          *)            *         *   -
+nw/wsj/00/wsj_0047   0   12                 ,     ,              *)         -    -   -   -          *           *           *             *)        *   -
+nw/wsj/00/wsj_0047   0   13        reportedly    RB         (ADVP*)         -    -   -   -          *           *           *    (ARGM-ADV*)        *   -
+nw/wsj/00/wsj_0047   0   14               has   VBZ           (VP*          -    -   -   -          *           *           *             *         *   -
+nw/wsj/00/wsj_0047   0   15           assured   VBN           (VP*      assure  01   1   -          *           *           *           (V*)        *   -
+nw/wsj/00/wsj_0047   0   16               the    DT           (NP*          -    -   -   -          *           *           *        (ARG1*         *   -
+nw/wsj/00/wsj_0047   0   17    administration    NN              *)         -    -   -   -          *           *           *             *)        *   -
+nw/wsj/00/wsj_0047   0   18              that    IN         (SBAR*          -    -   -   -          *           *           *        (ARG2*         *   -
+nw/wsj/00/wsj_0047   0   19               she   PRP         (S(NP*)         -    -   -   -          *           *           *             *    (ARG0*)  -
+nw/wsj/00/wsj_0047   0   20           opposes   VBZ           (VP*      oppose  01   -   -          *           *           *             *       (V*)  -
+nw/wsj/00/wsj_0047   0   21          abortion    NN      (NP*))))))         -    -   -   -          *           *           *             *)   (ARG1*)  -
+nw/wsj/00/wsj_0047   0   22                 .     .             *))         -    -   -   -          *           *           *             *         *   -
+
+nw/wsj/00/wsj_0047   0    0            Dr.   NNP  (TOP(S(NP*    -    -   -   -          *   (ARG1*   -
+nw/wsj/00/wsj_0047   0    1        Novello   NNP           *)   -    -   -   -    (PERSON)       *)  -
+nw/wsj/00/wsj_0047   0    2             is   VBZ        (VP*    be  01   -   -          *      (V*)  -
+nw/wsj/00/wsj_0047   0    3         deputy    NN     (NP(NP*    -    -   -   -          *   (ARG2*   -
+nw/wsj/00/wsj_0047   0    4       director    NN           *)   -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0    5             of    IN        (PP*    -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0    6            the    DT     (NP(NP*    -    -   -   -      (ORG*        *   -
+nw/wsj/00/wsj_0047   0    7       National   NNP           *    -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0    8      Institute   NNP           *)   -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0    9             of    IN        (PP*    -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0   10          Child   NNP     (NP(NP*    -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0   11         Health   NNP           *)   -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0   12            and    CC           *    -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0   13          Human   NNP        (NP*    -    -   -   -          *        *   -
+nw/wsj/00/wsj_0047   0   14    Development   NNP     *)))))))   -    -   -   -          *)       *)  -
+nw/wsj/00/wsj_0047   0   15              .     .          *))   -    -   -   -          *        *   -
+
+nw/wsj/00/wsj_0047   0    0              Some    DT  (TOP(S(NP*        -    -   -   -   *   (ARG0*        *   -
+nw/wsj/00/wsj_0047   0    1       researchers   NNS           *)       -    -   -   -   *        *)       *   -
+nw/wsj/00/wsj_0047   0    2              have   VBP        (VP*        -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0    3           charged   VBN        (VP*    charge  06   -   -   *      (V*)       *   -
+nw/wsj/00/wsj_0047   0    4              that    IN      (SBAR*        -    -   -   -   *   (ARG1*        *   -
+nw/wsj/00/wsj_0047   0    5               the    DT      (S(NP*        -    -   -   -   *        *   (ARG0*   -
+nw/wsj/00/wsj_0047   0    6    administration    NN           *)       -    -   -   -   *        *        *)  -
+nw/wsj/00/wsj_0047   0    7                is   VBZ        (VP*        -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0    8          imposing   VBG        (VP*    impose  01   -   -   *        *      (V*)  -
+nw/wsj/00/wsj_0047   0    9               new    JJ     (NP(NP*        -    -   -   -   *        *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   10       ideological    JJ           *        -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0   11             tests   NNS           *)       -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0   12               for    IN        (PP*        -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0   13               top    JJ        (NP*        -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0   14        scientific    JJ           *        -    -   -   -   *        *        *   -
+nw/wsj/00/wsj_0047   0   15             posts   NNS   *)))))))))       -    -   -   -   *        *)       *)  -
+nw/wsj/00/wsj_0047   0   16                 .     .          *))       -    -   -   -   *        *        *   -
+
+nw/wsj/00/wsj_0047   0    0           Earlier   JJR           (TOP(S(NP*        -    -   -   -     (DATE*   (ARGM-TMP*            *        *         *             *   -
+nw/wsj/00/wsj_0047   0    1              this    DT                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0    2              week    NN                    *)       -    -   -   -          *)           *)           *        *         *             *   -
+nw/wsj/00/wsj_0047   0    3                 ,     ,                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0    4               Dr.   NNP                 (NP*        -    -   -   -          *       (ARG0*       (ARG0*   (ARG0*         *             *   -
+nw/wsj/00/wsj_0047   0    5          Sullivan   NNP                    *)       -    -   -   -    (PERSON)           *)           *)       *)        *             *   -
+nw/wsj/00/wsj_0047   0    6             tried   VBD                 (VP*       try  01   -   -          *          (V*)           *        *         *             *   -
+nw/wsj/00/wsj_0047   0    7                to    TO               (S(VP*        -    -   -   -          *       (ARG1*            *        *         *             *   -
+nw/wsj/00/wsj_0047   0    8            defuse    VB                 (VP*    defuse  01   -   -          *            *          (V*)       *         *             *   -
+nw/wsj/00/wsj_0047   0    9             these    DT                 (NP*        -    -   -   -          *            *       (ARG1*        *         *             *   -
+nw/wsj/00/wsj_0047   0   10           charges   NNS                    *)       -    -   -   -          *            *            *)       *         *             *   -
+nw/wsj/00/wsj_0047   0   11                by    IN                 (PP*        -    -   -   -          *            *   (ARGM-MNR*        *         *             *   -
+nw/wsj/00/wsj_0047   0   12         stressing   VBG               (S(VP*    stress  01   -   -          *            *            *      (V*)        *             *   -
+nw/wsj/00/wsj_0047   0   13              that    IN               (SBAR*        -    -   -   -          *            *            *   (ARG1*         *             *   -
+nw/wsj/00/wsj_0047   0   14        candidates   NNS            (S(NP(NP*)       -    -   -   -          *            *            *        *    (ARG0*)       (ARG1*   -
+nw/wsj/00/wsj_0047   0   15                to    TO          (SBAR(S(VP*        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   16              head    VB                 (VP*      head  01   -   -          *            *            *        *       (V*)            *   -
+nw/wsj/00/wsj_0047   0   17               the    DT              (NP(NP*        -    -   -   -          *            *            *        *    (ARG1*             *   -
+nw/wsj/00/wsj_0047   0   18               NIH   NNP                    *)       -    -   -   -       (ORG)           *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   19               and    CC                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   20               the    DT                 (NP*        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   21               CDC   NNP              *)))))))       -    -   -   -       (ORG)           *            *        *         *)            *)  -
+nw/wsj/00/wsj_0047   0   22              will    MD                 (VP*        -    -   -   -          *            *            *        *         *    (ARGM-MOD*)  -
+nw/wsj/00/wsj_0047   0   23                be    VB                 (VP*        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   24            judged   VBN                 (VP*     judge  01   2   -          *            *            *        *         *           (V*)  -
+nw/wsj/00/wsj_0047   0   25                by    IN                 (PP*        -    -   -   -          *            *            *        *         *        (ARG3*   -
+nw/wsj/00/wsj_0047   0   26                ``    ``                 (NP*        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   27         standards   NNS              (NP(NP*)       -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   28                of    IN                 (PP*        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   29        scientific    JJ            (NP(ADJP*        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   30               and    CC                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   31    administrative    JJ                    *)       -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   32        excellence    NN                  *)))       -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   33                 ,     ,                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   34                ''    ''                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   35               not    RB                    *        -    -   -   -          *            *            *        *         *             *   -
+nw/wsj/00/wsj_0047   0   36          politics   NNS   (NP*)))))))))))))))       -    -   -   -          *            *)           *)       *)        *             *)  -
+nw/wsj/00/wsj_0047   0   37                 .     .                   *))       -    -   -   -          *            *            *        *         *             *   -
+
+nw/wsj/00/wsj_0047   0    0               But     CC     (TOP(S*         -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/00/wsj_0047   0    1               the     DT  (NP(NP(NP*         -    -   -   -   *        (ARG0*   -
+nw/wsj/00/wsj_0047   0    2    administration     NN           *         -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    3                's    POS           *)        -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    4          handling     NN           *)        -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    5                of     IN        (PP*         -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    6               the     DT        (NP*         -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    7             fetal     JJ       (NML*         -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    8                -    HYPH           *         -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0    9            tissue     NN           *)        -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0   10        transplant     NN           *         -    -   -   -   *             *   -
+nw/wsj/00/wsj_0047   0   11             issue     NN         *)))        -    -   -   -   *             *)  -
+nw/wsj/00/wsj_0047   0   12          disturbs    VBZ        (VP*    disturb  01   2   -   *           (V*)  -
+nw/wsj/00/wsj_0047   0   13              many     JJ        (NP*         -    -   -   -   *        (ARG1*   -
+nw/wsj/00/wsj_0047   0   14        scientists    NNS          *))        -    -   -   -   *             *)  -
+nw/wsj/00/wsj_0047   0   15                 .      .          *))        -    -   -   -   *             *   -
+
+nw/wsj/00/wsj_0047   0    0              ``     ``        (TOP(SINV*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0    1            When    WRB   (S(SBAR(WHADVP*)     -    -   -   -          *    (ARGM-TMP*)     *        *   -
+nw/wsj/00/wsj_0047   0    2      scientific     JJ            (S(NP*      -    -   -   -          *        (ARG1*      *        *   -
+nw/wsj/00/wsj_0047   0    3        progress     NN                 *)     -    -   -   -          *             *)     *        *   -
+nw/wsj/00/wsj_0047   0    4           moves    VBZ              (VP*    move  01   -   -          *           (V*)     *        *   -
+nw/wsj/00/wsj_0047   0    5            into     IN              (PP*      -    -   -   -          *        (ARG2*      *        *   -
+nw/wsj/00/wsj_0047   0    6       uncharted     JJ              (NP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0    7          ground     NN             *)))))     -    -   -   -          *             *)     *        *   -
+nw/wsj/00/wsj_0047   0    8               ,      ,                 *      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0    9           there     EX              (NP*)     -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   10             has    VBZ              (VP*    have  02   -   -          *             *    (V*)       *   -
+nw/wsj/00/wsj_0047   0   11              to     TO            (S(VP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   12              be     VB              (VP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   13               a     DT           (NP(NP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   14            role     NN                 *)     -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   15             for     IN              (PP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   16         society     NN             (NP*))     -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   17              to     TO            (S(VP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   18            make     VB              (VP*    make  01   -   -          *             *      *      (V*)  -
+nw/wsj/00/wsj_0047   0   19       judgments    NNS           (NP(NP*)     -    -   -   -          *             *      *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   20           about     IN              (PP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   21             its   PRP$              (NP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   22    applications    NNS      *))))))))))))     -    -   -   -          *             *      *        *)  -
+nw/wsj/00/wsj_0047   0   23               ,      ,                 *      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   24              ''     ''                 *      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   25            says    VBZ              (VP*)     -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   26           Myron    NNP           (NP(NP*      -    -   -   -   (PERSON*             *      *        *   -
+nw/wsj/00/wsj_0047   0   27           Genel    NNP                 *)     -    -   -   -          *)            *      *        *   -
+nw/wsj/00/wsj_0047   0   28               ,      ,                 *      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   29       associate     NN           (NP(NP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   30            dean     NN                 *)     -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   31              of     IN              (PP*      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   32             the     DT              (NP*      -    -   -   -      (ORG*             *      *        *   -
+nw/wsj/00/wsj_0047   0   33            Yale    NNP                 *      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   34         Medical    NNP                 *      -    -   -   -          *             *      *        *   -
+nw/wsj/00/wsj_0047   0   35          School    NNP              *))))     -    -   -   -          *)            *      *        *   -
+nw/wsj/00/wsj_0047   0   36               .      .                *))     -    -   -   -          *             *      *        *   -
+
+nw/wsj/00/wsj_0047   0    0            ``    ``         (TOP(S*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    1           The    DT         (NP(NP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    2    disturbing    JJ               *       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    3         thing    NN               *)      -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    4         about    IN            (PP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    5          this    DT            (NP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    6      abortion    NN               *       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    7         issue    NN             *)))      -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    8            is   VBZ            (VP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0    9          that    IN          (SBAR*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   10           the    DT          (S(NP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   11        debate    NN               *)      -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   12           has   VBZ            (VP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   13        become   VBN            (VP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   14     polarized   VBN            (VP*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   15             ,     ,               *       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   16            so    IN          (SBAR*       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   17          that    IN               *       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   18            no    DT       (S(NP(NP*       -    -   -   -   *     (ARG1*        *   -
+nw/wsj/00/wsj_0047   0   19     mechanism    NN              *))      -    -   -   -   *          *)       *   -
+nw/wsj/00/wsj_0047   0   20        exists   VBZ            (VP*    exist  01   -   -   *        (V*)       *   -
+nw/wsj/00/wsj_0047   0   21            ''    ''               *       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   22           for    IN            (PP*       -    -   -   -   *   (C-ARG1*        *   -
+nw/wsj/00/wsj_0047   0   23       finding   VBG          (S(VP*     find  01   -   -   *          *      (V*)  -
+nw/wsj/00/wsj_0047   0   24             a    DT            (NP*       -    -   -   -   *          *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   25        middle    JJ               *       -    -   -   -   *          *        *   -
+nw/wsj/00/wsj_0047   0   26        ground    NN   *)))))))))))))      -    -   -   -   *          *)       *)  -
+nw/wsj/00/wsj_0047   0   27             .     .              *))      -    -   -   -   *          *        *   -
+
+nw/wsj/00/wsj_0047   0    0            Yale    NNP    (TOP(S(NP*)         -    -   -   -    (ORG)   (ARG1*)       *   -
+nw/wsj/00/wsj_0047   0    1              is    VBZ          (VP*          be  01   -   -       *       (V*)       *   -
+nw/wsj/00/wsj_0047   0    2             one     CD       (NP(NP*)         -    -   -   -       *    (ARG2*        *   -
+nw/wsj/00/wsj_0047   0    3              of     IN          (PP*          -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0    4             the     DT       (NP(NP*          -    -   -   -       *         *   (ARG0*   -
+nw/wsj/00/wsj_0047   0    5             few     JJ             *          -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0    6         medical     JJ             *          -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0    7    institutions    NNS             *)         -    -   -   -       *         *        *)  -
+nw/wsj/00/wsj_0047   0    8      conducting    VBG          (VP*     conduct  01   -   -       *         *      (V*)  -
+nw/wsj/00/wsj_0047   0    9       privately     RB  (NP(NP(ADJP*          -    -   -   -       *         *   (ARG1*   -
+nw/wsj/00/wsj_0047   0   10          funded     JJ             *)         -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0   11        research     NN             *)   research   -   1   -       *         *        *   -
+nw/wsj/00/wsj_0047   0   12              on     IN          (PP*          -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0   13           fetal     JJ      (NP(NML*          -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0   14              -    HYPH             *          -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0   15          tissue     NN             *)         -    -   -   -       *         *        *   -
+nw/wsj/00/wsj_0047   0   16     transplants    NNS      *))))))))         -    -   -   -       *         *)       *)  -
+nw/wsj/00/wsj_0047   0   17               .      .            *))         -    -   -   -       *         *        *   -
+
+nw/wsj/00/wsj_0047   0    0           But    CC    (TOP(S*            -    -   -   -          *    (ARGM-DIS*)            *   -
+nw/wsj/00/wsj_0047   0    1           Dr.   NNP       (NP*            -    -   -   -          *        (ARG0*             *   -
+nw/wsj/00/wsj_0047   0    2         Genel   NNP          *)           -    -   -   -    (PERSON)            *)            *   -
+nw/wsj/00/wsj_0047   0    3         warns   VBZ       (VP*          warn  01   1   -          *           (V*)            *   -
+nw/wsj/00/wsj_0047   0    4          that    IN     (SBAR*            -    -   -   -          *        (ARG1*             *   -
+nw/wsj/00/wsj_0047   0    5           Dr.   NNP  (S(NP(NP*            -    -   -   -          *             *        (ARG0*   -
+nw/wsj/00/wsj_0047   0    6         Mason   NNP          *            -    -   -   -    (PERSON)            *             *   -
+nw/wsj/00/wsj_0047   0    7            's   POS          *)           -    -   -   -          *             *             *   -
+nw/wsj/00/wsj_0047   0    8        ruling    NN          *)           -    -   -   -          *             *             *)  -
+nw/wsj/00/wsj_0047   0    9           may    MD       (VP*            -    -   -   -          *             *    (ARGM-MOD*)  -
+nw/wsj/00/wsj_0047   0   10    discourage    VB       (VP*    discourage  01   2   -          *             *           (V*)  -
+nw/wsj/00/wsj_0047   0   11       private    JJ       (NP*            -    -   -   -          *             *        (ARG1*   -
+nw/wsj/00/wsj_0047   0   12       funding    NN     *))))))         fund   -   1   -          *             *)            *)  -
+nw/wsj/00/wsj_0047   0   13             .     .         *))           -    -   -   -          *             *             *   -
+
+nw/wsj/00/wsj_0047   0    0                ``    ``        (TOP(S*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    1               The    DT   (S(NP(NP(NP*         -    -   -   -   *              *        (ARG0*         *    (ARG1*   -
+nw/wsj/00/wsj_0047   0    2    unavailability    NN              *)        -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    3                of    IN           (PP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    4           federal    JJ           (NP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    5             funds   NNS            *)))        -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    6                 ,     ,              *         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    7               and    CC              *         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0    8               the    DT        (NP(NP*         -    -   -   -   *     (ARGM-LOC*             *         *         *   -
+nw/wsj/00/wsj_0047   0    9           climate    NN              *)        -    -   -   -   *              *)            *         *         *   -
+nw/wsj/00/wsj_0047   0   10                in    IN    (SBAR(WHPP*         -    -   -   -   *   (R-ARGM-LOC*             *         *         *   -
+nw/wsj/00/wsj_0047   0   11             which   WDT        (WHNP*))        -    -   -   -   *              *)            *         *         *   -
+nw/wsj/00/wsj_0047   0   12               the    DT         (S(NP*         -    -   -   -   *         (ARG1*             *         *         *   -
+nw/wsj/00/wsj_0047   0   13          decision    NN              *)        -    -   -   -   *              *)            *         *         *   -
+nw/wsj/00/wsj_0047   0   14               was   VBD           (VP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   15              made   VBN       (VP*)))))      make  01   -   -   *            (V*)            *         *         *   -
+nw/wsj/00/wsj_0047   0   16                 ,     ,              *)        -    -   -   -   *              *             *)        *         *   -
+nw/wsj/00/wsj_0047   0   17         certainly    RB         (ADVP*)        -    -   -   -   *              *    (ARGM-ADV*)        *         *   -
+nw/wsj/00/wsj_0047   0   18                do   VBP           (VP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   19               n't    RB              *         -    -   -   -   *              *    (ARGM-NEG*)        *         *   -
+nw/wsj/00/wsj_0047   0   20           provide    VB           (VP*    provide  01   -   -   *              *           (V*)        *         *   -
+nw/wsj/00/wsj_0047   0   21               any    DT           (NP*         -    -   -   -   *              *        (ARG1*         *         *   -
+nw/wsj/00/wsj_0047   0   22         incentive    NN              *         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   23               for    IN         (SBAR*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   24               one    CD      (S(NP(NP*)        -    -   -   -   *              *             *    (ARG0*         *   -
+nw/wsj/00/wsj_0047   0   25                of    IN           (PP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   26               the    DT           (NP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   27              more   RBR         (ADJP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   28           visible    JJ              *)        -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   29       foundations   NNS            *)))        -    -   -   -   *              *             *         *)        *   -
+nw/wsj/00/wsj_0047   0   30                to    TO           (VP*         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   31           provide    VB           (VP*    provide  01   -   -   *              *             *       (V*)        *   -
+nw/wsj/00/wsj_0047   0   32           support    NN   (NP*)))))))))        -    -   -   -   *              *             *)   (ARG1*)        *)  -
+nw/wsj/00/wsj_0047   0   33                 ,     ,              *         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   34                ''    ''              *         -    -   -   -   *              *             *         *         *   -
+nw/wsj/00/wsj_0047   0   35                he   PRP           (NP*)        -    -   -   -   *              *             *         *    (ARG0*)  -
+nw/wsj/00/wsj_0047   0   36              said   VBD           (VP*)       say  01   -   -   *              *             *         *       (V*)  -
+nw/wsj/00/wsj_0047   0   37                 .     .             *))        -    -   -   -   *              *             *         *         *   -
+
+nw/wsj/00/wsj_0047   0    0        Despite    IN  (TOP(S(PP*          -    -   -   -   *         *    (ARGM-ADV*   -
+nw/wsj/00/wsj_0047   0    1            the    DT     (NP(NP*          -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0    2           flap    NN           *)         -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0    3           over    IN        (PP*          -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0    4    transplants   NNS     (NP*))))         -    -   -   -   *         *             *)  -
+nw/wsj/00/wsj_0047   0    5              ,     ,           *          -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0    6        federal    JJ     (NP(NP*          -    -   -   -   *         *        (ARG1*   -
+nw/wsj/00/wsj_0047   0    7        funding    NN           *)       fund   -   1   -   *         *             *   -
+nw/wsj/00/wsj_0047   0    8             of    IN        (PP*          -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0    9       research    NN     (NP(NP*)   research   -   1   -   *    (ARG2*)            *   -
+nw/wsj/00/wsj_0047   0   10      involving   VBG        (VP*     involve  01   -   -   *       (V*)            *   -
+nw/wsj/00/wsj_0047   0   11          fetal    JJ        (NP*          -    -   -   -   *    (ARG1*             *   -
+nw/wsj/00/wsj_0047   0   12        tissues   NNS       *)))))         -    -   -   -   *         *)            *)  -
+nw/wsj/00/wsj_0047   0   13           will    MD        (VP*          -    -   -   -   *         *    (ARGM-MOD*)  -
+nw/wsj/00/wsj_0047   0   14       continue    VB        (VP*    continue  01   -   -   *         *           (V*)  -
+nw/wsj/00/wsj_0047   0   15             on    IN        (PP*          -    -   -   -   *         *    (ARGM-LOC*   -
+nw/wsj/00/wsj_0047   0   16              a    DT     (NP(NP*          -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0   17         number    NN           *)         -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0   18             of    IN        (PP*          -    -   -   -   *         *             *   -
+nw/wsj/00/wsj_0047   0   19         fronts   NNS   (NP*))))))         -    -   -   -   *         *             *)  -
+nw/wsj/00/wsj_0047   0   20              .     .          *))         -    -   -   -   *         *             *   -
+
+nw/wsj/00/wsj_0047   0    0             ``    ``             (TOP(S*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    1           Such    JJ                (NP*            -    -   -   -       *        (ARG1*        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    2       research    NN                   *)     research   -   1   -       *             *)       *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    3            may    MD                (VP*            -    -   -   -       *    (ARGM-MOD*)       *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    4     ultimately    RB              (ADVP*)           -    -   -   -       *    (ARGM-TMP*)       *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    5         result    VB                (VP*        result  01   1   -       *           (V*)       *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    6             in    IN                (PP*            -    -   -   -       *        (ARG2*        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    7            the    DT                (NP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    8        ability    NN                   *            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0    9             to    TO            (S(S(VP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   10     regenerate    VB                (VP*    regenerate  01   2   -       *             *      (V*)       *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   11        damaged    JJ                (NP*            -    -   -   -       *             *   (ARG1*        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   12        tissues   NNS                *))))           -    -   -   -       *             *        *)       *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   13             or    CC                   *            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   14             to    TO              (S(VP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   15           turn    VB                (VP*          turn  07   -   -       *             *        *      (V*)          *        *           *         *   -
+nw/wsj/00/wsj_0047   0   16            off    RP               (PRT*)           -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   17          genes   NNS             (NP(NP*)           -    -   -   -       *             *        *   (ARG1*      (ARG0*)       *           *         *   -
+nw/wsj/00/wsj_0047   0   18           that   WDT         (SBAR(WHNP*)           -    -   -   -       *             *        *        *    (R-ARG0*)       *           *         *   -
+nw/wsj/00/wsj_0047   0   19          cause   VBP              (S(VP*         cause  01   1   -       *             *        *        *         (V*)       *           *         *   -
+nw/wsj/00/wsj_0047   0   20         cancer    NN         (NP*))))))))           -    -   -   -       *             *        *        *)     (ARG1*)       *           *         *   -
+nw/wsj/00/wsj_0047   0   21             ''    ''                   *            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   22             or    CC                   *            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   23             to    TO              (S(VP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   24       regulate    VB                (VP*      regulate  01   2   -       *             *        *        *           *      (V*)          *         *   -
+nw/wsj/00/wsj_0047   0   25          genes   NNS             (NP(NP*)           -    -   -   -       *             *        *        *           *   (ARG1*      (ARG0*)        *   -
+nw/wsj/00/wsj_0047   0   26           that   WDT         (SBAR(WHNP*)           -    -   -   -       *             *        *        *           *        *    (R-ARG0*)        *   -
+nw/wsj/00/wsj_0047   0   27          cause   VBP              (S(VP*         cause  01   1   -       *             *        *        *           *        *         (V*)        *   -
+nw/wsj/00/wsj_0047   0   28           Down   NNP          (NP(NP(NP*            -    -   -   -       *             *        *        *           *        *      (ARG1*         *   -
+nw/wsj/00/wsj_0047   0   29             's   POS                   *)           -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   30       syndrome    NN                   *)           -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   31              ,     ,                   *            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   32            the    DT             (NP(NP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   33        leading   VBG                   *          lead  01   -   -       *             *        *        *           *        *           *       (V*)  -
+nw/wsj/00/wsj_0047   0   34          cause    NN                   *)           -    -   -   -       *             *        *        *           *        *           *    (ARG0*)  -
+nw/wsj/00/wsj_0047   0   35             of    IN                (PP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   36         mental    JJ                (NP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   37    retardation    NN                  *))           -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   38              ,     ,                   *            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   39      according   VBG                (PP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   40             to    IN                (PP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   41             an    DT                (NP*            -    -   -   -       *             *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   42            NIH   NNP                   *            -    -   -   -    (ORG)            *        *        *           *        *           *         *   -
+nw/wsj/00/wsj_0047   0   43        summary    NN   *)))))))))))))))))           -    -   -   -       *             *)       *        *           *        *)          *)        *   -
+nw/wsj/00/wsj_0047   0   44              .     .                  *))           -    -   -   -       *             *        *        *           *        *           *         *   -
+
+nw/wsj/00/wsj_0047   0    0          The     DT  (TOP(S(NP*          -    -   -   -         *        (ARG0*   -
+nw/wsj/00/wsj_0047   0    1          NIH    NNP           *)         -    -   -   -      (ORG)            *)  -
+nw/wsj/00/wsj_0047   0    2    currently     RB      (ADVP*)         -    -   -   -         *    (ARGM-TMP*)  -
+nw/wsj/00/wsj_0047   0    3       spends    VBZ        (VP*       spend  01   -   -         *           (V*)  -
+nw/wsj/00/wsj_0047   0    4        about     IN  (NP(NP(QP*          -    -   -   -   (MONEY*        (ARG3*   -
+nw/wsj/00/wsj_0047   0    5            $      $           *          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0    6           8      CD           *          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0    7      million     CD         *)))         -    -   -   -         *)            *)  -
+nw/wsj/00/wsj_0047   0    8     annually     RB      (ADVP*)         -    -   -   -     (DATE)   (ARGM-TMP*)  -
+nw/wsj/00/wsj_0047   0    9           on     IN        (PP*          -    -   -   -         *        (ARG1*   -
+nw/wsj/00/wsj_0047   0   10        fetal     JJ    (NP(NML*          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   11           -    HYPH           *          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   12       tissue     NN           *)         -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   13     research     NN          *))   research   -   1   -         *             *)  -
+nw/wsj/00/wsj_0047   0   14          out     IN        (PP*          -    -   -   -         *      (C-ARG3*   -
+nw/wsj/00/wsj_0047   0   15           of     IN        (PP*          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   16            a     DT     (NP(NP*          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   17        total     JJ           *          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   18     research     NN           *          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   19       budget     NN           *)         -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   20           of     IN        (PP*          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   21            $      $     (NP(QP*          -    -   -   -   (MONEY*             *   -
+nw/wsj/00/wsj_0047   0   22           8      CD           *          -    -   -   -         *             *   -
+nw/wsj/00/wsj_0047   0   23      billion     CD     *)))))))         -    -   -   -         *)            *)  -
+nw/wsj/00/wsj_0047   0   24            .      .          *))         -    -   -   -         *             *   -
+
+#end document

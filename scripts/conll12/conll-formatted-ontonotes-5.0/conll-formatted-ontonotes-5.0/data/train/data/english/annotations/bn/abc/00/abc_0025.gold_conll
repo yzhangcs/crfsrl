@@ -1,0 +1,426 @@
+#begin document (bn/abc/00/abc_0025); part 000
+bn/abc/00/abc_0025   0   0     Well   UH   (TOP(FRAG(INTJ*)      -   -   -   -        *     -
+bn/abc/00/abc_0025   0   1        ,    ,                 *       -   -   -   -        *     -
+bn/abc/00/abc_0025   0   2      big   JJ           (NP(NP*       -   -   -   -        *     -
+bn/abc/00/abc_0025   0   3     news   NN                 *)    news  -   1   -        *     -
+bn/abc/00/abc_0025   0   4       in   IN              (PP*       -   -   -   -        *     -
+bn/abc/00/abc_0025   0   5      the   DT              (NP*       -   -   -   -        *     -
+bn/abc/00/abc_0025   0   6    money   NN                 *    money  -   2   -        *     -
+bn/abc/00/abc_0025   0   7    scope   NN               *)))      -   -   -   -        *     -
+bn/abc/00/abc_0025   0   8    today   NN              (NP*)   today  -   2   -    (DATE)   (6)
+bn/abc/00/abc_0025   0   9        .    .                *))      -   -   -   -        *     -
+
+bn/abc/00/abc_0025   0    0       Across    IN       (TOP(S(PP*         -    -    -   -        *      *   (ARGM-LOC*         *             *         *            *     -
+bn/abc/00/abc_0025   0    1          the    DT             (NP*         -    -    -   -        *      *            *         *             *         *            *    (0
+bn/abc/00/abc_0025   0    2      country    NN               *))   country   -    3   -        *      *            *)        *             *         *            *     0)
+bn/abc/00/abc_0025   0    3            ,     ,                *         -    -    -   -        *      *            *         *             *         *            *     -
+bn/abc/00/abc_0025   0    4         they   PRP             (NP*)        -    -    -   -        *      *       (ARG1*)   (ARG0*)       (ARG0*)        *            *     -
+bn/abc/00/abc_0025   0    5         were   VBD             (VP*         be  03    -   -        *    (V*)           *         *             *         *            *     -
+bn/abc/00/abc_0025   0    6       lining   VBG             (VP*       line  02    2   -        *      *          (V*)        *             *         *            *     -
+bn/abc/00/abc_0025   0    7           up    RP            (PRT*)        -    -    -   -        *      *            *         *             *         *            *     -
+bn/abc/00/abc_0025   0    8     jostling   VBG        (S(VP(VP*)    jostle  01    -   -        *      *   (ARGM-ADV*       (V*)            *         *            *     -
+bn/abc/00/abc_0025   0    9            ,     ,                *         -    -    -   -        *      *            *         *             *         *            *     -
+bn/abc/00/abc_0025   0   10         even    RB           (ADVP*)        -    -    -   -        *      *            *         *    (ARGM-ADV*)        *            *     -
+bn/abc/00/abc_0025   0   11    scuffling   VBG             (VP*)   scuffle  01    -   -        *      *            *         *           (V*)        *            *     -
+bn/abc/00/abc_0025   0   12          for    IN             (PP*         -    -    -   -        *      *            *    (ARG1*        (ARG2*         *            *     -
+bn/abc/00/abc_0025   0   13          the    DT       (NP(NP(NP*         -    -    -   -        *      *            *         *             *         *       (ARG1*    (5
+bn/abc/00/abc_0025   0   14         most   RBS           (ADJP*         -    -    -   -        *      *            *         *             *         *            *     -
+bn/abc/00/abc_0025   0   15       wanted   VBN                *)      want  01    1   -        *      *            *         *             *       (V*)           *     -
+bn/abc/00/abc_0025   0   16          toy    NN                *)        -    -    -   -        *      *            *         *             *    (ARG1*)           *     -
+bn/abc/00/abc_0025   0   17           in    IN             (PP*         -    -    -   -        *      *            *         *             *         *            *     -
+bn/abc/00/abc_0025   0   18      America   NNP           (NP*)))        -    -    -   -     (GPE)     *            *         *             *         *            *)   (0)
+bn/abc/00/abc_0025   0   19            ,     ,                *         -    -    -   -        *      *            *         *             *         *            *     -
+bn/abc/00/abc_0025   0   20        which   WDT      (SBAR(WHNP*)        -    -    -   -        *      *            *         *             *         *     (R-ARG1*)    -
+bn/abc/00/abc_0025   0   21         went   VBD           (S(VP*         go  08   14   -        *      *            *         *             *         *          (V*)    -
+bn/abc/00/abc_0025   0   22           on    IN             (PP*         -    -    -   -        *      *            *         *             *         *       (ARG2*     -
+bn/abc/00/abc_0025   0   23         sale    NN            (NP*))      sale   -    2   -        *      *            *         *             *         *            *)    -
+bn/abc/00/abc_0025   0   24           at    IN             (PP*         -    -    -   -        *      *            *         *             *         *   (ARGM-TMP*     -
+bn/abc/00/abc_0025   0   25     midnight    NN   (NP*)))))))))))        -    -    -   -    (TIME)     *            *)        *)            *)        *            *)    5)
+bn/abc/00/abc_0025   0   26            .     .               *))        -    -    -   -        *      *            *         *             *         *            *     -
+
+bn/abc/00/abc_0025   0   0            The    DT  (TOP(S(NP*      -    -    -   -           *   (ARG0*   (5
+bn/abc/00/abc_0025   0   1           Sony   NNP           *      -    -    -   -        (ORG)       *    -
+bn/abc/00/abc_0025   0   2    PlayStation   NNP           *)     -    -    -   -    (PRODUCT)       *)   5)
+bn/abc/00/abc_0025   0   3          plays   VBZ        (VP*    play  01   13   -           *      (V*)   -
+bn/abc/00/abc_0025   0   4          video    NN        (NP*      -    -    -   -           *   (ARG1*    -
+bn/abc/00/abc_0025   0   5          games   NNS          *))   game   -    3   -           *        *)   -
+bn/abc/00/abc_0025   0   6              .     .          *))     -    -    -   -           *        *    -
+
+bn/abc/00/abc_0025   0    0           It   PRP        (TOP(S(NP*)         -    -    -   -           *             *           *            *    (5)
+bn/abc/00/abc_0025   0    1           's   VBZ              (VP*          be   -    1   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    2          the    DT           (NP(NP*          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    3       latest   JJS                 *)         -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    4           in    IN              (PP*          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    5            a    DT           (NP(NP*          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    6         line    NN                 *)       line   -   10   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    7           of    IN              (PP*          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0    8         ever    RB      (NP(NP(ADJP*          -    -    -   -           *    (ARGM-ADV*)     (ARG1*            *     -
+bn/abc/00/abc_0025   0    9    improving   VBG                 *)    improve  01    -   -           *           (V*)          *            *     -
+bn/abc/00/abc_0025   0   10         game    NN                 *        game   -    3   -           *        (ARG1*           *            *     -
+bn/abc/00/abc_0025   0   11     machines   NNS                 *)    machine   -    1   -           *             *)          *)           *     -
+bn/abc/00/abc_0025   0   12         that   WDT       (SBAR(WHNP*)         -    -    -   -           *             *    (R-ARG1*)           *     -
+bn/abc/00/abc_0025   0   13        began   VBD            (S(VP*       begin  01    1   -           *             *         (V*)           *     -
+bn/abc/00/abc_0025   0   14         with    IN              (PP*          -    -    -   -           *             *      (ARG2*            *     -
+bn/abc/00/abc_0025   0   15          the    DT           (NP(NP*          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0   16        Atari   NNP                 *)         -    -    -   -    (PRODUCT)            *           *            *     -
+bn/abc/00/abc_0025   0   17            ,     ,                 *          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0   18         some    DT    (SBAR(S(NP(NP*)         -    -    -   -           *             *           *       (ARG0*     -
+bn/abc/00/abc_0025   0   19           of    IN              (PP*          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0   20           us   PRP            (NP*)))         -    -    -   -           *             *           *            *)    -
+bn/abc/00/abc_0025   0   21     remember   VBP              (VP*    remember  01    1   -           *             *           *          (V*)    -
+bn/abc/00/abc_0025   0   22            ,     ,                 *          -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0   23           so    RB    (ADVP(NP(ADJP*          -    -    -   -      (DATE*             *           *   (ARGM-TMP*     -
+bn/abc/00/abc_0025   0   24         many    JJ                 *)         -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0   25        years   NNS                 *)         -    -    -   -           *             *           *            *     -
+bn/abc/00/abc_0025   0   26          ago    RB   *)))))))))))))))         -    -    -   -           *)            *           *)           *)    -
+bn/abc/00/abc_0025   0   27            .     .                *))         -    -    -   -           *             *           *            *     -
+
+bn/abc/00/abc_0025   0    0         This    DT   (TOP(S(NP*)         -    -   -   -   *        (ARG1*)   (5)
+bn/abc/00/abc_0025   0    1            ,     ,            *          -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    2      however    RB       (ADVP*)         -    -   -   -   *    (ARGM-DIS*)    -
+bn/abc/00/abc_0025   0    3            ,     ,            *          -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    4           is   VBZ         (VP*          be  01   1   -   *           (V*)    -
+bn/abc/00/abc_0025   0    5            a    DT      (NP(NP*          -    -   -   -   *        (ARG2*     -
+bn/abc/00/abc_0025   0    6          toy    NN            *)         -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    7         with    IN         (PP*          -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    8      greater   JJR         (NP*          -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    9    ambitions   NNS         *))))   ambition   -   1   -   *             *)    -
+bn/abc/00/abc_0025   0   10            .     .           *))         -    -   -   -   *             *     -
+
+bn/abc/00/abc_0025   0   0      Here    RB   (TOP(SINV(ADVP*)   -   -   -   -          *       -
+bn/abc/00/abc_0025   0   1        's   VBZ              (VP*)   be  -   4   -          *       -
+bn/abc/00/abc_0025   0   2       ABC   NNP           (NP(NP*    -   -   -   -       (ORG)  (1|(7
+bn/abc/00/abc_0025   0   3        's   POS                 *)   -   -   -   -          *       7)
+bn/abc/00/abc_0025   0   4     Brian   NNP                 *    -   -   -   -   (PERSON*       -
+bn/abc/00/abc_0025   0   5    Rooney   NNP                 *)   -   -   -   -          *)      1)
+bn/abc/00/abc_0025   0   6         .     .                *))   -   -   -   -          *       -
+
+bn/abc/00/abc_0025   0    0              The    DT      (TOP(S(NP*            -    -   -   -   (ORG*   (ARG0*            *        *             *    (2
+bn/abc/00/abc_0025   0    1             Sony   NNP               *            -    -   -   -       *        *            *        *             *     -
+bn/abc/00/abc_0025   0    2      Corporation   NNP               *)           -    -   -   -       *)       *)           *        *             *     2)
+bn/abc/00/abc_0025   0    3            hopes   VBZ            (VP*          hope  01   1   -       *      (V*)           *        *             *     -
+bn/abc/00/abc_0025   0    4            those    DT  (SBAR(S(NP(NP*            -    -   -   -       *   (ARG1*       (ARG1*   (ARG1*             *     -
+bn/abc/00/abc_0025   0    5           people   NNS               *)       people   -   1   -       *        *            *)       *             *     -
+bn/abc/00/abc_0025   0    6              who    WP     (SBAR(WHNP*)           -    -   -   -       *        *     (R-ARG1*)       *             *     -
+bn/abc/00/abc_0025   0    7           waited   VBD          (S(VP*          wait  01   1   -       *        *          (V*)       *             *     -
+bn/abc/00/abc_0025   0    8               in    IN            (PP*            -    -   -   -       *        *   (ARGM-LOC*        *             *     -
+bn/abc/00/abc_0025   0    9             line    NN       (NP*))))))         line   -   1   -       *        *            *)       *)            *     -
+bn/abc/00/abc_0025   0   10              are   VBP            (VP*            be  01   1   -       *        *            *      (V*)            *     -
+bn/abc/00/abc_0025   0   11              the    DT         (NP(NP*            -    -   -   -       *        *            *   (ARG2*        (ARG0*     -
+bn/abc/00/abc_0025   0   12           people   NNS               *)       people   -   1   -       *        *            *        *             *)    -
+bn/abc/00/abc_0025   0   13              who    WP     (SBAR(WHNP*)           -    -   -   -       *        *            *        *      (R-ARG0*)    -
+bn/abc/00/abc_0025   0   14             will    MD          (S(VP*            -    -   -   -       *        *            *        *    (ARGM-MOD*)    -
+bn/abc/00/abc_0025   0   15             lead    VB            (VP*          lead  01   1   -       *        *            *        *           (V*)    -
+bn/abc/00/abc_0025   0   16             Sony   NNP            (NP*)           -    -   -   -    (ORG)       *            *        *        (ARG1*)   (2)
+bn/abc/00/abc_0025   0   17             into    IN            (PP*            -    -   -   -       *        *            *        *        (ARG2*     -
+bn/abc/00/abc_0025   0   18       domination    NN         (NP(NP*)   domination   -   1   -       *        *            *        *             *     -
+bn/abc/00/abc_0025   0   19               of    IN            (PP*            -    -   -   -       *        *            *        *             *     -
+bn/abc/00/abc_0025   0   20              all    DT            (NP*            -    -   -   -       *        *            *        *             *     -
+bn/abc/00/abc_0025   0   21             home    NN               *          home   -   1   -       *        *            *        *             *     -
+bn/abc/00/abc_0025   0   22    entertainment    NN   *)))))))))))))           -    -   -   -       *        *)           *        *)            *)    -
+bn/abc/00/abc_0025   0   23                .     .              *))           -    -   -   -       *        *            *        *             *     -
+
+bn/abc/00/abc_0025   0    0              The    DT   (TOP(S(NP*        -    -   -   -   *       (ARG1*         *         *    (5
+bn/abc/00/abc_0025   0    1             game    NN            *)     game   -   5   -   *            *)        *         *     5)
+bn/abc/00/abc_0025   0    2               is   VBZ         (VP*        be  01   1   -   *          (V*)        *         *     -
+bn/abc/00/abc_0025   0    3            worth    JJ       (ADJP*        -    -   -   -   *       (ARG2*         *         *     -
+bn/abc/00/abc_0025   0    4          waiting   VBG  (SBAR(S(VP*      wait  01   1   -   *            *       (V*)        *     -
+bn/abc/00/abc_0025   0    5              for    IN     (PP*)))))       -    -   -   -   *            *)   (ARG2*)        *     -
+bn/abc/00/abc_0025   0    6                ,     ,            *        -    -   -   -   *            *         *         *     -
+bn/abc/00/abc_0025   0    7          because    IN       (SBAR*        -    -   -   -   *   (ARGM-CAU*         *         *     -
+bn/abc/00/abc_0025   0    8               it   PRP       (S(NP*)       -    -   -   -   *            *         *    (ARG1*)   (5)
+bn/abc/00/abc_0025   0    9               is   VBZ         (VP*        be  01   1   -   *            *         *       (V*)    -
+bn/abc/00/abc_0025   0   10              the    DT      (NP(NP*        -    -   -   -   *            *         *    (ARG2*     -
+bn/abc/00/abc_0025   0   11    entertainment    NN            *        -    -   -   -   *            *         *         *     -
+bn/abc/00/abc_0025   0   12           system    NN            *)       -    -   -   -   *            *         *         *     -
+bn/abc/00/abc_0025   0   13               of    IN         (PP*        -    -   -   -   *            *         *         *     -
+bn/abc/00/abc_0025   0   14              the    DT         (NP*        -    -   -   -   *            *         *         *     -
+bn/abc/00/abc_0025   0   15           future    NN      *)))))))   future   -   1   -   *            *)        *         *)    -
+bn/abc/00/abc_0025   0   16                .     .           *))       -    -   -   -   *            *         *         *     -
+
+bn/abc/00/abc_0025   0    0     PlayStation   NNP        (TOP(S(NP*              -    -   -   -   (PRODUCT*   (ARG0*         *        *           *         *             *      *   (5
+bn/abc/00/abc_0025   0    1              2     CD                 *)             -    -   -   -           *)       *)        *        *           *         *             *      *    5)
+bn/abc/00/abc_0025   0    2          offers   VBZ              (VP*           offer  01   2   -           *      (V*)        *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0    3            what    WP       (SBAR(WHNP*)             -    -   -   -           *   (ARG1*         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0    4            fans   NNS            (S(NP*)            fan   -   1   -           *        *    (ARG0*)       *           *         *             *      *    -
+bn/abc/00/abc_0025   0    5         believe   VBP              (VP*         believe  01   1   -           *        *       (V*)       *           *         *             *      *    -
+bn/abc/00/abc_0025   0    6              is   VBZ       (SBAR(S(VP*              be  01   1   -           *        *    (ARG1*      (V*)          *         *             *      *    -
+bn/abc/00/abc_0025   0    7             the    DT        (NP(NP(NP*              -    -   -   -           *        *         *   (ARG2*           *         *             *      *    -
+bn/abc/00/abc_0025   0    8            most   RBS            (ADJP*              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0    9       realistic    JJ                 *)             -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   10       animation    NN                 *)             -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   11              in    IN              (PP*              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   12            home    NN              (NP*            home   -   1   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   13           video    NN                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   14           games   NNS               *)))             -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   15               ,     ,                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   16             car    NN        (NP(NP(NP*             car   -   2   -           *        *         *        *      (ARG0*         *             *      *    -
+bn/abc/00/abc_0025   0   17          racing    NN                 *)             -    -   -   -           *        *         *        *           *)        *             *      *    -
+bn/abc/00/abc_0025   0   18            that   WDT       (SBAR(WHNP*)             -    -   -   -           *        *         *        *    (R-ARG0*)        *             *      *    -
+bn/abc/00/abc_0025   0   19           makes   VBZ            (S(VP*            make  02   4   -           *        *         *        *         (V*)        *             *      *    -
+bn/abc/00/abc_0025   0   20             you   PRP            (S(NP*)             -    -   -   -           *        *         *        *      (ARG1*    (ARG0*)            *      *    -
+bn/abc/00/abc_0025   0   21            feel    VB              (VP*            feel  03   1   -           *        *         *        *           *       (V*)            *      *    -
+bn/abc/00/abc_0025   0   22              ``    ``              (NP*              -    -   -   -           *        *         *        *           *    (ARG1*             *      *    -
+bn/abc/00/abc_0025   0   23               G    NN                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   24              ''    ''                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   25          forces   NNS           *)))))))          force   -   1   -           *        *         *        *           *)        *)            *      *    -
+bn/abc/00/abc_0025   0   26               ,     ,                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   27        fighting    NN           (NP(NP*              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   28           games   NNS                 *)           game   -   3   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   29            with    IN              (PP*              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   30           punch    NN            (NP*)))             -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   31               ,     ,                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   32          sports   NNS           (NP(NP*           sport   -   1   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   33           games   NNS                 *)           game   -   3   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   34               ,     ,                 *              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   35             the    DT        (PRN(S(NP*              -    -   -   -           *        *         *        *           *         *        (ARG0*      *    -
+bn/abc/00/abc_0025   0   36         runners   NNS                 *)             -    -   -   -           *        *         *        *           *         *             *)     *    -
+bn/abc/00/abc_0025   0   37            even    RB            (ADVP*)             -    -   -   -           *        *         *        *           *         *    (ARGM-ADV*)     *    -
+bn/abc/00/abc_0025   0   38    congratulate   VBP              (VP*    congratulate  01   1   -           *        *         *        *           *         *           (V*)     *    -
+bn/abc/00/abc_0025   0   39            each    DT              (NP*              -    -   -   -           *        *         *        *           *         *        (ARG1*      *    -
+bn/abc/00/abc_0025   0   40           other    JJ                 *)             -    -   -   -           *        *         *        *           *         *             *)     *    -
+bn/abc/00/abc_0025   0   41           after    IN              (PP*              -    -   -   -           *        *         *        *           *         *    (ARGM-TMP*      *    -
+bn/abc/00/abc_0025   0   42             the    DT              (NP*              -    -   -   -           *        *         *        *           *         *             *      *    -
+bn/abc/00/abc_0025   0   43            race    NN   *)))))))))))))))           race  01   1   -           *        *)        *)       *)          *         *             *)   (V*)   -
+bn/abc/00/abc_0025   0   44               .     .                *))             -    -   -   -           *        *         *        *           *         *             *      *    -
+
+bn/abc/00/abc_0025   0    0          Today    NN   (TOP(S(NP*)   today   -   2   -        (DATE)     *    (ARGM-TMP*)     *    (ARGM-TMP*)   (6)
+bn/abc/00/abc_0025   0    1              ,     ,            *       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0    2           Sony   NNP         (NP*)      -    -   -   -         (ORG)     *        (ARG0*)     *        (ARG0*)   (2)
+bn/abc/00/abc_0025   0    3             is   VBZ      (VP(VP*       be  03   -   -            *    (V*)            *      *             *     -
+bn/abc/00/abc_0025   0    4       offering   VBG        (VP*))   offer  01   1   -            *      *           (V*)     *             *     -
+bn/abc/00/abc_0025   0    5              ,     ,            *       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0    6            and    CC            *       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0    7            may    MD         (VP*       -    -   -   -            *      *             *      *    (ARGM-MOD*)    -
+bn/abc/00/abc_0025   0    8        already    RB       (ADVP*)      -    -   -   -            *      *             *      *    (ARGM-TMP*)    -
+bn/abc/00/abc_0025   0    9           have    VB         (VP*     have  01   -   -            *      *             *    (V*)            *     -
+bn/abc/00/abc_0025   0   10           sold   VBN       (VP*)))    sell  01   1   -            *      *             *      *           (V*)    -
+bn/abc/00/abc_0025   0   11              ,     ,            *       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0   12           half   PDT   (NP(NP(QP*       -    -   -   -   (CARDINAL*      *        (ARG1*      *        (ARG1*     -
+bn/abc/00/abc_0025   0   13              a    DT            *       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0   14        million    CD            *)      -    -   -   -            *)     *             *      *             *     -
+bn/abc/00/abc_0025   0   15           sets   NNS            *)     set   -   1   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0   16             of    IN         (PP*       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0   17    PlayStation   NNP         (NP*       -    -   -   -    (PRODUCT*      *             *      *             *    (5
+bn/abc/00/abc_0025   0   18             2     CD           *))      -    -   -   -            *)     *             *      *             *     5)
+bn/abc/00/abc_0025   0   19             in    IN         (PP*       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0   20            the    DT         (NP*       -    -   -   -        (GPE*      *             *      *             *    (0
+bn/abc/00/abc_0025   0   21         United   NNP            *       -    -   -   -            *      *             *      *             *     -
+bn/abc/00/abc_0025   0   22         States   NNP         *))))      -    -   -   -            *)     *             *)     *             *)    0)
+bn/abc/00/abc_0025   0   23              .     .           *))      -    -   -   -            *      *             *      *             *     -
+
+bn/abc/00/abc_0025   0    0    PlayStation   NNP  (TOP(S(NP*          -    -   -   -   (PRODUCT*        (ARG0*   (5
+bn/abc/00/abc_0025   0    1             2     CD           *)         -    -   -   -           *)            *)   5)
+bn/abc/00/abc_0025   0    2             in    IN        (PP*          -    -   -   -           *    (ARGM-TMP*    -
+bn/abc/00/abc_0025   0    3            the    DT        (NP*          -    -   -   -      (DATE*             *    -
+bn/abc/00/abc_0025   0    4          first    JJ           *          -    -   -   -           *             *    -
+bn/abc/00/abc_0025   0    5            60     CD           *          -    -   -   -           *             *    -
+bn/abc/00/abc_0025   0    6           days   NNS          *))        day   -   2   -           *)            *)   -
+bn/abc/00/abc_0025   0    7           will    MD        (VP*          -    -   -   -           *    (ARGM-MOD*)   -
+bn/abc/00/abc_0025   0    8       generate    VB        (VP*    generate  01   1   -           *           (V*)   -
+bn/abc/00/abc_0025   0    9              $     $  (NP(NP(QP*          -    -   -   -     (MONEY*        (ARG1*    -
+bn/abc/00/abc_0025   0   10             1     CD           *          -    -   -   -           *             *    -
+bn/abc/00/abc_0025   0   11        billion    CD          *))         -    -   -   -           *)            *    -
+bn/abc/00/abc_0025   0   12             in    IN        (PP*          -    -   -   -           *             *    -
+bn/abc/00/abc_0025   0   13         retail    NN    (NP*)))))         -    -   -   -           *             *)   -
+bn/abc/00/abc_0025   0   14              .     .          *))         -    -   -   -           *             *    -
+
+bn/abc/00/abc_0025   0   0    That    DT   (TOP(S(NP*)   -   -   -   -   *   -
+bn/abc/00/abc_0025   0   1      's   VBZ         (VP*    be  -   1   -   *   -
+bn/abc/00/abc_0025   0   2     not    RB            *    -   -   -   -   *   -
+bn/abc/00/abc_0025   0   3     all    DT        (NP*))   -   -   -   -   *   -
+bn/abc/00/abc_0025   0   4       .     .           *))   -   -   -   -   *   -
+
+bn/abc/00/abc_0025   0    0           Sony   NNP      (TOP(S(NP*)        -    -   -   -        (ORG)     *    (ARG0*)              *    (2)
+bn/abc/00/abc_0025   0    1            has   VBZ            (VP*       have  01   -   -           *    (V*)        *               *     -
+bn/abc/00/abc_0025   0    2          given   VBN            (VP*       give  01   2   -           *      *       (V*)              *     -
+bn/abc/00/abc_0025   0    3    PlayStation   NNP            (NP*         -    -   -   -   (PRODUCT*      *    (ARG2*               *    (5
+bn/abc/00/abc_0025   0    4             2     CD               *)        -    -   -   -           *)     *         *)              *     5)
+bn/abc/00/abc_0025   0    5              a    DT         (NP(NP*         -    -   -   -           *      *    (ARG1*               *     -
+bn/abc/00/abc_0025   0    6        digital    JJ               *         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0    7          video    NN               *         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0    8           disk    NN               *         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0    9         player    NN               *)    player   -   4   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   10            and    CC               *         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   11              a    DT         (NP(NP*         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   12         hookup    NN               *)        -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   13          ready    JJ          (ADJP*         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   14            for    IN            (PP*         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   15            the    DT         (NP(NP*         -    -   -   -           *      *         *      (ARGM-TMP*     -
+bn/abc/00/abc_0025   0   16            day    NN               *)       day   -   3   -           *      *         *               *)    -
+bn/abc/00/abc_0025   0   17           when   WRB   (SBAR(WHADVP*)        -    -   -   -           *      *         *    (R-ARGM-TMP*)    -
+bn/abc/00/abc_0025   0   18            the    DT          (S(NP*         -    -   -   -           *      *         *          (ARG0*     -
+bn/abc/00/abc_0025   0   19         cousin    NN               *)        -    -   -   -           *      *         *               *)    -
+bn/abc/00/abc_0025   0   20       installs   VBZ            (VP*    install  01   1   -           *      *         *             (V*)    -
+bn/abc/00/abc_0025   0   21      broadband    NN            (NP*         -    -   -   -           *      *         *          (ARG1*     -
+bn/abc/00/abc_0025   0   22          cable    NN               *         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   23       internet    NN               *         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   24        service    NN               *)        -    -   -   -           *      *         *               *)    -
+bn/abc/00/abc_0025   0   25             in    IN            (PP*         -    -   -   -           *      *         *          (ARG2*     -
+bn/abc/00/abc_0025   0   26            the    DT            (NP*         -    -   -   -           *      *         *               *     -
+bn/abc/00/abc_0025   0   27          house    NN    *))))))))))))     house   -   1   -           *      *         *)              *)    -
+bn/abc/00/abc_0025   0   28              .     .              *))        -    -   -   -           *      *         *               *     -
+
+bn/abc/00/abc_0025   0    0      Then    RB   (TOP(S(ADVP*)     -    -   -   -       *    (ARGM-TMP*)    -
+bn/abc/00/abc_0025   0    1      they   PRP           (NP*)     -    -   -   -       *        (ARG0*)   (2)
+bn/abc/00/abc_0025   0    2       can    MD           (VP*      -    -   -   -       *    (ARGM-MOD*)    -
+bn/abc/00/abc_0025   0    3      sell    VB           (VP*    sell  01   1   -       *           (V*)   (3)
+bn/abc/00/abc_0025   0    4        by    IN           (PP*      -    -   -   -       *    (ARGM-MNR*     -
+bn/abc/00/abc_0025   0    5      wire    NN          (NP*))   wire   -   2   -       *             *)    -
+bn/abc/00/abc_0025   0    6      Sony   NNP           (NP*      -    -   -   -    (ORG)       (ARG1*    (2)
+bn/abc/00/abc_0025   0    7     games   NNS              *    game   -   3   -       *             *     -
+bn/abc/00/abc_0025   0    8         ,     ,              *      -    -   -   -       *             *     -
+bn/abc/00/abc_0025   0    9     music    NN              *      -    -   -   -       *             *     -
+bn/abc/00/abc_0025   0   10       and    CC              *      -    -   -   -       *             *     -
+bn/abc/00/abc_0025   0   11    movies   NNS            *)))     -    -   -   -       *             *)    -
+bn/abc/00/abc_0025   0   12         .     .             *))     -    -   -   -       *             *     -
+
+bn/abc/00/abc_0025   0    0          So     RB   (TOP(S(ADVP*)         -    -   -   -   *    (ARGM-DIS*)    -
+bn/abc/00/abc_0025   0    1        this     DT           (NP*)         -    -   -   -   *        (ARG1*)   (3)
+bn/abc/00/abc_0025   0    2          is    VBZ           (VP*          be  01   1   -   *           (V*)    -
+bn/abc/00/abc_0025   0    3      really     RB         (ADVP*)         -    -   -   -   *    (ARGM-ADV*)    -
+bn/abc/00/abc_0025   0    4        kind     RB      (NP(ADVP*          -    -   -   -   *        (ARG2*     -
+bn/abc/00/abc_0025   0    5          of     RB              *)         -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    6       their   PRP$              *          -    -   -   -   *             *    (2)
+bn/abc/00/abc_0025   0    7        long     JJ          (NML*          -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    8          -    HYPH              *          -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0    9        term     NN              *)         -    -   -   -   *             *     -
+bn/abc/00/abc_0025   0   10    strategy     NN             *))   strategy   -   1   -   *             *)    -
+bn/abc/00/abc_0025   0   11           .      .             *))         -    -   -   -   *             *     -
+
+bn/abc/00/abc_0025   0    0         They   PRP   (TOP(S(NP*)         -    -   -   -   *    (ARG0*)   (2)
+bn/abc/00/abc_0025   0    1          see   VBP         (VP*         see  01   2   -   *       (V*)    -
+bn/abc/00/abc_0025   0    2         this    DT         (NP*)         -    -   -   -   *    (ARG1*    (3)
+bn/abc/00/abc_0025   0    3           as    IN         (PP*          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0    4            a    DT      (NP(NP*          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0    5     platform    NN            *)         -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0    6          for    IN         (PP*          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0    7          the    DT      (NP(NP*          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0    8      digital    JJ            *          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0    9     delivery    NN            *    delivery   -   1   -   *         *     -
+bn/abc/00/abc_0025   0   10      content    NN            *)    content   -   2   -   *         *     -
+bn/abc/00/abc_0025   0   11           to    IN         (PP*          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0   12    consumers   NNS      (NP(NP*          -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0   13            '   POS            *)         -    -   -   -   *         *     -
+bn/abc/00/abc_0025   0   14        homes   NNS      *)))))))       home   -   1   -   *         *)    -
+bn/abc/00/abc_0025   0   15            .     .           *))         -    -   -   -   *         *     -
+
+bn/abc/00/abc_0025   0    0             The     DT  (TOP(S(S(NP(NP(NP*        -    -   -   -            *        (ARG0*         *        *        *   -
+bn/abc/00/abc_0025   0    1         Babbage    NNP                   *        -    -   -   -         (ORG)            *         *        *        *   -
+bn/abc/00/abc_0025   0    2              's    POS                   *)       -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0    3           chain     NN                   *)    chain   -   4   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0    4              of     IN                (PP*        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0    5          1,000      CD                (NP*        -    -   -   -    (CARDINAL)            *         *        *        *   -
+bn/abc/00/abc_0025   0    6            game     NN                   *      game   -   5   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0    7          stores    NNS                 *)))    store   -   1   -            *             *)        *        *        *   -
+bn/abc/00/abc_0025   0    8            sold    VBD                (VP*      sell  03   1   -            *           (V*)        *        *        *   -
+bn/abc/00/abc_0025   0    9             out     RP               (PRT*)       -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   10         60,000      CD                (NP*        -    -   -   -    (CARDINAL)       (ARG1*         *        *        *   -
+bn/abc/00/abc_0025   0   11    PlayStations   NNPS                   *)       -    -   -   -     (PRODUCT)            *)        *        *        *   -
+bn/abc/00/abc_0025   0   12       overnight     RB            (ADVP*)))       -    -   -   -            *    (ARGM-TMP*)        *        *        *   -
+bn/abc/00/abc_0025   0   13               ,      ,                   *        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   14             and     CC                   *        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   15        everyone     NN           (S(NP(NP*)       -    -   -   -            *             *    (ARG0*)  (ARG1*        *   -
+bn/abc/00/abc_0025   0   16            sold    VBN                (VP*      sell  01   1   -            *             *       (V*)       *        *   -
+bn/abc/00/abc_0025   0   17             for     IN                (PP*        -    -   -   -            *             *    (ARG3*        *        *   -
+bn/abc/00/abc_0025   0   18               $      $                (NP*        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   19            300      CD                *))))       -    -   -   -       (MONEY)            *         *)       *)       *   -
+bn/abc/00/abc_0025   0   20              is    VBZ                (VP*        be  01   1   -            *             *         *      (V*)       *   -
+bn/abc/00/abc_0025   0   21               a     DT                (NP*        -    -   -   -            *             *         *   (ARG2*        *   -
+bn/abc/00/abc_0025   0   22          chance     NN                   *    chance   -   1   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   23              to     TO              (S(VP*        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   24             get     VB                (VP*       get  01   1   -            *             *         *        *      (V*)  -
+bn/abc/00/abc_0025   0   25              as     RB          (NP(NP(QP*        -    -   -   -      (MONEY*             *         *        *   (ARG1*   -
+bn/abc/00/abc_0025   0   26            much     JJ                   *        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   27              as     IN                   *        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   28               $      $                   *        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   29            200      CD                  *))       -    -   -   -            *)            *         *        *        *   -
+bn/abc/00/abc_0025   0   30            more    JJR                   *)       -    -   -   -            *             *         *        *        *)  -
+bn/abc/00/abc_0025   0   31            from     IN                (PP*        -    -   -   -            *             *         *        *   (ARG2*   -
+bn/abc/00/abc_0025   0   32            each     DT                (NP*        -    -   -   -            *             *         *        *        *   -
+bn/abc/00/abc_0025   0   33        customer     NN            *))))))))       -    -   -   -            *             *         *        *)       *)  -
+bn/abc/00/abc_0025   0   34               .      .                  *))       -    -   -   -            *             *         *        *        *   -
+
+bn/abc/00/abc_0025   0    0            There    EX   (TOP(S(NP*)     -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0    1               's   VBZ         (VP*      be   -   3   -   *        *   -
+bn/abc/00/abc_0025   0    2             lots   NNS      (NP(NP*     lot   -   1   -   *        *   -
+bn/abc/00/abc_0025   0    3              and    CC            *      -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0    4             lots   NNS            *)    lot   -   1   -   *        *   -
+bn/abc/00/abc_0025   0    5               of    IN         (PP*      -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0    6    opportunities   NNS         (NP*      -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0    7               to    TO       (S(VP*      -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0    8              add    VB         (VP*     add  02   1   -   *      (V*)  -
+bn/abc/00/abc_0025   0    9              new    JJ         (NP*      -    -   -   -   *   (ARG1*   -
+bn/abc/00/abc_0025   0   10      accessories   NNS            *      -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0   11              and    CC            *      -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0   12            games   NNS     *))))))))   game   -   3   -   *        *)  -
+bn/abc/00/abc_0025   0   13                .     .           *))     -    -   -   -   *        *   -
+
+bn/abc/00/abc_0025   0    0    Selling    NN   (TOP(S(S(NP*)      -    -   -   -       *             *             *    (4)
+bn/abc/00/abc_0025   0    1          ,     ,              *       -    -   -   -       *             *             *     -
+bn/abc/00/abc_0025   0    2       that    DT           (NP*)      -    -   -   -       *             *             *    (4)
+bn/abc/00/abc_0025   0    3         's   VBZ           (VP*       be   -   1   -       *             *             *     -
+bn/abc/00/abc_0025   0    4        the    DT        (NP(NP*       -    -   -   -       *             *             *     -
+bn/abc/00/abc_0025   0    5       real    JJ              *       -    -   -   -       *             *             *     -
+bn/abc/00/abc_0025   0    6       game    NN              *)    game   -   6   -       *             *             *     -
+bn/abc/00/abc_0025   0    7       here    RB      (ADVP*))))      -    -   -   -       *             *             *     -
+bn/abc/00/abc_0025   0    8          ,     ,              *       -    -   -   -       *             *             *     -
+bn/abc/00/abc_0025   0    9        and    CC              *       -    -   -   -       *             *             *     -
+bn/abc/00/abc_0025   0   10       Sony   NNP         (S(NP*)      -    -   -   -    (ORG)       (ARG1*)            *    (2)
+bn/abc/00/abc_0025   0   11       will    MD           (VP*       -    -   -   -       *    (ARGM-MOD*)            *     -
+bn/abc/00/abc_0025   0   12        not    RB              *       -    -   -   -       *    (ARGM-NEG*)            *     -
+bn/abc/00/abc_0025   0   13         be    VB           (VP*       be  01   1   -       *           (V*)            *     -
+bn/abc/00/abc_0025   0   14        the    DT           (NP*       -    -   -   -       *        (ARG2*             *     -
+bn/abc/00/abc_0025   0   15       only    JJ              *       -    -   -   -       *             *    (ARGM-ADJ*)    -
+bn/abc/00/abc_0025   0   16      entry    NN           *))))   entry  01   2   -       *             *)          (V*)    -
+bn/abc/00/abc_0025   0   17          .     .             *))      -    -   -   -       *             *             *     -
+
+bn/abc/00/abc_0025   0    0     Microsoft   NNP   (TOP(S(S(NP*)        -    -   -   -        (ORG)     *    (ARG0*)       *            *      *        *   -
+bn/abc/00/abc_0025   0    1            is   VBZ           (VP*         be  03   -   -           *    (V*)        *        *            *      *        *   -
+bn/abc/00/abc_0025   0    2    developing   VBG           (VP*    develop  02   1   -           *      *       (V*)       *            *      *        *   -
+bn/abc/00/abc_0025   0    3             a    DT        (NP(NP*         -    -   -   -           *      *    (ARG1*   (ARG1*            *      *        *   -
+bn/abc/00/abc_0025   0    4        system    NN              *)        -    -   -   -           *      *         *        *)           *      *        *   -
+bn/abc/00/abc_0025   0    5        called   VBN           (VP*       call  01   5   -           *      *         *      (V*)           *      *        *   -
+bn/abc/00/abc_0025   0    6           XIC   NNP         (S(NP*         -    -   -   -   (PRODUCT*      *         *   (ARG2*            *      *        *   -
+bn/abc/00/abc_0025   0    7           Box   NNP            *)))        -    -   -   -           *)     *         *        *)           *      *        *   -
+bn/abc/00/abc_0025   0    8           for    IN           (PP*         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0    9       release    NN        (NP(NP*)   release  01   2   -           *      *         *        *          (V*)     *        *   -
+bn/abc/00/abc_0025   0   10          next    JJ           (NP*         -    -   -   -      (DATE*      *         *        *   (ARGM-TMP*      *        *   -
+bn/abc/00/abc_0025   0   11          year    NN        *)))))))        -    -   -   -           *)     *         *)       *            *)     *        *   -
+bn/abc/00/abc_0025   0   12             ,     ,              *         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   13           and    CC              *         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   14      Nintendo   NNP      (S(NP(NP*)        -    -   -   -        (ORG)     *         *        *            *      *   (ARG0*   -
+bn/abc/00/abc_0025   0   15             ,     ,              *         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   16          once    RB     (RRC(ADVP*)        -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   17             a    DT           (NP*         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   18      dominant    JJ              *         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   19        player    NN            *)))    player   -   3   -           *      *         *        *            *      *        *)  -
+bn/abc/00/abc_0025   0   20             ,     ,              *         -    -   -   -           *      *         *        *            *      *        *   -
+bn/abc/00/abc_0025   0   21            is   VBZ           (VP*         be  03   -   -           *      *         *        *            *    (V*)       *   -
+bn/abc/00/abc_0025   0   22      plotting   VBG           (VP*       plot  01   1   -           *      *         *        *            *      *      (V*)  -
+bn/abc/00/abc_0025   0   23             a    DT           (NP*         -    -   -   -           *      *         *        *            *      *   (ARG1*   -
+bn/abc/00/abc_0025   0   24      comeback    NN           *))))        -    -   -   -           *      *         *        *            *      *        *)  -
+bn/abc/00/abc_0025   0   25             .     .             *))        -    -   -   -           *      *         *        *            *      *        *   -
+
+bn/abc/00/abc_0025   0   0          The     DT  (TOP(S(NP*           -    -   -   -   *   (ARG0*   -
+bn/abc/00/abc_0025   0   1      winners    NNS           *)          -    -   -   -   *        *)  -
+bn/abc/00/abc_0025   0   2          get    VBP        (VP*          get  01   1   -   *      (V*)  -
+bn/abc/00/abc_0025   0   3         your   PRP$     (NP(NP*           -    -   -   -   *   (ARG1*   -
+bn/abc/00/abc_0025   0   4    attention     NN           *)   attention   -   3   -   *        *   -
+bn/abc/00/abc_0025   0   5            ,      ,           *           -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0   6          and     CC           *           -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0   7         your   PRP$        (NP*           -    -   -   -   *        *   -
+bn/abc/00/abc_0025   0   8        money     NN         *)))       money   -   2   -   *        *)  -
+bn/abc/00/abc_0025   0   9            .      .          *))          -    -   -   -   *        *   -
+
+bn/abc/00/abc_0025   0   0      Brian   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*   (1
+bn/abc/00/abc_0025   0   1     Rooney   NNP              *)  -   -   -   -          *)   1)
+bn/abc/00/abc_0025   0   2          ,     ,              *   -   -   -   -          *    -
+bn/abc/00/abc_0025   0   3        ABC   NNP           (NP*   -   -   -   -      (ORG*   (7
+bn/abc/00/abc_0025   0   4       News   NNP              *)  -   -   -   -          *)   7)
+bn/abc/00/abc_0025   0   5          ,     ,              *   -   -   -   -          *    -
+bn/abc/00/abc_0025   0   6        Los   NNP           (NP*   -   -   -   -      (GPE*    -
+bn/abc/00/abc_0025   0   7    Angeles   NNP              *)  -   -   -   -          *)   -
+bn/abc/00/abc_0025   0   8          .     .             *))  -   -   -   -          *    -
+
+#end document

@@ -1,0 +1,45 @@
+#begin document (bn/abc/00/abc_0054); part 000
+bn/abc/00/abc_0054   0   0     Some   DT   (TOP(NP(NP*)      -   -   -   -        *   -
+bn/abc/00/abc_0054   0   1       of   IN          (PP*       -   -   -   -        *   -
+bn/abc/00/abc_0054   0   2      the   DT       (NP(NP*       -   -   -   -        *   -
+bn/abc/00/abc_0054   0   3    other   JJ             *       -   -   -   -        *   -
+bn/abc/00/abc_0054   0   4     news   NN             *)    news  -   1   -        *   -
+bn/abc/00/abc_0054   0   5    today   NN        (NP*)))   today  -   2   -    (DATE)  -
+bn/abc/00/abc_0054   0   6      --     .            *))      -   -   -   -        *   -
+
+bn/abc/00/abc_0054   0    0             In    IN  (TOP(S(PP*      -    -   -   -          *    (ARGM-LOC*   (ARGM-LOC*   -
+bn/abc/00/abc_0054   0    1     Washington   NNP       (NP*))     -    -   -   -       (GPE)            *)           *)  -
+bn/abc/00/abc_0054   0    2              ,     ,           *      -    -   -   -          *             *            *   -
+bn/abc/00/abc_0054   0    3        Israeli    JJ   (NP(ADJP*      -    -   -   -      (NORP)       (ARG0*       (ARG1*   -
+bn/abc/00/abc_0054   0    4            and    CC           *      -    -   -   -          *             *            *   -
+bn/abc/00/abc_0054   0    5    Palestinian    JJ           *)     -    -   -   -      (NORP)            *            *   -
+bn/abc/00/abc_0054   0    6    negotiators   NNS           *)     -    -   -   -          *             *)           *)  -
+bn/abc/00/abc_0054   0    7            met   VBD     (VP(VP*    meet  03   2   -          *           (V*)           *   -
+bn/abc/00/abc_0054   0    8          again    RB      (ADVP*)     -    -   -   -          *    (ARGM-ADV*)           *   -
+bn/abc/00/abc_0054   0    9           with    IN        (PP*      -    -   -   -          *        (ARG1*            *   -
+bn/abc/00/abc_0054   0   10      President   NNP        (NP*      -    -   -   -          *             *            *   -
+bn/abc/00/abc_0054   0   11        Clinton   NNP         *)))     -    -   -   -    (PERSON)            *)           *   -
+bn/abc/00/abc_0054   0   12            and    CC           *      -    -   -   -          *             *            *   -
+bn/abc/00/abc_0054   0   13           were   VBD        (VP*      be  01   1   -          *             *          (V*)  -
+bn/abc/00/abc_0054   0   14       slightly    RB      (ADJP*      -    -   -   -          *             *       (ARG2*   -
+bn/abc/00/abc_0054   0   15     optimistic    JJ         *)))     -    -   -   -          *             *            *)  -
+bn/abc/00/abc_0054   0   16              .     .          *))     -    -   -   -          *             *            *   -
+
+bn/abc/00/abc_0054   0    0            The    DT       (TOP(S(NP*          -    -   -   -        *   (ARG0*        *        *   -
+bn/abc/00/abc_0054   0    1    Palestinian    JJ                *          -    -   -   -    (NORP)       *        *        *   -
+bn/abc/00/abc_0054   0    2     negotiator    NN                *)         -    -   -   -        *        *)       *        *   -
+bn/abc/00/abc_0054   0    3           said   VBD             (VP*         say  01   1   -        *      (V*)       *        *   -
+bn/abc/00/abc_0054   0    4          there    EX      (SBAR(S(NP*)         -    -   -   -        *   (ARG1*        *        *   -
+bn/abc/00/abc_0054   0    5            was   VBD             (VP*          be  02   5   -        *        *      (V*)       *   -
+bn/abc/00/abc_0054   0    6           some    DT          (NP(NP*          -    -   -   -        *        *   (ARG1*        *   -
+bn/abc/00/abc_0054   0    7       progress    NN                *)   progress  01   3   -        *        *        *      (V*)  -
+bn/abc/00/abc_0054   0    8             on    IN             (PP*          -    -   -   -        *        *        *   (ARG4*   -
+bn/abc/00/abc_0054   0    9    Palestinian    JJ          (NP(NP*          -    -   -   -    (NORP)       *        *        *   -
+bn/abc/00/abc_0054   0   10    sovereignty    NN                *)         -    -   -   -        *        *        *        *   -
+bn/abc/00/abc_0054   0   11           over    IN             (PP*          -    -   -   -        *        *        *        *   -
+bn/abc/00/abc_0054   0   12           part    NN          (NP(NP*)       part   -   1   -        *        *        *        *   -
+bn/abc/00/abc_0054   0   13             of    IN             (PP*          -    -   -   -        *        *        *        *   -
+bn/abc/00/abc_0054   0   14      Jerusalem   NNP   (NP*)))))))))))         -    -   -   -     (GPE)       *)       *)       *)  -
+bn/abc/00/abc_0054   0   15              .     .               *))         -    -   -   -        *        *        *        *   -
+
+#end document

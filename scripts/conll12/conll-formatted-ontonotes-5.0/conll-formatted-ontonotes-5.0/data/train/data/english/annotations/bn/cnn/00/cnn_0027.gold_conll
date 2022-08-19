@@ -1,0 +1,71 @@
+#begin document (bn/cnn/00/cnn_0027); part 000
+bn/cnn/00/cnn_0027   0    0         Analysts   NNS  (TOP(S(NP(NP(NP(NP*    analyst   -   1   -        *      *   (ARG0*             *     -
+bn/cnn/00/cnn_0027   0    1                '   POS                   *))        -    -   -   -        *      *        *             *     -
+bn/cnn/00/cnn_0027   0    2       downgrades   NNS                    *)        -    -   -   -        *      *        *             *     -
+bn/cnn/00/cnn_0027   0    3               in    IN                 (PP*         -    -   -   -        *      *        *             *     -
+bn/cnn/00/cnn_0027   0    4              the    DT                 (NP*         -    -   -   -        *      *        *             *     -
+bn/cnn/00/cnn_0027   0    5    semiconductor    NN                    *         -    -   -   -        *      *        *             *     -
+bn/cnn/00/cnn_0027   0    6           sector    NN                  *)))    sector   -   2   -        *      *        *)            *     -
+bn/cnn/00/cnn_0027   0    7             have   VBP                 (VP*       have  01   -   -        *    (V*)       *             *     -
+bn/cnn/00/cnn_0027   0    8             sent   VBN                 (VP*       send  02   3   -        *      *      (V*)            *    (1)
+bn/cnn/00/cnn_0027   0    9        chipmaker    NN                 (NP*         -    -   -   -        *      *   (ARG1*        (ARG1*     -
+bn/cnn/00/cnn_0027   0   10           stocks   NNS                    *)     stock   -   1   -        *      *        *)            *)    -
+bn/cnn/00/cnn_0027   0   11         plunging   VBG               (S(VP*     plunge  01   2   -        *      *   (ARG2*           (V*)    -
+bn/cnn/00/cnn_0027   0   12            today    NN             (NP*)))))     today   -   2   -    (DATE)     *        *)   (ARGM-TMP*)    -
+bn/cnn/00/cnn_0027   0   13                .     .                   *))        -    -   -   -        *      *        *             *     -
+
+bn/cnn/00/cnn_0027   0    0          That     DT   (TOP(S(NP*)          -    -   -   -       *      *        (ARG0*)        *    (1)
+bn/cnn/00/cnn_0027   0    1            is    VBZ         (VP*           be  03   -   -       *    (V*)            *         *     -
+bn/cnn/00/cnn_0027   0    2           n't     RB            *           -    -   -   -       *      *    (ARGM-NEG*)        *     -
+bn/cnn/00/cnn_0027   0    3       keeping    VBG         (VP*         keep  04   4   -       *      *           (V*)        *     -
+bn/cnn/00/cnn_0027   0    4           IBM    NNP         (NP*)          -    -   -   -    (ORG)     *        (ARG1*)   (ARG0*)   (0)
+bn/cnn/00/cnn_0027   0    5          from     IN         (PP*           -    -   -   -       *      *        (ARG2*         *     -
+bn/cnn/00/cnn_0027   0    6     expanding    VBG       (S(VP*       expand  01   1   -       *      *             *       (V*)    -
+bn/cnn/00/cnn_0027   0    7           its   PRP$         (NP*           -    -   -   -       *      *             *    (ARG1*    (0)
+bn/cnn/00/cnn_0027   0    8          chip     NN            *         chip   -   2   -       *      *             *         *     -
+bn/cnn/00/cnn_0027   0    9    operations    NNS       *))))))   operation   -   4   -       *      *             *)        *)    -
+bn/cnn/00/cnn_0027   0   10             .      .           *))          -    -   -   -       *      *             *         *     -
+
+bn/cnn/00/cnn_0027   0    0               It   PRP    (TOP(S(NP*)       -    -   -   -            *       (ARG0*)      (ARG0*)   (0)
+bn/cnn/00/cnn_0027   0    1               's   VBZ          (VP*        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0    2        investing   VBG          (VP*    invest  01   1   -            *          (V*)           *     -
+bn/cnn/00/cnn_0027   0    3                $     $       (NP(QP*        -    -   -   -      (MONEY*       (ARG1*            *     -
+bn/cnn/00/cnn_0027   0    4             2.5     CD             *        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0    5          million    CD            *))       -    -   -   -            *)           *)           *     -
+bn/cnn/00/cnn_0027   0    6               to    TO        (S(VP*        -    -   -   -            *   (ARGM-PRP*            *     -
+bn/cnn/00/cnn_0027   0    7            build    VB          (VP*     build  01   1   -            *            *          (V*)    -
+bn/cnn/00/cnn_0027   0    8               an    DT          (NP*        -    -   -   -            *            *       (ARG1*     -
+bn/cnn/00/cnn_0027   0    9         advanced    JJ             *        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   10    semiconductor    NN             *        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   11             plan    NN             *)     plan   -   5   -            *            *            *)    -
+bn/cnn/00/cnn_0027   0   12                ,     ,             *        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   13            about    RB  (ADVP(NP(QP*        -    -   -   -   (QUANTITY*            *   (ARGM-LOC*     -
+bn/cnn/00/cnn_0027   0   14              60     CD             *)       -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   15            miles   NNS             *)       -    -   -   -            *)           *            *     -
+bn/cnn/00/cnn_0027   0   16            north    RB             *        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   17               of    IN          (PP*        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   18              New   NNP          (NP*        -    -   -   -        (GPE*            *            *     -
+bn/cnn/00/cnn_0027   0   19             York   NNP             *        -    -   -   -            *            *            *     -
+bn/cnn/00/cnn_0027   0   20             City   NNP      *))))))))       -    -   -   -            *)           *)           *)    -
+bn/cnn/00/cnn_0027   0   21                .     .            *))       -    -   -   -            *            *            *     -
+
+bn/cnn/00/cnn_0027   0    0              An    DT  (TOP(S(NP*             -    -    -   -         *        (ARG1*            *     -
+bn/cnn/00/cnn_0027   0    1      additional    JJ           *             -    -    -   -         *             *            *     -
+bn/cnn/00/cnn_0027   0    2               $     $        (QP*             -    -    -   -   (MONEY*             *            *     -
+bn/cnn/00/cnn_0027   0    3            2.5     CD           *             -    -    -   -         *             *            *     -
+bn/cnn/00/cnn_0027   0    4         billion    CD          *))            -    -    -   -         *)            *)           *     -
+bn/cnn/00/cnn_0027   0    5            will    MD        (VP*             -    -    -   -         *    (ARGM-MOD*)           *     -
+bn/cnn/00/cnn_0027   0    6              go    VB        (VP*             go  10   13   -         *           (V*)           *     -
+bn/cnn/00/cnn_0027   0    7          toward    IN        (PP*             -    -    -   -         *        (ARG2*            *     -
+bn/cnn/00/cnn_0027   0    8    improvements   NNS     (NP(NP*)   improvement  01    1   -         *             *          (V*)    -
+bn/cnn/00/cnn_0027   0    9              at    IN        (PP*             -    -    -   -         *             *   (ARGM-LOC*     -
+bn/cnn/00/cnn_0027   0   10             IBM   NNP     (NP(NP*             -    -    -   -      (ORG)            *            *    (0)
+bn/cnn/00/cnn_0027   0   11            chip    NN           *           chip   -    2   -         *             *            *     -
+bn/cnn/00/cnn_0027   0   12          plants   NNS           *)         plant   -    1   -         *             *            *     -
+bn/cnn/00/cnn_0027   0   13              in    IN        (PP*             -    -    -   -         *             *            *     -
+bn/cnn/00/cnn_0027   0   14         Vermont   NNP        (NP*             -    -    -   -      (GPE)            *            *     -
+bn/cnn/00/cnn_0027   0   15             and    CC           *             -    -    -   -         *             *            *     -
+bn/cnn/00/cnn_0027   0   16           Japan   NNP    *))))))))            -    -    -   -      (GPE)            *)           *)    -
+bn/cnn/00/cnn_0027   0   17               .     .          *))            -    -    -   -         *             *            *     -
+
+#end document

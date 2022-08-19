@@ -1,0 +1,734 @@
+#begin document (nw/wsj/07/wsj_0767); part 000
+nw/wsj/07/wsj_0767   0    0               The     DT    (TOP(S(NP*          -    -   -   -   (ORG*   (ARG0*        *        *   (ARG0*   -
+nw/wsj/07/wsj_0767   0    1           Federal    NNP             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0    2    Communications   NNPS             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0    3        Commission    NNP             *)         -    -   -   -       *)       *)       *        *        *)  -
+nw/wsj/07/wsj_0767   0    4           allowed    VBD       (VP(VP*       allow  01   -   -       *      (V*)       *        *        *   -
+nw/wsj/07/wsj_0767   0    5          American    NNP        (S(NP*          -    -   -   -   (ORG*   (ARG1*   (ARG0*   (ARG0*        *   -
+nw/wsj/07/wsj_0767   0    6         Telephone    NNP             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0    7                 &     CC             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0    8         Telegraph    NNP             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0    9               Co.    NNP             *)         -    -   -   -       *)       *        *)       *)       *   -
+nw/wsj/07/wsj_0767   0   10                to     TO          (VP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   11          continue     VB          (VP*    continue  01   -   -       *        *      (V*)       *        *   -
+nw/wsj/07/wsj_0767   0   12          offering    VBG        (S(VP*       offer  01   -   -       *        *   (ARG1*      (V*)       *   -
+nw/wsj/07/wsj_0767   0   13          discount     NN       (NP(NP*          -    -   -   -       *        *        *   (ARG1*        *   -
+nw/wsj/07/wsj_0767   0   14             phone     NN             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   15          services    NNS             *)         -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   16               for     IN          (PP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   17             large     JJ      (NP(NML*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   18                -    HYPH             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   19          business     NN             *)         -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   20         customers    NNS     *)))))))))         -    -   -   -       *        *)       *)       *)       *   -
+nw/wsj/07/wsj_0767   0   21               and     CC             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   22              said    VBD          (VP*         say  01   -   -       *        *        *        *      (V*)  -
+nw/wsj/07/wsj_0767   0   23                it    PRP   (SBAR(S(NP*)         -    -   -   -       *        *        *        *   (ARG1*   -
+nw/wsj/07/wsj_0767   0   24             would     MD          (VP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   25              soon     RB        (ADVP*)         -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   26        re-examine     VB          (VP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   27               its   PRP$       (NP(NP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   28        regulation     NN             *)         -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   29                of     IN          (PP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   30               the     DT          (NP*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   31              long     JJ         (NML*          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   32                -    HYPH             *          -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   33          distance     NN             *)         -    -   -   -       *        *        *        *        *   -
+nw/wsj/07/wsj_0767   0   34            market     NN     *)))))))))         -    -   -   -       *        *        *        *        *)  -
+nw/wsj/07/wsj_0767   0   35                 .      .            *))         -    -   -   -       *        *        *        *        *   -
+
+nw/wsj/07/wsj_0767   0    0           The    DT    (TOP(S(NP*        -    -   -   -       *       (ARG1*            *   -
+nw/wsj/07/wsj_0767   0    1           FCC   NNP             *        -    -   -   -    (ORG)           *            *   -
+nw/wsj/07/wsj_0767   0    2         moves   NNS             *)       -    -   -   -       *            *)           *   -
+nw/wsj/07/wsj_0767   0    3          were   VBD          (VP*        be  01   -   -       *          (V*)           *   -
+nw/wsj/07/wsj_0767   0    4          good    JJ          (NP*        -    -   -   -       *       (ARG2*            *   -
+nw/wsj/07/wsj_0767   0    5          news    NN             *)       -    -   -   -       *            *)           *   -
+nw/wsj/07/wsj_0767   0    6           for    IN          (PP*        -    -   -   -       *   (ARGM-GOL*            *   -
+nw/wsj/07/wsj_0767   0    7          AT&T   NNP       (NP(NP*)       -    -   -   -    (ORG)           *       (ARG0*)  -
+nw/wsj/07/wsj_0767   0    8             ,     ,             *        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0    9         which   WDT   (SBAR(WHNP*)       -    -   -   -       *            *     (R-ARG0*)  -
+nw/wsj/07/wsj_0767   0   10           has   VBZ        (S(VP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   11          been   VBN          (VP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   12      striving   VBG          (VP*    strive  01   1   -       *            *          (V*)  -
+nw/wsj/07/wsj_0767   0   13         since    IN          (PP*        -    -   -   -       *            *   (ARGM-TMP*   -
+nw/wsj/07/wsj_0767   0   14           the    DT       (NP(NP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   15       breakup    NN             *)       -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   16            of    IN          (PP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   17           the    DT          (NP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   18         phone    NN             *        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   19        system    NN          *))))       -    -   -   -       *            *            *)  -
+nw/wsj/07/wsj_0767   0   20           for    IN          (PP*        -    -   -   -       *            *       (ARG1*   -
+nw/wsj/07/wsj_0767   0   21       greater   JJR    (NP(NP(NP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   22      latitude    NN             *)       -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   23            in    IN          (PP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   24       pricing    NN        (NP*)))    price   -   1   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   25           and    CC             *        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   26       reduced    JJ          (NP*        -    -   -   -       *            *            *   -
+nw/wsj/07/wsj_0767   0   27    regulation    NN   *)))))))))))       -    -   -   -       *            *)           *)  -
+nw/wsj/07/wsj_0767   0   28             .     .            *))       -    -   -   -       *            *            *   -
+
+nw/wsj/07/wsj_0767   0    0                Alfred    NNP  (TOP(S(NP(NP*          -    -   -   -   (PERSON*       (ARG0*   -
+nw/wsj/07/wsj_0767   0    1                 Sikes    NNP              *)         -    -   -   -          *)           *   -
+nw/wsj/07/wsj_0767   0    2                     ,      ,              *          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0    3                   the     DT           (NP*          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0    4                   new     JJ              *          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0    5                   FCC    NNP              *          -    -   -   -       (ORG)           *   -
+nw/wsj/07/wsj_0767   0    6              chairman     NN              *)         -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0    7                     ,      ,              *)         -    -   -   -          *            *)  -
+nw/wsj/07/wsj_0767   0    8            championed    VBD           (VP*    champion  01   -   -          *          (V*)  -
+nw/wsj/07/wsj_0767   0    9          deregulation     NN        (NP(NP*)         -    -   -   -          *       (ARG1*   -
+nw/wsj/07/wsj_0767   0   10                    of     IN           (PP*          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   11                  AT&T    NNP         (NP*)))         -    -   -   -       (ORG)           *)  -
+nw/wsj/07/wsj_0767   0   12                    at     IN           (PP*          -    -   -   -          *   (ARGM-LOC*   -
+nw/wsj/07/wsj_0767   0   13                   his   PRP$        (NP(NP*          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   14                  last     JJ              *          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   15                   job     NN              *)         -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   16                    as     IN           (PP*          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   17                  head     NN        (NP(NP*)         -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   18                    of     IN           (PP*          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   19                     a     DT           (NP*          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   20              Commerce    NNP          (NML*          -    -   -   -      (ORG*            *   -
+nw/wsj/07/wsj_0767   0   21            Department    NNP              *)         -    -   -   -          *)           *   -
+nw/wsj/07/wsj_0767   0   22    telecommunications     NN              *          -    -   -   -          *            *   -
+nw/wsj/07/wsj_0767   0   23                agency     NN        *)))))))         -    -   -   -          *            *)  -
+nw/wsj/07/wsj_0767   0   24                     .      .             *))         -    -   -   -          *            *   -
+
+nw/wsj/07/wsj_0767   0    0                But    CC               (TOP(S*          -    -   -   -          *    (ARGM-DIS*)            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    1                 it   PRP              (NP(NP*))         -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0    2                has   VBZ                  (VP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0    3               been   VBN                  (VP*          be  01   -   -          *           (V*)            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    4                 an    DT                  (NP*          -    -   -   -          *        (ARG2*             *            *         *         *   -
+nw/wsj/07/wsj_0767   0    5               open    JJ                     *          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0    6           question    NN                     *)         -    -   -   -          *             *)            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    7            whether    IN                (SBAR*          -    -   -   -          *        (ARG1*             *            *         *         *   -
+nw/wsj/07/wsj_0767   0    8                Mr.   NNP             (S(NP(NP*          -    -   -   -          *             *        (ARG0*       (ARG0*         *         *   -
+nw/wsj/07/wsj_0767   0    9              Sikes   NNP                     *)         -    -   -   -    (PERSON)            *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   10                  ,     ,                     *          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   11                 an    DT                  (NP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   12    extraordinarily    RB                (ADJP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   13           cautious    JJ                     *)         -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   14                man    NN                     *)         -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   15                  ,     ,                     *)         -    -   -   -          *             *             *)           *)        *         *   -
+nw/wsj/07/wsj_0767   0   16              would    MD                  (VP*          -    -   -   -          *             *    (ARGM-MOD*)           *         *         *   -
+nw/wsj/07/wsj_0767   0   17           continue    VB                  (VP*    continue  01   -   -          *             *           (V*)           *         *         *   -
+nw/wsj/07/wsj_0767   0   18            pushing   VBG                (S(VP*        push  02   -   -          *             *        (ARG1*          (V*)        *         *   -
+nw/wsj/07/wsj_0767   0   19       deregulation    NN                  (NP*)         -    -   -   -          *             *             *       (ARG1*)        *         *   -
+nw/wsj/07/wsj_0767   0   20                 at    IN                  (PP*          -    -   -   -          *             *             *   (ARGM-LOC*         *         *   -
+nw/wsj/07/wsj_0767   0   21                the    DT                  (NP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   22                FCC   NNP                    *))         -    -   -   -       (ORG)            *             *            *)        *         *   -
+nw/wsj/07/wsj_0767   0   23                 in    IN                  (PP*          -    -   -   -          *             *             *   (ARGM-ADV*         *         *   -
+nw/wsj/07/wsj_0767   0   24                the    DT               (NP(NP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   25               face    NN                     *)         -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   26                 of    IN                  (PP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   27               what    WP           (SBAR(WHNP*)         -    -   -   -          *             *             *            *    (ARG1*)   (ARG1*)  -
+nw/wsj/07/wsj_0767   0   28                 is   VBZ                (S(VP*          be  01   -   -          *             *             *            *       (V*)        *   -
+nw/wsj/07/wsj_0767   0   29             likely    JJ                (ADJP*          -    -   -   -          *             *             *            *    (ARG2*         *   -
+nw/wsj/07/wsj_0767   0   30                 to    TO                (S(VP*          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   31                 be    VB                  (VP*          be  01   -   -          *             *             *            *         *       (V*)  -
+nw/wsj/07/wsj_0767   0   32              great    JJ                  (NP*          -    -   -   -          *             *             *            *         *    (ARG2*   -
+nw/wsj/07/wsj_0767   0   33          political    JJ                     *          -    -   -   -          *             *             *            *         *         *   -
+nw/wsj/07/wsj_0767   0   34           pressure    NN   *)))))))))))))))))))         -    -   -   -          *             *)            *)           *)        *)        *)  -
+nw/wsj/07/wsj_0767   0   35                  .     .                    *))         -    -   -   -          *             *             *            *         *         *   -
+
+nw/wsj/07/wsj_0767   0    0                    ``    ``  (TOP(SINV(S*        -    -   -   -          *         *         *   (ARG1*           *   -
+nw/wsj/07/wsj_0767   0    1                    It   PRP          (NP*)       -    -   -   -          *    (ARG0*)        *        *           *   -
+nw/wsj/07/wsj_0767   0    2                 means   VBZ          (VP*      mean  01   -   -          *       (V*)        *        *           *   -
+nw/wsj/07/wsj_0767   0    3                  that    IN        (SBAR*        -    -   -   -          *    (ARG1*         *        *           *   -
+nw/wsj/07/wsj_0767   0    4                 Sikes   NNP        (S(NP*)       -    -   -   -    (PERSON)        *    (ARG1*)       *           *   -
+nw/wsj/07/wsj_0767   0    5                    is   VBZ          (VP*        be  01   -   -          *         *       (V*)       *           *   -
+nw/wsj/07/wsj_0767   0    6               serious    JJ        (ADJP*        -    -   -   -          *         *    (ARG2*        *           *   -
+nw/wsj/07/wsj_0767   0    7                 about    IN          (PP*        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0    8                   the    DT       (NP(NP*        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0    9          deregulation    NN             *)       -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   10                    of    IN          (PP*        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   11                  long    JJ          (NP*        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   12              distance    NN     *)))))))))       -    -   -   -          *         *)        *)       *           *   -
+nw/wsj/07/wsj_0767   0   13                     ,     ,             *        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   14                    ''    ''             *)       -    -   -   -          *         *         *        *)          *   -
+nw/wsj/07/wsj_0767   0   15                  said   VBD          (VP*)      say  01   -   -          *         *         *      (V*)          *   -
+nw/wsj/07/wsj_0767   0   16                  Jack   NNP    (NP(NP(NP*        -    -   -   -   (PERSON*         *         *   (ARG0*      (ARG0*   -
+nw/wsj/07/wsj_0767   0   17               Grubman   NNP             *)       -    -   -   -          *)        *         *        *           *   -
+nw/wsj/07/wsj_0767   0   18                     ,     ,             *        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   19                     a    DT       (NP(NP*        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   20    telecommunications    NN             *        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   21               analyst    NN             *)       -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   22                    at    IN          (PP*        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   23           PaineWebber   NNP          (NP*        -    -   -   -      (ORG*         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   24                  Inc.   NNP          *))))       -    -   -   -          *)        *         *        *           *)  -
+nw/wsj/07/wsj_0767   0   25                     ,     ,             *        -    -   -   -          *         *         *        *           *   -
+nw/wsj/07/wsj_0767   0   26                   who    WP   (SBAR(WHNP*)       -    -   -   -          *         *         *        *    (R-ARG0*)  -
+nw/wsj/07/wsj_0767   0   27              attended   VBD        (S(VP*    attend  01   -   -          *         *         *        *         (V*)  -
+nw/wsj/07/wsj_0767   0   28                   the    DT          (NP*        -    -   -   -          *         *         *        *      (ARG1*   -
+nw/wsj/07/wsj_0767   0   29                   FCC   NNP             *        -    -   -   -       (ORG)        *         *        *           *   -
+nw/wsj/07/wsj_0767   0   30               meeting    NN         *)))))       -    -   -   -          *         *         *        *)          *)  -
+nw/wsj/07/wsj_0767   0   31                     .     .            *))       -    -   -   -          *         *         *        *           *   -
+
+nw/wsj/07/wsj_0767   0    0               ``      ``    (TOP(S*    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0    1              All     PDT       (NP*    -    -   -   -        *       (ARG1*             *   -
+nw/wsj/07/wsj_0767   0    2              the      DT          *    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0    3    commissioners     NNS          *)   -    -   -   -        *            *)            *   -
+nw/wsj/07/wsj_0767   0    4             were     VBD       (VP*    be  01   -   -        *          (V*)            *   -
+nw/wsj/07/wsj_0767   0    5               in      IN       (PP*    -    -   -   -        *       (ARG2*             *   -
+nw/wsj/07/wsj_0767   0    6          amazing      JJ       (NP*    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0    7        agreement      NN          *    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0    8           -LCB-   -LRB-       (PRN*    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0    9               to      TO     (S(VP*    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0   10       re-examine      VB       (VP*    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0   11       regulation      NN    (NP*))))   -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0   12           -RCB-   -RRB-         *)))   -    -   -   -        *            *)            *   -
+nw/wsj/07/wsj_0767   0   13              for      IN       (PP*    -    -   -   -        *   (ARGM-ADV*             *   -
+nw/wsj/07/wsj_0767   0   14             only      RB   (S(ADVP*)   -    -   -   -        *            *    (ARGM-ADV*)  -
+nw/wsj/07/wsj_0767   0   15           having     VBG       (VP*    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0   16             been     VBN       (VP*    be  01   -   -        *            *           (V*)  -
+nw/wsj/07/wsj_0767   0   17         together      RB     (ADVP*)   -    -   -   -        *            *        (ARG2*)  -
+nw/wsj/07/wsj_0767   0   18              for      IN       (PP*    -    -   -   -        *            *    (ARGM-TMP*   -
+nw/wsj/07/wsj_0767   0   19                a      DT       (NP*    -    -   -   -   (DATE*            *             *   -
+nw/wsj/07/wsj_0767   0   20              few      JJ          *    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0   21           months     NNS    *)))))))   -    -   -   -        *)           *)            *)  -
+nw/wsj/07/wsj_0767   0   22                .       .          *    -    -   -   -        *            *             *   -
+nw/wsj/07/wsj_0767   0   23               ''      ''         *))   -    -   -   -        *            *             *   -
+
+nw/wsj/07/wsj_0767   0   0          The    DT  (TOP(S(NP*      -    -   -   -            *   (ARG0*   -
+nw/wsj/07/wsj_0767   0   1          FCC   NNP           *)     -    -   -   -         (ORG)       *)  -
+nw/wsj/07/wsj_0767   0   2         took   VBD        (VP*    take  01   -   -            *      (V*)  -
+nw/wsj/07/wsj_0767   0   3        three    CD     (NP(NP*      -    -   -   -    (CARDINAL)  (ARG1*   -
+nw/wsj/07/wsj_0767   0   4     specific    JJ           *      -    -   -   -            *        *   -
+nw/wsj/07/wsj_0767   0   5      actions   NNS           *)     -    -   -   -            *        *   -
+nw/wsj/07/wsj_0767   0   6    regarding   VBG        (VP*      -    -   -   -            *        *   -
+nw/wsj/07/wsj_0767   0   7         AT&T   NNP     (NP*))))     -    -   -   -         (ORG)       *)  -
+nw/wsj/07/wsj_0767   0   8            .     .          *))     -    -   -   -            *        *   -
+
+nw/wsj/07/wsj_0767   0    0             By    IN      (TOP(S(PP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    1              a    DT            (NP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    2             4     CD       (NML(NML*)       -    -   -   -    (CARDINAL)         *        *         *         *   -
+nw/wsj/07/wsj_0767   0    3             -    SYM            (PP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    4             0     CD          (NP*)))       -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    5           vote    NN              *))     vote   -   4   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    6              ,     ,               *        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    7             it   PRP            (NP*)       -    -   -   -            *          *        *    (ARG0*)        *   -
+nw/wsj/07/wsj_0767   0    8        allowed   VBD            (VP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0    9           AT&T   NNP          (S(NP*)       -    -   -   -         (ORG)    (ARG0*)       *         *         *   -
+nw/wsj/07/wsj_0767   0   10             to    TO            (VP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   11       continue    VB            (VP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   12       offering   VBG          (S(VP*     offer  01   -   -            *        (V*)       *         *         *   -
+nw/wsj/07/wsj_0767   0   13        special    JJ         (NP(NP*        -    -   -   -            *     (ARG1*   (ARG1*         *         *   -
+nw/wsj/07/wsj_0767   0   14       discount    NN               *        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   15       packages   NNS              *))       -    -   -   -            *          *)       *)        *         *   -
+nw/wsj/07/wsj_0767   0   16             to    IN            (PP*        -    -   -   -            *     (ARG3*        *         *         *   -
+nw/wsj/07/wsj_0767   0   17            big    JJ            (NP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   18      customers   NNS              *))       -    -   -   -            *          *)       *         *         *   -
+nw/wsj/07/wsj_0767   0   19              ,     ,               *        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   20         called   VBN            (VP*      call  01   -   -            *   (C-ARG1*      (V*)        *         *   -
+nw/wsj/07/wsj_0767   0   21         Tariff    NN          (S(NP*        -    -   -   -        (LAW*          *   (ARG2*         *         *   -
+nw/wsj/07/wsj_0767   0   22            12     CD        *))))))))       -    -   -   -            *)         *)       *)        *         *   -
+nw/wsj/07/wsj_0767   0   23              ,     ,               *        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   24      rejecting   VBG          (S(VP*    reject  01   -   -            *          *        *       (V*)        *   -
+nw/wsj/07/wsj_0767   0   25        appeals   NNS      (NP(NP(NP*)       -    -   -   -            *          *        *    (ARG1*         *   -
+nw/wsj/07/wsj_0767   0   26             by    IN            (PP*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   27           AT&T   NNP            (NP*        -    -   -   -         (ORG)         *        *         *         *   -
+nw/wsj/07/wsj_0767   0   28    competitors   NNS             *)))       -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   29           that    IN          (SBAR*        -    -   -   -            *          *        *         *         *   -
+nw/wsj/07/wsj_0767   0   30            the    DT          (S(NP*        -    -   -   -            *          *        *         *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   31      discounts   NNS               *)       -    -   -   -            *          *        *         *         *)  -
+nw/wsj/07/wsj_0767   0   32           were   VBD            (VP*        be  01   -   -            *          *        *         *       (V*)  -
+nw/wsj/07/wsj_0767   0   33        illegal    JJ   (ADJP*))))))))       -    -   -   -            *          *        *         *)   (ARG2*)  -
+nw/wsj/07/wsj_0767   0   34              .     .              *))       -    -   -   -            *          *        *         *         *   -
+
+nw/wsj/07/wsj_0767   0    0         Then    RB   (TOP(S(ADVP*)       -    -   -   -            *    (ARGM-TMP*)        *        *           *   -
+nw/wsj/07/wsj_0767   0    1           by    IN           (PP*        -    -   -   -            *    (ARGM-MNR*         *        *           *   -
+nw/wsj/07/wsj_0767   0    2            a    DT           (NP*        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0    3     separate    JJ              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0    4           4     CD      (NML(NML*)       -    -   -   -    (CARDINAL)            *         *        *           *   -
+nw/wsj/07/wsj_0767   0    5           -    SYM           (PP*        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0    6           0     CD         (NP*)))       -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0    7         vote    NN             *))     vote   -   4   -            *             *)        *        *           *   -
+nw/wsj/07/wsj_0767   0    8            ,     ,              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0    9           it   PRP           (NP*)       -    -   -   -            *        (ARG0*)   (ARG0*)       *           *   -
+nw/wsj/07/wsj_0767   0   10        chose   VBD           (VP*    choose  01   -   -            *           (V*)        *        *           *   -
+nw/wsj/07/wsj_0767   0   11          the    DT        (NP(NP*        -    -   -   -            *        (ARG1*    (ARG2*        *           *   -
+nw/wsj/07/wsj_0767   0   12    narrowest   JJS              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   13     possible    JJ              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   14      grounds   NNS              *)       -    -   -   -            *             *         *)       *           *   -
+nw/wsj/07/wsj_0767   0   15           to    TO    (SBAR(S(VP*        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   16       strike    VB           (VP*    strike  08   -   -            *             *       (V*)       *           *   -
+nw/wsj/07/wsj_0767   0   17         down    RP          (PRT*)       -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   18            a    DT     (NP(NP(NP*        -    -   -   -            *             *    (ARG1*   (ARG1*      (ARG1*   -
+nw/wsj/07/wsj_0767   0   19    different    JJ              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   20     discount    NN              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   21         plan    NN              *)       -    -   -   -            *             *         *        *)          *   -
+nw/wsj/07/wsj_0767   0   22            ,     ,              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   23       called    VB           (VP*      call  01   -   -            *             *         *      (V*)          *   -
+nw/wsj/07/wsj_0767   0   24       Tariff    NN         (S(NP*        -    -   -   -        (LAW*             *         *   (ARG2*           *   -
+nw/wsj/07/wsj_0767   0   25          15    VBN           *))))       -    -   -   -            *)            *         *        *)          *)  -
+nw/wsj/07/wsj_0767   0   26            ,     ,              *        -    -   -   -            *             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   27         that   WDT    (SBAR(WHNP*)       -    -   -   -            *             *         *        *    (R-ARG1*)  -
+nw/wsj/07/wsj_0767   0   28         AT&T   NNP         (S(NP*)       -    -   -   -         (ORG)            *         *        *      (ARG0*)  -
+nw/wsj/07/wsj_0767   0   29      offered   VBD           (VP*     offer  01   -   -            *             *         *        *         (V*)  -
+nw/wsj/07/wsj_0767   0   30           to    IN           (PP*        -    -   -   -            *             *         *        *      (ARG3*   -
+nw/wsj/07/wsj_0767   0   31      Holiday   NNP           (NP*        -    -   -   -        (ORG*             *         *        *           *   -
+nw/wsj/07/wsj_0767   0   32         Corp   NNP   *))))))))))))       -    -   -   -            *)            *)        *)       *           *)  -
+nw/wsj/07/wsj_0767   0   33            .     .             *))       -    -   -   -            *             *         *        *           *   -
+
+nw/wsj/07/wsj_0767   0    0              AT&T    NNP    (TOP(S(NP*)        -    -   -   -        (ORG)      (ARG0*)          *        *   -
+nw/wsj/07/wsj_0767   0    1              gave    VBD          (VP*       give  01   -   -           *          (V*)          *        *   -
+nw/wsj/07/wsj_0767   0    2                 a     DT          (NP*         -    -   -   -           *       (ARG1*           *        *   -
+nw/wsj/07/wsj_0767   0    3                5      CD      (NML(QP*         -    -   -   -   (PERCENT*            *           *        *   -
+nw/wsj/07/wsj_0767   0    4                 %     NN             *         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0    5                to     TO             *         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0    6               10      CD             *)        -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0    7                 %     NN             *)        -    -   -   -           *)           *           *        *   -
+nw/wsj/07/wsj_0767   0    8          discount     NN             *)        -    -   -   -           *            *)          *        *   -
+nw/wsj/07/wsj_0767   0    9                to     IN          (PP*         -    -   -   -           *       (ARG2*           *        *   -
+nw/wsj/07/wsj_0767   0   10               the     DT       (NP(NP*         -    -   -   -           *            *      (ARG0*        *   -
+nw/wsj/07/wsj_0767   0   11           Memphis    NNP         (NML*         -    -   -   -        (GPE)           *           *        *   -
+nw/wsj/07/wsj_0767   0   12                 ,      ,             *         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   13             Tenn.    NNP             *         -    -   -   -        (GPE)           *           *        *   -
+nw/wsj/07/wsj_0767   0   14                 ,      ,             *)        -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   15           company     NN             *)        -    -   -   -           *            *           *)       *   -
+nw/wsj/07/wsj_0767   0   16              that    WDT   (SBAR(WHNP*)        -    -   -   -           *            *    (R-ARG0*)       *   -
+nw/wsj/07/wsj_0767   0   17          oversees    VBZ        (S(VP*    oversee  01   1   -           *            *         (V*)       *   -
+nw/wsj/07/wsj_0767   0   18           Holiday    NNP          (NP*         -    -   -   -       (ORG*            *      (ARG1*        *   -
+nw/wsj/07/wsj_0767   0   19              Inns   NNPS        *))))))        -    -   -   -           *)           *)          *)       *   -
+nw/wsj/07/wsj_0767   0   20                 ,      ,             *         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   21                in     IN          (PP*         -    -   -   -           *   (ARGM-CAU*           *        *   -
+nw/wsj/07/wsj_0767   0   22          response     NN       (NP(NP*)        -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   23                to     IN          (PP*         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   24                 a     DT       (NP(NP*         -    -   -   -           *            *           *   (ARG1*   -
+nw/wsj/07/wsj_0767   0   25           similar     JJ             *         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   26          discount     NN             *)        -    -   -   -           *            *           *        *)  -
+nw/wsj/07/wsj_0767   0   27           offered    VBD          (VP*      offer  01   -   -           *            *           *      (V*)  -
+nw/wsj/07/wsj_0767   0   28                to     IN          (PP*         -    -   -   -           *            *           *   (ARG3*   -
+nw/wsj/07/wsj_0767   0   29           Holiday    NNP          (NP*         -    -   -   -       (ORG*            *           *        *   -
+nw/wsj/07/wsj_0767   0   30             Corp.    NNP            *))        -    -   -   -           *)           *           *        *)  -
+nw/wsj/07/wsj_0767   0   31                by     IN          (PP*         -    -   -   -           *            *           *   (ARG0*   -
+nw/wsj/07/wsj_0767   0   32               MCI    NNP          (NP*         -    -   -   -       (ORG*            *           *        *   -
+nw/wsj/07/wsj_0767   0   33    Communications   NNPS             *         -    -   -   -           *            *           *        *   -
+nw/wsj/07/wsj_0767   0   34              Corp    NNP      *))))))))        -    -   -   -           *)           *)          *        *)  -
+nw/wsj/07/wsj_0767   0   35                 .      .            *))        -    -   -   -           *            *           *        *   -
+
+nw/wsj/07/wsj_0767   0    0         The     DT  (TOP(S(NP*          -    -   -   -       *   (ARG0*        *             *         *   -
+nw/wsj/07/wsj_0767   0    1      agency     NN           *)         -    -   -   -       *        *)       *             *         *   -
+nw/wsj/07/wsj_0767   0    2        said    VBD        (VP*         say  01   -   -       *      (V*)       *             *         *   -
+nw/wsj/07/wsj_0767   0    3        that     IN      (SBAR*          -    -   -   -       *   (ARG1*        *             *         *   -
+nw/wsj/07/wsj_0767   0    4     because     IN    (S(SBAR*          -    -   -   -       *        *        *    (ARGM-CAU*         *   -
+nw/wsj/07/wsj_0767   0    5         MCI    NNP   (S(NP(NP*          -    -   -   -    (ORG)       *   (ARG1*             *         *   -
+nw/wsj/07/wsj_0767   0    6          's    POS           *)         -    -   -   -       *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    7       offer     NN           *)         -    -   -   -       *        *        *)            *         *   -
+nw/wsj/07/wsj_0767   0    8         had    VBD        (VP*          -    -   -   -       *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    9     expired    VBN     (VP*))))     expire  01   1   -       *        *      (V*)            *)        *   -
+nw/wsj/07/wsj_0767   0   10        AT&T    NNP        (NP*)         -    -   -   -    (ORG)       *        *        (ARG0*)   (ARG0*)  -
+nw/wsj/07/wsj_0767   0   11       could     MD        (VP*          -    -   -   -       *        *        *    (ARGM-MOD*)        *   -
+nw/wsj/07/wsj_0767   0   12         n't     RB           *          -    -   -   -       *        *        *    (ARGM-NEG*)        *   -
+nw/wsj/07/wsj_0767   0   13    continue     VB        (VP*    continue  01   -   -       *        *        *           (V*)        *   -
+nw/wsj/07/wsj_0767   0   14          to     TO      (S(VP*          -    -   -   -       *        *        *        (ARG1*         *   -
+nw/wsj/07/wsj_0767   0   15       offer     VB        (VP*       offer  01   -   -       *        *        *             *       (V*)  -
+nw/wsj/07/wsj_0767   0   16         its   PRP$        (NP*          -    -   -   -       *        *        *             *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   17    discount     NN           *          -    -   -   -       *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0   18        plan     NN   *)))))))))         -    -   -   -       *        *)       *             *)        *)  -
+nw/wsj/07/wsj_0767   0   19           .      .          *))         -    -   -   -       *        *        *             *         *   -
+
+nw/wsj/07/wsj_0767   0    0             But    CC          (TOP(S*       -    -   -   -       *    (ARGM-DIS*)           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    1             the    DT             (NP*       -    -   -   -       *        (ARG0*            *         *         *         *   -
+nw/wsj/07/wsj_0767   0    2          agency    NN                *)      -    -   -   -       *             *)           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    3    specifically    RB           (ADVP*)      -    -   -   -       *    (ARGM-ADV*)           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    4             did   VBD             (VP*       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0    5             n't    RB                *       -    -   -   -       *    (ARGM-NEG*)           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    6            rule    VB             (VP*     rule  01   -   -       *           (V*)           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    7         whether    IN           (SBAR*       -    -   -   -       *        (ARG1*            *         *         *         *   -
+nw/wsj/07/wsj_0767   0    8            AT&T   NNP           (S(NP*)      -    -   -   -    (ORG)            *       (ARG0*)   (ARG0*)        *    (ARG0*)  -
+nw/wsj/07/wsj_0767   0    9             had   VBD             (VP*     have  03   -   -       *             *          (V*)        *         *         *   -
+nw/wsj/07/wsj_0767   0   10             the    DT             (NP*       -    -   -   -       *             *       (ARG1*         *         *         *   -
+nw/wsj/07/wsj_0767   0   11           right    NN                *       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   12              to    TO           (S(VP*       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   13           match    VB             (VP*    match  01   1   -       *             *            *       (V*)        *         *   -
+nw/wsj/07/wsj_0767   0   14          offers   NNS          (NP(NP*)      -    -   -   -       *             *            *    (ARG1*         *         *   -
+nw/wsj/07/wsj_0767   0   15              by    IN             (PP*       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   16     competitors   NNS       (NP*)))))))      -    -   -   -       *             *            *)        *)        *         *   -
+nw/wsj/07/wsj_0767   0   17              if    IN           (SBAR*       -    -   -   -       *             *   (ARGM-ADV*         *         *         *   -
+nw/wsj/07/wsj_0767   0   18            that    DT           (S(NP*)      -    -   -   -       *             *            *         *    (ARG0*)        *   -
+nw/wsj/07/wsj_0767   0   19           means   VBZ             (VP*     mean  01   -   -       *             *            *         *       (V*)        *   -
+nw/wsj/07/wsj_0767   0   20          giving   VBG           (S(VP*     give  01   -   -       *             *            *         *    (ARG1*       (V*)  -
+nw/wsj/07/wsj_0767   0   21       discounts   NNS          (NP(NP*)      -    -   -   -       *             *            *         *         *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   22             not    RB           (ADJP*       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   23       generally    RB                *       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   24       available    JJ                *       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   25              to    IN             (PP*       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   26           other    JJ             (NP*       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   27           phone    NN                *       -    -   -   -       *             *            *         *         *         *   -
+nw/wsj/07/wsj_0767   0   28           users   NNS   *))))))))))))))      -    -   -   -       *             *)           *)        *         *)        *)  -
+nw/wsj/07/wsj_0767   0   29               .     .               *))      -    -   -   -       *             *            *         *         *         *   -
+
+nw/wsj/07/wsj_0767   0    0            Indeed     RB   (TOP(S(ADVP*)      -    -   -   -          *    (ARGM-DIS*)           *         *   -
+nw/wsj/07/wsj_0767   0    1                 ,      ,              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0    2               Joe    NNP        (NP(NP*       -    -   -   -   (PERSON*        (ARG0*            *         *   -
+nw/wsj/07/wsj_0767   0    3           Nacchio    NNP              *)      -    -   -   -          *)            *            *         *   -
+nw/wsj/07/wsj_0767   0    4                 ,      ,              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0    5              AT&T    NNP     (NP(NP(NP*       -    -   -   -       (ORG)            *            *         *   -
+nw/wsj/07/wsj_0767   0    6                's    POS              *)      -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0    7              vice     NN              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0    8         president     NN              *)      -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0    9               for     IN           (PP*       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   10          business     NN       (NP(NML*       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   11                -    HYPH              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   12    communications    NNS              *)      -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   13          services    NNS            *)))      -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   14                 ,      ,              *)      -    -   -   -          *             *)           *         *   -
+nw/wsj/07/wsj_0767   0   15              said    VBD           (VP*      say  01   -   -          *           (V*)           *         *   -
+nw/wsj/07/wsj_0767   0   16              AT&T    NNP    (SBAR(S(NP*)      -    -   -   -       (ORG)       (ARG1*       (ARG0*)   (ARG0*)  -
+nw/wsj/07/wsj_0767   0   17           offered    VBD           (VP*    offer  01   -   -          *             *          (V*)        *   -
+nw/wsj/07/wsj_0767   0   18                 a     DT           (NP*       -    -   -   -          *             *       (ARG1*         *   -
+nw/wsj/07/wsj_0767   0   19           similar     JJ              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   20            Tariff    NNP          (NML*       -    -   -   -      (LAW*             *            *         *   -
+nw/wsj/07/wsj_0767   0   21               15      CD              *)      -    -   -   -          *)            *            *         *   -
+nw/wsj/07/wsj_0767   0   22          discount     NN              *)      -    -   -   -          *             *            *)        *   -
+nw/wsj/07/wsj_0767   0   23                to     IN           (PP*       -    -   -   -          *             *       (ARG3*         *   -
+nw/wsj/07/wsj_0767   0   24            Resort    NNP        (NP(NP*       -    -   -   -      (ORG*             *            *         *   -
+nw/wsj/07/wsj_0767   0   25       Condominium    NNP              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   26     International    NNP              *)      -    -   -   -          *)            *            *         *   -
+nw/wsj/07/wsj_0767   0   27                 ,      ,              *       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   28                of     IN           (PP*       -    -   -   -          *             *            *         *   -
+nw/wsj/07/wsj_0767   0   29      Indianapolis    NNP          (NP*))      -    -   -   -       (GPE)            *            *         *   -
+nw/wsj/07/wsj_0767   0   30                 ,      ,             *))      -    -   -   -          *             *            *)        *   -
+nw/wsj/07/wsj_0767   0   31                to     TO         (S(VP*       -    -   -   -          *             *   (ARGM-PRP*         *   -
+nw/wsj/07/wsj_0767   0   32              meet     VB           (VP*     meet  01   -   -          *             *            *       (V*)  -
+nw/wsj/07/wsj_0767   0   33           another     DT           (NP*       -    -   -   -          *             *            *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   34               MCI    NNP              *       -    -   -   -       (ORG)            *            *         *   -
+nw/wsj/07/wsj_0767   0   35               bid     NN       *))))))))      -    -   -   -          *             *)           *)        *)  -
+nw/wsj/07/wsj_0767   0   36                 .      .             *))      -    -   -   -          *             *            *         *   -
+
+nw/wsj/07/wsj_0767   0    0      The    DT   (TOP(S(S(NP*     -    -   -   -       *        (ARG0*    (ARG1*   -
+nw/wsj/07/wsj_0767   0    1      FCC   NNP              *)    -    -   -   -    (ORG)            *)        *   -
+nw/wsj/07/wsj_0767   0    2       ``    ``              *     -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0    3      did   VBD           (VP*     -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0    4      n't    RB              *     -    -   -   -       *    (ARGM-NEG*)        *   -
+nw/wsj/07/wsj_0767   0    5      say    VB           (VP*    say  01   -   -       *           (V*)        *   -
+nw/wsj/07/wsj_0767   0    6        I   PRP    (SBAR(S(NP*)    -    -   -   -       *        (ARG1*         *   -
+nw/wsj/07/wsj_0767   0    7    could    MD           (VP*     -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0    8      n't    RB              *     -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0    9       do    VB           (VP*     -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0   10       it   PRP           (NP*)    -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0   11    again    RB   (ADVP*)))))))    -    -   -   -       *             *)        *   -
+nw/wsj/07/wsj_0767   0   12        ,     ,              *     -    -   -   -       *             *         *   -
+nw/wsj/07/wsj_0767   0   13       ''    ''              *)    -    -   -   -       *             *         *)  -
+nw/wsj/07/wsj_0767   0   14       he   PRP           (NP*)    -    -   -   -       *             *    (ARG0*)  -
+nw/wsj/07/wsj_0767   0   15     said   VBD           (VP*)   say  01   -   -       *             *       (V*)  -
+nw/wsj/07/wsj_0767   0   16        .     .             *))    -    -   -   -       *             *         *   -
+
+nw/wsj/07/wsj_0767   0    0            Apart    RB   (TOP(S(PP(ADVP*)         -    -   -   -            *   (ARGM-ADV*         *             *         *   -
+nw/wsj/07/wsj_0767   0    1             from    IN                 *          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0    2            those    DT              (NP*          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0    3              two    CD                 *          -    -   -   -    (CARDINAL)           *         *             *         *   -
+nw/wsj/07/wsj_0767   0    4          actions   NNS                *))         -    -   -   -            *            *)        *             *         *   -
+nw/wsj/07/wsj_0767   0    5                ,     ,                 *          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0    6              Mr.   NNP           (NP(NP*          -    -   -   -            *       (ARG0*         *             *         *   -
+nw/wsj/07/wsj_0767   0    7            Sikes   NNP                 *)         -    -   -   -      (PERSON)           *         *             *         *   -
+nw/wsj/07/wsj_0767   0    8              and    CC                 *          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0    9              the    DT              (NP*          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0   10            three    CD                 *          -    -   -   -    (CARDINAL)           *         *             *         *   -
+nw/wsj/07/wsj_0767   0   11            other    JJ                 *          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0   12    commissioners   NNS                *))         -    -   -   -            *            *)        *             *         *   -
+nw/wsj/07/wsj_0767   0   13             said   VBD              (VP*         say  01   -   -            *          (V*)        *             *         *   -
+nw/wsj/07/wsj_0767   0   14             they   PRP       (SBAR(S(NP*)         -    -   -   -            *       (ARG1*    (ARG0*)            *         *   -
+nw/wsj/07/wsj_0767   0   15           expect   VBP              (VP*      expect  01   -   -            *            *       (V*)            *         *   -
+nw/wsj/07/wsj_0767   0   16               to    TO            (S(VP*          -    -   -   -            *            *    (ARG1*             *         *   -
+nw/wsj/07/wsj_0767   0   17       re-examine    VB              (VP*          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0   18              how   WRB     (SBAR(WHADVP*)         -    -   -   -            *            *         *    (ARGM-MNR*)        *   -
+nw/wsj/07/wsj_0767   0   19             AT&T   NNP            (S(NP*)         -    -   -   -         (ORG)           *         *        (ARG1*)        *   -
+nw/wsj/07/wsj_0767   0   20               is   VBZ              (VP*          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0   21        regulated   VBN           (VP*))))   regulate  01   -   -            *            *         *           (V*)        *   -
+nw/wsj/07/wsj_0767   0   22            since    IN            (SBAR*          -    -   -   -            *            *         *    (ARGM-TMP*         *   -
+nw/wsj/07/wsj_0767   0   23      competition    NN            (S(NP*)         -    -   -   -            *            *         *             *    (ARG1*)  -
+nw/wsj/07/wsj_0767   0   24              has   VBZ              (VP*          -    -   -   -            *            *         *             *         *   -
+nw/wsj/07/wsj_0767   0   25        increased   VBN    (VP*)))))))))))   increase  01   1   -            *            *)        *)            *)      (V*)  -
+nw/wsj/07/wsj_0767   0   26                .     .                *))         -    -   -   -            *            *         *             *         *   -
+
+nw/wsj/07/wsj_0767   0    0      Richard    NNP  (TOP(S(NP(NP*         -    -   -   -   (PERSON*   (ARG0*         *            *   -
+nw/wsj/07/wsj_0767   0    1    Firestone    NNP              *)        -    -   -   -          *)       *         *            *   -
+nw/wsj/07/wsj_0767   0    2            ,      ,              *         -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0    3        chief     NN        (NP(NP*)        -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0    4           of     IN           (PP*         -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0    5          the     DT        (NP(NP*         -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0    6          FCC    NNP              *         -    -   -   -       (ORG)       *         *            *   -
+nw/wsj/07/wsj_0767   0    7           's    POS              *)        -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0    8       common     JJ          (NML*         -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0    9           -    HYPH              *         -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0   10      carrier     NN              *)        -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0   11       bureau     NN            *)))        -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0   12            ,      ,              *)        -    -   -   -          *        *)        *            *   -
+nw/wsj/07/wsj_0767   0   13         said    VBD           (VP*        say  01   -   -          *      (V*)        *            *   -
+nw/wsj/07/wsj_0767   0   14           he    PRP    (SBAR(S(NP*)        -    -   -   -          *   (ARG1*    (ARG0*)           *   -
+nw/wsj/07/wsj_0767   0   15     expected    VBD           (VP*     expect  01   -   -          *        *       (V*)           *   -
+nw/wsj/07/wsj_0767   0   16          the     DT         (S(NP*         -    -   -   -          *        *    (ARG1*       (ARG0*   -
+nw/wsj/07/wsj_0767   0   17       agency     NN              *)        -    -   -   -          *        *         *            *)  -
+nw/wsj/07/wsj_0767   0   18           to     TO           (VP*         -    -   -   -          *        *         *            *   -
+nw/wsj/07/wsj_0767   0   19      propose     VB           (VP*    propose  01   -   -          *        *         *          (V*)  -
+nw/wsj/07/wsj_0767   0   20          new     JJ           (NP*         -    -   -   -          *        *         *       (ARG1*   -
+nw/wsj/07/wsj_0767   0   21        rules    NNS              *)        -    -   -   -          *        *         *            *)  -
+nw/wsj/07/wsj_0767   0   22         next     IN           (NP*         -    -   -   -     (DATE*        *         *   (ARGM-TMP*   -
+nw/wsj/07/wsj_0767   0   23         year     NN       *))))))))        -    -   -   -          *)       *)        *)           *)  -
+nw/wsj/07/wsj_0767   0   24            .      .             *))        -    -   -   -          *        *         *            *   -
+
+nw/wsj/07/wsj_0767   0   0         AT&T   NNP   (TOP(S(NP*)        -    -   -   -    (ORG)   (ARG0*)  -
+nw/wsj/07/wsj_0767   0   1    applauded   VBD         (VP*    applaud  01   2   -       *       (V*)  -
+nw/wsj/07/wsj_0767   0   2          the    DT      (NP(NP*         -    -   -   -       *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   3          FCC   NNP            *         -    -   -   -    (ORG)        *   -
+nw/wsj/07/wsj_0767   0   4           's   POS            *)        -    -   -   -       *         *   -
+nw/wsj/07/wsj_0767   0   5      actions   NNS           *))        -    -   -   -       *         *)  -
+nw/wsj/07/wsj_0767   0   6            .     .           *))        -    -   -   -       *         *   -
+
+nw/wsj/07/wsj_0767   0    0                    ``     ``       (TOP(S(S*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0    1                   The     DT         (NP(NP*        -    -   -   -       *     (ARG1*         *   -
+nw/wsj/07/wsj_0767   0    2                  time     NN              *))       -    -   -   -       *          *)        *   -
+nw/wsj/07/wsj_0767   0    3                    is    VBZ            (VP*        be  01   -   -       *        (V*)        *   -
+nw/wsj/07/wsj_0767   0    4                  long     RB          (ADJP*        -    -   -   -       *     (ARG2*         *   -
+nw/wsj/07/wsj_0767   0    5               overdue     JJ               *)       -    -   -   -       *          *)        *   -
+nw/wsj/07/wsj_0767   0    6                    to     TO     (SBAR(S(VP*        -    -   -   -       *   (C-ARG1*         *   -
+nw/wsj/07/wsj_0767   0    7                  take     VB            (VP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0    8                     a     DT            (NP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0    9                  look     NN               *)       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   10                    at     IN            (PP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   11                   the     DT      (NP(NP(NP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   12                fierce     JJ               *        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   13           competition     NN               *)       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   14                    in     IN            (PP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   15                   the     DT            (NP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   16                  long     JJ           (NML*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   17                    -    HYPH               *        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   18              distance     NN               *)       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   19              business     NN             *)))       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   20                   and     CC               *        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   21                   the     DT         (NP(NP*        -    -   -   -       *          *    (ARG0*   -
+nw/wsj/07/wsj_0767   0   22                 rules    NNS               *)       -    -   -   -       *          *         *)  -
+nw/wsj/07/wsj_0767   0   23             governing    VBG            (VP*    govern  01   -   -       *          *       (V*)  -
+nw/wsj/07/wsj_0767   0   24                    it    PRP   (NP*))))))))))       -    -   -   -       *          *)   (ARG1*)  -
+nw/wsj/07/wsj_0767   0   25                     ,      ,               *        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   26                    ''     ''               *)       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   27                   the     DT            (NP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   28                   New    NNP           (NML*        -    -   -   -   (GPE*          *         *   -
+nw/wsj/07/wsj_0767   0   29                  York    NNP               *)       -    -   -   -       *)         *         *   -
+nw/wsj/07/wsj_0767   0   30    telecommunications     NN               *        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   31                  firm     NN               *)       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   32                  said    VBD            (VP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   33                    in     IN            (PP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   34                     a     DT            (NP*        -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   35             statement     NN             *)))       -    -   -   -       *          *         *   -
+nw/wsj/07/wsj_0767   0   36                     .      .              *))       -    -   -   -       *          *         *   -
+
+nw/wsj/07/wsj_0767   0    0           But    CC        (TOP(S*         -    -   -   -       *    (ARGM-DIS*)       *        *             *         *   -
+nw/wsj/07/wsj_0767   0    1           MCI   NNP        (NP(NP*)        -    -   -   -    (ORG)       (ARG1*        *   (ARG0*             *         *   -
+nw/wsj/07/wsj_0767   0    2             ,     ,              *         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    3            of    IN           (PP*         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    4    Washington   NNP          (NP*))        -    -   -   -    (GPE)            *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    5             ,     ,              *)        -    -   -   -       *             *)       *        *)            *         *   -
+nw/wsj/07/wsj_0767   0    6           was   VBD           (VP*         be  01   -   -       *           (V*)       *        *             *         *   -
+nw/wsj/07/wsj_0767   0    7    displeased    JJ         (ADJP*         -    -   -   -       *        (ARG2*        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    8          with    IN           (PP*         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0    9           the    DT        (NP(NP*         -    -   -   -       *             *   (ARG0*        *             *         *   -
+nw/wsj/07/wsj_0767   0   10           FCC   NNP              *         -    -   -   -    (ORG)            *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0   11      decision    NN              *)        -    -   -   -       *             *        *)       *             *         *   -
+nw/wsj/07/wsj_0767   0   12    concerning   VBG           (VP*    concern  02   -   -       *             *      (V*)       *             *         *   -
+nw/wsj/07/wsj_0767   0   13        Tariff    NN           (NP*         -    -   -   -   (LAW*             *   (ARG1*        *             *         *   -
+nw/wsj/07/wsj_0767   0   14           12     CD          *)))))        -    -   -   -       *)            *)       *)       *             *         *   -
+nw/wsj/07/wsj_0767   0   15             ,     ,              *         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0   16       arguing   VBG         (S(VP*      argue  01   -   -       *    (ARGM-PRD*        *      (V*)            *         *   -
+nw/wsj/07/wsj_0767   0   17          that    IN         (SBAR*         -    -   -   -       *             *        *   (ARG1*             *         *   -
+nw/wsj/07/wsj_0767   0   18            ``    ``            (S*         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0   19          AT&T   NNP           (NP*)        -    -   -   -    (ORG)            *        *        *             *    (ARG0*)  -
+nw/wsj/07/wsj_0767   0   20           can    MD           (VP*         -    -   -   -       *             *        *        *    (ARGM-MOD*)        *   -
+nw/wsj/07/wsj_0767   0   21           not    RB              *         -    -   -   -       *             *        *        *    (ARGM-NEG*)        *   -
+nw/wsj/07/wsj_0767   0   22            be    VB           (VP*         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0   23       allowed   VBN           (VP*      allow  01   -   -       *             *        *        *           (V*)        *   -
+nw/wsj/07/wsj_0767   0   24            to    TO         (S(VP*         -    -   -   -       *             *        *        *        (ARG1*         *   -
+nw/wsj/07/wsj_0767   0   25        flaunt    VB           (VP*     flaunt  01   -   -       *             *        *        *             *       (V*)  -
+nw/wsj/07/wsj_0767   0   26           FCC   NNP           (NP*         -    -   -   -    (ORG)            *        *        *             *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   27         rules   NNS   *))))))))))))        -    -   -   -       *             *)       *        *)            *)        *)  -
+nw/wsj/07/wsj_0767   0   28             .     .              *         -    -   -   -       *             *        *        *             *         *   -
+nw/wsj/07/wsj_0767   0   29            ''    ''             *))        -    -   -   -       *             *        *        *             *         *   -
+
+nw/wsj/07/wsj_0767   0    0                United   NNP  (TOP(S(NP(NP*     -    -   -   -   (ORG*   (ARG0*         *   -
+nw/wsj/07/wsj_0767   0    1    Telecommunications   NNP              *     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0    2                  Inc.   NNP              *     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0    3                    's   POS              *)    -    -   -   -       *)       *         *   -
+nw/wsj/07/wsj_0767   0    4                    US   NNP          (NML*     -    -   -   -   (ORG*        *         *   -
+nw/wsj/07/wsj_0767   0    5                Sprint   NNP              *)    -    -   -   -       *)       *         *   -
+nw/wsj/07/wsj_0767   0    6                  unit    NN              *)    -    -   -   -       *        *)        *   -
+nw/wsj/07/wsj_0767   0    7                  said   VBD           (VP*    say  01   -   -       *      (V*)        *   -
+nw/wsj/07/wsj_0767   0    8                    it   PRP    (SBAR(S(NP*)    -    -   -   -       *   (ARG1*    (ARG1*)  -
+nw/wsj/07/wsj_0767   0    9                   was   VBD           (VP*     be  01   -   -       *        *       (V*)  -
+nw/wsj/07/wsj_0767   0   10                    ``    ``         (ADJP*     -    -   -   -       *        *    (ARG2*   -
+nw/wsj/07/wsj_0767   0   11             obviously    RB              *     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   12          disappointed    JJ              *     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   13                    ''    ''              *     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   14                  with    IN           (PP*     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   15                   the    DT        (NP(NP*     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   16                   FCC   NNP              *     -    -   -   -    (ORG)       *         *   -
+nw/wsj/07/wsj_0767   0   17              decision    NN              *)    -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   18                    on    IN           (PP*     -    -   -   -       *        *         *   -
+nw/wsj/07/wsj_0767   0   19                Tariff    NN           (NP*     -    -   -   -   (LAW*        *         *   -
+nw/wsj/07/wsj_0767   0   20                   12     CD      *)))))))))    -    -   -   -       *)       *)        *)  -
+nw/wsj/07/wsj_0767   0   21                     .     .             *))    -    -   -   -       *        *         *   -
+
+nw/wsj/07/wsj_0767   0    0          US   NNP    (TOP(S(NP*          -    -   -   -   (ORG*   (ARG0*        *             *   -
+nw/wsj/07/wsj_0767   0    1      Sprint   NNP             *)         -    -   -   -       *)       *)       *             *   -
+nw/wsj/07/wsj_0767   0    2        said   VBD          (VP*         say  01   -   -       *      (V*)       *             *   -
+nw/wsj/07/wsj_0767   0    3         was   VBD     (FRAG(VP*          be  01   -   -       *   (ARG1*      (V*)            *   -
+nw/wsj/07/wsj_0767   0    4          it   PRP   (SBAR(S(NP*)         -    -   -   -       *        *   (ARG2*        (ARG0*)  -
+nw/wsj/07/wsj_0767   0    5        will    MD          (VP*          -    -   -   -       *        *        *    (ARGM-MOD*)  -
+nw/wsj/07/wsj_0767   0    6    petition    VB          (VP*    petition  01   -   -       *        *        *           (V*)  -
+nw/wsj/07/wsj_0767   0    7         the    DT          (NP*          -    -   -   -       *        *        *        (ARG1*   -
+nw/wsj/07/wsj_0767   0    8         FCC   NNP             *          -    -   -   -    (ORG)       *        *             *   -
+nw/wsj/07/wsj_0767   0    9    decision    NN             *)         -    -   -   -       *        *        *             *)  -
+nw/wsj/07/wsj_0767   0   10          in    IN          (PP*          -    -   -   -       *        *        *    (ARGM-LOC*   -
+nw/wsj/07/wsj_0767   0   11     federal    JJ          (NP*          -    -   -   -       *        *        *             *   -
+nw/wsj/07/wsj_0767   0   12       court    NN     *)))))))))         -    -   -   -       *        *)       *)            *)  -
+nw/wsj/07/wsj_0767   0   13           .     .            *))         -    -   -   -       *        *        *             *   -
+
+nw/wsj/07/wsj_0767   0    0           ``    ``   (TOP(SINV(S*         -    -   -   -       *         *             *   (ARG1*   -
+nw/wsj/07/wsj_0767   0    1           We   PRP           (NP*)        -    -   -   -       *    (ARG0*)            *        *   -
+nw/wsj/07/wsj_0767   0    2      believe   VBP           (VP*    believe  01   -   -       *       (V*)            *        *   -
+nw/wsj/07/wsj_0767   0    3         that    IN         (SBAR*         -    -   -   -       *    (ARG1*             *        *   -
+nw/wsj/07/wsj_0767   0    4          the    DT         (S(NP*         -    -   -   -       *         *        (ARG0*        *   -
+nw/wsj/07/wsj_0767   0    5        court    NN              *)        -    -   -   -       *         *             *)       *   -
+nw/wsj/07/wsj_0767   0    6         will    MD           (VP*         -    -   -   -       *         *    (ARGM-MOD*)       *   -
+nw/wsj/07/wsj_0767   0    7         find    VB           (VP*       find  01   -   -       *         *           (V*)       *   -
+nw/wsj/07/wsj_0767   0    8           it   PRP         (S(NP*)        -    -   -   -       *         *        (ARG1*        *   -
+nw/wsj/07/wsj_0767   0    9     unlawful    JJ   (ADJP*)))))))        -    -   -   -       *         *)            *)       *   -
+nw/wsj/07/wsj_0767   0   10            ,     ,              *         -    -   -   -       *         *             *        *   -
+nw/wsj/07/wsj_0767   0   11           ''    ''              *)        -    -   -   -       *         *             *        *)  -
+nw/wsj/07/wsj_0767   0   12         said   VBD           (VP*)       say  01   -   -       *         *             *      (V*)  -
+nw/wsj/07/wsj_0767   0   13            a    DT           (NP*         -    -   -   -       *         *             *   (ARG0*   -
+nw/wsj/07/wsj_0767   0   14           US   NNP          (NML*         -    -   -   -   (ORG*         *             *        *   -
+nw/wsj/07/wsj_0767   0   15       Sprint   NNP              *)        -    -   -   -       *)        *             *        *   -
+nw/wsj/07/wsj_0767   0   16    spokesman    NN              *)        -    -   -   -       *         *             *        *)  -
+nw/wsj/07/wsj_0767   0   17            .     .             *))        -    -   -   -       *         *             *        *   -
+
+nw/wsj/07/wsj_0767   0    0     Separately    RB   (TOP(S(ADVP*)        -    -   -   -       *    (ARGM-MNR*)        *            *   -
+nw/wsj/07/wsj_0767   0    1              ,     ,              *         -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0    2           AT&T   NNP           (NP*)        -    -   -   -    (ORG)       (ARG0*)   (ARG0*)           *   -
+nw/wsj/07/wsj_0767   0    3          filed   VBD           (VP*       file  01   -   -       *           (V*)        *            *   -
+nw/wsj/07/wsj_0767   0    4              a    DT           (NP*         -    -   -   -       *        (ARG1*         *            *   -
+nw/wsj/07/wsj_0767   0    5    countersuit    NN              *)        -    -   -   -       *             *)        *            *   -
+nw/wsj/07/wsj_0767   0    6        against    IN           (PP*         -    -   -   -       *        (ARG3*         *            *   -
+nw/wsj/07/wsj_0767   0    7            MCI   NNP          (NP*))        -    -   -   -    (ORG)            *)        *            *   -
+nw/wsj/07/wsj_0767   0    8       accusing   VBG         (S(VP*     accuse  01   1   -       *        (ARG4*       (V*)           *   -
+nw/wsj/07/wsj_0767   0    9             it   PRP           (NP*)        -    -   -   -       *             *    (ARG1*)      (ARG0*)  -
+nw/wsj/07/wsj_0767   0   10             of    IN           (PP*         -    -   -   -       *             *    (ARG2*            *   -
+nw/wsj/07/wsj_0767   0   11     misleading   VBG         (S(VP*    mislead  01   2   -       *             *         *          (V*)  -
+nw/wsj/07/wsj_0767   0   12      consumers   NNS           (NP*)        -    -   -   -       *             *         *       (ARG1*)  -
+nw/wsj/07/wsj_0767   0   13        through    IN           (PP*         -    -   -   -       *             *         *   (ARGM-MNR*   -
+nw/wsj/07/wsj_0767   0   14      allegedly    RB      (NP(ADJP*         -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0   15             ``    ``              *         -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0   16          false    JJ              *         -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0   17            and    CC              *         -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0   18      deceptive    JJ              *         -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0   19             ''    ''              *)        -    -   -   -       *             *         *            *   -
+nw/wsj/07/wsj_0767   0   20    advertising    NN       *))))))))        -    -   -   -       *             *)        *)           *)  -
+nw/wsj/07/wsj_0767   0   21              .     .             *))        -    -   -   -       *             *         *            *   -
+
+nw/wsj/07/wsj_0767   0    0       The    DT  (TOP(S(NP*    -    -   -   -       *   (ARG1*   -
+nw/wsj/07/wsj_0767   0    1      AT&T   NNP           *    -    -   -   -    (ORG)       *   -
+nw/wsj/07/wsj_0767   0    2    action    NN           *)   -    -   -   -       *        *)  -
+nw/wsj/07/wsj_0767   0    3       was   VBD        (VP*    be  01   -   -       *      (V*)  -
+nw/wsj/07/wsj_0767   0    4       the    DT     (NP(NP*    -    -   -   -       *   (ARG2*   -
+nw/wsj/07/wsj_0767   0    5      most   RBS      (ADJP*    -    -   -   -       *        *   -
+nw/wsj/07/wsj_0767   0    6    recent    JJ           *)   -    -   -   -       *        *   -
+nw/wsj/07/wsj_0767   0    7      blow    NN           *)   -    -   -   -       *        *   -
+nw/wsj/07/wsj_0767   0    8        in    IN        (PP*    -    -   -   -       *        *   -
+nw/wsj/07/wsj_0767   0    9         a    DT        (NP*    -    -   -   -       *        *   -
+nw/wsj/07/wsj_0767   0   10     nasty    JJ           *    -    -   -   -       *        *   -
+nw/wsj/07/wsj_0767   0   11     fight    NN        *))))   -    -   -   -       *        *)  -
+nw/wsj/07/wsj_0767   0   12         .     .          *))   -    -   -   -       *        *   -
+
+nw/wsj/07/wsj_0767   0    0     Earlier   RBR   (TOP(S(NP(ADVP*)      -    -   -   -   (DATE*   (ARGM-TMP*         *         *   -
+nw/wsj/07/wsj_0767   0    1        this    DT                 *       -    -   -   -        *            *         *         *   -
+nw/wsj/07/wsj_0767   0    2       month    NN                 *)      -    -   -   -        *)           *)        *         *   -
+nw/wsj/07/wsj_0767   0    3           ,     ,                 *       -    -   -   -        *            *         *         *   -
+nw/wsj/07/wsj_0767   0    4         MCI   NNP              (NP*)      -    -   -   -     (ORG)      (ARG0*)   (ARG0*)        *   -
+nw/wsj/07/wsj_0767   0    5        sued   VBD              (VP*      sue  01   1   -        *          (V*)        *         *   -
+nw/wsj/07/wsj_0767   0    6        AT&T   NNP              (NP*)      -    -   -   -     (ORG)      (ARG1*)        *         *   -
+nw/wsj/07/wsj_0767   0    7          in    IN              (PP*       -    -   -   -        *   (ARGM-LOC*         *         *   -
+nw/wsj/07/wsj_0767   0    8     federal    JJ              (NP*       -    -   -   -        *            *         *         *   -
+nw/wsj/07/wsj_0767   0    9    district    NN                 *       -    -   -   -        *            *         *         *   -
+nw/wsj/07/wsj_0767   0   10       court    NN                *))      -    -   -   -        *            *)        *         *   -
+nw/wsj/07/wsj_0767   0   11           ,     ,                 *       -    -   -   -        *            *         *         *   -
+nw/wsj/07/wsj_0767   0   12    claiming   VBG            (S(VP*    claim  01   -   -        *       (ARG2*       (V*)        *   -
+nw/wsj/07/wsj_0767   0   13        that    IN            (SBAR*       -    -   -   -        *            *    (ARG1*         *   -
+nw/wsj/07/wsj_0767   0   14        AT&T   NNP         (S(NP(NP*       -    -   -   -     (ORG)           *         *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   15          's   POS                 *)      -    -   -   -        *            *         *         *   -
+nw/wsj/07/wsj_0767   0   16         ads   NNS                 *)      -    -   -   -        *            *         *         *)  -
+nw/wsj/07/wsj_0767   0   17         are   VBP              (VP*       be  01   -   -        *            *         *       (V*)  -
+nw/wsj/07/wsj_0767   0   18       false    JJ      (ADJP*)))))))      -    -   -   -        *            *)        *)   (ARG2*)  -
+nw/wsj/07/wsj_0767   0   19           .     .                *))      -    -   -   -        *            *         *         *   -
+
+nw/wsj/07/wsj_0767   0    0          AT&T    NNP   (TOP(S(NP*)         -    -   -   -         (ORG)      (ARG0*)   (ARG0*)   (ARG0*)  -
+nw/wsj/07/wsj_0767   0    1     assembled    VBD         (VP*    assemble  02   2   -            *          (V*)        *         *   -
+nw/wsj/07/wsj_0767   0    2         three     CD   (NP(NP(NP*)         -    -   -   -    (CARDINAL)      (ARG1*         *         *   -
+nw/wsj/07/wsj_0767   0    3            of     IN         (PP*          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    4           its   PRP$      (NP(NP*          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    5           top     JJ            *          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    6    executives    NNS            *)         -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    7            in     IN         (PP*          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0    8    Washington    NNP     (NP*)))))         -    -   -   -         (GPE)           *         *         *   -
+nw/wsj/07/wsj_0767   0    9             ,      ,            *          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0   10           all     DT      (NP(NP*)         -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0   11       visibly     RB       (ADJP*          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0   12         angry     JJ          *)))         -    -   -   -            *            *)        *         *   -
+nw/wsj/07/wsj_0767   0   13             ,      ,            *          -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0   14            to     TO       (S(VP*          -    -   -   -            *   (ARGM-PRP*         *         *   -
+nw/wsj/07/wsj_0767   0   15           try     VB         (VP*         try  01   -   -            *            *       (V*)        *   -
+nw/wsj/07/wsj_0767   0   16            to     TO       (S(VP*          -    -   -   -            *            *    (ARG1*         *   -
+nw/wsj/07/wsj_0767   0   17        refute     VB         (VP*      refute  01   1   -            *            *         *       (V*)  -
+nw/wsj/07/wsj_0767   0   18           MCI    NNP      (NP(NP*          -    -   -   -         (ORG)           *         *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   19            's    POS            *)         -    -   -   -            *            *         *         *   -
+nw/wsj/07/wsj_0767   0   20       charges    NNS     *))))))))         -    -   -   -            *            *)        *)        *)  -
+nw/wsj/07/wsj_0767   0   21             .      .           *))         -    -   -   -            *            *         *         *   -
+
+nw/wsj/07/wsj_0767   0    0              ``     ``       (TOP(SINV(S*        -    -   -   -          *         *   (ARG1*           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    1             MCI    NNP               (NP*)       -    -   -   -       (ORG)   (ARG0*)       *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    2             has    VBZ               (VP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    3            made    VBN               (VP*      make  01   -   -          *       (V*)       *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    4           hawks    NNS               (NP*)       -    -   -   -          *    (ARG1*)       *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    5             out     IN               (PP*        -    -   -   -          *    (ARG2*        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    6              of     IN               (PP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    7             the     DT            (NP(NP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    8           upper     JJ                  *        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0    9         echelon     NN                  *)       -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   10              of     IN               (PP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   11            AT&T    NNP         (NP*)))))))       -    -   -   -       (ORG)        *)       *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   12               ,      ,                  *        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   13              ''     ''                  *)       -    -   -   -          *         *        *)          *         *         *         *   -
+nw/wsj/07/wsj_0767   0   14            said    VBD               (VP*)      say  01   -   -          *         *      (V*)          *         *         *         *   -
+nw/wsj/07/wsj_0767   0   15     PaineWebber    NNP         (NP(NP(NP*        -    -   -   -       (ORG)        *   (ARG0*      (ARG0*         *         *         *   -
+nw/wsj/07/wsj_0767   0   16              's    POS                  *)       -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   17             Mr.    NNP                  *        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   18         Grubman    NNP                  *)       -    -   -   -    (PERSON)        *        *           *)        *         *         *   -
+nw/wsj/07/wsj_0767   0   19               ,      ,                  *        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   20             who     WP        (SBAR(WHNP*)       -    -   -   -          *         *        *    (R-ARG0*)        *         *         *   -
+nw/wsj/07/wsj_0767   0   21            said    VBD             (S(VP*       say  01   -   -          *         *        *         (V*)        *         *         *   -
+nw/wsj/07/wsj_0767   0   22              he    PRP        (SBAR(S(NP*)       -    -   -   -          *         *        *      (ARG1*    (ARG0*)        *         *   -
+nw/wsj/07/wsj_0767   0   23        expected    VBD               (VP*    expect  01   -   -          *         *        *           *       (V*)        *         *   -
+nw/wsj/07/wsj_0767   0   24            AT&T    NNP             (S(NP*)       -    -   -   -       (ORG)        *        *           *    (ARG1*    (ARG1*)   (ARG0*)  -
+nw/wsj/07/wsj_0767   0   25              to     TO               (VP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   26          become     VB               (VP*    become  01   -   -          *         *        *           *         *       (V*)        *   -
+nw/wsj/07/wsj_0767   0   27    increasingly     RB             (ADJP*        -    -   -   -          *         *        *           *         *    (ARG2*         *   -
+nw/wsj/07/wsj_0767   0   28      aggressive     JJ                  *        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   29              in     IN               (PP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   30         dealing    VBG             (S(VP*      deal  01   -   -          *         *        *           *         *         *       (V*)  -
+nw/wsj/07/wsj_0767   0   31            with     IN               (PP*        -    -   -   -          *         *        *           *         *         *    (ARG1*   -
+nw/wsj/07/wsj_0767   0   32             its   PRP$               (NP*        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   33        longtime     JJ                  *        -    -   -   -          *         *        *           *         *         *         *   -
+nw/wsj/07/wsj_0767   0   34         nemesis     NN   *))))))))))))))))       -    -   -   -          *         *        *)          *)        *)        *)        *)  -
+nw/wsj/07/wsj_0767   0   35               .      .                 *))       -    -   -   -          *         *        *           *         *         *         *   -
+
+nw/wsj/07/wsj_0767   0    0           Julie   NNP  (TOP(S(NP(NP*            -    -   -   -   (PERSON*        (ARG0*   -
+nw/wsj/07/wsj_0767   0    1        Amparano   NNP              *            -    -   -   -          *             *   -
+nw/wsj/07/wsj_0767   0    2           Lopez   NNP              *)           -    -   -   -          *)            *   -
+nw/wsj/07/wsj_0767   0    3              in    IN           (PP*            -    -   -   -          *             *   -
+nw/wsj/07/wsj_0767   0    4    Philadelphia   NNP         (NP*)))           -    -   -   -       (GPE)            *)  -
+nw/wsj/07/wsj_0767   0    5            also    RB         (ADVP*)           -    -   -   -          *    (ARGM-DIS*)  -
+nw/wsj/07/wsj_0767   0    6     contributed   VBD           (VP*    contribute  01   -   -          *           (V*)  -
+nw/wsj/07/wsj_0767   0    7              to    IN           (PP*            -    -   -   -          *        (ARG2*   -
+nw/wsj/07/wsj_0767   0    8            this    DT           (NP*            -    -   -   -          *             *   -
+nw/wsj/07/wsj_0767   0    9         article    NN            *)))           -    -   -   -          *             *)  -
+nw/wsj/07/wsj_0767   0   10               .     .             *))           -    -   -   -          *             *   -
+
+#end document

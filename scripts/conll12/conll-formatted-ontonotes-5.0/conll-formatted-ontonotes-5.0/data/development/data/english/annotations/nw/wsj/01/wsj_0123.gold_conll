@@ -1,0 +1,528 @@
+#begin document (nw/wsj/01/wsj_0123); part 000
+nw/wsj/01/wsj_0123   0    0       Researchers    NNS   (TOP(S(NP(NP*)       -    -   -   -            *   (ARG0*            *         *   -
+nw/wsj/01/wsj_0123   0    1                at     IN            (PP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0    2          American    NNP         (NP(NP*        -    -   -   -        (ORG*        *            *         *   -
+nw/wsj/01/wsj_0123   0    3         Telephone    NNP               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0    4                 &     CC               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0    5         Telegraph    NNP               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0    6               Co.    NNP               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0    7                's    POS               *)       -    -   -   -            *)       *            *         *   -
+nw/wsj/01/wsj_0123   0    8              Bell    NNP               *        -    -   -   -        (ORG*        *            *         *   -
+nw/wsj/01/wsj_0123   0    9      Laboratories   NNPS             *)))       -    -   -   -            *)       *)           *         *   -
+nw/wsj/01/wsj_0123   0   10          reported    VBD            (VP*    report  01   -   -            *      (V*)           *         *   -
+nw/wsj/01/wsj_0123   0   11              they    PRP     (SBAR(S(NP*)       -    -   -   -            *   (ARG1*       (ARG0*)   (ARG0*)  -
+nw/wsj/01/wsj_0123   0   12            raised    VBD            (VP*     raise  01   -   -            *        *          (V*)        *   -
+nw/wsj/01/wsj_0123   0   13               the     DT         (NP(NP*        -    -   -   -            *        *       (ARG1*         *   -
+nw/wsj/01/wsj_0123   0   14        electrical     JJ      (ADJP(NML*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   15           current     NN               *)       -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   16                -    HYPH               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   17          carrying    VBG               *)       -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   18          capacity     NN               *)       -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   19                of     IN            (PP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   20               new     JJ            (NP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   21    superconductor     NN               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   22          crystals    NNS             *)))       -    -   -   -            *        *            *)        *   -
+nw/wsj/01/wsj_0123   0   23                by     IN            (PP*        -    -   -   -            *        *       (ARG2*         *   -
+nw/wsj/01/wsj_0123   0   24                 a     DT         (NP(NP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   25            factor     NN               *)       -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   26                of     IN            (PP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   27              100      CD         (NP*))))       -    -   -   -    (CARDINAL)       *            *)        *   -
+nw/wsj/01/wsj_0123   0   28                 ,      ,               *        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   29            moving    VBG          (S(VP*      move  01   -   -            *        *   (ARGM-ADV*       (V*)  -
+nw/wsj/01/wsj_0123   0   30               the     DT            (NP*        -    -   -   -            *        *            *    (ARG1*   -
+nw/wsj/01/wsj_0123   0   31         materials    NNS               *)       -    -   -   -            *        *            *         *)  -
+nw/wsj/01/wsj_0123   0   32            closer    JJR          (ADVP*        -    -   -   -            *        *            *    (ARG2*   -
+nw/wsj/01/wsj_0123   0   33                to     IN            (PP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   34        commercial     JJ            (NP*        -    -   -   -            *        *            *         *   -
+nw/wsj/01/wsj_0123   0   35               use     NN       *)))))))))       -    -   -   -            *        *)           *)        *)  -
+nw/wsj/01/wsj_0123   0   36                 .      .              *))       -    -   -   -            *        *            *         *   -
+
+nw/wsj/01/wsj_0123   0    0                The     DT    (TOP(S(NP*        -    -   -   -            *   (ARG0*            *         *             *   -
+nw/wsj/01/wsj_0123   0    1         scientists    NNS             *)       -    -   -   -            *        *)           *         *             *   -
+nw/wsj/01/wsj_0123   0    2               said    VBD          (VP*       say  01   -   -            *      (V*)           *         *             *   -
+nw/wsj/01/wsj_0123   0    3               they    PRP   (SBAR(S(NP*)       -    -   -   -            *   (ARG1*       (ARG0*)   (ARG0*)            *   -
+nw/wsj/01/wsj_0123   0    4            created    VBD          (VP*    create  01   -   -            *        *          (V*)        *             *   -
+nw/wsj/01/wsj_0123   0    5              small     JJ       (NP(NP*        -    -   -   -            *        *       (ARG1*         *             *   -
+nw/wsj/01/wsj_0123   0    6            changes    NNS             *)       -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0    7                 in     IN          (PP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0    8                the     DT       (NP(NP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0    9            crystal     NN         (NML*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   10                 -    HYPH             *        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   11            lattice     NN             *)       -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   12         structures    NNS             *)       -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   13                 of     IN          (PP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   14                the     DT          (NP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   15    superconductors    NNS         *)))))       -    -   -   -            *        *            *)        *             *   -
+nw/wsj/01/wsj_0123   0   16                 to     TO        (S(VP*        -    -   -   -            *        *   (ARGM-PRP*         *             *   -
+nw/wsj/01/wsj_0123   0   17              raise     VB          (VP*     raise  01   -   -            *        *            *       (V*)            *   -
+nw/wsj/01/wsj_0123   0   18                the     DT    (NP(NP(NP*        -    -   -   -            *        *            *    (ARG1*        (ARG1*   -
+nw/wsj/01/wsj_0123   0   19             amount     NN             *)       -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   20                 of     IN          (PP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   21            current     NN        (NP*)))       -    -   -   -            *        *            *         *             *)  -
+nw/wsj/01/wsj_0123   0   22               that    WDT   (SBAR(WHNP*)       -    -   -   -            *        *            *         *      (R-ARG1*)  -
+nw/wsj/01/wsj_0123   0   23             single     JJ        (S(NP*        -    -   -   -            *        *            *         *        (ARG0*   -
+nw/wsj/01/wsj_0123   0   24           crystals    NNS             *)       -    -   -   -            *        *            *         *             *)  -
+nw/wsj/01/wsj_0123   0   25              could     MD          (VP*        -    -   -   -            *        *            *         *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0   26              carry     VB      (VP*)))))    carry  01   -   -            *        *            *         *)          (V*)  -
+nw/wsj/01/wsj_0123   0   27                 to     IN          (PP*        -    -   -   -            *        *            *    (ARG4*             *   -
+nw/wsj/01/wsj_0123   0   28           600,000      CD       (NP(NP*        -    -   -   -   (QUANTITY*        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   29               amps    NNS             *)       -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   30                per     IN          (PP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   31             square     JJ          (NP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   32         centimeter     NN            *))       -    -   -   -            *)       *            *         *             *   -
+nw/wsj/01/wsj_0123   0   33                 in     IN          (PP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   34                  a     DT          (NP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   35         moderately     RB        (ADJP*        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   36             strong     JJ             *)       -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   37           magnetic     JJ             *        -    -   -   -            *        *            *         *             *   -
+nw/wsj/01/wsj_0123   0   38              field     NN   *)))))))))))       -    -   -   -            *        *)           *)        *)            *   -
+nw/wsj/01/wsj_0123   0   39                  .      .            *))       -    -   -   -            *        *            *         *             *   -
+
+nw/wsj/01/wsj_0123   0    0                The     DT    (TOP(S(NP*      -    -   -   -            *   (ARG0*            *   -
+nw/wsj/01/wsj_0123   0    1         scientists    NNS             *)     -    -   -   -            *        *)           *   -
+nw/wsj/01/wsj_0123   0    2               said    VBD          (VP*     say  01   -   -            *      (V*)           *   -
+nw/wsj/01/wsj_0123   0    3               they    PRP   (SBAR(S(NP*)     -    -   -   -            *   (ARG1*            *   -
+nw/wsj/01/wsj_0123   0    4               made    VBD          (VP*      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0    5                the     DT          (NP*      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0    6            advance     NN             *)     -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0    7               with     IN          (PP*      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0    8            yttrium     NN  (NP(NP(ADJP*      -    -   -   -            *        *       (ARG1*   -
+nw/wsj/01/wsj_0123   0    9                 -    HYPH             *      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   10         containing    VBG             *)     -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   11    superconductors    NNS             *)     -    -   -   -            *        *            *)  -
+nw/wsj/01/wsj_0123   0   12             cooled    VBN          (VP*    cool  01   -   -            *        *          (V*)  -
+nw/wsj/01/wsj_0123   0   13                 to     IN          (PP*      -    -   -   -            *        *   (ARGM-MNR*   -
+nw/wsj/01/wsj_0123   0   14             liquid     NN   (NP(NP(NML*      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   15                 -    HYPH             *      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   16           nitrogen     NN             *)     -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   17        temperature     NN             *)     -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   18                  ,      ,             *      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   19                 or     CC             *      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   20              minus     CC       (NP(QP*      -    -   -   -   (QUANTITY*        *            *   -
+nw/wsj/01/wsj_0123   0   21               321      CD             *)     -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   22            degrees    NNS             *      -    -   -   -            *        *            *   -
+nw/wsj/01/wsj_0123   0   23         Fahrenheit     NN    *))))))))))     -    -   -   -            *)       *)           *)  -
+nw/wsj/01/wsj_0123   0   24                  .      .            *))     -    -   -   -            *        *            *   -
+
+nw/wsj/01/wsj_0123   0    0      Their   PRP$  (TOP(S(NP*        -    -   -   -        *       (ARG1*   -
+nw/wsj/01/wsj_0123   0    1     report     NN           *)       -    -   -   -        *            *)  -
+nw/wsj/01/wsj_0123   0    2    appears    VBZ        (VP*    appear  01   -   -        *          (V*)  -
+nw/wsj/01/wsj_0123   0    3         in     IN        (PP*        -    -   -   -        *   (ARGM-LOC*   -
+nw/wsj/01/wsj_0123   0    4      today     NN  (NP(NP(NP*        -    -   -   -    (DATE)           *   -
+nw/wsj/01/wsj_0123   0    5         's    POS           *)       -    -   -   -        *            *   -
+nw/wsj/01/wsj_0123   0    6      issue     NN           *)       -    -   -   -        *            *   -
+nw/wsj/01/wsj_0123   0    7         of     IN        (PP*        -    -   -   -        *            *   -
+nw/wsj/01/wsj_0123   0    8        the     DT        (NP*        -    -   -   -        *            *   -
+nw/wsj/01/wsj_0123   0    9    journal     NN           *        -    -   -   -        *            *   -
+nw/wsj/01/wsj_0123   0   10     Nature    NNP       *)))))       -    -   -   -     (ORG)           *)  -
+nw/wsj/01/wsj_0123   0   11          .      .          *))       -    -   -   -        *            *   -
+
+nw/wsj/01/wsj_0123   0    0                The    DT          (TOP(S(NP*          -    -   -   -   *   (ARG0*           *   -
+nw/wsj/01/wsj_0123   0    1            finding    NN                   *)         -    -   -   -   *        *)          *   -
+nw/wsj/01/wsj_0123   0    2              marks   VBZ                (VP*        mark  01   3   -   *      (V*)          *   -
+nw/wsj/01/wsj_0123   0    3                  a    DT             (NP(NP*          -    -   -   -   *   (ARG1*           *   -
+nw/wsj/01/wsj_0123   0    4        significant    JJ                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0    5               step    NN                   *)         -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0    6                 in    IN                (PP*          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0    7           research    NN             (NP(NP*)   research   -   1   -   *        *           *   -
+nw/wsj/01/wsj_0123   0    8                 on    IN                (PP*          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0    9                 ``    ``             (NP(NP*          -    -   -   -   *        *      (ARG1*   -
+nw/wsj/01/wsj_0123   0   10               bulk    NN                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   11                 ''    ''                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   12    superconductors   NNS                   *)         -    -   -   -   *        *           *)  -
+nw/wsj/01/wsj_0123   0   13                  ,     ,                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   14              which   WDT         (SBAR(WHNP*)         -    -   -   -   *        *    (R-ARG1*)  -
+nw/wsj/01/wsj_0123   0   15                are   VBP              (S(VP*          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   16              aimed   VBN                (VP*         aim  02   -   -   *        *         (V*)  -
+nw/wsj/01/wsj_0123   0   17                 at    IN                (PP*          -    -   -   -   *        *      (ARG2*   -
+nw/wsj/01/wsj_0123   0   18                use    NN             (NP(NP*)         -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   19                 in    IN                (PP*          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   20              wires   NNS             (NP(NP*)         -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   21                for    IN                (PP*          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   22             motors   NNS             (NP(NP*)         -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   23                  ,     ,                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   24            magnets   NNS                (NP*)         -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   25                  ,     ,                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   26         generators   NNS                (NP*)         -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   27                and    CC                   *          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   28              other    JJ                (NP*          -    -   -   -   *        *           *   -
+nw/wsj/01/wsj_0123   0   29       applications   NNS   *)))))))))))))))))         -    -   -   -   *        *)          *)  -
+nw/wsj/01/wsj_0123   0   30                  .     .                  *))         -    -   -   -   *        *           *   -
+
+nw/wsj/01/wsj_0123   0    0         Scientists    NNS      (TOP(S(NP*)         -    -   -   -   *       (ARG0*)      (ARG0*)   (ARG0*)            *   -
+nw/wsj/01/wsj_0123   0    1                had    VBD         (VP(VP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0    2           obtained    VBN            (VP*      obtain  01   -   -   *          (V*)           *         *             *   -
+nw/wsj/01/wsj_0123   0    3               even     RB       (NP(ADJP*          -    -   -   -   *       (ARG1*            *         *             *   -
+nw/wsj/01/wsj_0123   0    4             higher    JJR               *)         -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0    5            current     NN          (ADJP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0    6                 -    HYPH               *          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0    7           carrying    VBG               *)         -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0    8           capacity     NN               *)         -    -   -   -   *            *)           *         *             *   -
+nw/wsj/01/wsj_0123   0    9                 in     IN            (PP*          -    -   -   -   *   (ARGM-LOC*            *         *             *   -
+nw/wsj/01/wsj_0123   0   10               thin     JJ         (NP(NP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   11              films    NNS               *)         -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   12                 of     IN            (PP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   13                the     DT            (NP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   14                new     JJ               *          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   15    superconductors    NNS          *))))))         -    -   -   -   *            *)           *         *             *   -
+nw/wsj/01/wsj_0123   0   16                  ,      ,               *          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   17                but     CC               *          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   18               have    VBP            (VP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   19                had    VBN            (VP*        have  03   -   -   *            *          (V*)        *             *   -
+nw/wsj/01/wsj_0123   0   20           problems    NNS            (NP*)         -    -   -   -   *            *       (ARG1*)        *             *   -
+nw/wsj/01/wsj_0123   0   21         increasing    VBG          (S(VP*    increase  01   1   -   *            *   (ARGM-PRD*       (V*)            *   -
+nw/wsj/01/wsj_0123   0   22                the     DT      (NP(NP(NP*          -    -   -   -   *            *            *    (ARG1*        (ARG1*   -
+nw/wsj/01/wsj_0123   0   23             amount     NN               *)         -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   24                 of     IN            (PP*          -    -   -   -   *            *            *         *             *   -
+nw/wsj/01/wsj_0123   0   25            current     NN          (NP*)))         -    -   -   -   *            *            *         *             *)  -
+nw/wsj/01/wsj_0123   0   26               that    WDT     (SBAR(WHNP*)         -    -   -   -   *            *            *         *      (R-ARG1*)  -
+nw/wsj/01/wsj_0123   0   27               bulk     NN          (S(NP*          -    -   -   -   *            *            *         *        (ARG0*   -
+nw/wsj/01/wsj_0123   0   28           crystals    NNS               *)         -    -   -   -   *            *            *         *             *)  -
+nw/wsj/01/wsj_0123   0   29              could     MD            (VP*          -    -   -   -   *            *            *         *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0   30              carry     VB   (VP*))))))))))      carry  01   -   -   *            *            *)        *)          (V*)  -
+nw/wsj/01/wsj_0123   0   31                  .      .              *))         -    -   -   -   *            *            *         *             *   -
+
+nw/wsj/01/wsj_0123   0   0    Superconductors   NNS      (TOP(S(NP*)           -    -   -   -   *       (ARG0*)       (ARG1*)  -
+nw/wsj/01/wsj_0123   0   1            conduct   VBP            (VP*       conduct  01   -   -   *          (V*)            *   -
+nw/wsj/01/wsj_0123   0   2        electricity    NN            (NP*)           -    -   -   -   *       (ARG1*)            *   -
+nw/wsj/01/wsj_0123   0   3            without    IN            (PP*            -    -   -   -   *   (ARGM-MNR*             *   -
+nw/wsj/01/wsj_0123   0   4         resistance    NN           (NP*))   resistance   -   2   -   *            *)            *   -
+nw/wsj/01/wsj_0123   0   5               when   WRB   (SBAR(WHADVP*)           -    -   -   -   *   (ARGM-TMP*    (ARGM-TMP*)  -
+nw/wsj/01/wsj_0123   0   6             cooled   VBN       (S(VP*))))         cool  01   -   -   *            *)          (V*)  -
+nw/wsj/01/wsj_0123   0   7                  .     .              *))           -    -   -   -   *            *             *   -
+
+nw/wsj/01/wsj_0123   0    0                  A     DT      (TOP(S(NP(NP*          -    -   -   -        *            *   (ARG0*             *   -
+nw/wsj/01/wsj_0123   0    1             family     NN                  *)         -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0    2                 of     IN               (PP*          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0    3            ceramic     JJ            (NP(NP*          -    -   -   -        *       (ARG1*        *             *   -
+nw/wsj/01/wsj_0123   0    4    superconductors    NNS                  *)         -    -   -   -        *            *)       *             *   -
+nw/wsj/01/wsj_0123   0    5         discovered    VBN               (VP*    discover  01   -   -        *          (V*)       *             *   -
+nw/wsj/01/wsj_0123   0    6             during     IN               (PP*          -    -   -   -        *   (ARGM-TMP*        *             *   -
+nw/wsj/01/wsj_0123   0    7                the     DT               (NP*          -    -   -   -   (DATE*            *        *             *   -
+nw/wsj/01/wsj_0123   0    8               past     JJ                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0    9              three     CD                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   10              years    NNS             *))))))         -    -   -   -        *)           *)       *)            *   -
+nw/wsj/01/wsj_0123   0   11            promise    VBP               (VP*     promise  01   -   -        *            *      (V*)            *   -
+nw/wsj/01/wsj_0123   0   12                new     JJ            (NP(NP*          -    -   -   -        *            *   (ARG2*             *   -
+nw/wsj/01/wsj_0123   0   13       technologies    NNS                  *)         -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   14               such     JJ               (PP*          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   15                 as     IN                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   16            cheaper    JJR               (NP*          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   17         electrical     JJ                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   18         generation     NN                *)))         -    -   -   -        *            *        *)            *   -
+nw/wsj/01/wsj_0123   0   19                --       :                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   20                but     CC                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   21               only     RB   (FRAG(SBAR(ADVP*)         -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   22                 if     IN                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   23              their   PRP$             (S(NP*          -    -   -   -        *            *        *        (ARG1*   -
+nw/wsj/01/wsj_0123   0   24            current     NN             (ADJP*          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   25                 -    HYPH                  *          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   26           carrying    VBG                  *)         -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   27           capacity     NN                  *)         -    -   -   -        *            *        *             *)  -
+nw/wsj/01/wsj_0123   0   28                can     MD               (VP*          -    -   -   -        *            *        *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0   29                 be     VB               (VP*          -    -   -   -        *            *        *             *   -
+nw/wsj/01/wsj_0123   0   30             raised    VBN         (VP*)))))))      raise  01   -   -        *            *        *           (V*)  -
+nw/wsj/01/wsj_0123   0   31                  .      .                 *))         -    -   -   -        *            *        *             *   -
+
+nw/wsj/01/wsj_0123   0    0         The     DT      (TOP(S(NP*          -    -   -   -       *   (ARG0*             *   -
+nw/wsj/01/wsj_0123   0    1        AT&T    NNP               *          -    -   -   -    (ORG)       *             *   -
+nw/wsj/01/wsj_0123   0    2     advance     NN               *)         -    -   -   -       *        *)            *   -
+nw/wsj/01/wsj_0123   0    3       shows    VBZ            (VP*        show  01   -   -       *      (V*)            *   -
+nw/wsj/01/wsj_0123   0    4         how    WRB   (SBAR(WHADVP*)         -    -   -   -       *   (ARG1*    (ARGM-MNR*)  -
+nw/wsj/01/wsj_0123   0    5         one     CD       (S(NP(NP*          -    -   -   -       *        *        (ARG1*   -
+nw/wsj/01/wsj_0123   0    6      aspect     NN               *)         -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0    7          of     IN            (PP*          -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0    8         the     DT            (NP*          -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0    9     current     NN          (ADJP*          -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0   10          -    HYPH               *          -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0   11    carrying    VBG               *)         -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0   12     problem     NN             *)))         -    -   -   -       *        *             *)  -
+nw/wsj/01/wsj_0123   0   13         can     MD            (VP*          -    -   -   -       *        *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0   14          be     VB            (VP*          -    -   -   -       *        *             *   -
+nw/wsj/01/wsj_0123   0   15    overcome    VBN       (VP*))))))   overcome  01   -   -       *        *)          (V*)  -
+nw/wsj/01/wsj_0123   0   16           .      .              *))         -    -   -   -       *        *             *   -
+
+nw/wsj/01/wsj_0123   0    0                But    CC  (TOP(SINV(S*         -    -   -   -            *    (ARGM-DIS*)  (ARG1*   -
+nw/wsj/01/wsj_0123   0    1                 ``    ``             *         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0    2                 it   PRP          (NP*)        -    -   -   -            *        (ARG0*)       *   -
+nw/wsj/01/wsj_0123   0    3                 wo    MD          (VP*         -    -   -   -            *    (ARGM-MOD*)       *   -
+nw/wsj/01/wsj_0123   0    4                n't    RB             *         -    -   -   -            *    (ARGM-NEG*)       *   -
+nw/wsj/01/wsj_0123   0    5               lead    VB          (VP*       lead  03   -   -            *           (V*)       *   -
+nw/wsj/01/wsj_0123   0    6                 to    IN          (PP*         -    -   -   -            *        (ARG2*        *   -
+nw/wsj/01/wsj_0123   0    7           imminent    JJ       (NP(NP*         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0    8                use    NN             *         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0    9                 ''    ''             *)        -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   10                 of    IN          (PP*         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   11                new    JJ          (NP*         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   12    superconductors   NNS       *)))))))        -    -   -   -            *             *)       *)  -
+nw/wsj/01/wsj_0123   0   13                  ,     ,             *         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   14          cautioned   VBD          (VP*)   caution  01   1   -            *             *      (V*)  -
+nw/wsj/01/wsj_0123   0   15             Robert   NNP       (NP(NP*         -    -   -   -     (PERSON*             *   (ARG0*   -
+nw/wsj/01/wsj_0123   0   16                 B.   NNP             *         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   17                van   NNP             *         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   18              Dover   NNP             *)        -    -   -   -            *)            *        *   -
+nw/wsj/01/wsj_0123   0   19                  ,     ,             *         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   20                one    CD       (NP(NP*)        -    -   -   -    (CARDINAL)            *        *   -
+nw/wsj/01/wsj_0123   0   21                 of    IN          (PP*         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   22                the    DT          (NP*         -    -   -   -            *             *        *   -
+nw/wsj/01/wsj_0123   0   23               AT&T   NNP             *         -    -   -   -         (ORG)            *        *   -
+nw/wsj/01/wsj_0123   0   24        researchers   NNS          *))))        -    -   -   -            *             *        *)  -
+nw/wsj/01/wsj_0123   0   25                  .     .            *))        -    -   -   -            *             *        *   -
+
+nw/wsj/01/wsj_0123   0    0                 He    PRP    (TOP(S(NP*)       -    -   -   -   *    (ARG0*)           *   -
+nw/wsj/01/wsj_0123   0    1              added    VBD          (VP*       add  01   -   -   *       (V*)           *   -
+nw/wsj/01/wsj_0123   0    2               that     IN        (SBAR*        -    -   -   -   *    (ARG1*            *   -
+nw/wsj/01/wsj_0123   0    3                the     DT     (S(NP(NP*        -    -   -   -   *         *       (ARG1*   -
+nw/wsj/01/wsj_0123   0    4            current     NN        (ADJP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0    5                 -    HYPH             *        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0    6           carrying    VBG             *)       -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0    7           capacity     NN             *)       -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0    8                 of     IN          (PP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0    9      multi-crystal     JJ       (NP(NP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   10            samples    NNS             *)       -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   11                 of     IN          (PP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   12    superconductors    NNS      (NP*)))))       -    -   -   -   *         *            *)  -
+nw/wsj/01/wsj_0123   0   13            remains    VBZ          (VP*    remain  01   -   -   *         *          (V*)  -
+nw/wsj/01/wsj_0123   0   14                too     RB   (ADJP(ADJP*        -    -   -   -   *         *       (ARG3*   -
+nw/wsj/01/wsj_0123   0   15                low     RB             *)       -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   16                for     IN          (PP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   17               most    JJS          (NP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   18          practical     JJ             *        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   19               uses    NNS           *)))       -    -   -   -   *         *            *)  -
+nw/wsj/01/wsj_0123   0   20            because     IN          (PP*        -    -   -   -   *         *   (ARGM-CAU*   -
+nw/wsj/01/wsj_0123   0   21                 of     IN             *        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   22                 so     RB  (NP(NP(ADJP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   23                 -    HYPH             *        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   24             called    VBN             *)       -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   25               weak     JJ             *        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   26              links    NNS             *)       -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   27            between     IN          (PP*        -    -   -   -   *         *            *   -
+nw/wsj/01/wsj_0123   0   28           crystals    NNS   (NP*))))))))       -    -   -   -   *         *)           *)  -
+nw/wsj/01/wsj_0123   0   29                  .      .            *))       -    -   -   -   *         *            *   -
+
+nw/wsj/01/wsj_0123   0    0             Such    JJ  (TOP(S(NP*      -    -   -   -   *        (ARG1*   -
+nw/wsj/01/wsj_0123   0    1    multi-crystal    JJ           *      -    -   -   -   *             *   -
+nw/wsj/01/wsj_0123   0    2        materials   NNS           *)     -    -   -   -   *             *)  -
+nw/wsj/01/wsj_0123   0    3             will    MD        (VP*      -    -   -   -   *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0    4         probably    RB      (ADVP*)     -    -   -   -   *    (ARGM-ADV*)  -
+nw/wsj/01/wsj_0123   0    5               be    VB        (VP*      -    -   -   -   *             *   -
+nw/wsj/01/wsj_0123   0    6           needed   VBN        (VP*    need  01   -   -   *           (V*)  -
+nw/wsj/01/wsj_0123   0    7              for    IN        (PP*      -    -   -   -   *    (ARGM-PNC*   -
+nw/wsj/01/wsj_0123   0    8       commercial    JJ        (NP*      -    -   -   -   *             *   -
+nw/wsj/01/wsj_0123   0    9     applications   NNS       *)))))     -    -   -   -   *             *)  -
+nw/wsj/01/wsj_0123   0   10                .     .          *))     -    -   -   -   *             *   -
+
+nw/wsj/01/wsj_0123   0    0               Mr.    NNP         (TOP(S(NP*         -    -   -   -          *   (ARG0*            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0    1               van    NNP                  *         -    -   -   -   (PERSON*        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0    2             Dover    NNP                  *)        -    -   -   -          *)       *)           *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0    3              said    VBD               (VP*        say  01   -   -          *      (V*)           *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0    4               the     DT        (SBAR(S(NP*         -    -   -   -          *   (ARG1*       (ARG0*        *       (ARG0*           *             *   -
+nw/wsj/01/wsj_0123   0    5              AT&T    NNP                  *         -    -   -   -       (ORG)       *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0    6              team     NN                  *)        -    -   -   -          *        *            *)       *            *)          *             *   -
+nw/wsj/01/wsj_0123   0    7           created    VBD               (VP*     create  01   -   -          *        *          (V*)       *            *           *             *   -
+nw/wsj/01/wsj_0123   0    8               the     DT               (NP*         -    -   -   -          *        *       (ARG1*        *            *           *             *   -
+nw/wsj/01/wsj_0123   0    9           desired    VBN                  *     desire  01   1   -          *        *            *      (V*)           *           *             *   -
+nw/wsj/01/wsj_0123   0   10           crystal     NN                  *         -    -   -   -          *        *            *   (ARG1*            *           *             *   -
+nw/wsj/01/wsj_0123   0   11           changes    NNS                  *)        -    -   -   -          *        *            *)       *)           *           *             *   -
+nw/wsj/01/wsj_0123   0   12                by     IN               (PP*         -    -   -   -          *        *   (ARGM-MNR*        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   13        bombarding    VBG          (S(VP(VP*    bombard  01   -   -          *        *            *        *          (V*)          *             *   -
+nw/wsj/01/wsj_0123   0   14    superconductor     NN               (NP*         -    -   -   -          *        *            *        *       (ARG1*           *             *   -
+nw/wsj/01/wsj_0123   0   15           samples    NNS                  *)        -    -   -   -          *        *            *        *            *)          *             *   -
+nw/wsj/01/wsj_0123   0   16              with     IN               (PP*         -    -   -   -          *        *            *        *   (ARGM-MNR*           *             *   -
+nw/wsj/01/wsj_0123   0   17          neutrons    NNS             (NP*)))        -    -   -   -          *        *            *        *            *)          *             *   -
+nw/wsj/01/wsj_0123   0   18                 ,      ,                  *         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   19                 a     DT            (NP(NP*         -    -   -   -          *        *            *        *            *      (ARG0*        (ARG1*   -
+nw/wsj/01/wsj_0123   0   20           process     NN                  *)        -    -   -   -          *        *            *        *            *           *)            *)  -
+nw/wsj/01/wsj_0123   0   21              that    WDT        (SBAR(WHNP*)        -    -   -   -          *        *            *        *            *    (R-ARG0*)     (R-ARG1*)  -
+nw/wsj/01/wsj_0123   0   22           creates    VBZ          (S(VP(VP*     create  01   -   -          *        *            *        *            *         (V*)            *   -
+nw/wsj/01/wsj_0123   0   23              some     DT            (NP(NP*         -    -   -   -          *        *            *        *            *      (ARG1*             *   -
+nw/wsj/01/wsj_0123   0   24     radioactivity     NN                  *)        -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   25                in     IN               (PP*         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   26               the     DT               (NP*         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   27           samples    NNS               *))))        -    -   -   -          *        *            *        *            *           *)            *   -
+nw/wsj/01/wsj_0123   0   28               and     CC                  *         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   29               may     MD               (VP*         -    -   -   -          *        *            *        *            *           *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0   30               not     RB                  *         -    -   -   -          *        *            *        *            *           *    (ARGM-NEG*)  -
+nw/wsj/01/wsj_0123   0   31                be     VB               (VP*         be  01   -   -          *        *            *        *            *           *           (V*)  -
+nw/wsj/01/wsj_0123   0   32          feasible     JJ             (ADJP*         -    -   -   -          *        *            *        *            *           *        (ARG2*   -
+nw/wsj/01/wsj_0123   0   33               for     IN               (PP*         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   34             large     JJ           (NP(NML*         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   35                -    HYPH                  *         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   36             scale     NN                  *)        -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   37        commercial     JJ                  *         -    -   -   -          *        *            *        *            *           *             *   -
+nw/wsj/01/wsj_0123   0   38               use     NN   *))))))))))))))))        -    -   -   -          *        *)           *)       *            *           *             *)  -
+nw/wsj/01/wsj_0123   0   39                 .      .                 *))        -    -   -   -          *        *            *        *            *           *             *   -
+
+nw/wsj/01/wsj_0123   0    0              Still    RB        (TOP(S(ADVP*)            -    -   -   -        *    (ARGM-TMP*)        *             *             *        *   -
+nw/wsj/01/wsj_0123   0    1                  ,     ,                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0    2         scientists   NNS                (NP*)            -    -   -   -        *        (ARG0*)        *             *             *        *   -
+nw/wsj/01/wsj_0123   0    3           breathed   VBD                (VP*        breathe  01   7   -        *           (V*)        *             *             *        *   -
+nw/wsj/01/wsj_0123   0    4                  a    DT             (NP(NP*             -    -   -   -        *        (ARG1*         *             *             *        *   -
+nw/wsj/01/wsj_0123   0    5         collective    JJ                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0    6               sigh    NN                   *)            -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0    7                 of    IN                (PP*             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0    8             relief    NN              (NP*)))            -    -   -   -        *             *)        *             *             *        *   -
+nw/wsj/01/wsj_0123   0    9              about    IN                (PP*             -    -   -   -        *    (ARGM-PRD*         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   10                the    DT                (NP*             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   11            finding    NN                  *))            -    -   -   -        *             *)        *             *             *        *   -
+nw/wsj/01/wsj_0123   0   12                  ,     ,                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   13            because    IN              (SBAR*             -    -   -   -        *    (ARGM-CAU*         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   14                 it   PRP              (S(NP*)            -    -   -   -        *             *    (ARG0*)            *             *        *   -
+nw/wsj/01/wsj_0123   0   15       demonstrates   VBZ                (VP*    demonstrate  01   1   -        *             *       (V*)            *             *        *   -
+nw/wsj/01/wsj_0123   0   16                how   WRB       (SBAR(WHADVP*)            -    -   -   -        *             *    (ARG1*    (ARGM-MNR*)            *        *   -
+nw/wsj/01/wsj_0123   0   17                 to    TO              (S(VP*             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   18           overcome    VB                (VP*       overcome  01   1   -        *             *         *           (V*)            *        *   -
+nw/wsj/01/wsj_0123   0   19                the    DT             (NP(NP*             -    -   -   -        *             *         *        (ARG1*        (ARG1*   (ARG0*   -
+nw/wsj/01/wsj_0123   0   20                 ``    ``                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   21               flux    NN               (NML*             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   22            pinning    NN                   *)            -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   23                 ''    ''                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   24            problem    NN                   *)            -    -   -   -        *             *         *             *             *)       *)  -
+nw/wsj/01/wsj_0123   0   25               that   WDT         (SBAR(WHNP*)            -    -   -   -        *             *         *             *      (R-ARG1*)       *   -
+nw/wsj/01/wsj_0123   0   26            earlier   RBR         (S(NP(ADVP*)            -    -   -   -   (DATE*             *         *             *    (ARGM-TMP*        *   -
+nw/wsj/01/wsj_0123   0   27               this    DT                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   28               year    NN                   *)            -    -   -   -        *)            *         *             *             *)       *   -
+nw/wsj/01/wsj_0123   0   29                was   VBD                (VP*             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   30             widely    RB              (ADVP*)            -    -   -   -        *             *         *             *    (ARGM-MNR*)       *   -
+nw/wsj/01/wsj_0123   0   31         publicized   VBN                (VP*      publicize  01   1   -        *             *         *             *           (V*)       *   -
+nw/wsj/01/wsj_0123   0   32                 as    IN                (PP*             -    -   -   -        *             *         *             *        (ARG2*        *   -
+nw/wsj/01/wsj_0123   0   33       undercutting   VBG              (S(VP*       undercut  01   1   -        *             *         *             *             *      (V*)  -
+nw/wsj/01/wsj_0123   0   34                new    JJ             (NP(NP*             -    -   -   -        *             *         *             *             *   (ARG1*   -
+nw/wsj/01/wsj_0123   0   35    superconductors   NNS                   *             -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   36                  '   POS                   *)            -    -   -   -        *             *         *             *             *        *   -
+nw/wsj/01/wsj_0123   0   37          potential    NN   *)))))))))))))))))            -    -   -   -        *             *)        *)            *)            *)       *)  -
+nw/wsj/01/wsj_0123   0   38                  .     .                  *))            -    -   -   -        *             *         *             *             *        *   -
+
+nw/wsj/01/wsj_0123   0    0               The     DT  (TOP(S(NP*         -    -   -   -   *       (ARG2*        *   -
+nw/wsj/01/wsj_0123   0    1           problem     NN           *)        -    -   -   -   *            *)       *   -
+nw/wsj/01/wsj_0123   0    2          involves    VBZ        (VP*    involve  01   -   -   *          (V*)       *   -
+nw/wsj/01/wsj_0123   0    3               the     DT     (NP(NP*         -    -   -   -   *       (ARG1*        *   -
+nw/wsj/01/wsj_0123   0    4            motion     NN           *)        -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0    5                of     IN        (PP*         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0    6             small     JJ     (NP(NP*         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0    7          magnetic     JJ           *         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0    8            fields    NNS           *)        -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0    9            within     IN        (PP*         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0   10    superconductor     NN        (NP*         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0   11          crystals    NNS       *)))))        -    -   -   -   *            *)       *   -
+nw/wsj/01/wsj_0123   0   12                 ,      ,           *         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0   13          limiting    VBG      (S(VP*      limit  01   -   -   *   (ARGM-ADV*      (V*)  -
+nw/wsj/01/wsj_0123   0   14             their   PRP$        (NP*         -    -   -   -   *            *   (ARG1*   -
+nw/wsj/01/wsj_0123   0   15           current     NN      (ADJP*         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0   16                -    HYPH           *         -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0   17          carrying    VBG           *)        -    -   -   -   *            *        *   -
+nw/wsj/01/wsj_0123   0   18          capacity     NN        *))))        -    -   -   -   *            *)       *)  -
+nw/wsj/01/wsj_0123   0   19                 .      .          *))        -    -   -   -   *            *        *   -
+
+nw/wsj/01/wsj_0123   0    0           Mr.    NNP      (TOP(S(NP*           -    -   -   -          *   (ARG0*        *             *         *         *   -
+nw/wsj/01/wsj_0123   0    1           van    NNP               *           -    -   -   -   (PERSON*        *        *             *         *         *   -
+nw/wsj/01/wsj_0123   0    2         Dover    NNP               *)          -    -   -   -          *)       *)       *             *         *         *   -
+nw/wsj/01/wsj_0123   0    3          said    VBD            (VP*          say  01   -   -          *      (V*)       *             *         *         *   -
+nw/wsj/01/wsj_0123   0    4           the     DT  (SBAR(S(NP(NP*           -    -   -   -          *   (ARG1*   (ARG1*        (ARG0*         *         *   -
+nw/wsj/01/wsj_0123   0    5       crystal     NN               *           -    -   -   -          *        *        *             *         *         *   -
+nw/wsj/01/wsj_0123   0    6       changes    NNS               *)          -    -   -   -          *        *        *)            *         *         *   -
+nw/wsj/01/wsj_0123   0    7           his   PRP$     (SBAR(S(NP*           -    -   -   -          *        *   (ARG0*             *         *         *   -
+nw/wsj/01/wsj_0123   0    8          team     NN               *)          -    -   -   -          *        *        *)            *         *         *   -
+nw/wsj/01/wsj_0123   0    9    introduced    VBD         (VP*))))   introduce  02   -   -          *        *      (V*)            *)        *         *   -
+nw/wsj/01/wsj_0123   0   10    apparently     RB          (ADVP*)          -    -   -   -          *        *        *    (ARGM-ADV*)        *         *   -
+nw/wsj/01/wsj_0123   0   11          pins    VBZ            (VP*          pin  01   3   -          *        *        *           (V*)        *         *   -
+nw/wsj/01/wsj_0123   0   12           the     DT            (NP*           -    -   -   -          *        *        *        (ARG1*         *         *   -
+nw/wsj/01/wsj_0123   0   13      magnetic     JJ               *           -    -   -   -          *        *        *             *         *         *   -
+nw/wsj/01/wsj_0123   0   14        fields    NNS               *)          -    -   -   -          *        *        *             *)        *         *   -
+nw/wsj/01/wsj_0123   0   15            in     IN            (PP*           -    -   -   -          *        *        *    (ARGM-LOC*         *         *   -
+nw/wsj/01/wsj_0123   0   16         place     NN           (NP*))          -    -   -   -          *        *        *             *)        *         *   -
+nw/wsj/01/wsj_0123   0   17             ,      ,               *           -    -   -   -          *        *        *             *         *         *   -
+nw/wsj/01/wsj_0123   0   18    preventing    VBG          (S(VP*      prevent  01   1   -          *        *        *    (ARGM-ADV*       (V*)        *   -
+nw/wsj/01/wsj_0123   0   19          them    PRP            (NP*)          -    -   -   -          *        *        *             *    (ARG1*)   (ARG0*)  -
+nw/wsj/01/wsj_0123   0   20          from     IN            (PP*           -    -   -   -          *        *        *             *    (ARG2*         *   -
+nw/wsj/01/wsj_0123   0   21      lowering    VBG          (S(VP*        lower  01   2   -          *        *        *             *         *       (V*)  -
+nw/wsj/01/wsj_0123   0   22       current     NN       (NP(ADJP*           -    -   -   -          *        *        *             *         *    (ARG1*   -
+nw/wsj/01/wsj_0123   0   23            -    HYPH               *           -    -   -   -          *        *        *             *         *         *   -
+nw/wsj/01/wsj_0123   0   24      carrying    VBG               *)          -    -   -   -          *        *        *             *         *         *   -
+nw/wsj/01/wsj_0123   0   25      capacity     NN      *))))))))))          -    -   -   -          *        *)       *             *)        *)        *)  -
+nw/wsj/01/wsj_0123   0   26             .      .              *))          -    -   -   -          *        *        *             *         *         *   -
+
+nw/wsj/01/wsj_0123   0    0            Mr.   NNP     (TOP(S(NP*           -    -   -   -          *   (ARG0*         *             *        *   -
+nw/wsj/01/wsj_0123   0    1            van   NNP              *           -    -   -   -   (PERSON*        *         *             *        *   -
+nw/wsj/01/wsj_0123   0    2          Dover   NNP              *)          -    -   -   -          *)       *)        *             *        *   -
+nw/wsj/01/wsj_0123   0    3          added   VBD           (VP*          add  01   -   -          *      (V*)        *             *        *   -
+nw/wsj/01/wsj_0123   0    4           that    IN         (SBAR*           -    -   -   -          *   (ARG1*         *             *        *   -
+nw/wsj/01/wsj_0123   0    5    researchers   NNS         (S(NP*)          -    -   -   -          *        *    (ARG0*)       (ARG0*)       *   -
+nw/wsj/01/wsj_0123   0    6            are   VBP           (VP*           -    -   -   -          *        *         *             *        *   -
+nw/wsj/01/wsj_0123   0    7         trying   VBG           (VP*          try  01   -   -          *        *       (V*)            *        *   -
+nw/wsj/01/wsj_0123   0    8             to    TO         (S(VP*           -    -   -   -          *        *    (ARG1*             *        *   -
+nw/wsj/01/wsj_0123   0    9      determine    VB           (VP*    determine  01   -   -          *        *         *           (V*)       *   -
+nw/wsj/01/wsj_0123   0   10      precisely    RB         (ADVP*)          -    -   -   -          *        *         *    (ARGM-MNR*)       *   -
+nw/wsj/01/wsj_0123   0   11           what   WDT    (SBAR(WHNP*           -    -   -   -          *        *         *        (ARG1*   (ARG0*   -
+nw/wsj/01/wsj_0123   0   12        crystal    NN              *           -    -   -   -          *        *         *             *        *   -
+nw/wsj/01/wsj_0123   0   13        changes   NNS              *)          -    -   -   -          *        *         *             *        *)  -
+nw/wsj/01/wsj_0123   0   14         solved   VBD         (S(VP*        solve  01   -   -          *        *         *             *      (V*)  -
+nw/wsj/01/wsj_0123   0   15            the    DT           (NP*           -    -   -   -          *        *         *             *   (ARG1*   -
+nw/wsj/01/wsj_0123   0   16        problem    NN   *))))))))))))          -    -   -   -          *        *)        *)            *)       *)  -
+nw/wsj/01/wsj_0123   0   17              .     .             *))          -    -   -   -          *        *         *             *        *   -
+
+nw/wsj/01/wsj_0123   0    0    Determining    VBG  (TOP(S(S(VP*    determine  01   -   -   *       (V*)       (ARG0*         *            *        *   -
+nw/wsj/01/wsj_0123   0    1           that     DT        (NP*)))          -    -   -   -   *    (ARG1*)            *)        *            *        *   -
+nw/wsj/01/wsj_0123   0    2            may     MD          (VP*           -    -   -   -   *         *    (ARGM-MOD*)        *            *        *   -
+nw/wsj/01/wsj_0123   0    3         enable     VB          (VP*       enable  01   1   -   *         *           (V*)        *            *        *   -
+nw/wsj/01/wsj_0123   0    4           them    PRP          (NP*)          -    -   -   -   *         *        (ARG2*)   (ARG0*)      (ARG0*)       *   -
+nw/wsj/01/wsj_0123   0    5             to     TO        (S(VP*           -    -   -   -   *         *        (ARG1*         *            *        *   -
+nw/wsj/01/wsj_0123   0    6        develop     VB          (VP*      develop  02   -   -   *         *             *       (V*)           *        *   -
+nw/wsj/01/wsj_0123   0    7         better    JJR       (NP(NP*           -    -   -   -   *         *             *    (ARG1*   (ARGM-MNR*        *   -
+nw/wsj/01/wsj_0123   0    8           ways    NNS             *)          -    -   -   -   *         *             *         *            *)       *   -
+nw/wsj/01/wsj_0123   0    9             to     TO   (SBAR(S(VP*           -    -   -   -   *         *             *         *            *        *   -
+nw/wsj/01/wsj_0123   0   10      introduce     VB          (VP*    introduce  02   -   -   *         *             *         *          (V*)       *   -
+nw/wsj/01/wsj_0123   0   11            the     DT          (NP*           -    -   -   -   *         *             *         *       (ARG1*        *   -
+nw/wsj/01/wsj_0123   0   12         needed    VBN             *         need  01   -   -   *         *             *         *            *      (V*)  -
+nw/wsj/01/wsj_0123   0   13        crystal     NN         (NML*           -    -   -   -   *         *             *         *            *   (ARG1*   -
+nw/wsj/01/wsj_0123   0   14             -    HYPH             *           -    -   -   -   *         *             *         *            *        *   -
+nw/wsj/01/wsj_0123   0   15        lattice     NN             *)          -    -   -   -   *         *             *         *            *        *   -
+nw/wsj/01/wsj_0123   0   16       patterns    NNS   *)))))))))))          -    -   -   -   *         *             *)        *)           *)       *)  -
+nw/wsj/01/wsj_0123   0   17              .      .            *))          -    -   -   -   *         *             *         *            *        *   -
+
+nw/wsj/01/wsj_0123   0    0               The     DT    (TOP(S(NP*          -    -   -   -       *        (ARG0*   (ARG0*             *   -
+nw/wsj/01/wsj_0123   0    1              AT&T    NNP             *          -    -   -   -    (ORG)            *        *             *   -
+nw/wsj/01/wsj_0123   0    2              team     NN             *)         -    -   -   -       *             *)       *)            *   -
+nw/wsj/01/wsj_0123   0    3              also     RB        (ADVP*)         -    -   -   -       *    (ARGM-ADV*)       *             *   -
+nw/wsj/01/wsj_0123   0    4                is    VBZ          (VP*          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0    5            trying    VBG          (VP*         try  01   -   -       *           (V*)       *             *   -
+nw/wsj/01/wsj_0123   0    6                to     TO        (S(VP*          -    -   -   -       *        (ARG1*        *             *   -
+nw/wsj/01/wsj_0123   0    7           combine     VB          (VP*     combine  01   -   -       *             *      (V*)            *   -
+nw/wsj/01/wsj_0123   0    8             their   PRP$          (NP*          -    -   -   -       *             *   (ARG1*             *   -
+nw/wsj/01/wsj_0123   0    9            latest    JJS             *          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   10    superconductor     NN             *          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   11           process     NN             *)         -    -   -   -       *             *        *)            *   -
+nw/wsj/01/wsj_0123   0   12              with     IN          (PP*          -    -   -   -       *             *   (ARG2*             *   -
+nw/wsj/01/wsj_0123   0   13                ``     ``          (NP*          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   14              melt     JJ     (NP(ADJP*          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   15                -    HYPH             *          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   16          textured     JJ             *)         -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   17            growth     NN             *)         -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   18                 ,      ,             *          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   19                ''     ''             *          -    -   -   -       *             *        *             *   -
+nw/wsj/01/wsj_0123   0   20                 a     DT       (NP(NP*          -    -   -   -       *             *        *        (ARG1*   -
+nw/wsj/01/wsj_0123   0   21           process     NN             *)         -    -   -   -       *             *        *             *)  -
+nw/wsj/01/wsj_0123   0   22        discovered    VBN          (VP*    discover  01   -   -       *             *        *           (V*)  -
+nw/wsj/01/wsj_0123   0   23           earlier    JJR        (ADVP*)         -    -   -   -       *             *        *    (ARGM-TMP*)  -
+nw/wsj/01/wsj_0123   0   24                at     IN          (PP*          -    -   -   -       *             *        *    (ARGM-LOC*   -
+nw/wsj/01/wsj_0123   0   25              Bell    NNP          (NP*          -    -   -   -   (ORG*             *        *             *   -
+nw/wsj/01/wsj_0123   0   26      Laboratories   NNPS   *)))))))))))         -    -   -   -       *)            *)       *)            *)  -
+nw/wsj/01/wsj_0123   0   27                 .      .            *))         -    -   -   -       *             *        *             *   -
+
+nw/wsj/01/wsj_0123   0    0              The     DT  (TOP(S(NP*         -    -   -   -   *         *        (ARG0*   -
+nw/wsj/01/wsj_0123   0    1         combined    VBN           *    combine  01   -   -   *       (V*)            *   -
+nw/wsj/01/wsj_0123   0    2        processes    NNS           *)        -    -   -   -   *    (ARG3*)            *)  -
+nw/wsj/01/wsj_0123   0    3              may     MD        (VP*         -    -   -   -   *         *    (ARGM-MOD*)  -
+nw/wsj/01/wsj_0123   0    4    significantly     RB      (ADVP*)        -    -   -   -   *         *    (ARGM-EXT*)  -
+nw/wsj/01/wsj_0123   0    5            raise     VB        (VP*      raise  01   -   -   *         *           (V*)  -
+nw/wsj/01/wsj_0123   0    6              the     DT     (NP(NP*         -    -   -   -   *         *        (ARG1*   -
+nw/wsj/01/wsj_0123   0    7          current     NN      (ADJP*         -    -   -   -   *         *             *   -
+nw/wsj/01/wsj_0123   0    8               -    HYPH           *         -    -   -   -   *         *             *   -
+nw/wsj/01/wsj_0123   0    9         carrying    VBG           *)        -    -   -   -   *         *             *   -
+nw/wsj/01/wsj_0123   0   10         capacity     NN           *)        -    -   -   -   *         *             *   -
+nw/wsj/01/wsj_0123   0   11               of     IN        (PP*         -    -   -   -   *         *             *   -
+nw/wsj/01/wsj_0123   0   12    multi-crystal     JJ        (NP*         -    -   -   -   *         *             *   -
+nw/wsj/01/wsj_0123   0   13          samples    NNS       *)))))        -    -   -   -   *         *             *)  -
+nw/wsj/01/wsj_0123   0   14                .      .          *))        -    -   -   -   *         *             *   -
+
+#end document

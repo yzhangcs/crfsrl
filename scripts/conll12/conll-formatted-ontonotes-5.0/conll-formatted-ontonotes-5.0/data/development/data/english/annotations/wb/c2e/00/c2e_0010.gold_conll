@@ -1,0 +1,709 @@
+#begin document (wb/c2e/00/c2e_0010); part 000
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP   (TOP(FRAG(NP*)  -   -   -   -    (PERSON)   (5)
+wb/c2e/00/c2e_0010   0   1   20070107     CD            (NP*)  -   -   -   -      (DATE)    -
+wb/c2e/00/c2e_0010   0   2           .     .              *))  -   -   -   -          *     -
+
+wb/c2e/00/c2e_0010   0   0    bill   NNP  (TOP(FRAG(NP*   -   -   -   -   *   -
+wb/c2e/00/c2e_0010   0   1    shen   NNP            *)))  -   -   -   -   *   -
+
+wb/c2e/00/c2e_0010   0   0         Cloudy    JJ   (TOP(FRAG(ADJP*)  -   -   -    _bill_shen_           *   -
+wb/c2e/00/c2e_0010   0   1              ,     ,                 *   -   -   -    _bill_shen_           *   -
+wb/c2e/00/c2e_0010   0   2    temperature    NN         (FRAG(NP*)  -   -   -    _bill_shen_           *   -
+wb/c2e/00/c2e_0010   0   3        approx.    RB           (NP(QP*   -   -   -    _bill_shen_           *   -
+wb/c2e/00/c2e_0010   0   4             2     CD                 *)  -   -   -    _bill_shen_  (QUANTITY*   -
+wb/c2e/00/c2e_0010   0   5        degrees   NNS                *))  -   -   -    _bill_shen_           *)  -
+wb/c2e/00/c2e_0010   0   6              .     .                *))  -   -   -    _bill_shen_           *   -
+
+wb/c2e/00/c2e_0010   0    0       While     IN  (TOP(S(SBAR*       -    -   -    _bill_shen_          *            *   (ARGM-TMP*         *         *        -
+wb/c2e/00/c2e_0010   0    1    Qingqing    NNP        (S(NP*)      -    -   -    _bill_shen_    (PERSON)      (ARG0*)           *         *         *       (5)
+wb/c2e/00/c2e_0010   0    2         was    VBD          (VP*       -    -   -    _bill_shen_          *            *            *         *         *        -
+wb/c2e/00/c2e_0010   0    3     rinsing    VBG          (VP*    rinse  01   2    _bill_shen_          *          (V*)           *         *         *        -
+wb/c2e/00/c2e_0010   0    4         her   PRP$          (NP*       -    -   -    _bill_shen_          *       (ARG2*            *         *         *    (4|(5)
+wb/c2e/00/c2e_0010   0    5       mouth     NN             *)      -    -   -    _bill_shen_          *            *)           *         *         *        4)
+wb/c2e/00/c2e_0010   0    6         for     IN          (PP*       -    -   -    _bill_shen_          *   (ARGM-TMP*            *         *         *        -
+wb/c2e/00/c2e_0010   0    7         the     DT          (NP*       -    -   -    _bill_shen_          *            *            *         *         *        -
+wb/c2e/00/c2e_0010   0    8      second     JJ             *       -    -   -    _bill_shen_   (ORDINAL)           *            *         *         *        -
+wb/c2e/00/c2e_0010   0    9        time     NN            *))      -    -   -    _bill_shen_          *            *)           *         *         *        -
+wb/c2e/00/c2e_0010   0   10        last     JJ          (NP*       -    -   -    _bill_shen_     (TIME*   (ARGM-TMP*            *         *         *        -
+wb/c2e/00/c2e_0010   0   11       night     NN         *)))))      -    -   -    _bill_shen_          *)           *)           *)        *         *        -
+wb/c2e/00/c2e_0010   0   12           ,      ,             *       -    -   -    _bill_shen_          *            *            *         *         *        -
+wb/c2e/00/c2e_0010   0   13         mom    NNP          (NP*)      -    -   -    _bill_shen_          *            *       (ARG0*)        *         *       (1)
+wb/c2e/00/c2e_0010   0   14        said    VBD          (VP*      say  01   1    _bill_shen_          *            *          (V*)        *         *        -
+wb/c2e/00/c2e_0010   0   15           :      :             *       -    -   -    _bill_shen_          *            *            *         *         *        -
+wb/c2e/00/c2e_0010   0   16       leaks    VBZ     (S(VP(VP*     leak  01   2    _bill_shen_          *            *       (ARG1*       (V*)        *        -
+wb/c2e/00/c2e_0010   0   17         air     NN         (NP*))      -    -   -    _bill_shen_          *            *            *    (ARG1*)        *        -
+wb/c2e/00/c2e_0010   0   18         and     CC             *       -    -   -    _bill_shen_          *            *            *         *         *        -
+wb/c2e/00/c2e_0010   0   19       leaks    VBZ          (VP*     leak  01   2    _bill_shen_          *            *            *         *       (V*)       -
+wb/c2e/00/c2e_0010   0   20        rain     NN      (NP*)))))      -    -   -    _bill_shen_          *            *            *)        *    (ARG1*)       -
+wb/c2e/00/c2e_0010   0   21           .      .            *))      -    -   -    _bill_shen_          *            *            *         *         *        -
+
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP   (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)      (ARG1*)        *    (5)
+wb/c2e/00/c2e_0010   0   1         was   VBD         (VP*      be  01   1    _bill_shen_         *          (V*)        *     -
+wb/c2e/00/c2e_0010   0   2     unhappy    JJ       (ADJP*)     -    -   -    _bill_shen_         *       (ARG2*)        *     -
+wb/c2e/00/c2e_0010   0   3        upon    IN         (PP*      -    -   -    _bill_shen_         *   (ARGM-TMP*         *     -
+wb/c2e/00/c2e_0010   0   4     hearing   VBG       (S(VP*    hear  01   1    _bill_shen_         *            *       (V*)    -
+wb/c2e/00/c2e_0010   0   5        that    DT     (NP*)))))     -    -   -    _bill_shen_         *            *)   (ARG1*)    -
+wb/c2e/00/c2e_0010   0   6           .     .           *))     -    -   -    _bill_shen_         *            *         *     -
+
+wb/c2e/00/c2e_0010   0   0        She    PRP   (TOP(S(NP*)      -    -   -    _bill_shen_  *    (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   1    pounded    VBD         (VP*    pound  02   1    _bill_shen_  *       (V*)    -
+wb/c2e/00/c2e_0010   0   2        mom    NNP         (NP*)      -    -   -    _bill_shen_  *    (ARG1*)   (1)
+wb/c2e/00/c2e_0010   0   3       with     IN         (PP*       -    -   -    _bill_shen_  *    (ARG2*     -
+wb/c2e/00/c2e_0010   0   4        her   PRP$         (NP*       -    -   -    _bill_shen_  *         *    (5)
+wb/c2e/00/c2e_0010   0   5     little     JJ            *       -    -   -    _bill_shen_  *         *     -
+wb/c2e/00/c2e_0010   0   6      fists    NNS          *)))      -    -   -    _bill_shen_  *         *)    -
+wb/c2e/00/c2e_0010   0   7          .      .           *))      -    -   -    _bill_shen_  *         *     -
+
+wb/c2e/00/c2e_0010   0    0          Dad    NNP   (TOP(S(S(NP*)      -    -   -    _bill_shen_  *        (ARG0*)            *             *            *    (9)
+wb/c2e/00/c2e_0010   0    1         also     RB         (ADVP*)      -    -   -    _bill_shen_  *    (ARGM-ADV*)            *             *            *     -
+wb/c2e/00/c2e_0010   0    2      scolded    VBD           (VP*    scold  01   -    _bill_shen_  *           (V*)            *             *            *     -
+wb/c2e/00/c2e_0010   0    3          mom    NNP         (NP*)))      -    -   -    _bill_shen_  *        (ARG1*)            *             *            *    (1)
+wb/c2e/00/c2e_0010   0    4            :      :              *       -    -   -    _bill_shen_  *             *             *             *            *     -
+wb/c2e/00/c2e_0010   0    5          you    PRP         (S(NP*)      -    -   -    _bill_shen_  *             *        (ARG0*)       (ARG0*)           *    (1)
+wb/c2e/00/c2e_0010   0    6         also     RB         (ADVP*)      -    -   -    _bill_shen_  *             *    (ARGM-ADV*)   (ARGM-ADV*)           *     -
+wb/c2e/00/c2e_0010   0    7       leaked    VBD        (VP(VP*     leak  01   2    _bill_shen_  *             *           (V*)            *            *     -
+wb/c2e/00/c2e_0010   0    8          air     NN          (NP*))      -    -   -    _bill_shen_  *             *        (ARG1*)            *            *     -
+wb/c2e/00/c2e_0010   0    9          and     CC              *       -    -   -    _bill_shen_  *             *             *             *            *     -
+wb/c2e/00/c2e_0010   0   10       leaked    VBD           (VP*     leak  01   2    _bill_shen_  *             *             *           (V*)           *     -
+wb/c2e/00/c2e_0010   0   11         rain     NN          (NP*))      -    -   -    _bill_shen_  *             *             *        (ARG1*)           *     -
+wb/c2e/00/c2e_0010   0   12        while     IN         (SBAR*       -    -   -    _bill_shen_  *             *    (ARGM-TMP*    (ARGM-TMP*            *     -
+wb/c2e/00/c2e_0010   0   13         your   PRP$         (S(NP*       -    -   -    _bill_shen_  *             *             *             *       (ARG1*    (1)
+wb/c2e/00/c2e_0010   0   14    permanent     JJ              *       -    -   -    _bill_shen_  *             *             *             *            *     -
+wb/c2e/00/c2e_0010   0   15        teeth    NNS              *)      -    -   -    _bill_shen_  *             *             *             *            *)    -
+wb/c2e/00/c2e_0010   0   16         grew    VBD           (VP*     grow  01   2    _bill_shen_  *             *             *             *          (V*)    -
+wb/c2e/00/c2e_0010   0   17           in     IN           (PP*       -    -   -    _bill_shen_  *             *             *             *   (ARGM-TMP*     -
+wb/c2e/00/c2e_0010   0   18         your   PRP$           (NP*       -    -   -    _bill_shen_  *             *             *             *            *    (1)
+wb/c2e/00/c2e_0010   0   19    childhood     NN        *)))))))      -    -   -    _bill_shen_  *             *             *)            *)           *)    -
+wb/c2e/00/c2e_0010   0   20            .      .             *))      -    -   -    _bill_shen_  *             *             *             *            *     -
+
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP   (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)      (ARG0*)     (5)
+wb/c2e/00/c2e_0010   0   1      looked   VBD         (VP*    look  01   1    _bill_shen_         *          (V*)      -
+wb/c2e/00/c2e_0010   0   2          at    IN         (PP*      -    -   -    _bill_shen_         *       (ARG1*       -
+wb/c2e/00/c2e_0010   0   3         Mom   NNP        (NP*))     -    -   -    _bill_shen_         *            *)     (1)
+wb/c2e/00/c2e_0010   0   4        with    IN         (PP*      -    -   -    _bill_shen_         *   (ARGM-MNR*       -
+wb/c2e/00/c2e_0010   0   5       water    NN      (NP(NP*)     -    -   -    _bill_shen_         *            *      (2
+wb/c2e/00/c2e_0010   0   6          in    IN         (PP*      -    -   -    _bill_shen_         *            *       -
+wb/c2e/00/c2e_0010   0   7         the    DT         (NP*      -    -   -    _bill_shen_         *            *      (4
+wb/c2e/00/c2e_0010   0   8       mouth    NN        *)))))     -    -   -    _bill_shen_         *            *)   4)|2)
+wb/c2e/00/c2e_0010   0   9           .     .           *))     -    -   -    _bill_shen_         *            *       -
+
+wb/c2e/00/c2e_0010   0    0          At     IN  (TOP(S(PP*      -    -   -    _bill_shen_  *   (ARGM-TMP*         *         *         *     -
+wb/c2e/00/c2e_0010   0    1        last     RB     (ADVP*))     -    -   -    _bill_shen_  *            *)        *         *         *     -
+wb/c2e/00/c2e_0010   0    2           ,      ,           *      -    -   -    _bill_shen_  *            *         *         *         *     -
+wb/c2e/00/c2e_0010   0    3         she    PRP        (NP*)     -    -   -    _bill_shen_  *       (ARG0*)        *         *         *    (5)
+wb/c2e/00/c2e_0010   0    4        said    VBD        (VP*     say  01   1    _bill_shen_  *          (V*)        *         *         *     -
+wb/c2e/00/c2e_0010   0    5          to     IN        (PP*      -    -   -    _bill_shen_  *       (ARG2*         *         *         *     -
+wb/c2e/00/c2e_0010   0    6         mom    NNP       (NP*))     -    -   -    _bill_shen_  *            *)        *         *         *    (1)
+wb/c2e/00/c2e_0010   0    7       after     IN        (PP*      -    -   -    _bill_shen_  *   (ARGM-TMP*         *         *         *     -
+wb/c2e/00/c2e_0010   0    8    spitting    VBG      (S(VP*    spit  01   1    _bill_shen_  *            *       (V*)        *         *     -
+wb/c2e/00/c2e_0010   0    9          it    PRP        (NP*)     -    -   -    _bill_shen_  *            *    (ARG1*)        *         *    (2)
+wb/c2e/00/c2e_0010   0   10        into     IN        (PP*      -    -   -    _bill_shen_  *            *    (ARG2*         *         *     -
+wb/c2e/00/c2e_0010   0   11         the     DT        (NP*      -    -   -    _bill_shen_  *            *         *         *         *     -
+wb/c2e/00/c2e_0010   0   12       basin     NN       *)))))     -    -   -    _bill_shen_  *            *)        *)        *         *     -
+wb/c2e/00/c2e_0010   0   13           :      :           *      -    -   -    _bill_shen_  *            *         *         *         *     -
+wb/c2e/00/c2e_0010   0   14           I    PRP      (S(NP*)     -    -   -    _bill_shen_  *       (ARG1*         *    (ARG0*)   (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   15       meant    VBD        (VP*    mean  01   2    _bill_shen_  *            *         *       (V*)        *     -
+wb/c2e/00/c2e_0010   0   16          to     TO      (S(VP*      -    -   -    _bill_shen_  *            *         *    (ARG1*         *     -
+wb/c2e/00/c2e_0010   0   17        spew     VB        (VP*    spew  01   2    _bill_shen_  *            *         *         *       (V*)    -
+wb/c2e/00/c2e_0010   0   18          it    PRP        (NP*)     -    -   -    _bill_shen_  *            *         *         *    (ARG1*)   (2)
+wb/c2e/00/c2e_0010   0   19          on     IN        (PP*      -    -   -    _bill_shen_  *            *         *         *    (ARG2*     -
+wb/c2e/00/c2e_0010   0   20        your   PRP$        (NP*      -    -   -    _bill_shen_  *            *         *         *         *     -
+wb/c2e/00/c2e_0010   0   21        head     NN    *))))))))     -    -   -    _bill_shen_  *            *)        *         *)        *)    -
+wb/c2e/00/c2e_0010   0   22           .      .          *))     -    -   -    _bill_shen_  *            *         *         *         *     -
+
+wb/c2e/00/c2e_0010   0    0           Dad   NNP      (TOP(S(NP*)       -    -   -    _bill_shen_         *    (ARG0*)           *         *    (9)
+wb/c2e/00/c2e_0010   0    1       praised   VBD            (VP*    praise  01   -    _bill_shen_         *       (V*)           *         *     -
+wb/c2e/00/c2e_0010   0    2      Qingqing   NNP            (NP*)       -    -   -    _bill_shen_   (PERSON)   (ARG1*)      (ARG1*)   (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    3           for    IN            (PP*        -    -   -    _bill_shen_         *    (ARG2*            *         *     -
+wb/c2e/00/c2e_0010   0    4         being   VBG          (S(VP*        be  01   1    _bill_shen_         *         *          (V*)        *     -
+wb/c2e/00/c2e_0010   0    5    thoughtful    JJ          (ADJP*)       -    -   -    _bill_shen_         *         *       (ARG2*)        *     -
+wb/c2e/00/c2e_0010   0    6             :     :               *        -    -   -    _bill_shen_         *         *            *         *     -
+wb/c2e/00/c2e_0010   0    7       knowing   VBG          (S(VP*      know  01   1    _bill_shen_         *         *   (ARGM-ADV*       (V*)    -
+wb/c2e/00/c2e_0010   0    8          what    WP     (SBAR(WHNP*)       -    -   -    _bill_shen_         *         *            *    (ARG1*     -
+wb/c2e/00/c2e_0010   0    9           she   PRP          (S(NP*)       -    -   -    _bill_shen_         *         *            *         *    (5)
+wb/c2e/00/c2e_0010   0   10        should    MD            (VP*        -    -   -    _bill_shen_         *         *            *         *     -
+wb/c2e/00/c2e_0010   0   11            do    VB   (VP*))))))))))       do   -   1    _bill_shen_         *         *)           *)        *)    -
+wb/c2e/00/c2e_0010   0   12             .     .              *))       -    -   -    _bill_shen_         *         *            *         *     -
+
+wb/c2e/00/c2e_0010   0    0    Qingqing   NNP   (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)      (ARG0*)           *    (5)
+wb/c2e/00/c2e_0010   0    1      played   VBD         (VP*    play  01   1    _bill_shen_         *          (V*)           *     -
+wb/c2e/00/c2e_0010   0    2          in    IN         (PP*      -    -   -    _bill_shen_         *   (ARGM-LOC*            *     -
+wb/c2e/00/c2e_0010   0    3         bed    NN        (NP*))     -    -   -    _bill_shen_         *            *)           *     -
+wb/c2e/00/c2e_0010   0    4       after    IN         (PP*      -    -   -    _bill_shen_         *   (ARGM-TMP*            *     -
+wb/c2e/00/c2e_0010   0    5      waking   VBG       (S(VP*    wake  02   -    _bill_shen_         *            *          (V*)    -
+wb/c2e/00/c2e_0010   0    6          up    RP        (PRT*)     -    -   -    _bill_shen_         *            *            *     -
+wb/c2e/00/c2e_0010   0    7          in    IN         (PP*      -    -   -    _bill_shen_         *            *   (ARGM-TMP*     -
+wb/c2e/00/c2e_0010   0    8         the    DT         (NP*      -    -   -    _bill_shen_    (TIME*            *            *     -
+wb/c2e/00/c2e_0010   0    9     morning    NN       *))))))     -    -   -    _bill_shen_         *)           *)           *)    -
+wb/c2e/00/c2e_0010   0   10           .     .           *))     -    -   -    _bill_shen_         *            *            *     -
+
+wb/c2e/00/c2e_0010   0    0       Dad   NNP   (TOP(S(S(NP*)     -    -   -    _bill_shen_  *    (ARG0*)            *         *            *    (9)
+wb/c2e/00/c2e_0010   0    1    yelled   VBD          (VP*))   yell  01   -    _bill_shen_  *       (V*)            *         *            *     -
+wb/c2e/00/c2e_0010   0    2         ,     ,              *      -    -   -    _bill_shen_  *         *             *         *            *     -
+wb/c2e/00/c2e_0010   0    3       but    CC              *      -    -   -    _bill_shen_  *         *             *         *            *     -
+wb/c2e/00/c2e_0010   0    4       she   PRP         (S(NP*)     -    -   -    _bill_shen_  *         *        (ARG0*)   (ARG0*)      (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    5     would    MD           (VP*      -    -   -    _bill_shen_  *         *    (ARGM-MOD*)        *            *     -
+wb/c2e/00/c2e_0010   0    6       n't    RB              *      -    -   -    _bill_shen_  *         *    (ARGM-NEG*)        *            *     -
+wb/c2e/00/c2e_0010   0    7       get    VB        (VP(VP*     get  05   -    _bill_shen_  *         *           (V*)        *            *     -
+wb/c2e/00/c2e_0010   0    8        up    RP         (PRT*))     -    -   -    _bill_shen_  *         *    (ARGM-DIR*)        *            *     -
+wb/c2e/00/c2e_0010   0    9       and    CC              *      -    -   -    _bill_shen_  *         *             *         *            *     -
+wb/c2e/00/c2e_0010   0   10    wanted   VBD           (VP*    want  01   1    _bill_shen_  *         *             *       (V*)           *     -
+wb/c2e/00/c2e_0010   0   11        to    TO         (S(VP*      -    -   -    _bill_shen_  *         *             *    (ARG1*            *     -
+wb/c2e/00/c2e_0010   0   12      play    VB           (VP*    play  01   1    _bill_shen_  *         *             *         *          (V*)    -
+wb/c2e/00/c2e_0010   0   13         a    DT      (ADVP(NP*      -    -   -    _bill_shen_  *         *             *         *   (ARGM-TMP*     -
+wb/c2e/00/c2e_0010   0   14    little    JJ              *)     -    -   -    _bill_shen_  *         *             *         *            *     -
+wb/c2e/00/c2e_0010   0   15    longer   RBR       *))))))))     -    -   -    _bill_shen_  *         *             *         *)           *)    -
+wb/c2e/00/c2e_0010   0   16         .     .             *))     -    -   -    _bill_shen_  *         *             *         *            *     -
+
+wb/c2e/00/c2e_0010   0    0         Dad    NNP      (TOP(S(NP*)      -    -   -    _bill_shen_         *    (ARG0*)   (ARG0*)            *            *        *    (9)
+wb/c2e/00/c2e_0010   0    1      looked    VBD         (VP(VP*     look  01   1    _bill_shen_         *       (V*)        *             *            *        *     -
+wb/c2e/00/c2e_0010   0    2          at     IN            (PP*       -    -   -    _bill_shen_         *    (ARG1*         *             *            *        *     -
+wb/c2e/00/c2e_0010   0    3    Qingqing    NNP          (NP*)))      -    -   -    _bill_shen_   (PERSON)        *)        *             *            *        *    (5)
+wb/c2e/00/c2e_0010   0    4         and     CC               *       -    -   -    _bill_shen_         *         *         *             *            *        *     -
+wb/c2e/00/c2e_0010   0    5      teased    VBD            (VP*    tease  02   1    _bill_shen_         *         *       (V*)            *            *        *     -
+wb/c2e/00/c2e_0010   0    6    Qingqing    NNP            (NP*)      -    -   -    _bill_shen_   (PERSON)        *    (ARG1*)            *            *        *    (5)
+wb/c2e/00/c2e_0010   0    7           :      :               *       -    -   -    _bill_shen_         *         *         *             *            *        *     -
+wb/c2e/00/c2e_0010   0    8         how    WRB  (SBARQ(WHADVP*       -    -   -    _bill_shen_         *         *    (ARG2*    (ARGM-MNR*)  (ARGM-CAU*        *     -
+wb/c2e/00/c2e_0010   0    9        come     VB               *)    come  04   -    _bill_shen_         *         *         *           (V*)           *)       *     -
+wb/c2e/00/c2e_0010   0   10        this     DT         (SQ(NP*       -    -   -    _bill_shen_         *         *         *             *       (ARG0*   (ARG0*    (5
+wb/c2e/00/c2e_0010   0   11         kid     NN               *)      -    -   -    _bill_shen_         *         *         *             *            *)       *)    5)
+wb/c2e/00/c2e_0010   0   12       opens    VBZ            (VP*     open  01   1    _bill_shen_         *         *         *             *          (V*)       *     -
+wb/c2e/00/c2e_0010   0   13         her   PRP$            (NP*       -    -   -    _bill_shen_         *         *         *             *       (ARG1*        *    (5)
+wb/c2e/00/c2e_0010   0   14        eyes    NNS               *)      -    -   -    _bill_shen_         *         *         *             *            *)       *     -
+wb/c2e/00/c2e_0010   0   15       while     IN          (SBAR*       -    -   -    _bill_shen_         *         *         *             *   (ARGM-TMP*        *     -
+wb/c2e/00/c2e_0010   0   16    sleeping    VBG   (S(VP*))))))))   sleep  01   1    _bill_shen_         *         *         *)            *            *)     (V*)    -
+wb/c2e/00/c2e_0010   0   17           ?      .              *))      -    -   -    _bill_shen_         *         *         *             *            *        *     -
+
+wb/c2e/00/c2e_0010   0    0        How   WRB  (TOP(SBARQ(WHADVP*       -    -   -    _bill_shen_  *    (ARGM-MNR*)  (ARGM-CAU*        *    -
+wb/c2e/00/c2e_0010   0    1       come    VB                   *)    come  04   -    _bill_shen_  *           (V*)           *)       *    -
+wb/c2e/00/c2e_0010   0    2       this    DT             (SQ(NP*       -    -   -    _bill_shen_  *        (ARG1*       (ARG1*   (ARG0*   (5
+wb/c2e/00/c2e_0010   0    3        kid    NN                   *)      -    -   -    _bill_shen_  *             *)           *)       *)   5)
+wb/c2e/00/c2e_0010   0    4     sounds   VBZ                (VP*    sound  01   1    _bill_shen_  *             *          (V*)       *    -
+wb/c2e/00/c2e_0010   0    5       like    IN                (PP*       -    -   -    _bill_shen_  *             *       (ARG2*        *    -
+wb/c2e/00/c2e_0010   0    6          "    ``                (NP*       -    -   -    _bill_shen_  *             *            *        *    -
+wb/c2e/00/c2e_0010   0    7       enen    NN                   *       -    -   -    _bill_shen_  *             *            *        *    -
+wb/c2e/00/c2e_0010   0    8          "    ''                  *))      -    -   -    _bill_shen_  *             *            *)       *    -
+wb/c2e/00/c2e_0010   0    9      while    IN              (SBAR*       -    -   -    _bill_shen_  *             *   (ARGM-TMP*        *    -
+wb/c2e/00/c2e_0010   0   10    snoring   VBG          (S(VP*)))))   snore  01   -    _bill_shen_  *             *            *)     (V*)   -
+wb/c2e/00/c2e_0010   0   11          ?     .                  *))      -    -   -    _bill_shen_  *             *            *        *    -
+
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP   (TOP(S(NP*)      -    -   -    _bill_shen_   (PERSON)   (ARG0*)            *    (5)
+wb/c2e/00/c2e_0010   0   1        told   VBD         (VP*     tell  01   1    _bill_shen_         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0   2         dad   NNP         (NP*)      -    -   -    _bill_shen_         *    (ARG2*)            *    (9)
+wb/c2e/00/c2e_0010   0   3           :     :            *       -    -   -    _bill_shen_         *         *             *     -
+wb/c2e/00/c2e_0010   0   4           I   PRP       (S(NP*)      -    -   -    _bill_shen_         *    (ARG1*        (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   5          am   VBP         (VP*       -    -   -    _bill_shen_         *         *             *     -
+wb/c2e/00/c2e_0010   0   6        just    RB       (ADVP*)      -    -   -    _bill_shen_         *         *    (ARGM-ADV*)    -
+wb/c2e/00/c2e_0010   0   7     teasing   VBG         (VP*    tease  02   1    _bill_shen_         *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   8         you   PRP     (NP*)))))      -    -   -    _bill_shen_         *         *)       (ARG1*)   (9)
+wb/c2e/00/c2e_0010   0   9           .     .           *))      -    -   -    _bill_shen_         *         *             *     -
+
+wb/c2e/00/c2e_0010   0    0       After    IN  (TOP(S(SBAR*         -    -   -    _bill_shen_  *             *         *    (ARGM-TMP*        *     -
+wb/c2e/00/c2e_0010   0    1         she   PRP        (S(NP*)        -    -   -    _bill_shen_  *        (ARG1*)   (ARG0*)            *        *    (5)
+wb/c2e/00/c2e_0010   0    2         got   VBD       (VP(VP*        get  05   -    _bill_shen_  *           (V*)        *             *        *     -
+wb/c2e/00/c2e_0010   0    3          up    RP        (PRT*))        -    -   -    _bill_shen_  *    (ARGM-DIR*)        *             *        *     -
+wb/c2e/00/c2e_0010   0    4         and    CC             *         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0    5     dressed   VBD       (VP*))))     dress  01   -    _bill_shen_  *             *       (V*)            *)       *     -
+wb/c2e/00/c2e_0010   0    6           ,     ,             *         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0    7         she   PRP          (NP*)        -    -   -    _bill_shen_  *             *         *        (ARG0*)       *    (5)
+wb/c2e/00/c2e_0010   0    8       would    MD          (VP*         -    -   -    _bill_shen_  *             *         *    (ARGM-MOD*)       *     -
+wb/c2e/00/c2e_0010   0    9         n't    RB             *         -    -   -    _bill_shen_  *             *         *    (ARGM-NEG*)       *     -
+wb/c2e/00/c2e_0010   0   10         eat    VB          (VP*        eat  01   1    _bill_shen_  *             *         *           (V*)       *     -
+wb/c2e/00/c2e_0010   0   11         the    DT       (NP(NP*         -    -   -    _bill_shen_  *             *         *        (ARG1*   (ARG1*     -
+wb/c2e/00/c2e_0010   0   12         red    JJ     (NML(NML*         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   13        bean    NN             *         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   14        buns   NNS             *)        -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   15          or    CC             *         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   16         red    JJ         (NML*         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   17      sticky    JJ         (NML*         -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   18        rice    NN             *)        -    -   -    _bill_shen_  *             *         *             *        *     -
+wb/c2e/00/c2e_0010   0   19      congee    NN           *)))        -    -   -    _bill_shen_  *             *         *             *        *)    -
+wb/c2e/00/c2e_0010   0   20    prepared   VBN          (VP*    prepare  01   1    _bill_shen_  *             *         *             *      (V*)    -
+wb/c2e/00/c2e_0010   0   21          by    IN          (PP*         -    -   -    _bill_shen_  *             *         *             *   (ARG0*     -
+wb/c2e/00/c2e_0010   0   22         dad   NNP     (NP*))))))        -    -   -    _bill_shen_  *             *         *             *)       *)   (9)
+wb/c2e/00/c2e_0010   0   23           .     .            *))        -    -   -    _bill_shen_  *             *         *             *        *     -
+
+wb/c2e/00/c2e_0010   0    0      Instead    RB   (TOP(S(ADVP*)       -    -   -    _bill_shen_  *    (ARGM-ADV*)        *         *     -
+wb/c2e/00/c2e_0010   0    1          she   PRP           (NP*)       -    -   -    _bill_shen_  *        (ARG0*)        *    (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    2        asked   VBD        (VP(VP*       ask  02   1    _bill_shen_  *           (V*)        *         *     -
+wb/c2e/00/c2e_0010   0    3          for    IN           (PP*        -    -   -    _bill_shen_  *        (ARG1*         *         *     -
+wb/c2e/00/c2e_0010   0    4       soaked   VBN           (NP*      soak  01   -    _bill_shen_  *             *       (V*)        *     -
+wb/c2e/00/c2e_0010   0    5     biscuits   NNS            *)))       -    -   -    _bill_shen_  *             *)   (ARG1*)        *     -
+wb/c2e/00/c2e_0010   0    6          and    CC              *        -    -   -    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0    7          did   VBD           (VP*        do   -   1    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0    8     drawings   NNS           (NP*)       -    -   -    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0    9           in    IN           (PP*        -    -   -    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0   10          the    DT           (NP*        -    -   -    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0   11         room    NN             *))       -    -   -    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0   12        after    IN           (PP*        -    -   -    _bill_shen_  *             *         *         *     -
+wb/c2e/00/c2e_0010   0   13    finishing   VBG     (S(VP*)))))   finish  01   -    _bill_shen_  *             *         *       (V*)    -
+wb/c2e/00/c2e_0010   0   14            .     .             *))       -    -   -    _bill_shen_  *             *         *         *     -
+
+wb/c2e/00/c2e_0010   0    0       After    IN  (TOP(S(PP*      -    -   -    _bill_shen_         *   (ARGM-TMP*            *     -
+wb/c2e/00/c2e_0010   0    1           a    DT        (NP*      -    -   -    _bill_shen_         *            *            *     -
+wb/c2e/00/c2e_0010   0    2      simple    JJ           *      -    -   -    _bill_shen_         *            *            *     -
+wb/c2e/00/c2e_0010   0    3       lunch    NN          *))     -    -   -    _bill_shen_         *            *)           *     -
+wb/c2e/00/c2e_0010   0    4           ,     ,           *      -    -   -    _bill_shen_         *            *            *     -
+wb/c2e/00/c2e_0010   0    5    Qingqing   NNP        (NP*)     -    -   -    _bill_shen_   (PERSON)      (ARG0*)      (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    6      wanted   VBD        (VP*    want  01   1    _bill_shen_         *          (V*)           *     -
+wb/c2e/00/c2e_0010   0    7          to    TO      (S(VP*      -    -   -    _bill_shen_         *       (ARG1*            *     -
+wb/c2e/00/c2e_0010   0    8         buy    VB        (VP*     buy  01   1    _bill_shen_         *            *          (V*)    -
+wb/c2e/00/c2e_0010   0    9    stickers   NNS        (NP*)     -    -   -    _bill_shen_         *            *       (ARG1*)   (0)
+wb/c2e/00/c2e_0010   0   10          at    IN        (PP*      -    -   -    _bill_shen_         *            *   (ARGM-LOC*     -
+wb/c2e/00/c2e_0010   0   11    Jinsheng   NNP   (NP*))))))     -    -   -    _bill_shen_      (LOC)           *)           *)   (6)
+wb/c2e/00/c2e_0010   0   12           .     .          *))     -    -   -    _bill_shen_         *            *            *     -
+
+wb/c2e/00/c2e_0010   0    0              She    PRP   (TOP(S(NP*)     -    -   -    _bill_shen_  *       (ARG0*)       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    1           bumped    VBD      (VP(VP*    bump  01   2    _bill_shen_  *          (V*)            *     -
+wb/c2e/00/c2e_0010   0    2             into     IN         (PP*      -    -   -    _bill_shen_  *       (ARG1*             *     -
+wb/c2e/00/c2e_0010   0    3          grandma     NN        (NP*))     -    -   -    _bill_shen_  *            *)            *     -
+wb/c2e/00/c2e_0010   0    4               on     IN         (PP*      -    -   -    _bill_shen_  *   (ARGM-LOC*             *     -
+wb/c2e/00/c2e_0010   0    5              her   PRP$         (NP*      -    -   -    _bill_shen_  *            *             *    (5)
+wb/c2e/00/c2e_0010   0    6              way     NN          *)))     -    -   -    _bill_shen_  *            *)            *     -
+wb/c2e/00/c2e_0010   0    7              and     CC            *      -    -   -    _bill_shen_  *            *             *     -
+wb/c2e/00/c2e_0010   0    8             also     RB       (ADVP*)     -    -   -    _bill_shen_  *            *    (ARGM-ADV*)    -
+wb/c2e/00/c2e_0010   0    9              saw    VBD         (VP*     see  01   1    _bill_shen_  *            *           (V*)    -
+wb/c2e/00/c2e_0010   0   10                a     DT         (NP*      -    -   -    _bill_shen_  *            *        (ARG1*     -
+wb/c2e/00/c2e_0010   0   11             lost     JJ        (NML*      -    -   -    _bill_shen_  *            *             *     -
+wb/c2e/00/c2e_0010   0   12              dog     NN            *)     -    -   -    _bill_shen_  *            *             *     -
+wb/c2e/00/c2e_0010   0   13    advertisement     NN            *)     -    -   -    _bill_shen_  *            *             *)    -
+wb/c2e/00/c2e_0010   0   14               on     IN         (PP*      -    -   -    _bill_shen_  *            *    (ARGM-LOC*     -
+wb/c2e/00/c2e_0010   0   15                a     DT         (NP*      -    -   -    _bill_shen_  *            *             *     -
+wb/c2e/00/c2e_0010   0   16             wire     NN            *      -    -   -    _bill_shen_  *            *             *     -
+wb/c2e/00/c2e_0010   0   17             pole     NN         *))))     -    -   -    _bill_shen_  *            *             *)    -
+wb/c2e/00/c2e_0010   0   18                .      .           *))     -    -   -    _bill_shen_  *            *             *     -
+
+wb/c2e/00/c2e_0010   0    0         Dad   NNP   (TOP(S(S(NP*)       -    -   -    _bill_shen_         *    (ARG0*)            *             *           *    (9)
+wb/c2e/00/c2e_0010   0    1        read   VBD           (VP*      read  01   4    _bill_shen_         *       (V*)            *             *           *     -
+wb/c2e/00/c2e_0010   0    2          to    IN           (PP*        -    -   -    _bill_shen_         *    (ARG2*             *             *           *     -
+wb/c2e/00/c2e_0010   0    3    Qingqing   NNP        (NP*))))       -    -   -    _bill_shen_   (PERSON)        *)            *             *           *    (5)
+wb/c2e/00/c2e_0010   0    4           ,     ,              *        -    -   -    _bill_shen_         *         *             *             *           *     -
+wb/c2e/00/c2e_0010   0    5         and    CC              *        -    -   -    _bill_shen_         *         *             *             *           *     -
+wb/c2e/00/c2e_0010   0    6        then    RB       (S(ADVP*)       -    -   -    _bill_shen_         *         *    (ARGM-TMP*)   (ARGM-TMP*)          *     -
+wb/c2e/00/c2e_0010   0    7          we   PRP           (NP*)       -    -   -    _bill_shen_         *         *        (ARG1*)       (ARG0*)          *    (7)
+wb/c2e/00/c2e_0010   0    8     arrived   VBD        (VP(VP*    arrive  01   -    _bill_shen_         *         *           (V*)            *           *     -
+wb/c2e/00/c2e_0010   0    9          at    IN           (PP*        -    -   -    _bill_shen_         *         *        (ARG4*             *           *     -
+wb/c2e/00/c2e_0010   0   10    Jinrunfa   NNP          (NP*))       -    -   -    _bill_shen_      (FAC)        *             *)            *           *     -
+wb/c2e/00/c2e_0010   0   11          by    IN           (PP*        -    -   -    _bill_shen_         *         *    (ARGM-MNR*             *           *     -
+wb/c2e/00/c2e_0010   0   12     shuttle    NN           (NP*        -    -   -    _bill_shen_         *         *             *             *           *     -
+wb/c2e/00/c2e_0010   0   13         bus    NN            *)))       -    -   -    _bill_shen_         *         *             *)            *           *     -
+wb/c2e/00/c2e_0010   0   14           ,     ,              *        -    -   -    _bill_shen_         *         *             *             *           *     -
+wb/c2e/00/c2e_0010   0   15         but    CC              *        -    -   -    _bill_shen_         *         *             *             *           *     -
+wb/c2e/00/c2e_0010   0   16       could    MD           (VP*        -    -   -    _bill_shen_         *         *             *    (ARGM-MOD*)          *     -
+wb/c2e/00/c2e_0010   0   17         n't    RB              *        -    -   -    _bill_shen_         *         *             *    (ARGM-NEG*)          *     -
+wb/c2e/00/c2e_0010   0   18        find    VB           (VP*      find  01   1    _bill_shen_         *         *             *           (V*)          *     -
+wb/c2e/00/c2e_0010   0   19         the    DT        (NP(NP*        -    -   -    _bill_shen_         *         *             *        (ARG1*      (ARG1*    (0
+wb/c2e/00/c2e_0010   0   20    stickers   NNS              *)       -    -   -    _bill_shen_         *         *             *             *           *)    -
+wb/c2e/00/c2e_0010   0   21        that   WDT    (SBAR(WHNP*)       -    -   -    _bill_shen_         *         *             *             *    (R-ARG1*)    -
+wb/c2e/00/c2e_0010   0   22    Qingqing   NNP         (S(NP*)       -    -   -    _bill_shen_   (PERSON)        *             *             *      (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   23      wanted   VBD    (VP*))))))))     want  01   1    _bill_shen_         *         *             *             *)        (V*)    0)
+wb/c2e/00/c2e_0010   0   24           .     .             *))       -    -   -    _bill_shen_         *         *             *             *           *     -
+
+wb/c2e/00/c2e_0010   0    0          We   PRP      (TOP(S(NP*)     -    -   -    _bill_shen_      *        (ARG0*)            *       (7)
+wb/c2e/00/c2e_0010   0    1        then    RB          (ADVP*)     -    -   -    _bill_shen_      *    (ARGM-TMP*)            *        -
+wb/c2e/00/c2e_0010   0    2        went   VBD            (VP*      go  02   1    _bill_shen_      *           (V*)            *        -
+wb/c2e/00/c2e_0010   0    3          to    IN            (PP*      -    -   -    _bill_shen_      *        (ARG4*             *        -
+wb/c2e/00/c2e_0010   0    4    Jinsheng   NNP         (NP(NP*)     -    -   -    _bill_shen_   (LOC)            *             *       (6
+wb/c2e/00/c2e_0010   0    5           ,     ,               *      -    -   -    _bill_shen_      *             *             *        -
+wb/c2e/00/c2e_0010   0    6       where   WRB   (SBAR(WHADVP*)     -    -   -    _bill_shen_      *             *    (ARGM-LOC*)       -
+wb/c2e/00/c2e_0010   0    7          we   PRP          (S(NP*)     -    -   -    _bill_shen_      *             *        (ARG0*)      (7)
+wb/c2e/00/c2e_0010   0    8     finally    RB          (ADVP*)     -    -   -    _bill_shen_      *             *    (ARGM-TMP*)       -
+wb/c2e/00/c2e_0010   0    9       found   VBD            (VP*    find  01   1    _bill_shen_      *             *           (V*)       -
+wb/c2e/00/c2e_0010   0   10        them   PRP      (NP*)))))))     -    -   -    _bill_shen_      *             *)       (ARG1*)   (0)|6)
+wb/c2e/00/c2e_0010   0   11           .     .              *))     -    -   -    _bill_shen_      *             *             *        -
+
+wb/c2e/00/c2e_0010   0   0        Dad   NNP   (TOP(S(NP*)    -    -   -    _bill_shen_           *    (ARG0*)   (9)
+wb/c2e/00/c2e_0010   0   1     bought   VBD         (VP*    buy  01   1    _bill_shen_           *       (V*)    -
+wb/c2e/00/c2e_0010   0   2       four    CD         (NP*     -    -   -    _bill_shen_   (CARDINAL)   (ARG1*     -
+wb/c2e/00/c2e_0010   0   3    volumes   NNS           *))    -    -   -    _bill_shen_           *         *)    -
+wb/c2e/00/c2e_0010   0   4          :     :            *     -    -   -    _bill_shen_           *         *     -
+wb/c2e/00/c2e_0010   0   5          .     .           *))    -    -   -    _bill_shen_           *         *     -
+
+wb/c2e/00/c2e_0010   0   0        One    CD   (TOP(NP(NP*)  -   -   -    _bill_shen_   (CARDINAL)    -
+wb/c2e/00/c2e_0010   0   1        for    IN          (PP*   -   -   -    _bill_shen_           *     -
+wb/c2e/00/c2e_0010   0   2       each    DT       (NP(NP*)  -   -   -    _bill_shen_           *     -
+wb/c2e/00/c2e_0010   0   3         of    IN          (PP*   -   -   -    _bill_shen_           *     -
+wb/c2e/00/c2e_0010   0   4        her   PRP          (NP*   -   -   -    _bill_shen_           *    (5)
+wb/c2e/00/c2e_0010   0   5        two    CD             *   -   -   -    _bill_shen_   (CARDINAL)    -
+wb/c2e/00/c2e_0010   0   6    sisters   NNS          *))))  -   -   -    _bill_shen_           *     -
+wb/c2e/00/c2e_0010   0   7          .     .            *))  -   -   -    _bill_shen_           *     -
+
+wb/c2e/00/c2e_0010   0    0             One     CD   (TOP(NP(NP(NP*)      -    -   -    _bill_shen_   (CARDINAL)   (ARG1*)    -
+wb/c2e/00/c2e_0010   0    1              to     TO      (SBAR(S(VP*       -    -   -    _bill_shen_           *         *     -
+wb/c2e/00/c2e_0010   0    2              be     VB             (VP*       -    -   -    _bill_shen_           *         *     -
+wb/c2e/00/c2e_0010   0    3          placed    VBN             (VP*    place  01   -    _bill_shen_           *       (V*)    -
+wb/c2e/00/c2e_0010   0    4              at     IN             (PP*       -    -   -    _bill_shen_           *    (ARG2*     -
+wb/c2e/00/c2e_0010   0    5        Qingqing    NNP          (NP(NP*       -    -   -    _bill_shen_           *         *    (5
+wb/c2e/00/c2e_0010   0    6              's    POS                *)      -    -   -    _bill_shen_           *         *     5)
+wb/c2e/00/c2e_0010   0    7            home     NN         *))))))))      -    -   -    _bill_shen_           *         *)    -
+wb/c2e/00/c2e_0010   0    8             and     CC                *       -    -   -    _bill_shen_           *         *     -
+wb/c2e/00/c2e_0010   0    9             one     CD          (NP(NP*)      -    -   -    _bill_shen_   (CARDINAL)        *     -
+wb/c2e/00/c2e_0010   0   10              at     IN             (PP*       -    -   -    _bill_shen_           *         *     -
+wb/c2e/00/c2e_0010   0   11             her   PRP$             (NP*       -    -   -    _bill_shen_           *         *    (5)
+wb/c2e/00/c2e_0010   0   12    kindergarten     NN              *)))      -    -   -    _bill_shen_           *         *     -
+wb/c2e/00/c2e_0010   0   13               .      .               *))      -    -   -    _bill_shen_           *         *     -
+
+wb/c2e/00/c2e_0010   0   0      Qingqing   NNP   (TOP(S(NP*)        -    -   -    _bill_shen_   (PERSON)      (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   1      arranged   VBD         (VP*    arrange  01   1    _bill_shen_         *          (V*)    -
+wb/c2e/00/c2e_0010   0   2    everything    NN         (NP*)        -    -   -    _bill_shen_         *       (ARG1*)    -
+wb/c2e/00/c2e_0010   0   3          very    RB       (ADVP*         -    -   -    _bill_shen_         *   (ARGM-MNR*     -
+wb/c2e/00/c2e_0010   0   4          well    RB           *))        -    -   -    _bill_shen_         *            *)    -
+wb/c2e/00/c2e_0010   0   5             .     .           *))        -    -   -    _bill_shen_         *            *     -
+
+wb/c2e/00/c2e_0010   0   0      We   PRP   (TOP(S(NP*)     -    -   -    _bill_shen_  *       (ARG0*)   (ARG0*)   (11)
+wb/c2e/00/c2e_0010   0   1     got   VBD         (VP*     get  05   -    _bill_shen_  *          (V*)        *      -
+wb/c2e/00/c2e_0010   0   2      on    IN         (PP*      -    -   -    _bill_shen_  *       (ARG2*         *      -
+wb/c2e/00/c2e_0010   0   3     the    DT         (NP*      -    -   -    _bill_shen_  *            *         *     (8
+wb/c2e/00/c2e_0010   0   4     bus    NN           *))     -    -   -    _bill_shen_  *            *)        *      8)
+wb/c2e/00/c2e_0010   0   5      to    TO       (S(VP*      -    -   -    _bill_shen_  *   (ARGM-PRP*         *      -
+wb/c2e/00/c2e_0010   0   6    dine    VB         (VP*    dine  02   1    _bill_shen_  *            *       (V*)     -
+wb/c2e/00/c2e_0010   0   7     out    RP    (PRT*)))))     -    -   -    _bill_shen_  *            *)        *      -
+wb/c2e/00/c2e_0010   0   8       .     .           *))     -    -   -    _bill_shen_  *            *         *      -
+
+wb/c2e/00/c2e_0010   0    0         Mom   NNP   (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)   (ARG0*)       *    (1)
+wb/c2e/00/c2e_0010   0    1       asked   VBD         (VP*     ask  02   1    _bill_shen_         *       (V*)       *     -
+wb/c2e/00/c2e_0010   0    2    Qingqing   NNP         (NP*)     -    -   -    _bill_shen_   (PERSON)   (ARG2*)       *    (5)
+wb/c2e/00/c2e_0010   0    3          to    TO       (S(VP*      -    -   -    _bill_shen_         *    (ARG1*        *     -
+wb/c2e/00/c2e_0010   0    4        make    VB         (VP*    make   -   1    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0    5           a    DT      (NP(NP*      -    -   -    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0    6      choice    NN            *)     -    -   -    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0    7           :     :            *      -    -   -    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0    8          is   VBZ         (SQ*      be  01   1    _bill_shen_         *         *      (V*)    -
+wb/c2e/00/c2e_0010   0    9         the    DT      (NP(NP*      -    -   -    _bill_shen_         *         *   (ARG1*     -
+wb/c2e/00/c2e_0010   0   10        back    NN            *)     -    -   -    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0   11          of    IN         (PP*      -    -   -    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0   12         the    DT         (NP*      -    -   -    _bill_shen_         *         *        *    (8
+wb/c2e/00/c2e_0010   0   13         bus    NN          *)))     -    -   -    _bill_shen_         *         *        *)    8)
+wb/c2e/00/c2e_0010   0   14       empty    JJ       (ADJP*      -    -   -    _bill_shen_         *         *   (ARG2*     -
+wb/c2e/00/c2e_0010   0   15          or    CC            *      -    -   -    _bill_shen_         *         *        *     -
+wb/c2e/00/c2e_0010   0   16        full    JJ      *)))))))     -    -   -    _bill_shen_         *         *)       *)    -
+wb/c2e/00/c2e_0010   0   17           .     .           *))     -    -   -    _bill_shen_         *         *        *     -
+
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP   (TOP(S(NP*)       -    -   -    _bill_shen_   (PERSON)       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   1       first    RB       (ADVP*)       -    -   -    _bill_shen_         *    (ARGM-TMP*)    -
+wb/c2e/00/c2e_0010   0   2       chose   VBD         (VP*    choose  01   1    _bill_shen_         *           (V*)    -
+wb/c2e/00/c2e_0010   0   3           "    ``            *        -    -   -    _bill_shen_         *             *     -
+wb/c2e/00/c2e_0010   0   4        full    JJ        (NP*))       -    -   -    _bill_shen_         *        (ARG1*)    -
+wb/c2e/00/c2e_0010   0   5           .     .            *        -    -   -    _bill_shen_         *             *     -
+wb/c2e/00/c2e_0010   0   6           "    ''           *))       -    -   -    _bill_shen_         *             *     -
+
+wb/c2e/00/c2e_0010   0    0        When   WRB   (TOP(S(SBAR(WHADVP*)       -    -   -    _bill_shen_         *    (ARGM-TMP*)        *             *         *     -
+wb/c2e/00/c2e_0010   0    1          it   PRP                (S(NP*)       -    -   -    _bill_shen_         *        (ARG1*)        *             *         *    (8)
+wb/c2e/00/c2e_0010   0    2         was   VBD                  (VP*        be  01   4    _bill_shen_         *           (V*)        *             *         *     -
+wb/c2e/00/c2e_0010   0    3      almost    RB                (ADVP*        -    -   -    _bill_shen_         *        (ARG2*         *             *         *     -
+wb/c2e/00/c2e_0010   0    4       there    RB                  *))))       -    -   -    _bill_shen_         *             *)        *             *         *     -
+wb/c2e/00/c2e_0010   0    5           ,     ,                     *        -    -   -    _bill_shen_         *             *         *             *         *     -
+wb/c2e/00/c2e_0010   0    6         Mom   NNP                (S(NP*)       -    -   -    _bill_shen_   (PERSON)            *    (ARG0*)            *         *    (1)
+wb/c2e/00/c2e_0010   0    7       asked   VBD                  (VP*       ask  02   1    _bill_shen_         *             *       (V*)            *         *     -
+wb/c2e/00/c2e_0010   0    8    Qingqing   NNP                  (NP*)       -    -   -    _bill_shen_   (PERSON)            *    (ARG2*)       (ARG0*)        *    (5)
+wb/c2e/00/c2e_0010   0    9          to    TO                (S(VP*        -    -   -    _bill_shen_         *             *    (ARG1*             *         *     -
+wb/c2e/00/c2e_0010   0   10      choose    VB                  (VP*    choose  01   1    _bill_shen_         *             *         *           (V*)        *     -
+wb/c2e/00/c2e_0010   0   11       again    RB           (ADVP*))))))       -    -   -    _bill_shen_         *             *         *)   (ARGM-TMP*)        *     -
+wb/c2e/00/c2e_0010   0   12           ,     ,                     *        -    -   -    _bill_shen_         *             *         *             *         *     -
+wb/c2e/00/c2e_0010   0   13         and    CC                     *        -    -   -    _bill_shen_         *             *         *             *         *     -
+wb/c2e/00/c2e_0010   0   14    Qingqing   NNP                (S(NP*)       -    -   -    _bill_shen_   (PERSON)            *         *             *    (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   15       chose   VBD                  (VP*    choose  01   1    _bill_shen_         *             *         *             *       (V*)    -
+wb/c2e/00/c2e_0010   0   16           "    ``                     *        -    -   -    _bill_shen_         *             *         *             *         *     -
+wb/c2e/00/c2e_0010   0   17       empty    JJ                (NP*)))       -    -   -    _bill_shen_         *             *         *             *    (ARG1*)    -
+wb/c2e/00/c2e_0010   0   18           .     .                     *        -    -   -    _bill_shen_         *             *         *             *         *     -
+wb/c2e/00/c2e_0010   0   19           "    ''                    *))       -    -   -    _bill_shen_         *             *         *             *         *     -
+
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP   (TOP(S(NP*)    -    -   -    _bill_shen_   (PERSON)      (ARG0*)       (ARG1*)        *    (5)
+wb/c2e/00/c2e_0010   0   1        said   VBD         (VP*    say  01   1    _bill_shen_         *          (V*)            *         *     -
+wb/c2e/00/c2e_0010   0   2       after    IN         (PP*     -    -   -    _bill_shen_         *   (ARGM-TMP*             *         *     -
+wb/c2e/00/c2e_0010   0   3     getting   VBG       (S(VP*    get  05   -    _bill_shen_         *            *           (V*)        *     -
+wb/c2e/00/c2e_0010   0   4         off    RP     (PRT*))))    -    -   -    _bill_shen_         *            *)   (ARGM-DIR*)        *     -
+wb/c2e/00/c2e_0010   0   5           :     :            *     -    -   -    _bill_shen_         *            *             *         *     -
+wb/c2e/00/c2e_0010   0   6           I   PRP       (S(NP*)    -    -   -    _bill_shen_         *       (ARG1*             *    (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   7         won   VBD       (VP*)))   win  01   1    _bill_shen_         *            *)            *       (V*)    -
+wb/c2e/00/c2e_0010   0   8           .     .           *))    -    -   -    _bill_shen_         *            *             *         *     -
+
+wb/c2e/00/c2e_0010   0    0              Mom   NNP   (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)   (ARG0*)            *         *             *    (1)
+wb/c2e/00/c2e_0010   0    1             said   VBD         (VP*     say  01   1    _bill_shen_         *       (V*)            *         *             *     -
+wb/c2e/00/c2e_0010   0    2                :     :            *      -    -   -    _bill_shen_         *         *             *         *             *     -
+wb/c2e/00/c2e_0010   0    3                I   PRP     (S(S(NP*)     -    -   -    _bill_shen_         *    (ARG1*        (ARG0*)        *             *    (1)
+wb/c2e/00/c2e_0010   0    4    intentionally    RB       (ADVP*)     -    -   -    _bill_shen_         *         *    (ARGM-MNR*)        *             *     -
+wb/c2e/00/c2e_0010   0    5              let   VBP         (VP*     let  01   1    _bill_shen_         *         *           (V*)        *             *     -
+wb/c2e/00/c2e_0010   0    6              you   PRP       (S(NP*)     -    -   -    _bill_shen_         *         *        (ARG1*    (ARG0*)            *    (5)
+wb/c2e/00/c2e_0010   0    7              win    VB      (VP*))))    win  01   1    _bill_shen_         *         *             *)      (V*)            *     -
+wb/c2e/00/c2e_0010   0    8                ,     ,            *      -    -   -    _bill_shen_         *         *             *         *             *     -
+wb/c2e/00/c2e_0010   0    9        otherwise    RB     (S(ADVP*)     -    -   -    _bill_shen_         *         *             *         *    (ARGM-DIS*)    -
+wb/c2e/00/c2e_0010   0   10              you   PRP         (NP*)     -    -   -    _bill_shen_         *         *             *         *        (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   11             will    MD         (VP*      -    -   -    _bill_shen_         *         *             *         *    (ARGM-MOD*)    -
+wb/c2e/00/c2e_0010   0   12             lose    VB     (VP*)))))   lose  03   2    _bill_shen_         *         *)            *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   13                .     .           *))     -    -   -    _bill_shen_         *         *             *         *             *     -
+
+wb/c2e/00/c2e_0010   0    0    Qingqing   NNP   (TOP(S(S(NP*)     -    -    -    _bill_shen_   (PERSON)   (ARG0*)      (ARG0*)           *             *    (5)
+wb/c2e/00/c2e_0010   0    1      wanted   VBD           (VP*    want  01    1    _bill_shen_         *       (V*)           *            *             *     -
+wb/c2e/00/c2e_0010   0    2          to    TO         (S(VP*      -    -    -    _bill_shen_         *    (ARG1*            *            *             *     -
+wb/c2e/00/c2e_0010   0    3         pee    VB           (VP*     pee  01    -    _bill_shen_         *         *          (V*)           *             *     -
+wb/c2e/00/c2e_0010   0    4          on    IN           (PP*      -    -    -    _bill_shen_         *         *   (ARGM-LOC*            *             *     -
+wb/c2e/00/c2e_0010   0    5         the    DT           (NP*      -    -    -    _bill_shen_         *         *            *            *             *     -
+wb/c2e/00/c2e_0010   0    6         way    NN        *)))))))     -    -    -    _bill_shen_         *         *)           *)           *             *     -
+wb/c2e/00/c2e_0010   0    7           ,     ,              *      -    -    -    _bill_shen_         *         *            *            *             *     -
+wb/c2e/00/c2e_0010   0    8         dad   NNP         (S(NP*)     -    -    -    _bill_shen_   (PERSON)        *            *       (ARG0*)            *    (9)
+wb/c2e/00/c2e_0010   0    9         had   VBD           (VP*    have   -   12    _bill_shen_         *         *            *            *             *     -
+wb/c2e/00/c2e_0010   0   10          to    TO         (S(VP*      -    -    -    _bill_shen_         *         *            *            *             *     -
+wb/c2e/00/c2e_0010   0   11        hold    VB           (VP*    hold  01    1    _bill_shen_         *         *            *          (V*)            *     -
+wb/c2e/00/c2e_0010   0   12    Qingqing   NNP           (NP*)     -    -    -    _bill_shen_   (PERSON)        *            *       (ARG1*)       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   13          to    TO         (S(VP*      -    -    -    _bill_shen_         *         *            *   (ARGM-PRP*             *     -
+wb/c2e/00/c2e_0010   0   14         pee    VB           (VP*     pee  01    -    _bill_shen_         *         *            *            *           (V*)    -
+wb/c2e/00/c2e_0010   0   15          by    IN           (PP*      -    -    -    _bill_shen_         *         *            *            *    (ARGM-LOC*)    -
+wb/c2e/00/c2e_0010   0   16         the    DT           (NP*      -    -    -    _bill_shen_         *         *            *            *             *     -
+wb/c2e/00/c2e_0010   0   17        tree    NN     *))))))))))     -    -    -    _bill_shen_         *         *            *            *)            *     -
+wb/c2e/00/c2e_0010   0   18           .     .             *))     -    -    -    _bill_shen_         *         *            *            *             *     -
+
+wb/c2e/00/c2e_0010   0    0          It   PRP   (TOP(S(S(NP*)     -    -   -    _bill_shen_         *    (ARG1*)            *     -
+wb/c2e/00/c2e_0010   0    1         was   VBD           (VP*      be  01   1    _bill_shen_         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0    2        very    RB         (ADJP*      -    -   -    _bill_shen_         *    (ARG2*             *     -
+wb/c2e/00/c2e_0010   0    3        cold    JJ            *)))     -    -   -    _bill_shen_         *         *)            *     -
+wb/c2e/00/c2e_0010   0    4           ,     ,              *      -    -   -    _bill_shen_         *         *             *     -
+wb/c2e/00/c2e_0010   0    5         and    CC              *      -    -   -    _bill_shen_         *         *             *     -
+wb/c2e/00/c2e_0010   0    6         dad   NNP         (S(NP*)     -    -   -    _bill_shen_   (PERSON)        *        (ARG0*)   (9)
+wb/c2e/00/c2e_0010   0    7      tidied   VBD           (VP*    tidy  01   -    _bill_shen_         *         *           (V*)    -
+wb/c2e/00/c2e_0010   0    8    Qingqing   NNP        (NP(NP*      -    -   -    _bill_shen_   (PERSON)        *        (ARG1*    (5
+wb/c2e/00/c2e_0010   0    9          's   POS              *)     -    -   -    _bill_shen_         *         *             *     5)
+wb/c2e/00/c2e_0010   0   10       pants   NNS              *)     -    -   -    _bill_shen_         *         *             *)    -
+wb/c2e/00/c2e_0010   0   11     quickly    RB       (ADVP*)))     -    -   -    _bill_shen_         *         *    (ARGM-MNR*)    -
+wb/c2e/00/c2e_0010   0   12           .     .             *))     -    -   -    _bill_shen_         *         *             *     -
+
+wb/c2e/00/c2e_0010   0    0    Qingqing   NNP   (TOP(S(NP*)       -    -   -    _bill_shen_   (PERSON)      (ARG0*)   (ARG0*)        *     (5)
+wb/c2e/00/c2e_0010   0    1      wanted   VBD         (VP*      want  01   1    _bill_shen_         *          (V*)        *         *      -
+wb/c2e/00/c2e_0010   0    2          to    TO       (S(VP*        -    -   -    _bill_shen_         *       (ARG1*         *         *      -
+wb/c2e/00/c2e_0010   0    3        play    VB         (VP*      play  01   1    _bill_shen_         *            *       (V*)        *      -
+wb/c2e/00/c2e_0010   0    4        with    IN         (PP*        -    -   -    _bill_shen_         *            *    (ARG1*         *      -
+wb/c2e/00/c2e_0010   0    5         the    DT         (NP*        -    -   -    _bill_shen_         *            *         *         *      -
+wb/c2e/00/c2e_0010   0    6     sticker    NN        *)))))       -    -   -    _bill_shen_         *            *)        *)        *      -
+wb/c2e/00/c2e_0010   0    7       after    IN       (SBAR*        -    -   -    _bill_shen_         *   (ARGM-TMP*         *         *      -
+wb/c2e/00/c2e_0010   0    8          we   PRP       (S(NP*)       -    -   -    _bill_shen_         *            *         *    (ARG1*)   (11)
+wb/c2e/00/c2e_0010   0    9     arrived   VBD         (VP*    arrive  01   -    _bill_shen_         *            *         *       (V*)     -
+wb/c2e/00/c2e_0010   0   10          at    IN         (PP*        -    -   -    _bill_shen_         *            *         *    (ARG4*      -
+wb/c2e/00/c2e_0010   0   11         the    DT         (NP*        -    -   -    _bill_shen_         *            *         *         *      -
+wb/c2e/00/c2e_0010   0   12       hotel    NN       *))))))       -    -   -    _bill_shen_         *            *)        *         *)     -
+wb/c2e/00/c2e_0010   0   13           .     .           *))       -    -   -    _bill_shen_         *            *         *         *      -
+
+wb/c2e/00/c2e_0010   0    0           Dad   NNP   (TOP(S(S(NP*)        -    -   -    _bill_shen_   (PERSON)   (ARG0*)            *         *             *    (9)
+wb/c2e/00/c2e_0010   0    1     discussed   VBD           (VP*    discuss  01   -    _bill_shen_         *       (V*)            *         *             *     -
+wb/c2e/00/c2e_0010   0    2    conditions   NNS           (NP*)        -    -   -    _bill_shen_         *    (ARG1*)            *         *             *     -
+wb/c2e/00/c2e_0010   0    3          with    IN           (PP*         -    -   -    _bill_shen_         *    (ARG2*             *         *             *     -
+wb/c2e/00/c2e_0010   0    4      Qingqing   NNP        (NP*))))        -    -   -    _bill_shen_   (PERSON)        *)            *         *             *    (5)
+wb/c2e/00/c2e_0010   0    5             :     :              *         -    -   -    _bill_shen_         *         *             *         *             *     -
+wb/c2e/00/c2e_0010   0    6           dad   NNP         (S(NP*)        -    -   -    _bill_shen_   (PERSON)        *        (ARG0*)        *             *    (9)
+wb/c2e/00/c2e_0010   0    7          will    MD           (VP*         -    -   -    _bill_shen_         *         *    (ARGM-MOD*)        *             *     -
+wb/c2e/00/c2e_0010   0    8           let    VB           (VP*        let  01   1    _bill_shen_         *         *           (V*)        *             *     -
+wb/c2e/00/c2e_0010   0    9           you   PRP         (S(NP*)        -    -   -    _bill_shen_         *         *        (ARG1*    (ARG0*)            *    (5)
+wb/c2e/00/c2e_0010   0   10          play    VB          (VP*))      play  01   1    _bill_shen_         *         *             *)      (V*)            *     -
+wb/c2e/00/c2e_0010   0   11            if    IN         (SBAR*         -    -   -    _bill_shen_         *         *    (ARGM-ADV*         *             *     -
+wb/c2e/00/c2e_0010   0   12           you   PRP         (S(NP*)        -    -   -    _bill_shen_         *         *             *         *        (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   13           eat   VBP           (VP*        eat  01   1    _bill_shen_         *         *             *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   14          well    RB   (ADVP*)))))))        -    -   -    _bill_shen_         *         *             *)        *    (ARGM-MNR*)    -
+wb/c2e/00/c2e_0010   0   15             .     .             *))        -    -   -    _bill_shen_         *         *             *         *             *     -
+
+wb/c2e/00/c2e_0010   0   0    Qingqing   NNP    (TOP(S(NP*)      -    -   -    _bill_shen_   (PERSON)   (ARG0*)   (ARG0*)       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   1      agreed   VBD       (VP(VP*)   agree  01   3    _bill_shen_         *       (V*)        *             *     -
+wb/c2e/00/c2e_0010   0   2         and    CC             *       -    -   -    _bill_shen_         *         *         *             *     -
+wb/c2e/00/c2e_0010   0   3       began   VBD          (VP*    begin  01   2    _bill_shen_         *         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0   4          to    TO        (S(VP*       -    -   -    _bill_shen_         *         *    (ARG1*             *     -
+wb/c2e/00/c2e_0010   0   5        play    VB          (VP*     play  01   1    _bill_shen_         *         *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   6       again    RB   (ADVP*))))))      -    -   -    _bill_shen_         *         *         *)   (ARGM-ADV*)    -
+wb/c2e/00/c2e_0010   0   7           .     .            *))      -    -   -    _bill_shen_         *         *         *             *     -
+
+wb/c2e/00/c2e_0010   0    0         Mom   NNP      (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)   (ARG0*)        *         *         *         *             *    (1)
+wb/c2e/00/c2e_0010   0    1        said   VBD            (VP*     say  01   1    _bill_shen_         *       (V*)        *         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    2         she   PRP   (SBAR(S(S(NP*)     -    -   -    _bill_shen_         *    (ARG1*    (ARG0*)   (ARG0*)        *         *             *    (1)
+wb/c2e/00/c2e_0010   0    3      wanted   VBD            (VP*    want  01   1    _bill_shen_         *         *       (V*)        *         *         *             *     -
+wb/c2e/00/c2e_0010   0    4          to    TO          (S(VP*      -    -   -    _bill_shen_         *         *    (ARG1*         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    5        swap    VB            (VP*    swap  01   1    _bill_shen_         *         *         *       (V*)        *         *             *     -
+wb/c2e/00/c2e_0010   0    6          to    IN            (PP*      -    -   -    _bill_shen_         *         *         *    (ARG3*         *         *             *     -
+wb/c2e/00/c2e_0010   0    7     another    DT            (NP*      -    -   -    _bill_shen_         *         *         *         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    8       place    NN         *)))))))     -    -   -    _bill_shen_         *         *         *)        *)        *         *             *     -
+wb/c2e/00/c2e_0010   0    9           ,     ,               *      -    -   -    _bill_shen_         *         *         *         *         *         *             *     -
+wb/c2e/00/c2e_0010   0   10         but    CC               *      -    -   -    _bill_shen_         *         *         *         *         *         *             *     -
+wb/c2e/00/c2e_0010   0   11         dad   NNP          (S(NP*)     -    -   -    _bill_shen_   (PERSON)        *         *         *    (ARG0*)   (ARG0*)            *    (9)
+wb/c2e/00/c2e_0010   0   12      wanted   VBD            (VP*    want  01   1    _bill_shen_         *         *         *         *       (V*)        *             *     -
+wb/c2e/00/c2e_0010   0   13          to    TO          (S(VP*      -    -   -    _bill_shen_         *         *         *         *    (ARG1*         *             *     -
+wb/c2e/00/c2e_0010   0   14         let    VB            (VP*     let  01   1    _bill_shen_         *         *         *         *         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0   15    Qingqing   NNP          (S(NP*)     -    -   -    _bill_shen_   (PERSON)        *         *         *         *    (ARG1*        (ARG1*)   (5)
+wb/c2e/00/c2e_0010   0   16        stay    VB            (VP*    stay  01   1    _bill_shen_         *         *         *         *         *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   17      longer   RBR          (ADVP*)     -    -   -    _bill_shen_         *         *         *         *         *         *    (ARGM-TMP*)    -
+wb/c2e/00/c2e_0010   0   18          in    IN            (PP*      -    -   -    _bill_shen_         *         *         *         *         *         *    (ARGM-LOC*     -
+wb/c2e/00/c2e_0010   0   19         the    DT            (NP*      -    -   -    _bill_shen_         *         *         *         *         *         *             *     -
+wb/c2e/00/c2e_0010   0   20         sun    NN    *))))))))))))     -    -   -    _bill_shen_         *         *)        *         *         *)        *)            *)    -
+wb/c2e/00/c2e_0010   0   21           .     .              *))     -    -   -    _bill_shen_         *         *         *         *         *         *             *     -
+
+wb/c2e/00/c2e_0010   0    0    Qingqing   NNP   (TOP(S(NP*)     -    -   -    _bill_shen_   (PERSON)   (ARG1*)   (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    1         was   VBD         (VP*      be  01   1    _bill_shen_         *       (V*)        *     -
+wb/c2e/00/c2e_0010   0    2          so    RB  (ADJP(ADJP*      -    -   -    _bill_shen_         *    (ARG2*         *     -
+wb/c2e/00/c2e_0010   0    3    obsessed    JJ            *      -    -   -    _bill_shen_         *         *         *     -
+wb/c2e/00/c2e_0010   0    4        with    IN         (PP*      -    -   -    _bill_shen_         *         *         *     -
+wb/c2e/00/c2e_0010   0    5     playing   VBG    (S(VP*))))   play  01   -    _bill_shen_         *         *       (V*)    -
+wb/c2e/00/c2e_0010   0    6        that    IN       (SBAR*      -    -   -    _bill_shen_         *         *         *     -
+wb/c2e/00/c2e_0010   0    7         she   PRP       (S(NP*)     -    -   -    _bill_shen_         *         *         *    (5)
+wb/c2e/00/c2e_0010   0    8       would    MD         (VP*      -    -   -    _bill_shen_         *         *         *     -
+wb/c2e/00/c2e_0010   0    9         n't    RB            *      -    -   -    _bill_shen_         *         *         *     -
+wb/c2e/00/c2e_0010   0   10        have    VB         (VP*    have   -   7    _bill_shen_         *         *         *     -
+wb/c2e/00/c2e_0010   0   11      dinner    NN   (NP*)))))))     -    -   -    _bill_shen_         *         *)        *     -
+wb/c2e/00/c2e_0010   0   12           .     .           *))     -    -   -    _bill_shen_         *         *         *     -
+
+wb/c2e/00/c2e_0010   0    0         Dad   NNP    (TOP(S(NP*)     -    -     -    _bill_shen_   (PERSON)   (ARG0*)   (ARG0*)            *    (9)
+wb/c2e/00/c2e_0010   0    1         had   VBD       (VP(VP*    have   -    12    _bill_shen_         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    2          to    TO        (S(VP*      -    -     -    _bill_shen_         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    3         put    VB          (VP*     put  01   7.2    _bill_shen_         *       (V*)        *             *     -
+wb/c2e/00/c2e_0010   0    4        away    RP         (PRT*)     -    -     -    _bill_shen_         *    (ARG2*)        *             *     -
+wb/c2e/00/c2e_0010   0    5    Qingqing   NNP       (NP(NP*      -    -     -    _bill_shen_   (PERSON)   (ARG1*         *             *    (5
+wb/c2e/00/c2e_0010   0    6          's   POS             *)     -    -     -    _bill_shen_         *         *         *             *     5)
+wb/c2e/00/c2e_0010   0    7     sticker    NN             *      -    -     -    _bill_shen_         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    8        book    NN         *)))))     -    -     -    _bill_shen_         *         *)        *             *     -
+wb/c2e/00/c2e_0010   0    9         and    CC             *      -    -     -    _bill_shen_         *         *         *             *     -
+wb/c2e/00/c2e_0010   0   10       asked   VBD          (VP*     ask  02     1    _bill_shen_         *         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0   11    Qingqing   NNP          (NP*)     -    -     -    _bill_shen_   (PERSON)        *    (ARG2*)       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   12          to    TO        (S(VP*      -    -     -    _bill_shen_         *         *    (ARG1*             *     -
+wb/c2e/00/c2e_0010   0   13         eat    VB          (VP*     eat  01     1    _bill_shen_         *         *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   14        well    RB   (ADVP*))))))     -    -     -    _bill_shen_         *         *         *)   (ARGM-MNR*)    -
+wb/c2e/00/c2e_0010   0   15           .     .            *))     -    -     -    _bill_shen_         *         *         *             *     -
+
+wb/c2e/00/c2e_0010   0    0    Qingqing   NNP      (TOP(S(NP*)    -    -   -    _bill_shen_   (PERSON)   (ARG0*)        *             *    (5)
+wb/c2e/00/c2e_0010   0    1        said   VBD            (VP*    say  01   1    _bill_shen_         *       (V*)        *             *     -
+wb/c2e/00/c2e_0010   0    2          it   PRP   (SBAR(S(S(NP*)    -    -   -    _bill_shen_         *    (ARG1*    (ARG1*)            *     -
+wb/c2e/00/c2e_0010   0    3         was   VBD            (VP*     be  01   1    _bill_shen_         *         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0    4       spicy    JJ        (ADJP*)))    -    -   -    _bill_shen_         *         *    (ARG2*)            *     -
+wb/c2e/00/c2e_0010   0    5         and    CC               *     -    -   -    _bill_shen_         *         *         *             *     -
+wb/c2e/00/c2e_0010   0    6         she   PRP          (S(NP*)    -    -   -    _bill_shen_         *         *         *        (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    7       would    MD            (VP*     -    -   -    _bill_shen_         *         *         *    (ARGM-MOD*)    -
+wb/c2e/00/c2e_0010   0    8         n't    RB               *     -    -   -    _bill_shen_         *         *         *    (ARGM-NEG*)    -
+wb/c2e/00/c2e_0010   0    9         eat    VB       (VP*))))))   eat  01   1    _bill_shen_         *         *)        *           (V*)    -
+wb/c2e/00/c2e_0010   0   10           .     .              *))    -    -   -    _bill_shen_         *         *         *             *     -
+
+wb/c2e/00/c2e_0010   0   0         Mom   NNP   (TOP(S(NP*)        -    -   -    _bill_shen_   (PERSON)   (ARG0*)       (ARG0*)   (1)
+wb/c2e/00/c2e_0010   0   1    promised   VBD         (VP*    promise  01   1    _bill_shen_         *       (V*)            *     -
+wb/c2e/00/c2e_0010   0   2          to    TO       (S(VP*         -    -   -    _bill_shen_         *    (ARG2*             *     -
+wb/c2e/00/c2e_0010   0   3         buy    VB         (VP*        buy  01   1    _bill_shen_         *         *           (V*)    -
+wb/c2e/00/c2e_0010   0   4    Qingqing   NNP         (NP*)        -    -   -    _bill_shen_   (PERSON)        *        (ARG4*)   (5)
+wb/c2e/00/c2e_0010   0   5       white    JJ         (NP*         -    -   -    _bill_shen_         *         *        (ARG1*     -
+wb/c2e/00/c2e_0010   0   6      fungus    NN            *         -    -   -    _bill_shen_         *         *             *     -
+wb/c2e/00/c2e_0010   0   7       broth    NN            *)        -    -   -    _bill_shen_         *         *             *)    -
+wb/c2e/00/c2e_0010   0   8       later   RBR   (ADVP*)))))        -    -   -    _bill_shen_         *         *)   (ARGM-TMP*)    -
+wb/c2e/00/c2e_0010   0   9           .     .           *))        -    -   -    _bill_shen_         *         *             *     -
+
+wb/c2e/00/c2e_0010   0   0       Qingqing   NNP   (TOP(S(NP*)       -    -   -    _bill_shen_   (PERSON)       (ARG1*)       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   1         became   VBD      (VP(VP*    become  01   1    _bill_shen_         *           (V*)            *     -
+wb/c2e/00/c2e_0010   0   2          happy    JJ       (ADJP*)       -    -   -    _bill_shen_         *        (ARG2*)            *     -
+wb/c2e/00/c2e_0010   0   3    immediately    RB      (ADVP*))       -    -   -    _bill_shen_         *    (ARGM-TMP*)            *     -
+wb/c2e/00/c2e_0010   0   4            and    CC            *        -    -   -    _bill_shen_         *             *             *     -
+wb/c2e/00/c2e_0010   0   5         played   VBD         (VP*      play  01   1    _bill_shen_         *             *           (V*)    -
+wb/c2e/00/c2e_0010   0   6             on    RP      (PRT*)))       -    -   -    _bill_shen_         *             *    (ARGM-EXT*)    -
+wb/c2e/00/c2e_0010   0   7              .     .           *))       -    -   -    _bill_shen_         *             *             *     -
+
+wb/c2e/00/c2e_0010   0    0          We    PRP   (TOP(S(S(NP*)     -    -   -    _bill_shen_         *       (ARG0*)   (ARG0*)           *    (11)
+wb/c2e/00/c2e_0010   0    1      walked    VBD           (VP*    walk  01   1    _bill_shen_         *          (V*)        *            *      -
+wb/c2e/00/c2e_0010   0    2        home     RB         (ADVP*)     -    -   -    _bill_shen_         *       (ARG1*)        *            *      -
+wb/c2e/00/c2e_0010   0    3       after     IN           (PP*      -    -   -    _bill_shen_         *   (ARGM-TMP*         *            *      -
+wb/c2e/00/c2e_0010   0    4      eating    VBG     (S(VP*)))))    eat  01   -    _bill_shen_         *            *)      (V*)           *      -
+wb/c2e/00/c2e_0010   0    5           ,      ,              *      -    -   -    _bill_shen_         *            *         *            *      -
+wb/c2e/00/c2e_0010   0    6         and     CC              *      -    -   -    _bill_shen_         *            *         *            *      -
+wb/c2e/00/c2e_0010   0    7    Qingqing    NNP         (S(NP*)     -    -   -    _bill_shen_   (PERSON)           *         *       (ARG0*)    (5)
+wb/c2e/00/c2e_0010   0    8      played    VBD           (VP*    play  01   1    _bill_shen_         *            *         *          (V*)     -
+wb/c2e/00/c2e_0010   0    9          in     IN           (PP*      -    -   -    _bill_shen_         *            *         *   (ARGM-LOC*      -
+wb/c2e/00/c2e_0010   0   10         her   PRP$           (NP*      -    -   -    _bill_shen_         *            *         *            *     (5)
+wb/c2e/00/c2e_0010   0   11         own     JJ              *      -    -   -    _bill_shen_         *            *         *            *      -
+wb/c2e/00/c2e_0010   0   12        room     NN             *))     -    -   -    _bill_shen_         *            *         *            *)     -
+wb/c2e/00/c2e_0010   0   13       after     IN           (PP*      -    -   -    _bill_shen_         *            *         *   (ARGM-TMP*      -
+wb/c2e/00/c2e_0010   0   14      dinner     NN        (NP*))))     -    -   -    _bill_shen_         *            *         *            *)     -
+wb/c2e/00/c2e_0010   0   15           .      .             *))     -    -   -    _bill_shen_         *            *         *            *      -
+
+wb/c2e/00/c2e_0010   0    0       Dad   NNP    (TOP(S(S(NP*)      -    -   -    _bill_shen_   (PERSON)   (ARG0*)        *             *             *            *    (9)
+wb/c2e/00/c2e_0010   0    1      said   VBD            (VP*      say  01   1    _bill_shen_         *       (V*)        *             *             *            *     -
+wb/c2e/00/c2e_0010   0    2        it   PRP     (SBAR(S(NP*)      -    -   -    _bill_shen_         *    (ARG1*    (ARG1*)            *             *            *     -
+wb/c2e/00/c2e_0010   0    3       was   VBD            (VP*       be  01   1    _bill_shen_         *         *       (V*)            *             *            *     -
+wb/c2e/00/c2e_0010   0    4      time    NN         (NP(NP*)      -    -   -    _bill_shen_         *         *    (ARG2*    (ARGM-TMP*)            *            *     -
+wb/c2e/00/c2e_0010   0    5        to    TO     (SBAR(S(VP*       -    -   -    _bill_shen_         *         *         *             *             *            *     -
+wb/c2e/00/c2e_0010   0    6     sleep    VB   (VP*))))))))))   sleep  01   1    _bill_shen_         *         *)        *)          (V*)            *            *     -
+wb/c2e/00/c2e_0010   0    7         ,     ,               *       -    -   -    _bill_shen_         *         *         *             *             *            *     -
+wb/c2e/00/c2e_0010   0    8       but    CC               *       -    -   -    _bill_shen_         *         *         *             *             *            *     -
+wb/c2e/00/c2e_0010   0    9       she   PRP          (S(NP*)      -    -   -    _bill_shen_         *         *         *             *        (ARG0*)           *    (5)
+wb/c2e/00/c2e_0010   0   10     would    MD            (VP*       -    -   -    _bill_shen_         *         *         *             *    (ARGM-MOD*)           *     -
+wb/c2e/00/c2e_0010   0   11       n't    RB               *       -    -   -    _bill_shen_         *         *         *             *    (ARGM-NEG*)           *     -
+wb/c2e/00/c2e_0010   0   12     sleep    VB            (VP*    sleep  01   1    _bill_shen_         *         *         *             *           (V*)           *     -
+wb/c2e/00/c2e_0010   0   13     until    IN            (PP*       -    -   -    _bill_shen_         *         *         *             *    (ARGM-TMP*            *     -
+wb/c2e/00/c2e_0010   0   14     after    IN          (SBAR*       -    -   -    _bill_shen_         *         *         *             *             *            *     -
+wb/c2e/00/c2e_0010   0   15       she   PRP          (S(NP*)      -    -   -    _bill_shen_         *         *         *             *             *       (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0   16    played   VBD            (VP*     play  01   1    _bill_shen_         *         *         *             *             *          (V*)    -
+wb/c2e/00/c2e_0010   0   17       for    IN            (PP*       -    -   -    _bill_shen_         *         *         *             *             *   (ARGM-TMP*     -
+wb/c2e/00/c2e_0010   0   18         a    DT            (NP*       -    -   -    _bill_shen_         *         *         *             *             *            *     -
+wb/c2e/00/c2e_0010   0   19     while    NN              *))      -    -   -    _bill_shen_         *         *         *             *             *            *)    -
+wb/c2e/00/c2e_0010   0   20        in    IN            (PP*       -    -   -    _bill_shen_         *         *         *             *             *   (ARGM-LOC*     -
+wb/c2e/00/c2e_0010   0   21       bed    NN    (NP*)))))))))      -    -   -    _bill_shen_         *         *         *             *             *)           *)    -
+wb/c2e/00/c2e_0010   0   22         .     .              *))      -    -   -    _bill_shen_         *         *         *             *             *            *     -
+
+wb/c2e/00/c2e_0010   0    0             She   PRP   (TOP(S(NP*)     -    -   -    _bill_shen_           *    (ARG0*)        *    (5)
+wb/c2e/00/c2e_0010   0    1            told   VBD         (VP*    tell  01   1    _bill_shen_           *       (V*)        *     -
+wb/c2e/00/c2e_0010   0    2             dad   NNP         (NP*)     -    -   -    _bill_shen_     (PERSON)   (ARG2*)        *    (9)
+wb/c2e/00/c2e_0010   0    3            that    IN       (SBAR*      -    -   -    _bill_shen_           *    (ARG1*         *     -
+wb/c2e/00/c2e_0010   0    4             she   PRP       (S(NP*)     -    -   -    _bill_shen_           *         *    (ARG0*)   (5)
+wb/c2e/00/c2e_0010   0    5          wanted   VBD         (VP*    want  01   1    _bill_shen_           *         *       (V*)    -
+wb/c2e/00/c2e_0010   0    6              to    TO       (S(VP*      -    -   -    _bill_shen_           *         *    (ARG1*     -
+wb/c2e/00/c2e_0010   0    7            take    VB         (VP*    take   -   4    _bill_shen_           *         *         *     -
+wb/c2e/00/c2e_0010   0    8             one    CD         (NP*      -    -   -    _bill_shen_   (CARDINAL)        *         *     -
+wb/c2e/00/c2e_0010   0    9            book    NN            *)     -    -   -    _bill_shen_           *         *         *     -
+wb/c2e/00/c2e_0010   0   10              to    IN         (PP*      -    -   -    _bill_shen_           *         *         *     -
+wb/c2e/00/c2e_0010   0   11             the    DT         (NP*      -    -   -    _bill_shen_           *         *         *     -
+wb/c2e/00/c2e_0010   0   12    kindergarten    NN    *)))))))))     -    -   -    _bill_shen_           *         *)        *)    -
+wb/c2e/00/c2e_0010   0   13               .     .           *))     -    -   -    _bill_shen_           *         *         *     -
+
+wb/c2e/00/c2e_0010   0    0    Qingqing   NNP    (TOP(S(NP*)       -    -   -    _bill_shen_   (PERSON)       (ARG0*)           *             *         *             *     (5)
+wb/c2e/00/c2e_0010   0    1        said   VBD          (VP*       say  01   1    _bill_shen_         *           (V*)           *             *         *             *      -
+wb/c2e/00/c2e_0010   0    2       today    NN          (NP*)       -    -   -    _bill_shen_         *    (ARGM-TMP*)           *             *         *             *      -
+wb/c2e/00/c2e_0010   0    3           :     :             *        -    -   -    _bill_shen_         *             *            *             *         *             *      -
+wb/c2e/00/c2e_0010   0    4         the    DT      (S(S(NP*        -    -   -    _bill_shen_         *        (ARG1*       (ARG0*             *         *             *    (10
+wb/c2e/00/c2e_0010   0    5     teacher    NN             *)       -    -   -    _bill_shen_         *             *            *)            *         *             *     10)
+wb/c2e/00/c2e_0010   0    6        said   VBD          (VP*       say  01   1    _bill_shen_         *             *          (V*)            *         *             *      -
+wb/c2e/00/c2e_0010   0    7        last    JJ          (NP*        -    -   -    _bill_shen_         *             *   (ARGM-TMP*             *         *             *      -
+wb/c2e/00/c2e_0010   0    8        time    NN             *)       -    -   -    _bill_shen_         *             *            *)            *         *             *      -
+wb/c2e/00/c2e_0010   0    9        that    IN        (SBAR*        -    -   -    _bill_shen_         *             *       (ARG1*             *         *             *      -
+wb/c2e/00/c2e_0010   0   10         she   PRP        (S(NP*)       -    -   -    _bill_shen_         *             *            *        (ARG0*)        *             *    (10)
+wb/c2e/00/c2e_0010   0   11       would    MD          (VP*        -    -   -    _bill_shen_         *             *            *    (ARGM-MOD*)        *             *      -
+wb/c2e/00/c2e_0010   0   12       repay    VB          (VP*     repay  01   1    _bill_shen_         *             *            *           (V*)        *             *      -
+wb/c2e/00/c2e_0010   0   13         the    DT       (NP(NP*        -    -   -    _bill_shen_         *             *            *        (ARG3*    (ARG1*             *      -
+wb/c2e/00/c2e_0010   0   14       money    NN             *)       -    -   -    _bill_shen_         *             *            *             *         *)            *      -
+wb/c2e/00/c2e_0010   0   15         she   PRP   (SBAR(S(NP*)       -    -   -    _bill_shen_         *             *            *             *    (ARG0*)            *    (10)
+wb/c2e/00/c2e_0010   0   16    borrowed   VBD          (VP*    borrow  01   1    _bill_shen_         *             *            *             *       (V*)            *      -
+wb/c2e/00/c2e_0010   0   17        from    IN          (PP*        -    -   -    _bill_shen_         *             *            *             *    (ARG2*             *      -
+wb/c2e/00/c2e_0010   0   18          me   PRP     (NP*))))))       -    -   -    _bill_shen_         *             *            *             *)        *)            *     (5)
+wb/c2e/00/c2e_0010   0   19         the    DT          (NP*        -    -   -    _bill_shen_    (DATE*             *            *    (ARGM-TMP*         *             *      -
+wb/c2e/00/c2e_0010   0   20        next    JJ             *        -    -   -    _bill_shen_         *             *            *             *         *             *      -
+wb/c2e/00/c2e_0010   0   21         day    NN       *)))))))       -    -   -    _bill_shen_         *)            *            *)            *)        *             *      -
+wb/c2e/00/c2e_0010   0   22           ,     ,             *        -    -   -    _bill_shen_         *             *            *             *         *             *      -
+wb/c2e/00/c2e_0010   0   23         but    CC             *        -    -   -    _bill_shen_         *             *            *             *         *             *      -
+wb/c2e/00/c2e_0010   0   24         she   PRP        (S(NP*)       -    -   -    _bill_shen_         *             *            *             *         *        (ARG0*)   (10)
+wb/c2e/00/c2e_0010   0   25         has   VBZ          (VP*        -    -   -    _bill_shen_         *             *            *             *         *             *      -
+wb/c2e/00/c2e_0010   0   26         not    RB             *        -    -   -    _bill_shen_         *             *            *             *         *    (ARGM-NEG*)     -
+wb/c2e/00/c2e_0010   0   27      repaid   VBN          (VP*     repay  01   1    _bill_shen_         *             *            *             *         *           (V*)     -
+wb/c2e/00/c2e_0010   0   28         yet    RB   (ADVP*))))))       -    -   -    _bill_shen_         *             *)           *             *         *    (ARGM-TMP*)     -
+wb/c2e/00/c2e_0010   0   29           .     .            *))       -    -   -    _bill_shen_         *             *            *             *         *             *      -
+
+wb/c2e/00/c2e_0010   0    0        Oh     UH   (TOP(S(INTJ*)     -    -     -    _bill_shen_  *    (ARGM-DIS*)    -
+wb/c2e/00/c2e_0010   0    1         !      ,              *      -    -     -    _bill_shen_  *             *     -
+wb/c2e/00/c2e_0010   0    2     Grown    VBN           (NP*      -    -     -    _bill_shen_  *        (ARG0*    (3
+wb/c2e/00/c2e_0010   0    3        -    HYPH              *      -    -     -    _bill_shen_  *             *     -
+wb/c2e/00/c2e_0010   0    4       ups    NNS              *)     -    -     -    _bill_shen_  *             *)    3)
+wb/c2e/00/c2e_0010   0    5     would     MD           (VP*      -    -     -    _bill_shen_  *    (ARGM-MOD*)    -
+wb/c2e/00/c2e_0010   0    6       n't     RB              *      -    -     -    _bill_shen_  *    (ARGM-NEG*)    -
+wb/c2e/00/c2e_0010   0    7      live     VB           (VP*    live  04   5.8    _bill_shen_  *           (V*)    -
+wb/c2e/00/c2e_0010   0    8        up     RP          (PRT*)     -    -     -    _bill_shen_  *             *     -
+wb/c2e/00/c2e_0010   0    9        to     IN           (PP*      -    -     -    _bill_shen_  *        (ARG1*     -
+wb/c2e/00/c2e_0010   0   10     their   PRP$           (NP*      -    -     -    _bill_shen_  *             *    (3)
+wb/c2e/00/c2e_0010   0   11     words    NNS             *))     -    -     -    _bill_shen_  *             *)    -
+wb/c2e/00/c2e_0010   0   12    either     RB       (ADVP*)))     -    -     -    _bill_shen_  *    (ARGM-ADV*)    -
+wb/c2e/00/c2e_0010   0   13         .      .             *))     -    -     -    _bill_shen_  *             *     -
+
+wb/c2e/00/c2e_0010   0   0         Dad   NNP   (TOP(S(NP*)        -    -   -    _bill_shen_   (PERSON)   (ARG0*)      (ARG0*)   (9)
+wb/c2e/00/c2e_0010   0   1    promised   VBD         (VP*    promise  01   1    _bill_shen_         *       (V*)           *     -
+wb/c2e/00/c2e_0010   0   2          to    TO       (S(VP*         -    -   -    _bill_shen_         *    (ARG2*            *     -
+wb/c2e/00/c2e_0010   0   3      remind    VB         (VP*     remind  01   -    _bill_shen_         *         *          (V*)    -
+wb/c2e/00/c2e_0010   0   4         the    DT         (NP*         -    -   -    _bill_shen_         *         *       (ARG2*   (10
+wb/c2e/00/c2e_0010   0   5     teacher    NN            *)        -    -   -    _bill_shen_         *         *            *)   10)
+wb/c2e/00/c2e_0010   0   6         for    IN         (PP*         -    -   -    _bill_shen_         *         *   (ARGM-ADV*     -
+wb/c2e/00/c2e_0010   0   7    Qingqing   NNP    (NP*))))))        -    -   -    _bill_shen_   (PERSON)        *)           *)   (5)
+wb/c2e/00/c2e_0010   0   8           .     .           *))        -    -   -    _bill_shen_         *         *            *     -
+
+#end document

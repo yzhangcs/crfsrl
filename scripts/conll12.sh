@@ -18,9 +18,8 @@ if [ ! -d $CONLL12 ]; then
 fi
 
 if [ ! -d $CONLL_ONTONOTES ]; then
-  git clone https://github.com/yuchenlin/OntoNotes-5.0-NER-BIO.git $CONLL_ONTONOTES
-  source ~/anaconda3/etc/profile.d/conda.sh
-  conda activate py27
+  cp -r scripts/conll12/conll-formatted-ontonotes-5.0 $CONLL_ONTONOTES
+  source activate py27
   cd $CONLL_ONTONOTES && ./conll-formatted-ontonotes-5.0/scripts/skeleton2conll.sh -D $ONTONOTES/data/files/data ./conll-formatted-ontonotes-5.0
   conda deactivate
 fi

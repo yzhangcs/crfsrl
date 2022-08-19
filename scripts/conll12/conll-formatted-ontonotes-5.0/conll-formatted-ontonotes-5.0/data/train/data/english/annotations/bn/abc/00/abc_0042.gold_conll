@@ -1,0 +1,339 @@
+#begin document (bn/abc/00/abc_0042); part 000
+bn/abc/00/abc_0042   0    0            In    IN     (TOP(S(PP*           -    -   -   -        *   (ARGM-LOC*        *             *     -
+bn/abc/00/abc_0042   0    1     yesterday    NN     (NP(NP(NP*    yesterday   -   1   -    (DATE)           *        *             *     -
+bn/abc/00/abc_0042   0    2            's   POS              *)          -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0    3        ruling    NN              *)          -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0    4          from    IN           (PP*           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0    5       Florida   NNP        (NP(NP*           -    -   -   -     (GPE)           *        *             *     -
+bn/abc/00/abc_0042   0    6            's   POS              *)          -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0    7       Supreme   NNP              *           -    -   -   -    (ORG*            *        *             *     -
+bn/abc/00/abc_0042   0    8         Court   NNP           *))))          -    -   -   -        *)           *)       *             *     -
+bn/abc/00/abc_0042   0    9             ,     ,              *           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   10           the    DT           (NP*           -    -   -   -        *       (ARG0*        *             *     -
+bn/abc/00/abc_0042   0   11         chief    JJ              *           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   12       justice    NN              *)          -    -   -   -        *            *)       *             *     -
+bn/abc/00/abc_0042   0   13        warned   VBD           (VP*         warn  01   1   -        *          (V*)       *             *    (1)
+bn/abc/00/abc_0042   0   14    recounting   VBG  (SBAR(S(S(VP*      recount  01   2   -        *       (ARG1*      (V*)       (ARG0*     -
+bn/abc/00/abc_0042   0   15    undervotes   NNS        (NP(NP*)          -    -   -   -        *            *   (ARG1*             *     -
+bn/abc/00/abc_0042   0   16            in    IN           (PP*           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   17           the    DT           (NP*           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   18      counties   NNS          *)))))          -    -   -   -        *            *        *)            *)    -
+bn/abc/00/abc_0042   0   19         would    MD           (VP*           -    -   -   -        *            *        *    (ARGM-MOD*)    -
+bn/abc/00/abc_0042   0   20         cause    VB           (VP*        cause  01   1   -        *            *        *           (V*)    -
+bn/abc/00/abc_0042   0   21            ``    ``              *           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   22     confusion    NN           (NP*           -    -   -   -        *            *        *        (ARG1*     -
+bn/abc/00/abc_0042   0   23           and    CC              *           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   24      disorder    NN         *))))))    disorder   -   2   -        *            *)       *             *)    -
+bn/abc/00/abc_0042   0   25             .     .              *           -    -   -   -        *            *        *             *     -
+bn/abc/00/abc_0042   0   26            ''    ''             *))          -    -   -   -        *            *        *             *     -
+
+bn/abc/00/abc_0042   0   0           In    IN   (TOP(S(PP*        -    -   -   -        *    (ARGM-LOC*    -
+bn/abc/00/abc_0042   0   1         some    DT         (NP*        -    -   -   -        *             *    -
+bn/abc/00/abc_0042   0   2       places   NNS           *))    place   -   1   -        *             *)   -
+bn/abc/00/abc_0042   0   3        today    NN         (NP*)    today   -   2   -    (DATE)   (ARGM-TMP*)   -
+bn/abc/00/abc_0042   0   4        those    DT         (NP*        -    -   -   -        *        (ARG1*   (1
+bn/abc/00/abc_0042   0   5        words   NNS            *)     word   -   1   -        *             *)   1)
+bn/abc/00/abc_0042   0   6     appeared   VBD         (VP*    appear  02   1   -        *           (V*)   -
+bn/abc/00/abc_0042   0   7    prophetic    JJ   (S(ADJP*)))       -    -   -   -        *      (C-ARG1*)   -
+bn/abc/00/abc_0042   0   8            .     .           *))       -    -   -   -        *             *    -
+
+bn/abc/00/abc_0042   0   0            Mike   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*    (3
+bn/abc/00/abc_0042   0   1             Von   NNP              *   -   -   -   -          *     -
+bn/abc/00/abc_0042   0   2           Fremd   NNP              *)  -   -   -   -          *)    3)
+bn/abc/00/abc_0042   0   3            from    IN           (PP*   -   -   -   -          *     -
+bn/abc/00/abc_0042   0   4    Jacksonville   NNP          (NP*))  -   -   -   -       (GPE)   (8)
+bn/abc/00/abc_0042   0   5               .     .             *))  -   -   -   -          *     -
+
+bn/abc/00/abc_0042   0    0         When    WRB   (TOP(S(SBAR(WHADVP*)         -    -   -   -       *    (ARGM-TMP*)        *        *      *   (ARGM-TMP*        *        -
+bn/abc/00/abc_0042   0    1          the     DT                (S(NP*          -    -   -   -   (ORG*        (ARG0*         *   (ARG0*      *            *        *       (0
+bn/abc/00/abc_0042   0    2      Supreme    NNP                     *          -    -   -   -       *             *         *        *      *            *        *        -
+bn/abc/00/abc_0042   0    3        Court    NNP                     *)         -    -   -   -       *)            *)        *        *)     *            *        *        0)
+bn/abc/00/abc_0042   0    4       issued    VBD                  (VP*       issue  01   1   -       *           (V*)        *        *      *            *        *        -
+bn/abc/00/abc_0042   0    5          its   PRP$                  (NP*          -    -   -   -       *        (ARG1*    (ARG0*)       *      *            *        *    (6|(0)
+bn/abc/00/abc_0042   0    6     decision     NN                     *    decision  01   1   -       *             *       (V*)       *      *            *        *        -
+bn/abc/00/abc_0042   0    7           to     TO                (S(VP*          -    -   -   -       *             *    (ARG1*        *      *            *        *        -
+bn/abc/00/abc_0042   0    8         stop     VB            (VP*)))))))       stop  01   1   -       *             *)        *)     (V*)     *            *)       *        6)
+bn/abc/00/abc_0042   0    9            ,      ,                     *          -    -   -   -       *             *         *        *      *            *        *        -
+bn/abc/00/abc_0042   0   10    observers    NNS               (NP(NP*)         -    -   -   -       *             *         *        *      *       (ARG2*   (ARG0*        -
+bn/abc/00/abc_0042   0   11           in     IN                  (PP*          -    -   -   -       *             *         *        *      *            *        *        -
+bn/abc/00/abc_0042   0   12          the     DT                  (NP*          -    -   -   -       *             *         *        *      *            *        *        -
+bn/abc/00/abc_0042   0   13     counting     NN                     *          -    -   -   -       *             *         *        *      *            *        *        -
+bn/abc/00/abc_0042   0   14         room     NN                   *)))       room   -   1   -       *             *         *        *      *            *)       *)       -
+bn/abc/00/abc_0042   0   15         were    VBD                  (VP*          be  03   -   -       *             *         *        *    (V*)           *        *        -
+bn/abc/00/abc_0042   0   16         told    VBN                  (VP*        tell  01   1   -       *             *         *        *      *          (V*)       *        -
+bn/abc/00/abc_0042   0   17           to     TO                (S(VP*          -    -   -   -       *             *         *        *      *       (ARG1*        *        -
+bn/abc/00/abc_0042   0   18        leave     VB              (VP*)))))      leave  01   1   -       *             *         *        *      *            *)     (V*)       -
+bn/abc/00/abc_0042   0   19            .      .                    *))         -    -   -   -       *             *         *        *      *            *        *        -
+
+bn/abc/00/abc_0042   0   0        Are   VBP  (TOP(SQ*    be  01   1   -   *       (V*)  -
+bn/abc/00/abc_0042   0   1        you   PRP      (NP*)   -    -   -   -   *    (ARG1*)  -
+bn/abc/00/abc_0042   0   2    serious    JJ    (ADJP*)   -    -   -   -   *    (ARG2*)  -
+bn/abc/00/abc_0042   0   3          ?     .        *))   -    -   -   -   *         *   -
+
+bn/abc/00/abc_0042   0    0         As    RB  (TOP(S(ADVP(ADVP*         -    -   -   -   *            *         *      *    (ARGM-TMP*     -
+bn/abc/00/abc_0042   0    1       soon    RB                  *)        -    -   -   -   *            *         *      *             *     -
+bn/abc/00/abc_0042   0    2         as    IN             (SBAR*         -    -   -   -   *            *         *      *             *     -
+bn/abc/00/abc_0042   0    3          I   PRP             (S(NP*)        -    -   -   -   *       (ARG0*)        *      *             *    (9)
+bn/abc/00/abc_0042   0    4        see   VBP               (VP*        see  01   1   -   *          (V*)        *      *             *     -
+bn/abc/00/abc_0042   0    5         it   PRP               (NP*)        -    -   -   -   *       (ARG1*)        *      *             *    (6)
+bn/abc/00/abc_0042   0    6         in    IN               (PP*         -    -   -   -   *   (ARGM-LOC*         *      *             *     -
+bn/abc/00/abc_0042   0    7    writing    NN          (NP*))))))   writing   -   3   -   *            *)        *      *             *)    -
+bn/abc/00/abc_0042   0    8          ,     ,                  *         -    -   -   -   *            *         *      *             *     -
+bn/abc/00/abc_0042   0    9         if    IN             (SBAR*         -    -   -   -   *            *         *      *    (ARGM-ADV*     -
+bn/abc/00/abc_0042   0   10         it   PRP             (S(NP*)        -    -   -   -   *            *    (ARG0*)     *             *    (6)
+bn/abc/00/abc_0042   0   11       says   VBZ               (VP*        say  01   4   -   *            *       (V*)     *             *     -
+bn/abc/00/abc_0042   0   12       stop    VB         (S(VP*)))))      stop  01   1   -   *            *    (ARG1*)   (V*)            *)    -
+bn/abc/00/abc_0042   0   13          ,     ,                  *         -    -   -   -   *            *         *      *             *     -
+bn/abc/00/abc_0042   0   14          I   PRP               (NP*)        -    -   -   -   *            *         *      *        (ARG0*)   (9)
+bn/abc/00/abc_0042   0   15       will    MD               (VP*         -    -   -   -   *            *         *      *    (ARGM-MOD*)    -
+bn/abc/00/abc_0042   0   16       stop    VB              (VP*))      stop  01   1   -   *            *         *      *           (V*)    -
+bn/abc/00/abc_0042   0   17          .     .                 *))        -    -   -   -   *            *         *      *             *     -
+
+bn/abc/00/abc_0042   0    0          We   PRP           (TOP(S(NP*)     -    -   -   -   *       (ARG0*)        *         *         *         *    (4)
+bn/abc/00/abc_0042   0    1         're   VBP                 (VP*      -    -   -   -   *            *         *         *         *         *     -
+bn/abc/00/abc_0042   0    2    stopping   VBG                 (VP*    stop  01   1   -   *          (V*)        *         *         *         *     -
+bn/abc/00/abc_0042   0    3       right    RB               (ADVP*      -    -   -   -   *   (ARGM-TMP*         *         *         *         *     -
+bn/abc/00/abc_0042   0    4         now    RB                    *)     -    -   -   -   *            *)        *         *         *         *     -
+bn/abc/00/abc_0042   0    5       until    IN               (SBAR*      -    -   -   -   *   (ARGM-TMP*         *         *         *         *     -
+bn/abc/00/abc_0042   0    6           I   PRP               (S(NP*)     -    -   -   -   *            *    (ARG0*)        *         *         *    (9)
+bn/abc/00/abc_0042   0    7         see   VBP                 (VP*     see  01   4   -   *            *       (V*)        *         *         *     -
+bn/abc/00/abc_0042   0    8          if    IN               (SBAR*      -    -   -   -   *            *    (ARG1*         *         *         *     -
+bn/abc/00/abc_0042   0    9          we   PRP               (S(NP*)     -    -   -   -   *            *         *    (ARG0*)        *    (ARG0*)   (4)
+bn/abc/00/abc_0042   0   10        need   VBP                 (VP*    need  01   2   -   *            *         *       (V*)        *         *     -
+bn/abc/00/abc_0042   0   11          to    TO               (S(VP*      -    -   -   -   *            *         *    (ARG1*         *         *     -
+bn/abc/00/abc_0042   0   12        keep    VB                 (VP*    keep  08   1   -   *            *         *         *       (V*)        *     -
+bn/abc/00/abc_0042   0   13          on    RP                (PRT*)     -    -   -   -   *            *         *         *         *         *     -
+bn/abc/00/abc_0042   0   14    stopping   VBG   (S(VP*)))))))))))))   stop  01   1   -   *            *)        *)        *)   (ARG1*)      (V*)    -
+bn/abc/00/abc_0042   0   15           .     .                   *))     -    -   -   -   *            *         *         *         *         *     -
+
+bn/abc/00/abc_0042   0   0        The    DT  (TOP(S(NP*         -    -   -   -   *      *       (ARG1*      *        *   -
+bn/abc/00/abc_0042   0   1    process    NN           *)   process  01   1   -   *    (V*)           *)     *        *   -
+bn/abc/00/abc_0042   0   2    stopped   VBD        (VP*       stop  01   1   -   *      *          (V*)     *        *   -
+bn/abc/00/abc_0042   0   3     before    IN      (SBAR*         -    -   -   -   *      *   (ARGM-TMP*      *        *   -
+bn/abc/00/abc_0042   0   4          a    DT      (S(NP*         -    -   -   -   *      *            *      *   (ARG1*   -
+bn/abc/00/abc_0042   0   5     single    JJ           *         -    -   -   -   *      *            *      *        *   -
+bn/abc/00/abc_0042   0   6     ballot    NN           *)        -    -   -   -   *      *            *      *        *)  -
+bn/abc/00/abc_0042   0   7        was   VBD        (VP*         be  03   -   -   *      *            *    (V*)       *   -
+bn/abc/00/abc_0042   0   8    counted   VBN    (VP*)))))     count  01   1   -   *      *            *)     *      (V*)  -
+bn/abc/00/abc_0042   0   9          .     .          *))        -    -   -   -   *      *            *      *        *   -
+
+bn/abc/00/abc_0042   0    0       Tempers   NNS    (TOP(S(NP*)         -    -   -   -        *       (ARG1*)           *         *        *    -
+bn/abc/00/abc_0042   0    1        flared   VBD          (VP*       flare  01   2   -        *          (V*)           *         *        *    -
+bn/abc/00/abc_0042   0    2         early    RB        (ADVP*          -    -   -   -        *   (ARGM-TMP*            *         *        *    -
+bn/abc/00/abc_0042   0    3            on    RB             *)         -    -   -   -        *            *)           *         *        *    -
+bn/abc/00/abc_0042   0    4         after    IN        (SBAR*          -    -   -   -        *   (ARGM-TMP*            *         *        *    -
+bn/abc/00/abc_0042   0    5           the    DT     (S(NP(NP*          -    -   -   -        *            *       (ARG0*         *        *   (7
+bn/abc/00/abc_0042   0    6    Republican    JJ             *          -    -   -   -    (NORP)           *            *         *        *    -
+bn/abc/00/abc_0042   0    7      chairman    NN             *)         -    -   -   -        *            *            *         *        *    -
+bn/abc/00/abc_0042   0    8            of    IN          (PP*          -    -   -   -        *            *            *         *        *    -
+bn/abc/00/abc_0042   0    9           the    DT          (NP*          -    -   -   -    (ORG*            *            *         *        *    -
+bn/abc/00/abc_0042   0   10    Canvassing   NNP             *          -    -   -   -        *            *            *         *        *    -
+bn/abc/00/abc_0042   0   11         Board   NNP           *)))         -    -   -   -        *)           *            *)        *        *    7)
+bn/abc/00/abc_0042   0   12     announced   VBD          (VP*    announce  01   1   -        *            *          (V*)        *        *    -
+bn/abc/00/abc_0042   0   13            in    IN          (PP*          -    -   -   -        *            *   (ARGM-TMP*         *        *    -
+bn/abc/00/abc_0042   0   14       advance    NN         (NP*))    advance   -   6   -        *            *            *)        *        *    -
+bn/abc/00/abc_0042   0   15          that    IN        (SBAR*          -    -   -   -        *            *       (ARG1*         *        *    -
+bn/abc/00/abc_0042   0   16            it   PRP    (S(NP(NP*))         -    -   -   -        *            *            *         *        *    -
+bn/abc/00/abc_0042   0   17           was   VBD          (VP*          be  01   1   -        *            *            *       (V*)       *    -
+bn/abc/00/abc_0042   0   18    impossible    JJ        (ADJP*)         -    -   -   -        *            *            *    (ARG2*)       *    -
+bn/abc/00/abc_0042   0   19            to    TO        (S(VP*          -    -   -   -        *            *            *    (ARG1*        *    -
+bn/abc/00/abc_0042   0   20          meet    VB          (VP*        meet  01   4   -        *            *            *         *      (V*)   -
+bn/abc/00/abc_0042   0   21      tomorrow    NN       (NP(NP*          -    -   -   -    (DATE)           *            *         *   (ARG1*    -
+bn/abc/00/abc_0042   0   22            's   POS             *)         -    -   -   -        *            *            *         *        *    -
+bn/abc/00/abc_0042   0   23          p.m.    NN             *          -    -   -   -        *            *            *         *        *    -
+bn/abc/00/abc_0042   0   24      deadline    NN   *)))))))))))         -    -   -   -        *            *)           *)        *)       *)   -
+bn/abc/00/abc_0042   0   25             .     .            *))         -    -   -   -        *            *            *         *        *    -
+
+bn/abc/00/abc_0042   0   0          No   DT  (TOP(NP*     -   -   -   -   *   -
+bn/abc/00/abc_0042   0   1    possible   JJ         *     -   -   -   -   *   -
+bn/abc/00/abc_0042   0   2         way   NN         *    way  -   5   -   *   -
+bn/abc/00/abc_0042   0   3           .    .        *))    -   -   -   -   *   -
+
+bn/abc/00/abc_0042   0    0                If     IN      (TOP(S(SBAR*        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0    1                he    PRP            (S(NP*)       -    -   -   -       *        (ARG0*)   (ARG0*)       *         *          *             *    (7)
+bn/abc/00/abc_0042   0    2               can     MD              (VP*        -    -   -   -       *    (ARGM-MOD*)        *        *         *          *             *     -
+bn/abc/00/abc_0042   0    3               not     RB                 *        -    -   -   -       *    (ARGM-NEG*)        *        *         *          *             *     -
+bn/abc/00/abc_0042   0    4             carry     VB              (VP*     carry  03   8   -       *           (V*)        *        *         *          *             *     -
+bn/abc/00/abc_0042   0    5               out     RP             (PRT*)       -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0    6               his   PRP$              (NP*        -    -   -   -       *        (ARG1*         *        *         *          *             *    (7)
+bn/abc/00/abc_0042   0    7    constitutional     JJ                 *        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0    8              duty     NN                 *      duty   -   1   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0    9                to     TO            (S(VP*        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   10                do     VB              (VP*        do  02   1   -       *             *       (V*)       *         *          *             *     -
+bn/abc/00/abc_0042   0   11              this     DT      (NP*)))))))))       -    -   -   -       *             *)   (ARG1*)       *         *          *             *    (2)
+bn/abc/00/abc_0042   0   12                 ,      ,                 *        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   13              then     RB            (ADVP*)       -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   14                he    PRP              (NP*)       -    -   -   -       *             *         *        *    (ARG0*)    (ARG0*)            *    (7)
+bn/abc/00/abc_0042   0   15            should     MD              (VP*        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   16                do     VB              (VP*        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   17                as     IN         (NP(SBAR*        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   18               the     DT         (S(NP(NP*        -    -   -   -       *             *         *   (ARG0*         *          *             *     -
+bn/abc/00/abc_0042   0   19             judge     NN                 *)    judge   -   1   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   20                in     IN              (PP*        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   21       Tallahassee    NNP            (NP*)))       -    -   -   -    (GPE)            *         *        *)        *          *             *     -
+bn/abc/00/abc_0042   0   22               did    VBD            (VP*)))       do  02   1   -       *             *         *      (V*)        *          *             *     -
+bn/abc/00/abc_0042   0   23                 ,      ,                 *        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   24            recuse     VB         (S(VP(VP*    recuse  01   -   -       *             *         *        *       (V*)         *             *     -
+bn/abc/00/abc_0042   0   25           himself    PRP             (NP*))       -    -   -   -       *             *         *        *    (ARG1*)         *             *    (7)
+bn/abc/00/abc_0042   0   26                 ,      ,                 *        -    -   -   -       *             *         *        *         *          *             *     -
+bn/abc/00/abc_0042   0   27               put     VB              (VP*       put  01   1   -       *             *         *        *         *        (V*)            *     -
+bn/abc/00/abc_0042   0   28          somebody     NN          (NP(NP*))       -    -   -   -       *             *         *        *         *     (ARG1*)       (ARG0*)    -
+bn/abc/00/abc_0042   0   29             there     RB            (ADVP*)       -    -   -   -       *             *         *        *         *     (ARG2*)            *     -
+bn/abc/00/abc_0042   0   30               who     WP       (SBAR(WHNP*)       -    -   -   -       *             *         *        *         *   (C-ARG1*      (R-ARG0*)    -
+bn/abc/00/abc_0042   0   31               can     MD            (S(VP*        -    -   -   -       *             *         *        *         *          *    (ARGM-MOD*)    -
+bn/abc/00/abc_0042   0   32               get     VB              (VP*       get  04   3   -       *             *         *        *         *          *           (V*)    -
+bn/abc/00/abc_0042   0   33                it    PRP            (S(NP*)       -    -   -   -       *             *         *        *         *          *        (ARG1*    (2)
+bn/abc/00/abc_0042   0   34              done    VBN   (VP*))))))))))))       do   -   1   -       *             *         *        *         *          *)            *)    -
+bn/abc/00/abc_0042   0   35                 !      .                *))       -    -   -   -       *             *         *        *         *          *             *     -
+
+bn/abc/00/abc_0042   0   0      cheers   NNS  (TOP(META(NP*   -   -   -   -   *   -
+bn/abc/00/abc_0042   0   1         and    CC              *   -   -   -   -   *   -
+bn/abc/00/abc_0042   0   2    applause    NN            *)))  -   -   -   -   *   -
+
+bn/abc/00/abc_0042   0    0           The    DT  (TOP(S(NP*         -    -   -   -            *   (ARG1*      *        *   -
+bn/abc/00/abc_0042   0    1       problem    NN           *)   problem   -   1   -            *        *)     *        *   -
+bn/abc/00/abc_0042   0    2            is   VBZ        (VP*         be  01   1   -            *      (V*)     *        *   -
+bn/abc/00/abc_0042   0    3          that    IN      (SBAR*         -    -   -   -            *   (ARG2*      *        *   -
+bn/abc/00/abc_0042   0    4           the    DT      (S(NP*         -    -   -   -            *        *      *   (ARG1*   -
+bn/abc/00/abc_0042   0    5        5,000     CD           *         -    -   -   -    (CARDINAL)       *      *        *   -
+bn/abc/00/abc_0042   0    6    undercount    JJ           *         -    -   -   -            *        *      *        *   -
+bn/abc/00/abc_0042   0    7       ballots   NNS           *)        -    -   -   -            *        *      *        *)  -
+bn/abc/00/abc_0042   0    8           are   VBP        (VP*         be  03   -   -            *        *    (V*)       *   -
+bn/abc/00/abc_0042   0    9         mixed   VBN        (VP*        mix  01   1   -            *        *      *      (V*)  -
+bn/abc/00/abc_0042   0   10            in    RP       (PRT*)        -    -   -   -            *        *      *        *   -
+bn/abc/00/abc_0042   0   11          with    IN        (PP*         -    -   -   -            *        *      *   (ARG2*   -
+bn/abc/00/abc_0042   0   12           the    DT     (NP(NP*         -    -   -   -            *        *      *        *   -
+bn/abc/00/abc_0042   0   13          pool    NN           *)      pool   -   3   -            *        *      *        *   -
+bn/abc/00/abc_0042   0   14            of    IN        (PP*         -    -   -   -            *        *      *        *   -
+bn/abc/00/abc_0042   0   15        nearly    RB     (NP(QP*         -    -   -   -   (CARDINAL*        *      *        *   -
+bn/abc/00/abc_0042   0   16      300,000     CD           *)        -    -   -   -            *)       *      *        *   -
+bn/abc/00/abc_0042   0   17       ballots   NNS   *)))))))))        -    -   -   -            *        *)     *        *)  -
+bn/abc/00/abc_0042   0   18             .     .          *))        -    -   -   -            *        *      *        *   -
+
+bn/abc/00/abc_0042   0    0          They   PRP     (TOP(S(NP*)         -    -   -   -   *        (ARG0*)       *        *     -
+bn/abc/00/abc_0042   0    1          flew   VBD           (VP*         fly  01   1   -   *           (V*)       *        *     -
+bn/abc/00/abc_0042   0    2            in    RB         (ADVP*)         -    -   -   -   *    (ARGM-DIR*)       *        *     -
+bn/abc/00/abc_0042   0    3             a    DT        (NP(NP*          -    -   -   -   *        (ARG1*   (ARG0*        *   (10
+bn/abc/00/abc_0042   0    4      computer    NN              *          -    -   -   -   *             *        *        *     -
+bn/abc/00/abc_0042   0    5    consultant    NN              *)         -    -   -   -   *             *        *)       *     -
+bn/abc/00/abc_0042   0    6            to    TO    (SBAR(S(VP*          -    -   -   -   *             *        *        *     -
+bn/abc/00/abc_0042   0    7       install    VB           (VP*     install  01   1   -   *             *      (V*)       *     -
+bn/abc/00/abc_0042   0    8             a    DT        (NP(NP*          -    -   -   -   *             *   (ARG1*   (ARG0*     -
+bn/abc/00/abc_0042   0    9       program    NN              *)    program   -   6   -   *             *        *        *)    -
+bn/abc/00/abc_0042   0   10            to    TO    (SBAR(S(VP*          -    -   -   -   *             *        *        *     -
+bn/abc/00/abc_0042   0   11      separate    VB           (VP*    separate  01   1   -   *             *        *      (V*)    -
+bn/abc/00/abc_0042   0   12           the    DT           (NP*          -    -   -   -   *             *        *   (ARG1*     -
+bn/abc/00/abc_0042   0   13       ballots   NNS   *))))))))))))         -    -   -   -   *             *)       *)       *)   10)
+bn/abc/00/abc_0042   0   14             .     .             *))         -    -   -   -   *             *        *        *     -
+
+bn/abc/00/abc_0042   0   0            His   PRP$   (TOP(S(NP(NP*             -    -   -   -   *             *    (ARG0*    (10)
+bn/abc/00/abc_0042   0   1    explanation     NN               *)   explanation   -   1   -   *             *         *      -
+bn/abc/00/abc_0042   0   2             of     IN            (PP*             -    -   -   -   *             *         *      -
+bn/abc/00/abc_0042   0   3            how    WRB   (SBAR(WHADVP*)            -    -   -   -   *    (ARGM-MNR*)        *      -
+bn/abc/00/abc_0042   0   4             it    PRP       (S(NP(NP*)            -    -   -   -   *        (ARG0*         *      -
+bn/abc/00/abc_0042   0   5            all     DT           (NP*))            -    -   -   -   *             *)        *      -
+bn/abc/00/abc_0042   0   6          works    VBZ        (VP*)))))          work  01   2   -   *           (V*)        *)     -
+bn/abc/00/abc_0042   0   7        baffled    VBD            (VP*         baffle  01   1   -   *             *       (V*)     -
+bn/abc/00/abc_0042   0   8             me    PRP           (NP*))            -    -   -   -   *             *    (ARG1*)    (3)
+bn/abc/00/abc_0042   0   9              .      .              *))            -    -   -   -   *             *         *      -
+
+bn/abc/00/abc_0042   0    0         We   PRP   (TOP(S(NP*)        -    -   -   -   *       (ARG0*)           *             *   -
+bn/abc/00/abc_0042   0    1       load   VBP         (VP*       load  01   1   -   *          (V*)           *             *   -
+bn/abc/00/abc_0042   0    2        the    DT         (NP*         -    -   -   -   *       (ARG2*            *             *   -
+bn/abc/00/abc_0042   0    3      cards   NNS            *)        -    -   -   -   *            *)           *             *   -
+bn/abc/00/abc_0042   0    4       into    IN         (PP*         -    -   -   -   *       (ARG1*            *             *   -
+bn/abc/00/abc_0042   0    5        the    DT         (NP*         -    -   -   -   *            *            *             *   -
+bn/abc/00/abc_0042   0    6     reader    NN            *         -    -   -   -   *            *            *             *   -
+bn/abc/00/abc_0042   0    7     hopper    NN           *))        -    -   -   -   *            *)           *             *   -
+bn/abc/00/abc_0042   0    8         at    IN  (SBAR(WHPP*         -    -   -   -   *   (ARGM-TMP*   (ARGM-TMP*             *   -
+bn/abc/00/abc_0042   0    9      which   WDT       (WHNP*         -    -   -   -   *            *            *             *   -
+bn/abc/00/abc_0042   0   10       time    NN           *))      time   -   1   -   *            *            *)            *   -
+bn/abc/00/abc_0042   0   11        the    DT       (S(NP*         -    -   -   -   *            *       (ARG0*        (ARG1*   -
+bn/abc/00/abc_0042   0   12    machine    NN            *)   machine   -   1   -   *            *            *)            *)  -
+bn/abc/00/abc_0042   0   13      looks   VBZ      (VP(VP*       look  01   1   -   *            *          (V*)            *   -
+bn/abc/00/abc_0042   0   14        for    IN         (PP*         -    -   -   -   *            *       (ARG1*             *   -
+bn/abc/00/abc_0042   0   15          a    DT         (NP*         -    -   -   -   *            *            *             *   -
+bn/abc/00/abc_0042   0   16      light    NN          *)))     light   -   1   -   *            *            *)            *   -
+bn/abc/00/abc_0042   0   17        and    CC            *         -    -   -   -   *            *            *             *   -
+bn/abc/00/abc_0042   0   18       then    RB       (ADVP*)        -    -   -   -   *            *            *    (ARGM-TMP*)  -
+bn/abc/00/abc_0042   0   19     passes   VBZ         (VP*       pass  03   4   -   *            *            *           (V*)  -
+bn/abc/00/abc_0042   0   20       into    IN         (PP*         -    -   -   -   *            *            *    (ARGM-DIR*   -
+bn/abc/00/abc_0042   0   21        the    DT         (NP*         -    -   -   -   *            *            *             *   -
+bn/abc/00/abc_0042   0   22    stacker    NN      *)))))))        -    -   -   -   *            *)           *             *)  -
+bn/abc/00/abc_0042   0   23          .     .           *))        -    -   -   -   *            *            *             *   -
+
+bn/abc/00/abc_0042   0    0         From    IN  (TOP(S(PP(PP*           -    -   -   -   *      *   (ARGM-TMP*    -
+bn/abc/00/abc_0042   0    1    beginning    NN          (NP*))   beginning  01   1   -   *    (V*)           *    -
+bn/abc/00/abc_0042   0    2           to    IN           (PP*           -    -   -   -   *      *            *    -
+bn/abc/00/abc_0042   0    3          end    NN         (NP*)))         end   -   4   -   *      *            *)   -
+bn/abc/00/abc_0042   0    4            ,     ,              *           -    -   -   -   *      *            *    -
+bn/abc/00/abc_0042   0    5         both    DT           (NP*           -    -   -   -   *      *       (ARG0*   (5
+bn/abc/00/abc_0042   0    6        sides   NNS              *)        side   -   3   -   *      *            *)   5)
+bn/abc/00/abc_0042   0    7       fought   VBD           (VP*        fight  01   1   -   *      *          (V*)   -
+bn/abc/00/abc_0042   0    8        every    DT        (NP(NP*           -    -   -   -   *      *   (ARGM-MNR*    -
+bn/abc/00/abc_0042   0    9         step    NN              *)        step   -   1   -   *      *            *    -
+bn/abc/00/abc_0042   0   10           of    IN           (PP*           -    -   -   -   *      *            *    -
+bn/abc/00/abc_0042   0   11          the    DT           (NP*           -    -   -   -   *      *            *    -
+bn/abc/00/abc_0042   0   12          way    NN           *))))         way   -   4   -   *      *            *)   -
+bn/abc/00/abc_0042   0   13            .     .             *))          -    -   -   -   *      *            *    -
+
+bn/abc/00/abc_0042   0   0       This    DT      (TOP(S(NP*         -    -   -   -   (TIME*    (ARGM-TMP*             *     -
+bn/abc/00/abc_0042   0   1    morning    NN               *)   morning   -   1   -        *)            *)            *     -
+bn/abc/00/abc_0042   0   2       they   PRP            (NP*)        -    -   -   -        *        (ARG0*)            *    (5)
+bn/abc/00/abc_0042   0   3      could    MD            (VP*         -    -   -   -        *    (ARGM-MOD*)            *     -
+bn/abc/00/abc_0042   0   4        not    RB               *         -    -   -   -        *    (ARGM-NEG*)            *     -
+bn/abc/00/abc_0042   0   5     decide    VB            (VP*     decide  01   1   -        *           (V*)            *     -
+bn/abc/00/abc_0042   0   6        how   WRB   (SBAR(WHADVP*)        -    -   -   -        *        (ARG1*    (ARGM-MNR*)    -
+bn/abc/00/abc_0042   0   7         to    TO          (S(VP*         -    -   -   -        *             *             *     -
+bn/abc/00/abc_0042   0   8      begin    VB       (VP*))))))     begin  01   2   -        *             *)          (V*)    -
+bn/abc/00/abc_0042   0   9          .     .              *))        -    -   -   -        *             *             *     -
+
+bn/abc/00/abc_0042   0    0    Tonight    NN            (TOP(S(NP*)      -    -   -   -        (TIME)     *    (ARGM-TMP*)           *      *      *         *         *     -
+bn/abc/00/abc_0042   0    1          ,     ,                     *       -    -   -   -            *      *             *            *      *      *         *         *     -
+bn/abc/00/abc_0042   0    2        the    DT                  (NP*       -    -   -   -            *      *        (ARG0*            *      *      *         *         *    (5
+bn/abc/00/abc_0042   0    3        two    CD                     *       -    -   -   -    (CARDINAL)     *             *            *      *      *         *         *     -
+bn/abc/00/abc_0042   0    4      sides   NNS                     *)    side   -   3   -            *      *             *)           *      *      *         *         *     5)
+bn/abc/00/abc_0042   0    5        are   VBP                  (VP*       be  03   -   -            *    (V*)            *            *      *      *         *         *     -
+bn/abc/00/abc_0042   0    6    arguing   VBG                  (VP*    argue  02   1   -            *      *           (V*)           *      *      *         *         *     -
+bn/abc/00/abc_0042   0    7      about    IN                  (PP*       -    -   -   -            *      *        (ARG2*            *      *      *         *         *     -
+bn/abc/00/abc_0042   0    8       what    WP           (SBAR(WHNP*)      -    -   -   -            *      *             *       (ARG1*)     *      *         *         *     -
+bn/abc/00/abc_0042   0    9         to    TO                (S(VP*       -    -   -   -            *      *             *            *      *      *         *         *     -
+bn/abc/00/abc_0042   0   10         do    VB                  (VP*       do  02   1   -            *      *             *          (V*)     *      *         *         *     -
+bn/abc/00/abc_0042   0   11        now    RB                (ADVP*       -    -   -   -            *      *             *   (ARGM-TMP*      *      *         *         *     -
+bn/abc/00/abc_0042   0   12       that    IN                (SBAR*       -    -   -   -            *      *             *            *      *      *         *         *     -
+bn/abc/00/abc_0042   0   13       they   PRP                (S(NP*)      -    -   -   -            *      *             *            *      *      *    (ARG2*)   (ARG1*)   (5)
+bn/abc/00/abc_0042   0   14       have   VBP                  (VP*     have  01   -   -            *      *             *            *    (V*)     *         *         *     -
+bn/abc/00/abc_0042   0   15       been   VBN                  (VP*       be  03   -   -            *      *             *            *      *    (V*)        *         *     -
+bn/abc/00/abc_0042   0   16       told   VBN                  (VP*     tell  01   1   -            *      *             *            *      *      *       (V*)        *    (6)
+bn/abc/00/abc_0042   0   17         to    TO                (S(VP*       -    -   -   -            *      *             *            *      *      *    (ARG1*         *     -
+bn/abc/00/abc_0042   0   18       stop    VB   (VP*))))))))))))))))    stop  01   1   -            *      *             *)           *)     *      *         *)      (V*)    -
+bn/abc/00/abc_0042   0   19          .     .                    *))      -    -   -   -            *      *             *            *      *      *         *         *     -
+
+bn/abc/00/abc_0042   0   0    Democrats   NNPS   (TOP(S(NP*)     -    -   -   -    (NORP)   (ARG0*)           *   -
+bn/abc/00/abc_0042   0   1          say    VBP         (VP*     say  01   1   -        *       (V*)           *   -
+bn/abc/00/abc_0042   0   2            ,      ,            *      -    -   -   -        *         *            *   -
+bn/abc/00/abc_0042   0   3           at     IN     (S(ADVP*      -    -   -   -        *    (ARG1*   (ARGM-ADV*   -
+bn/abc/00/abc_0042   0   4        least    JJS            *)     -    -   -   -        *         *            *)  -
+bn/abc/00/abc_0042   0   5         sort     VB         (VP*    sort  01   2   -        *         *          (V*)  -
+bn/abc/00/abc_0042   0   6          the     DT         (NP*      -    -   -   -        *         *       (ARG1*   -
+bn/abc/00/abc_0042   0   7      ballots    NNS         *))))     -    -   -   -        *         *)           *)  -
+bn/abc/00/abc_0042   0   8            .      .           *))     -    -   -   -        *         *            *   -
+
+bn/abc/00/abc_0042   0   0    Republicans   NNPS   (TOP(S(NP*)    -    -   -   -    (NORP)   (ARG0*)  -
+bn/abc/00/abc_0042   0   1           said    VBD         (VP*    say  01   1   -        *       (V*)  -
+bn/abc/00/abc_0042   0   2              ,      ,            *     -    -   -   -        *         *   -
+bn/abc/00/abc_0042   0   3             No     DT         (NP*     -    -   -   -        *    (ARG1*   -
+bn/abc/00/abc_0042   0   4            way     NN           *))   way   -   5   -        *         *)  -
+bn/abc/00/abc_0042   0   5              .      .           *))    -    -   -   -        *         *   -
+
+bn/abc/00/abc_0042   0   0            Mike   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*    (3
+bn/abc/00/abc_0042   0   1             Von   NNP              *   -   -   -   -          *     -
+bn/abc/00/abc_0042   0   2           Fremd   NNP              *)  -   -   -   -          *)    3)
+bn/abc/00/abc_0042   0   3               ,     ,              *   -   -   -   -          *     -
+bn/abc/00/abc_0042   0   4             ABC   NNP           (NP*   -   -   -   -      (ORG*     -
+bn/abc/00/abc_0042   0   5            News   NNP              *)  -   -   -   -          *)    -
+bn/abc/00/abc_0042   0   6               ,     ,              *   -   -   -   -          *     -
+bn/abc/00/abc_0042   0   7    Jacksonville   NNP           (NP*)  -   -   -   -       (GPE)   (8)
+bn/abc/00/abc_0042   0   8               .     .             *))  -   -   -   -          *     -
+
+#end document

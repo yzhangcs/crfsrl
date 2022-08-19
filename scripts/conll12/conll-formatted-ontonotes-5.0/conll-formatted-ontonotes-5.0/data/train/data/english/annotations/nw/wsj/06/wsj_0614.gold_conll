@@ -1,0 +1,32 @@
+#begin document (nw/wsj/06/wsj_0614); part 000
+nw/wsj/06/wsj_0614   0    0       QUANTUM   NNP  (TOP(S(NP(NP(NP*        -    -   -   -    (ORG*     (ARG1*       (ARG0*   -
+nw/wsj/06/wsj_0614   0    1      CHEMICAL   NNP                 *        -    -   -   -        *          *            *   -
+nw/wsj/06/wsj_0614   0    2         Corp.   NNP                 *        -    -   -   -        *          *            *   -
+nw/wsj/06/wsj_0614   0    3            's   POS                 *)       -    -   -   -        *)         *            *   -
+nw/wsj/06/wsj_0614   0    4         plant    NN                 *)       -    -   -   -        *          *            *   -
+nw/wsj/06/wsj_0614   0    5            in    IN              (PP*        -    -   -   -        *          *            *   -
+nw/wsj/06/wsj_0614   0    6        Morris   NNP           (NP(NP*)       -    -   -   -     (GPE)         *            *   -
+nw/wsj/06/wsj_0614   0    7             ,     ,                 *        -    -   -   -        *          *            *   -
+nw/wsj/06/wsj_0614   0    8          Ill.   NNP              (NP*)       -    -   -   -     (GPE)         *            *   -
+nw/wsj/06/wsj_0614   0    9             ,     ,               *)))       -    -   -   -        *          *)           *)  -
+nw/wsj/06/wsj_0614   0   10            is   VBZ              (VP*        -    -   -   -        *          *            *   -
+nw/wsj/06/wsj_0614   0   11      expected   VBN              (VP*    expect  01   -   -        *        (V*)           *   -
+nw/wsj/06/wsj_0614   0   12            to    TO            (S(VP*        -    -   -   -        *   (C-ARG1*            *   -
+nw/wsj/06/wsj_0614   0   13        resume    VB              (VP*    resume  01   -   -        *          *          (V*)  -
+nw/wsj/06/wsj_0614   0   14    production    NN              (NP*)       -    -   -   -        *          *       (ARG1*)  -
+nw/wsj/06/wsj_0614   0   15            in    IN              (PP*        -    -   -   -        *          *   (ARGM-TMP*   -
+nw/wsj/06/wsj_0614   0   16         early    JJ              (NP*        -    -   -   -   (DATE*          *            *   -
+nw/wsj/06/wsj_0614   0   17         1990     CD           *)))))))       -    -   -   -        *)         *)           *)  -
+nw/wsj/06/wsj_0614   0   18             .     .                *))       -    -   -   -        *          *            *   -
+
+nw/wsj/06/wsj_0614   0   0          The    DT  (TOP(S(NP*          -    -   -   -        *       (ARG1*   -
+nw/wsj/06/wsj_0614   0   1         year    NN           *)         -    -   -   -    (DATE)           *)  -
+nw/wsj/06/wsj_0614   0   2          was   VBD        (VP*          -    -   -   -        *            *   -
+nw/wsj/06/wsj_0614   0   3    misstated   VBN        (VP*    misstate  01   1   -        *          (V*)  -
+nw/wsj/06/wsj_0614   0   4           in    IN        (PP*          -    -   -   -        *   (ARGM-LOC*   -
+nw/wsj/06/wsj_0614   0   5       Friday   NNP     (NP(NP*          -    -   -   -    (DATE)           *   -
+nw/wsj/06/wsj_0614   0   6           's   POS           *)         -    -   -   -        *            *   -
+nw/wsj/06/wsj_0614   0   7     editions   NNS        *))))         -    -   -   -        *            *)  -
+nw/wsj/06/wsj_0614   0   8            .     .          *))         -    -   -   -        *            *   -
+
+#end document

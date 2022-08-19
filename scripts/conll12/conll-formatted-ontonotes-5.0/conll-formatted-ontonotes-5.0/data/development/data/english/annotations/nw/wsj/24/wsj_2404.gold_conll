@@ -1,0 +1,739 @@
+#begin document (nw/wsj/24/wsj_2404); part 000
+nw/wsj/24/wsj_2404   0    0     Dismal     JJ  (TOP(S(NP(NP*        -    -   -   -           *    (ARGM-ADJ*)      (ARG0*       -
+nw/wsj/24/wsj_2404   0    1      sales    NNS              *)     sale  01   1   -           *           (V*)           *       -
+nw/wsj/24/wsj_2404   0    2         at     IN           (PP*        -    -   -   -           *    (ARGM-LOC*            *       -
+nw/wsj/24/wsj_2404   0    3    General    NNP           (NP*        -    -   -   -       (ORG*             *            *      (4
+nw/wsj/24/wsj_2404   0    4     Motors   NNPS              *        -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0    5      Corp.    NNP            *)))       -    -   -   -           *)            *)           *)      4)
+nw/wsj/24/wsj_2404   0    6    dragged    VBD           (VP*      drag  01   6   -           *             *          (V*)      -
+nw/wsj/24/wsj_2404   0    7        the     DT           (NP*        -    -   -   -           *             *       (ARG1*      (1
+nw/wsj/24/wsj_2404   0    8       U.S.    NNP              *        -    -   -   -        (GPE)            *            *       -
+nw/wsj/24/wsj_2404   0    9        car     NN          (NML*       car   -   2   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   10        and     CC              *        -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   11      truck     NN              *)    truck   -   1   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   12     market     NN              *)   market   -   1   -           *             *            *)      1)
+nw/wsj/24/wsj_2404   0   13       down     IN         (ADVP*)       -    -   -   -           *             *       (ARG2*)      -
+nw/wsj/24/wsj_2404   0   14      below     IN           (PP*        -    -   -   -           *             *   (ARGM-LOC*       -
+nw/wsj/24/wsj_2404   0   15       year     NN      (NP(ADJP*        -    -   -   -      (DATE*             *            *      (7
+nw/wsj/24/wsj_2404   0   16         -    HYPH              *        -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   17        ago     JJ              *)       -    -   -   -           *)            *            *       -
+nw/wsj/24/wsj_2404   0   18     levels    NNS             *))    level   -   2   -           *             *            *)      7)
+nw/wsj/24/wsj_2404   0   19         in     IN           (PP*        -    -   -   -           *             *   (ARGM-TMP*       -
+nw/wsj/24/wsj_2404   0   20      early     JJ        (NP(NP*        -    -   -   -      (DATE*             *            *      (3
+nw/wsj/24/wsj_2404   0   21    October    NNP              *)       -    -   -   -           *)            *            *       -
+nw/wsj/24/wsj_2404   0   22          ,      ,              *        -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   23        the     DT        (NP(NP*        -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   24      first     JJ              *        -    -   -   -    (ORDINAL)            *            *       -
+nw/wsj/24/wsj_2404   0   25      sales    NNS              *      sale   -   1   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   26     period     NN              *)       -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   27         of     IN           (PP*        -    -   -   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   28        the     DT           (NP*        -    -   -   -           *             *            *      (9
+nw/wsj/24/wsj_2404   0   29      1990      CD              *        -    -   -   -       (DATE)            *            *       -
+nw/wsj/24/wsj_2404   0   30      model     NN              *     model   -   2   -           *             *            *       -
+nw/wsj/24/wsj_2404   0   31       year     NN         *))))))       -    -   -   -           *             *            *)   9)|3)
+nw/wsj/24/wsj_2404   0   32          .      .             *))       -    -   -   -           *             *            *       -
+
+nw/wsj/24/wsj_2404   0    0         The     DT  (TOP(S(NP*       -    -   -   -            *       (ARG0*        *    -
+nw/wsj/24/wsj_2404   0    1       eight     CD           *       -    -   -   -    (CARDINAL)           *        *    -
+nw/wsj/24/wsj_2404   0    2       major     JJ           *       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0    3    domestic     JJ           *       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0    4        auto     NN           *       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0    5      makers    NNS           *)   maker   -   1   -            *            *)       *    -
+nw/wsj/24/wsj_2404   0    6        sold    VBD     (VP(VP*     sell  01   1   -            *          (V*)       *    -
+nw/wsj/24/wsj_2404   0    7    160,510      CD     (NP(NP*       -    -   -   -    (CARDINAL)      (ARG1*        *    -
+nw/wsj/24/wsj_2404   0    8       North    NNP  (ADJP(NML*       -    -   -   -       (NORP*            *        *    -
+nw/wsj/24/wsj_2404   0    9    American    NNP           *)      -    -   -   -            *)           *        *    -
+nw/wsj/24/wsj_2404   0   10          -    HYPH           *       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   11        made    VBN           *)      -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   12        cars    NNS          *))     car   -   2   -            *            *)       *    -
+nw/wsj/24/wsj_2404   0   13          in     IN        (PP*       -    -   -   -            *   (ARGM-TMP*        *    -
+nw/wsj/24/wsj_2404   0   14         the     DT     (NP(NP*       -    -   -   -       (DATE*            *        *   (3
+nw/wsj/24/wsj_2404   0   15       first     JJ           *       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   16         10      CD           *       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   17        days    NNS           *)     day   -   2   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   18          of     IN        (PP*       -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   19     October    NNP     (NP*))))      -    -   -   -            *)           *)       *    3)
+nw/wsj/24/wsj_2404   0   20           ,      ,           *)      -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   21           a     DT     (NP(NP*       -    -   -   -            *   (ARGM-ADV*        *    -
+nw/wsj/24/wsj_2404   0   22       12.6      CD       (NML*       -    -   -   -    (PERCENT*            *   (ARG2*    -
+nw/wsj/24/wsj_2404   0   23           %     NN           *)      -    -   -   -            *)           *        *)   -
+nw/wsj/24/wsj_2404   0   24        drop     NN           *)    drop  01   5   -            *            *      (V*)   -
+nw/wsj/24/wsj_2404   0   25        from     IN        (PP*       -    -   -   -            *            *   (ARG3*    -
+nw/wsj/24/wsj_2404   0   26           a     DT   (ADVP(NP*       -    -   -   -       (DATE*            *        *    -
+nw/wsj/24/wsj_2404   0   27        year     NN           *)      -    -   -   -            *            *        *    -
+nw/wsj/24/wsj_2404   0   28     earlier    RBR        *))))      -    -   -   -            *)           *)       *)   -
+nw/wsj/24/wsj_2404   0   29           .      .          *))      -    -   -   -            *            *        *    -
+
+nw/wsj/24/wsj_2404   0    0    Domestically    RB  (TOP(S(NP(ADJP*         -    -   -   -            *    (ARGM-MNR*)  (ARGM-ADJ*   (ARG1*   -
+nw/wsj/24/wsj_2404   0    1           built   VBN                *)     build  01   1   -            *           (V*)           *)       *   -
+nw/wsj/24/wsj_2404   0    2           truck    NN                *      truck   -   1   -            *        (ARG1*)      (ARG1*)       *   -
+nw/wsj/24/wsj_2404   0    3           sales   NNS                *)      sale  01   1   -            *             *          (V*)       *)  -
+nw/wsj/24/wsj_2404   0    4            were   VBD             (VP*         be  01   1   -            *             *            *      (V*)  -
+nw/wsj/24/wsj_2404   0    5            down    IN           (ADVP*         -    -   -   -            *             *            *   (ARG2*   -
+nw/wsj/24/wsj_2404   0    6           10.4     CD             (NP*         -    -   -   -    (PERCENT*             *            *        *   -
+nw/wsj/24/wsj_2404   0    7               %    NN                *)        -    -   -   -            *)            *            *        *   -
+nw/wsj/24/wsj_2404   0    8              to    IN             (PP*         -    -   -   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0    9         86,555     CD             (NP*         -    -   -   -    (CARDINAL)            *            *        *   -
+nw/wsj/24/wsj_2404   0   10         pickups   NNS        (NML(NML*)        -    -   -   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0   11               ,     ,                *         -    -   -   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0   12            vans   NNS            (NML*)        -    -   -   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0   13             and    CC                *         -    -   -   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0   14           sport    NN            (NML*      sport   -   1   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0   15         utility    NN                *    utility   -   2   -            *             *            *        *   -
+nw/wsj/24/wsj_2404   0   16        vehicles   NNS           *))))))   vehicle   -   1   -            *             *            *        *)  -
+nw/wsj/24/wsj_2404   0   17               .     .               *))        -    -   -   -            *             *            *        *   -
+
+nw/wsj/24/wsj_2404   0    0           The    DT  (TOP(S(NP(NP*        -    -    -   -        *             *        *     (ARG1*       (ARG0*             *             *     -
+nw/wsj/24/wsj_2404   0    1         heavy    JJ              *        -    -    -   -        *    (ARGM-EXT*)       *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0    2           use    NN              *)      use  01    1   -        *           (V*)       *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0    3            of    IN           (PP*        -    -    -   -        *        (ARG1*        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0    4    incentives   NNS           (NP*        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0    5            to    TO         (S(VP*        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0    6         clear    VB           (VP*     clear  01    1   -        *             *      (V*)         *            *             *             *     -
+nw/wsj/24/wsj_2404   0    7           out    RP          (PRT*)       -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0    8         1989     CD           (NP*        -    -    -   -    (DATE)            *   (ARG1*          *            *             *             *    (6)
+nw/wsj/24/wsj_2404   0    9        models   NNS        *)))))))    model   -    2   -        *             *)       *)         *)           *)            *             *     -
+nw/wsj/24/wsj_2404   0   10       appears   VBZ           (VP*    appear  02    1   -        *             *        *        (V*)           *             *             *     -
+nw/wsj/24/wsj_2404   0   11            to    TO         (S(VP*        -    -    -   -        *             *        *   (C-ARG1*            *             *             *     -
+nw/wsj/24/wsj_2404   0   12          have    VB           (VP*        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0   13         taken   VBN           (VP*      take  01   11   -        *             *        *          *          (V*)            *             *     -
+nw/wsj/24/wsj_2404   0   14           the    DT           (NP*        -    -    -   -        *             *        *          *       (ARG1*             *             *     -
+nw/wsj/24/wsj_2404   0   15         steam    NN              *)       -    -    -   -        *             *        *          *            *)            *             *     -
+nw/wsj/24/wsj_2404   0   16             ,     ,              *        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0   17            at    IN    (ADVP(ADVP*        -    -    -   -        *             *        *          *   (ARGM-TMP*             *             *     -
+nw/wsj/24/wsj_2404   0   18         least   JJS              *)       -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0   19     initially    RB              *)       -    -    -   -        *             *        *          *            *)            *             *     -
+nw/wsj/24/wsj_2404   0   20             ,     ,              *        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0   21           out    IN           (PP*        -    -    -   -        *             *        *          *       (ARG2*             *             *     -
+nw/wsj/24/wsj_2404   0   22            of    IN           (PP*        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0   23         1990     CD        (NP(NP*        -    -    -   -    (DATE)            *        *          *            *    (ARGM-TMP*)       (ARG1*     -
+nw/wsj/24/wsj_2404   0   24         model    NN              *     model   -    2   -        *             *        *          *            *        (ARG1*)            *     -
+nw/wsj/24/wsj_2404   0   25         sales   NNS              *)     sale  01    1   -        *             *        *          *            *           (V*)            *)    -
+nw/wsj/24/wsj_2404   0   26             ,     ,              *        -    -    -   -        *             *        *          *            *             *             *     -
+nw/wsj/24/wsj_2404   0   27         which   WDT    (SBAR(WHNP*)       -    -    -   -        *             *        *          *            *             *      (R-ARG1*)    -
+nw/wsj/24/wsj_2404   0   28         began   VBD         (S(VP*     begin  01    1   -        *             *        *          *            *             *           (V*)    -
+nw/wsj/24/wsj_2404   0   29    officially    RB         (ADVP*)       -    -    -   -        *             *        *          *            *             *    (ARGM-MNR*)    -
+nw/wsj/24/wsj_2404   0   30          Oct.   NNP           (NP*        -    -    -   -   (DATE*             *        *          *            *             *    (ARGM-TMP*     -
+nw/wsj/24/wsj_2404   0   31            1     CD   *))))))))))))       -    -    -   -        *)            *        *          *)           *)            *             *)    -
+nw/wsj/24/wsj_2404   0   32             .     .             *))       -    -    -   -        *             *        *          *            *             *             *     -
+
+nw/wsj/24/wsj_2404   0    0            This     DT       (TOP(S(NP*)       -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0    1         appears    VBZ             (VP*    appear  02   1   -           *          (V*)           *             *           *        *       -
+nw/wsj/24/wsj_2404   0    2    particularly     RB         (S(ADJP*        -    -   -   -           *       (ARG1*            *             *           *        *       -
+nw/wsj/24/wsj_2404   0    3            true     JJ               *))       -    -   -   -           *            *)           *             *           *        *       -
+nw/wsj/24/wsj_2404   0    4              at     IN             (PP*        -    -   -   -           *   (ARGM-LOC*            *             *           *        *       -
+nw/wsj/24/wsj_2404   0    5              GM    NNP          (NP(NP*)       -    -   -   -        (ORG)           *       (ARG0*)            *      (ARG0*)       *      (4
+nw/wsj/24/wsj_2404   0    6               ,      ,                *        -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0    7           which    WDT   (NP(SBAR(WHNP*)       -    -   -   -           *            *     (R-ARG0*)            *    (R-ARG0*)       *       -
+nw/wsj/24/wsj_2404   0    8             had    VBD        (S(VP(VP*      have  03   4   -           *            *          (V*)            *           *        *       -
+nw/wsj/24/wsj_2404   0    9          strong     JJ             (NP*        -    -   -   -           *            *       (ARG1*    (ARGM-ADJ*)          *        *       -
+nw/wsj/24/wsj_2404   0   10           sales    NNS                *)     sale  01   1   -           *            *            *)          (V*)          *        *       -
+nw/wsj/24/wsj_2404   0   11              in     IN             (PP*        -    -   -   -           *            *   (ARGM-TMP*             *           *        *       -
+nw/wsj/24/wsj_2404   0   12          August    NNP             (NP*        -    -   -   -       (DATE)           *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   13             and     CC                *        -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   14       September    NNP              *)))       -    -   -   -       (DATE)           *            *)            *           *        *       -
+nw/wsj/24/wsj_2404   0   15             but     CC                *        -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   16             saw    VBD             (VP*       see  01   3   -           *            *            *             *         (V*)       *       -
+nw/wsj/24/wsj_2404   0   17             its   PRP$           (S(NP*        -    -   -   -           *            *            *             *      (ARG1*   (ARG1*      (4)
+nw/wsj/24/wsj_2404   0   18           early     JJ            (NML*        -    -   -   -      (DATE*            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   19         October    NNP                *)       -    -   -   -           *)           *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   20             car     NN            (NML*       car   -   2   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   21             and     CC                *        -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   22           truck     NN                *)    truck   -   1   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   23         results    NNS                *)   result   -   3   -           *            *            *             *           *        *)      -
+nw/wsj/24/wsj_2404   0   24            fall     VB             (VP*      fall  01   1   -           *            *            *             *           *      (V*)      -
+nw/wsj/24/wsj_2404   0   25           26.3      CD             (NP*        -    -   -   -   (PERCENT*            *            *             *           *   (ARG2*       -
+nw/wsj/24/wsj_2404   0   26               %     NN                *)       -    -   -   -           *)           *            *             *           *        *)      -
+nw/wsj/24/wsj_2404   0   27            from     IN             (PP*        -    -   -   -           *            *            *             *           *   (ARG3*       -
+nw/wsj/24/wsj_2404   0   28            last     JJ          (NP(NP*        -    -   -   -      (DATE*            *            *             *           *        *   (6|(7
+nw/wsj/24/wsj_2404   0   29            year     NN                *        -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   30              's    POS                *)       -    -   -   -           *)           *            *             *           *        *       6)
+nw/wsj/24/wsj_2404   0   31       unusually     RB           (ADJP*        -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   32            high     JJ                *)       -    -   -   -           *            *            *             *           *        *       -
+nw/wsj/24/wsj_2404   0   33           level     NN     *))))))))))))    level   -   2   -           *            *)           *             *           *)       *)   7)|4)
+nw/wsj/24/wsj_2404   0   34               .      .               *))       -    -   -   -           *            *            *             *           *        *       -
+
+nw/wsj/24/wsj_2404   0    0     Overall     RB   (TOP(S(ADVP*)        -    -   -   -           *        *    (ARGM-ADV*)     -
+nw/wsj/24/wsj_2404   0    1           ,      ,              *         -    -   -   -           *        *             *      -
+nw/wsj/24/wsj_2404   0    2       sales    NNS        (NP(NP*)      sale  01   1   -           *      (V*)       (ARG1*      -
+nw/wsj/24/wsj_2404   0    3          of     IN           (PP*         -    -   -   -           *   (ARG1*             *      -
+nw/wsj/24/wsj_2404   0    4         all     DT           (NP*         -    -   -   -           *        *             *      -
+nw/wsj/24/wsj_2404   0    5    domestic     NN         (ADJP*         -    -   -   -           *        *             *      -
+nw/wsj/24/wsj_2404   0    6          -    HYPH              *         -    -   -   -           *        *             *      -
+nw/wsj/24/wsj_2404   0    7        made    VBN              *)        -    -   -   -           *        *             *      -
+nw/wsj/24/wsj_2404   0    8    vehicles    NNS            *)))   vehicle   -   1   -           *        *)            *)     -
+nw/wsj/24/wsj_2404   0    9        fell    VBD           (VP*       fall  01   1   -           *        *           (V*)   (13)
+nw/wsj/24/wsj_2404   0   10       11.9      CD           (NP*         -    -   -   -   (PERCENT*        *        (ARG2*      -
+nw/wsj/24/wsj_2404   0   11           %     NN              *)        -    -   -   -           *)       *             *)     -
+nw/wsj/24/wsj_2404   0   12        from     IN           (PP*         -    -   -   -           *        *        (ARG3*      -
+nw/wsj/24/wsj_2404   0   13           a     DT      (ADVP(NP*         -    -   -   -      (DATE*        *             *      -
+nw/wsj/24/wsj_2404   0   14        year     NN              *)        -    -   -   -           *        *             *      -
+nw/wsj/24/wsj_2404   0   15         ago     RB            *)))        -    -   -   -           *)       *             *)     -
+nw/wsj/24/wsj_2404   0   16           .      .             *))        -    -   -   -           *        *             *      -
+
+nw/wsj/24/wsj_2404   0    0       Without    IN  (TOP(S(PP*        -    -   -   -        *             *   (ARGM-ADV*     -
+nw/wsj/24/wsj_2404   0    1            GM   NNP       (NP*))       -    -   -   -     (ORG)            *            *)   (4)
+nw/wsj/24/wsj_2404   0    2             ,     ,           *        -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0    3       overall    JJ     (NP(NP*        -    -   -   -        *    (ARGM-ADJ*)      (ARG1*     -
+nw/wsj/24/wsj_2404   0    4         sales   NNS           *)     sale  01   1   -        *           (V*)           *     -
+nw/wsj/24/wsj_2404   0    5           for    IN        (PP*        -    -   -   -        *        (ARG0*            *     -
+nw/wsj/24/wsj_2404   0    6           the    DT        (NP*        -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0    7         other    JJ           *        -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0    8          U.S.   NNP           *        -    -   -   -     (GPE)            *            *     -
+nw/wsj/24/wsj_2404   0    9    automakers   NNS         *)))       -    -   -   -        *             *)           *)    -
+nw/wsj/24/wsj_2404   0   10          were   VBD        (VP*        be  01   1   -        *             *          (V*)    -
+nw/wsj/24/wsj_2404   0   11       roughly    RB      (ADJP*        -    -   -   -        *             *       (ARG2*     -
+nw/wsj/24/wsj_2404   0   12          flat    JJ           *        -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0   13          with    IN        (PP*        -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0   14         1989     CD        (NP*        -    -   -   -    (DATE)            *            *    (6)
+nw/wsj/24/wsj_2404   0   15       results   NNS        *))))   result   -   3   -        *             *            *)    -
+nw/wsj/24/wsj_2404   0   16             .     .          *))       -    -   -   -        *             *            *     -
+
+nw/wsj/24/wsj_2404   0    0          Some     DT   (TOP(S(S(NP(NP*)        -    -   -   -        *        (ARG0*             *             *             *      *    (14
+nw/wsj/24/wsj_2404   0    1            of     IN              (PP*         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    2           the     DT              (NP*         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    3          U.S.    NNP                 *         -    -   -   -     (GPE)            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    4          auto     NN                 *         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    5        makers    NNS               *)))     maker   -   1   -        *             *)            *             *             *      *     14)
+nw/wsj/24/wsj_2404   0    6          have    VBP              (VP*         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    7       already     RB            (ADVP*)        -    -   -   -        *    (ARGM-TMP*)            *             *             *      *      -
+nw/wsj/24/wsj_2404   0    8       adopted    VBN              (VP*      adopt  01   1   -        *           (V*)            *             *             *      *      -
+nw/wsj/24/wsj_2404   0    9    incentives    NNS           (NP(NP*)        -    -   -   -        *        (ARG1*             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   10            on     IN              (PP*         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   11          many     JJ              (NP*         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   12         1990      CD                 *         -    -   -   -    (DATE)            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   13        models    NNS            *))))))     model   -   2   -        *             *)            *             *             *      *      -
+nw/wsj/24/wsj_2404   0   14             ,      ,                 *         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   15           but     CC                 *         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   16          they    PRP            (S(NP*)        -    -   -   -        *             *             *        (ARG0*)       (ARG0*)     *    (14)
+nw/wsj/24/wsj_2404   0   17           may     MD              (VP*         -    -   -   -        *             *    (ARGM-MOD*)            *             *      *      -
+nw/wsj/24/wsj_2404   0   18          have     VB              (VP*       have  02   -   -        *             *           (V*)   (ARGM-MOD*)            *      *      -
+nw/wsj/24/wsj_2404   0   19            to     TO            (S(VP*         -    -   -   -        *             *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   20       broaden     VB              (VP*    broaden  01   2   -        *             *             *           (V*)            *      *      -
+nw/wsj/24/wsj_2404   0   21         their   PRP$              (NP*         -    -   -   -        *             *             *        (ARG1*             *      *    (14)
+nw/wsj/24/wsj_2404   0   22      programs    NNS                 *)   program   -   1   -        *             *             *             *)            *      *      -
+nw/wsj/24/wsj_2404   0   23            to     TO            (S(VP*         -    -   -   -        *             *             *    (ARGM-PNC*             *      *      -
+nw/wsj/24/wsj_2404   0   24          keep     VB              (VP*       keep  02   1   -        *             *             *             *           (V*)     *      -
+nw/wsj/24/wsj_2404   0   25         sales    NNS              (NP*)      sale  01   1   -        *             *             *             *        (ARG1*)   (V*)     -
+nw/wsj/24/wsj_2404   0   26            up     RB   (ADVP*))))))))))        -    -   -   -        *             *             *             *)   (ARGM-PRD*)     *      -
+nw/wsj/24/wsj_2404   0   27             .      .                *))        -    -   -   -        *             *             *             *             *      *      -
+
+nw/wsj/24/wsj_2404   0    0            ``    ``      (TOP(SINV*           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0    1            We   PRP          (S(NP*)          -    -    -   -          *    (ARG0*)              *   (ARG1*     -
+nw/wsj/24/wsj_2404   0    2           've   VBP            (VP*         have   -   12   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0    3       created   VBN            (VP*       create  01    1   -          *       (V*)              *        *     -
+nw/wsj/24/wsj_2404   0    4             a    DT         (NP(NP*           -    -    -   -          *    (ARG1*      (ARGM-LOC*        *     -
+nw/wsj/24/wsj_2404   0    5     condition    NN               *)   condition   -    1   -          *         *               *)       *     -
+nw/wsj/24/wsj_2404   0    6         where   WRB   (SBAR(WHADVP*)          -    -    -   -          *         *    (R-ARGM-LOC*)       *     -
+nw/wsj/24/wsj_2404   0    7             ,     ,               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0    8       without    IN          (S(PP*           -    -    -   -          *         *      (ARGM-PRD*        *     -
+nw/wsj/24/wsj_2404   0    9    incentives   NNS           (NP*))          -    -    -   -          *         *               *)       *     -
+nw/wsj/24/wsj_2404   0   10             ,     ,               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   11            it   PRP            (NP*)          -    -    -   -          *         *          (ARG1*)       *    (1)
+nw/wsj/24/wsj_2404   0   12            's   VBZ            (VP*           be  01    1   -          *         *             (V*)       *     -
+nw/wsj/24/wsj_2404   0   13             a    DT            (NP*           -    -    -   -          *         *          (ARG2*        *     -
+nw/wsj/24/wsj_2404   0   14         tough    JJ               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   15        market    NN        *))))))))      market   -    1   -          *         *)              *)       *)    -
+nw/wsj/24/wsj_2404   0   16             ,     ,               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   17            ''    ''               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   18          said   VBD            (VP*)         say  01    1   -          *         *               *      (V*)    -
+nw/wsj/24/wsj_2404   0   19           Tom   NNP         (NP(NP*           -    -    -   -   (PERSON*         *               *   (ARG0*     -
+nw/wsj/24/wsj_2404   0   20         Kelly   NNP               *)          -    -    -   -          *)        *               *        *     -
+nw/wsj/24/wsj_2404   0   21             ,     ,               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   22         sales   NNS         (NP(NP*         sale   -    1   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   23       manager    NN               *)     manager   -    1   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   24           for    IN            (PP*           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   25          Bill   NNP     (NP(NP(NML*           -    -    -   -      (ORG*         *               *        *     -
+nw/wsj/24/wsj_2404   0   26          Wink   NNP               *)          -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   27     Chevrolet   NNP               *)          -    -    -   -          *)        *               *        *     -
+nw/wsj/24/wsj_2404   0   28            in    IN            (PP*           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   29      Dearborn   NNP         (NP(NP*)          -    -    -   -       (GPE)        *               *        *     -
+nw/wsj/24/wsj_2404   0   30             ,     ,               *           -    -    -   -          *         *               *        *     -
+nw/wsj/24/wsj_2404   0   31          Mich   NNP      (NP*)))))))          -    -    -   -       (GPE)        *               *        *)    -
+nw/wsj/24/wsj_2404   0   32             .     .              *))          -    -    -   -          *         *               *        *     -
+
+nw/wsj/24/wsj_2404   0    0           Car    NN  (TOP(S(NP*        car   -   2   -            *    (ARG1*)  (ARG1*             *      -
+nw/wsj/24/wsj_2404   0    1         sales   NNS           *)      sale  01   1   -            *       (V*)       *)            *      -
+nw/wsj/24/wsj_2404   0    2          fell   VBD        (VP*       fall  01   1   -            *         *      (V*)            *    (13)
+nw/wsj/24/wsj_2404   0    3            to    IN        (PP*         -    -   -   -            *         *   (ARG4*             *      -
+nw/wsj/24/wsj_2404   0    4             a    DT  (NP(NP(NP*         -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0    5    seasonally    RB      (ADJP*         -    -   -   -        (DATE)        *        *    (ARGM-MNR*)     -
+nw/wsj/24/wsj_2404   0    6      adjusted   VBN           *)    adjust  01   -   -            *         *        *           (V*)     -
+nw/wsj/24/wsj_2404   0    7        annual    JJ           *         -    -   -   -        (DATE)        *        *        (ARG1*      -
+nw/wsj/24/wsj_2404   0    8       selling   VBG           *         -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0    9          rate    NN           *)      rate   -   2   -            *         *        *             *)     -
+nw/wsj/24/wsj_2404   0   10            of    IN        (PP*         -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0   11          5.8     CD     (NP(QP*         -    -   -   -   (CARDINAL*         *        *             *      -
+nw/wsj/24/wsj_2404   0   12       million    CD           *)        -    -   -   -            *)        *        *             *      -
+nw/wsj/24/wsj_2404   0   13      vehicles   NNS         *)))   vehicle   -   1   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0   14             ,     ,           *         -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0   15           the    DT     (NP(NP*         -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0   16        lowest   JJS           *)        -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0   17         since    IN        (PP*         -    -   -   -            *         *        *             *      -
+nw/wsj/24/wsj_2404   0   18       October   NNP        (NP*         -    -   -   -       (DATE*         *        *             *      -
+nw/wsj/24/wsj_2404   0   19         1987     CD      *))))))        -    -   -   -            *)        *        *)            *      -
+nw/wsj/24/wsj_2404   0   20             .     .          *))        -    -   -   -            *         *        *             *      -
+
+nw/wsj/24/wsj_2404   0    0            The    DT  (TOP(S(NP*             -    -   -   -            *         *   (ARG1*   (13
+nw/wsj/24/wsj_2404   0    1           poor    JJ           *             -    -   -   -            *    (ARG2*)       *     -
+nw/wsj/24/wsj_2404   0    2    performance    NN           *)   performance  02   4   -            *       (V*)       *)   13)
+nw/wsj/24/wsj_2404   0    3      contrasts   VBZ        (VP*       contrast  01   1   -            *         *      (V*)    -
+nw/wsj/24/wsj_2404   0    4           with    IN        (PP*             -    -   -   -            *         *   (ARG2*     -
+nw/wsj/24/wsj_2404   0    5              a    DT     (NP(NP*             -    -   -   -            *         *        *     -
+nw/wsj/24/wsj_2404   0    6         robust    JJ           *             -    -   -   -            *         *        *     -
+nw/wsj/24/wsj_2404   0    7        selling    NN           *             -    -   -   -            *         *        *     -
+nw/wsj/24/wsj_2404   0    8           rate    NN           *)          rate   -   2   -            *         *        *     -
+nw/wsj/24/wsj_2404   0    9             of    IN        (PP*             -    -   -   -            *         *        *     -
+nw/wsj/24/wsj_2404   0   10         almost    RB     (NP(QP*             -    -   -   -   (CARDINAL*         *        *     -
+nw/wsj/24/wsj_2404   0   11          eight    CD           *)            -    -   -   -            *         *        *     -
+nw/wsj/24/wsj_2404   0   12        million    CD          *))            -    -   -   -            *)        *        *     -
+nw/wsj/24/wsj_2404   0   13           last    JJ        (NP*             -    -   -   -       (DATE*         *        *     -
+nw/wsj/24/wsj_2404   0   14          month    NN        *))))         month   -   2   -            *)        *        *)    -
+nw/wsj/24/wsj_2404   0   15              .     .          *))            -    -   -   -            *         *        *     -
+
+nw/wsj/24/wsj_2404   0    0    Furthermore    RB   (TOP(S(ADVP*)        -    -   -   -        *            *    (ARGM-DIS*)            *             *      *      -
+nw/wsj/24/wsj_2404   0    1              ,     ,              *         -    -   -   -        *            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    2        dealers   NNS        (NP(NP*)    dealer   -   2   -        *       (ARG1*)       (ARG0*             *             *      *    (16
+nw/wsj/24/wsj_2404   0    3      contacted   VBD           (VP*    contact  01   1   -        *          (V*)            *             *             *      *      -
+nw/wsj/24/wsj_2404   0    4           late    RB      (NP(ADVP*)        -    -   -   -   (DATE*   (ARGM-TMP*             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    5           last    JJ              *         -    -   -   -        *            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0    6           week    NN            *)))        -    -   -   -        *)           *)            *)            *             *      *     16)
+nw/wsj/24/wsj_2404   0    7           said   VBD           (VP*        say  01   1   -        *            *           (V*)            *             *      *      -
+nw/wsj/24/wsj_2404   0    8           they   PRP    (SBAR(S(NP*)        -    -   -   -        *            *        (ARG1*        (ARG0*)            *      *    (16)
+nw/wsj/24/wsj_2404   0    9          could    MD           (VP*         -    -   -   -        *            *             *    (ARGM-MOD*)            *      *      -
+nw/wsj/24/wsj_2404   0   10            n't    RB              *         -    -   -   -        *            *             *    (ARGM-NEG*)            *      *      -
+nw/wsj/24/wsj_2404   0   11            see    VB           (VP*        see  01   2   -        *            *             *           (V*)            *      *      -
+nw/wsj/24/wsj_2404   0   12            any    DT        (NP(NP*         -    -   -   -        *            *             *        (ARG1*             *      *      -
+nw/wsj/24/wsj_2404   0   13      immediate    JJ              *         -    -   -   -        *            *             *             *    (ARGM-TMP*)     *      -
+nw/wsj/24/wsj_2404   0   14         impact    NN              *)    impact  01   2   -        *            *             *             *           (V*)     *      -
+nw/wsj/24/wsj_2404   0   15             on    IN           (PP*         -    -   -   -        *            *             *             *        (ARG1*      *      -
+nw/wsj/24/wsj_2404   0   16          sales   NNS          (NP*))      sale  01   1   -        *            *             *             *             *)   (V*)     -
+nw/wsj/24/wsj_2404   0   17             of    IN           (PP*         -    -   -   -        *            *             *             *        (ARG0*      *      -
+nw/wsj/24/wsj_2404   0   18         Friday   NNP        (NP(NP*         -    -   -   -    (DATE)           *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   19             's   POS              *)        -    -   -   -        *            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   20          steep    JJ              *         -    -   -   -        *            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   21         market    NN              *         -    -   -   -        *            *             *             *             *      *      -
+nw/wsj/24/wsj_2404   0   22        decline    NN       *))))))))        -    -   -   -        *            *             *)            *)            *)     *      -
+nw/wsj/24/wsj_2404   0   23              .     .             *))        -    -   -   -        *            *             *             *             *      *      -
+
+nw/wsj/24/wsj_2404   0    0          GM    NNP  (TOP(S(S(NP(NP*       -    -   -   -        (ORG)       (ARG0*   (ARG1*        *    (4)
+nw/wsj/24/wsj_2404   0    1          's    POS                *)      -    -   -   -           *             *)       *        *     -
+nw/wsj/24/wsj_2404   0    2    domestic     JJ                *       -    -   -   -           *    (ARGM-LOC*)       *        *     -
+nw/wsj/24/wsj_2404   0    3         car     NN                *      car   -   2   -           *        (ARG1*)       *        *     -
+nw/wsj/24/wsj_2404   0    4       sales    NNS                *)    sale  01   1   -           *           (V*)       *)       *     -
+nw/wsj/24/wsj_2404   0    5     dropped    VBD             (VP*     drop  01   2   -           *             *      (V*)       *    (8)
+nw/wsj/24/wsj_2404   0    6       24.3      CD             (NP*       -    -   -   -   (PERCENT*             *   (ARG2*        *     -
+nw/wsj/24/wsj_2404   0    7           %     NN              *)))      -    -   -   -           *)            *        *)       *     -
+nw/wsj/24/wsj_2404   0    8         and     CC                *       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0    9         its   PRP$           (S(NP*       -    -   -   -           *             *        *   (ARG1*    (4)
+nw/wsj/24/wsj_2404   0   10    domestic     JJ                *       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   11      trucks    NNS                *)   truck   -   1   -           *             *        *        *)    -
+nw/wsj/24/wsj_2404   0   12        were    VBD             (VP*       be  01   1   -           *             *        *      (V*)    -
+nw/wsj/24/wsj_2404   0   13        down     IN           (ADVP*       -    -   -   -           *             *        *   (ARG2*     -
+nw/wsj/24/wsj_2404   0   14          an     DT             (NP*       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   15        even     RB           (ADJP*       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   16     steeper    JJR                *)      -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   17       28.7      CD                *       -    -   -   -   (PERCENT*             *        *        *     -
+nw/wsj/24/wsj_2404   0   18           %     NN                *)      -    -   -   -           *)            *        *        *     -
+nw/wsj/24/wsj_2404   0   19        from     IN             (PP*       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   20         the     DT          (NP(NP*       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   21        same     JJ                *       -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   22      period     NN                *)      -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   23           a     DT        (ADVP(NP*       -    -   -   -      (DATE*             *        *        *     -
+nw/wsj/24/wsj_2404   0   24        year     NN                *)      -    -   -   -           *             *        *        *     -
+nw/wsj/24/wsj_2404   0   25         ago     IN           *))))))      -    -   -   -           *)            *        *        *)    -
+nw/wsj/24/wsj_2404   0   26           .      .               *))      -    -   -   -           *             *        *        *     -
+
+nw/wsj/24/wsj_2404   0    0          All    DT   (TOP(S(NP(NP*)         -    -   -   -       *   (ARG0*      -
+nw/wsj/24/wsj_2404   0    1           of    IN            (PP*          -    -   -   -       *        *      -
+nw/wsj/24/wsj_2404   0    2          the    DT            (NP*          -    -   -   -       *        *      -
+nw/wsj/24/wsj_2404   0    3           GM   NNP               *          -    -   -   -    (ORG)       *     (4)
+nw/wsj/24/wsj_2404   0    4    divisions   NNS              *))   division   -   5   -       *        *      -
+nw/wsj/24/wsj_2404   0    5       except    IN            (PP*          -    -   -   -       *        *      -
+nw/wsj/24/wsj_2404   0    6     Cadillac   NNP          (NP*)))         -    -   -   -    (ORG)       *)   (15)
+nw/wsj/24/wsj_2404   0    7       showed   VBD            (VP*        show  01   1   -       *      (V*)     -
+nw/wsj/24/wsj_2404   0    8          big    JJ            (NP*          -    -   -   -       *   (ARG1*      -
+nw/wsj/24/wsj_2404   0    9     declines   NNS              *))    decline   -   1   -       *        *)     -
+nw/wsj/24/wsj_2404   0   10            .     .              *))         -    -   -   -       *        *      -
+
+nw/wsj/24/wsj_2404   0    0       Cadillac    NNP   (TOP(S(NP*)            -    -   -   -        (ORG)      (ARG0*)           *             *      (15)
+nw/wsj/24/wsj_2404   0    1         posted    VBD         (VP*           post  01   1   -           *          (V*)           *             *        -
+nw/wsj/24/wsj_2404   0    2              a     DT         (NP*             -    -   -   -           *       (ARG1*            *             *        -
+nw/wsj/24/wsj_2404   0    3           3.2      CD        (NML*             -    -   -   -   (PERCENT*            *   (ARGM-EXT*             *        -
+nw/wsj/24/wsj_2404   0    4              %     NN            *)            -    -   -   -           *)           *            *)            *        -
+nw/wsj/24/wsj_2404   0    5       increase     NN            *)      increase  01   1   -           *            *)         (V*)            *        -
+nw/wsj/24/wsj_2404   0    6        despite     IN         (PP*             -    -   -   -           *   (ARGM-ADV*            *             *        -
+nw/wsj/24/wsj_2404   0    7            new     JJ      (NP(NP*             -    -   -   -           *            *            *    (ARGM-TMP*)       -
+nw/wsj/24/wsj_2404   0    8    competition     NN            *)   competition  01   1   -           *            *            *           (V*)       -
+nw/wsj/24/wsj_2404   0    9           from     IN         (PP*             -    -   -   -           *            *            *        (ARG1*        -
+nw/wsj/24/wsj_2404   0   10          Lexus    NNP      (NP(NP*)            -    -   -   -        (ORG)           *            *             *      (11
+nw/wsj/24/wsj_2404   0   11              ,      ,            *             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   12            the     DT      (NP(NP*             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   13       fledging    VBG            *             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   14         luxury     NN        (NML*             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   15             -    HYPH            *             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   16            car     NN            *)            -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   17       division     NN            *)      division   -   5   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   18             of     IN         (PP*             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   19         Toyota    NNP         (NP*             -    -   -   -       (ORG*            *            *             *       (5
+nw/wsj/24/wsj_2404   0   20          Motor    NNP            *             -    -   -   -           *            *            *             *        -
+nw/wsj/24/wsj_2404   0   21           Corp    NNP     *))))))))            -    -   -   -           *)           *)           *             *)   11)|5)
+nw/wsj/24/wsj_2404   0   22              .      .           *))            -    -   -   -           *            *            *             *        -
+
+nw/wsj/24/wsj_2404   0    0        Lexus    NNP  (TOP(S(S(NP*        -    -   -   -     (ORG)   (ARG1*)   (ARG1*        *            *         *    (11)
+nw/wsj/24/wsj_2404   0    1        sales    NNS             *)     sale  01   1   -        *       (V*)        *)       *            *         *      -
+nw/wsj/24/wsj_2404   0    2         were    VBD          (VP*        be  01   1   -        *         *       (V*)       *            *         *      -
+nw/wsj/24/wsj_2404   0    3          n't     RB             *        -    -   -   -        *         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0    4    available     JJ      (ADJP*)))       -    -   -   -        *         *    (ARG2*)       *            *         *      -
+nw/wsj/24/wsj_2404   0    5            ;      :             *        -    -   -   -        *         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0    6          the     DT      (S(S(NP*        -    -   -   -        *         *         *   (ARG1*            *         *      -
+nw/wsj/24/wsj_2404   0    7         cars    NNS             *)      car   -   2   -        *         *         *        *)           *         *      -
+nw/wsj/24/wsj_2404   0    8          are    VBP          (VP*        -    -   -   -        *         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0    9     imported    VBN        (VP*)))   import  01   1   -        *         *         *      (V*)           *         *      -
+nw/wsj/24/wsj_2404   0   10          and     CC             *        -    -   -   -        *         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0   11       Toyota    NNP        (S(NP*)       -    -   -   -     (ORG)        *         *        *       (ARG0*)        *     (5)
+nw/wsj/24/wsj_2404   0   12      reports    VBZ          (VP*    report  01   1   -        *         *         *        *          (V*)        *      -
+nw/wsj/24/wsj_2404   0   13        their   PRP$          (NP*        -    -   -   -        *         *         *        *       (ARG1*    (ARG0*)    (5)
+nw/wsj/24/wsj_2404   0   14        sales    NNS             *)     sale  01   1   -        *         *         *        *            *)      (V*)     -
+nw/wsj/24/wsj_2404   0   15         only     RB     (PP(ADVP*)       -    -   -   -        *         *         *        *   (ARGM-TMP*         *      -
+nw/wsj/24/wsj_2404   0   16           at     IN             *        -    -   -   -        *         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0   17        month     NN          (NP*        -    -   -   -   (DATE*         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0   18           -    HYPH             *        -    -   -   -        *         *         *        *            *         *      -
+nw/wsj/24/wsj_2404   0   19          end     NN         *)))))       -    -   -   -        *)        *         *        *            *)        *      -
+nw/wsj/24/wsj_2404   0   20            .      .            *))       -    -   -   -        *         *         *        *            *         *      -
+
+nw/wsj/24/wsj_2404   0    0           The     DT     (TOP(S(S(NP(NP*          -    -   -   -            *        (ARG1*            *            *        *        *   (ARG1*         (8
+nw/wsj/24/wsj_2404   0    1         sales    NNS                   *        sale   -   1   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0    2          drop     NN                   *)         -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0    3           for     IN                (PP*          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0    4           the     DT                (NP*          -    -   -   -            *             *            *            *        *        *        *         (4
+nw/wsj/24/wsj_2404   0    5           No.     NN             (NP(NP*          -    -   -   -            *             *            *            *        *        *        *         (4
+nw/wsj/24/wsj_2404   0    6            1      CD                   *)         -    -   -   -    (CARDINAL)            *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0    7           car     NN                   *         car   -   2   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0    8         maker     NN                *))))      maker   -   1   -            *             *)           *            *        *        *        *    8)|4)|4)
+nw/wsj/24/wsj_2404   0    9           may     MD                (VP*          -    -   -   -            *    (ARGM-MOD*)           *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   10          have     VB                (VP*          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   11          been    VBN                (VP*          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   12        caused    VBN                (VP*       cause  01   1   -            *           (V*)           *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   13            in     IN                (PP*          -    -   -   -            *    (ARGM-ADV*            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   14          part     NN               (NP*))       part   -   1   -            *             *)           *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   15            by     IN                (PP*          -    -   -   -            *        (ARG0*            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   16           the     DT             (NP(NP*          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   17           end     NN                   *)        end  01   3   -            *             *          (V*)           *        *        *        *          -
+nw/wsj/24/wsj_2404   0   18            in     IN                (PP*          -    -   -   -            *             *   (ARGM-TMP*            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   19     September    NNP               (NP*))         -    -   -   -        (DATE)            *            *)           *        *        *        *          -
+nw/wsj/24/wsj_2404   0   20            of     IN                (PP*          -    -   -   -            *             *       (ARG1*            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   21        dealer     NN             (NP(NP*      dealer   -   2   -            *             *            *       (ARG1*        *        *        *          -
+nw/wsj/24/wsj_2404   0   22    incentives    NNS                   *)         -    -   -   -            *             *            *            *)       *        *        *          -
+nw/wsj/24/wsj_2404   0   23          that     IN         (SBAR(WHNP*)         -    -   -   -            *             *            *     (R-ARG1*)       *        *        *          -
+nw/wsj/24/wsj_2404   0   24            GM    NNP              (S(NP*)         -    -   -   -         (ORG)            *            *       (ARG0*)       *        *        *         (4)
+nw/wsj/24/wsj_2404   0   25       offered    VBD                (VP*       offer  01   1   -            *             *            *          (V*)       *        *        *          -
+nw/wsj/24/wsj_2404   0   26            in     IN                (PP*          -    -   -   -            *             *            *   (ARGM-MNR*        *        *        *          -
+nw/wsj/24/wsj_2404   0   27      addition     NN             (NP(NP*)   addition  01   6   -            *             *            *            *      (V*)       *        *          -
+nw/wsj/24/wsj_2404   0   28            to     IN                (PP*          -    -   -   -            *             *            *            *   (ARG2*        *        *          -
+nw/wsj/24/wsj_2404   0   29      consumer     NN             (NP(NP*          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   30       rebates    NNS                   *)         -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   31           and     CC                   *          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   32           low     JJ            (NP(NML*          -    -   -   -            *             *            *            *        *   (ARG3*        *          -
+nw/wsj/24/wsj_2404   0   33            -    HYPH                   *          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   34      interest     NN                   *)         -    -   -   -            *             *            *            *        *        *)       *          -
+nw/wsj/24/wsj_2404   0   35     financing     NN   *)))))))))))))))))    finance  01   1   -            *             *)           *)           *)       *)     (V*)       *)         -
+nw/wsj/24/wsj_2404   0   36             ,      ,                   *          -    -   -   -            *             *            *            *        *        *        *          -
+nw/wsj/24/wsj_2404   0   37             a     DT                (NP*          -    -   -   -            *             *            *            *        *        *   (ARG0*          -
+nw/wsj/24/wsj_2404   0   38       company     NN                   *          -    -   -   -            *             *            *            *        *        *        *         (4)
+nw/wsj/24/wsj_2404   0   39     spokesman     NN                   *)         -    -   -   -            *             *            *            *        *        *        *)         -
+nw/wsj/24/wsj_2404   0   40          said    VBD                (VP*)        say  01   1   -            *             *            *            *        *        *      (V*)         -
+nw/wsj/24/wsj_2404   0   41             .      .                  *))         -    -   -   -            *             *            *            *        *        *        *          -
+
+nw/wsj/24/wsj_2404   0    0         Last    JJ     (TOP(S(NP*          -    -   -   -   (DATE*   (ARGM-TMP*            *        *    (6
+nw/wsj/24/wsj_2404   0    1         year    NN              *)         -    -   -   -        *)           *)           *        *     6)
+nw/wsj/24/wsj_2404   0    2            ,     ,              *          -    -   -   -        *            *            *        *     -
+nw/wsj/24/wsj_2404   0    3           GM   NNP           (NP*)         -    -   -   -     (ORG)      (ARG0*)           *        *    (4)
+nw/wsj/24/wsj_2404   0    4          had   VBD           (VP*        have  03   1   -        *          (V*)           *        *     -
+nw/wsj/24/wsj_2404   0    5            a    DT        (NP(NP*          -    -   -   -        *       (ARG1*            *        *     -
+nw/wsj/24/wsj_2404   0    6    different    JJ              *          -    -   -   -        *            *            *        *     -
+nw/wsj/24/wsj_2404   0    7      program    NN             *))    program   -   1   -        *            *)           *        *     -
+nw/wsj/24/wsj_2404   0    8           in    IN           (PP*          -    -   -   -        *   (ARGM-MNR*            *        *     -
+nw/wsj/24/wsj_2404   0    9        place    NN          (NP*))      place   -   9   -        *            *)           *        *     -
+nw/wsj/24/wsj_2404   0   10         that   WDT    (SBAR(WHNP*)         -    -   -   -        *     (C-ARG1*       (ARG0*)       *     -
+nw/wsj/24/wsj_2404   0   11    continued   VBD         (S(VP*    continue  01   1   -        *            *          (V*)       *     -
+nw/wsj/24/wsj_2404   0   12    rewarding    JJ         (S(VP*          -    -   -   -        *            *       (ARG1*        *     -
+nw/wsj/24/wsj_2404   0   13      dealers   NNS         (NP*)))     dealer   -   2   -        *            *            *)       *     -
+nw/wsj/24/wsj_2404   0   14        until    IN         (SBAR*          -    -   -   -        *            *   (ARGM-TMP*        *     -
+nw/wsj/24/wsj_2404   0   15          all   PDT         (S(NP*          -    -   -   -        *            *            *   (ARG1*     -
+nw/wsj/24/wsj_2404   0   16          the    DT              *          -    -   -   -        *            *            *        *     -
+nw/wsj/24/wsj_2404   0   17        1989     CD              *          -    -   -   -    (DATE)           *            *        *     -
+nw/wsj/24/wsj_2404   0   18       models   NNS              *)      model   -   2   -        *            *            *        *)    -
+nw/wsj/24/wsj_2404   0   19          had   VBD           (VP*          -    -   -   -        *            *            *        *     -
+nw/wsj/24/wsj_2404   0   20         been   VBN           (VP*          -    -   -   -        *            *            *        *     -
+nw/wsj/24/wsj_2404   0   21         sold   VBN   (VP*)))))))))       sell  01   1   -        *            *)           *)     (V*)    -
+nw/wsj/24/wsj_2404   0   22            .     .             *))         -    -   -   -        *            *            *        *     -
+
+nw/wsj/24/wsj_2404   0    0        Aside    RB  (TOP(S(ADVP*        -    -   -   -       *   (ARGM-ADV*             *     -
+nw/wsj/24/wsj_2404   0    1         from    IN          (PP*        -    -   -   -       *            *             *     -
+nw/wsj/24/wsj_2404   0    2           GM   NNP        (NP*)))       -    -   -   -    (ORG)           *)            *    (4)
+nw/wsj/24/wsj_2404   0    3            ,     ,             *        -    -   -   -       *            *             *     -
+nw/wsj/24/wsj_2404   0    4        other    JJ          (NP*        -    -   -   -       *       (ARG0*             *     -
+nw/wsj/24/wsj_2404   0    5          car    NN             *       car   -   2   -       *            *             *     -
+nw/wsj/24/wsj_2404   0    6       makers   NNS             *)    maker   -   1   -       *            *)            *     -
+nw/wsj/24/wsj_2404   0    7       posted   VBD          (VP*      post  01   1   -       *          (V*)            *     -
+nw/wsj/24/wsj_2404   0    8    generally    RB     (NP(ADJP*        -    -   -   -       *       (ARG1*    (ARGM-MNR*)    -
+nw/wsj/24/wsj_2404   0    9        mixed   VBN             *)      mix  01   -   -       *            *           (V*)    -
+nw/wsj/24/wsj_2404   0   10      results   NNS            *))   result   -   3   -       *            *)       (ARG1*)    -
+nw/wsj/24/wsj_2404   0   11            .     .            *))       -    -   -   -       *            *             *     -
+
+nw/wsj/24/wsj_2404   0    0        Ford   NNP  (TOP(S(NP*          -    -   -   -       (ORG*   (ARG0*        *             *            *             *   -
+nw/wsj/24/wsj_2404   0    1       Motor   NNP           *          -    -   -   -           *        *        *             *            *             *   -
+nw/wsj/24/wsj_2404   0    2         Co.   NNP           *)         -    -   -   -           *)       *)       *             *            *             *   -
+nw/wsj/24/wsj_2404   0    3         had   VBD        (VP*        have  03   4   -           *      (V*)       *             *            *             *   -
+nw/wsj/24/wsj_2404   0    4           a    DT  (NP(NP(NP*          -    -   -   -           *   (ARG1*        *             *            *             *   -
+nw/wsj/24/wsj_2404   0    5        1.8     CD       (NML*          -    -   -   -   (PERCENT*        *   (ARG2*             *            *             *   -
+nw/wsj/24/wsj_2404   0    6           %    NN           *)         -    -   -   -           *)       *        *)            *            *             *   -
+nw/wsj/24/wsj_2404   0    7        drop    NN           *)       drop  01   5   -           *        *      (V*)            *            *             *   -
+nw/wsj/24/wsj_2404   0    8          in    IN        (PP*          -    -   -   -           *        *   (ARG1*             *            *             *   -
+nw/wsj/24/wsj_2404   0    9    domestic    JJ        (NP*          -    -   -   -           *        *        *    (ARGM-LOC*)           *             *   -
+nw/wsj/24/wsj_2404   0   10         car    NN           *         car   -   2   -           *        *        *        (ARG1*)           *             *   -
+nw/wsj/24/wsj_2404   0   11       sales   NNS         *)))       sale  01   1   -           *        *        *)          (V*)           *             *   -
+nw/wsj/24/wsj_2404   0   12         but    CC           *          -    -   -   -           *        *        *             *            *             *   -
+nw/wsj/24/wsj_2404   0   13           a    DT     (NP(NP*          -    -   -   -           *        *        *             *            *             *   -
+nw/wsj/24/wsj_2404   0   14        2.4     CD       (NML*          -    -   -   -   (PERCENT*        *        *             *   (ARGM-EXT*             *   -
+nw/wsj/24/wsj_2404   0   15           %    NN           *)         -    -   -   -           *)       *        *             *            *)            *   -
+nw/wsj/24/wsj_2404   0   16    increase    NN           *)   increase  01   1   -           *        *        *             *          (V*)            *   -
+nw/wsj/24/wsj_2404   0   17          in    IN        (PP*          -    -   -   -           *        *        *             *       (ARG1*             *   -
+nw/wsj/24/wsj_2404   0   18    domestic    JJ        (NP*          -    -   -   -           *        *        *             *            *    (ARGM-LOC*)  -
+nw/wsj/24/wsj_2404   0   19       truck    NN           *       truck   -   1   -           *        *        *             *            *        (ARG1*)  -
+nw/wsj/24/wsj_2404   0   20       sales   NNS       *)))))       sale  01   1   -           *        *)       *             *            *)          (V*)  -
+nw/wsj/24/wsj_2404   0   21           .     .          *))         -    -   -   -           *        *        *             *            *             *   -
+
+nw/wsj/24/wsj_2404   0    0       Chrysler    NNP  (TOP(S(NP*             -    -   -   -       (ORG*       (ARG0*        *         *   (ARG0*            *    (2
+nw/wsj/24/wsj_2404   0    1          Corp.    NNP           *)            -    -   -   -           *)           *)       *         *        *)           *     2)
+nw/wsj/24/wsj_2404   0    2            had    VBD        (VP*           have  03   4   -           *          (V*)       *         *        *            *     -
+nw/wsj/24/wsj_2404   0    3              a     DT     (NP(NP*             -    -   -   -           *       (ARG1*        *         *        *            *     -
+nw/wsj/24/wsj_2404   0    4           7.5      CD       (NML*             -    -   -   -   (PERCENT*            *   (ARG2*         *        *            *     -
+nw/wsj/24/wsj_2404   0    5              %     NN           *)            -    -   -   -           *)           *        *)        *        *            *     -
+nw/wsj/24/wsj_2404   0    6           drop     NN           *)          drop  01   5   -           *            *      (V*)        *        *            *     -
+nw/wsj/24/wsj_2404   0    7             in     IN        (PP*             -    -   -   -           *            *   (ARG1*         *        *            *     -
+nw/wsj/24/wsj_2404   0    8            car     NN        (NP*            car   -   2   -           *            *        *    (ARG1*)       *            *     -
+nw/wsj/24/wsj_2404   0    9          sales    NNS         *)))          sale  01   1   -           *            *)       *)      (V*)       *            *     -
+nw/wsj/24/wsj_2404   0   10              ,      ,           *             -    -   -   -           *            *        *         *        *            *     -
+nw/wsj/24/wsj_2404   0   11        echoing    VBG      (S(VP*           echo  01   1   -           *   (ARGM-ADV*        *         *      (V*)           *     -
+nw/wsj/24/wsj_2404   0   12            its   PRP$     (NP(NP*             -    -   -   -           *            *        *         *   (ARG1*       (ARG0*)   (2)
+nw/wsj/24/wsj_2404   0   13      generally     RB      (ADJP*             -    -   -   -           *            *        *         *        *       (ARG2*     -
+nw/wsj/24/wsj_2404   0   14           slow     JJ           *)            -    -   -   -           *            *        *         *        *            *)    -
+nw/wsj/24/wsj_2404   0   15    performance     NN           *)   performance  02   4   -           *            *        *         *        *          (V*)    -
+nw/wsj/24/wsj_2404   0   16            all     DT        (NP*             -    -   -   -      (DATE*            *        *         *        *   (ARGM-TMP*    (9
+nw/wsj/24/wsj_2404   0   17           year     NN       *)))))            -    -   -   -           *)           *)       *         *        *)           *)    9)
+nw/wsj/24/wsj_2404   0   18              .      .          *))            -    -   -   -           *            *        *         *        *            *     -
+
+nw/wsj/24/wsj_2404   0    0      However    RB   (TOP(S(ADVP*)        -    -   -   -           *            *        *    (ARGM-DIS*)    -
+nw/wsj/24/wsj_2404   0    1            ,     ,              *         -    -   -   -           *            *        *             *     -
+nw/wsj/24/wsj_2404   0    2        sales   NNS     (NP(NP(NP*)      sale  01   1   -           *          (V*)  (ARG2*        (ARG1*     -
+nw/wsj/24/wsj_2404   0    3           of    IN           (PP*         -    -   -   -           *       (ARG1*        *             *     -
+nw/wsj/24/wsj_2404   0    4       trucks   NNS         (NP*)))     truck   -   1   -           *            *)       *)            *     -
+nw/wsj/24/wsj_2404   0    5            ,     ,              *         -    -   -   -           *            *        *             *     -
+nw/wsj/24/wsj_2404   0    6    including   VBG           (PP*    include  01   1   -           *   (ARGM-ADJ*      (V*)            *     -
+nw/wsj/24/wsj_2404   0    7          the    DT        (NP(NP*         -    -   -   -           *            *   (ARG1*             *     -
+nw/wsj/24/wsj_2404   0    8      company    NN              *    company   -   1   -           *            *        *             *    (2)
+nw/wsj/24/wsj_2404   0    9           's   POS              *)        -    -   -   -           *            *        *             *     -
+nw/wsj/24/wsj_2404   0   10      popular    JJ              *         -    -   -   -           *            *        *             *     -
+nw/wsj/24/wsj_2404   0   11     minivans   NNS             *))        -    -   -   -           *            *)       *)            *     -
+nw/wsj/24/wsj_2404   0   12            ,     ,              *)        -    -   -   -           *            *        *             *)    -
+nw/wsj/24/wsj_2404   0   13         rose   VBD           (VP*       rise  01   2   -           *            *        *           (V*)    -
+nw/wsj/24/wsj_2404   0   14         4.3     CD           (NP*         -    -   -   -   (PERCENT*            *        *        (ARG2*     -
+nw/wsj/24/wsj_2404   0   15            %    NN             *))        -    -   -   -           *)           *        *             *)    -
+nw/wsj/24/wsj_2404   0   16            .     .             *))        -    -   -   -           *            *        *             *     -
+
+nw/wsj/24/wsj_2404   0    0           Honda   NNP  (TOP(S(NP(NP(NP*         -    -   -   -       (ORG*   (ARG0*             *   (ARG1*   (10
+nw/wsj/24/wsj_2404   0    1           Motor   NNP                 *         -    -   -   -           *        *             *        *     -
+nw/wsj/24/wsj_2404   0    2             Co.   NNP                 *         -    -   -   -           *        *             *        *     -
+nw/wsj/24/wsj_2404   0    3              's   POS                 *)        -    -   -   -           *)       *)            *        *    10)
+nw/wsj/24/wsj_2404   0    4           sales   NNS                 *)      sale  01   1   -           *      (V*)            *        *     -
+nw/wsj/24/wsj_2404   0    5              of    IN              (PP*         -    -   -   -           *   (ARG1*             *        *     -
+nw/wsj/24/wsj_2404   0    6    domestically    RB         (NP(ADJP*         -    -   -   -           *        *    (ARGM-MNR*)       *     -
+nw/wsj/24/wsj_2404   0    7           built   VBN                 *)     build  01   1   -           *        *           (V*)       *     -
+nw/wsj/24/wsj_2404   0    8        vehicles   NNS               *)))   vehicle   -   1   -           *        *)       (ARG1*)       *)    -
+nw/wsj/24/wsj_2404   0    9         plunged   VBD              (VP*     plunge  01   2   -           *        *             *      (V*)    -
+nw/wsj/24/wsj_2404   0   10           21.7     CD              (NP*         -    -   -   -   (PERCENT*        *             *   (ARG2*     -
+nw/wsj/24/wsj_2404   0   11               %    NN                 *)        -    -   -   -           *)       *             *        *)    -
+nw/wsj/24/wsj_2404   0   12            from    IN              (PP*         -    -   -   -           *        *             *   (ARG3*     -
+nw/wsj/24/wsj_2404   0   13               a    DT         (ADVP(NP*         -    -   -   -      (DATE*        *             *        *     -
+nw/wsj/24/wsj_2404   0   14            year    NN                 *)        -    -   -   -           *        *             *        *     -
+nw/wsj/24/wsj_2404   0   15         earlier   RBR               *)))        -    -   -   -           *)       *             *        *)    -
+nw/wsj/24/wsj_2404   0   16               .     .                *))        -    -   -   -           *        *             *        *     -
+
+nw/wsj/24/wsj_2404   0    0         Honda    NNP  (TOP(S(S(NP(NP(NP*       -    -   -   -     (ORG)  (ARG0*   (ARG0*   (ARG1*    (10)
+nw/wsj/24/wsj_2404   0    1            's    POS                   *)      -    -   -   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0    2         plant     NN                   *)   plant   -   1   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0    3            in     IN                (PP*       -    -   -   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0    4    Marysville    NNP             (NP(NP*)      -    -   -   -     (GPE)       *        *        *      -
+nw/wsj/24/wsj_2404   0    5             ,      ,                   *       -    -   -   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0    6          Ohio    NNP                (NP*)      -    -   -   -     (GPE)       *        *        *      -
+nw/wsj/24/wsj_2404   0    7             ,      ,                 *)))      -    -   -   -        *        *)       *)       *      -
+nw/wsj/24/wsj_2404   0    8           was    VBD                (VP*       -    -   -   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0    9       gearing    VBG                (VP*     gear  02   2   -        *      (V*)       *        *      -
+nw/wsj/24/wsj_2404   0   10            up     RP               (PRT*)      -    -   -   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0   11            to     TO              (S(VP*       -    -   -   -        *   (ARG2*        *        *      -
+nw/wsj/24/wsj_2404   0   12         build     VB                (VP*    build  01   1   -        *        *      (V*)       *      -
+nw/wsj/24/wsj_2404   0   13         1990      CD                (NP*       -    -   -   -    (DATE)       *   (ARG1*        *      -
+nw/wsj/24/wsj_2404   0   14         model     NN                   *    model   -   2   -        *        *        *        *      -
+nw/wsj/24/wsj_2404   0   15       Accords   NNPS              *))))))      -    -   -   -     (ORG)       *)       *)       *      -
+nw/wsj/24/wsj_2404   0   16             ,      ,                   *)      -    -   -   -        *        *        *        *)     -
+nw/wsj/24/wsj_2404   0   17             a     DT                (NP*       -    -   -   -        *        *        *   (ARG0*     (0
+nw/wsj/24/wsj_2404   0   18         Honda    NNP                   *       -    -   -   -     (ORG)       *        *        *    (10)
+nw/wsj/24/wsj_2404   0   19     spokesman     NN                   *)      -    -   -   -        *        *        *        *)     0)
+nw/wsj/24/wsj_2404   0   20          said    VBD                (VP*)     say  01   1   -        *        *        *      (V*)     -
+nw/wsj/24/wsj_2404   0   21             .      .                  *))      -    -   -   -        *        *        *        *      -
+
+nw/wsj/24/wsj_2404   0    0            ``    ``           (TOP(S*        -    -   -   -   *         *             *         *      -
+nw/wsj/24/wsj_2404   0    1            We   PRP            (S(NP*)       -    -   -   -   *    (ARG1*)            *    (ARG1*    (10)
+nw/wsj/24/wsj_2404   0    2           're   VBP              (VP*        be  01   1   -   *       (V*)            *         *      -
+nw/wsj/24/wsj_2404   0    3        really    RB            (ADJP*        -    -   -   -   *    (ARG2*             *         *      -
+nw/wsj/24/wsj_2404   0    4     confident    JJ                 *        -    -   -   -   *         *             *         *      -
+nw/wsj/24/wsj_2404   0    5    everything    NN       (SBAR(S(NP*)       -    -   -   -   *         *        (ARG1*)        *      -
+nw/wsj/24/wsj_2404   0    6          will    MD              (VP*        -    -   -   -   *         *    (ARGM-MOD*)        *      -
+nw/wsj/24/wsj_2404   0    7        bounce    VB              (VP*    bounce  02   5   -   *         *           (V*)        *      -
+nw/wsj/24/wsj_2404   0    8          back    RB            (ADVP*        -    -   -   -   *         *             *         *      -
+nw/wsj/24/wsj_2404   0    9            to    IN              (PP*        -    -   -   -   *         *    (ARGM-DIR*         *      -
+nw/wsj/24/wsj_2404   0   10        normal    JJ   (ADJP*))))))))))       -    -   -   -   *         *)            *)        *)     -
+nw/wsj/24/wsj_2404   0   11             ,     ,                 *        -    -   -   -   *         *             *         *      -
+nw/wsj/24/wsj_2404   0   12            ''    ''                 *        -    -   -   -   *         *             *         *      -
+nw/wsj/24/wsj_2404   0   13            he   PRP              (NP*)       -    -   -   -   *         *             *    (ARG0*)    (0)
+nw/wsj/24/wsj_2404   0   14         added   VBD              (VP*)      add  01   1   -   *         *             *       (V*)     -
+nw/wsj/24/wsj_2404   0   15             .     .                *))       -    -   -   -   *         *             *         *      -
+
+nw/wsj/24/wsj_2404   0    0    Separately     RB    (TOP(S(ADVP*)        -    -   -   -           *    (ARGM-ADV*)            *             *     -
+nw/wsj/24/wsj_2404   0    1             ,      ,               *         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0    2      Chrysler    NNP            (NP*)        -    -   -   -        (ORG)       (ARG0*)            *             *    (2)
+nw/wsj/24/wsj_2404   0    3          said    VBD            (VP*        say  01   1   -           *           (V*)            *             *     -
+nw/wsj/24/wsj_2404   0    4          firm     JJ  (SBAR(S(NP(NP*         -    -   -   -           *        (ARG1*        (ARG1*             *   (12
+nw/wsj/24/wsj_2404   0    5        prices    NNS               *)     price   -   1   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0    6            on     IN            (PP*         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0    7           its   PRP$            (NP*         -    -   -   -           *             *             *             *    (2)
+nw/wsj/24/wsj_2404   0    8         1990      CD           (NML*         -    -   -   -       (DATE)            *             *             *     -
+nw/wsj/24/wsj_2404   0    9            -    HYPH               *         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   10         model     NN               *)        -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   11      domestic     JJ           (NML*         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   12          cars    NNS               *        car   -   2   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   13           and     CC               *         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   14      minivans    NNS            *))))        -    -   -   -           *             *             *)            *    12)
+nw/wsj/24/wsj_2404   0   15          will     MD            (VP*         -    -   -   -           *             *    (ARGM-MOD*)            *     -
+nw/wsj/24/wsj_2404   0   16          rise     VB            (VP*       rise  01   2   -           *             *           (V*)            *     -
+nw/wsj/24/wsj_2404   0   17            an     DT         (NP(NP*         -    -   -   -           *             *        (ARG2*             *     -
+nw/wsj/24/wsj_2404   0   18       average     NN               *)   average   -   1   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   19            of     IN            (PP*         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   20            5      CD         (NP(NP*         -    -   -   -   (PERCENT*             *             *             *     -
+nw/wsj/24/wsj_2404   0   21             %     NN               *)        -    -   -   -           *)            *             *             *     -
+nw/wsj/24/wsj_2404   0   22          over     IN            (PP*         -    -   -   -           *             *             *             *     -
+nw/wsj/24/wsj_2404   0   23    comparably     RB       (NP(ADJP*         -    -   -   -           *             *             *    (ARGM-MNR*)    -
+nw/wsj/24/wsj_2404   0   24      equipped    VBN               *)     equip  01   1   -           *             *             *           (V*)    -
+nw/wsj/24/wsj_2404   0   25         1989      CD               *         -    -   -   -       (DATE)            *             *        (ARG1*     -
+nw/wsj/24/wsj_2404   0   26        models    NNS      *))))))))))     model   -   2   -           *             *)            *)            *)    -
+nw/wsj/24/wsj_2404   0   27             .      .              *))        -    -   -   -           *             *             *             *     -
+
+nw/wsj/24/wsj_2404   0    0         Firm    JJ  (TOP(S(NP*          -    -   -   -        *        (ARG1*            *   (12
+nw/wsj/24/wsj_2404   0    1       prices   NNS           *)      price   -   1   -        *             *)           *    12)
+nw/wsj/24/wsj_2404   0    2         were   VBD        (VP*          be  01   1   -        *           (V*)           *     -
+nw/wsj/24/wsj_2404   0    3    generally    RB      (ADVP*)         -    -   -   -        *    (ARGM-ADV*)           *     -
+nw/wsj/24/wsj_2404   0    4           in    IN        (PP*          -    -   -   -        *        (ARG2*            *     -
+nw/wsj/24/wsj_2404   0    5         line    NN     (NP(NP*)       line   -   6   -        *             *            *     -
+nw/wsj/24/wsj_2404   0    6         with    IN        (PP*          -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0    7          the    DT     (NP(NP*          -    -   -   -        *             *       (ARG1*     -
+nw/wsj/24/wsj_2404   0    8    tentative    JJ           *          -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0    9       prices   NNS           *)      price   -   1   -        *             *            *)    -
+nw/wsj/24/wsj_2404   0   10    announced   VBD        (VP*    announce  01   1   -        *             *          (V*)    -
+nw/wsj/24/wsj_2404   0   11      earlier   RBR   (NP(ADVP*)         -    -   -   -   (DATE*             *   (ARGM-TMP*   (17
+nw/wsj/24/wsj_2404   0   12         this    DT           *          -    -   -   -        *             *            *     -
+nw/wsj/24/wsj_2404   0   13         fall    NN     *)))))))       fall   -   1   -        *)            *)           *)   17)
+nw/wsj/24/wsj_2404   0   14            .     .          *))         -    -   -   -        *             *            *     -
+
+nw/wsj/24/wsj_2404   0    0           At    IN      (TOP(S(PP*           -    -   -   -           *   (ARGM-TMP*             *             *     -
+nw/wsj/24/wsj_2404   0    1         that    DT            (NP*           -    -   -   -           *            *             *             *   (17
+nw/wsj/24/wsj_2404   0    2         time    NN              *))        time   -   1   -           *            *)            *             *    17)
+nw/wsj/24/wsj_2404   0    3            ,     ,               *           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0    4     Chrysler   NNP            (NP*)          -    -   -   -        (ORG)      (ARG0*)            *             *    (2)
+nw/wsj/24/wsj_2404   0    5         said   VBD            (VP*          say  01   1   -           *          (V*)            *             *     -
+nw/wsj/24/wsj_2404   0    6         base    NN  (SBAR(S(NP(NP*         base   -   1   -           *       (ARG1*        (ARG1*        (ARG1*     -
+nw/wsj/24/wsj_2404   0    7       prices   NNS               *)       price   -   1   -           *            *             *)            *     -
+nw/wsj/24/wsj_2404   0    8            ,     ,               *           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0    9        which   WDT     (SBAR(WHNP*)          -    -   -   -           *            *      (R-ARG1*)            *     -
+nw/wsj/24/wsj_2404   0   10          are   VBP          (S(VP*           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   11          n't    RB               *           -    -   -   -           *            *    (ARGM-NEG*)            *     -
+nw/wsj/24/wsj_2404   0   12     adjusted   VBN            (VP*       adjust  01   1   -           *            *           (V*)            *     -
+nw/wsj/24/wsj_2404   0   13          for    IN            (PP*           -    -   -   -           *            *        (ARG4*             *     -
+nw/wsj/24/wsj_2404   0   14    equipment    NN            (NP*    equipment   -   1   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   15      changes   NNS          *))))))      change   -   1   -           *            *             *)            *     -
+nw/wsj/24/wsj_2404   0   16            ,     ,               *)          -    -   -   -           *            *             *             *)    -
+nw/wsj/24/wsj_2404   0   17        would    MD            (VP*           -    -   -   -           *            *             *    (ARGM-MOD*)    -
+nw/wsj/24/wsj_2404   0   18         rise    VB            (VP*         rise  01   2   -           *            *             *           (V*)    -
+nw/wsj/24/wsj_2404   0   19      between    IN         (NP(QP*           -    -   -   -   (PERCENT*            *             *        (ARG2*     -
+nw/wsj/24/wsj_2404   0   20           4     CD               *           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   21            %    NN               *           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   22          and    CC               *           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   23           9     CD               *           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   24            %    NN              *))          -    -   -   -           *)           *             *             *)    -
+nw/wsj/24/wsj_2404   0   25           on    IN            (PP*           -    -   -   -           *            *             *    (ARGM-LOC*     -
+nw/wsj/24/wsj_2404   0   26         most   JJS            (NP*           -    -   -   -           *            *             *             *     -
+nw/wsj/24/wsj_2404   0   27      vehicle    NN         *)))))))     vehicle   -   1   -           *            *)            *             *)    -
+nw/wsj/24/wsj_2404   0   28            .     .              *))          -    -   -   -           *            *             *             *     -
+
+nw/wsj/24/wsj_2404   0    0           a    LS   (TOP(S(LST*)        -    -   -   -   *         *             *            *   -
+nw/wsj/24/wsj_2404   0    1          -      :             *         -    -   -   -   *         *             *            *   -
+nw/wsj/24/wsj_2404   0    2      Totals   NNS          (NP*)        -    -   -   -   *    (ARG2*)            *            *   -
+nw/wsj/24/wsj_2404   0    3     include   VBP          (VP*    include  01   1   -   *       (V*)            *            *   -
+nw/wsj/24/wsj_2404   0    4        only    JJ       (NP(NP*         -    -   -   -   *    (ARG1*    (ARGM-ADJ*)      (ARG1*   -
+nw/wsj/24/wsj_2404   0    5     vehicle    NN             *    vehicle   -   1   -   *         *        (ARG1*)           *   -
+nw/wsj/24/wsj_2404   0    6       sales   NNS             *)      sale  01   1   -   *         *           (V*)           *)  -
+nw/wsj/24/wsj_2404   0    7    reported   VBN          (VP*     report  01   1   -   *         *             *          (V*)  -
+nw/wsj/24/wsj_2404   0    8          in    IN          (PP*         -    -   -   -   *         *             *   (ARGM-MNR*   -
+nw/wsj/24/wsj_2404   0    9      period    NN      (NP*)))))        -    -   -   -   *         *)            *            *)  -
+nw/wsj/24/wsj_2404   0   10           .     .            *))        -    -   -   -   *         *             *            *   -
+
+nw/wsj/24/wsj_2404   0   0           c   LS   (TOP(FRAG(LST*)    -   -   -   -   *   -
+nw/wsj/24/wsj_2404   0   1          -     :                *     -   -   -   -   *   -
+nw/wsj/24/wsj_2404   0   2    Domestic   JJ             (NP*     -   -   -   -   *   -
+nw/wsj/24/wsj_2404   0   3         car   NN              *)))   car  -   2   -   *   -
+
+nw/wsj/24/wsj_2404   0   0             d    LS   (TOP(S(LST*)   -    -   -   -           *        *   -
+nw/wsj/24/wsj_2404   0   1            -      :             *    -    -   -   -           *        *   -
+nw/wsj/24/wsj_2404   0   2    Percentage    NN          (NP*    -    -   -   -           *   (ARG1*   -
+nw/wsj/24/wsj_2404   0   3        change    NN             *)   -    -   -   -           *        *)  -
+nw/wsj/24/wsj_2404   0   4            is   VBZ          (VP*    be  01   1   -           *      (V*)  -
+nw/wsj/24/wsj_2404   0   5       greater   JJR   (ADJP(ADJP*)   -    -   -   -           *   (ARG2*   -
+nw/wsj/24/wsj_2404   0   6          than    IN          (PP*    -    -   -   -           *        *   -
+nw/wsj/24/wsj_2404   0   7          999     CD          (NP*    -    -   -   -   (PERCENT*        *   -
+nw/wsj/24/wsj_2404   0   8             %    NN          *))))   -    -   -   -           *)       *)  -
+nw/wsj/24/wsj_2404   0   9             .     .            *))   -    -   -   -           *        *   -
+
+nw/wsj/24/wsj_2404   0    0          x    LS   (TOP(S(LST*)    -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0    1         -      :             *     -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0    2      There    EX          (NP*)    -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0    3       were   VBD          (VP*     be  02   5   -            *      (V*)  -
+nw/wsj/24/wsj_2404   0    4         8     CD    (NP(NP(NP*     -    -   -   -    (CARDINAL)  (ARG1*   -
+nw/wsj/24/wsj_2404   0    5    selling   VBG             *     -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0    6       days   NNS             *)   day   -   3   -            *        *   -
+nw/wsj/24/wsj_2404   0    7         in    IN          (PP*     -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0    8        the    DT          (NP*     -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0    9       most   RBS        (ADJP*     -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0   10     recent    JJ             *)    -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0   11     period    NN           *)))    -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0   12        and    CC             *     -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0   13         8     CD       (NP(NP*)    -    -   -   -    (CARDINAL)       *   -
+nw/wsj/24/wsj_2404   0   14          a    DT     (ADVP(NP*     -    -   -   -       (DATE*        *   -
+nw/wsj/24/wsj_2404   0   15       year    NN             *)    -    -   -   -            *        *   -
+nw/wsj/24/wsj_2404   0   16    earlier   RBR          *))))    -    -   -   -            *)       *)  -
+nw/wsj/24/wsj_2404   0   17          .     .            *))    -    -   -   -            *        *   -
+
+nw/wsj/24/wsj_2404   0    0     Percentage    NN  (TOP(S(NP*    percentage   -   1   -        *   (ARG1*   -
+nw/wsj/24/wsj_2404   0    1    differences   NNS           *)   difference   -   5   -        *        *)  -
+nw/wsj/24/wsj_2404   0    2          based   VBN        (VP*          base  02   1   -        *      (V*)  -
+nw/wsj/24/wsj_2404   0    3             on    IN        (PP*            -    -   -   -        *   (ARG2*   -
+nw/wsj/24/wsj_2404   0    4          daily    JJ     (NP(NP*            -    -   -   -    (DATE)       *   -
+nw/wsj/24/wsj_2404   0    5          sales   NNS           *          sale   -   1   -        *        *   -
+nw/wsj/24/wsj_2404   0    6           rate    NN           *)         rate   -   2   -        *        *   -
+nw/wsj/24/wsj_2404   0    7         rather    RB     (CONJP*            -    -   -   -        *        *   -
+nw/wsj/24/wsj_2404   0    8           than    IN           *)           -    -   -   -        *        *   -
+nw/wsj/24/wsj_2404   0    9          sales   NNS        (NP*            -    -   -   -        *        *   -
+nw/wsj/24/wsj_2404   0   10         volume    NN        *))))           -    -   -   -        *        *)  -
+nw/wsj/24/wsj_2404   0   11              .     .          *))           -    -   -   -        *        *   -
+
+#end document

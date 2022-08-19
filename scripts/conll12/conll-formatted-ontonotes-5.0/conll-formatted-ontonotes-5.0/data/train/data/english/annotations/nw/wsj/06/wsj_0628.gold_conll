@@ -1,0 +1,805 @@
+#begin document (nw/wsj/06/wsj_0628); part 000
+nw/wsj/06/wsj_0628   0    0       Factory     NN  (TOP(S(S(NP*       -    -   -   -        *       (ARG0*        *   -
+nw/wsj/06/wsj_0628   0    1        owners    NNS             *)      -    -   -   -        *            *)       *   -
+nw/wsj/06/wsj_0628   0    2           are    VBP          (VP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0    3        buying    VBG          (VP*      buy  01   -   -        *          (V*)       *   -
+nw/wsj/06/wsj_0628   0    4           new     JJ          (NP*       -    -   -   -        *       (ARG1*        *   -
+nw/wsj/06/wsj_0628   0    5     machinery     NN             *)      -    -   -   -        *            *)       *   -
+nw/wsj/06/wsj_0628   0    6            at     IN          (PP*       -    -   -   -        *       (ARG3*        *   -
+nw/wsj/06/wsj_0628   0    7             a     DT          (NP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0    8          good     JJ             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0    9          rate     NN            *))      -    -   -   -        *            *)       *   -
+nw/wsj/06/wsj_0628   0   10          this     DT          (NP*       -    -   -   -   (DATE*   (ARGM-TMP*        *   -
+nw/wsj/06/wsj_0628   0   11          fall     NN          *))))      -    -   -   -        *)           *)       *   -
+nw/wsj/06/wsj_0628   0   12             ,      ,         (PRN*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   13       machine     NN    (S(NP(NML*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   14          tool     NN             *)      -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   15        makers    NNS             *)      -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   16           say    VBP         (VP*))      -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   17             ,      ,             *)      -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   18           but     CC             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   19      sluggish     JJ     (S(NP(NP*       -    -   -   -        *            *   (ARG0*   -
+nw/wsj/06/wsj_0628   0   20         sales    NNS             *)      -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   21            of     IN          (PP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   22           new     JJ          (NP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   23          cars    NNS             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   24           and     CC             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   25        trucks    NNS           *)))      -    -   -   -        *            *        *)  -
+nw/wsj/06/wsj_0628   0   26         raise    VBP          (VP*    raise  01   -   -        *            *      (V*)  -
+nw/wsj/06/wsj_0628   0   27     questions    NNS       (NP(NP*)      -    -   -   -        *            *   (ARG1*   -
+nw/wsj/06/wsj_0628   0   28         about     IN          (PP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   29        fourth     JJ   (NP(NP(NML*       -    -   -   -   (DATE*            *        *   -
+nw/wsj/06/wsj_0628   0   30            -    HYPH             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   31       quarter     NN             *)      -    -   -   -        *)           *        *   -
+nw/wsj/06/wsj_0628   0   32        demand     NN             *)      -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   33          from     IN          (PP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   34           the     DT          (NP*       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   35     important     JJ             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   36    automotive     JJ             *       -    -   -   -        *            *        *   -
+nw/wsj/06/wsj_0628   0   37      industry     NN       *)))))))      -    -   -   -        *            *        *)  -
+nw/wsj/06/wsj_0628   0   38             .      .            *))      -    -   -   -        *            *        *   -
+
+nw/wsj/06/wsj_0628   0    0        September    NNP  (TOP(S(NP(NP*         -    -   -   -       (DATE)      (ARG1*       (ARG1*   -
+nw/wsj/06/wsj_0628   0    1           orders    NNS              *)        -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    2              for     IN           (PP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    3          machine     NN           (NP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    4            tools    NNS            *)))        -    -   -   -           *            *)           *)  -
+nw/wsj/06/wsj_0628   0    5        rebounded    VBD        (VP(VP*    rebound  01   2   -           *          (V*)           *   -
+nw/wsj/06/wsj_0628   0    6             from     IN           (PP*         -    -   -   -           *       (ARG3*            *   -
+nw/wsj/06/wsj_0628   0    7              the     DT           (NP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    8           summer     NN              *         -    -   -   -       (DATE)           *            *   -
+nw/wsj/06/wsj_0628   0    9         doldrums    NNS            *)))        -    -   -   -           *            *)           *   -
+nw/wsj/06/wsj_0628   0   10                ,      ,              *         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   11              but     CC              *         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   12         remained    VBD           (VP*     remain  01   -   -           *            *          (V*)  -
+nw/wsj/06/wsj_0628   0   13             7.7      CD        (PP(NP*         -    -   -   -   (PERCENT*            *       (ARG3*   -
+nw/wsj/06/wsj_0628   0   14                %     NN              *)        -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   15            below     IN              *         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   16             year     NN      (NP(ADJP*         -    -   -   -      (DATE*            *            *   -
+nw/wsj/06/wsj_0628   0   17               -    HYPH              *         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   18          earlier    JJR              *)        -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   19           levels    NNS            *)))        -    -   -   -           *            *            *)  -
+nw/wsj/06/wsj_0628   0   20                ,      ,              *         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   21        according    VBG           (PP*         -    -   -   -           *   (ARGM-ADV*   (ARGM-ADV*   -
+nw/wsj/06/wsj_0628   0   22               to     IN           (PP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   23          figures    NNS        (NP(NP*)        -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   24             from     IN           (PP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   25            NMTBA    NNP        (NP(NP*)        -    -   -   -        (ORG)           *            *   -
+nw/wsj/06/wsj_0628   0   26              --       :              *         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   27              the     DT        (NP(NP*         -    -   -   -       (ORG*            *            *   -
+nw/wsj/06/wsj_0628   0   28      Association    NNP              *)        -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   29              for     IN           (PP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   30    Manufacturing    NNP           (NP*         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   31       Technology    NNP      *)))))))))        -    -   -   -           *)           *)           *)  -
+nw/wsj/06/wsj_0628   0   32                .      .             *))        -    -   -   -           *            *            *   -
+
+nw/wsj/06/wsj_0628   0    0     Domestic    JJ  (TOP(S(S(NP*         -    -   -   -           *       (ARG0*    (ARG1*   -
+nw/wsj/06/wsj_0628   0    1      machine    NN         (NML*         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0    2         tool    NN             *)        -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0    3       plants   NNS             *)        -    -   -   -           *            *)        *   -
+nw/wsj/06/wsj_0628   0    4     received   VBD          (VP*    receive  01   -   -           *          (V*)        *   -
+nw/wsj/06/wsj_0628   0    5            $     $    (NP(NP(QP*         -    -   -   -     (MONEY*       (ARG1*         *   -
+nw/wsj/06/wsj_0628   0    6         303     CD             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0    7      million    CD            *))        -    -   -   -           *)           *         *   -
+nw/wsj/06/wsj_0628   0    8           of    IN          (PP*         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0    9       orders   NNS        (NP*)))        -    -   -   -           *            *)        *   -
+nw/wsj/06/wsj_0628   0   10         last    JJ          (NP*         -    -   -   -      (DATE*   (ARGM-TMP*         *   -
+nw/wsj/06/wsj_0628   0   11        month    NN             *)        -    -   -   -           *)           *)        *   -
+nw/wsj/06/wsj_0628   0   12            ,     ,             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   13           up    RB    (UCP(ADVP*         -    -   -   -           *   (ARGM-ADV*         *   -
+nw/wsj/06/wsj_0628   0   14          33     CD          (NP*         -    -   -   -   (PERCENT*            *         *   -
+nw/wsj/06/wsj_0628   0   15            %    NN             *)        -    -   -   -           *)           *         *   -
+nw/wsj/06/wsj_0628   0   16         from    IN          (PP*         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   17       August   NNP       (NP(NP*         -    -   -   -       (DATE)           *         *   -
+nw/wsj/06/wsj_0628   0   18           's   POS             *)        -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   19            $     $          (QP*         -    -   -   -     (MONEY*            *         *   -
+nw/wsj/06/wsj_0628   0   20       227.1     CD             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   21      million    CD          *))))        -    -   -   -           *)           *         *   -
+nw/wsj/06/wsj_0628   0   22            ,     ,             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   23          but    CC             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   24        still    RB        (ADVP*)        -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   25        below    IN          (PP*         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   26          the    DT       (NP(NP*         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   27            $     $          (QP*         -    -   -   -     (MONEY*            *         *   -
+nw/wsj/06/wsj_0628   0   28       328.2     CD             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   29      million    CD            *))        -    -   -   -           *)           *         *   -
+nw/wsj/06/wsj_0628   0   30           of    IN          (PP*         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   31    September   NNP          (NP*         -    -   -   -      (DATE*            *         *   -
+nw/wsj/06/wsj_0628   0   32        1988     CD       *)))))))        -    -   -   -           *)           *)        *)  -
+nw/wsj/06/wsj_0628   0   33            ,     ,             *         -    -   -   -           *            *         *   -
+nw/wsj/06/wsj_0628   0   34        NMTBA   NNP          (NP*)        -    -   -   -        (ORG)           *    (ARG0*)  -
+nw/wsj/06/wsj_0628   0   35         said   VBD          (VP*)       say  01   -   -           *            *       (V*)  -
+nw/wsj/06/wsj_0628   0   36            .     .            *))        -    -   -   -           *            *         *   -
+
+nw/wsj/06/wsj_0628   0    0     Machine     NN       (TOP(S(NP*       -    -   -   -   *   (ARG1*        *           *        *   -
+nw/wsj/06/wsj_0628   0    1       tools    NNS                *)      -    -   -   -   *        *)       *           *        *   -
+nw/wsj/06/wsj_0628   0    2         are    VBP             (VP*       be  01   -   -   *      (V*)       *           *        *   -
+nw/wsj/06/wsj_0628   0    3     complex     JJ          (NP(NP*       -    -   -   -   *   (ARG2*   (ARG1*           *        *   -
+nw/wsj/06/wsj_0628   0    4    machines    NNS                *)      -    -   -   -   *        *        *)          *        *   -
+nw/wsj/06/wsj_0628   0    5     ranging    VBG             (VP*    range  01   1   -   *        *      (V*)          *        *   -
+nw/wsj/06/wsj_0628   0    6        from     IN          (PP(PP*       -    -   -   -   *        *   (ARG4*           *        *   -
+nw/wsj/06/wsj_0628   0    7      lathes    NNS            (NP*))      -    -   -   -   *        *        *           *        *   -
+nw/wsj/06/wsj_0628   0    8          to     IN             (PP*       -    -   -   -   *        *        *           *        *   -
+nw/wsj/06/wsj_0628   0    9       metal     NN     (NP(NP(ADJP*       -    -   -   -   *        *        *      (ARG1*        *   -
+nw/wsj/06/wsj_0628   0   10          -    HYPH                *       -    -   -   -   *        *        *           *        *   -
+nw/wsj/06/wsj_0628   0   11     forming    VBG                *)      -    -   -   -   *        *        *           *        *   -
+nw/wsj/06/wsj_0628   0   12     presses    NNS                *)      -    -   -   -   *        *        *           *)       *   -
+nw/wsj/06/wsj_0628   0   13        that    WDT      (SBAR(WHNP*)      -    -   -   -   *        *        *    (R-ARG1*)       *   -
+nw/wsj/06/wsj_0628   0   14         are    VBP           (S(VP*       -    -   -   -   *        *        *           *        *   -
+nw/wsj/06/wsj_0628   0   15        used    VBN             (VP*      use  01   -   -   *        *        *         (V*)       *   -
+nw/wsj/06/wsj_0628   0   16          to     TO           (S(VP*       -    -   -   -   *        *        *      (ARG2*        *   -
+nw/wsj/06/wsj_0628   0   17       shape     VB             (VP*    shape  01   1   -   *        *        *           *      (V*)  -
+nw/wsj/06/wsj_0628   0   18        most    JJS             (NP*       -    -   -   -   *        *        *           *   (ARG1*   -
+nw/wsj/06/wsj_0628   0   19       metal     NN                *       -    -   -   -   *        *        *           *        *   -
+nw/wsj/06/wsj_0628   0   20       parts    NNS   *))))))))))))))      -    -   -   -   *        *)       *)          *)       *)  -
+nw/wsj/06/wsj_0628   0   21           .      .               *))      -    -   -   -   *        *        *           *        *   -
+
+nw/wsj/06/wsj_0628   0    0             ``    ``  (TOP(SINV*     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0    1        Overall    JJ      (S(NP*     -    -   -   -          *        (ARG1*   (ARG1*   -
+nw/wsj/06/wsj_0628   0    2         demand    NN           *)    -    -   -   -          *             *)       *   -
+nw/wsj/06/wsj_0628   0    3          still    RB      (ADVP*)    -    -   -   -          *    (ARGM-TMP*)       *   -
+nw/wsj/06/wsj_0628   0    4             is   VBZ        (VP*     be  01   -   -          *           (V*)       *   -
+nw/wsj/06/wsj_0628   0    5           very    RB      (ADJP*     -    -   -   -          *        (ARG2*        *   -
+nw/wsj/06/wsj_0628   0    6    respectable    JJ         *)))    -    -   -   -          *             *)       *)  -
+nw/wsj/06/wsj_0628   0    7              ,     ,           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0    8             ''    ''           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0    9           says   VBZ        (VP*)   say  01   -   -          *             *      (V*)  -
+nw/wsj/06/wsj_0628   0   10    Christopher   NNP     (NP(NP*     -    -   -   -   (PERSON*             *   (ARG0*   -
+nw/wsj/06/wsj_0628   0   11             C.   NNP           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   12           Cole   NNP           *)    -    -   -   -          *)            *        *   -
+nw/wsj/06/wsj_0628   0   13              ,     ,           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   14          group    NN     (NP(NP*     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   15           vice    NN           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   16      president    NN           *)    -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   17             at    IN        (PP*     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   18     Cincinnati   NNP     (NP(NP*     -    -   -   -      (ORG*             *        *   -
+nw/wsj/06/wsj_0628   0   19       Milacron   NNP           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   20           Inc.   NNP           *)    -    -   -   -          *)            *        *   -
+nw/wsj/06/wsj_0628   0   21              ,     ,           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   22            the    DT     (NP(NP*     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   23         nation    NN           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   24             's   POS           *)    -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   25        largest   JJS           *     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   26        machine    NN       (NML*     -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   27           tool    NN           *)    -    -   -   -          *             *        *   -
+nw/wsj/06/wsj_0628   0   28       producer    NN       *)))))    -    -   -   -          *             *        *)  -
+nw/wsj/06/wsj_0628   0   29              .     .          *))    -    -   -   -          *             *        *   -
+
+nw/wsj/06/wsj_0628   0    0              ``    ``  (TOP(S*    -    -   -   -   *          *   -
+nw/wsj/06/wsj_0628   0    1             The    DT  (NP(NP*    -    -   -   -   *     (ARG1*   -
+nw/wsj/06/wsj_0628   0    2         outlook    NN       *))   -    -   -   -   *          *)  -
+nw/wsj/06/wsj_0628   0    3              is   VBZ     (VP*    be  01   -   -   *        (V*)  -
+nw/wsj/06/wsj_0628   0    4        positive    JJ   (ADJP*)   -    -   -   -   *     (ARG2*)  -
+nw/wsj/06/wsj_0628   0    5             for    IN     (PP*    -    -   -   -   *   (C-ARG1*   -
+nw/wsj/06/wsj_0628   0    6             the    DT     (NP*    -    -   -   -   *          *   -
+nw/wsj/06/wsj_0628   0    7    intermediate    JJ   (ADJP*    -    -   -   -   *          *   -
+nw/wsj/06/wsj_0628   0    8              to    TO        *    -    -   -   -   *          *   -
+nw/wsj/06/wsj_0628   0    9            long    JJ        *)   -    -   -   -   *          *   -
+nw/wsj/06/wsj_0628   0   10            term    NN      *)))   -    -   -   -   *          *)  -
+nw/wsj/06/wsj_0628   0   11               .     .        *    -    -   -   -   *          *   -
+nw/wsj/06/wsj_0628   0   12              ''    ''       *))   -    -   -   -   *          *   -
+
+nw/wsj/06/wsj_0628   0    0    September   NNP  (TOP(S(NP(NP*    -    -   -   -    (DATE)      (ARG1*   -
+nw/wsj/06/wsj_0628   0    1       orders   NNS              *)   -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    2          for    IN           (PP*    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    3          all    DT           (NP*    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    4         U.S.   NNP              *    -    -   -   -     (GPE)           *   -
+nw/wsj/06/wsj_0628   0    5    producers   NNS            *)))   -    -   -   -        *            *)  -
+nw/wsj/06/wsj_0628   0    6            ,     ,              *    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    7           in    IN           (PP*    -    -   -   -        *   (ARGM-ADV*   -
+nw/wsj/06/wsj_0628   0    8         fact    NN          (NP*))   -    -   -   -        *            *)  -
+nw/wsj/06/wsj_0628   0    9            ,     ,              *    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   10         were   VBD           (VP*    be  01   -   -        *          (V*)  -
+nw/wsj/06/wsj_0628   0   11     slightly    RB      (PP(ADVP*)   -    -   -   -        *       (ARG2*   -
+nw/wsj/06/wsj_0628   0   12        above    IN              *    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   13          the    DT        (NP(NP*    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   14      monthly    JJ              *    -    -   -   -    (DATE)           *   -
+nw/wsj/06/wsj_0628   0   15      average    NN              *)   -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   16          for    IN           (PP*    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   17        1988     CD        (NP(NP*)   -    -   -   -    (DATE)           *   -
+nw/wsj/06/wsj_0628   0   18            ,     ,              *    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   19            a    DT        (NP(NP*    -    -   -   -   (DATE*            *   -
+nw/wsj/06/wsj_0628   0   20         good    JJ              *    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   21         year    NN              *)   -    -   -   -        *)           *   -
+nw/wsj/06/wsj_0628   0   22          for    IN           (PP*    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   23          the    DT           (NP*    -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   24     industry    NN       *))))))))   -    -   -   -        *            *)  -
+nw/wsj/06/wsj_0628   0   25            .     .             *))   -    -   -   -        *            *   -
+
+nw/wsj/06/wsj_0628   0    0           ``    ``  (TOP(S*     -    -   -   -          *        *        *   -
+nw/wsj/06/wsj_0628   0    1    Aerospace    NN   (S(NP*     -    -   -   -          *   (ARG1*   (ARG1*   -
+nw/wsj/06/wsj_0628   0    2       orders   NNS        *)    -    -   -   -          *        *)       *   -
+nw/wsj/06/wsj_0628   0    3          are   VBP     (VP*     be  01   -   -          *      (V*)       *   -
+nw/wsj/06/wsj_0628   0    4         very    RB   (ADJP*     -    -   -   -          *   (ARG2*        *   -
+nw/wsj/06/wsj_0628   0    5         good    JJ      *)))    -    -   -   -          *        *)       *)  -
+nw/wsj/06/wsj_0628   0    6            ,     ,        *     -    -   -   -          *        *        *   -
+nw/wsj/06/wsj_0628   0    7           ''    ''        *     -    -   -   -          *        *        *   -
+nw/wsj/06/wsj_0628   0    8          Mr.   NNP     (NP*     -    -   -   -          *        *   (ARG0*   -
+nw/wsj/06/wsj_0628   0    9         Cole   NNP        *)    -    -   -   -    (PERSON)       *        *)  -
+nw/wsj/06/wsj_0628   0   10         says   VBZ     (VP*)   say  01   -   -          *        *      (V*)  -
+nw/wsj/06/wsj_0628   0   11            .     .       *))    -    -   -   -          *        *        *   -
+
+nw/wsj/06/wsj_0628   0   0          ``    ``   (TOP(S*    -    -   -   -   *             *   -
+nw/wsj/06/wsj_0628   0   1         And    CC         *    -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/06/wsj_0628   0   2      export    NN      (NP*    -    -   -   -   *        (ARG1*   -
+nw/wsj/06/wsj_0628   0   3    business    NN         *)   -    -   -   -   *             *)  -
+nw/wsj/06/wsj_0628   0   4          is   VBZ      (VP*    be  01   -   -   *           (V*)  -
+nw/wsj/06/wsj_0628   0   5       still    RB    (ADVP*)   -    -   -   -   *    (ARGM-TMP*)  -
+nw/wsj/06/wsj_0628   0   6        good    JJ   (ADJP*))   -    -   -   -   *        (ARG2*)  -
+nw/wsj/06/wsj_0628   0   7           .     .        *))   -    -   -   -   *             *   -
+
+nw/wsj/06/wsj_0628   0    0         While    IN  (TOP(S(SBAR*        -    -   -   -   *        *    (ARGM-ADV*   -
+nw/wsj/06/wsj_0628   0    1          some    DT        (S(NP*        -    -   -   -   *   (ARG1*             *   -
+nw/wsj/06/wsj_0628   0    2    automotive    JJ             *        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0    3      programs   NNS             *)       -    -   -   -   *        *)            *   -
+nw/wsj/06/wsj_0628   0    4          have   VBP          (VP*        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0    5          been   VBN          (VP*        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0    6       delayed   VBN      (VP*)))))    delay  01   -   -   *      (V*)            *)  -
+nw/wsj/06/wsj_0628   0    7             ,     ,             *        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0    8          they   PRP          (NP*)       -    -   -   -   *        *        (ARG1*)  -
+nw/wsj/06/wsj_0628   0    9          have   VBP          (VP*        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0   10           n't    RB             *        -    -   -   -   *        *    (ARGM-NEG*)  -
+nw/wsj/06/wsj_0628   0   11          been   VBN          (VP*        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0   12      canceled   VBN        (VP*)))   cancel  01   1   -   *        *           (V*)  -
+nw/wsj/06/wsj_0628   0   13             .     .             *        -    -   -   -   *        *             *   -
+nw/wsj/06/wsj_0628   0   14            ''    ''            *))       -    -   -   -   *        *             *   -
+
+nw/wsj/06/wsj_0628   0    0           ``     ``  (TOP(SINV*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0    1    September    NNP      (S(NP*)    -    -   -   -      (DATE)   (ARG1*)  (ARG1*   -
+nw/wsj/06/wsj_0628   0    2          was    VBD        (VP*     be  01   -   -          *       (V*)       *   -
+nw/wsj/06/wsj_0628   0    3          one     CD     (NP(NP*)    -    -   -   -          *    (ARG2*        *   -
+nw/wsj/06/wsj_0628   0    4           of     IN        (PP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0    5          the     DT     (NP(NP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0    6      biggest    JJS           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0    7        order     NN           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0    8       months    NNS           *)    -    -   -   -      (DATE)        *        *   -
+nw/wsj/06/wsj_0628   0    9           in     IN        (PP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   10          our   PRP$        (NP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   11      history     NN     *)))))))    -    -   -   -          *         *)       *)  -
+nw/wsj/06/wsj_0628   0   12            ,      ,           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   13           ''     ''           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   14         says    VBZ        (VP*)   say  01   -   -          *         *      (V*)  -
+nw/wsj/06/wsj_0628   0   15        James    NNP     (NP(NP*     -    -   -   -   (PERSON*         *   (ARG0*   -
+nw/wsj/06/wsj_0628   0   16           R.    NNP           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   17      Roberts    NNP           *)    -    -   -   -          *)        *        *   -
+nw/wsj/06/wsj_0628   0   18            ,      ,           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   19         vice     NN     (NP(NP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   20    president     NN           *)    -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   21            ,      ,           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   22        world     NN   (NP(ADJP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   23           -    HYPH           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   24         wide     JJ           *)    -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   25        sales    NNS           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   26          and     CC           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   27    marketing     NN           *)    -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   28            ,      ,           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   29          for     IN        (PP*     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   30     Giddings    NNP     (NP(NP*     -    -   -   -      (ORG*         *        *   -
+nw/wsj/06/wsj_0628   0   31            &     CC           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   32        Lewis    NNP           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   33         Inc.    NNP           *)    -    -   -   -          *)        *        *   -
+nw/wsj/06/wsj_0628   0   34            ,      ,           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   35         Fond    NNP     (NP(NP*     -    -   -   -      (GPE*         *        *   -
+nw/wsj/06/wsj_0628   0   36           du    NNP           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   37          Lac    NNP           *)    -    -   -   -          *)        *        *   -
+nw/wsj/06/wsj_0628   0   38            ,      ,           *     -    -   -   -          *         *        *   -
+nw/wsj/06/wsj_0628   0   39          Wis    NNP   (NP*))))))    -    -   -   -       (GPE)        *        *)  -
+nw/wsj/06/wsj_0628   0   40            .      .          *))    -    -   -   -          *         *        *   -
+
+nw/wsj/06/wsj_0628   0    0               At    IN  (TOP(S(S(PP*      -    -   -   -   *         *   (ARGM-LOC*    (ARG1*   -
+nw/wsj/06/wsj_0628   0    1                a    DT       (NP(NP*      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    2           recent    JJ             *      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    3          meeting    NN             *)     -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    4               of    IN          (PP*      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    5    manufacturing    NN          (NP*      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    6       executives   NNS          *))))     -    -   -   -   *         *            *)        *   -
+nw/wsj/06/wsj_0628   0    7                ,     ,             *      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    8               ``    ``             *      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0    9        everybody    NN       (NP(NP*)     -    -   -   -   *         *       (ARG1*         *   -
+nw/wsj/06/wsj_0628   0   10                I   PRP   (SBAR(S(NP*)     -    -   -   -   *    (ARG0*)           *         *   -
+nw/wsj/06/wsj_0628   0   11           talked   VBD          (VP*    talk  01   -   -   *       (V*)           *         *   -
+nw/wsj/06/wsj_0628   0   12             with    IN      (PP*)))))     -    -   -   -   *    (ARG2*)           *)        *   -
+nw/wsj/06/wsj_0628   0   13              was   VBD          (VP*      be  01   -   -   *         *          (V*)        *   -
+nw/wsj/06/wsj_0628   0   14             very    RB        (ADJP*      -    -   -   -   *         *       (ARG2*         *   -
+nw/wsj/06/wsj_0628   0   15         positive    JJ           *)))     -    -   -   -   *         *            *)        *)  -
+nw/wsj/06/wsj_0628   0   16                ,     ,             *      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0   17               ''    ''             *      -    -   -   -   *         *            *         *   -
+nw/wsj/06/wsj_0628   0   18               he   PRP          (NP*)     -    -   -   -   *         *            *    (ARG0*)  -
+nw/wsj/06/wsj_0628   0   19             says   VBZ          (VP*)    say  01   -   -   *         *            *       (V*)  -
+nw/wsj/06/wsj_0628   0   20                .     .            *))     -    -   -   -   *         *            *         *   -
+
+nw/wsj/06/wsj_0628   0    0         Most   JJS      (TOP(S(NP*)      -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    1          say   VBP            (VP*       -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    2         they   PRP     (SBAR(S(NP*)      -    -   -   -        *       (ARG0*)  -
+nw/wsj/06/wsj_0628   0    3         plan   VBP            (VP*       -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    4           to    TO          (S(VP*       -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    5        spend    VB            (VP*    spend  01   -   -        *          (V*)  -
+nw/wsj/06/wsj_0628   0    6         more   JJR        (NP(NP*))      -    -   -   -        *       (ARG3*)  -
+nw/wsj/06/wsj_0628   0    7           on    IN            (PP*       -    -   -   -        *       (ARG1*   -
+nw/wsj/06/wsj_0628   0    8      factory    NN            (NP*       -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0    9    equipment    NN              *))      -    -   -   -        *            *)  -
+nw/wsj/06/wsj_0628   0   10           in    IN            (PP*       -    -   -   -        *   (ARGM-TMP*   -
+nw/wsj/06/wsj_0628   0   11        1990     CD           (NP*))      -    -   -   -    (DATE)           *)  -
+nw/wsj/06/wsj_0628   0   12         than    IN            (PP*       -    -   -   -        *     (C-ARG3*   -
+nw/wsj/06/wsj_0628   0   13           in    IN            (PP*       -    -   -   -        *            *   -
+nw/wsj/06/wsj_0628   0   14        1989     CD   (NP*))))))))))      -    -   -   -    (DATE)           *)  -
+nw/wsj/06/wsj_0628   0   15            .     .              *))      -    -   -   -        *            *   -
+
+nw/wsj/06/wsj_0628   0    0         But     CC        (TOP(S*     -    -   -   -            *    (ARGM-DIS*)  -
+nw/wsj/06/wsj_0628   0    1       sales    NNS        (NP(NP*)    -    -   -   -            *        (ARG1*   -
+nw/wsj/06/wsj_0628   0    2          of     IN           (PP*     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0    3       North    NNP  (NP(ADJP(NML*     -    -   -   -       (NORP*             *   -
+nw/wsj/06/wsj_0628   0    4    American    NNP              *)    -    -   -   -            *)            *   -
+nw/wsj/06/wsj_0628   0    5          -    HYPH              *     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0    6        made    VBN              *)    -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0    7       1990      CD          (NML*     -    -   -   -        (DATE)            *   -
+nw/wsj/06/wsj_0628   0    8          -    HYPH              *     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0    9       model     NN              *)    -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   10        cars    NNS            *)))    -    -   -   -            *             *)  -
+nw/wsj/06/wsj_0628   0   11         are    VBP           (VP*     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   12     running    VBG           (VP*    run  01   -   -            *           (V*)  -
+nw/wsj/06/wsj_0628   0   13          at     IN           (PP*     -    -   -   -            *    (ARGM-MNR*   -
+nw/wsj/06/wsj_0628   0   14          an     DT        (NP(NP*     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   15      annual     JJ              *     -    -   -   -        (DATE)            *   -
+nw/wsj/06/wsj_0628   0   16        rate     NN              *)    -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   17          of     IN           (PP*     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   18        only     RB        (NP(QP*     -    -   -   -   (CARDINAL*             *   -
+nw/wsj/06/wsj_0628   0   19         six     CD              *     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   20     million     CD          *)))))    -    -   -   -            *)            *)  -
+nw/wsj/06/wsj_0628   0   21           ,      ,              *     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   22        down     RB         (ADVP*     -    -   -   -            *    (ARGM-PRD*   -
+nw/wsj/06/wsj_0628   0   23        from     IN           (PP*     -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   24        7.1      CD        (NP(QP*     -    -   -   -      (MONEY*             *   -
+nw/wsj/06/wsj_0628   0   25     million     CD             *))    -    -   -   -            *)            *   -
+nw/wsj/06/wsj_0628   0   26           a     DT      (ADVP(NP*     -    -   -   -       (DATE*             *   -
+nw/wsj/06/wsj_0628   0   27        year     NN              *)    -    -   -   -            *             *   -
+nw/wsj/06/wsj_0628   0   28     earlier    RBR          *)))))    -    -   -   -            *)            *)  -
+nw/wsj/06/wsj_0628   0   29           .      .             *))    -    -   -   -            *             *   -
+
+nw/wsj/06/wsj_0628   0    0      And    CC  (TOP(S*    -    -   -   -           *    (ARGM-DIS*)  -
+nw/wsj/06/wsj_0628   0    1    truck    NN     (NP*    -    -   -   -           *        (ARG1*   -
+nw/wsj/06/wsj_0628   0    2    sales   NNS        *)   -    -   -   -           *             *)  -
+nw/wsj/06/wsj_0628   0    3     also    RB   (ADVP*)   -    -   -   -           *    (ARGM-DIS*)  -
+nw/wsj/06/wsj_0628   0    4      are   VBP     (VP*    be  01   -   -           *           (V*)  -
+nw/wsj/06/wsj_0628   0    5      off    RB   (ADVP*    -    -   -   -           *        (ARG2*   -
+nw/wsj/06/wsj_0628   0    6     more   RBR  (NP(QP*    -    -   -   -   (PERCENT*             *   -
+nw/wsj/06/wsj_0628   0    7     than    IN        *    -    -   -   -           *             *   -
+nw/wsj/06/wsj_0628   0    8      20     CD        *)   -    -   -   -           *             *   -
+nw/wsj/06/wsj_0628   0    9        %    NN      *)))   -    -   -   -           *)            *)  -
+nw/wsj/06/wsj_0628   0   10        .     .       *))   -    -   -   -           *             *   -
+
+nw/wsj/06/wsj_0628   0    0         Auto     NN  (TOP(S(S(NP(NP*        -    -   -   -        *       (ARG0*         *        (ARG1*   (ARG1*             *   (ARG1*   -
+nw/wsj/06/wsj_0628   0    1       makers    NNS                *)       -    -   -   -        *            *)        *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0    2            ,      ,                *        -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0    3          who     WP      (SBAR(WHNP*)       -    -   -   -        *     (R-ARG0*)   (ARG0*)            *        *             *        *   -
+nw/wsj/06/wsj_0628   0    4        began    VBD           (S(VP*     begin  01   -   -        *          (V*)        *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0    5    deferring    VBG           (S(VP*     defer  01   1   -        *       (ARG1*       (V*)            *        *             *        *   -
+nw/wsj/06/wsj_0628   0    6         some     DT             (NP*        -    -   -   -        *            *    (ARG1*             *        *             *        *   -
+nw/wsj/06/wsj_0628   0    7    equipment     NN                *        -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0    8    purchases    NNS              *)))       -    -   -   -        *            *)        *)            *        *             *        *   -
+nw/wsj/06/wsj_0628   0    9         last     JJ             (NP*        -    -   -   -   (DATE*   (ARGM-TMP*         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   10       spring     NN             *))))       -    -   -   -        *)           *)        *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   11            ,      ,                *)       -    -   -   -        *            *         *             *)       *)            *        *   -
+nw/wsj/06/wsj_0628   0   12          can     MD             (VP*        -    -   -   -        *            *         *    (ARGM-MOD*)       *             *        *   -
+nw/wsj/06/wsj_0628   0   13           be     VB             (VP*        -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   14     expected    VBN             (VP*    expect  01   -   -        *            *         *           (V*)       *             *        *   -
+nw/wsj/06/wsj_0628   0   15           to     TO           (S(VP*        -    -   -   -        *            *         *      (C-ARG1*        *             *        *   -
+nw/wsj/06/wsj_0628   0   16       remain     VB             (VP*    remain  01   -   -        *            *         *             *      (V*)            *        *   -
+nw/wsj/06/wsj_0628   0   17     cautious     JJ           (ADJP*        -    -   -   -        *            *         *             *   (ARG3*             *        *   -
+nw/wsj/06/wsj_0628   0   18        about     IN             (PP*        -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   19     spending    VBG        (NP*))))))       -    -   -   -        *            *         *             *)       *)            *        *   -
+nw/wsj/06/wsj_0628   0   20           if     IN           (SBAR*        -    -   -   -        *            *         *    (ARGM-ADV*        *             *        *   -
+nw/wsj/06/wsj_0628   0   21        their   PRP$           (S(NP*        -    -   -   -        *            *         *             *        *        (ARG1*        *   -
+nw/wsj/06/wsj_0628   0   22        sales    NNS                *)       -    -   -   -        *            *         *             *        *             *)       *   -
+nw/wsj/06/wsj_0628   0   23           do    VBP             (VP*        -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   24          n't     RB                *        -    -   -   -        *            *         *             *        *    (ARGM-NEG*)       *   -
+nw/wsj/06/wsj_0628   0   25         pick     VB             (VP*      pick  05   -   -        *            *         *             *        *           (V*)       *   -
+nw/wsj/06/wsj_0628   0   26           up     RP    (PRT*)))))))))       -    -   -   -        *            *         *             *)       *             *        *)  -
+nw/wsj/06/wsj_0628   0   27            ,      ,                *        -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   28      machine     NN         (NP(NML*        -    -   -   -        *            *         *             *        *             *   (ARG0*   -
+nw/wsj/06/wsj_0628   0   29         tool     NN                *)       -    -   -   -        *            *         *             *        *             *        *   -
+nw/wsj/06/wsj_0628   0   30     builders    NNS                *)       -    -   -   -        *            *         *             *        *             *        *)  -
+nw/wsj/06/wsj_0628   0   31          say    VBP             (VP*)      say  01   -   -        *            *         *             *        *             *      (V*)  -
+nw/wsj/06/wsj_0628   0   32            .      .               *))       -    -   -   -        *            *         *             *        *             *        *   -
+
+nw/wsj/06/wsj_0628   0    0         Machine     NN  (TOP(S(NP(NML*        -    -   -   -       *   (ARG1*             *   -
+nw/wsj/06/wsj_0628   0    1            tool     NN               *)       -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0    2      executives    NNS               *)       -    -   -   -       *        *)            *   -
+nw/wsj/06/wsj_0628   0    3             are    VBP            (VP*        be  01   -   -       *      (V*)            *   -
+nw/wsj/06/wsj_0628   0    4         hopeful     JJ          (ADJP*        -    -   -   -       *   (ARG2*             *   -
+nw/wsj/06/wsj_0628   0    5               ,      ,               *        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0    6         however     RB          (ADVP*)       -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0    7               ,      ,               *        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0    8            that     IN          (SBAR*        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0    9          recent     JJ       (S(NP(NP*        -    -   -   -       *        *        (ARG0*   -
+nw/wsj/06/wsj_0628   0   10    developments    NNS               *)       -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   11              in     IN            (PP*        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   12         Eastern    NNP            (NP*        -    -   -   -   (LOC*        *             *   -
+nw/wsj/06/wsj_0628   0   13          Europe    NNP             *)))       -    -   -   -       *)       *             *)  -
+nw/wsj/06/wsj_0628   0   14            will     MD            (VP*        -    -   -   -       *        *    (ARGM-MOD*)  -
+nw/wsj/06/wsj_0628   0   15          expand     VB            (VP*    expand  01   -   -       *        *           (V*)  -
+nw/wsj/06/wsj_0628   0   16         markets    NNS         (NP(NP*)       -    -   -   -       *        *        (ARG1*   -
+nw/wsj/06/wsj_0628   0   17             for     IN            (PP*        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   18            U.S.    NNP        (NP(NML*        -    -   -   -    (GPE)       *             *   -
+nw/wsj/06/wsj_0628   0   19              -    HYPH               *        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   20            made    VBN               *)       -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   21         machine     NN               *        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   22           tools    NNS              *))       -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   23              in     IN            (PP*        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   24            that     DT            (NP*        -    -   -   -       *        *             *   -
+nw/wsj/06/wsj_0628   0   25          region     NN       *)))))))))       -    -   -   -       *        *)            *)  -
+nw/wsj/06/wsj_0628   0   26               .      .              *))       -    -   -   -       *        *             *   -
+
+nw/wsj/06/wsj_0628   0    0         There     EX    (TOP(S(NP*)        -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    1            is    VBZ          (VP*         be  02   -   -       *          (V*)       *        *         *   -
+nw/wsj/06/wsj_0628   0    2        demand     NN       (NP(NP*)        -    -   -   -       *       (ARG1*        *        *         *   -
+nw/wsj/06/wsj_0628   0    3           for     IN          (PP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    4         state     NN     (NP(ADJP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    5            -    HYPH             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    6            of     IN             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    7            -    HYPH             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    8           the     DT             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0    9            -    HYPH             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   10           art     NN             *)        -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   11       machine     NN             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   12         tools    NNS           *)))        -    -   -   -       *            *)       *        *         *   -
+nw/wsj/06/wsj_0628   0   13            in     IN       (PP(PP*         -    -   -   -       *   (ARGM-LOC*        *        *         *   -
+nw/wsj/06/wsj_0628   0   14           the     DT          (NP*         -    -   -   -   (GPE*            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   15        Soviet    NNP             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   16         Union    NNP            *))        -    -   -   -       *)           *        *        *         *   -
+nw/wsj/06/wsj_0628   0   17           and     CC             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   18            in     IN          (PP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   19         other     JJ          (NP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   20       Eastern     JJ             *         -    -   -   -   (LOC*            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   21      European     JJ             *         -    -   -   -       *)           *        *        *         *   -
+nw/wsj/06/wsj_0628   0   22     countries    NNS           *)))        -    -   -   -       *            *)       *        *         *   -
+nw/wsj/06/wsj_0628   0   23            as     IN        (SBAR*         -    -   -   -       *   (ARGM-TMP*        *        *         *   -
+nw/wsj/06/wsj_0628   0   24         those     DT        (S(NP*         -    -   -   -       *            *   (ARG0*   (ARG0*         *   -
+nw/wsj/06/wsj_0628   0   25       nations    NNS             *)        -    -   -   -       *            *        *)       *)        *   -
+nw/wsj/06/wsj_0628   0   26        strive    VBP          (VP*     strive  01   1   -       *            *      (V*)       *         *   -
+nw/wsj/06/wsj_0628   0   27            to     TO        (S(VP*         -    -   -   -       *            *   (ARG1*        *         *   -
+nw/wsj/06/wsj_0628   0   28       improve     VB          (VP*    improve  01   1   -       *            *        *      (V*)        *   -
+nw/wsj/06/wsj_0628   0   29           the     DT    (NP(NP(NP*         -    -   -   -       *            *        *   (ARG1*         *   -
+nw/wsj/06/wsj_0628   0   30    efficiency     NN             *)        -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   31            of     IN          (PP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   32         their   PRP$          (NP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   33        ailing    VBG             *        ail  01   -   -       *            *        *        *       (V*)  -
+nw/wsj/06/wsj_0628   0   34     factories    NNS           *)))        -    -   -   -       *            *        *        *    (ARG1*)  -
+nw/wsj/06/wsj_0628   0   35            as     RB       (CONJP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   36          well     RB             *         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   37            as     IN             *)        -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   38           the     DT       (NP(NP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   39       quality     NN             *)        -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   40            of     IN          (PP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   41         their   PRP$          (NP*         -    -   -   -       *            *        *        *         *   -
+nw/wsj/06/wsj_0628   0   42         goods    NNS   *)))))))))))        -    -   -   -       *            *)       *)       *)        *   -
+nw/wsj/06/wsj_0628   0   43             .      .            *))        -    -   -   -       *            *        *        *         *   -
+
+nw/wsj/06/wsj_0628   0    0          However    RB   (TOP(S(ADVP*)         -    -   -   -       *    (ARGM-DIS*)        *             *   -
+nw/wsj/06/wsj_0628   0    1                ,     ,              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0    2            there    EX           (NP*)         -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0    3               's   VBZ           (VP*          be  02   -   -       *           (V*)        *             *   -
+nw/wsj/06/wsj_0628   0    4                a    DT        (NP(NP*          -    -   -   -       *        (ARG1*         *             *   -
+nw/wsj/06/wsj_0628   0    5       continuing   VBG              *    continue  01   -   -       *             *       (V*)            *   -
+nw/wsj/06/wsj_0628   0    6          dispute    NN              *)         -    -   -   -       *             *    (ARG1*)            *   -
+nw/wsj/06/wsj_0628   0    7          between    IN           (PP*          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0    8          machine    NN    (NP(NP(NML*          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0    9             tool    NN              *)         -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   10           makers   NNS              *)         -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   11              and    CC              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   12              the    DT           (NP*          -    -   -   -   (ORG*             *         *             *   -
+nw/wsj/06/wsj_0628   0   13          Defense   NNP              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   14       Department   NNP            *)))         -    -   -   -       *)            *         *             *   -
+nw/wsj/06/wsj_0628   0   15             over    IN           (PP*          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   16          whether    IN         (SBAR*          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   17    sophisticated    JJ         (S(NP*          -    -   -   -       *             *         *        (ARG0*   -
+nw/wsj/06/wsj_0628   0   18             U.S.   NNP              *          -    -   -   -    (GPE)            *         *             *   -
+nw/wsj/06/wsj_0628   0   19          machine    NN              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   20            tools   NNS              *)         -    -   -   -       *             *         *             *)  -
+nw/wsj/06/wsj_0628   0   21            would    MD           (VP*          -    -   -   -       *             *         *    (ARGM-MOD*)  -
+nw/wsj/06/wsj_0628   0   22         increase    VB           (VP*    increase  01   1   -       *             *         *           (V*)  -
+nw/wsj/06/wsj_0628   0   23              the    DT        (NP(NP*          -    -   -   -   (GPE*             *         *        (ARG1*   -
+nw/wsj/06/wsj_0628   0   24           Soviet   NNP              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   25            Union   NNP              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   26               's   POS              *)         -    -   -   -       *)            *         *             *   -
+nw/wsj/06/wsj_0628   0   27         military    JJ              *          -    -   -   -       *             *         *             *   -
+nw/wsj/06/wsj_0628   0   28            might    NN       *))))))))         -    -   -   -       *             *)        *             *)  -
+nw/wsj/06/wsj_0628   0   29                .     .             *))         -    -   -   -       *             *         *             *   -
+
+nw/wsj/06/wsj_0628   0    0            ``    ``   (TOP(SINV*          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0    1           The    DT     (S(S(NP*          -    -   -   -        (ORG*    (ARG0*      *         *      *   (ARG1*   -
+nw/wsj/06/wsj_0628   0    2      Commerce   NNP            *          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0    3    Department   NNP            *)         -    -   -   -            *)        *)     *         *      *        *   -
+nw/wsj/06/wsj_0628   0    4          says   VBZ         (VP*         say  01   -   -            *       (V*)     *         *      *        *   -
+nw/wsj/06/wsj_0628   0    5            go    VB    (S(VP*))))         go  09   -   -            *    (ARG1*)   (V*)        *      *        *   -
+nw/wsj/06/wsj_0628   0    6             ,     ,            *          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0    7           and    CC            *          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0    8           the    DT       (S(NP*          -    -   -   -        (ORG*         *      *    (ARG0*      *        *   -
+nw/wsj/06/wsj_0628   0    9       Defense   NNP            *          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0   10    Department   NNP            *)         -    -   -   -            *)        *      *         *)     *        *   -
+nw/wsj/06/wsj_0628   0   11          says   VBZ         (VP*         say  01   -   -            *         *      *       (V*)     *        *   -
+nw/wsj/06/wsj_0628   0   12          stop    VB   (S(VP*)))))       stop  01   -   -            *         *      *    (ARG1*)   (V*)       *)  -
+nw/wsj/06/wsj_0628   0   13             ,     ,            *          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0   14            ''    ''            *          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0   15     complains   VBZ         (VP*)   complain  01   -   -            *         *      *         *      *      (V*)  -
+nw/wsj/06/wsj_0628   0   16           one    CD         (NP*          -    -   -   -    (CARDINAL)        *      *         *      *   (ARG0*   -
+nw/wsj/06/wsj_0628   0   17       machine    NN        (NML*          -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0   18          tool    NN            *)         -    -   -   -            *         *      *         *      *        *   -
+nw/wsj/06/wsj_0628   0   19      producer    NN            *)         -    -   -   -            *         *      *         *      *        *)  -
+nw/wsj/06/wsj_0628   0   20             .     .           *))         -    -   -   -            *         *      *         *      *        *   -
+
+nw/wsj/06/wsj_0628   0    0             If    IN    (TOP(S(SBAR*          -    -   -   -        *        *   (ARGM-ADV*        *   -
+nw/wsj/06/wsj_0628   0    1           that    DT          (S(NP*          -    -   -   -        *   (ARG1*            *        *   -
+nw/wsj/06/wsj_0628   0    2    controversy    NN               *)         -    -   -   -        *        *)           *        *   -
+nw/wsj/06/wsj_0628   0    3      continues   VBZ          (VP*)))   continue  01   -   -        *      (V*)           *)       *   -
+nw/wsj/06/wsj_0628   0    4              ,     ,           (PRN*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0    5           U.S.   NNP          (S(NP*          -    -   -   -     (GPE)       *            *        *   -
+nw/wsj/06/wsj_0628   0    6        machine    NN           (NML*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0    7           tool    NN               *)         -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0    8         makers   NNS               *)         -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0    9            say   VBP           (VP*))         -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   10              ,     ,               *)         -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   11           West    JJ  (NP(ADJP(ADJP*          -    -   -   -   (NORP*        *       (ARG1*   (ARG0*   -
+nw/wsj/06/wsj_0628   0   12         German    JJ               *)         -    -   -   -        *)       *            *        *   -
+nw/wsj/06/wsj_0628   0   13            and    CC               *          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   14          other    JJ          (ADJP*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   15        foreign    JJ              *))         -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   16      producers   NNS               *)         -    -   -   -        *        *            *)       *)  -
+nw/wsj/06/wsj_0628   0   17            are   VBP            (VP*          be  01   -   -        *        *          (V*)       *   -
+nw/wsj/06/wsj_0628   0   18         likely    JJ          (ADJP*          -    -   -   -        *        *       (ARG2*        *   -
+nw/wsj/06/wsj_0628   0   19             to    TO          (S(VP*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   20           grab    VB            (VP*        grab  01   1   -        *        *            *      (V*)  -
+nw/wsj/06/wsj_0628   0   21           most   JJS         (NP(NP*)         -    -   -   -        *        *            *   (ARG1*   -
+nw/wsj/06/wsj_0628   0   22             of    IN            (PP*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   23            the    DT            (NP*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   24          sales   NNS              *))         -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   25             in    IN            (PP*          -    -   -   -        *        *            *        *   -
+nw/wsj/06/wsj_0628   0   26        Eastern   NNP            (NP*          -    -   -   -    (LOC*        *            *        *   -
+nw/wsj/06/wsj_0628   0   27         Europe   NNP        *))))))))         -    -   -   -        *)       *            *)       *)  -
+nw/wsj/06/wsj_0628   0   28              .     .              *))         -    -   -   -        *        *            *        *   -
+
+nw/wsj/06/wsj_0628   0    0    September   NNP  (TOP(S(S(NP(NP*          -    -   -   -       (DATE)        *   (ARG1*            *    (ARG1*   -
+nw/wsj/06/wsj_0628   0    1       orders   NNS                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    2          for    IN             (PP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    3    machining    NN          (NP(NP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    4      centers   NNS                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    5            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    6       lathes   NNS             (NP*)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    7            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    8      milling    NN             (NP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0    9     machines   NNS                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   10            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   11     grinders   NNS             (NP*)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   12            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   13       boring    NN             (NP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   14        mills   NNS                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   15          and    CC                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   16        other    JJ          (NP(NP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   17     machines   NNS                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   18         that   WDT      (SBAR(WHNP*)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   19        shape    NN           (S(VP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   20        metal    NN             (NP*)         -    -   -   -           *    (ARG1*)       *            *         *   -
+nw/wsj/06/wsj_0628   0   21           by    IN             (PP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   22      cutting   VBG     (NP*)))))))))        cut  01   -   -           *       (V*)       *)           *         *   -
+nw/wsj/06/wsj_0628   0   23      totaled   VBD             (VP*       total  01   1   -           *         *      (V*)           *         *   -
+nw/wsj/06/wsj_0628   0   24            $     $       (NP(NP(QP*          -    -   -   -     (MONEY*         *   (ARG2*            *         *   -
+nw/wsj/06/wsj_0628   0   25       192.9     CD                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   26      million    CD               *))         -    -   -   -           *)        *        *            *         *   -
+nw/wsj/06/wsj_0628   0   27            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   28         down    RB       (UCP(ADVP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   29          28     CD             (NP*          -    -   -   -   (PERCENT*         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   30            %    NN                *)         -    -   -   -           *)        *        *            *         *   -
+nw/wsj/06/wsj_0628   0   31         from    IN             (PP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   32            $     $          (NP(QP*          -    -   -   -     (MONEY*         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   33       266.5     CD                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   34      million    CD               *))         -    -   -   -           *)        *        *            *         *   -
+nw/wsj/06/wsj_0628   0   35            a    DT        (ADVP(NP*          -    -   -   -      (DATE*         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   36         year    NN                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   37      earlier   RBR              *)))         -    -   -   -           *)        *        *            *         *   -
+nw/wsj/06/wsj_0628   0   38            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   39          but    CC                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   40            a    DT          (NP(NP*          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   41          23     CD            (NML*          -    -   -   -   (PERCENT*         *        *   (ARGM-EXT*         *   -
+nw/wsj/06/wsj_0628   0   42            %    NN                *)         -    -   -   -           *)        *        *            *)        *   -
+nw/wsj/06/wsj_0628   0   43     increase    NN                *)   increase  01   1   -           *         *        *          (V*)        *   -
+nw/wsj/06/wsj_0628   0   44         from    IN             (PP*          -    -   -   -           *         *        *       (ARG3*         *   -
+nw/wsj/06/wsj_0628   0   45       August   NNP          (NP(NP*          -    -   -   -       (DATE)        *        *            *         *   -
+nw/wsj/06/wsj_0628   0   46           's   POS                *)         -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   47            $     $             (QP*          -    -   -   -     (MONEY*         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   48       156.3     CD                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   49      million    CD         *))))))))         -    -   -   -           *)        *        *)           *)        *)  -
+nw/wsj/06/wsj_0628   0   50            ,     ,                *          -    -   -   -           *         *        *            *         *   -
+nw/wsj/06/wsj_0628   0   51        NMTBA   NNP             (NP*)         -    -   -   -        (ORG)        *        *            *    (ARG0*)  -
+nw/wsj/06/wsj_0628   0   52         said   VBD             (VP*)        say  01   -   -           *         *        *            *       (V*)  -
+nw/wsj/06/wsj_0628   0   53            .     .               *))         -    -   -   -           *         *        *            *         *   -
+
+nw/wsj/06/wsj_0628   0    0       Orders    NNS   (TOP(S(NP(NP*))      -    -   -   -           *            *       (ARG1*)  -
+nw/wsj/06/wsj_0628   0    1         last     JJ             (NP*       -    -   -   -      (DATE*            *   (ARGM-TMP*   -
+nw/wsj/06/wsj_0628   0    2        month     NN                *)      -    -   -   -           *)           *            *)  -
+nw/wsj/06/wsj_0628   0    3          for     IN             (PP*       -    -   -   -           *            *     (C-ARG1*   -
+nw/wsj/06/wsj_0628   0    4        metal     NN     (NP(NP(ADJP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    5           -    HYPH                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    6      forming    VBG                *)      -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    7      presses    NNS                *)      -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    8          and     CC                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    9        other     JJ          (NP(NP*       -    -   -   -           *   (ARGM-MNR*            *   -
+nw/wsj/06/wsj_0628   0   10    machinery     NN                *)      -    -   -   -           *            *)           *   -
+nw/wsj/06/wsj_0628   0   11           to     TO      (SBAR(S(VP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   12         form     VB             (VP*     form  01   -   -           *          (V*)           *   -
+nw/wsj/06/wsj_0628   0   13        metal     NN             (NP*)      -    -   -   -           *       (ARG1*)           *   -
+nw/wsj/06/wsj_0628   0   14         with     IN             (PP*       -    -   -   -           *   (ARGM-MNR*            *   -
+nw/wsj/06/wsj_0628   0   15     pressure     NN     (NP*)))))))))      -    -   -   -           *            *)           *)  -
+nw/wsj/06/wsj_0628   0   16       surged    VBD             (VP*    surge  01   2   -           *            *          (V*)  -
+nw/wsj/06/wsj_0628   0   17           to     IN             (PP*       -    -   -   -           *            *       (ARG4*   -
+nw/wsj/06/wsj_0628   0   18            $      $       (NP(NP(QP*       -    -   -   -     (MONEY*            *            *   -
+nw/wsj/06/wsj_0628   0   19       110.1      CD                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   20      million     CD               *))      -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   21            ,      ,                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   22            a     DT       (NP(NP(NP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   23          78      CD            (NML*       -    -   -   -   (PERCENT*            *            *   -
+nw/wsj/06/wsj_0628   0   24            %     NN                *)      -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   25         rise     NN                *)      -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   26         from     IN             (PP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   27            $      $          (NP(QP*       -    -   -   -     (MONEY*            *            *   -
+nw/wsj/06/wsj_0628   0   28        61.7      CD                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   29      million     CD               *))      -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   30            a     DT        (ADVP(NP*       -    -   -   -      (DATE*            *            *   -
+nw/wsj/06/wsj_0628   0   31         year     NN                *)      -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   32      earlier    RBR              *)))      -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   33          and     CC                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   34            a     DT          (NP(NP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   35          55      CD            (NML*       -    -   -   -   (PERCENT*            *            *   -
+nw/wsj/06/wsj_0628   0   36            %     NN                *)      -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   37         gain     NN                *)      -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   38         from     IN             (PP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   39            $      $          (NP(QP*       -    -   -   -     (MONEY*            *            *   -
+nw/wsj/06/wsj_0628   0   40        70.9      CD                *       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   41      million     CD               *))      -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   42           in     IN             (PP*       -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   43       August    NNP      (NP*))))))))      -    -   -   -       (DATE)           *            *)  -
+nw/wsj/06/wsj_0628   0   44            .      .               *))      -    -   -   -           *            *            *   -
+
+nw/wsj/06/wsj_0628   0    0          Today    NN  (TOP(S(S(NP(NP*          -    -   -   -    (DATE)  (ARG1*             *             *   -
+nw/wsj/06/wsj_0628   0    1             's   POS                *)         -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0    2        presses   NNS                *)         -    -   -   -        *        *)            *             *   -
+nw/wsj/06/wsj_0628   0    3            are   VBP             (VP*          be  01   -   -        *      (V*)            *             *   -
+nw/wsj/06/wsj_0628   0    4          large    JJ        (NP(ADJP*          -    -   -   -        *   (ARG2*             *             *   -
+nw/wsj/06/wsj_0628   0    5            and    CC                *          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0    6         costly    JJ                *)         -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0    7       machines   NNS              *)))         -    -   -   -        *        *)            *             *   -
+nw/wsj/06/wsj_0628   0    8              ,     ,                *          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0    9            and    CC                *          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0   10              a    DT           (S(NP*          -    -   -   -        *        *        (ARG0*             *   -
+nw/wsj/06/wsj_0628   0   11            few    JJ                *          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0   12         orders   NNS                *)         -    -   -   -        *        *             *)            *   -
+nw/wsj/06/wsj_0628   0   13            can    MD             (VP*          -    -   -   -        *        *    (ARGM-MOD*)            *   -
+nw/wsj/06/wsj_0628   0   14        produce    VB             (VP*     produce  01   -   -        *        *           (V*)            *   -
+nw/wsj/06/wsj_0628   0   15              a    DT       (NP(NP(NP*          -    -   -   -        *        *        (ARG1*        (ARG0*   -
+nw/wsj/06/wsj_0628   0   16           high    JJ                *          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0   17          total    NN                *)         -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0   18            for    IN             (PP*          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0   19            one    CD             (NP*          -    -   -   -   (DATE*        *             *             *   -
+nw/wsj/06/wsj_0628   0   20          month    NN              *)))         -    -   -   -        *)       *             *             *)  -
+nw/wsj/06/wsj_0628   0   21           that   WDT      (SBAR(WHNP*)         -    -   -   -        *        *             *      (R-ARG0*)  -
+nw/wsj/06/wsj_0628   0   22           does   VBZ           (S(VP*          -    -   -   -        *        *             *             *   -
+nw/wsj/06/wsj_0628   0   23            n't    RB                *          -    -   -   -        *        *             *    (ARGM-NEG*)  -
+nw/wsj/06/wsj_0628   0   24    necessarily    RB           (ADVP*)         -    -   -   -        *        *             *    (ARGM-ADV*)  -
+nw/wsj/06/wsj_0628   0   25       indicate    VB             (VP*    indicate  01   -   -        *        *             *           (V*)  -
+nw/wsj/06/wsj_0628   0   26              a    DT             (NP*          -    -   -   -        *        *             *        (ARG1*   -
+nw/wsj/06/wsj_0628   0   27          trend    NN        *)))))))))         -    -   -   -        *        *             *)            *)  -
+nw/wsj/06/wsj_0628   0   28              .     .               *))         -    -   -   -        *        *             *             *   -
+
+nw/wsj/06/wsj_0628   0    0      Machine    NN  (TOP(S(NP(NML*          -    -   -   -           *       (ARG1*            *   -
+nw/wsj/06/wsj_0628   0    1         tool    NN               *)         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    2    shipments   NNS               *)         -    -   -   -           *            *)           *   -
+nw/wsj/06/wsj_0628   0    3         last    JJ            (NP*          -    -   -   -      (DATE*   (ARGM-TMP*            *   -
+nw/wsj/06/wsj_0628   0    4        month    NN               *)         -    -   -   -           *)           *)           *   -
+nw/wsj/06/wsj_0628   0    5         were   VBD            (VP*          be  01   -   -           *          (V*)           *   -
+nw/wsj/06/wsj_0628   0    6            $     $      (NP(NP(QP*          -    -   -   -     (MONEY*       (ARG2*            *   -
+nw/wsj/06/wsj_0628   0    7       281.2     CD               *          -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0    8      million    CD              *))         -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0    9            ,     ,               *          -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   10            a    DT      (NP(NP(NP*          -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   11          24     CD           (NML*          -    -   -   -   (PERCENT*            *            *   -
+nw/wsj/06/wsj_0628   0   12            %    NN               *)         -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   13         rise    NN               *)         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   14         from    IN            (PP*          -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   15            a    DT       (ADVP(NP*          -    -   -   -      (DATE*            *            *   -
+nw/wsj/06/wsj_0628   0   16         year    NN               *)         -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   17      earlier   RBR             *)))         -    -   -   -           *)           *            *   -
+nw/wsj/06/wsj_0628   0   18          and    CC               *          -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   19            a    DT         (NP(NP*          -    -   -   -           *            *            *   -
+nw/wsj/06/wsj_0628   0   20          25     CD           (NML*          -    -   -   -   (PERCENT*            *   (ARGM-EXT*   -
+nw/wsj/06/wsj_0628   0   21            %    NN               *)         -    -   -   -           *)           *            *)  -
+nw/wsj/06/wsj_0628   0   22     increase    NN               *)   increase  01   1   -           *            *          (V*)  -
+nw/wsj/06/wsj_0628   0   23         from    IN            (PP*          -    -   -   -           *            *       (ARG3*   -
+nw/wsj/06/wsj_0628   0   24       August   NNP       (NP*))))))         -    -   -   -       (DATE)           *)           *)  -
+nw/wsj/06/wsj_0628   0   25            .     .              *))         -    -   -   -           *            *            *   -
+
+nw/wsj/06/wsj_0628   0    0     Shipments   NNS   (TOP(S(NP*)        -    -   -   -        *       (ARG1*)           *   -
+nw/wsj/06/wsj_0628   0    1          have   VBP         (VP*         -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0    2           run   VBN         (VP*        run  01   -   -        *          (V*)           *   -
+nw/wsj/06/wsj_0628   0    3          well    RB       (ADVP*         -    -   -   -        *   (ARGM-MNR*            *   -
+nw/wsj/06/wsj_0628   0    4         ahead    RB            *         -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0    5            of    IN         (PP*         -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0    6         1988     CD       (NP*)))        -    -   -   -    (DATE)           *)           *   -
+nw/wsj/06/wsj_0628   0    7           all    DT         (NP*         -    -   -   -   (DATE*   (ARGM-TMP*            *   -
+nw/wsj/06/wsj_0628   0    8          year    NN            *)        -    -   -   -        *)           *)           *   -
+nw/wsj/06/wsj_0628   0    9             ,     ,            *         -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0   10            as    IN       (SBAR*         -    -   -   -        *   (ARGM-TMP*            *   -
+nw/wsj/06/wsj_0628   0   11       machine    NN   (S(NP(NML*         -    -   -   -        *            *       (ARG0*   -
+nw/wsj/06/wsj_0628   0   12          tool    NN            *)        -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0   13      builders   NNS            *)        -    -   -   -        *            *            *)  -
+nw/wsj/06/wsj_0628   0   14       produce   VBP         (VP*    produce  01   -   -        *            *          (V*)  -
+nw/wsj/06/wsj_0628   0   15       against    IN         (PP*         -    -   -   -        *            *   (ARGM-ADV*   -
+nw/wsj/06/wsj_0628   0   16    relatively    RB    (NP(ADJP*         -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0   17          good    JJ            *)        -    -   -   -        *            *            *   -
+nw/wsj/06/wsj_0628   0   18      backlogs   NNS      *)))))))        -    -   -   -        *            *)           *)  -
+nw/wsj/06/wsj_0628   0   19             .     .           *))        -    -   -   -        *            *            *   -
+
+nw/wsj/06/wsj_0628   0    0         U.S.   NNP  (TOP(S(NP*      -    -   -   -      (GPE)      (ARG0*   -
+nw/wsj/06/wsj_0628   0    1    producers   NNS           *)     -    -   -   -         *            *)  -
+nw/wsj/06/wsj_0628   0    2          had   VBD        (VP*    have  03   -   -         *          (V*)  -
+nw/wsj/06/wsj_0628   0    3            a    DT     (NP(NP*      -    -   -   -         *       (ARG1*   -
+nw/wsj/06/wsj_0628   0    4            $     $    (NML(QP*      -    -   -   -   (MONEY*            *   -
+nw/wsj/06/wsj_0628   0    5        2.15     CD           *      -    -   -   -         *            *   -
+nw/wsj/06/wsj_0628   0    6      billion    CD          *))     -    -   -   -         *)           *   -
+nw/wsj/06/wsj_0628   0    7      backlog    NN           *)     -    -   -   -         *            *   -
+nw/wsj/06/wsj_0628   0    8           of    IN        (PP*      -    -   -   -         *            *   -
+nw/wsj/06/wsj_0628   0    9     unfilled    JJ        (NP*      -    -   -   -         *            *   -
+nw/wsj/06/wsj_0628   0   10       orders   NNS         *)))     -    -   -   -         *            *)  -
+nw/wsj/06/wsj_0628   0   11           at    IN        (PP*      -    -   -   -         *   (ARGM-TMP*   -
+nw/wsj/06/wsj_0628   0   12          the    DT     (NP(NP*      -    -   -   -    (DATE*            *   -
+nw/wsj/06/wsj_0628   0   13          end    NN           *)     -    -   -   -         *            *   -
+nw/wsj/06/wsj_0628   0   14           of    IN        (PP*      -    -   -   -         *            *   -
+nw/wsj/06/wsj_0628   0   15    September   NNP    (NP*)))))     -    -   -   -         *)           *)  -
+nw/wsj/06/wsj_0628   0   16            .     .          *))     -    -   -   -         *            *   -
+
+nw/wsj/06/wsj_0628   0    0          That    DT    (TOP(S(NP*)   -    -   -   -           *       (ARG1*)       *   -
+nw/wsj/06/wsj_0628   0    1           was   VBD          (VP*    be  01   -   -           *          (V*)       *   -
+nw/wsj/06/wsj_0628   0    2            up    RB        (ADVP*    -    -   -   -           *       (ARG2*        *   -
+nw/wsj/06/wsj_0628   0    3          2.8     CD          (NP*    -    -   -   -   (PERCENT*            *        *   -
+nw/wsj/06/wsj_0628   0    4             %    NN             *)   -    -   -   -           *)           *        *   -
+nw/wsj/06/wsj_0628   0    5          from    IN          (PP*    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0    6             a    DT     (ADVP(NP*    -    -   -   -      (DATE*            *        *   -
+nw/wsj/06/wsj_0628   0    7          year    NN             *)   -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0    8       earlier   RBR           *)))   -    -   -   -           *)           *)       *   -
+nw/wsj/06/wsj_0628   0    9             ,     ,             *    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   10          even    RB   (SBAR(ADVP*)   -    -   -   -           *   (ARGM-ADV*        *   -
+nw/wsj/06/wsj_0628   0   11        though    IN             *    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   12        orders   NNS     (S(NP(NP*)   -    -   -   -           *            *   (ARG1*   -
+nw/wsj/06/wsj_0628   0   13           for    IN          (PP*    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   14           the    DT       (NP(NP*    -    -   -   -      (DATE*            *        *   -
+nw/wsj/06/wsj_0628   0   15         first    JJ             *    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   16          nine    CD             *    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   17        months   NNS             *)   -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   18            of    IN          (PP*    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   19         1989     CD      (NP*)))))   -    -   -   -           *)           *        *)  -
+nw/wsj/06/wsj_0628   0   20          were   VBD          (VP*    be  01   -   -           *            *      (V*)  -
+nw/wsj/06/wsj_0628   0   21          down    RB        (ADVP*    -    -   -   -           *            *   (ARG2*   -
+nw/wsj/06/wsj_0628   0   22           19     CD          (NP*    -    -   -   -   (PERCENT*            *        *   -
+nw/wsj/06/wsj_0628   0   23             %    NN             *)   -    -   -   -           *)           *        *   -
+nw/wsj/06/wsj_0628   0   24          from    IN          (PP*    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   25           the    DT          (NP*    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   26    comparable    JJ             *    -    -   -   -           *            *        *   -
+nw/wsj/06/wsj_0628   0   27         1988     CD             *    -    -   -   -       (DATE)           *        *   -
+nw/wsj/06/wsj_0628   0   28        period    NN       *)))))))   -    -   -   -           *            *)       *)  -
+nw/wsj/06/wsj_0628   0   29             .     .            *))   -    -   -   -           *            *        *   -
+
+nw/wsj/06/wsj_0628   0   0                $    $  (TOP(NP*   -   -   -   -         *   -
+nw/wsj/06/wsj_0628   0   1   2,057,750,000    CD         *   -   -   -   -    (MONEY)  -
+nw/wsj/06/wsj_0628   0   2                .    .        *))  -   -   -   -         *   -
+
+nw/wsj/06/wsj_0628   0   0              $    $  (TOP(NP*   -   -   -   -         *   -
+nw/wsj/06/wsj_0628   0   1   675,400,000    CD         *   -   -   -   -    (MONEY)  -
+nw/wsj/06/wsj_0628   0   2              .    .        *))  -   -   -   -         *   -
+
+nw/wsj/06/wsj_0628   0   0                $    $  (TOP(NP*   -   -   -   -         *   -
+nw/wsj/06/wsj_0628   0   1   1,048,500,000    CD         *   -   -   -   -    (MONEY)  -
+nw/wsj/06/wsj_0628   0   2                .    .        *))  -   -   -   -         *   -
+
+nw/wsj/06/wsj_0628   0   0              $    $  (TOP(NP*   -   -   -   -         *   -
+nw/wsj/06/wsj_0628   0   1   588,350,000    CD         *   -   -   -   -    (MONEY)  -
+nw/wsj/06/wsj_0628   0   2              .    .        *))  -   -   -   -         *   -
+
+#end document

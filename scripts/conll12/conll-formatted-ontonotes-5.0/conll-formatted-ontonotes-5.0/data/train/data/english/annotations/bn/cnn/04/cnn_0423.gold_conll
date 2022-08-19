@@ -1,0 +1,474 @@
+#begin document (bn/cnn/04/cnn_0423); part 000
+bn/cnn/04/cnn_0423   0    0          Well    UH   (TOP(S(S(INTJ*)          -    -   -   -            *    (ARGM-DIS*)        *             *     -
+bn/cnn/04/cnn_0423   0    1             ,     ,                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0    2          also    RB           (ADVP*)          -    -   -   -            *    (ARGM-DIS*)        *             *     -
+bn/cnn/04/cnn_0423   0    3            in    IN             (PP*           -    -   -   -            *    (ARGM-LOC*         *             *     -
+bn/cnn/04/cnn_0423   0    4       England   NNP            (NP*))          -    -   -   -         (GPE)            *)        *             *     -
+bn/cnn/04/cnn_0423   0    5             ,     ,                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0    6            he   PRP             (NP*)          -    -   -   -            *        (ARG0*)        *             *    (5)
+bn/cnn/04/cnn_0423   0    7            's   VBZ             (VP*           be   -   1   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0    8          rich    JJ       (UCP(ADJP*)          -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0    9             ,     ,                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   10      handsome    JJ           (ADJP*)          -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   11             ,     ,                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   12           got   VBN             (VP*          get  02   1   -            *           (V*)        *             *     -
+bn/cnn/04/cnn_0423   0   13      millions   NNS          (NP(NP*)          -    -   -   -    (CARDINAL)       (ARG1*         *             *     -
+bn/cnn/04/cnn_0423   0   14            of    IN             (PP*           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   15       adoring   VBG             (NP*        adore  01   -   -            *             *       (V*)            *     -
+bn/cnn/04/cnn_0423   0   16          fans   NNS          *)))))))         fan   -   1   -            *             *)   (ARG0*)            *     -
+bn/cnn/04/cnn_0423   0   17             ,     ,                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   18           and    CC                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   19         today    NN           (S(NP*)       today   -   2   -        (DATE)            *         *    (ARGM-TMP*)   (6)
+bn/cnn/04/cnn_0423   0   20            he   PRP             (NP*)          -    -   -   -            *             *         *        (ARG0*)   (5)
+bn/cnn/04/cnn_0423   0   21    celebrates   VBZ             (VP*    celebrate  02   1   -            *             *         *           (V*)    -
+bn/cnn/04/cnn_0423   0   22             a    DT          (NP(NP*           -    -   -   -            *             *         *        (ARG1*     -
+bn/cnn/04/cnn_0423   0   23      birthday    NN                *)          -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   24             ,     ,                *           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   25           big    JJ             (NP*           -    -   -   -            *             *         *             *     -
+bn/cnn/04/cnn_0423   0   26           21     CD             *))))          -    -   -   -        (DATE)            *         *             *)    -
+bn/cnn/04/cnn_0423   0   27             .     .               *))          -    -   -   -            *             *         *             *     -
+
+bn/cnn/04/cnn_0423   0    0     Prince   NNP  (TOP(NP(NP*      -   -   -   -    (PERSON*   (5
+bn/cnn/04/cnn_0423   0    1    William   NNP            *)     -   -   -   -           *)   -
+bn/cnn/04/cnn_0423   0    2          ,     ,            *      -   -   -   -           *    -
+bn/cnn/04/cnn_0423   0    3     second    JJ       (ADJP*      -   -   -   -    (ORDINAL)   -
+bn/cnn/04/cnn_0423   0    4         in    IN         (PP*      -   -   -   -           *    -
+bn/cnn/04/cnn_0423   0    5       line    NN      (NP(NP*)   line  -   1   -           *    -
+bn/cnn/04/cnn_0423   0    6         to    IN         (PP*      -   -   -   -           *    -
+bn/cnn/04/cnn_0423   0    7        the    DT         (NP*      -   -   -   -           *   (2
+bn/cnn/04/cnn_0423   0    8    British    JJ            *      -   -   -   -       (NORP)   -
+bn/cnn/04/cnn_0423   0    9     throne    NN        *)))))     -   -   -   -           *    2)
+bn/cnn/04/cnn_0423   0   10          .     .           *))     -   -   -   -           *    5)
+
+bn/cnn/04/cnn_0423   0   0        CNN   NNP  (TOP(S(NP(NP*       -    -   -   -       (ORG)  (ARG0*   -
+bn/cnn/04/cnn_0423   0   1         's   POS              *)      -    -   -   -          *        *   -
+bn/cnn/04/cnn_0423   0   2     Walter   NNP              *       -    -   -   -   (PERSON*        *   -
+bn/cnn/04/cnn_0423   0   3    Rodgers   NNP              *)      -    -   -   -          *)       *)  -
+bn/cnn/04/cnn_0423   0   4        has   VBZ           (VP*     have  03   2   -          *      (V*)  -
+bn/cnn/04/cnn_0423   0   5        the    DT           (NP*       -    -   -   -          *   (ARG1*   -
+bn/cnn/04/cnn_0423   0   6      story    NN             *))   story   -   1   -          *        *)  -
+bn/cnn/04/cnn_0423   0   7          .     .             *))      -    -   -   -          *        *   -
+
+bn/cnn/04/cnn_0423   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/cnn/04/cnn_0423   0    0          In     IN    (TOP(S(PP*        -    -   -   -           *      *    (ARGM-TMP*      *     -
+bn/cnn/04/cnn_0423   0    1        days    NNS       (NP(NP*)      day   -   4   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0    2          of     IN          (PP*        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0    3        yore     NN       (NP*))))       -    -   -   -           *      *             *)     *     -
+bn/cnn/04/cnn_0423   0    4           ,      ,             *        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0    5          an     DT       (NP(NP*        -    -   -   -           *      *        (ARG0*      *    (0
+bn/cnn/04/cnn_0423   0    6     English     JJ             *        -    -   -   -       (NORP)     *             *      *     -
+bn/cnn/04/cnn_0423   0    7      prince     NN             *)       -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0    8           ,      ,             *        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0    9           a     DT       (NP(NP*        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   10        king     NN             *)       -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   11          in     IN          (PP*        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   12     waiting     NN       (NP*))))       -    -   -   -           *      *             *)     *     0)
+bn/cnn/04/cnn_0423   0   13       would     MD          (VP*        -    -   -   -           *      *    (ARGM-MOD*)     *     -
+bn/cnn/04/cnn_0423   0   14          be     VB          (VP*        be  03   -   -           *    (V*)            *      *     -
+bn/cnn/04/cnn_0423   0   15    charging    VBG          (VP*    charge  02   5   -           *      *           (V*)     *     -
+bn/cnn/04/cnn_0423   0   16         off     RP         (PRT*)       -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   17          to     IN          (PP*        -    -   -   -           *      *    (ARGM-DIR*      *     -
+bn/cnn/04/cnn_0423   0   18      battle     NN         (NP*))   battle  01   1   -           *      *             *)   (V*)    -
+bn/cnn/04/cnn_0423   0   19          on     IN          (PP*        -    -   -   -           *      *    (ARGM-MNR*      *     -
+bn/cnn/04/cnn_0423   0   20           a     DT          (NP*        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   21       horse     NN            *))       -    -   -   -           *      *             *)     *     -
+bn/cnn/04/cnn_0423   0   22           ,      ,             *        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   23        just     RB   (SBAR(ADVP*)       -    -   -   -           *      *    (ARGM-TMP*      *     -
+bn/cnn/04/cnn_0423   0   24      before     IN             *        -    -   -   -           *      *             *      *     -
+bn/cnn/04/cnn_0423   0   25         his   PRP$          (NP*        -    -   -   -           *      *             *      *    (0)
+bn/cnn/04/cnn_0423   0   26        21st     JJ             *        -    -   -   -    (ORDINAL)     *             *      *     -
+bn/cnn/04/cnn_0423   0   27    birthday     NN         *)))))       -    -   -   -           *      *             *)     *     -
+bn/cnn/04/cnn_0423   0   28           .      .            *))       -    -   -   -           *      *             *      *     -
+
+bn/cnn/04/cnn_0423   0    0      Prince   NNP      (TOP(S(NP*        -    -   -   -   (PERSON*      *       (ARG0*      *            *   (5
+bn/cnn/04/cnn_0423   0    1     William   NNP               *)       -    -   -   -          *)     *            *)     *            *    5)
+bn/cnn/04/cnn_0423   0    2          is   VBZ            (VP*        be  03   -   -          *    (V*)           *      *            *    -
+bn/cnn/04/cnn_0423   0    3     chasing   VBG            (VP*     chase  01   1   -          *      *          (V*)     *            *    -
+bn/cnn/04/cnn_0423   0    4           a    DT            (NP*        -    -   -   -          *      *       (ARG1*      *            *    -
+bn/cnn/04/cnn_0423   0    5        polo    NN               *        -    -   -   -          *      *            *      *            *    -
+bn/cnn/04/cnn_0423   0    6        ball    NN               *)       -    -   -   -          *      *            *)     *            *    -
+bn/cnn/04/cnn_0423   0    7           ,     ,               *        -    -   -   -          *      *            *      *            *    -
+bn/cnn/04/cnn_0423   0    8        such    JJ             (X*        -    -   -   -          *      *   (ARGM-ADV*      *            *    -
+bn/cnn/04/cnn_0423   0    9          of    IN            (PP*        -    -   -   -          *      *            *      *            *    -
+bn/cnn/04/cnn_0423   0   10        what    WP     (SBAR(WHNP*)       -    -   -   -          *      *            *      *       (ARG1*)   -
+bn/cnn/04/cnn_0423   0   11         has   VBZ          (S(VP*      have  01   -   -          *      *            *    (V*)           *    -
+bn/cnn/04/cnn_0423   0   12      become   VBN            (VP*    become  01   1   -          *      *            *      *          (V*)   -
+bn/cnn/04/cnn_0423   0   13          of    IN            (PP*        -    -   -   -          *      *            *      *       (ARG2*    -
+bn/cnn/04/cnn_0423   0   14         the    DT            (NP*        -    -   -   -          *      *            *      *            *   (9
+bn/cnn/04/cnn_0423   0   15     British    JJ               *        -    -   -   -      (NORP)     *            *      *            *    -
+bn/cnn/04/cnn_0423   0   16    monarchy    NN              *))       -    -   -   -          *      *            *      *            *)   9)
+bn/cnn/04/cnn_0423   0   17        over    IN            (PP*        -    -   -   -          *      *            *      *   (ARGM-TMP*    -
+bn/cnn/04/cnn_0423   0   18        time    NN   (NP*))))))))))     time   -   2   -          *      *            *)     *            *)   -
+bn/cnn/04/cnn_0423   0   19           .     .              *))       -    -   -   -          *      *            *      *            *    -
+
+bn/cnn/04/cnn_0423   0    0    Buckingham    NNP          (TOP(S(NP*            -    -   -   -      (FAC*       (ARG0*           *        *     -
+bn/cnn/04/cnn_0423   0    1        Palace    NNP                   *)           -    -   -   -          *)           *)          *        *     -
+bn/cnn/04/cnn_0423   0    2      released    VBD                (VP*       release  01   2   -          *          (V*)          *        *     -
+bn/cnn/04/cnn_0423   0    3           his   PRP$             (NP(NP*            -    -   -   -          *       (ARG1*           *        *     -
+bn/cnn/04/cnn_0423   0    4      pictures    NNS                   *)      picture   -   2   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0    5            of     IN                (PP*            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0    6       William    NNP             (NP(NP*)           -    -   -   -    (PERSON)           *           *        *    (5)
+bn/cnn/04/cnn_0423   0    7             ,      ,                   *            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0    8       brother     NN                (NP*            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0    9         Harry    NNP                   *)           -    -   -   -    (PERSON)           *           *        *     -
+bn/cnn/04/cnn_0423   0   10           and     CC                   *            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   11         their   PRP$             (NP(NP*            -    -   -   -          *            *           *        *   (12
+bn/cnn/04/cnn_0423   0   12        father     NN                   *)           -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   13             ,      ,                   *            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   14        Prince    NNP                (NP*            -    -   -   -   (PERSON*            *           *        *     -
+bn/cnn/04/cnn_0423   0   15       Charles    NNP               *)))))           -    -   -   -          *)           *)          *        *    12)
+bn/cnn/04/cnn_0423   0   16            in     IN                (PP*            -    -   -   -          *   (ARGM-ADV*           *        *     -
+bn/cnn/04/cnn_0423   0   17          what     WP         (SBAR(WHNP*)           -    -   -   -          *            *    (R-ARG1*)       *     -
+bn/cnn/04/cnn_0423   0   18          some     DT              (S(NP*)           -    -   -   -          *            *      (ARG0*)       *     -
+bn/cnn/04/cnn_0423   0   19           see    VBP                (VP*           see  01   2   -          *            *         (V*)       *     -
+bn/cnn/04/cnn_0423   0   20            as     IN                (PP*            -    -   -   -          *            *      (ARG1*        *     -
+bn/cnn/04/cnn_0423   0   21             a     DT                (NP*            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   22       skilled     JJ                   *            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   23     marketing     NN                   *     marketing   -   1   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   24      campaign     NN                   *      campaign   -   2   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   25            to     TO              (S(VP*            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   26          sell     VB                (VP*          sell  01   2   -          *            *           *      (V*)    -
+bn/cnn/04/cnn_0423   0   27           the     DT                (NP*            -    -   -   -          *            *           *   (ARG1*    (9
+bn/cnn/04/cnn_0423   0   28      monarchy     NN                   *)           -    -   -   -          *            *           *        *)    9)
+bn/cnn/04/cnn_0423   0   29            to     IN                (PP*            -    -   -   -          *            *           *   (ARG2*     -
+bn/cnn/04/cnn_0423   0   30           the     DT             (NP(NP*            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   31          next     JJ                   *            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   32    generation     NN                   *)   generation   -   3   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   33            of     IN                (PP*            -    -   -   -          *            *           *        *     -
+bn/cnn/04/cnn_0423   0   34      Britains   NNPS   (NP*))))))))))))))           -    -   -   -      (NORP)           *)          *)       *)    -
+bn/cnn/04/cnn_0423   0   35             .      .                  *))           -    -   -   -          *            *           *        *     -
+
+bn/cnn/04/cnn_0423   0    0            After    IN  (TOP(S(PP*      -    -   -   -          *   (ARGM-TMP*    -
+bn/cnn/04/cnn_0423   0    1              15     CD     (NP(NP*      -    -   -   -     (DATE*            *    -
+bn/cnn/04/cnn_0423   0    2            years   NNS           *)     -    -   -   -          *)           *    -
+bn/cnn/04/cnn_0423   0    3               of    IN        (PP*      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0    4         scandals   NNS        (NP*      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0    5              and    CC           *      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0    6    embarrassment    NN        *))))     -    -   -   -          *            *)   -
+bn/cnn/04/cnn_0423   0    7                ,     ,           *      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0    8             many    JJ        (NP*)     -    -   -   -          *       (ARG0*)   -
+bn/cnn/04/cnn_0423   0    9              see   VBP        (VP*     see  01   2   -          *          (V*)   -
+bn/cnn/04/cnn_0423   0   10           Prince   NNP        (NP*      -    -   -   -   (PERSON*       (ARG1*   (5
+bn/cnn/04/cnn_0423   0   11          William   NNP           *)     -    -   -   -          *)           *    5)
+bn/cnn/04/cnn_0423   0   12               as    IN        (PP*      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   13              the    DT  (NP(NP(NP*      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   14            House   NNP           *)     -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   15               of    IN        (PP*      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   16          Windsor   NNP       (NP*))     -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   17               's   POS           *)     -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   18             only    JJ           *      -    -   -   -          *            *    -
+bn/cnn/04/cnn_0423   0   19             hope    NN         *)))   hope   -   4   -          *            *)   -
+bn/cnn/04/cnn_0423   0   20                .     .          *))     -    -   -   -          *            *    -
+
+bn/cnn/04/cnn_0423   0    0        It   PRP    (TOP(S(NP*)       -    -   -   -   *         *         *     -
+bn/cnn/04/cnn_0423   0    1        's   VBZ          (VP*        be   -   1   -   *         *         *     -
+bn/cnn/04/cnn_0423   0    2       the    DT          (NP*        -    -   -   -   *         *         *    (7
+bn/cnn/04/cnn_0423   0    3     young    JJ             *        -    -   -   -   *         *         *     -
+bn/cnn/04/cnn_0423   0    4    people   NNS             *)   people   -   1   -   *         *         *     7)
+bn/cnn/04/cnn_0423   0    5        he   PRP   (SBAR(S(NP*)       -    -   -   -   *    (ARG0*)   (ARG0*)   (5)
+bn/cnn/04/cnn_0423   0    6     needs   VBZ          (VP*      need  01   2   -   *       (V*)        *     -
+bn/cnn/04/cnn_0423   0    7        to    TO        (S(VP*        -    -   -   -   *    (ARG1*         *     -
+bn/cnn/04/cnn_0423   0    8    appeal    VB          (VP*    appeal  03   3   -   *         *       (V*)    -
+bn/cnn/04/cnn_0423   0    9        to    IN   (PP*))))))))       -    -   -   -   *         *)   (ARG1*)    -
+bn/cnn/04/cnn_0423   0   10         .     .            *))       -    -   -   -   *         *         *     -
+
+bn/cnn/04/cnn_0423   0    0        By     IN      (TOP(S(PP*        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0    1       the     DT         (NP(NP*        -    -    -   -        *   (ARGM-TMP*      *         *           *         *     -
+bn/cnn/04/cnn_0423   0    2      time     NN               *)     time   -   12   -        *            *)     *         *           *         *     -
+bn/cnn/04/cnn_0423   0    3        he    PRP     (SBAR(S(NP*)       -    -    -   -        *       (ARG1*)     *         *           *         *    (5)
+bn/cnn/04/cnn_0423   0    4      gets    VBZ            (VP*       get  05    4   -        *          (V*)     *         *           *         *    (1)
+bn/cnn/04/cnn_0423   0    5        to     IN            (PP*        -    -    -   -        *       (ARG2*      *         *           *         *     -
+bn/cnn/04/cnn_0423   0    6       the     DT            (NP*        -    -    -   -        *            *      *         *           *         *    (2
+bn/cnn/04/cnn_0423   0    7    throne     NN         *)))))))       -    -    -   -        *            *)     *         *           *         *     2)
+bn/cnn/04/cnn_0423   0    8         ,      ,               *        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0    9        it    PRP            (NP*)       -    -    -   -        *            *      *    (ARG1*)          *         *    (1)
+bn/cnn/04/cnn_0423   0   10        's    VBZ            (VP*        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   11     going    VBG            (VP*        go  04    7   -        *            *    (V*)        *           *         *     -
+bn/cnn/04/cnn_0423   0   12        to     TO          (S(VP*        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   13        be     VB            (VP*        be  01    5   -        *            *      *       (V*)          *         *     -
+bn/cnn/04/cnn_0423   0   14        in     IN            (PP*        -    -    -   -        *            *      *    (ARG2*           *         *     -
+bn/cnn/04/cnn_0423   0   15       40      CD            (NP*        -    -    -   -   (DATE*            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   16     years    NNS              *))       -    -    -   -        *)           *      *         *)          *         *     -
+bn/cnn/04/cnn_0423   0   17         ,      ,               *        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   18       the     DT      (NP(NP(NP*        -    -    -   -        *            *      *         *      (ARG0*         *    (7
+bn/cnn/04/cnn_0423   0   19     young     JJ               *        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   20    people    NNS               *)   people   -    1   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   21        of     IN            (PP*        -    -    -   -        *            *      *         *           *         *     -
+bn/cnn/04/cnn_0423   0   22     today     NN          (NP*)))    today   -    1   -    (DATE)           *      *         *           *)        *    (6)
+bn/cnn/04/cnn_0423   0   23      that    WDT     (SBAR(WHNP*)       -    -    -   -        *            *      *         *    (R-ARG0*)   (ARG1*)    -
+bn/cnn/04/cnn_0423   0   24      need    VBP          (S(VP*      need  01    2   -        *            *      *         *         (V*)        *     -
+bn/cnn/04/cnn_0423   0   25        to     TO          (S(VP*        -    -    -   -        *            *      *         *      (ARG1*         *     -
+bn/cnn/04/cnn_0423   0   26        be     VB            (VP*        be  01    1   -        *            *      *         *           *       (V*)    -
+bn/cnn/04/cnn_0423   0   27       his   PRP$            (NP*        -    -    -   -        *            *      *         *           *    (ARG2*    (5)
+bn/cnn/04/cnn_0423   0   28      fans    NNS   *)))))))))))))      fan   -    1   -        *            *      *         *           *)        *)    7)
+bn/cnn/04/cnn_0423   0   29         .      .              *))       -    -    -   -        *            *      *         *           *         *     -
+
+bn/cnn/04/cnn_0423   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/cnn/04/cnn_0423   0   0    William   NNP   (TOP(S(NP*)     -    -   -   -    (PERSON)     *        (ARG0*)   (5)
+bn/cnn/04/cnn_0423   0   1       does   VBZ         (VP*      do  01   -   -          *    (V*)            *     -
+bn/cnn/04/cnn_0423   0   2        not    RB            *      -    -   -   -          *      *    (ARGM-NEG*)    -
+bn/cnn/04/cnn_0423   0   3       lack    VB         (VP*    lack  01   1   -          *      *           (V*)    -
+bn/cnn/04/cnn_0423   0   4        for    IN         (PP*      -    -   -   -          *      *        (ARG1*     -
+bn/cnn/04/cnn_0423   0   5       fans   NNS      (NP*))))    fan   -   1   -          *      *             *)    -
+bn/cnn/04/cnn_0423   0   6          .     .           *))     -    -   -   -          *      *             *     -
+
+bn/cnn/04/cnn_0423   0    0         Those     DT   (TOP(S(NP(NP*)         -    -   -   -          *       (ARG0*)            *        (ARG0*      (11
+bn/cnn/04/cnn_0423   0    1           who     WP     (SBAR(WHNP*)         -    -   -   -          *     (R-ARG0*)            *             *        -
+bn/cnn/04/cnn_0423   0    2          wept    VBD          (S(VP*        weep  01   -   -          *          (V*)            *             *        -
+bn/cnn/04/cnn_0423   0    3          when    WRB   (SBAR(WHADVP*)         -    -   -   -          *   (ARGM-TMP*    (ARGM-TMP*)            *        -
+bn/cnn/04/cnn_0423   0    4           his   PRP$       (S(NP(NP*          -    -   -   -          *            *        (ARG1*             *    (8|(5)
+bn/cnn/04/cnn_0423   0    5        mother     NN               *)         -    -   -   -          *            *             *             *        -
+bn/cnn/04/cnn_0423   0    6             ,      ,               *          -    -   -   -          *            *             *             *        -
+bn/cnn/04/cnn_0423   0    7      Princess    NNP            (NP*          -    -   -   -   (PERSON*            *             *             *        -
+bn/cnn/04/cnn_0423   0    8         Diana    NNP              *))         -    -   -   -          *)           *             *)            *        8)
+bn/cnn/04/cnn_0423   0    9             ,      ,               *          -    -   -   -          *            *             *             *        -
+bn/cnn/04/cnn_0423   0   10          died    VBD      (VP*)))))))        die  01   1   -          *            *)          (V*)            *)      11)
+bn/cnn/04/cnn_0423   0   11             ,      ,               *          -    -   -   -          *            *             *             *        -
+bn/cnn/04/cnn_0423   0   12    apparently     RB          (ADVP*)         -    -   -   -          *            *             *    (ARGM-ADV*)       -
+bn/cnn/04/cnn_0423   0   13    transfered    VBD            (VP*    transfer  01   -   -          *            *             *           (V*)       -
+bn/cnn/04/cnn_0423   0   14         their   PRP$            (NP*          -    -   -   -          *            *             *        (ARG1*      (11)
+bn/cnn/04/cnn_0423   0   15     affection     NN               *)         -    -   -   -          *            *             *             *)       -
+bn/cnn/04/cnn_0423   0   16            to     IN            (PP*          -    -   -   -          *            *             *        (ARG2*        -
+bn/cnn/04/cnn_0423   0   17           her   PRP$            (NP*          -    -   -   -          *            *             *             *    (5|(8)
+bn/cnn/04/cnn_0423   0   18        eldest    JJS               *          -    -   -   -          *            *             *             *        -
+bn/cnn/04/cnn_0423   0   19           son     NN             *)))         -    -   -   -          *            *             *             *)       5)
+bn/cnn/04/cnn_0423   0   20             .      .              *))         -    -   -   -          *            *             *             *        -
+
+bn/cnn/04/cnn_0423   0    0          He    PRP   (TOP(S(S(NP*)        -    -   -   -          *    (ARG1*)     *           *            *            *      *        *        *        (5)
+bn/cnn/04/cnn_0423   0    1          is    VBZ           (VP*         be  01   1   -          *       (V*)     *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    2        part     NN        (NP(NP*       part   -   1   -          *    (ARG2*      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    3        teen     NN              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    4        idol     NN              *)        -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    5           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    6        part     NN        (NP(NP*       part   -   1   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    7        king     NN              *)        -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    8          in     IN           (PP*         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0    9         the     DT           (NP*         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   10      making     NN         *))))))    making  01   1   -          *         *)   (V*)          *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   11           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   12         but     CC              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   13      unlike     IN         (S(PP*         -    -   -   -          *         *      *           *            *   (ARGM-ADV*      *        *        *         -
+bn/cnn/04/cnn_0423   0   14         his   PRP$     (NP(NP(NP*         -    -   -   -          *         *      *      (ARG1*            *            *      *        *        *    (12|(5)
+bn/cnn/04/cnn_0423   0   15      father     NN              *)        -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   16           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   17      Prince    NNP           (NP*         -    -   -   -   (PERSON*         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   18     Charles    NNP             *))        -    -   -   -          *)        *      *           *)           *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   19           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   20         who     WP    (SBAR(WHNP*)        -    -   -   -          *         *      *    (R-ARG1*)      (ARG0*)           *      *        *        *         -
+bn/cnn/04/cnn_0423   0   21          is    VBZ         (S(VP*         be  01   1   -          *         *      *         (V*)           *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   22      likely     JJ         (ADJP*         -    -   -   -          *         *      *      (ARG2*            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   23          to     TO         (S(VP*         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   24     precede     VB           (VP*    precede  01   1   -          *         *      *           *          (V*)           *      *        *        *         -
+bn/cnn/04/cnn_0423   0   25         him    PRP           (NP*)        -    -   -   -          *         *      *           *       (ARG1*)           *      *        *        *        (5)
+bn/cnn/04/cnn_0423   0   26          to     IN           (PP*         -    -   -   -          *         *      *           *   (ARGM-DIR*            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   27         the     DT           (NP*         -    -   -   -          *         *      *           *            *            *      *        *        *        (2
+bn/cnn/04/cnn_0423   0   28      throne     NN    *)))))))))))        -    -   -   -          *         *      *           *)           *)           *)     *        *        *     12)|2)
+bn/cnn/04/cnn_0423   0   29           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   30        this     DT           (NP*         -    -   -   -          *         *      *           *            *       (ARG0*      *   (ARG1*   (ARG0*        (5
+bn/cnn/04/cnn_0423   0   31      prince     NN              *)        -    -   -   -          *         *      *           *            *            *)     *        *)       *)        5)
+bn/cnn/04/cnn_0423   0   32    disdains    VBZ           (VP*    disdain  01   -   -          *         *      *           *            *          (V*)     *        *        *         -
+bn/cnn/04/cnn_0423   0   33       being    VBG         (S(VP*         be  03   -   -          *         *      *           *            *       (ARG1*    (V*)       *        *         -
+bn/cnn/04/cnn_0423   0   34      called    VBN           (VP*       call  01   5   -          *         *      *           *            *            *      *      (V*)       *         -
+bn/cnn/04/cnn_0423   0   35        your   PRP$         (S(NP*         -    -   -   -          *         *      *           *            *            *      *   (ARG2*        *         -
+bn/cnn/04/cnn_0423   0   36       Royal    NNP              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   37    Highness    NNP          *)))))        -    -   -   -          *         *      *           *            *            *)     *        *)       *         -
+bn/cnn/04/cnn_0423   0   38           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   39     signing    VBG         (S(VP*       sign  01   3   -          *         *      *           *            *   (ARGM-PRD*      *        *      (V*)        -
+bn/cnn/04/cnn_0423   0   40         his   PRP$           (NP*         -    -   -   -          *         *      *           *            *            *      *        *   (ARG1*        (5)
+bn/cnn/04/cnn_0423   0   41        name     NN              *)      name   -   1   -          *         *      *           *            *            *      *        *        *)        -
+bn/cnn/04/cnn_0423   0   42           ,      ,              *         -    -   -   -          *         *      *           *            *            *      *        *        *         -
+bn/cnn/04/cnn_0423   0   43     William    NNP           (NP*         -    -   -   -   (PERSON*         *      *           *            *            *      *        *   (ARG2*         -
+bn/cnn/04/cnn_0423   0   44       Wales    NNP          *)))))        -    -   -   -          *)        *      *           *            *            *)     *        *        *)        -
+bn/cnn/04/cnn_0423   0   45           .      .             *))        -    -   -   -          *         *      *           *            *            *      *        *        *         -
+
+bn/cnn/04/cnn_0423   0    0             I    PRP        (TOP(S(NP*)       -    -   -   -          *        (ARG0*)        *         *             *     -
+bn/cnn/04/cnn_0423   0    1         would     MD              (VP*        -    -   -   -          *    (ARGM-MOD*)        *         *             *     -
+bn/cnn/04/cnn_0423   0    2         think     VB              (VP*     think  01   1   -          *           (V*)        *         *             *     -
+bn/cnn/04/cnn_0423   0    3          that     IN            (SBAR*        -    -   -   -          *        (ARG1*         *         *             *     -
+bn/cnn/04/cnn_0423   0    4            if     IN          (S(SBAR*        -    -   -   -          *             *         *         *    (ARGM-ADV*     -
+bn/cnn/04/cnn_0423   0    5           you    PRP            (S(NP*)       -    -   -   -          *             *    (ARG0*)        *             *     -
+bn/cnn/04/cnn_0423   0    6         asked    VBD              (VP*       ask  01   1   -          *             *       (V*)        *             *     -
+bn/cnn/04/cnn_0423   0    7        anyone     NN              (NP*)       -    -   -   -          *             *    (ARG2*)        *             *     -
+bn/cnn/04/cnn_0423   0    8            if     IN            (SBAR*        -    -   -   -          *             *    (ARG1*         *             *     -
+bn/cnn/04/cnn_0423   0    9       William    NNP            (S(NP*)       -    -   -   -    (PERSON)            *         *    (ARG1*)            *    (5)
+bn/cnn/04/cnn_0423   0   10            is    VBZ              (VP*        be  01   1   -          *             *         *       (V*)            *     -
+bn/cnn/04/cnn_0423   0   11        normal     JJ      (ADJP*)))))))       -    -   -   -          *             *         *)   (ARG2*)            *)    -
+bn/cnn/04/cnn_0423   0   12             ,      ,                 *        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   13         every     DT              (NP*        -    -   -   -          *             *         *         *        (ARG0*     -
+bn/cnn/04/cnn_0423   0   14        single     JJ                 *        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   15        person     NN                 *)   person   -   1   -          *             *         *         *             *)    -
+bn/cnn/04/cnn_0423   0   16         would     MD              (VP*        -    -   -   -          *             *         *         *    (ARGM-MOD*)    -
+bn/cnn/04/cnn_0423   0   17           say     VB              (VP*       say  01   1   -          *             *         *         *           (V*)    -
+bn/cnn/04/cnn_0423   0   18             ,      ,                 *        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   19    absolutely     RB       (ADJP(ADJP*        -    -   -   -          *             *         *         *        (ARG1*     -
+bn/cnn/04/cnn_0423   0   20        normal     JJ                 *)       -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   21             ,      ,                 *        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   22           but     CC                 *        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   23      slightly     RB  (ADJP(ADJP(ADVP*        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   24          more    RBR                 *)       -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   25       serious     JJ                 *)       -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   26          than     IN              (PP*        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   27          most    JJS           (NP(NP*        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   28         young     JJ                 *        -    -   -   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   29           men    NNS                 *)      man   -   2   -          *             *         *         *             *     -
+bn/cnn/04/cnn_0423   0   30           his   PRP$              (NP*        -    -   -   -          *             *         *         *             *    (5)
+bn/cnn/04/cnn_0423   0   31           age     NN       *)))))))))))      age   -   1   -          *             *)        *         *             *)    -
+bn/cnn/04/cnn_0423   0   32             .      .                *))       -    -   -   -          *             *         *         *             *     -
+
+bn/cnn/04/cnn_0423   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/cnn/04/cnn_0423   0    0     Prince   NNP      (TOP(S(NP*       -    -   -   -   (PERSON*       (ARG1*             *        *    (5
+bn/cnn/04/cnn_0423   0    1    William   NNP               *)      -    -   -   -          *)           *)            *        *     5)
+bn/cnn/04/cnn_0423   0    2         is   VBZ            (VP*       be  01   1   -          *          (V*)            *        *     -
+bn/cnn/04/cnn_0423   0    3       most   RBS       (PP(ADVP*)      -    -   -   -          *       (ARG2*             *        *     -
+bn/cnn/04/cnn_0423   0    4         at    IN               *       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0    5       ease    NN           (NP*))      -    -   -   -          *            *)            *        *     -
+bn/cnn/04/cnn_0423   0    6       with    IN            (PP*       -    -   -   -          *   (ARGM-ADV*             *        *     -
+bn/cnn/04/cnn_0423   0    7      those    DT         (NP(NP*       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0    8    closest   JJS          (ADJP*       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0    9         to    IN            (PP*       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0   10        him   PRP         (NP*))))      -    -   -   -          *            *             *        *    (5)
+bn/cnn/04/cnn_0423   0   11          ,     ,               *       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0   12      those    DT         (NP(NP*)      -    -   -   -          *            *        (ARG2*)       *     -
+bn/cnn/04/cnn_0423   0   13         he   PRP     (SBAR(S(NP*)      -    -   -   -          *            *        (ARG0*)       *    (5)
+bn/cnn/04/cnn_0423   0   14        can    MD            (VP*       -    -   -   -          *            *    (ARGM-MOD*)       *     -
+bn/cnn/04/cnn_0423   0   15      trust    VB            (VP*    trust  01   1   -          *            *           (V*)       *     -
+bn/cnn/04/cnn_0423   0   16        not    RB             (S*       -    -   -   -          *            *        (ARG1*        *     -
+bn/cnn/04/cnn_0423   0   17         to    TO            (VP*       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0   18        run    VB            (VP*      run  02   1   -          *            *             *      (V*)    -
+bn/cnn/04/cnn_0423   0   19         to    IN            (PP*       -    -   -   -          *            *             *   (ARG1*     -
+bn/cnn/04/cnn_0423   0   20    Britain   NNP         (NP(NP*       -    -   -   -       (GPE)           *             *        *   (10
+bn/cnn/04/cnn_0423   0   21         's   POS               *)      -    -   -   -          *            *             *        *    10)
+bn/cnn/04/cnn_0423   0   22    gossipy    JJ               *       -    -   -   -          *            *             *        *     -
+bn/cnn/04/cnn_0423   0   23      media    NN   *)))))))))))))      -    -   -   -          *            *)            *)       *)    -
+bn/cnn/04/cnn_0423   0   24          .     .              *))      -    -   -   -          *            *             *        *     -
+
+bn/cnn/04/cnn_0423   0    0      Despite    IN  (TOP(S(PP*    -    -   -   -          *    (ARGM-ADV*      -
+bn/cnn/04/cnn_0423   0    1       Prince   NNP  (NP(NP(NP*    -    -   -   -   (PERSON*             *    (12
+bn/cnn/04/cnn_0423   0    2      Charles   NNP           *    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0    3            '   POS           *)   -    -   -   -          *)            *     12)
+bn/cnn/04/cnn_0423   0    4         ugly    JJ           *    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0    5      divorce    NN           *)   -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0    6         with    IN        (PP*    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0    7     Princess   NNP        (NP*    -    -   -   -   (PERSON*             *     (8
+bn/cnn/04/cnn_0423   0    8        Diana   NNP        *))))   -    -   -   -          *)            *)     8)
+bn/cnn/04/cnn_0423   0    9            ,     ,           *    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0   10          the    DT     (NP(NP*    -    -   -   -          *        (ARG1*      -
+bn/cnn/04/cnn_0423   0   11    affection    NN           *)   -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0   12      between    IN        (PP*    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0   13       father    NN        (NP*    -    -   -   -          *             *    (12)
+bn/cnn/04/cnn_0423   0   14          and    CC           *    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0   15          son    NN         *)))   -    -   -   -          *             *)    (5)
+bn/cnn/04/cnn_0423   0   16           is   VBZ        (VP*    be  01   1   -          *           (V*)     -
+bn/cnn/04/cnn_0423   0   17          now    RB      (ADVP*)   -    -   -   -          *    (ARGM-TMP*)     -
+bn/cnn/04/cnn_0423   0   18     palpable    JJ      (ADJP*    -    -   -   -          *        (ARG2*      -
+bn/cnn/04/cnn_0423   0   19          and    CC           *    -    -   -   -          *             *      -
+bn/cnn/04/cnn_0423   0   20     enviable    JJ          *))   -    -   -   -          *             *)     -
+bn/cnn/04/cnn_0423   0   21            .     .          *))   -    -   -   -          *             *      -
+
+bn/cnn/04/cnn_0423   0   0     You   PRP   (TOP(S(NP*)   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   1     're   VBP         (VP*    be  -   1   -   *   -
+bn/cnn/04/cnn_0423   0   2     all    DT            *    -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   3    very    RB       (ADJP*    -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   4    good    JJ           *))   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   5       .     .           *))   -   -   -   -   *   -
+
+bn/cnn/04/cnn_0423   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/cnn/04/cnn_0423   0    0        The    DT  (TOP(S(NP(NP*        -    -   -   -       *      *    (ARG0*        (5
+bn/cnn/04/cnn_0423   0    1    younger   JJR              *        -    -   -   -       *      *         *         -
+bn/cnn/04/cnn_0423   0    2       king    NN              *)       -    -   -   -       *      *         *         -
+bn/cnn/04/cnn_0423   0    3         in    IN           (PP*        -    -   -   -       *      *         *         -
+bn/cnn/04/cnn_0423   0    4        the    DT           (NP*        -    -   -   -       *      *         *         -
+bn/cnn/04/cnn_0423   0    5     making    NN            *)))   making  01   1   -       *    (V*)        *)        5)
+bn/cnn/04/cnn_0423   0    6      calls   VBZ           (VP*      call  01   5   -       *      *       (V*)        -
+bn/cnn/04/cnn_0423   0    7    Britain   NNP        (NP(NP*        -    -   -   -    (GPE)     *    (ARG1*   (10|(12
+bn/cnn/04/cnn_0423   0    8         's   POS              *)       -    -   -   -       *      *         *        10)
+bn/cnn/04/cnn_0423   0    9       next    JJ              *        -    -   -   -       *      *         *         -
+bn/cnn/04/cnn_0423   0   10       king    NN              *)       -    -   -   -       *      *         *)       12)
+bn/cnn/04/cnn_0423   0   11         Pa   NNP       (S(NP*)))       -    -   -   -       *      *    (ARG2*)        -
+bn/cnn/04/cnn_0423   0   12          .     .             *))       -    -   -   -       *      *         *         -
+
+bn/cnn/04/cnn_0423   0    0       William    NNP   (TOP(S(NP(NP*)     -    -   -   -    (PERSON)       (ARG1*        (5
+bn/cnn/04/cnn_0423   0    1             ,      ,               *      -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0    2          once     RB      (RRC(ADVP*)     -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0    3           his   PRP$         (NP(NP*      -    -   -   -          *             *     (8|(5)
+bn/cnn/04/cnn_0423   0    4        mother     NN               *      -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0    5            's    POS               *)     -    -   -   -          *             *         8)
+bn/cnn/04/cnn_0423   0    6    confidante     NN               *      -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0    7           and     CC               *      -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0    8     protector     NN             *)))     -    -   -   -          *             *)        5)
+bn/cnn/04/cnn_0423   0    9           now     RB          (ADVP*)     -    -   -   -          *    (ARGM-TMP*)        -
+bn/cnn/04/cnn_0423   0   10         seems    VBZ            (VP*    seem  01   1   -          *           (V*)        -
+bn/cnn/04/cnn_0423   0   11           the     DT       (S(NP(NP*      -    -   -   -          *      (C-ARG1*         -
+bn/cnn/04/cnn_0423   0   12         apple     NN               *)     -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0   13            of     IN            (PP*      -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0   14           his   PRP$         (NP(NP*      -    -   -   -          *             *    (12|(5)
+bn/cnn/04/cnn_0423   0   15        father     NN               *      -    -   -   -          *             *         -
+bn/cnn/04/cnn_0423   0   16            's    POS               *)     -    -   -   -          *             *        12)
+bn/cnn/04/cnn_0423   0   17           eye     NN           *)))))    eye   -   1   -          *             *)        -
+bn/cnn/04/cnn_0423   0   18             .      .              *))     -    -   -   -          *             *         -
+
+bn/cnn/04/cnn_0423   0    0        Was   VBD  (TOP(S(S(VP*       be  03   -   -   *    (V*)           *      *        *   -
+bn/cnn/04/cnn_0423   0    1    chasing   VBG          (VP*    chase  01   1   -   *      *          (V*)     *        *   -
+bn/cnn/04/cnn_0423   0    2        him   PRP          (NP*)      -    -   -   -   *      *       (ARG1*)     *        *   -
+bn/cnn/04/cnn_0423   0    3       with    IN          (PP*       -    -   -   -   *      *   (ARGM-MNR*      *        *   -
+bn/cnn/04/cnn_0423   0    4          a    DT          (NP*       -    -   -   -   *      *            *      *        *   -
+bn/cnn/04/cnn_0423   0    5      stick    NN         *)))))   stick   -   1   -   *      *            *)     *        *   -
+bn/cnn/04/cnn_0423   0    6          ,     ,             *       -    -   -   -   *      *            *      *        *   -
+bn/cnn/04/cnn_0423   0    7        and    CC             *       -    -   -   -   *      *            *      *        *   -
+bn/cnn/04/cnn_0423   0    8        the    DT        (S(NP*       -    -   -   -   *      *            *      *   (ARG0*   -
+bn/cnn/04/cnn_0423   0    9      horse    NN             *)      -    -   -   -   *      *            *      *        *)  -
+bn/cnn/04/cnn_0423   0   10        was   VBD          (VP*       be  03   -   -   *      *            *    (V*)       *   -
+bn/cnn/04/cnn_0423   0   11    ducking   VBG        (VP*)))    duck  01   1   -   *      *            *      *      (V*)  -
+bn/cnn/04/cnn_0423   0   12          .     .            *))      -    -   -   -   *      *            *      *        *   -
+
+bn/cnn/04/cnn_0423   0   0    Reporter   NN  (TOP(META*   -   -   -   -   *   -
+bn/cnn/04/cnn_0423   0   1           :    .          *))  -   -   -   -   *   -
+
+bn/cnn/04/cnn_0423   0    0       There    EX     (TOP(S(S(NP*)       -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0    1          's   VBZ             (VP*        be   -   5   -            *        *       -
+bn/cnn/04/cnn_0423   0    2           a    DT          (NP(NP*        -    -   -   -            *        *      (3
+bn/cnn/04/cnn_0423   0    3        huge    JJ                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0    4    birthday    NN                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0    5        bash    NN                *)       -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0    6         for    IN             (PP*        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0    7     William   NNP            (NP*))       -    -   -   -      (PERSON)       *      (5)
+bn/cnn/04/cnn_0423   0    8          at    IN             (PP*        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0    9     Windsor   NNP             (NP*        -    -   -   -        (FAC*        *       -
+bn/cnn/04/cnn_0423   0   10      Castle   NNP            *)))))       -    -   -   -            *)       *       3)
+bn/cnn/04/cnn_0423   0   11           ,     ,                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   12        more   JJR  (FRAG(NP(NP(QP*        -    -   -   -   (CARDINAL*   (ARG1*      (4
+bn/cnn/04/cnn_0423   0   13        than    IN                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   14        300     CD                *)       -    -   -   -            *)       *       -
+bn/cnn/04/cnn_0423   0   15      guests   NNS               *))       -    -   -   -            *        *)      4)
+bn/cnn/04/cnn_0423   0   16     invited   VBN             (VP*)   invite  01   2   -            *      (V*)      -
+bn/cnn/04/cnn_0423   0   17           ,     ,                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   18         all    DT          (NP(NP*        -    -   -   -            *        *      (4
+bn/cnn/04/cnn_0423   0   19         ffk    NN                *)       -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   20           ,     ,                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   21     friends   NNS          (NP(NP*)       -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   22          of    IN             (PP*        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   23         the    DT             (NP*        -    -   -   -            *        *      (5
+bn/cnn/04/cnn_0423   0   24      future    JJ                *        -    -   -   -            *        *       -
+bn/cnn/04/cnn_0423   0   25        king    NN            *)))))       -    -   -   -            *        *    5)|4)
+bn/cnn/04/cnn_0423   0   26           .     .               *))       -    -   -   -            *        *       -
+
+bn/cnn/04/cnn_0423   0   0        That    DT  (TOP(S(NP*      -    -   -   -   *      *        (ARG1*   (3
+bn/cnn/04/cnn_0423   0   1    birthday    NN           *      -    -   -   -   *      *             *    -
+bn/cnn/04/cnn_0423   0   2       party    NN           *)     -    -   -   -   *      *             *)   3)
+bn/cnn/04/cnn_0423   0   3         has   VBZ        (VP*    have  01   -   -   *    (V*)            *    -
+bn/cnn/04/cnn_0423   0   4         now    RB      (ADVP*)     -    -   -   -   *      *    (ARGM-TMP*)   -
+bn/cnn/04/cnn_0423   0   5        been   VBN        (VP*      be  01   1   -   *      *           (V*)   -
+bn/cnn/04/cnn_0423   0   6       under    IN        (PP*      -    -   -   -   *      *        (ARG2*    -
+bn/cnn/04/cnn_0423   0   7         way    NN       (NP*))    way   -   4   -   *      *             *)   -
+bn/cnn/04/cnn_0423   0   8       about    RB       (X*)))     -    -   -   -   *      *             *    -
+bn/cnn/04/cnn_0423   0   9         --      .          *))     -    -   -   -   *      *             *    -
+
+#end document

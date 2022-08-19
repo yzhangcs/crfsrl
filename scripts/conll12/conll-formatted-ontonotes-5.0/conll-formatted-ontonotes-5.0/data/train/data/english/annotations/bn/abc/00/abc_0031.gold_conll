@@ -1,0 +1,61 @@
+#begin document (bn/abc/00/abc_0031); part 000
+bn/abc/00/abc_0031   0    0             The     DT  (TOP(S(NP*       -    -   -   -            *      *    (ARGM-LOC*   -
+bn/abc/00/abc_0031   0    1     Palestinian     JJ           *       -    -   -   -        (NORP)     *             *   -
+bn/abc/00/abc_0031   0    2     territories    NNS           *)      -    -   -   -            *      *             *)  -
+bn/abc/00/abc_0031   0    3           today     NN        (NP*)   today   -   2   -        (DATE)     *    (ARGM-TMP*)  -
+bn/abc/00/abc_0031   0    4               ,      ,           *       -    -   -   -            *      *             *   -
+bn/abc/00/abc_0031   0    5           three     CD        (NP*       -    -   -   -    (CARDINAL)     *        (ARG1*   -
+bn/abc/00/abc_0031   0    6          Jewish     JJ           *       -    -   -   -        (NORP)     *             *   -
+bn/abc/00/abc_0031   0    7        settlers    NNS           *)      -    -   -   -            *      *             *)  -
+bn/abc/00/abc_0031   0    8            were    VBD        (VP*       be  03   -   -            *    (V*)            *   -
+bn/abc/00/abc_0031   0    9          killed    VBN        (VP*     kill  01   1   -            *      *           (V*)  -
+bn/abc/00/abc_0031   0   10              by     IN        (PP*       -    -   -   -            *      *        (ARG0*   -
+bn/abc/00/abc_0031   0   11    Palestinians   NNPS     (NP*))))      -    -   -   -        (NORP)     *             *)  -
+bn/abc/00/abc_0031   0   12               .      .          *))      -    -   -   -            *      *             *   -
+
+bn/abc/00/abc_0031   0    0             Two     CD    (TOP(S(S(NP*       -    -   -   -    (CARDINAL)      (ARG1*             *      *            *      *             *     -
+bn/abc/00/abc_0031   0    1             men     NN               *)     man   -   2   -            *            *)            *      *            *      *             *     -
+bn/abc/00/abc_0031   0    2            were    VBD            (VP*       be  01   4   -            *          (V*)            *      *            *      *             *     -
+bn/abc/00/abc_0031   0    3              on     IN            (PP*       -    -   -   -            *       (ARG2*             *      *            *      *             *     -
+bn/abc/00/abc_0031   0    4               a     DT            (NP*       -    -   -   -            *            *             *      *            *      *             *    (0
+bn/abc/00/abc_0031   0    5             bus     NN              *))     bus   -   1   -            *            *)            *      *            *      *             *     0)
+bn/abc/00/abc_0031   0    6            when    WRB   (SBAR(WHADVP*)      -    -   -   -            *   (ARGM-TMP*    (ARGM-TMP*)     *            *      *             *     -
+bn/abc/00/abc_0031   0    7    Palestinians   NNPS          (S(NP*)      -    -   -   -        (NORP)           *        (ARG0*)     *            *      *             *     -
+bn/abc/00/abc_0031   0    8           fired    VBD            (VP*     fire  01   1   -            *            *           (V*)     *            *      *             *     -
+bn/abc/00/abc_0031   0    9              on     IN            (PP*       -    -   -   -            *            *    (ARGM-DIR*      *            *      *             *     -
+bn/abc/00/abc_0031   0   10               a     DT            (NP*       -    -   -   -            *            *             *      *            *      *             *    (0
+bn/abc/00/abc_0031   0   11             bus     NN         *)))))))     bus   -   1   -            *            *)            *)     *            *      *             *     0)
+bn/abc/00/abc_0031   0   12             and     CC               *       -    -   -   -            *            *             *      *            *      *             *     -
+bn/abc/00/abc_0031   0   13               a     DT          (S(NP*       -    -   -   -            *            *             *      *       (ARG1*      *             *    (2
+bn/abc/00/abc_0031   0   14           woman     NN               *)   woman   -   1   -            *            *             *      *            *)     *             *     2)
+bn/abc/00/abc_0031   0   15             was    VBD            (VP*       be  03   -   -            *            *             *    (V*)           *      *             *     -
+bn/abc/00/abc_0031   0   16          killed    VBN            (VP*     kill  01   1   -            *            *             *      *          (V*)     *             *     -
+bn/abc/00/abc_0031   0   17            when    WRB   (SBAR(WHADVP*)      -    -   -   -            *            *             *      *   (ARGM-TMP*      *    (ARGM-TMP*)    -
+bn/abc/00/abc_0031   0   18             her   PRP$          (S(NP*       -    -   -   -            *            *             *      *            *      *             *    (2)
+bn/abc/00/abc_0031   0   19             car     NN               *)     car   -   2   -            *            *             *      *            *      *             *     -
+bn/abc/00/abc_0031   0   20             was    VBD            (VP*       be  03   -   -            *            *             *      *            *    (V*)            *     -
+bn/abc/00/abc_0031   0   21           fired    VBN            (VP*     fire  01   1   -            *            *             *      *            *      *           (V*)    -
+bn/abc/00/abc_0031   0   22              on     IN     (PP*))))))))      -    -   -   -            *            *             *      *            *)     *    (ARGM-GOL*)    -
+bn/abc/00/abc_0031   0   23               .      .              *))      -    -   -   -            *            *             *      *            *      *             *     -
+
+bn/abc/00/abc_0031   0    0              The     DT     (TOP(S(NP*               -    -   -   -        *      *   (ARG0*             *            *    (1
+bn/abc/00/abc_0031   0    1     Palestinians   NNPS              *)              -    -   -   -    (NORP)     *        *)            *            *     1)
+bn/abc/00/abc_0031   0    2              had    VBD           (VP*             have  01   -   -        *    (V*)       *             *            *     -
+bn/abc/00/abc_0031   0    3           warned    VBN           (VP*             warn  01   1   -        *      *      (V*)            *            *     -
+bn/abc/00/abc_0031   0    4             they    PRP    (SBAR(S(NP*)              -    -   -   -        *      *   (ARG1*        (ARG0*)           *    (1)
+bn/abc/00/abc_0031   0    5            would     MD           (VP*               -    -   -   -        *      *        *    (ARGM-MOD*)           *     -
+bn/abc/00/abc_0031   0    6        retaliate     VB           (VP*        retaliate  01   -   -        *      *        *           (V*)           *     -
+bn/abc/00/abc_0031   0    7              for     IN           (PP*               -    -   -   -        *      *        *        (ARG1*            *     -
+bn/abc/00/abc_0031   0    8         Thursday    NNP     (NP(NP(NP*               -    -   -   -    (DATE)     *        *             *   (ARGM-TMP*     -
+bn/abc/00/abc_0031   0    9               's    POS              *)              -    -   -   -        *      *        *             *            *)    -
+bn/abc/00/abc_0031   0   10    assassination     NN              *)   assassination  01   2   -        *      *        *             *          (V*)    -
+bn/abc/00/abc_0031   0   11               of     IN           (PP*               -    -   -   -        *      *        *             *       (ARG1*     -
+bn/abc/00/abc_0031   0   12                a     DT        (NP(NP*               -    -   -   -        *      *        *             *            *     -
+bn/abc/00/abc_0031   0   13        commander     NN              *)              -    -   -   -        *      *        *             *            *     -
+bn/abc/00/abc_0031   0   14               of     IN           (PP*               -    -   -   -        *      *        *             *            *     -
+bn/abc/00/abc_0031   0   15              the     DT           (NP*               -    -   -   -        *      *        *             *            *     -
+bn/abc/00/abc_0031   0   16            Fatah    NNP              *               -    -   -   -     (ORG)     *        *             *            *     -
+bn/abc/00/abc_0031   0   17     organization     NN   *))))))))))))    organization   -   1   -        *      *        *)            *)           *)    -
+bn/abc/00/abc_0031   0   18                .      .             *))              -    -   -   -        *      *        *             *            *     -
+
+#end document

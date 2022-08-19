@@ -1,0 +1,752 @@
+#begin document (nw/wsj/04/wsj_0457); part 000
+nw/wsj/04/wsj_0457   0   0     Monday   NNP   (TOP(NP(NP*)  -   -   -   -   (DATE*   -
+nw/wsj/04/wsj_0457   0   1          ,     ,             *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   2    October   NNP          (NP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   3        30     CD             *)  -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   4          ,     ,             *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   5      1989     CD        (NP*)))  -   -   -   -        *)  -
+
+nw/wsj/04/wsj_0457   0    0             The    DT  (TOP(S(NP(NP*           -    -   -   -       *   (ARG1*        (ARG0*   -
+nw/wsj/04/wsj_0457   0    1             key    JJ              *           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0    2            U.S.   NNP          (UCP*           -    -   -   -    (GPE)       *             *   -
+nw/wsj/04/wsj_0457   0    3             and    CC              *           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0    4         foreign    JJ              *)          -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0    5          annual    JJ              *           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0    6        interest    NN              *           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0    7           rates   NNS              *)          -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0    8           below    RB        (ADVP*))          -    -   -   -       *        *)            *)  -
+nw/wsj/04/wsj_0457   0    9             are   VBP        (VP(VP*           be  01   -   -       *      (V*)            *   -
+nw/wsj/04/wsj_0457   0   10               a    DT        (NP(NP*           -    -   -   -       *   (ARG2*             *   -
+nw/wsj/04/wsj_0457   0   11           guide    NN              *)          -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0   12              to    IN           (PP*           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0   13         general    JJ           (NP*           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0   14          levels   NNS           *))))          -    -   -   -       *        *)            *   -
+nw/wsj/04/wsj_0457   0   15             but    CC              *           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0   16              do   VBP           (VP*           -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0457   0   17             n't    RB              *           -    -   -   -       *        *    (ARGM-NEG*)  -
+nw/wsj/04/wsj_0457   0   18          always    RB         (ADVP*)          -    -   -   -       *        *    (ARGM-TMP*)  -
+nw/wsj/04/wsj_0457   0   19       represent    VB           (VP*    represent  01   -   -       *        *           (V*)  -
+nw/wsj/04/wsj_0457   0   20          actual    JJ           (NP*           -    -   -   -       *        *        (ARG1*   -
+nw/wsj/04/wsj_0457   0   21    transactions   NNS           *))))          -    -   -   -       *        *             *)  -
+nw/wsj/04/wsj_0457   0   22               .     .             *))          -    -   -   -       *        *             *   -
+
+nw/wsj/04/wsj_0457   0   0    PRIME   NNP  (TOP(NP(NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   1     RATE   NNP            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   2        :     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   3      10     CD      (NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   4     1/2     CD            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   5        %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   6        .     .           *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0           The    DT  (TOP(NP(NP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    1          base    NN            *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    2          rate    NN            *)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    3            on    IN         (PP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    4     corporate    JJ         (NP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    5         loans   NNS           *))  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    6            at    IN         (PP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    7         large    JJ         (NP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    8          U.S.   NNP            *   -   -   -   -    (GPE)  -
+nw/wsj/04/wsj_0457   0    9         money    NN        (NML*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   10        center    NN            *)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   11    commercial    JJ            *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   12         banks   NNS           *))  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   13             .     .           *))  -   -   -   -       *   -
+
+nw/wsj/04/wsj_0457   0    0    FEDERAL   NNP     (TOP(NP(NP*       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0    1      FUNDS   NNP               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0    2          :     :               *       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0    3         8     CD  (NP(NP(NML(QP*       -    -   -   -   (PERCENT*        *   -
+nw/wsj/04/wsj_0457   0    4       3/4     CD               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0    5          %    NN               *)      -    -   -   -           *)       *   -
+nw/wsj/04/wsj_0457   0    6       high    NN               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0    7          ,     ,               *       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0    8         8     CD     (NP(NML(QP*       -    -   -   -   (PERCENT*        *   -
+nw/wsj/04/wsj_0457   0    9     11/16     CD               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   10          %    NN               *)      -    -   -   -           *)       *   -
+nw/wsj/04/wsj_0457   0   11        low    NN               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   12          ,     ,               *       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   13         8     CD      (NP(NP(QP*       -    -   -   -   (PERCENT*        *   -
+nw/wsj/04/wsj_0457   0   14       3/4     CD               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   15          %    NN               *)      -    -   -   -           *)       *   -
+nw/wsj/04/wsj_0457   0   16       near    IN            (PP*       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   17    closing    NN            (NP*       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   18        bid    NN             *)))      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   19          ,     ,               *       -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   20         8     CD      (NP(NP(QP*       -    -   -   -   (PERCENT*   (ARG1*   -
+nw/wsj/04/wsj_0457   0   21       3/4     CD               *)      -    -   -   -           *        *   -
+nw/wsj/04/wsj_0457   0   22          %    NN               *)      -    -   -   -           *)       *)  -
+nw/wsj/04/wsj_0457   0   23    offered   VBN          (VP*)))   offer  01   -   -           *      (V*)  -
+nw/wsj/04/wsj_0457   0   24          .     .              *))      -    -   -   -           *        *   -
+
+nw/wsj/04/wsj_0457   0    0      Reserves   NNS   (TOP(S(NP*)      -    -   -   -         *       (ARG1*)  -
+nw/wsj/04/wsj_0457   0    1        traded   VBD         (VP*    trade  01   1   -         *          (V*)  -
+nw/wsj/04/wsj_0457   0    2         among    IN         (PP*       -    -   -   -         *       (ARG2*   -
+nw/wsj/04/wsj_0457   0    3    commercial    JJ         (NP*       -    -   -   -         *            *   -
+nw/wsj/04/wsj_0457   0    4         banks   NNS           *))      -    -   -   -         *            *)  -
+nw/wsj/04/wsj_0457   0    5           for    IN         (PP*       -    -   -   -         *   (ARGM-PNC*   -
+nw/wsj/04/wsj_0457   0    6     overnight    JJ         (NP*       -    -   -   -     (TIME)           *   -
+nw/wsj/04/wsj_0457   0    7           use    NN           *))      -    -   -   -         *            *)  -
+nw/wsj/04/wsj_0457   0    8            in    IN         (PP*       -    -   -   -         *   (ARGM-MNR*   -
+nw/wsj/04/wsj_0457   0    9       amounts   NNS      (NP(NP*)      -    -   -   -         *            *   -
+nw/wsj/04/wsj_0457   0   10            of    IN         (PP*       -    -   -   -         *            *   -
+nw/wsj/04/wsj_0457   0   11             $     $      (NP(QP*       -    -   -   -   (MONEY*            *   -
+nw/wsj/04/wsj_0457   0   12            1     CD            *       -    -   -   -         *            *   -
+nw/wsj/04/wsj_0457   0   13       million    CD            *       -    -   -   -         *)           *   -
+nw/wsj/04/wsj_0457   0   14            or    CC            *       -    -   -   -         *            *   -
+nw/wsj/04/wsj_0457   0   15          more   JJR       *))))))      -    -   -   -         *            *)  -
+nw/wsj/04/wsj_0457   0   16             .     .           *))      -    -   -   -         *            *   -
+
+nw/wsj/04/wsj_0457   0   0    Source      NN   (TOP(NP(NP*)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   1         :       :             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   2    Fulton     NNP          (NP*   -   -   -   -   (ORG*   -
+nw/wsj/04/wsj_0457   0   3    Prebon     NNP             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   4    -LRB-   -LRB-              *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   5     U.S.A     NNP             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   6         .       .             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   7    -RRB-   -RRB-              *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   8       Inc     NNP             *)  -   -   -   -       *)  -
+nw/wsj/04/wsj_0457   0   9         .       .            *))  -   -   -   -       *   -
+
+nw/wsj/04/wsj_0457   0   0    DISCOUNT   NNP  (TOP(NP(NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   1        RATE   NNP            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   2           :     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   3          7     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   4           %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   5           .     .           *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0             The    DT  (TOP(NP(NP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    1          charge    NN            *)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    2              on    IN         (PP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    3           loans   NNS      (NP(NP*)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    4              to    IN         (PP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    5      depository    NN         (NP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    6    institutions   NNS           *))  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    7              by    IN         (PP*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0    8             the    DT         (NP*   -   -   -   -   (ORG*   -
+nw/wsj/04/wsj_0457   0    9             New   NNP        (NML*   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   10            York   NNP            *)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   11         Federal   NNP            *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   12         Reserve   NNP            *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   13            Bank   NNP         *))))  -   -   -   -       *)  -
+nw/wsj/04/wsj_0457   0   14               .     .           *))  -   -   -   -       *   -
+
+nw/wsj/04/wsj_0457   0   0     CALL   NNP  (TOP(NP(NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   1    MONEY   NNP            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   2        :     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   3       9     CD      (NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   4     3/4     CD            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   5        %    NN            *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   6       to    TO            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   7      10     CD            *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   8        %    NN           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   9        .     .           *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0           The    DT  (TOP(NP(NP*   -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    1        charge    NN            *)  -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    2            on    IN         (PP*   -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    3         loans   NNS      (NP(NP*)  -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    4            to    IN         (PP*   -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    5       brokers   NNS        (NP*))  -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    6            on    IN         (PP*   -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    7         stock    NN     (NP(NML*   -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    8      exchange    NN            *)  -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0    9    collateral    NN         *))))  -   -   -   -   *   -
+nw/wsj/04/wsj_0457   0   10             .     .           *))  -   -   -   -   *   -
+
+nw/wsj/04/wsj_0457   0    0    COMMERCIAL   NNP  (TOP(NP(NP(NP*       -    -   -   -           *        (ARG1*   -
+nw/wsj/04/wsj_0457   0    1         PAPER   NNP               *)      -    -   -   -           *             *)  -
+nw/wsj/04/wsj_0457   0    2        placed   VBN            (VP*    place  01   -   -           *           (V*)  -
+nw/wsj/04/wsj_0457   0    3      directly    RB          (ADVP*)      -    -   -   -           *    (ARGM-MNR*)  -
+nw/wsj/04/wsj_0457   0    4            by    IN            (PP*       -    -   -   -           *        (ARG0*   -
+nw/wsj/04/wsj_0457   0    5       General   NNP            (NP*       -    -   -   -       (ORG*             *   -
+nw/wsj/04/wsj_0457   0    6        Motors   NNP               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0    7    Acceptance   NNP               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0    8         Corp.   NNP            *))))      -    -   -   -           *)            *)  -
+nw/wsj/04/wsj_0457   0    9             :     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   10         8.50     CD      (NP(NP(NP*       -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   11             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   12           30     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   13            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   14           44     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   15          days   NNS              *))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   16             ;     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   17         8.25     CD      (NP(NP(QP*)      -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   18             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   19           45     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   20            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   21           62     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   22          days   NNS              *))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   23             ;     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   24        8.375     CD         (NP(NP*       -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   25             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   26           63     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   27            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   28           89     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   29          days   NNS              *))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   30             ;     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   31            8     CD         (NP(NP*       -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   32             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   33           90     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   34            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   35          119     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   36          days   NNS              *))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   37             ;     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   38         7.90     CD         (NP(NP*       -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   39             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   40          120     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   41            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   42          149     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   43          days   NNS              *))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   44             ;     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   45         7.80     CD         (NP(NP*       -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   46             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   47          150     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   48            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   49          179     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   50          days   NNS              *))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   51             ;     :               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   52         7.55     CD         (NP(NP*       -    -   -   -   (PERCENT*             *   -
+nw/wsj/04/wsj_0457   0   53             %    NN               *)      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   54          180     CD         (NP(QP*       -    -   -   -      (DATE*             *   -
+nw/wsj/04/wsj_0457   0   55            to    TO               *       -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   56          270     CD               *)      -    -   -   -           *             *   -
+nw/wsj/04/wsj_0457   0   57          days   NNS             *)))      -    -   -   -           *)            *   -
+nw/wsj/04/wsj_0457   0   58             .     .              *))      -    -   -   -           *             *   -
+
+nw/wsj/04/wsj_0457   0    0      COMMERCIAL    NNP  (TOP(NP(NP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    1           PAPER    NNP            *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    2               :      :            *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    3            High     JJ  (NP(NP(NML*      -    -   -   -           *       (ARG1*   -
+nw/wsj/04/wsj_0457   0    4              -    HYPH            *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    5           grade     NN            *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    6       unsecured     JJ            *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    7           notes    NNS            *)     -    -   -   -           *            *)  -
+nw/wsj/04/wsj_0457   0    8            sold    VBD         (VP*    sell  01   -   -           *          (V*)  -
+nw/wsj/04/wsj_0457   0    9         through     IN         (PP*      -    -   -   -           *   (ARGM-MNR*   -
+nw/wsj/04/wsj_0457   0   10         dealers    NNS        (NP*))     -    -   -   -           *            *)  -
+nw/wsj/04/wsj_0457   0   11              by     IN         (PP*      -    -   -   -           *       (ARG0*   -
+nw/wsj/04/wsj_0457   0   12           major     JJ         (NP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   13    corporations    NNS           *))     -    -   -   -           *            *)  -
+nw/wsj/04/wsj_0457   0   14              in     IN         (PP*      -    -   -   -           *   (ARGM-MNR*   -
+nw/wsj/04/wsj_0457   0   15       multiples    NNS      (NP(NP*)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   16              of     IN         (PP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   17               $      $         (NP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   18          1,000      CD       *))))))     -    -   -   -      (MONEY)           *)  -
+nw/wsj/04/wsj_0457   0   19               :      :            *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   20           8.55      CD   (NP(NP(NP*      -    -   -   -   (PERCENT*            *   -
+nw/wsj/04/wsj_0457   0   21               %     NN            *)     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   22             30      CD         (NP*      -    -   -   -      (DATE*            *   -
+nw/wsj/04/wsj_0457   0   23            days    NNS           *))     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   24               ;      :            *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   25           8.50      CD      (NP(NP*      -    -   -   -   (PERCENT*            *   -
+nw/wsj/04/wsj_0457   0   26               %     NN            *)     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   27             60      CD         (NP*      -    -   -   -      (DATE*            *   -
+nw/wsj/04/wsj_0457   0   28            days    NNS           *))     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   29               ;      :            *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   30           8.45      CD      (NP(NP*      -    -   -   -   (PERCENT*            *   -
+nw/wsj/04/wsj_0457   0   31               %     NN            *)     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   32             90      CD         (NP*      -    -   -   -      (DATE*            *   -
+nw/wsj/04/wsj_0457   0   33            days    NNS          *)))     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   34               .      .           *))     -    -   -   -           *            *   -
+
+nw/wsj/04/wsj_0457   0    0    CERTIFICATES   NNS   (TOP(NP(NP(NP*)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    1              OF    IN             (PP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    2         DEPOSIT    NN           (NP*)))  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    3               :     :                *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    4           8.09     CD       (NP(NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    5               %    NN                *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    6             one    CD             (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0    7           month    NN               *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    8               ;     :                *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    9           8.04     CD          (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   10               %    NN                *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   11             two    CD             (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   12          months   NNS               *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   13               ;     :                *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   14           8.03     CD          (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   15               %    NN                *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   16           three    CD             (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   17          months   NNS               *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   18               ;     :                *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   19           7.96     CD          (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   20               %    NN                *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   21             six    CD             (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   22          months   NNS               *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   23               ;     :                *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   24           7.92     CD          (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   25               %    NN                *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   26             one    CD             (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   27            year    NN              *)))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   28               .     .               *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0       Average    NN   (TOP(NP(NP*)    -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0    1            of    IN          (PP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0    2           top    JJ       (NP(NP*     -    -   -   -         *   (ARG1*   -
+nw/wsj/04/wsj_0457   0    3         rates   NNS             *)    -    -   -   -         *        *)  -
+nw/wsj/04/wsj_0457   0    4          paid   VBN          (VP*    pay  01   -   -         *      (V*)  -
+nw/wsj/04/wsj_0457   0    5            by    IN          (PP*     -    -   -   -         *   (ARG0*   -
+nw/wsj/04/wsj_0457   0    6         major    JJ          (NP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0    7           New   NNP         (NML*     -    -   -   -     (GPE*        *   -
+nw/wsj/04/wsj_0457   0    8          York   NNP             *)    -    -   -   -         *)       *   -
+nw/wsj/04/wsj_0457   0    9         banks   NNS            *))    -    -   -   -         *        *)  -
+nw/wsj/04/wsj_0457   0   10            on    IN       (PP(PP*     -    -   -   -         *   (ARG2*   -
+nw/wsj/04/wsj_0457   0   11       primary    JJ       (NP(NP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   12           new    JJ             *     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   13        issues   NNS             *)    -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   14            of    IN          (PP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   15    negotiable    JJ          (NP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   16         C.D.s   NNS          *))))    -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   17             ,     ,             *     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   18       usually    RB             *     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   19            on    IN          (PP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   20       amounts   NNS       (NP(NP*)    -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   21            of    IN          (PP*     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   22             $     $       (NP(QP*     -    -   -   -   (MONEY*        *   -
+nw/wsj/04/wsj_0457   0   23            1     CD             *     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   24       million    CD             *     -    -   -   -         *)       *   -
+nw/wsj/04/wsj_0457   0   25           and    CC             *     -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   26          more   JJR     *)))))))))    -    -   -   -         *        *)  -
+nw/wsj/04/wsj_0457   0   27             .     .            *))    -    -   -   -         *        *   -
+
+nw/wsj/04/wsj_0457   0   0        The    DT  (TOP(S(NP*    -    -   -   -         *   (ARG1*   -
+nw/wsj/04/wsj_0457   0   1    minimum    NN           *    -    -   -   -         *        *   -
+nw/wsj/04/wsj_0457   0   2       unit    NN           *)   -    -   -   -         *        *)  -
+nw/wsj/04/wsj_0457   0   3         is   VBZ        (VP*    be  01   -   -         *      (V*)  -
+nw/wsj/04/wsj_0457   0   4          $     $        (NP*    -    -   -   -         *   (ARG2*   -
+nw/wsj/04/wsj_0457   0   5   100,000     CD          *))   -    -   -   -    (MONEY)       *)  -
+nw/wsj/04/wsj_0457   0   6          .     .          *))   -    -   -   -         *        *   -
+
+nw/wsj/04/wsj_0457   0    0      Typical    JJ  (TOP(NP(NP(NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    1        rates   NNS               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    2           in    IN            (PP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    3          the    DT            (NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    4    secondary    JJ               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    5       market    NN             *)))  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    6            :     :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    7        8.55     CD      (NP(NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    8            %    NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    9          one    CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   10        month    NN              *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   11            ;     :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   12        8.55     CD         (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   13            %    NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   14        three    CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   15       months   NNS              *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   16            ;     :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   17        8.35     CD         (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   18            %    NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   19          six    CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   20       months   NNS             *)))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   21            .     .              *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0        BANKERS   NNS  (TOP(NP(NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    1    ACCEPTANCES   NNS            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    2              :     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    3          8.47     CD   (NP(NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    4              %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    5            30     CD         (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0    6           days   NNS           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    7              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    8          8.42     CD      (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    9              %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   10            60     CD         (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   11           days   NNS           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   12              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   13          8.25     CD      (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   14              %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   15            90     CD         (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   16           days   NNS           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   17              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   18          8.10     CD      (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   19              %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   20           120     CD         (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   21           days   NNS           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   22              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   23          8.02     CD      (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   24              %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   25           150     CD         (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   26           days   NNS           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   27              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   28          7.95     CD      (NP(NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   29              %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   30           180     CD         (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   31           days   NNS          *)))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   32              .     .           *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0     Negotiable     JJ  (TOP(NP(NP*         -    -   -   -   *        (ARG2*   -
+nw/wsj/04/wsj_0457   0    1              ,      ,            *         -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0    2           bank     NN       (ADJP*         -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0    3             -    HYPH            *         -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0    4         backed    VBN            *)        -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0    5       business     NN            *         -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0    6         credit     NN            *         -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0    7    instruments    NNS            *)        -    -   -   -   *             *)  -
+nw/wsj/04/wsj_0457   0    8      typically     RB    (VP(ADVP*)        -    -   -   -   *    (ARGM-TMP*)  -
+nw/wsj/04/wsj_0457   0    9      financing    VBG            *    finance  01   1   -   *           (V*)  -
+nw/wsj/04/wsj_0457   0   10             an     DT         (NP*         -    -   -   -   *        (ARG1*   -
+nw/wsj/04/wsj_0457   0   11         import     NN            *         -    -   -   -   *             *   -
+nw/wsj/04/wsj_0457   0   12          order     NN           *))        -    -   -   -   *             *)  -
+nw/wsj/04/wsj_0457   0   13              .      .           *))        -    -   -   -   *             *   -
+
+nw/wsj/04/wsj_0457   0    0         LONDON   NNP    (TOP(NP(NP*   -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0    1           LATE    RB              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    2    EURODOLLARS   NNS              *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    3              :     :              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    4             8     CD  (NP(NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    5           3/4     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    6              %    NN              *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    7             to    TO              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    8             8     CD              *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    9           5/8     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   10              %    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   11            one    CD           (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   12          month    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   13              ;     :              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   14             8     CD     (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   15         13/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   16              %    NN              *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   17             to    TO              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   18             8     CD              *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   19         11/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   20              %    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   21            two    CD           (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   22         months   NNS             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   23              ;     :              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   24             8     CD     (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   25         11/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   26              %    NN              *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   27             to    TO              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   28             8     CD              *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   29          9/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   30              %    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   31          three    CD           (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   32         months   NNS             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   33              ;     :              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   34             8     CD     (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   35          9/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   36              %    NN              *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   37             to    TO              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   38             8     CD              *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   39          7/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   40              %    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   41           four    CD           (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   42         months   NNS             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   43              ;     :              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   44             8     CD     (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   45           1/2     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   46              %    NN              *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   47             to    TO              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   48             8     CD              *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   49           3/8     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   50              %    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   51           five    CD           (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   52         months   NNS             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   53              ;     :              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   54             8     CD     (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   55          7/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   56              %    NN              *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   57             to    TO              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   58             8     CD              *   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   59          5/16     CD              *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   60              %    NN             *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   61            six    CD           (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   62         months   NNS            *)))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   63              .     .             *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0       LONDON     NNP  (TOP(NP(NP(NP*   -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0    1    INTERBANK      RB          (ADJP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    2      OFFERED     VBN               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    3        RATES     NNS               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    4       -LRB-   -LRB-                *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    5        LIBOR     NNP            (NP*)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    6       -RRB-   -RRB-                *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    7            :       :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    8           8       CD   (NP(NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    9       11/16       CD               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   10            %      NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   11          one      CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   12        month      NN              *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   13            ;       :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   14           8       CD      (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   15       11/16       CD               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   16            %      NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   17        three      CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   18       months     NNS              *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   19            ;       :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   20           8       CD      (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   21        7/16       CD               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   22            %      NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   23          six      CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   24       months     NNS              *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   25            ;       :               *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   26           8       CD      (NP(NP(QP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   27         3/8       CD               *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   28            %      NN               *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   29          one      CD            (NP*   -   -   -   -      (DATE*   -
+nw/wsj/04/wsj_0457   0   30         year      NN             *)))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   31            .       .              *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0           The    DT  (TOP(NP(NP(NP*       -    -   -   -            *         *   (ARG1*   -
+nw/wsj/04/wsj_0457   0    1       average    NN               *)      -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0    2            of    IN            (PP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0    3     interbank    NN         (NP(NP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0    4       offered   VBN               *    offer  01   -   -            *       (V*)       *   -
+nw/wsj/04/wsj_0457   0    5         rates   NNS               *)      -    -   -   -            *    (ARG1*)       *   -
+nw/wsj/04/wsj_0457   0    6           for    IN            (PP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0    7        dollar    NN         (NP(NP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0    8      deposits   NNS               *)      -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0    9            in    IN            (PP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0   10           the    DT            (NP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0   11        London   NNP               *       -    -   -   -         (GPE)        *        *   -
+nw/wsj/04/wsj_0457   0   12        market    NN         *)))))))      -    -   -   -            *         *        *)  -
+nw/wsj/04/wsj_0457   0   13         based   VBN            (VP*     base  02   -   -            *         *      (V*)  -
+nw/wsj/04/wsj_0457   0   14            on    IN            (PP*       -    -   -   -            *         *   (ARG2*   -
+nw/wsj/04/wsj_0457   0   15    quotations   NNS         (NP(NP*)      -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0   16            at    IN            (PP*       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0   17          five    CD            (NP*       -    -   -   -    (CARDINAL)        *        *   -
+nw/wsj/04/wsj_0457   0   18         major    JJ               *       -    -   -   -            *         *        *   -
+nw/wsj/04/wsj_0457   0   19         banks   NNS           *)))))      -    -   -   -            *         *        *)  -
+nw/wsj/04/wsj_0457   0   20             .     .              *))      -    -   -   -            *         *        *   -
+
+nw/wsj/04/wsj_0457   0    0        FOREIGN    JJ  (TOP(NP(NP*   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    1          PRIME    JJ            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    2          RATES   NNS            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    3              :     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    4         Canada   NNP   (NP(NP(NP*)  -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0    5         13.50     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0    6              %    NN           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0    7              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0    8        Germany   NNP      (NP(NP*)  -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0    9             9     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   10              %    NN           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   11              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   12          Japan   NNP      (NP(NP*)  -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0   13         4.875     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   14              %    NN           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   15              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   16    Switzerland   NNP      (NP(NP*)  -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0   17          8.50     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   18              %    NN           *))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   19              ;     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   20        Britain   NNP      (NP(NP*)  -   -   -   -        (GPE)  -
+nw/wsj/04/wsj_0457   0   21            15     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   22              %    NN          *)))  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   23              .     .           *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0          These    DT  (TOP(S(S(NP*      -    -   -   -   *        (ARG1*            *   -
+nw/wsj/04/wsj_0457   0    1           rate    NN             *      -    -   -   -   *             *            *   -
+nw/wsj/04/wsj_0457   0    2    indications   NNS             *)     -    -   -   -   *             *)           *   -
+nw/wsj/04/wsj_0457   0    3            are   VBP          (VP*      be  01   -   -   *           (V*)           *   -
+nw/wsj/04/wsj_0457   0    4            n't    RB             *      -    -   -   -   *    (ARGM-NEG*)           *   -
+nw/wsj/04/wsj_0457   0    5       directly    RB        (ADJP*      -    -   -   -   *        (ARG2*            *   -
+nw/wsj/04/wsj_0457   0    6     comparable    JJ           *)))     -    -   -   -   *             *)           *   -
+nw/wsj/04/wsj_0457   0    7              ;     :             *      -    -   -   -   *             *            *   -
+nw/wsj/04/wsj_0457   0    8        lending    NN        (S(NP*      -    -   -   -   *             *       (ARG1*   -
+nw/wsj/04/wsj_0457   0    9      practices   NNS             *)     -    -   -   -   *             *            *)  -
+nw/wsj/04/wsj_0457   0   10           vary   VBP          (VP*    vary  01   1   -   *             *          (V*)  -
+nw/wsj/04/wsj_0457   0   11         widely    RB        (ADVP*)     -    -   -   -   *             *       (ARG2*)  -
+nw/wsj/04/wsj_0457   0   12             by    IN          (PP*      -    -   -   -   *             *   (ARGM-MNR*   -
+nw/wsj/04/wsj_0457   0   13       location    NN       (NP*))))     -    -   -   -   *             *            *)  -
+nw/wsj/04/wsj_0457   0   14              .     .            *))     -    -   -   -   *             *            *   -
+
+nw/wsj/04/wsj_0457   0    0      TREASURY    NNP   (TOP(NP(NP*      -    -   -   -        (ORG)           *   -
+nw/wsj/04/wsj_0457   0    1         BILLS    NNS             *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    2             :      :             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    3       Results    NNS       (NP(NP*)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    4            of     IN          (PP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    5           the     DT       (NP(NP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    6        Monday    NNP     (NML(NML*)     -    -   -   -      (DATE*            *   -
+nw/wsj/04/wsj_0457   0    7             ,      ,             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    8       October    NNP         (NML*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0    9           30      CD             *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   10             ,      ,             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   11         1989      CD         (NML*)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   12             ,      ,             *)     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   13       auction     NN             *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   14            of     IN          (PP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   15         short     JJ   (NP(NP(NML*      -    -   -   -           *       (ARG1*   -
+nw/wsj/04/wsj_0457   0   16            -    HYPH             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   17          term     NN             *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   18          U.S.    NNP         (NML*      -    -   -   -        (GPE)           *   -
+nw/wsj/04/wsj_0457   0   19    government     NN             *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   20         bills    NNS             *)     -    -   -   -           *            *)  -
+nw/wsj/04/wsj_0457   0   21             ,      ,             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   22          sold    VBD          (VP*    sell  01   -   -           *          (V*)  -
+nw/wsj/04/wsj_0457   0   23            at     IN          (PP*      -    -   -   -           *       (ARG3*   -
+nw/wsj/04/wsj_0457   0   24             a     DT       (NP(NP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   25      discount     NN             *)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   26          from     IN          (PP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   27          face     NN          (NP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   28         value     NN          *))))     -    -   -   -           *            *)  -
+nw/wsj/04/wsj_0457   0   29            in     IN          (PP*      -    -   -   -           *   (ARGM-MNR*   -
+nw/wsj/04/wsj_0457   0   30         units    NNS       (NP(NP*)     -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   31            of     IN          (PP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   32             $      $       (NP(QP*      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   33       10,000      CD             *      -    -   -   -      (MONEY)           *   -
+nw/wsj/04/wsj_0457   0   34            to     TO             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   35             $      $             *      -    -   -   -     (MONEY*            *   -
+nw/wsj/04/wsj_0457   0   36            1      CD             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   37       million     CD   *)))))))))))     -    -   -   -           *)           *)  -
+nw/wsj/04/wsj_0457   0   38             :      :             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   39         7.78      CD    (NP(NP(NP*      -    -   -   -   (PERCENT*            *   -
+nw/wsj/04/wsj_0457   0   40             %     NN             *)     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   41             ,      ,             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   42           13      CD          (NP*      -    -   -   -      (DATE*            *   -
+nw/wsj/04/wsj_0457   0   43         weeks    NNS            *))     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   44             ;      :             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   45         7.62      CD       (NP(NP*      -    -   -   -   (PERCENT*            *   -
+nw/wsj/04/wsj_0457   0   46             %     NN             *)     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   47             ,      ,             *      -    -   -   -           *            *   -
+nw/wsj/04/wsj_0457   0   48           26      CD          (NP*      -    -   -   -      (DATE*            *   -
+nw/wsj/04/wsj_0457   0   49         weeks    NNS           *)))     -    -   -   -           *)           *   -
+nw/wsj/04/wsj_0457   0   50             .      .            *))     -    -   -   -           *            *   -
+
+nw/wsj/04/wsj_0457   0    0        FEDERAL     NNP  (TOP(NP(NP*      -    -   -   -    (ORG*         *   -
+nw/wsj/04/wsj_0457   0    1           HOME     NNP            *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0    2           LOAN     NNP            *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0    3       MORTGAGE     NNP            *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0    4          CORP.     NNP            *)     -    -   -   -        *)        *   -
+nw/wsj/04/wsj_0457   0    5         -LRB-   -LRB-             *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0    6        Freddie     NNP         (NP*      -    -   -   -    (ORG*         *   -
+nw/wsj/04/wsj_0457   0    7            Mac     NNP            *)     -    -   -   -        *)        *   -
+nw/wsj/04/wsj_0457   0    8         -RRB-   -RRB-             *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0    9              :       :            *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   10         Posted     VBN      (NP(NP*    post  01   -   -        *       (V*)  -
+nw/wsj/04/wsj_0457   0   11         yields     NNS            *)     -    -   -   -        *    (ARG1*)  -
+nw/wsj/04/wsj_0457   0   12             on      IN         (PP*      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   13            30       CD     (NP(NML*      -    -   -   -   (DATE*         *   -
+nw/wsj/04/wsj_0457   0   14             -     HYPH            *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   15           year      NN            *)     -    -   -   -        *)        *   -
+nw/wsj/04/wsj_0457   0   16       mortgage      NN            *      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   17    commitments     NNS           *))     -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   18            for      IN         (PP*      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   19       delivery      NN      (NP(NP*)     -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   20         within      IN         (PP*      -    -   -   -        *         *   -
+nw/wsj/04/wsj_0457   0   21            30       CD         (NP*      -    -   -   -   (DATE*         *   -
+nw/wsj/04/wsj_0457   0   22           days     NNS        *)))))     -    -   -   -        *)        *   -
+nw/wsj/04/wsj_0457   0   23              .       .           *))     -    -   -   -        *         *   -
+
+nw/wsj/04/wsj_0457   0    0           9.86      CD  (TOP(NP(NP(NP*     -    -   -   -   (PERCENT*         *   -
+nw/wsj/04/wsj_0457   0    1               %     NN               *)    -    -   -   -           *)        *   -
+nw/wsj/04/wsj_0457   0    2               ,      ,               *     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    3        standard     JJ            (NP*     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    4    conventional     JJ               *     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    5           fixed    VBN           (NML*     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    6              -    HYPH               *     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    7            rate     NN               *)    -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    8       mortgages    NNS              *))    -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0    9               ;      :               *     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0   10          7.875      CD         (NP(NP*     -    -   -   -   (PERCENT*         *   -
+nw/wsj/04/wsj_0457   0   11               %     NN               *)    -    -   -   -           *)        *   -
+nw/wsj/04/wsj_0457   0   12               ,      ,               *     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0   13              2      CD        (NP(NML*     -    -   -   -   (PERCENT*         *   -
+nw/wsj/04/wsj_0457   0   14               %     NN               *)    -    -   -   -           *)        *   -
+nw/wsj/04/wsj_0457   0   15            rate     NN          (ADJP*     -    -   -   -           *    (ARG1*)  -
+nw/wsj/04/wsj_0457   0   16          capped    VBN               *)   cap  01   -   -           *       (V*)  -
+nw/wsj/04/wsj_0457   0   17             one     CD           (NML*     -    -   -   -      (DATE*         *   -
+nw/wsj/04/wsj_0457   0   18              -    HYPH               *     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0   19            year     NN               *)    -    -   -   -           *)        *   -
+nw/wsj/04/wsj_0457   0   20      adjustable     JJ           (NML*     -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0   21            rate     NN               *)    -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0   22       mortgages    NNS              *))    -    -   -   -           *         *   -
+nw/wsj/04/wsj_0457   0   23               .      .              *))    -    -   -   -           *         *   -
+
+nw/wsj/04/wsj_0457   0   0      Source    NN   (TOP(NP(NP*)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   1           :     :             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   2    Telerate   NNP          (NP*   -   -   -   -   (ORG*   -
+nw/wsj/04/wsj_0457   0   3     Systems   NNP             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   4         Inc   NNP             *)  -   -   -   -       *)  -
+nw/wsj/04/wsj_0457   0   5           .     .            *))  -   -   -   -       *   -
+
+nw/wsj/04/wsj_0457   0    0        FEDERAL     NNP  (TOP(NP(NP*       -    -   -   -    (ORG*         *        *   -
+nw/wsj/04/wsj_0457   0    1       NATIONAL     NNP            *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0    2       MORTGAGE     NNP            *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0    3    ASSOCIATION     NNP            *)      -    -   -   -        *)        *        *   -
+nw/wsj/04/wsj_0457   0    4         -LRB-   -LRB-             *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0    5         Fannie     NNP         (NP*       -    -   -   -    (ORG*         *        *   -
+nw/wsj/04/wsj_0457   0    6            Mae     NNP            *)      -    -   -   -        *)        *        *   -
+nw/wsj/04/wsj_0457   0    7         -RRB-   -RRB-             *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0    8              :       :            *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0    9         Posted     VBN   (NP(NP(NP*     post  01   -   -        *       (V*)  (ARG1*   -
+nw/wsj/04/wsj_0457   0   10         yields     NNS            *)      -    -   -   -        *    (ARG1*)       *   -
+nw/wsj/04/wsj_0457   0   11             on      IN         (PP*       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   12            30       CD     (NP(NML*       -    -   -   -   (DATE*         *        *   -
+nw/wsj/04/wsj_0457   0   13           year      NN            *)      -    -   -   -        *)        *        *   -
+nw/wsj/04/wsj_0457   0   14       mortgage      NN            *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   15    commitments     NNS            *)      -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   16            for      IN         (PP*       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   17       delivery      NN      (NP(NP*)      -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   18         within      IN         (PP*       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   19            30       CD         (NP*       -    -   -   -   (DATE*         *        *   -
+nw/wsj/04/wsj_0457   0   20           days     NNS       *))))))      -    -   -   -        *)        *        *)  -
+nw/wsj/04/wsj_0457   0   21         -LRB-   -LRB-             *       -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   22         priced     VBN         (VP*    price  01   -   -        *         *      (V*)  -
+nw/wsj/04/wsj_0457   0   23             at      IN         (PP*       -    -   -   -        *         *   (ARG2*   -
+nw/wsj/04/wsj_0457   0   24            par      NN       (NP*)))      -    -   -   -        *         *        *)  -
+nw/wsj/04/wsj_0457   0   25         -RRB-   -RRB-             *)      -    -   -   -        *         *        *   -
+nw/wsj/04/wsj_0457   0   26              .       .           *))      -    -   -   -        *         *        *   -
+
+nw/wsj/04/wsj_0457   0    0           9.76      CD  (TOP(NP(NP(NP*     -    -   -   -    (PERCENT*         *   -
+nw/wsj/04/wsj_0457   0    1               %     NN               *)    -    -   -   -            *)        *   -
+nw/wsj/04/wsj_0457   0    2               ,      ,               *     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    3        standard     JJ            (NP*     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    4    conventional     JJ               *     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    5           fixed    VBN           (NML*     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    6              -    HYPH               *     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    7            rate     NN               *)    -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    8       mortgages    NNS              *))    -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0    9               ;      :               *     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0   10           8.75      CD         (NP(NP*     -    -   -   -    (PERCENT*         *   -
+nw/wsj/04/wsj_0457   0   11               %     NN               *)    -    -   -   -            *)        *   -
+nw/wsj/04/wsj_0457   0   12               ,      ,               *     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0   13            6/2      CD            (NP*     -    -   -   -    (CARDINAL)        *   -
+nw/wsj/04/wsj_0457   0   14            rate     NN          (ADJP*     -    -   -   -            *    (ARG1*)  -
+nw/wsj/04/wsj_0457   0   15          capped    VBN               *)   cap  01   -   -            *       (V*)  -
+nw/wsj/04/wsj_0457   0   16             one     CD           (NML*     -    -   -   -       (DATE*         *   -
+nw/wsj/04/wsj_0457   0   17              -    HYPH               *     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0   18            year     NN               *)    -    -   -   -            *)        *   -
+nw/wsj/04/wsj_0457   0   19      adjustable     JJ           (NML*     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0   20            rate     NN               *)    -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0   21       mortgages    NNS              *))    -    -   -   -            *         *   -
+nw/wsj/04/wsj_0457   0   22               .      .              *))    -    -   -   -            *         *   -
+
+nw/wsj/04/wsj_0457   0   0      Source    NN   (TOP(NP(NP*)  -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   1           :     :             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   2    Telerate   NNP          (NP*   -   -   -   -   (ORG*   -
+nw/wsj/04/wsj_0457   0   3     Systems   NNP             *   -   -   -   -       *   -
+nw/wsj/04/wsj_0457   0   4         Inc   NNP             *)  -   -   -   -       *)  -
+nw/wsj/04/wsj_0457   0   5           .     .            *))  -   -   -   -       *   -
+
+nw/wsj/04/wsj_0457   0   0    MERRILL   NNP  (TOP(NP(NP*   -   -   -   -       (ORG*   -
+nw/wsj/04/wsj_0457   0   1      LYNCH   NNP            *   -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   2      READY   NNP            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   3     ASSETS   NNP            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   4      TRUST   NNP            *)  -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   5          :     :            *   -   -   -   -           *   -
+nw/wsj/04/wsj_0457   0   6      8.70     CD         (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/04/wsj_0457   0   7          %    NN            *)  -   -   -   -           *)  -
+nw/wsj/04/wsj_0457   0   8          .     .           *))  -   -   -   -           *   -
+
+nw/wsj/04/wsj_0457   0    0    Annualized   VBN  (TOP(NP(NP(NP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    1       average    JJ               *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    2          rate    NN               *)  -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    3            of    IN            (PP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    4        return    NN           (NP*))  -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    5         after    IN            (PP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    6      expenses   NNS           (NP*))  -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    7           for    IN            (PP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0    8           the    DT            (NP*   -   -   -   -   (DATE*   -
+nw/wsj/04/wsj_0457   0    9          past    JJ               *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   10           30     CD               *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   11          days   NNS             *)))  -   -   -   -        *)  -
+nw/wsj/04/wsj_0457   0   12             ;     :               *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   13           not    RB               *   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   14             a    DT         (NP(NP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   15      forecast    NN               *)  -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   16            of    IN            (PP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   17        future    JJ            (NP*   -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   18       returns   NNS             *)))  -   -   -   -        *   -
+nw/wsj/04/wsj_0457   0   19             .     .              *))  -   -   -   -        *   -
+
+#end document

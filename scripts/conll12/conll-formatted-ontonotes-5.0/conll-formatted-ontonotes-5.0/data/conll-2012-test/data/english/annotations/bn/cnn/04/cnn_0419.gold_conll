@@ -1,0 +1,62 @@
+#begin document (bn/cnn/04/cnn_0419); part 000
+bn/cnn/04/cnn_0419   0    0     Convicted   VBN  (TOP(S(NP(NML(NML*    convict  01   -   -          *       (V*)  (ARG1*   (0
+bn/cnn/04/cnn_0419   0    1        rapist    NN                   *)        -    -   -   -          *    (ARG1*)       *    -
+bn/cnn/04/cnn_0419   0    2           and    CC                   *         -    -   -   -          *         *        *    -
+bn/cnn/04/cnn_0419   0    3           Max   NNP           (NML(NML*         -    -   -   -      (ORG*         *        *    -
+bn/cnn/04/cnn_0419   0    4        Factor   NNP                   *)        -    -   -   -          *)        *        *    -
+bn/cnn/04/cnn_0419   0    5          heir    NN                  *))        -    -   -   -          *         *        *    -
+bn/cnn/04/cnn_0419   0    6        Andrew   NNP                   *         -    -   -   -   (PERSON*         *        *    -
+bn/cnn/04/cnn_0419   0    7        Luster   NNP                   *)        -    -   -   -          *)        *        *)   0)
+bn/cnn/04/cnn_0419   0    8            is   VBZ                (VP*         be  01   4   -          *         *      (V*)   -
+bn/cnn/04/cnn_0419   0    9          back    RB              (ADVP*         -    -   -   -          *         *   (ARG2*    -
+bn/cnn/04/cnn_0419   0   10            in    IN                (PP*         -    -   -   -          *         *        *    -
+bn/cnn/04/cnn_0419   0   11    California   NNP             (NP*))))        -    -   -   -       (GPE)        *        *)   -
+bn/cnn/04/cnn_0419   0   12             .     .                  *))        -    -   -   -          *         *        *    -
+
+bn/cnn/04/cnn_0419   0    0       Luster    NNP   (TOP(S(NP*)          -    -   -   -    (PERSON)       (ARG1*)       *             *    (0)
+bn/cnn/04/cnn_0419   0    1     returned    VBD         (VP*       return  01   1   -          *           (V*)       *             *     -
+bn/cnn/04/cnn_0419   0    2           to     IN         (PP*           -    -   -   -          *        (ARG4*        *             *     -
+bn/cnn/04/cnn_0419   0    3          Los    NNP         (NP*           -    -   -   -      (GPE*             *        *             *     -
+bn/cnn/04/cnn_0419   0    4      Angeles    NNP           *))          -    -   -   -          *)            *)       *             *     -
+bn/cnn/04/cnn_0419   0    5    yesterday     NN         (NP*)   yesterday   -   1   -      (DATE)   (ARGM-TMP*)       *             *     -
+bn/cnn/04/cnn_0419   0    6         from     IN         (PP*           -    -   -   -          *        (ARG3*        *             *     -
+bn/cnn/04/cnn_0419   0    7       Mexico    NNP        (NP*))          -    -   -   -       (GPE)            *)       *             *     -
+bn/cnn/04/cnn_0419   0    8    following    VBG         (PP*       follow  01   2   -          *    (ARGM-TMP*      (V*)            *     -
+bn/cnn/04/cnn_0419   0    9          his   PRP$      (NP(NP*           -    -   -   -          *             *   (ARG2*        (ARG1*)   (0)
+bn/cnn/04/cnn_0419   0   10      capture     NN            *)     capture  01   1   -          *             *        *           (V*)    -
+bn/cnn/04/cnn_0419   0   11      Tuesday    NNP         (NP*)          -    -   -   -      (DATE)            *        *    (ARGM-TMP*)    -
+bn/cnn/04/cnn_0419   0   12           by     IN         (PP*           -    -   -   -          *             *        *        (ARG0*     -
+bn/cnn/04/cnn_0419   0   13     American     JJ         (NP*           -    -   -   -      (NORP)            *        *             *     -
+bn/cnn/04/cnn_0419   0   14       bounty     NN            *       bounty   -   1   -          *             *        *             *     -
+bn/cnn/04/cnn_0419   0   15      hunters    NNS        *)))))      hunter   -   2   -          *             *)       *)            *)    -
+bn/cnn/04/cnn_0419   0   16            .      .           *))          -    -   -   -          *             *        *             *     -
+
+bn/cnn/04/cnn_0419   0    0      Luster    NNP   (TOP(S(NP*)      -    -   -   -      (PERSON)      (ARG0*)           *    (ARG0*)   (ARG0*)   (0)
+bn/cnn/04/cnn_0419   0    1     skipped    VBD         (VP*     skip  01   1   -            *          (V*)           *         *         *     -
+bn/cnn/04/cnn_0419   0    2        bail     NN         (NP*)      -    -   -   -            *       (ARG1*)           *         *         *     -
+bn/cnn/04/cnn_0419   0    3      during     IN         (PP*       -    -   -   -            *   (ARGM-TMP*            *         *         *     -
+bn/cnn/04/cnn_0419   0    4         his   PRP$      (NP(NP*       -    -   -   -            *            *       (ARG1*)        *         *    (0)
+bn/cnn/04/cnn_0419   0    5       trial     NN            *)   trial  02   3   -            *            *          (V*)        *         *     -
+bn/cnn/04/cnn_0419   0    6          in     IN         (PP*       -    -   -   -            *            *   (ARGM-TMP*         *         *     -
+bn/cnn/04/cnn_0419   0    7     January    NNP        (NP*))      -    -   -   -        (DATE)           *            *)        *         *     -
+bn/cnn/04/cnn_0419   0    8         for     IN         (PP*       -    -   -   -            *            *       (ARG3*         *         *     -
+bn/cnn/04/cnn_0419   0    9      raping    VBG       (S(VP*     rape  01   -   -            *            *            *       (V*)        *     -
+bn/cnn/04/cnn_0419   0   10         and     CC            *       -    -   -   -            *            *            *         *         *     -
+bn/cnn/04/cnn_0419   0   11    drugging    VBG            *     drug  01   -   -            *            *            *         *       (V*)    -
+bn/cnn/04/cnn_0419   0   12       three     CD         (NP*       -    -   -   -    (CARDINAL)           *            *    (ARG1*    (ARG1*     -
+bn/cnn/04/cnn_0419   0   13       women    NNS      *)))))))   woman   -   1   -            *            *)           *)        *)        *)    -
+bn/cnn/04/cnn_0419   0   14           .      .           *))      -    -   -   -            *            *            *         *         *     -
+
+bn/cnn/04/cnn_0419   0    0           He   PRP   (TOP(S(NP*)         -    -   -   -        *      *       (ARG1*)   (0)
+bn/cnn/04/cnn_0419   0    1          was   VBD         (VP*          be  03   -   -        *    (V*)           *     -
+bn/cnn/04/cnn_0419   0    2    sentenced   VBN         (VP*    sentence  01   1   -        *      *          (V*)    -
+bn/cnn/04/cnn_0419   0    3           in    IN         (PP*          -    -   -   -        *      *   (ARGM-MNR*     -
+bn/cnn/04/cnn_0419   0    4    abstentia    NN        (NP*))         -    -   -   -        *      *            *)    -
+bn/cnn/04/cnn_0419   0    5           to    IN         (PP*          -    -   -   -        *      *       (ARG2*     -
+bn/cnn/04/cnn_0419   0    6         124     CD      (NP(NP*          -    -   -   -   (DATE*      *            *     -
+bn/cnn/04/cnn_0419   0    7        years   NNS            *)         -    -   -   -        *)     *            *     -
+bn/cnn/04/cnn_0419   0    8           in    IN         (PP*          -    -   -   -        *      *            *     -
+bn/cnn/04/cnn_0419   0    9       prison    NN    (NP*))))))         -    -   -   -        *      *            *)    -
+bn/cnn/04/cnn_0419   0   10            .     .           *))         -    -   -   -        *      *            *     -
+
+#end document

@@ -1,0 +1,51 @@
+#begin document (nw/wsj/17/wsj_1771); part 000
+nw/wsj/17/wsj_1771   0   0    @   NFP   (TOP(X*))  -   -   -   -   *   -
+
+nw/wsj/17/wsj_1771   0   0       Money   NNP  (TOP(NP(NP(NP(NML*   -   -   -   -           *   -
+nw/wsj/17/wsj_1771   0   1      Market   NNP                   *)  -   -   -   -           *   -
+nw/wsj/17/wsj_1771   0   2    Deposits   NNS                   *)  -   -   -   -           *   -
+nw/wsj/17/wsj_1771   0   3          -      :                   *   -   -   -   -           *   -
+nw/wsj/17/wsj_1771   0   4           a    LS              (LST*))  -   -   -   -           *   -
+nw/wsj/17/wsj_1771   0   5       6.23     CD                (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/17/wsj_1771   0   6           %    NN                 *)))  -   -   -   -           *)  -
+
+nw/wsj/17/wsj_1771   0    0               a    LS   (TOP(NP(LST*)        -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0    1              -      :              *         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0    2         Average    JJ        (NP(NP*         -    -   -   -            *        (ARG1*        *   -
+nw/wsj/17/wsj_1771   0    3            rate    NN              *)        -    -   -   -            *             *)       *   -
+nw/wsj/17/wsj_1771   0    4            paid   VBN           (VP*        pay  01   -   -            *           (V*)       *   -
+nw/wsj/17/wsj_1771   0    5       yesterday    NN           (NP*)        -    -   -   -        (DATE)   (ARGM-TMP*)       *   -
+nw/wsj/17/wsj_1771   0    6              by    IN           (PP*         -    -   -   -            *        (ARG0*        *   -
+nw/wsj/17/wsj_1771   0    7            100     CD        (NP(NP*         -    -   -   -    (CARDINAL)            *        *   -
+nw/wsj/17/wsj_1771   0    8           large    JJ              *         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0    9           banks   NNS              *         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   10             and    CC              *         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   11         thrifts   NNS              *)        -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   12              in    IN           (PP*         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   13             the    DT           (NP*         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   14             10     CD              *         -    -   -   -    (CARDINAL)            *        *   -
+nw/wsj/17/wsj_1771   0   15         largest   JJS              *         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   16    metropolitan    JJ              *         -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   17           areas   NNS           *))))        -    -   -   -            *             *)       *   -
+nw/wsj/17/wsj_1771   0   18              as    IN         (SBAR*         -    -   -   -            *    (ARGM-ADV*        *   -
+nw/wsj/17/wsj_1771   0   19        compiled   VBN         (S(VP*    compile  01   1   -            *             *      (V*)  -
+nw/wsj/17/wsj_1771   0   20              by    IN           (PP*         -    -   -   -            *             *   (ARG0*   -
+nw/wsj/17/wsj_1771   0   21            Bank   NNP       (NP(NML*         -    -   -   -        (ORG*             *        *   -
+nw/wsj/17/wsj_1771   0   22            Rate   NNP              *)        -    -   -   -            *             *        *   -
+nw/wsj/17/wsj_1771   0   23         Monitor   NNP        *)))))))        -    -   -   -            *)            *)       *)  -
+nw/wsj/17/wsj_1771   0   24               .     .             *))        -    -   -   -            *             *        *   -
+
+nw/wsj/17/wsj_1771   0   0          b   LS   (TOP(NP(LST*)  -   -   -   -        *   -
+nw/wsj/17/wsj_1771   0   1         -     :              *   -   -   -   -        *   -
+nw/wsj/17/wsj_1771   0   2    Current   JJ           (NP*   -   -   -   -        *   -
+nw/wsj/17/wsj_1771   0   3     annual   JJ              *   -   -   -   -    (DATE)  -
+nw/wsj/17/wsj_1771   0   4      yield   NN              *)  -   -   -   -        *   -
+nw/wsj/17/wsj_1771   0   5          .    .             *))  -   -   -   -        *   -
+
+nw/wsj/17/wsj_1771   0   0    Guaranteed   VBN  (TOP(NP(NP*    guarantee  01   -   -           *      (V*)  -
+nw/wsj/17/wsj_1771   0   1       minimum    NN            *)          -    -   -   -           *   (ARG1*   -
+nw/wsj/17/wsj_1771   0   2            6     CD         (NP*           -    -   -   -   (PERCENT*        *   -
+nw/wsj/17/wsj_1771   0   3             %    NN            *)          -    -   -   -           *)       *)  -
+nw/wsj/17/wsj_1771   0   4             .     .           *))          -    -   -   -           *        *   -
+
+#end document

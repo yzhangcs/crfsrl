@@ -1,0 +1,514 @@
+#begin document (bn/cnn/01/cnn_0113); part 000
+bn/cnn/01/cnn_0113   0    0       Hello    UH   (TOP(S(INTJ*)    -    -   -   -          *    (ARGM-DIS*)  -
+bn/cnn/01/cnn_0113   0    1           ,     ,              *     -    -   -   -          *             *   -
+bn/cnn/01/cnn_0113   0    2           I   PRP           (NP*)    -    -   -   -          *        (ARG1*)  -
+bn/cnn/01/cnn_0113   0    3          'm   VBP           (VP*     be   -   2   -          *             *   -
+bn/cnn/01/cnn_0113   0    4    Kathleen   NNP           (NP*     -    -   -   -   (PERSON*             *   -
+bn/cnn/01/cnn_0113   0    5     Kennedy   NNP              *)    -    -   -   -          *)            *   -
+bn/cnn/01/cnn_0113   0    6           ,     ,              *     -    -   -   -          *             *   -
+bn/cnn/01/cnn_0113   0    7     sitting   VBG         (S(VP*    sit  05   4   -          *           (V*)  -
+bn/cnn/01/cnn_0113   0    8          in    RP          (PRT*)    -    -   -   -          *             *   -
+bn/cnn/01/cnn_0113   0    9         for    IN           (PP*     -    -   -   -          *        (ARG2*   -
+bn/cnn/01/cnn_0113   0   10       Chuck   NNP           (NP*     -    -   -   -   (PERSON*             *   -
+bn/cnn/01/cnn_0113   0   11     Roberts   NNP          *)))))    -    -   -   -          *)            *)  -
+bn/cnn/01/cnn_0113   0   12           .     .             *))    -    -   -   -          *             *   -
+
+bn/cnn/01/cnn_0113   0    0              We   PRP   (TOP(S(NP*)            -    -   -   -        *    (ARG0*)   (14)
+bn/cnn/01/cnn_0113   0    1           begin   VBP         (VP*          begin  01   2   -        *       (V*)     -
+bn/cnn/01/cnn_0113   0    2            this    DT      (NP(NP*             -    -   -   -   (TIME*    (ARG1*      -
+bn/cnn/01/cnn_0113   0    3            half    JJ            *             -    -   -   -        *         *      -
+bn/cnn/01/cnn_0113   0    4            hour    NN            *)          hour   -   1   -        *)        *      -
+bn/cnn/01/cnn_0113   0    5            with    IN         (PP*             -    -   -   -        *         *      -
+bn/cnn/01/cnn_0113   0    6             the    DT      (NP(NP*             -    -   -   -        *         *      -
+bn/cnn/01/cnn_0113   0    7          latest   JJS            *             -    -   -   -        *         *      -
+bn/cnn/01/cnn_0113   0    8    developments   NNS            *)   development   -   3   -        *         *      -
+bn/cnn/01/cnn_0113   0    9              in    IN         (PP*             -    -   -   -        *         *      -
+bn/cnn/01/cnn_0113   0   10             the    DT         (NP*             -    -   -   -        *         *     (5
+bn/cnn/01/cnn_0113   0   11    presidential    JJ            *             -    -   -   -        *         *      -
+bn/cnn/01/cnn_0113   0   12        election    NN       *))))))      election   -   1   -        *         *)     5)
+bn/cnn/01/cnn_0113   0   13               .     .           *))            -    -   -   -        *         *      -
+
+bn/cnn/01/cnn_0113   0    0    Thousands   NNS   (TOP(S(NP(NP*)         -    -   -   -    (CARDINAL)        *      *      *       (ARG1*   (10
+bn/cnn/01/cnn_0113   0    1           of    IN            (PP*          -    -   -   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0    2     disputed   VBN         (NP(NP*     dispute  01   -   -            *       (V*)     *      *            *     -
+bn/cnn/01/cnn_0113   0    3      ballots   NNS               *)         -    -   -   -            *    (ARG2*)     *      *            *     -
+bn/cnn/01/cnn_0113   0    4           in    IN            (PP*          -    -   -   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0    5        South   NNP            (NP*          -    -   -   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0    6      Florida   NNP           *)))))         -    -   -   -         (GPE)        *      *      *            *)   10)
+bn/cnn/01/cnn_0113   0    7          are   VBP            (VP*          be  03   -   -            *         *    (V*)     *            *     -
+bn/cnn/01/cnn_0113   0    8        being   VBG            (VP*          be  03   -   -            *         *      *    (V*)           *     -
+bn/cnn/01/cnn_0113   0    9     prepared   VBN            (VP*     prepare  02   1   -            *         *      *      *          (V*)    -
+bn/cnn/01/cnn_0113   0   10          for    IN            (PP*          -    -   -   -            *         *      *      *       (ARG2*     -
+bn/cnn/01/cnn_0113   0   11     shipment    NN         (NP(NP*)         -    -   -   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0   12           to    IN            (PP*          -    -   -   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0   13          the    DT            (NP*          -    -   -   -            *         *      *      *            *    (1
+bn/cnn/01/cnn_0113   0   14        state    NN               *       state   -   2   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0   15      capital    NN            *))))    capital   -   2   -            *         *      *      *            *)    1)
+bn/cnn/01/cnn_0113   0   16         amid    IN            (PP*          -    -   -   -            *         *      *      *   (ARGM-LOC*     -
+bn/cnn/01/cnn_0113   0   17        tight    JJ            (NP*          -    -   -   -            *         *      *      *            *     -
+bn/cnn/01/cnn_0113   0   18     security    NN           *)))))   security   -   5   -            *         *      *      *            *)    -
+bn/cnn/01/cnn_0113   0   19            .     .              *))         -    -   -   -            *         *      *      *            *     -
+
+bn/cnn/01/cnn_0113   0    0              A    DT     (TOP(S(S(NP*           -    -   -   -       *       (ARG0*      *            *        *           *             *        *        *             *             *     (2
+bn/cnn/01/cnn_0113   0    1    Tallahassee   NNP                *           -    -   -   -    (GPE)           *      *            *        *           *             *        *        *             *             *     (1)
+bn/cnn/01/cnn_0113   0    2          judge    NN                *)       judge   -   1   -       *            *)     *            *        *           *             *        *        *             *             *      2)
+bn/cnn/01/cnn_0113   0    3          wants   VBZ             (VP*         want  01   2   -       *          (V*)     *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0    4           them   PRP             (NP*)          -    -   -   -       *       (ARG1*)     *            *        *           *             *        *        *             *             *    (10)
+bn/cnn/01/cnn_0113   0    5             in    IN           (SBAR*           -    -   -   -       *   (ARGM-PRP*      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0    6           case    NN             (NP*         case   -   1   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0    7           they   PRP      (SBAR(S(NP*)          -    -   -   -       *            *      *       (ARG1*)       *           *             *        *        *             *             *    (10)
+bn/cnn/01/cnn_0113   0    8            are   VBP             (VP*           be  03   -   -       *            *    (V*)           *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0    9         needed   VBN             (VP*         need  01   1   -       *            *      *          (V*)       *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   10             as    IN             (PP*           -    -   -   -       *            *      *   (ARGM-PRD*        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   11       evidence    NN          (NP(NP*)    evidence   -   3   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   12             in    IN             (PP*           -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   13              a    DT          (NP(NP*           -    -   -   -       *            *      *            *   (ARG0*           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   14        lawsuit    NN                *)          -    -   -   -       *            *      *            *        *)          *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   15    challenging   VBG             (VP*    challenge  01   1   -       *            *      *            *      (V*)          *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   16        Florida   NNP          (NP(NP*           -    -   -   -    (GPE)           *      *            *   (ARG1*      (ARG1*        (ARG0*        *        *             *             *    (16
+bn/cnn/01/cnn_0113   0   17             's   POS                *)          -    -   -   -       *            *      *            *        *           *)            *)       *        *             *             *     16)
+bn/cnn/01/cnn_0113   0   18      certified   VBN                *      certify  01   -   -       *            *      *            *        *         (V*)   (ARGM-ADJ*)       *        *             *             *      -
+bn/cnn/01/cnn_0113   0   19           vote    NN   *))))))))))))))        vote  01   1   -       *            *)     *            *)       *)   (C-ARG1*)          (V*)       *        *             *             *      -
+bn/cnn/01/cnn_0113   0   20              ,     ,                *           -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   21            but    CC                *           -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   22          there    EX           (S(NP*)          -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   23            are   VBP             (VP*           be  02   -   -       *            *      *            *        *           *             *      (V*)       *             *             *      -
+bn/cnn/01/cnn_0113   0   24        growing   VBG             (NP*         grow  01   4   -       *            *      *            *        *           *             *   (ARG1*      (V*)            *             *      -
+bn/cnn/01/cnn_0113   0   25          signs   NNS                *         sign   -   2   -       *            *      *            *        *           *             *        *   (ARG1*             *             *      -
+bn/cnn/01/cnn_0113   0   26          state    NN      (SBAR(S(NP*        state   -   2   -       *            *      *            *        *           *             *        *        *        (ARG1*        (ARG0*      -
+bn/cnn/01/cnn_0113   0   27      lawmakers   NNS                *)          -    -   -   -       *            *      *            *        *           *             *        *        *             *)            *)     -
+bn/cnn/01/cnn_0113   0   28          could    MD             (VP*           -    -   -   -       *            *      *            *        *           *             *        *        *    (ARGM-MOD*)   (ARGM-MOD*)     -
+bn/cnn/01/cnn_0113   0   29           step    VB          (VP(VP*         step  02   5   -       *            *      *            *        *           *             *        *        *           (V*)            *      -
+bn/cnn/01/cnn_0113   0   30             in    RB          (ADVP*))          -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   31            and    CC                *           -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+bn/cnn/01/cnn_0113   0   32         decide    VB             (VP*       decide  01   1   -       *            *      *            *        *           *             *        *        *             *           (V*)     -
+bn/cnn/01/cnn_0113   0   33            the    DT             (NP*           -    -   -   -       *            *      *            *        *           *             *        *        *             *        (ARG1*      -
+bn/cnn/01/cnn_0113   0   34         winner    NN        *)))))))))          -    -   -   -       *            *      *            *        *           *             *        *)       *)            *             *)     -
+bn/cnn/01/cnn_0113   0   35              .     .               *))          -    -   -   -       *            *      *            *        *           *             *        *        *             *             *      -
+
+bn/cnn/01/cnn_0113   0   0    Jonathan   NNP  (TOP(S(NP*        -    -   -   -   (PERSON*   (ARG0*   (18
+bn/cnn/01/cnn_0113   0   1       Aiken   NNP           *)       -    -   -   -          *)       *)   18)
+bn/cnn/01/cnn_0113   0   2     reports   VBZ        (VP*)   report  01   1   -          *      (V*)    -
+bn/cnn/01/cnn_0113   0   3           .     .          *))       -    -   -   -          *        *     -
+
+bn/cnn/01/cnn_0113   0    0          State    NN     (TOP(S(NP(NP*        state   -   2   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0    1    legislators   NNS                 *)          -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0    2             in    IN              (PP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0    3        Florida   NNP           (NP(NP*           -    -   -   -         (GPE)     *             *      *             *    (16
+bn/cnn/01/cnn_0113   0    4             's   POS                 *)          -    -   -   -            *      *             *      *             *     16)
+bn/cnn/01/cnn_0113   0    5        capitol    NN               *)))          -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0    6            are   VBP              (VP*           be  03   -   -            *    (V*)            *      *             *      -
+bn/cnn/01/cnn_0113   0    7     discussing   VBG              (VP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0    8             if    IN            (SBAR*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0    9              a    DT            (S(NP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   10        special    JJ                 *           -    -   -   -            *      *    (ARGM-ADJ*)     *             *      -
+bn/cnn/01/cnn_0113   0   11        session    NN                 *)     session  01   1   -            *      *           (V*)     *             *      -
+bn/cnn/01/cnn_0113   0   12             is   VBZ              (VP*           be  03   -   -            *      *             *    (V*)            *      -
+bn/cnn/01/cnn_0113   0   13         needed   VBN              (VP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   14             to    TO            (S(VP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   15         decide    VB              (VP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   16          which   WDT  (SBAR(WHNP(WHNP*           -    -   -   -            *      *             *      *        (ARG0*      -
+bn/cnn/01/cnn_0113   0   17            25     CD                 *           -    -   -   -    (CARDINAL)     *             *      *             *      -
+bn/cnn/01/cnn_0113   0   18       electors   NNS                *))          -    -   -   -            *      *             *      *             *)     -
+bn/cnn/01/cnn_0113   0   19           will    MD            (S(VP*           -    -   -   -            *      *             *      *    (ARGM-MOD*)     -
+bn/cnn/01/cnn_0113   0   20      represent    VB              (VP*    represent  01   2   -            *      *             *      *           (V*)     -
+bn/cnn/01/cnn_0113   0   21        Florida   NNP              (NP*)          -    -   -   -         (GPE)     *             *      *        (ARG1*)   (16)
+bn/cnn/01/cnn_0113   0   22             in    IN              (PP*           -    -   -   -            *      *             *      *    (ARGM-LOC*      -
+bn/cnn/01/cnn_0113   0   23            the    DT              (NP*           -    -   -   -        (ORG*      *             *      *             *    (12
+bn/cnn/01/cnn_0113   0   24      Electoral   NNP                 *           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   25        College   NNP                *))          -    -   -   -            *)     *             *      *             *)    12)
+bn/cnn/01/cnn_0113   0   26            --      ,                 *           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   27              a    DT           (NP(NP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   28     Democratic    JJ                 *           -    -   -   -        (NORP)     *             *      *             *      -
+bn/cnn/01/cnn_0113   0   29          slate    NN                 *)          -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   30              ?     ,                 *           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   31             or    CC                 *           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   32              a    DT              (NP*           -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   33     Republican    JJ                 *           -    -   -   -        (NORP)     *             *      *             *      -
+bn/cnn/01/cnn_0113   0   34          slate    NN   *)))))))))))))))          -    -   -   -            *      *             *      *             *      -
+bn/cnn/01/cnn_0113   0   35              ?     .                *))          -    -   -   -            *      *             *      *             *      -
+
+bn/cnn/01/cnn_0113   0    0               U.S.   NNP  (TOP(S(NP*                -    -   -   -    (GPE)  (ARG0*            *     -
+bn/cnn/01/cnn_0113   0    1                law    NN           *)              law   -   1   -       *        *)           *     -
+bn/cnn/01/cnn_0113   0    2             allows   VBZ        (VP*             allow  01   1   -       *      (V*)           *     -
+bn/cnn/01/cnn_0113   0    3              state    NN      (S(NP*             state   -   2   -       *   (ARG1*       (ARG0*     -
+bn/cnn/01/cnn_0113   0    4       legislatures   NNS           *)               -    -   -   -       *        *            *)    -
+bn/cnn/01/cnn_0113   0    5                 to    TO        (VP*                -    -   -   -       *        *            *     -
+bn/cnn/01/cnn_0113   0    6             choose    VB        (VP*            choose  01   1   -       *        *          (V*)   (7)
+bn/cnn/01/cnn_0113   0    7    representatives   NNS     (NP(NP*)   representative   -   2   -       *        *       (ARG1*     -
+bn/cnn/01/cnn_0113   0    8                 to    IN        (PP*                -    -   -   -       *        *            *     -
+bn/cnn/01/cnn_0113   0    9                the    DT        (NP*                -    -   -   -   (ORG*        *            *   (12
+bn/cnn/01/cnn_0113   0   10          Electoral   NNP           *                -    -   -   -       *        *            *     -
+bn/cnn/01/cnn_0113   0   11            College   NNP         *)))               -    -   -   -       *)       *            *)   12)
+bn/cnn/01/cnn_0113   0   12                 as    IN        (PP*                -    -   -   -       *        *   (ARGM-MNR*     -
+bn/cnn/01/cnn_0113   0   13                  a    DT        (NP*                -    -   -   -       *        *            *     -
+bn/cnn/01/cnn_0113   0   14               last    JJ           *                -    -   -   -       *        *            *     -
+bn/cnn/01/cnn_0113   0   15             resort    NN      *))))))               -    -   -   -       *        *)           *)    -
+bn/cnn/01/cnn_0113   0   16                  .     .          *))               -    -   -   -       *        *            *     -
+
+bn/cnn/01/cnn_0113   0    0         Florida   NNP          (TOP(S(NP*          -    -   -   -     (GPE)       (ARG0*         *      *             *            *        *    (16)
+bn/cnn/01/cnn_0113   0    1       lawmakers   NNS                   *)         -    -   -   -        *             *)        *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0    2             may    MD                (VP*          -    -   -   -        *    (ARGM-MOD*)        *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0    3              go    VB                (VP*          go  02   1   -        *           (V*)        *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0    4            that    DT                (NP*          -    -   -   -        *        (ARG1*         *      *             *            *        *     (7
+bn/cnn/01/cnn_0113   0    5           route    NN                   *)      route   -   4   -        *             *)        *      *             *            *        *      7)
+bn/cnn/01/cnn_0113   0    6               ,     ,                   *          -    -   -   -        *             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0    7              if    IN              (SBAR*          -    -   -   -        *    (ARGM-ADV*         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0    8             the    DT              (S(NP*          -    -   -   -        *             *         *      *        (ARG1*            *        *     (0
+bn/cnn/01/cnn_0113   0    9        disputed   VBN                   *     dispute  01   -   -        *             *       (V*)     *             *            *        *      -
+bn/cnn/01/cnn_0113   0   10         recount    NN                   *)         -    -   -   -        *             *    (ARG2*)     *             *)           *        *      0)
+bn/cnn/01/cnn_0113   0   11              is   VBZ                (VP*          be  03   -   -        *             *         *    (V*)            *            *        *      -
+bn/cnn/01/cnn_0113   0   12             n't    RB                   *          -    -   -   -        *             *         *      *    (ARGM-NEG*)           *        *      -
+bn/cnn/01/cnn_0113   0   13         settled   VBN                (VP*      settle  02   2   -        *             *         *      *           (V*)           *        *      -
+bn/cnn/01/cnn_0113   0   14              by    IN                (PP*          -    -   -   -        *             *         *      *    (ARGM-TMP*            *        *      -
+bn/cnn/01/cnn_0113   0   15        December   NNP             (NP(NP*)         -    -   -   -    (DATE)            *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   16             six    CD           (SBAR(NP*          -    -   -   -   (DATE*             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   17            days   NNS                   *)        day   -   2   -        *)            *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   18          before    IN                   *          -    -   -   -        *             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   19             the    DT              (S(NP*          -    -   -   -    (ORG*             *         *      *             *       (ARG0*   (ARG0*    (12
+bn/cnn/01/cnn_0113   0   20       Electoral   NNP                   *          -    -   -   -        *             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   21         College   NNP                   *)         -    -   -   -        *)            *         *      *             *            *)       *)    12)
+bn/cnn/01/cnn_0113   0   22           meets   VBZ                (VP*        meet  03   2   -        *             *         *      *             *          (V*)       *      -
+bn/cnn/01/cnn_0113   0   23              to    TO              (S(VP*          -    -   -   -        *             *         *      *             *   (ARGM-PRP*        *      -
+bn/cnn/01/cnn_0113   0   24          verify    VB                (VP*      verify  01   1   -        *             *         *      *             *            *      (V*)     -
+bn/cnn/01/cnn_0113   0   25             the    DT             (NP(NP*          -    -   -   -        *             *         *      *             *            *   (ARG1*      -
+bn/cnn/01/cnn_0113   0   26         results   NNS                   *)     result   -   3   -        *             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   27              of    IN                (PP*          -    -   -   -        *             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   28             the    DT                (NP*          -    -   -   -        *             *         *      *             *            *        *     (5
+bn/cnn/01/cnn_0113   0   29    presidential    JJ                   *          -    -   -   -        *             *         *      *             *            *        *      -
+bn/cnn/01/cnn_0113   0   30        election    NN   *)))))))))))))))))   election   -   1   -        *             *)        *      *             *)           *)       *)     5)
+bn/cnn/01/cnn_0113   0   31               .     .                  *))         -    -   -   -        *             *         *      *             *            *        *      -
+
+bn/cnn/01/cnn_0113   0   0       Experts   NNS    (TOP(S(NP*)     -    -   -   -       *      *    (ARG0*)            *     -
+bn/cnn/01/cnn_0113   0   1           are   VBP          (VP*      be  03   -   -       *    (V*)        *             *     -
+bn/cnn/01/cnn_0113   0   2       telling   VBG          (VP*    tell  01   1   -       *      *       (V*)            *     -
+bn/cnn/01/cnn_0113   0   3       Florida   NNP       (NP(NP*      -    -   -   -    (GPE)     *    (ARG2*        (ARG0*   (16
+bn/cnn/01/cnn_0113   0   4            's   POS             *)     -    -   -   -       *      *         *             *    16)
+bn/cnn/01/cnn_0113   0   5     lawmakers   NNS             *)     -    -   -   -       *      *         *)            *)    -
+bn/cnn/01/cnn_0113   0   6            to    TO        (S(VP*      -    -   -   -       *      *    (ARG1*             *     -
+bn/cnn/01/cnn_0113   0   7           act    VB          (VP*     act  02   2   -       *      *         *           (V*)    -
+bn/cnn/01/cnn_0113   0   8    cautiously    RB   (ADVP*))))))     -    -   -   -       *      *         *)   (ARGM-MNR*)    -
+bn/cnn/01/cnn_0113   0   9             .     .            *))     -    -   -   -       *      *         *             *     -
+
+bn/cnn/01/cnn_0113   0    0          The    DT  (TOP(S(NP*         -    -   -   -       *      *      *        (ARG1*      -
+bn/cnn/01/cnn_0113   0    1        right    NN           *      right   -   1   -       *      *      *             *      -
+bn/cnn/01/cnn_0113   0    2           to    TO      (S(VP*         -    -   -   -       *      *      *             *      -
+bn/cnn/01/cnn_0113   0    3         vote    VB     (VP*))))      vote  01   1   -       *    (V*)     *             *)     -
+bn/cnn/01/cnn_0113   0    4           is   VBZ        (VP*         be  03   -   -       *      *    (V*)            *    (19)
+bn/cnn/01/cnn_0113   0    5      clearly    RB      (ADVP*)        -    -   -   -       *      *      *    (ARGM-MNR*)     -
+bn/cnn/01/cnn_0113   0    6    protected   VBN        (VP*    protect  01   1   -       *      *      *           (V*)     -
+bn/cnn/01/cnn_0113   0    7           by    IN        (PP*         -    -   -   -       *      *      *        (ARG0*      -
+bn/cnn/01/cnn_0113   0    8          the    DT        (NP*         -    -   -   -   (LAW*      *      *             *      -
+bn/cnn/01/cnn_0113   0    9        First   NNP           *         -    -   -   -       *      *      *             *      -
+bn/cnn/01/cnn_0113   0   10    Amendment   NNP        *))))        -    -   -   -       *)     *      *             *)     -
+bn/cnn/01/cnn_0113   0   11            .     .          *))        -    -   -   -       *      *      *             *      -
+
+bn/cnn/01/cnn_0113   0    0                I    PRP     (TOP(S(NP*)              -    -   -   -   *    (ARG0*)        *        *         *      -
+bn/cnn/01/cnn_0113   0    1            think    VBP           (VP*            think  01   1   -   *       (V*)        *        *         *      -
+bn/cnn/01/cnn_0113   0    2             that     IN         (SBAR*               -    -   -   -   *    (ARG1*         *        *         *      -
+bn/cnn/01/cnn_0113   0    3             your   PRP$         (S(NP*               -    -   -   -   *         *    (ARG0*)  (ARG0*    (ARG0*      -
+bn/cnn/01/cnn_0113   0    4           action     NN              *)          action  01   1   -   *         *       (V*)       *)        *)     -
+bn/cnn/01/cnn_0113   0    5            needs    VBZ           (VP*             need  01   2   -   *         *         *      (V*)        *      -
+bn/cnn/01/cnn_0113   0    6               to     TO         (S(VP*               -    -   -   -   *         *         *   (ARG1*         *      -
+bn/cnn/01/cnn_0113   0    7             take     VB           (VP*             take  01   7   -   *         *         *        *       (V*)     -
+bn/cnn/01/cnn_0113   0    8             that     DT           (NP*)              -    -   -   -   *         *         *        *    (ARG1*)   (19)
+bn/cnn/01/cnn_0113   0    9             into     IN           (PP*               -    -   -   -   *         *         *        *    (ARG2*      -
+bn/cnn/01/cnn_0113   0   10    consideration     NN   (NP*)))))))))   consideration   -   2   -   *         *)        *        *)        *)     -
+bn/cnn/01/cnn_0113   0   11                .      .             *))              -    -   -   -   *         *         *        *         *      -
+
+bn/cnn/01/cnn_0113   0    0           As     IN  (TOP(S(SBAR*          -    -   -   -   *         *             *   (ARGM-TMP*     -
+bn/cnn/01/cnn_0113   0    1    lawmakers    NNS        (S(NP*)         -    -   -   -   *    (ARG0*)            *            *    (3)
+bn/cnn/01/cnn_0113   0    2     consider     VB          (VP*    consider  02   2   -   *       (V*)            *            *     -
+bn/cnn/01/cnn_0113   0    3        their   PRP$          (NP*          -    -   -   -   *    (ARG1*             *            *    (3)
+bn/cnn/01/cnn_0113   0    4      options    NNS          *))))     option   -   2   -   *         *)            *            *)    -
+bn/cnn/01/cnn_0113   0    5            ,      ,             *          -    -   -   -   *         *             *            *     -
+bn/cnn/01/cnn_0113   0    6          the     DT       (NP(NP*          -    -   -   -   *         *             *       (ARG1*     -
+bn/cnn/01/cnn_0113   0    7        legal     JJ             *          -    -   -   -   *         *    (ARGM-ADJ*)           *     -
+bn/cnn/01/cnn_0113   0    8        fight     NN             *)      fight  01   2   -   *         *           (V*)           *     -
+bn/cnn/01/cnn_0113   0    9         over     IN          (PP*          -    -   -   -   *         *        (ARG2*            *     -
+bn/cnn/01/cnn_0113   0   10          the     DT          (NP*          -    -   -   -   *         *             *            *    (0
+bn/cnn/01/cnn_0113   0   11      recount     NN           *)))         -    -   -   -   *         *             *)           *)    0)
+bn/cnn/01/cnn_0113   0   12    continues    VBZ          (VP*    continue  01   1   -   *         *             *          (V*)    -
+bn/cnn/01/cnn_0113   0   13           at     IN          (PP*          -    -   -   -   *         *             *   (ARGM-LOC*     -
+bn/cnn/01/cnn_0113   0   14      several     JJ          (NP*          -    -   -   -   *         *             *            *     -
+bn/cnn/01/cnn_0113   0   15       levels    NNS           *)))      level   -   5   -   *         *             *            *)    -
+bn/cnn/01/cnn_0113   0   16            .      .            *))         -    -   -   -   *         *             *            *     -
+
+bn/cnn/01/cnn_0113   0    0             In     IN        (TOP(S(PP*         -    -   -   -            *           *   (ARGM-LOC*         *      *            *     -
+bn/cnn/01/cnn_0113   0    1           Leon    NNP           (NP(NP*         -    -   -   -        (GPE*      (ARG2*            *         *      *            *     -
+bn/cnn/01/cnn_0113   0    2         County    NNP                 *)        -    -   -   -            *)          *)           *         *      *            *     -
+bn/cnn/01/cnn_0113   0    3              ,      ,                 *         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0    4          which    WDT       (SBAR(WHNP*)        -    -   -   -            *    (R-ARG2*)           *         *      *            *     -
+bn/cnn/01/cnn_0113   0    5       includes    VBZ            (S(VP*    include  01   1   -            *         (V*)           *         *      *            *     -
+bn/cnn/01/cnn_0113   0    6    Tallahassee    NNP         (NP*))))))        -    -   -   -         (GPE)     (ARG1*)           *)        *      *            *    (1)
+bn/cnn/01/cnn_0113   0    7              ,      ,                 *         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0    8        Circuit    NNP      (NP(NML(NML*         -    -   -   -        (ORG*           *       (ARG0*         *      *            *    (2
+bn/cnn/01/cnn_0113   0    9          Court    NNP                 *)        -    -   -   -            *)          *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   10          Judge    NNP                 *)        -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   11             N.    NNP                 *         -    -   -   -     (PERSON*           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   12        Sanders    NNP                 *         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   13          Sauls    NNP                 *)        -    -   -   -            *)          *            *)        *      *            *     2)
+bn/cnn/01/cnn_0113   0   14        ordered    VBD              (VP*      order  01   1   -            *           *          (V*)        *      *            *     -
+bn/cnn/01/cnn_0113   0   15        13,000      CD         (S(NP(NP*         -    -   -   -    (CARDINAL)          *       (ARG2*         *      *       (ARG1*   (10
+bn/cnn/01/cnn_0113   0   16      contested    VBN                 *    contest  01   1   -            *           *            *       (V*)     *            *     -
+bn/cnn/01/cnn_0113   0   17        ballots    NNS                 *)        -    -   -   -            *           *            *    (ARG1*)     *            *     -
+bn/cnn/01/cnn_0113   0   18           from     IN              (PP*         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   19          Miami    NNP  (NP(NML(NML(NML*         -    -   -   -        (GPE*           *            *         *      *            *   (21
+bn/cnn/01/cnn_0113   0   20             -    HYPH                 *         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   21           Dade    NNP                *))        -    -   -   -            *)          *            *         *      *            *    21)
+bn/cnn/01/cnn_0113   0   22            and     CC                 *         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   23           Palm    NNP             (NML*         -    -   -   -        (GPE*           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   24          Beach    NNP                *))        -    -   -   -            *)          *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   25       counties    NNS               *)))        -    -   -   -            *           *            *         *      *            *)   10)
+bn/cnn/01/cnn_0113   0   26             to     TO              (VP*         -    -   -   -            *           *            *         *      *            *     -
+bn/cnn/01/cnn_0113   0   27             be     VB              (VP*         be  03   -   -            *           *            *         *    (V*)           *     -
+bn/cnn/01/cnn_0113   0   28        brought    VBN              (VP*      bring  01   1   -            *           *            *         *      *          (V*)    -
+bn/cnn/01/cnn_0113   0   29             to     IN              (PP*         -    -   -   -            *           *            *         *      *       (ARG2*     -
+bn/cnn/01/cnn_0113   0   30    Tallahassee    NNP             (NP*))        -    -   -   -         (GPE)          *            *         *      *            *)   (1)
+bn/cnn/01/cnn_0113   0   31             by     IN              (PP*         -    -   -   -            *           *            *         *      *   (ARGM-TMP*     -
+bn/cnn/01/cnn_0113   0   32       Saturday    NNP        (NP*)))))))        -    -   -   -        (DATE)          *            *)        *      *            *)   (8)
+bn/cnn/01/cnn_0113   0   33              .      .                *))        -    -   -   -            *           *            *         *      *            *     -
+
+bn/cnn/01/cnn_0113   0    0         That    DT        (TOP(S(NP*)        -    -   -   -       *      *             *         *     (8)
+bn/cnn/01/cnn_0113   0    1           's   VBZ              (VP*         be   -   1   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0    2         when   WRB     (SBAR(WHADVP*)        -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0    3           he   PRP            (S(NP*)        -    -   -   -       *      *             *         *     (2)
+bn/cnn/01/cnn_0113   0    4          'll    MD              (VP*         -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0    5       decide    VB              (VP*         -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0    6           if    IN            (SBAR*         -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0    7         they   PRP            (S(NP*)        -    -   -   -       *      *        (ARG1*)        *    (10)
+bn/cnn/01/cnn_0113   0    8       should    MD              (VP*         -    -   -   -       *      *    (ARGM-MOD*)        *      -
+bn/cnn/01/cnn_0113   0    9           be    VB              (VP*         be  03   -   -       *    (V*)            *         *      -
+bn/cnn/01/cnn_0113   0   10      counted   VBN              (VP*      count  02   1   -       *      *           (V*)        *      -
+bn/cnn/01/cnn_0113   0   11            ,     ,                 *         -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0   12        along    IN              (PP*         -    -   -   -       *      *    (ARGM-MNR*         *      -
+bn/cnn/01/cnn_0113   0   13         with    IN              (PP*         -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0   14    contested   VBN           (NP(NP*    contest  01   1   -       *      *             *       (V*)     -
+bn/cnn/01/cnn_0113   0   15      ballots   NNS                 *)        -    -   -   -       *      *             *    (ARG1*)     -
+bn/cnn/01/cnn_0113   0   16         from    IN              (PP*         -    -   -   -       *      *             *         *      -
+bn/cnn/01/cnn_0113   0   17       Nassau   NNP              (NP*         -    -   -   -   (GPE*      *             *         *      -
+bn/cnn/01/cnn_0113   0   18       County   NNP   *)))))))))))))))        -    -   -   -       *)     *             *)        *      -
+bn/cnn/01/cnn_0113   0   19            .     .                *))        -    -   -   -       *      *             *         *      -
+
+bn/cnn/01/cnn_0113   0    0         Miami    NNP  (TOP(S(S(NP(NP(NML*          -    -    -   -        (GPE*   (ARG1*        *             *               *         *        *        *    (21
+bn/cnn/01/cnn_0113   0    1            -    HYPH                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    2          Dade    NNP                    *)         -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    3        County    NNP                    *)         -    -    -   -            *)       *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    4             ,      ,                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    5           for     IN                 (PP*          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    6           one     CD               (NP*)))         -    -    -   -    (CARDINAL)       *)       *             *               *         *        *        *     21)
+bn/cnn/01/cnn_0113   0    7             ,      ,                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    8            is    VBZ                 (VP*          be  01    1   -            *      (V*)       *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0    9       heavily     RB               (ADJP*          -    -    -   -            *   (ARG2*        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   10    Democratic     JJ                  *)))         -    -    -   -        (NORP)       *)       *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   11             ,      ,                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   12           and     CC                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   13            it    PRP               (S(NP*)         -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   14            's    VBZ                 (VP*          be   -    1   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   15          from     IN                 (PP*          -    -    -   -            *        *        *             *      (ARGM-DIR*         *        *        *      -
+bn/cnn/01/cnn_0113   0   16         these     DT                 (NP*          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   17         areas    NNS                   *))       area   -    1   -            *        *        *             *               *)        *        *        *      -
+bn/cnn/01/cnn_0113   0   18             ,      ,                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   19          Gore    NNP           (PRN(S(NP*          -    -    -   -      (PERSON)       *   (ARG0*             *               *         *        *        *     (9)
+bn/cnn/01/cnn_0113   0   20     officials    NNS                    *)   official   -    1   -            *        *        *)            *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   21       believe    VBP               (VP*)))    believe  01    1   -            *        *      (V*)            *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   22             ,      ,                    *          -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   23          that    WDT        (SBAR(WHADVP*)         -    -    -   -            *        *        *             *    (R-ARGM-DIR*)        *        *        *      -
+bn/cnn/01/cnn_0113   0   24             a     DT            (S(NP(NP*          -    -    -   -            *        *        *             *          (ARG0*         *        *        *      -
+bn/cnn/01/cnn_0113   0   25          hand     NN                    *        hand   -   20   -            *        *        *    (ARGM-MNR*)              *         *        *        *      -
+bn/cnn/01/cnn_0113   0   26         count     NN                    *)      count  01    2   -            *        *        *           (V*)              *         *        *        *      -
+bn/cnn/01/cnn_0113   0   27            of     IN                 (PP*          -    -    -   -            *        *        *        (ARG1*               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   28       ballots    NNS               (NP*)))         -    -    -   -            *        *        *             *)              *)        *        *        *    (13)
+bn/cnn/01/cnn_0113   0   29          will     MD                 (VP*          -    -    -   -            *        *        *             *      (ARGM-MOD*)        *        *        *      -
+bn/cnn/01/cnn_0113   0   30          turn     VB                 (VP*        turn  15    7   -            *        *        *             *             (V*)        *        *        *      -
+bn/cnn/01/cnn_0113   0   31            up     RP                (PRT*)         -    -    -   -            *        *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   32        enough     JJ              (NP(NP*          -    -    -   -            *        *        *             *          (ARG1*    (ARG2*)       *        *      -
+bn/cnn/01/cnn_0113   0   33         votes    NNS                    *)       vote  01    1   -            *        *        *             *               *       (V*)       *        *      -
+bn/cnn/01/cnn_0113   0   34            to     TO          (SBAR(S(VP*          -    -    -   -            *        *        *             *               *    (ARG1*        *        *      -
+bn/cnn/01/cnn_0113   0   35      overcome     VB                 (VP*    overcome  01    1   -            *        *        *             *               *         *      (V*)       *      -
+bn/cnn/01/cnn_0113   0   36      Governor    NNP              (NP(NP*          -    -    -   -            *        *        *             *               *         *   (ARG1*   (ARG0*     (6
+bn/cnn/01/cnn_0113   0   37          Bush    NNP                    *          -    -    -   -      (PERSON)       *        *             *               *         *        *        *      -
+bn/cnn/01/cnn_0113   0   38            's    POS                    *)         -    -    -   -            *        *        *             *               *         *        *        *)     6)
+bn/cnn/01/cnn_0113   0   39          lead     NN         *))))))))))))       lead  01    2   -            *        *        *             *               *)        *)       *)     (V*)     -
+bn/cnn/01/cnn_0113   0   40             .      .                   *))         -    -    -   -            *        *        *             *               *         *        *        *      -
+
+bn/cnn/01/cnn_0113   0    0              In    IN    (TOP(S(PP*       -    -   -   -        *        *    (ARGM-LOC*        *            *      -
+bn/cnn/01/cnn_0113   0    1            West   NNP          (NP*       -    -   -   -    (GPE*        *             *        *            *      -
+bn/cnn/01/cnn_0113   0    2            Palm   NNP             *       -    -   -   -        *        *             *        *            *      -
+bn/cnn/01/cnn_0113   0    3           Beach   NNP            *))      -    -   -   -        *)       *             *)       *            *      -
+bn/cnn/01/cnn_0113   0    4       Wednesday   NNP          (NP*)      -    -   -   -    (DATE)       *    (ARGM-TMP*)       *            *      -
+bn/cnn/01/cnn_0113   0    5               ,     ,             *       -    -   -   -        *        *             *        *            *      -
+bn/cnn/01/cnn_0113   0    6              an    DT       (NP(NP*       -    -   -   -        *   (ARG1*        (ARG0*        *            *    (20
+bn/cnn/01/cnn_0113   0    7     independent    JJ             *       -    -   -   -        *        *             *        *            *      -
+bn/cnn/01/cnn_0113   0    8               ,     ,             *       -    -   -   -        *        *             *        *            *      -
+bn/cnn/01/cnn_0113   0    9    conservative    JJ             *       -    -   -   -        *        *             *        *            *      -
+bn/cnn/01/cnn_0113   0   10           group    NN             *)   group   -   1   -        *        *)            *        *            *      -
+bn/cnn/01/cnn_0113   0   11          called   VBN          (VP*     call  01   5   -        *      (V*)            *        *            *      -
+bn/cnn/01/cnn_0113   0   12        Judicial   NNP        (S(NP*       -    -   -   -    (ORG*   (ARG2*             *        *            *      -
+bn/cnn/01/cnn_0113   0   13           Watch   NNP          *))))      -    -   -   -        *)       *)            *)       *            *     20)
+bn/cnn/01/cnn_0113   0   14           asked   VBD          (VP*      ask  02   2   -        *        *           (V*)       *            *      -
+bn/cnn/01/cnn_0113   0   15               a    DT          (NP*       -    -   -   -        *        *        (ARG2*   (ARG0*            *      -
+bn/cnn/01/cnn_0113   0   16           court    NN             *)   court   -   2   -        *        *             *)       *)           *      -
+bn/cnn/01/cnn_0113   0   17              to    TO        (S(VP*       -    -   -   -        *        *        (ARG1*        *            *      -
+bn/cnn/01/cnn_0113   0   18             let    VB          (VP*      let  01   1   -        *        *             *      (V*)           *      -
+bn/cnn/01/cnn_0113   0   19              it   PRP        (S(NP*)      -    -   -   -        *        *             *   (ARG1*       (ARG0*)   (20)
+bn/cnn/01/cnn_0113   0   20             see    VB          (VP*      see  01   1   -        *        *             *        *          (V*)     -
+bn/cnn/01/cnn_0113   0   21           those    DT          (NP*       -    -   -   -        *        *             *        *       (ARG1*    (13
+bn/cnn/01/cnn_0113   0   22         ballots   NNS             *)      -    -   -   -        *        *             *        *            *)    13)
+bn/cnn/01/cnn_0113   0   23             for    IN          (PP*       -    -   -   -        *        *             *        *   (ARGM-ADV*      -
+bn/cnn/01/cnn_0113   0   24          itself   PRP   (NP*))))))))      -    -   -   -        *        *             *)       *)           *)   (20)
+bn/cnn/01/cnn_0113   0   25               .     .            *))      -    -   -   -        *        *             *        *            *      -
+
+bn/cnn/01/cnn_0113   0    0             We   PRP      (TOP(S(S(NP*)       -    -   -   -            *             *            *      *           *    (20)
+bn/cnn/01/cnn_0113   0    1            're   VBP              (VP*        be   -   3   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0    2           here    RB       (ADVP(ADVP*)       -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0    3            for    IN              (PP*        -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0    4            the    DT              (NP*        -    -   -   -            *             *            *      *           *    (15
+bn/cnn/01/cnn_0113   0    5         public    NN             *)))))   public   -   1   -            *             *            *      *           *     15)
+bn/cnn/01/cnn_0113   0    6              ,     ,                 *        -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0    7            for    CC                 *        -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0    8            the    DT            (S(NP*        -    -   -   -            *        (ARG0*            *      *           *    (15
+bn/cnn/01/cnn_0113   0    9         public    NN                 *)   public   -   1   -            *             *)           *      *           *     15)
+bn/cnn/01/cnn_0113   0   10         should    MD              (VP*        -    -   -   -            *    (ARGM-MOD*)           *      *           *      -
+bn/cnn/01/cnn_0113   0   11           know    VB              (VP*      know  01   1   -            *           (V*)           *      *           *      -
+bn/cnn/01/cnn_0113   0   12           what    WP       (SBAR(WHNP*)       -    -   -   -            *        (ARG1*       (ARG1*)     *           *      -
+bn/cnn/01/cnn_0113   0   13             's   VBZ            (S(VP*        -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0   14          going   VBG              (VP*        go  15   5   -            *             *          (V*)     *           *      -
+bn/cnn/01/cnn_0113   0   15             on    RP             (PRT*)       -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0   16        without    IN              (PP*        -    -   -   -            *             *   (ARGM-MNR*      *           *      -
+bn/cnn/01/cnn_0113   0   17            two    CD           (NP(NP*        -    -   -   -    (CARDINAL)            *            *      *      (ARG0*      -
+bn/cnn/01/cnn_0113   0   18    adversaries   NNS                 *)       -    -   -   -            *             *            *      *           *)     -
+bn/cnn/01/cnn_0113   0   19           that   WDT       (SBAR(WHNP*)       -    -   -   -            *             *            *      *    (R-ARG0*)     -
+bn/cnn/01/cnn_0113   0   20            are   VBP            (S(VP*        be  03   -   -            *             *            *    (V*)          *      -
+bn/cnn/01/cnn_0113   0   21       fighting   VBG              (VP*     fight  01   1   -            *             *            *      *         (V*)     -
+bn/cnn/01/cnn_0113   0   22           with    IN              (PP*        -    -   -   -            *             *            *      *      (ARG1*      -
+bn/cnn/01/cnn_0113   0   23           each    DT              (NP*        -    -   -   -            *             *            *      *           *      -
+bn/cnn/01/cnn_0113   0   24          other    JJ   *)))))))))))))))       -    -   -   -            *             *)           *)     *           *)     -
+bn/cnn/01/cnn_0113   0   25              .     .                *))       -    -   -   -            *             *            *      *           *      -
+
+bn/cnn/01/cnn_0113   0    0            The    DT      (TOP(S(NP*         -    -   -   -          *        (ARG0*             *             *   (23
+bn/cnn/01/cnn_0113   0    1           Gore   NNP               *         -    -   -   -    (PERSON)            *             *             *    (9)
+bn/cnn/01/cnn_0113   0    2           camp    NN               *)        -    -   -   -          *             *)            *             *    23)
+bn/cnn/01/cnn_0113   0    3          would    MD            (VP*         -    -   -   -          *    (ARGM-MOD*)            *             *     -
+bn/cnn/01/cnn_0113   0    4         prefer    VB            (VP*     prefer  01   1   -          *           (V*)            *             *     -
+bn/cnn/01/cnn_0113   0    5            the    DT  (SBAR(S(NP(NP*         -    -   -   -          *        (ARG1*             *        (ARG1*     -
+bn/cnn/01/cnn_0113   0    6         ballot    NN               *         -    -   -   -          *             *             *             *     -
+bn/cnn/01/cnn_0113   0    7       counting    NN               *)        -    -   -   -          *             *             *             *     -
+bn/cnn/01/cnn_0113   0    8           from    IN            (PP*         -    -   -   -          *             *             *             *     -
+bn/cnn/01/cnn_0113   0    9            all    DT            (NP*         -    -   -   -          *             *    (ARGM-EXT*)            *     -
+bn/cnn/01/cnn_0113   0   10       disputed   VBN               *    dispute  01   -   -          *             *           (V*)            *     -
+bn/cnn/01/cnn_0113   0   11       counties   NNS             *)))        -    -   -   -          *             *        (ARG2*)            *)    -
+bn/cnn/01/cnn_0113   0   12          start    VB            (VP*      start  01   1   -          *             *             *           (V*)    -
+bn/cnn/01/cnn_0113   0   13    immediately    RB     (ADVP*))))))        -    -   -   -          *             *)            *    (ARGM-TMP*)    -
+bn/cnn/01/cnn_0113   0   14              .     .              *))        -    -   -   -          *             *             *             *     -
+
+bn/cnn/01/cnn_0113   0    0            It   PRP   (TOP(S(NP*)          -    -   -   -       *      *         *             *         *    (23)
+bn/cnn/01/cnn_0113   0    1            's   VBZ         (VP*           be   -   1   -       *      *         *             *         *      -
+bn/cnn/01/cnn_0113   0    2     concerned    JJ       (ADJP*           -    -   -   -       *      *         *             *         *      -
+bn/cnn/01/cnn_0113   0    3           the    DT  (SBAR(S(NP*           -    -   -   -       *      *    (ARG0*             *         *    (15
+bn/cnn/01/cnn_0113   0    4        public    NN            *)      public   -   1   -       *      *         *)            *         *     15)
+bn/cnn/01/cnn_0113   0    5            is   VBZ         (VP*           be  03   -   -       *    (V*)        *             *         *      -
+bn/cnn/01/cnn_0113   0    6        losing   VBG         (VP*         lose  02   5   -       *      *       (V*)            *         *      -
+bn/cnn/01/cnn_0113   0    7      patience    NN         (NP*)          -    -   -   -       *      *    (ARG1*)            *         *      -
+bn/cnn/01/cnn_0113   0    8          with    IN         (PP*           -    -   -   -       *      *    (ARG2*             *         *      -
+bn/cnn/01/cnn_0113   0    9           the    DT      (NP(NP*           -    -   -   -       *      *         *             *         *      -
+bn/cnn/01/cnn_0113   0   10         legal    JJ            *           -    -   -   -       *      *         *    (ARGM-MNR*)        *      -
+bn/cnn/01/cnn_0113   0   11    challenges   NNS            *)   challenge  01   2   -       *      *         *           (V*)        *      -
+bn/cnn/01/cnn_0113   0   12            to    IN         (PP*           -    -   -   -       *      *         *        (ARG1*         *      -
+bn/cnn/01/cnn_0113   0   13           the    DT         (NP*           -    -   -   -       *      *         *             *         *      -
+bn/cnn/01/cnn_0113   0   14       Florida   NNP            *           -    -   -   -    (GPE)     *         *             *    (ARG0*)   (16)
+bn/cnn/01/cnn_0113   0   15          vote    NN   *))))))))))        vote  01   1   -       *      *         *)            *)      (V*)     -
+bn/cnn/01/cnn_0113   0   16             .     .           *))          -    -   -   -       *      *         *             *         *      -
+
+bn/cnn/01/cnn_0113   0    0            As     IN  (TOP(S(SBAR*           -    -   -   -       *             *            *      *   (ARGM-TMP*      -
+bn/cnn/01/cnn_0113   0    1          this     DT     (S(NP(NP*           -    -   -   -       *             *       (ARG0*      *            *    (11
+bn/cnn/01/cnn_0113   0    2          host     NN             *)        host   -   2   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0    3            of     IN          (PP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0    4         legal     JJ          (NP*           -    -   -   -       *    (ARGM-MNR*)           *      *            *      -
+bn/cnn/01/cnn_0113   0    5       actions    NNS           *)))      action  01   1   -       *           (V*)           *)     *            *     11)
+bn/cnn/01/cnn_0113   0    6         makes    VBZ          (VP*         make  01   9   -       *             *          (V*)     *            *      -
+bn/cnn/01/cnn_0113   0    7           its   PRP$          (NP*           -    -   -   -       *             *       (ARG1*      *            *    (11)
+bn/cnn/01/cnn_0113   0    8           way     NN             *)         way   -   4   -       *             *            *)     *            *      -
+bn/cnn/01/cnn_0113   0    9       through     IN          (PP*           -    -   -   -       *             *   (ARGM-DIR*      *            *      -
+bn/cnn/01/cnn_0113   0   10           the     DT          (NP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   11       Florida    NNP             *           -    -   -   -    (GPE)            *            *      *            *    (16)
+bn/cnn/01/cnn_0113   0   12         court     NN             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   13        system     NN         *)))))          -    -   -   -       *             *            *)     *            *)     -
+bn/cnn/01/cnn_0113   0   14             ,      ,             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   15     attention     NN          (NP*)   attention   -   1   -       *             *            *      *       (ARG1*)     -
+bn/cnn/01/cnn_0113   0   16            is    VBZ          (VP*           be  03   -   -       *             *            *    (V*)           *      -
+bn/cnn/01/cnn_0113   0   17       turning    VBG          (VP*         turn  01   1   -       *             *            *      *          (V*)     -
+bn/cnn/01/cnn_0113   0   18            to     IN          (PP*           -    -   -   -       *             *            *      *   (ARGM-DIR*      -
+bn/cnn/01/cnn_0113   0   19           the     DT    (NP(NP(NP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   20         legal     JJ             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   21          body     NN             *)        body   -   4   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   22            of     IN          (PP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   23          last     JJ          (NP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   24        resort     NN            *))          -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   25            in     IN          (PP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   26           the     DT          (NP*           -    -   -   -   (GPE*             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   27        United    NNP             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   28        States    NNP           *)))          -    -   -   -       *)            *            *      *            *      -
+bn/cnn/01/cnn_0113   0   29           --       :             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   30           the     DT       (NP(NP*           -    -   -   -   (ORG*             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   31          U.S.    NNP             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   32       Supreme    NNP             *           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   33         Court    NNP             *)          -    -   -   -       *)            *            *      *            *      -
+bn/cnn/01/cnn_0113   0   34            in     IN          (PP*           -    -   -   -       *             *            *      *            *      -
+bn/cnn/01/cnn_0113   0   35    Washington    NNP    (NP*)))))))          -    -   -   -    (GPE)            *            *      *            *)    (4)
+bn/cnn/01/cnn_0113   0   36             .      .            *))          -    -   -   -       *             *            *      *            *      -
+
+bn/cnn/01/cnn_0113   0    0         Oral    JJ  (TOP(S(NP(NP*          -    -   -   -          *      *        (ARG1*        *        *        *         -
+bn/cnn/01/cnn_0113   0    1    arguments   NNS             *))   argument   -   1   -          *      *             *)       *        *        *         -
+bn/cnn/01/cnn_0113   0    2         will    MD           (VP*          -    -   -   -          *      *    (ARGM-MOD*)       *        *        *         -
+bn/cnn/01/cnn_0113   0    3           be    VB           (VP*          be  03   -   -          *    (V*)            *        *        *        *         -
+bn/cnn/01/cnn_0113   0    4        heard   VBN           (VP*        hear  01   3   -          *      *           (V*)       *        *        *         -
+bn/cnn/01/cnn_0113   0    5       Friday   NNP           (NP*)         -    -   -   -      (DATE)     *    (ARGM-TMP*)       *        *        *         -
+bn/cnn/01/cnn_0113   0    6           on    IN           (PP*          -    -   -   -          *      *             *        *        *        *         -
+bn/cnn/01/cnn_0113   0    7            a    DT        (NP(NP*          -    -   -   -          *      *             *        *        *        *         -
+bn/cnn/01/cnn_0113   0    8      request    NN              *)    request  01   2   -          *      *             *      (V*)       *        *         -
+bn/cnn/01/cnn_0113   0    9           by    IN           (PP*          -    -   -   -          *      *             *   (ARG0*        *        *         -
+bn/cnn/01/cnn_0113   0   10          the    DT           (NP*          -    -   -   -          *      *             *        *        *        *         -
+bn/cnn/01/cnn_0113   0   11         Bush   NNP              *          -    -   -   -    (PERSON)     *             *        *        *        *        (6)
+bn/cnn/01/cnn_0113   0   12     campaign    NN             *))   campaign   -   4   -          *      *             *        *)       *        *         -
+bn/cnn/01/cnn_0113   0   13           to    TO         (S(VP*          -    -   -   -          *      *             *   (ARG1*        *        *         -
+bn/cnn/01/cnn_0113   0   14     overturn    VB           (VP*    overturn  01   2   -          *      *             *        *      (V*)       *         -
+bn/cnn/01/cnn_0113   0   15            a    DT        (NP(NP*          -    -   -   -          *      *             *        *   (ARG1*        *       (22
+bn/cnn/01/cnn_0113   0   16     decision    NN              *)   decision  01   1   -          *      *             *        *        *      (V*)        -
+bn/cnn/01/cnn_0113   0   17           by    IN           (PP*          -    -   -   -          *      *             *        *        *   (ARG0*         -
+bn/cnn/01/cnn_0113   0   18      Florida   NNP        (NP(NP*          -    -   -   -       (GPE)     *             *        *        *        *   (16|(17
+bn/cnn/01/cnn_0113   0   19           's   POS              *)         -    -   -   -          *      *             *        *        *        *        16)
+bn/cnn/01/cnn_0113   0   20      Supreme   NNP              *          -    -   -   -      (ORG*      *             *        *        *        *         -
+bn/cnn/01/cnn_0113   0   21        Court   NNP    *)))))))))))         -    -   -   -          *)     *             *        *)       *)       *)   22)|17)
+bn/cnn/01/cnn_0113   0   22            .     .             *))         -    -   -   -          *      *             *        *        *        *         -
+
+bn/cnn/01/cnn_0113   0    0           It   PRP    (TOP(S(NP*)         -    -    -   -   *    (ARG0*)           *      *        *      *      *        *    (17)
+bn/cnn/01/cnn_0113   0    1        ruled   VBD          (VP*        rule  01    2   -   *       (V*)           *      *        *      *      *        *    (22)
+bn/cnn/01/cnn_0113   0    2         that    IN        (SBAR*          -    -    -   -   *    (ARG1*            *      *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0    3     recounts   NNS     (S(NP(NP*)         -    -    -   -   *         *       (ARG1*)     *        *      *      *   (ARG1*      -
+bn/cnn/01/cnn_0113   0    4    submitted   VBN          (VP*      submit  01    2   -   *         *          (V*)     *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0    5           to    IN          (PP*          -    -    -   -   *         *       (ARG2*      *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0    6        state    NN          (NP*       state   -    2   -   *         *            *      *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0    7    officials   NNS            *))   official   -    1   -   *         *            *)     *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0    8        after    IN        (SBAR*          -    -    -   -   *         *   (ARGM-TMP*      *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0    9            a    DT        (S(NP*          -    -    -   -   *         *            *      *   (ARG1*      *      *        *      -
+bn/cnn/01/cnn_0113   0   10       filing    NN             *      filing   -    2   -   *         *            *      *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0   11     deadline    NN             *)         -    -    -   -   *         *            *      *        *)     *      *        *      -
+bn/cnn/01/cnn_0113   0   12          had   VBD          (VP*        have  01    -   -   *         *            *    (V*)       *      *      *        *      -
+bn/cnn/01/cnn_0113   0   13       passed   VBN     (VP*))))))       pass  03    3   -   *         *            *)     *      (V*)     *      *        *)     -
+bn/cnn/01/cnn_0113   0   14          had   VBD          (VP*        have  02   12   -   *         *            *      *        *    (V*)     *        *      -
+bn/cnn/01/cnn_0113   0   15           to    TO        (S(VP*          -    -    -   -   *         *            *      *        *      *      *        *      -
+bn/cnn/01/cnn_0113   0   16           be    VB          (VP*          be  03    -   -   *         *            *      *        *      *    (V*)       *      -
+bn/cnn/01/cnn_0113   0   17      counted   VBN   (VP*))))))))      count  01    1   -   *         *)           *      *        *      *      *      (V*)     -
+bn/cnn/01/cnn_0113   0   18            .     .            *))         -    -    -   -   *         *            *      *        *      *      *        *      -
+
+bn/cnn/01/cnn_0113   0   0      Jonathan   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*    (18
+bn/cnn/01/cnn_0113   0   1         Aiken   NNP              *)  -   -   -   -          *)    18)
+bn/cnn/01/cnn_0113   0   2             ,     ,              *   -   -   -   -          *      -
+bn/cnn/01/cnn_0113   0   3           for    IN           (PP*   -   -   -   -          *      -
+bn/cnn/01/cnn_0113   0   4           CNN   NNP          (NP*))  -   -   -   -       (ORG)   (14)
+bn/cnn/01/cnn_0113   0   5             ,     ,              *   -   -   -   -          *      -
+bn/cnn/01/cnn_0113   0   6    Washington   NNP           (NP*)  -   -   -   -       (GPE)    (4)
+bn/cnn/01/cnn_0113   0   7             .     .             *))  -   -   -   -          *      -
+
+#end document

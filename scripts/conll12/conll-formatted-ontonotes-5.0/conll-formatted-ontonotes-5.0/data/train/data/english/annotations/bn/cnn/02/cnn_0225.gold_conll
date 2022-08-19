@@ -1,0 +1,71 @@
+#begin document (bn/cnn/02/cnn_0225); part 000
+bn/cnn/02/cnn_0225   0    0     5,400      CD  (TOP(S(NP*       -    -   -   -    (CARDINAL)      (ARG1*       (ARG0*   (1
+bn/cnn/02/cnn_0225   0    1    sailors    NNS           *       -    -   -   -            *            *            *    -
+bn/cnn/02/cnn_0225   0    2        and     CC           *       -    -   -   -            *            *            *    -
+bn/cnn/02/cnn_0225   0    3    Marines   NNPS           *)      -    -   -   -        (NORP)           *)           *)   1)
+bn/cnn/02/cnn_0225   0    4        are    VBP        (VP*       be  01   4   -            *          (V*)           *    -
+bn/cnn/02/cnn_0225   0    5       back     RB      (ADVP*       -    -   -   -            *       (ARG2*            *    -
+bn/cnn/02/cnn_0225   0    6         at     IN        (PP*       -    -   -   -            *            *            *    -
+bn/cnn/02/cnn_0225   0    7       home     NN      (NP*)))    home   -   1   -            *            *)           *    -
+bn/cnn/02/cnn_0225   0    8      after     IN        (PP*       -    -   -   -            *   (ARGM-TMP*            *    -
+bn/cnn/02/cnn_0225   0    9    serving    VBG      (S(VP*    serve  01   3   -            *            *          (V*)   -
+bn/cnn/02/cnn_0225   0   10         in     IN        (PP*       -    -   -   -            *            *   (ARGM-LOC*    -
+bn/cnn/02/cnn_0225   0   11       Iraq    NNP   (NP*))))))      -    -   -   -         (GPE)           *)           *)   -
+bn/cnn/02/cnn_0225   0   12          .      .          *))      -    -   -   -            *            *            *    -
+
+bn/cnn/02/cnn_0225   0    0      They   PRP   (TOP(S(NP*)   -   -   -   -           *    (1)
+bn/cnn/02/cnn_0225   0    1       're   VBP         (VP*    be  -   1   -           *     -
+bn/cnn/02/cnn_0225   0    2       the    DT      (NP(NP*    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0    3      crew    NN            *)   -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0    4        of    IN         (PP*    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0    5       the    DT         (NP*    -   -   -   -   (PRODUCT*    (0
+bn/cnn/02/cnn_0225   0    6        ``    ``            *    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0    7       USS   NNP            *    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0    8     Harry   NNP            *    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0    9        S.   NNP            *    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0   10    Truman   NNP         *))))   -   -   -   -           *)    0)
+bn/cnn/02/cnn_0225   0   11         .     .            *    -   -   -   -           *     -
+bn/cnn/02/cnn_0225   0   12        ''    ''           *))   -   -   -   -           *     -
+
+bn/cnn/02/cnn_0225   0    0        They    PRP   (TOP(S(NP*)        -    -   -   -       *      *       (ARG1*)   (1)
+bn/cnn/02/cnn_0225   0    1        have    VBP         (VP*       have  01   -   -       *    (V*)           *     -
+bn/cnn/02/cnn_0225   0    2    reunited    VBN         (VP*    reunite  01   -   -       *      *          (V*)    -
+bn/cnn/02/cnn_0225   0    3        with     IN         (PP*         -    -   -   -       *      *       (ARG2*     -
+bn/cnn/02/cnn_0225   0    4       their   PRP$         (NP*         -    -   -   -       *      *            *    (1)
+bn/cnn/02/cnn_0225   0    5    families    NNS            *     family   -   1   -       *      *            *     -
+bn/cnn/02/cnn_0225   0    6         and     CC            *         -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0    7     friends    NNS           *))        -    -   -   -       *      *            *)    -
+bn/cnn/02/cnn_0225   0    8           ,      ,            *         -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0    9          at     IN         (PP*         -    -   -   -       *      *   (ARGM-LOC*     -
+bn/cnn/02/cnn_0225   0   10         the     DT   (NP(NP(NP*         -    -   -   -       *      *            *    (0
+bn/cnn/02/cnn_0225   0   11    aircraft     NN            *         -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0   12     carrier     NN            *    carrier   -   4   -       *      *            *     -
+bn/cnn/02/cnn_0225   0   13          's    POS            *)        -    -   -   -       *      *            *     0)
+bn/cnn/02/cnn_0225   0   14        home     NN            *         -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0   15        port     NN            *)        -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0   16          in     IN         (PP*         -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0   17     Norfolk    NNP      (NP(NP*)        -    -   -   -    (GPE)     *            *     -
+bn/cnn/02/cnn_0225   0   18           ,      ,            *         -    -   -   -       *      *            *     -
+bn/cnn/02/cnn_0225   0   19    Virginia    NNP   (NP*)))))))        -    -   -   -    (GPE)     *            *)    -
+bn/cnn/02/cnn_0225   0   20           .      .           *))        -    -   -   -       *      *            *     -
+
+bn/cnn/02/cnn_0225   0    0        The     DT   (TOP(S(NP*         -    -   -   -           *   (ARG1*            *        *      *   (0
+bn/cnn/02/cnn_0225   0    1         ``     ``            *         -    -   -   -           *        *            *        *      *    -
+bn/cnn/02/cnn_0225   0    2     Truman    NNP            *         -    -   -   -    (PRODUCT)       *            *        *      *    -
+bn/cnn/02/cnn_0225   0    3         ''     ''            *)        -    -   -   -           *        *)           *        *      *    0)
+bn/cnn/02/cnn_0225   0    4         is    VBZ         (VP*         be  01   2   -           *      (V*)           *        *      *    -
+bn/cnn/02/cnn_0225   0    5        the     DT      (NP(NP*         -    -   -   -           *   (ARG2*            *   (ARG1*      *    -
+bn/cnn/02/cnn_0225   0    6      first     JJ            *         -    -   -   -           *        *            *        *      *    -
+bn/cnn/02/cnn_0225   0    7       East    NNP   (ADJP(NML*         -    -   -   -       (LOC*        *   (ARGM-LOC*        *      *    -
+bn/cnn/02/cnn_0225   0    8      Coast    NNP            *)        -    -   -   -           *)       *            *)       *      *    -
+bn/cnn/02/cnn_0225   0    9         -    HYPH            *         -    -   -   -           *        *            *        *      *    -
+bn/cnn/02/cnn_0225   0   10      based    VBN            *)      base  01   -   -           *        *          (V*)       *      *    -
+bn/cnn/02/cnn_0225   0   11    carrier     NN            *)   carrier   -   4   -           *        *       (ARG1*)       *)     *    -
+bn/cnn/02/cnn_0225   0   12         to     TO  (SBAR(S(VP*         -    -   -   -           *        *            *        *      *    -
+bn/cnn/02/cnn_0225   0   13     return     VB         (VP*     return  01   1   -           *        *            *      (V*)     *    -
+bn/cnn/02/cnn_0225   0   14       from     IN         (PP*         -    -   -   -           *        *            *   (ARG3*      *    -
+bn/cnn/02/cnn_0225   0   15        the     DT         (NP*         -    -   -   -           *        *            *        *      *    -
+bn/cnn/02/cnn_0225   0   16        war     NN     *))))))))       war  01   1   -           *        *)           *        *)   (V*)   -
+bn/cnn/02/cnn_0225   0   17          .      .           *))        -    -   -   -           *        *            *        *      *    -
+
+#end document

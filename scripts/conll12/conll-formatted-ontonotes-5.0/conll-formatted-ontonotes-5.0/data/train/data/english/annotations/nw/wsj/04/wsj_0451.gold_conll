@@ -1,0 +1,444 @@
+#begin document (nw/wsj/04/wsj_0451); part 000
+nw/wsj/04/wsj_0451   0    0          Ford    NNP    (TOP(S(NP*        -    -   -   -        (ORG*   (ARG0*            *             *   -
+nw/wsj/04/wsj_0451   0    1         Motor    NNP             *        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0    2           Co.    NNP             *)       -    -   -   -            *)       *)           *             *   -
+nw/wsj/04/wsj_0451   0    3          said    VBD          (VP*       say  01   -   -            *      (V*)           *             *   -
+nw/wsj/04/wsj_0451   0    4            it    PRP   (SBAR(S(NP*)       -    -   -   -            *   (ARG1*       (ARG0*)            *   -
+nw/wsj/04/wsj_0451   0    5            is    VBZ          (VP*        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0    6     recalling    VBG          (VP*    recall  01   -   -            *        *          (V*)            *   -
+nw/wsj/04/wsj_0451   0    7         about     RB    (NP(NP(QP*        -    -   -   -   (CARDINAL*        *       (ARG1*             *   -
+nw/wsj/04/wsj_0451   0    8        3,600      CD            *))       -    -   -   -            *)       *            *             *   -
+nw/wsj/04/wsj_0451   0    9            of     IN          (PP*        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   10           its   PRP$          (NP*        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   11         1990      CD         (NML*        -    -   -   -        (DATE)       *            *             *   -
+nw/wsj/04/wsj_0451   0   12            -    HYPH             *        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   13         model     NN             *)       -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   14       Escorts   NNPS           *)))       -    -   -   -     (PRODUCT)       *            *)            *   -
+nw/wsj/04/wsj_0451   0   15       because     IN        (SBAR*        -    -   -   -            *        *   (ARGM-CAU*             *   -
+nw/wsj/04/wsj_0451   0   16           the     DT        (S(NP*        -    -   -   -            *        *            *        (ARG1*   -
+nw/wsj/04/wsj_0451   0   17    windshield     NN             *        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   18      adhesive     NN             *)       -    -   -   -            *        *            *             *)  -
+nw/wsj/04/wsj_0451   0   19           was    VBD          (VP*        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   20    improperly     RB        (ADVP*)       -    -   -   -            *        *            *    (ARGM-MNR*)  -
+nw/wsj/04/wsj_0451   0   21       applied    VBN          (VP*     apply  03   -   -            *        *            *           (V*)  -
+nw/wsj/04/wsj_0451   0   22            to     IN          (PP*        -    -   -   -            *        *            *        (ARG2*   -
+nw/wsj/04/wsj_0451   0   23          some     DT          (NP*        -    -   -   -            *        *            *             *   -
+nw/wsj/04/wsj_0451   0   24          cars    NNS   *)))))))))))       -    -   -   -            *        *)           *)            *)  -
+nw/wsj/04/wsj_0451   0   25             .      .            *))       -    -   -   -            *        *            *             *   -
+
+nw/wsj/04/wsj_0451   0    0    Separately     RB   (TOP(S(ADVP*)        -    -   -   -            *    (ARGM-ADV*)           *        *         *   -
+nw/wsj/04/wsj_0451   0    1             ,      ,              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0    2          Ford    NNP        (NP(NP*)        -    -   -   -         (ORG)       (ARG0*            *        *         *   -
+nw/wsj/04/wsj_0451   0    3           and     CC              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0    4         Mazda    NNP        (NP(NP*         -    -   -   -        (ORG*             *            *        *         *   -
+nw/wsj/04/wsj_0451   0    5         Motor    NNP              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0    6         Corp.    NNP              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0    7            's    POS              *)        -    -   -   -            *)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0    8          U.S.    NNP          (NML*         -    -   -   -         (GPE)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0    9         sales    NNS              *)        -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   10           arm     NN             *))        -    -   -   -            *             *)           *        *         *   -
+nw/wsj/04/wsj_0451   0   11          said    VBD           (VP*        say  01   -   -            *           (V*)           *        *         *   -
+nw/wsj/04/wsj_0451   0   12          they    PRP    (SBAR(S(NP*)        -    -   -   -            *        (ARG1*       (ARG0*)       *    (ARG0*)  -
+nw/wsj/04/wsj_0451   0   13           are    VBP           (VP*         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   14     recalling    VBG           (VP*     recall  01   -   -            *             *          (V*)       *         *   -
+nw/wsj/04/wsj_0451   0   15         about     RB  (NP(NP(NP(QP*         -    -   -   -   (CARDINAL*             *       (ARG1*   (ARG1*         *   -
+nw/wsj/04/wsj_0451   0   16       88,500      CD              *)        -    -   -   -            *)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   17         1988      CD          (NML*         -    -   -   -        (DATE)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   18            -    HYPH              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   19         model     NN              *)        -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   20       Mercury    NNP              *         -    -   -   -         (ORG)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   21       Tracers   NNPS              *)        -    -   -   -     (PRODUCT)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   22           and     CC              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   23      220,000      CD           (NP*         -    -   -   -    (CARDINAL)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   24         1986      CD      (NML(NML*         -    -   -   -        (DATE)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   25             ,      ,              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   26         1987      CD              *         -    -   -   -        (DATE)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   27           and     CC              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   28         1988      CD              *)        -    -   -   -        (DATE)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   29         model     NN              *)        -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   30         Mazda    NNP              *         -    -   -   -         (ORG)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   31          323s   NNPS             *))        -    -   -   -     (PRODUCT)            *            *        *)        *   -
+nw/wsj/04/wsj_0451   0   32      equipped    VBN           (VP*      equip  01   1   -            *             *            *      (V*)        *   -
+nw/wsj/04/wsj_0451   0   33          with     IN           (PP*         -    -   -   -            *             *            *   (ARG2*         *   -
+nw/wsj/04/wsj_0451   0   34          1.6      CD       (NP(NML*         -    -   -   -   (QUANTITY*             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   35            -    HYPH              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   36         liter     NN              *)        -    -   -   -            *)            *            *        *         *   -
+nw/wsj/04/wsj_0451   0   37          fuel     NN         (ADJP*         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   38            -    HYPH              *         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   39      injected    VBN              *)        -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   40       engines    NNS           *))))        -    -   -   -            *             *            *)       *)        *   -
+nw/wsj/04/wsj_0451   0   41            to     TO         (S(VP*         -    -   -   -            *             *   (ARGM-PRP*        *         *   -
+nw/wsj/04/wsj_0451   0   42       replace     VB           (VP*    replace  01   -   -            *             *            *        *       (V*)  -
+nw/wsj/04/wsj_0451   0   43           the     DT           (NP*         -    -   -   -            *             *            *        *    (ARG1*   -
+nw/wsj/04/wsj_0451   0   44           oil     NN          (NML*         -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   45        filler     NN              *)        -    -   -   -            *             *            *        *         *   -
+nw/wsj/04/wsj_0451   0   46           cap     NN      *)))))))))       cap   -   1   -            *             *)           *)       *         *)  -
+nw/wsj/04/wsj_0451   0   47             .      .             *))        -    -   -   -            *             *            *        *         *   -
+
+nw/wsj/04/wsj_0451   0   0     Mazda   NNP   (TOP(S(NP*)     -    -   -   -        (ORG)   (ARG0*)  -
+nw/wsj/04/wsj_0451   0   1     makes   VBZ         (VP*    make  01   -   -           *       (V*)  -
+nw/wsj/04/wsj_0451   0   2       the    DT         (NP*      -    -   -   -           *    (ARG1*   -
+nw/wsj/04/wsj_0451   0   3    Tracer   NNP            *)     -    -   -   -    (PRODUCT)        *)  -
+nw/wsj/04/wsj_0451   0   4       for    IN         (PP*      -    -   -   -           *    (ARG3*   -
+nw/wsj/04/wsj_0451   0   5      Ford   NNP       (NP*)))     -    -   -   -        (ORG)        *)  -
+nw/wsj/04/wsj_0451   0   6         .     .           *))     -    -   -   -           *         *   -
+
+nw/wsj/04/wsj_0451   0    0             As    IN  (TOP(S(S(PP*          -    -   -   -           *    (ARGM-CAU*   (ARG1*   -
+nw/wsj/04/wsj_0451   0    1              a    DT       (NP(NP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    2         result    NN             *)         -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    3             of    IN          (PP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    4            the    DT       (NP(NP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    5       adhesive    JJ             *          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    6        problem    NN             *)         -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    7             on    IN          (PP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    8            the    DT          (NP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0    9           Ford   NNP         (NML*          -    -   -   -        (ORG)            *        *   -
+nw/wsj/04/wsj_0451   0   10         Escort   NNP             *)         -    -   -   -    (PRODUCT)            *        *   -
+nw/wsj/04/wsj_0451   0   11    subcompacts   NNS        *))))))         -    -   -   -           *             *)       *   -
+nw/wsj/04/wsj_0451   0   12              ,     ,             *          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0   13    windshields   NNS          (NP*)         -    -   -   -           *        (ARG1*)       *   -
+nw/wsj/04/wsj_0451   0   14            may    MD          (VP*          -    -   -   -           *    (ARGM-MOD*)       *   -
+nw/wsj/04/wsj_0451   0   15         easily    RB        (ADVP*)         -    -   -   -           *    (ARGM-MNR*)       *   -
+nw/wsj/04/wsj_0451   0   16       separate    VB          (VP*    separate  01   1   -           *           (V*)       *   -
+nw/wsj/04/wsj_0451   0   17           from    IN          (PP*          -    -   -   -           *        (ARG2*        *   -
+nw/wsj/04/wsj_0451   0   18            the    DT          (NP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0   19            car    NN            *))         -    -   -   -           *             *)       *   -
+nw/wsj/04/wsj_0451   0   20         during    IN          (PP*          -    -   -   -           *    (ARGM-TMP*        *   -
+nw/wsj/04/wsj_0451   0   21        frontal    JJ          (NP*          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0   22         impact    NN         *)))))         -    -   -   -           *             *)       *)  -
+nw/wsj/04/wsj_0451   0   23              ,     ,             *          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0   24            the    DT          (NP*          -    -   -   -           *             *   (ARG0*   -
+nw/wsj/04/wsj_0451   0   25           U.S.   NNP             *          -    -   -   -        (GPE)            *        *   -
+nw/wsj/04/wsj_0451   0   26           auto    NN             *          -    -   -   -           *             *        *   -
+nw/wsj/04/wsj_0451   0   27          maker    NN             *)         -    -   -   -           *             *        *)  -
+nw/wsj/04/wsj_0451   0   28           said   VBD          (VP*)        say  01   -   -           *             *      (V*)  -
+nw/wsj/04/wsj_0451   0   29              .     .            *))         -    -   -   -           *             *        *   -
+
+nw/wsj/04/wsj_0451   0    0          When   WRB   (TOP(S(SBAR(WHADVP*)       -    -   -   -            *    (ARGM-TMP*)  (ARGM-TMP*            *   -
+nw/wsj/04/wsj_0451   0    1      properly    RB              (S(ADVP*)       -    -   -   -            *    (ARGM-MNR*)           *            *   -
+nw/wsj/04/wsj_0451   0    2       applied   VBN                (VP*)))    apply  03   -   -            *           (V*)           *)           *   -
+nw/wsj/04/wsj_0451   0    3             ,     ,                     *        -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0    4           the    DT                  (NP*        -    -   -   -            *        (ARG1*       (ARG1*       (ARG0*   -
+nw/wsj/04/wsj_0451   0    5      adhesive    NN                     *)       -    -   -   -            *             *)           *)           *)  -
+nw/wsj/04/wsj_0451   0    6            is   VBZ                  (VP*        -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0    7      designed   VBN                  (VP*    design  01   -   -            *             *          (V*)           *   -
+nw/wsj/04/wsj_0451   0    8            to    TO                (S(VP*        -    -   -   -            *             *       (ARG3*            *   -
+nw/wsj/04/wsj_0451   0    9        retain    VB                  (VP*    retain  01   1   -            *             *            *          (V*)  -
+nw/wsj/04/wsj_0451   0   10           the    DT                  (NP*        -    -   -   -            *             *            *       (ARG1*   -
+nw/wsj/04/wsj_0451   0   11    windshield    NN                     *)       -    -   -   -            *             *            *            *)  -
+nw/wsj/04/wsj_0451   0   12            in    IN                  (PP*        -    -   -   -            *             *            *       (ARG3*   -
+nw/wsj/04/wsj_0451   0   13         place    NN                 (NP*))       -    -   -   -            *             *            *            *)  -
+nw/wsj/04/wsj_0451   0   14            in    IN                  (PP*        -    -   -   -            *             *            *   (ARGM-LOC*   -
+nw/wsj/04/wsj_0451   0   15             a    DT               (NP(NP*        -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0   16         crash    JJ                     *        -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0   17          test    NN                     *)       -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0   18            at    IN                  (PP*        -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0   19           30     CD               (NP(NP*        -    -   -   -   (QUANTITY*             *            *            *   -
+nw/wsj/04/wsj_0451   0   20         miles   NNS                     *)       -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0   21           per    IN                  (PP*        -    -   -   -            *             *            *            *   -
+nw/wsj/04/wsj_0451   0   22          hour    NN        (NP*)))))))))))       -    -   -   -            *)            *            *)           *)  -
+nw/wsj/04/wsj_0451   0   23             .     .                    *))       -    -   -   -            *             *            *            *   -
+
+nw/wsj/04/wsj_0451   0    0             A    DT   (TOP(S(NP*       -    -   -   -       *   (ARG0*             *        *   -
+nw/wsj/04/wsj_0451   0    1          Ford   NNP            *       -    -   -   -    (ORG)       *             *        *   -
+nw/wsj/04/wsj_0451   0    2     spokesman    NN            *)      -    -   -   -       *        *)            *        *   -
+nw/wsj/04/wsj_0451   0    3          said   VBD         (VP*      say  01   -   -       *      (V*)            *        *   -
+nw/wsj/04/wsj_0451   0    4           the    DT  (SBAR(S(NP*       -    -   -   -       *   (ARG1*        (ARG1*        *   -
+nw/wsj/04/wsj_0451   0    5      Dearborn   NNP        (NML*       -    -   -   -    (GPE)       *             *        *   -
+nw/wsj/04/wsj_0451   0    6             ,     ,            *       -    -   -   -       *        *             *        *   -
+nw/wsj/04/wsj_0451   0    7         Mich.   NNP            *       -    -   -   -    (GPE)       *             *        *   -
+nw/wsj/04/wsj_0451   0    8             ,     ,            *)      -    -   -   -       *        *             *        *   -
+nw/wsj/04/wsj_0451   0    9          auto    NN            *       -    -   -   -       *        *             *        *   -
+nw/wsj/04/wsj_0451   0   10         maker    NN            *)      -    -   -   -       *        *             *)       *   -
+nw/wsj/04/wsj_0451   0   11            is   VBZ         (VP*       be  01   -   -       *        *           (V*)       *   -
+nw/wsj/04/wsj_0451   0   12           n't    RB            *       -    -   -   -       *        *    (ARGM-NEG*)       *   -
+nw/wsj/04/wsj_0451   0   13         aware    JJ       (ADJP*       -    -   -   -       *        *        (ARG2*        *   -
+nw/wsj/04/wsj_0451   0   14            of    IN         (PP*       -    -   -   -       *        *             *        *   -
+nw/wsj/04/wsj_0451   0   15           any    DT      (NP(NP*       -    -   -   -       *        *             *   (ARG1*   -
+nw/wsj/04/wsj_0451   0   16      injuries   NNS            *)      -    -   -   -       *        *             *        *)  -
+nw/wsj/04/wsj_0451   0   17        caused   VBN         (VP*    cause  01   1   -       *        *             *      (V*)  -
+nw/wsj/04/wsj_0451   0   18            by    IN         (PP*       -    -   -   -       *        *             *   (ARG0*   -
+nw/wsj/04/wsj_0451   0   19           the    DT         (NP*       -    -   -   -       *        *             *        *   -
+nw/wsj/04/wsj_0451   0   20    windshield    NN            *       -    -   -   -       *        *             *        *   -
+nw/wsj/04/wsj_0451   0   21       problem    NN   *))))))))))      -    -   -   -       *        *)            *)       *)  -
+nw/wsj/04/wsj_0451   0   22             .     .           *))      -    -   -   -       *        *             *        *   -
+
+nw/wsj/04/wsj_0451   0    0           Ford   NNP      (TOP(S(NP*)          -    -   -   -    (ORG)   (ARG0*)            *             *             *   -
+nw/wsj/04/wsj_0451   0    1           said   VBD            (VP*          say  01   -   -       *       (V*)            *             *             *   -
+nw/wsj/04/wsj_0451   0    2         owners   NNS   (SBAR(S(S(NP*)          -    -   -   -       *    (ARG1*        (ARG0*)            *             *   -
+nw/wsj/04/wsj_0451   0    3         should    MD            (VP*           -    -   -   -       *         *    (ARGM-MOD*)            *             *   -
+nw/wsj/04/wsj_0451   0    4         return    VB            (VP*       return  02   -   -       *         *           (V*)            *             *   -
+nw/wsj/04/wsj_0451   0    5            the    DT            (NP*           -    -   -   -       *         *        (ARG1*             *             *   -
+nw/wsj/04/wsj_0451   0    6           cars   NNS               *)          -    -   -   -       *         *             *)            *             *   -
+nw/wsj/04/wsj_0451   0    7             to    IN            (PP*           -    -   -   -       *         *        (ARG2*             *             *   -
+nw/wsj/04/wsj_0451   0    8        dealers   NNS        (NP*)))))          -    -   -   -       *         *             *)            *             *   -
+nw/wsj/04/wsj_0451   0    9             so    IN               *           -    -   -   -       *         *    (ARGM-PNC*             *             *   -
+nw/wsj/04/wsj_0451   0   10            the    DT          (S(NP*           -    -   -   -       *         *             *        (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0451   0   11    windshields   NNS               *)          -    -   -   -       *         *             *             *)            *)  -
+nw/wsj/04/wsj_0451   0   12            can    MD            (VP*           -    -   -   -       *         *             *    (ARGM-MOD*)   (ARGM-MOD*)  -
+nw/wsj/04/wsj_0451   0   13             be    VB            (VP*           -    -   -   -       *         *             *             *             *   -
+nw/wsj/04/wsj_0451   0   14        removed   VBN         (VP(VP*)      remove  01   -   -       *         *             *           (V*)            *   -
+nw/wsj/04/wsj_0451   0   15            and    CC               *           -    -   -   -       *         *             *             *             *   -
+nw/wsj/04/wsj_0451   0   16       securely    RB          (ADVP*)          -    -   -   -       *         *             *             *    (ARGM-MNR*)  -
+nw/wsj/04/wsj_0451   0   17    reinstalled   VBN     (VP*))))))))   reinstall  01   -   -       *         *)            *)            *           (V*)  -
+nw/wsj/04/wsj_0451   0   18              .     .              *))          -    -   -   -       *         *             *             *             *   -
+
+nw/wsj/04/wsj_0451   0    0          Mazda   NNP      (TOP(S(NP*             -    -   -   -        (ORG)  (ARG0*             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    1            and    CC               *             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    2           Ford   NNP               *)            -    -   -   -        (ORG)       *)            *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    3           said   VBD            (VP*            say  01   -   -           *      (V*)            *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    4              a    DT  (SBAR(S(NP(NP*             -    -   -   -           *   (ARG1*        (ARG0*            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    5    combination    NN               *)   combination   -   1   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    6             of    IN            (PP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    7        limited    JJ         (NP(NP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    8      crankcase    NN               *             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0    9    ventilation    NN               *)            -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   10            and    CC               *             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   11       improper    JJ            (NP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   12    maintenance    NN            *))))            -    -   -   -           *        *             *)           *        *        *        *   -
+nw/wsj/04/wsj_0451   0   13          could    MD            (VP*             -    -   -   -           *        *    (ARGM-MOD*)           *        *        *        *   -
+nw/wsj/04/wsj_0451   0   14          cause    VB            (VP*          cause  01   1   -           *        *           (V*)           *        *        *        *   -
+nw/wsj/04/wsj_0451   0   15         engine    NN       (S(NP(NP*             -    -   -   -           *        *        (ARG1*       (ARG1*        *        *        *   -
+nw/wsj/04/wsj_0451   0   16            oil    NN               *)            -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   17             in    IN            (PP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   18           some    DT         (NP(NP*)            -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   19             of    IN            (PP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   20            the    DT         (NP(NP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   21        Mercury   NNP               *             -    -   -   -        (ORG)       *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   22        Tracers   NNP               *)            -    -   -   -    (PRODUCT)       *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   23            and    CC               *             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   24          Mazda   NNP            (NP*             -    -   -   -        (ORG)       *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   25           323s   NNS          *))))))            -    -   -   -    (PRODUCT)       *             *            *)       *        *        *   -
+nw/wsj/04/wsj_0451   0   26             to    TO            (VP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   27    deteriorate    VB            (VP*    deteriorate  01   1   -           *        *             *          (V*)       *        *        *   -
+nw/wsj/04/wsj_0451   0   28           more   RBR     (ADVP(ADVP*             -    -   -   -           *        *             *   (ARGM-MNR*        *        *        *   -
+nw/wsj/04/wsj_0451   0   29        rapidly    RB               *)            -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   30           than    IN            (PP*             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   31         normal    JJ        (ADJP*)))            -    -   -   -           *        *             *            *)       *        *        *   -
+nw/wsj/04/wsj_0451   0   32              ,     ,               *             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   33        causing   VBG          (S(VP*          cause  01   1   -           *        *             *   (ARGM-ADV*      (V*)       *        *   -
+nw/wsj/04/wsj_0451   0   34      increased   VBN         (NP(NP*       increase  01   1   -           *        *             *            *   (ARG1*      (V*)       *   -
+nw/wsj/04/wsj_0451   0   35         engine    NN               *             -    -   -   -           *        *             *            *        *   (ARG1*        *   -
+nw/wsj/04/wsj_0451   0   36          noise    NN               *)            -    -   -   -           *        *             *            *        *        *)       *   -
+nw/wsj/04/wsj_0451   0   37             or    CC               *             -    -   -   -           *        *             *            *        *        *        *   -
+nw/wsj/04/wsj_0451   0   38        reduced   VBN            (NP*         reduce  01   -   -           *        *             *            *        *        *      (V*)  -
+nw/wsj/04/wsj_0451   0   39         engine    NN               *             -    -   -   -           *        *             *            *        *        *   (ARG1*   -
+nw/wsj/04/wsj_0451   0   40           life    NN    *))))))))))))            -    -   -   -           *        *)            *)           *)       *)       *        *)  -
+nw/wsj/04/wsj_0451   0   41              .     .              *))            -    -   -   -           *        *             *            *        *        *        *   -
+
+nw/wsj/04/wsj_0451   0   0        They   PRP   (TOP(S(NP*)       -    -   -   -   *    (ARG0*)            *             *   -
+nw/wsj/04/wsj_0451   0   1        said   VBD         (VP*       say  01   -   -   *       (V*)            *             *   -
+nw/wsj/04/wsj_0451   0   2         the    DT  (SBAR(S(NP*        -    -   -   -   *    (ARG1*        (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0451   0   3    problems   NNS            *)       -    -   -   -   *         *             *)            *)  -
+nw/wsj/04/wsj_0451   0   4         are   VBP         (VP*        be  01   -   -   *         *           (V*)            *   -
+nw/wsj/04/wsj_0451   0   5         n't    RB            *        -    -   -   -   *         *    (ARGM-NEG*)   (ARGM-NEG*)  -
+nw/wsj/04/wsj_0451   0   6      safety    NN       (ADJP*        -    -   -   -   *         *        (ARG2*        (ARG2*)  -
+nw/wsj/04/wsj_0451   0   7     related   VBN        *)))))   relate  01   -   -   *         *)            *)          (V*)  -
+nw/wsj/04/wsj_0451   0   8           .     .           *))       -    -   -   -   *         *             *             *   -
+
+nw/wsj/04/wsj_0451   0    0          Both    DT  (TOP(S(NP*           -    -   -   -   *        (ARG0*        *   -
+nw/wsj/04/wsj_0451   0    1     companies   NNS           *)          -    -   -   -   *             *)       *   -
+nw/wsj/04/wsj_0451   0    2          will    MD        (VP*           -    -   -   -   *    (ARGM-MOD*)       *   -
+nw/wsj/04/wsj_0451   0    3       replace    VB        (VP*      replace  01   -   -   *           (V*)       *   -
+nw/wsj/04/wsj_0451   0    4           the    DT        (NP*           -    -   -   -   *        (ARG1*        *   -
+nw/wsj/04/wsj_0451   0    5           oil    NN       (NML*           -    -   -   -   *             *        *   -
+nw/wsj/04/wsj_0451   0    6        filler    NN           *)          -    -   -   -   *             *        *   -
+nw/wsj/04/wsj_0451   0    7           cap    NN           *)         cap   -   2   -   *             *)       *   -
+nw/wsj/04/wsj_0451   0    8          with    IN        (PP*           -    -   -   -   *        (ARG2*        *   -
+nw/wsj/04/wsj_0451   0    9             a    DT        (NP*           -    -   -   -   *             *        *   -
+nw/wsj/04/wsj_0451   0   10    ventilated   VBN           *    ventilate  01   -   -   *             *      (V*)  -
+nw/wsj/04/wsj_0451   0   11           oil    NN       (NML*           -    -   -   -   *             *   (ARG1*   -
+nw/wsj/04/wsj_0451   0   12        filler    NN           *)          -    -   -   -   *             *        *   -
+nw/wsj/04/wsj_0451   0   13           cap    NN        *))))         cap   -   2   -   *             *)       *)  -
+nw/wsj/04/wsj_0451   0   14             .     .          *))          -    -   -   -   *             *        *   -
+
+nw/wsj/04/wsj_0451   0    0         Both    DT      (TOP(S(NP*)        -    -   -   -   *        (ARG0*)       (ARG0*)  -
+nw/wsj/04/wsj_0451   0    1         also    RB          (ADVP*)        -    -   -   -   *    (ARGM-DIS*)   (ARGM-DIS*)  -
+nw/wsj/04/wsj_0451   0    2         will    MD            (VP*         -    -   -   -   *    (ARGM-MOD*)   (ARGM-MOD*)  -
+nw/wsj/04/wsj_0451   0    3      inspect    VB            (VP*    inspect  01   1   -   *           (V*)            *   -
+nw/wsj/04/wsj_0451   0    4          and    CC               *         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0    5      replace    VB               *    replace  01   -   -   *             *           (V*)  -
+nw/wsj/04/wsj_0451   0    6            ,     ,               *         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0    7           if    IN          (SBAR*         -    -   -   -   *             *    (ARGM-ADV*   -
+nw/wsj/04/wsj_0451   0    8    necessary    JJ   (FRAG(ADJP*)))        -    -   -   -   *             *             *)  -
+nw/wsj/04/wsj_0451   0    9            ,     ,               *         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   10          oil    NN         (NP(NP*         -    -   -   -   *        (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0451   0   11      filters   NNS               *)        -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   12          and    CC               *         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   13          oil    NN            (NP*         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   14    strainers   NNS              *))        -    -   -   -   *             *)            *)  -
+nw/wsj/04/wsj_0451   0   15            ,     ,               *         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   16           at    IN            (PP*         -    -   -   -   *    (ARGM-MNR*    (ARGM-MNR*   -
+nw/wsj/04/wsj_0451   0   17           no    DT         (NP(NP*         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   18       charge    NN               *)        -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   19           to    IN            (PP*         -    -   -   -   *             *             *   -
+nw/wsj/04/wsj_0451   0   20       owners   NNS       (NP*))))))        -    -   -   -   *             *)            *)  -
+nw/wsj/04/wsj_0451   0   21            .     .              *))        -    -   -   -   *             *             *   -
+
+nw/wsj/04/wsj_0451   0    0              For    IN    (TOP(S(PP*           -    -   -   -            *           *        *    (ARGM-PNC*   -
+nw/wsj/04/wsj_0451   0    1           owners   NNS       (NP(NP*)          -    -   -   -            *      (ARG0*)       *             *   -
+nw/wsj/04/wsj_0451   0    2              who    WP   (SBAR(WHNP*)          -    -   -   -            *    (R-ARG0*)       *             *   -
+nw/wsj/04/wsj_0451   0    3             have   VBP        (S(VP*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0    4         followed   VBN          (VP*       follow  02   -   -            *         (V*)       *             *   -
+nw/wsj/04/wsj_0451   0    5              the    DT          (NP*           -    -   -   -            *      (ARG1*        *             *   -
+nw/wsj/04/wsj_0451   0    6      recommended   VBN             *    recommend  01   -   -            *           *      (V*)            *   -
+nw/wsj/04/wsj_0451   0    7              oil    NN             *           -    -   -   -            *           *   (ARG1*             *   -
+nw/wsj/04/wsj_0451   0    8      maintenance    NN             *           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0    9         schedule    NN       *)))))))          -    -   -   -            *           *)       *)            *)  -
+nw/wsj/04/wsj_0451   0   10                ,     ,             *           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   11            Mazda   NNP          (NP*)          -    -   -   -         (ORG)          *        *        (ARG0*)  -
+nw/wsj/04/wsj_0451   0   12             will    MD          (VP*           -    -   -   -            *           *        *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0451   0   13           extend    VB          (VP*       extend  01   -   -            *           *        *           (V*)  -
+nw/wsj/04/wsj_0451   0   14               to    IN          (PP*           -    -   -   -            *           *        *        (ARG2*   -
+nw/wsj/04/wsj_0451   0   15             five    CD       (NP(NP*           -    -   -   -       (DATE*           *        *             *   -
+nw/wsj/04/wsj_0451   0   16            years   NNS             *)          -    -   -   -            *)          *        *             *   -
+nw/wsj/04/wsj_0451   0   17               or    CC             *           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   18          60,000     CD          (NP*           -    -   -   -   (QUANTITY*           *        *             *   -
+nw/wsj/04/wsj_0451   0   19            miles   NNS           *)))          -    -   -   -            *)          *        *             *)  -
+nw/wsj/04/wsj_0451   0   20              the    DT       (NP(NP*           -    -   -   -            *           *        *        (ARG1*   -
+nw/wsj/04/wsj_0451   0   21         warranty    NN             *           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   22             term    NN             *)          -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   23              for    IN          (PP*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   24           engine    NN       (NP(NP*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   25           damage    NN             *)          -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   26              due    JJ        (ADJP*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   27               to    IN          (PP*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   28         abnormal    JJ          (NP*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   29           engine    NN         (NML*           -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   30              oil    NN             *)          -    -   -   -            *           *        *             *   -
+nw/wsj/04/wsj_0451   0   31    deterioration    NN      *))))))))          -    -   -   -            *           *        *             *)  -
+nw/wsj/04/wsj_0451   0   32                .     .            *))          -    -   -   -            *           *        *             *   -
+
+nw/wsj/04/wsj_0451   0    0       The    DT  (TOP(S(S(NP(NP*    -    -   -   -            *   (ARG1*        *   -
+nw/wsj/04/wsj_0451   0    1    normal    JJ                *    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0    2      term    NN                *)   -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0    3       for    IN             (PP*    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0    4       the    DT             (NP*    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0    5     1986     CD            (NML*    -    -   -   -        (DATE)       *        *   -
+nw/wsj/04/wsj_0451   0    6       and    CC                *    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0    7     1987     CD                *)   -    -   -   -        (DATE)       *        *   -
+nw/wsj/04/wsj_0451   0    8     model    NN                *    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0    9      323     CD              *)))   -    -   -   -     (PRODUCT)       *)       *   -
+nw/wsj/04/wsj_0451   0   10        is   VBZ             (VP*    be  01   -   -            *      (V*)       *   -
+nw/wsj/04/wsj_0451   0   11       two    CD          (NP(NP*    -    -   -   -       (DATE*   (ARG2*        *   -
+nw/wsj/04/wsj_0451   0   12     years   NNS                *)   -    -   -   -            *)       *        *   -
+nw/wsj/04/wsj_0451   0   13        or    CC                *    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0   14   24,000     CD             (NP*    -    -   -   -   (QUANTITY*        *        *   -
+nw/wsj/04/wsj_0451   0   15     miles   NNS             *))))   -    -   -   -            *)       *)       *   -
+nw/wsj/04/wsj_0451   0   16         ;     :                *    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0   17       the    DT        (S(NP(NP*    -    -   -   -            *        *   (ARG1*   -
+nw/wsj/04/wsj_0451   0   18      term    NN                *)   -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0   19       for    IN             (PP*    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0   20       the    DT             (NP*    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0   21     1988     CD                *    -    -   -   -        (DATE)       *        *   -
+nw/wsj/04/wsj_0451   0   22      323     NN              *)))   -    -   -   -     (PRODUCT)       *        *)  -
+nw/wsj/04/wsj_0451   0   23        is   VBZ             (VP*    be  01   -   -            *        *      (V*)  -
+nw/wsj/04/wsj_0451   0   24     three    CD          (NP(NP*    -    -   -   -       (DATE*        *   (ARG2*   -
+nw/wsj/04/wsj_0451   0   25     years   NNS                *)   -    -   -   -            *)       *        *   -
+nw/wsj/04/wsj_0451   0   26        or    CC                *    -    -   -   -            *        *        *   -
+nw/wsj/04/wsj_0451   0   27   50,000     CD             (NP*    -    -   -   -   (QUANTITY*        *        *   -
+nw/wsj/04/wsj_0451   0   28     miles   NNS             *))))   -    -   -   -            *)       *        *)  -
+nw/wsj/04/wsj_0451   0   29         .     .               *))   -    -   -   -            *        *        *   -
+
+nw/wsj/04/wsj_0451   0    0        Ford    NNP      (TOP(S(NP*)    -    -   -   -         (ORG)   (ARG0*)            *   -
+nw/wsj/04/wsj_0451   0    1        said    VBD            (VP*    say  01   -   -            *       (V*)            *   -
+nw/wsj/04/wsj_0451   0    2         the     DT  (SBAR(S(NP(NP*     -    -   -   -            *    (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0451   0    3        term     NN               *)    -    -   -   -            *         *             *   -
+nw/wsj/04/wsj_0451   0    4          on     IN            (PP*     -    -   -   -            *         *             *   -
+nw/wsj/04/wsj_0451   0    5         its   PRP$            (NP*     -    -   -   -            *         *             *   -
+nw/wsj/04/wsj_0451   0    6    warranty     NN             *)))    -    -   -   -            *         *             *)  -
+nw/wsj/04/wsj_0451   0    7          is    VBZ            (VP*     be  01   -   -            *         *           (V*)  -
+nw/wsj/04/wsj_0451   0    8     already     RB          (ADVP*)    -    -   -   -            *         *    (ARGM-ADV*)  -
+nw/wsj/04/wsj_0451   0    9         six     CD         (NP(NP*     -    -   -   -       (DATE*         *        (ARG2*   -
+nw/wsj/04/wsj_0451   0   10       years    NNS               *)    -    -   -   -            *)        *             *   -
+nw/wsj/04/wsj_0451   0   11          or     CC               *     -    -   -   -            *         *             *   -
+nw/wsj/04/wsj_0451   0   12     60,000      CD            (NP*     -    -   -   -   (QUANTITY*         *             *   -
+nw/wsj/04/wsj_0451   0   13       miles    NNS          *))))))    -    -   -   -            *)        *)            *)  -
+nw/wsj/04/wsj_0451   0   14           .      .              *))    -    -   -   -            *         *             *   -
+
+nw/wsj/04/wsj_0451   0    0    Separately    NNP   (TOP(S(ADVP*)      -    -   -   -           *    (ARGM-DIS*)            *   -
+nw/wsj/04/wsj_0451   0    1             ,      ,              *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0    2          Ford    NNP           (NP*)      -    -   -   -        (ORG)       (ARG0*)            *   -
+nw/wsj/04/wsj_0451   0    3          said    VBD           (VP*      say  01   -   -           *           (V*)            *   -
+nw/wsj/04/wsj_0451   0    4            it    PRP    (SBAR(S(NP*)      -    -   -   -           *        (ARG1*        (ARG0*)  -
+nw/wsj/04/wsj_0451   0    5          will     MD           (VP*       -    -   -   -           *             *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0451   0    6         offer     VB           (VP*    offer  01   -   -           *             *           (V*)  -
+nw/wsj/04/wsj_0451   0    7             $      $       (NP(NML*       -    -   -   -           *             *        (ARG1*   -
+nw/wsj/04/wsj_0451   0    8          750      CD              *)      -    -   -   -      (MONEY)            *             *   -
+nw/wsj/04/wsj_0451   0    9          cash     NN              *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   10       rebates    NNS              *)      -    -   -   -           *             *             *)  -
+nw/wsj/04/wsj_0451   0   11            to     IN           (PP*       -    -   -   -           *             *        (ARG3*   -
+nw/wsj/04/wsj_0451   0   12        buyers    NNS        (NP(NP*)      -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   13            of     IN           (PP*       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   14           its   PRP$           (NP*       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   15         1990      CD          (NML*       -    -   -   -       (DATE)            *             *   -
+nw/wsj/04/wsj_0451   0   16            -    HYPH              *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   17         model     NN              *)      -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   18          Ford    NNP          (NML*       -    -   -   -        (ORG)            *             *   -
+nw/wsj/04/wsj_0451   0   19        Bronco    NNP              *)      -    -   -   -    (PRODUCT)            *             *   -
+nw/wsj/04/wsj_0451   0   20         sport     NN              *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   21       utility     NN              *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   22       vehicle     NN      *)))))))))      -    -   -   -           *             *)            *)  -
+nw/wsj/04/wsj_0451   0   23             .      .             *))      -    -   -   -           *             *             *   -
+
+nw/wsj/04/wsj_0451   0    0           It    PRP    (TOP(S(NP*)        -    -   -   -           *    (ARG0*)            *        *   -
+nw/wsj/04/wsj_0451   0    1         said    VBD          (VP*        say  01   -   -           *       (V*)            *        *   -
+nw/wsj/04/wsj_0451   0    2           it    PRP   (SBAR(S(NP*)        -    -   -   -           *    (ARG1*        (ARG0*)       *   -
+nw/wsj/04/wsj_0451   0    3         will     MD          (VP*         -    -   -   -           *         *    (ARGM-MOD*)       *   -
+nw/wsj/04/wsj_0451   0    4         also     RB        (ADVP*)        -    -   -   -           *         *    (ARGM-ADV*)       *   -
+nw/wsj/04/wsj_0451   0    5        offer     VB          (VP*      offer  01   -   -           *         *           (V*)       *   -
+nw/wsj/04/wsj_0451   0    6       buyers    NNS          (NP*)        -    -   -   -           *         *        (ARG3*)       *   -
+nw/wsj/04/wsj_0451   0    7          the     DT       (NP(NP*         -    -   -   -           *         *        (ARG1*        *   -
+nw/wsj/04/wsj_0451   0    8       option     NN             *)        -    -   -   -           *         *             *        *   -
+nw/wsj/04/wsj_0451   0    9           of     IN          (PP*         -    -   -   -           *         *             *        *   -
+nw/wsj/04/wsj_0451   0   10    financing     NN       (NP(NP*)   finance  01   1   -           *         *             *      (V*)  -
+nw/wsj/04/wsj_0451   0   11           as     RB   (ADJP(ADJP*         -    -   -   -           *         *             *   (ARG3*   -
+nw/wsj/04/wsj_0451   0   12          low     JJ             *)        -    -   -   -           *         *             *        *   -
+nw/wsj/04/wsj_0451   0   13           as     IN          (PP*         -    -   -   -           *         *             *        *   -
+nw/wsj/04/wsj_0451   0   14         6.9      CD          (NP*         -    -   -   -   (PERCENT*         *             *        *   -
+nw/wsj/04/wsj_0451   0   15            %     NN           *)))        -    -   -   -           *)        *             *        *)  -
+nw/wsj/04/wsj_0451   0   16           on     IN          (PP*         -    -   -   -           *         *             *   (ARG1*   -
+nw/wsj/04/wsj_0451   0   17          24      CD      (NP(NML*         -    -   -   -      (DATE*         *             *        *   -
+nw/wsj/04/wsj_0451   0   18           -    HYPH             *         -    -   -   -           *         *             *        *   -
+nw/wsj/04/wsj_0451   0   19        month     NN             *)        -    -   -   -           *)        *             *        *   -
+nw/wsj/04/wsj_0451   0   20        loans    NNS    *))))))))))        -    -   -   -           *         *)            *)       *)  -
+nw/wsj/04/wsj_0451   0   21            .      .            *))        -    -   -   -           *         *             *        *   -
+
+nw/wsj/04/wsj_0451   0    0          Ford    NNP    (TOP(S(NP*)      -    -   -   -        (ORG)       (ARG0*)            *   -
+nw/wsj/04/wsj_0451   0    1          also     RB        (ADVP*)      -    -   -   -           *    (ARGM-ADV*)            *   -
+nw/wsj/04/wsj_0451   0    2       offered    VBD          (VP*    offer  01   -   -           *           (V*)            *   -
+nw/wsj/04/wsj_0451   0    3           the     DT          (NP*       -    -   -   -           *        (ARG1*             *   -
+nw/wsj/04/wsj_0451   0    4           low     JJ         (NML*       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0    5     financing     NN             *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0    6          rate     NN             *)      -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0    7        option     NN             *)      -    -   -   -           *             *)            *   -
+nw/wsj/04/wsj_0451   0    8            on     IN          (PP*       -    -   -   -           *    (ARGM-ADV*             *   -
+nw/wsj/04/wsj_0451   0    9         1989      CD   (NP(NP(NML*       -    -   -   -       (DATE)            *        (ARG0*   -
+nw/wsj/04/wsj_0451   0   10            -    HYPH             *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   11         model     NN             *)      -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   12       Broncos   NNPS             *)      -    -   -   -    (PRODUCT)            *             *)  -
+nw/wsj/04/wsj_0451   0   13             ,      ,             *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   14         which    WDT   (SBAR(WHNP*)      -    -   -   -           *             *      (R-ARG0*)  -
+nw/wsj/04/wsj_0451   0   15    previously     RB      (S(ADVP*)      -    -   -   -           *             *    (ARGM-TMP*)  -
+nw/wsj/04/wsj_0451   0   16       carried    VBD          (VP*    carry  01   -   -           *             *           (V*)  -
+nw/wsj/04/wsj_0451   0   17             a     DT          (NP*       -    -   -   -           *             *        (ARG1*   -
+nw/wsj/04/wsj_0451   0   18             $      $         (NML*       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   19          750      CD             *)      -    -   -   -      (MONEY)            *             *   -
+nw/wsj/04/wsj_0451   0   20          cash     NN             *       -    -   -   -           *             *             *   -
+nw/wsj/04/wsj_0451   0   21      discount     NN       *)))))))      -    -   -   -           *             *)            *)  -
+nw/wsj/04/wsj_0451   0   22             .      .            *))      -    -   -   -           *             *             *   -
+
+nw/wsj/04/wsj_0451   0    0            Ford   NNP     (TOP(S(NP*)      -    -   -   -     (ORG)   (ARG0*)            *             *   -
+nw/wsj/04/wsj_0451   0    1            said   VBD           (VP*      say  01   -   -        *       (V*)            *             *   -
+nw/wsj/04/wsj_0451   0    2             the    DT    (SBAR(S(NP*       -    -   -   -        *    (ARG1*        (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0451   0    3             new    JJ              *       -    -   -   -        *         *             *             *   -
+nw/wsj/04/wsj_0451   0    4           offer    NN              *)      -    -   -   -        *         *             *)            *)  -
+nw/wsj/04/wsj_0451   0    5            will    MD           (VP*       -    -   -   -        *         *    (ARGM-MOD*)   (ARGM-MOD*)  -
+nw/wsj/04/wsj_0451   0    6           begin    VB        (VP(VP*    begin  01   -   -        *         *           (V*)            *   -
+nw/wsj/04/wsj_0451   0    7        Saturday   NNP          (NP*))      -    -   -   -    (DATE)        *    (ARGM-TMP*)            *   -
+nw/wsj/04/wsj_0451   0    8             and    CC              *       -    -   -   -        *         *             *             *   -
+nw/wsj/04/wsj_0451   0    9             run    VB           (VP*      run  01   -   -        *         *             *           (V*)  -
+nw/wsj/04/wsj_0451   0   10    indefinitely    RB   (ADVP*)))))))      -    -   -   -        *         *)            *    (ARGM-TMP*)  -
+nw/wsj/04/wsj_0451   0   11               .     .             *))      -    -   -   -        *         *             *             *   -
+
+#end document

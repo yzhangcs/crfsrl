@@ -1,0 +1,660 @@
+#begin document (bn/mnb/00/mnb_0010); part 000
+bn/mnb/00/mnb_0010   0    0          It   PRP   (TOP(S(NP*)       -    -   -   -            *        (ARG1*)            *    (12)
+bn/mnb/00/mnb_0010   0    1        will    MD         (VP*        -    -   -   -            *    (ARGM-MOD*)            *      -
+bn/mnb/00/mnb_0010   0    2          be    VB         (VP*        be  01   1   -            *           (V*)            *      -
+bn/mnb/00/mnb_0010   0    3         one    CD      (NP(NP*)       -    -   -   -    (CARDINAL)       (ARG2*             *      -
+bn/mnb/00/mnb_0010   0    4          of    IN         (PP*        -    -   -   -            *             *             *      -
+bn/mnb/00/mnb_0010   0    5         the    DT      (NP(NP*        -    -   -   -            *             *             *      -
+bn/mnb/00/mnb_0010   0    6       first    JJ            *        -    -   -   -     (ORDINAL)            *    (ARGM-TMP*)     -
+bn/mnb/00/mnb_0010   0    7    election    NN            *        -    -   -   -            *             *        (ARG1*)     -
+bn/mnb/00/mnb_0010   0    8     returns   NNS            *)   return  04   7   -            *             *           (V*)     -
+bn/mnb/00/mnb_0010   0    9          on    IN         (PP*        -    -   -   -            *             *    (ARGM-TMP*      -
+bn/mnb/00/mnb_0010   0   10     Tuesday   NNP   (NP*)))))))       -    -   -   -        (DATE)            *)            *)     -
+bn/mnb/00/mnb_0010   0   11           .     .           *))       -    -   -   -            *             *             *      -
+
+bn/mnb/00/mnb_0010   0   0           It   PRP   (TOP(S(NP*)   -    -   -   -   *        (ARG1*)   (12)
+bn/mnb/00/mnb_0010   0   1         will    MD         (VP*    -    -   -   -   *    (ARGM-MOD*)     -
+bn/mnb/00/mnb_0010   0   2         also    RB       (ADVP*)   -    -   -   -   *    (ARGM-DIS*)     -
+bn/mnb/00/mnb_0010   0   3           be    VB         (VP*    be  01   1   -   *           (V*)     -
+bn/mnb/00/mnb_0010   0   4        among    IN         (PP*    -    -   -   -   *        (ARG2*      -
+bn/mnb/00/mnb_0010   0   5          the    DT         (NP*    -    -   -   -   *             *      -
+bn/mnb/00/mnb_0010   0   6         most   RBS       (ADJP*    -    -   -   -   *             *      -
+bn/mnb/00/mnb_0010   0   7    important    JJ        *)))))   -    -   -   -   *             *)     -
+bn/mnb/00/mnb_0010   0   8            .     .           *))   -    -   -   -   *             *      -
+
+bn/mnb/00/mnb_0010   0    0              As     IN       (TOP(SBAR*          -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0    1              we    PRP           (S(NP*)         -    -    -   -        *       (ARG0*)        *        *            *        *     (11)
+bn/mnb/00/mnb_0010   0    2        continue    VBP             (VP*    continue  01    1   -        *          (V*)        *        *            *        *       -
+bn/mnb/00/mnb_0010   0    3             our   PRP$          (NP(NP*          -    -    -   -        *       (ARG1*    (ARG0*)       *            *        *     (11)
+bn/mnb/00/mnb_0010   0    4        coverage     NN                *)   coverage  03    3   -        *            *       (V*)       *            *        *       -
+bn/mnb/00/mnb_0010   0    5              of     IN             (PP*          -    -    -   -        *            *    (ARG1*        *            *        *       -
+bn/mnb/00/mnb_0010   0    6    presidential     JJ             (NP*          -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0    7        politics    NNS              *)))         -    -    -   -        *            *)        *)       *            *        *       -
+bn/mnb/00/mnb_0010   0    8            with     IN             (PP*          -    -    -   -        *   (ARGM-MNR*         *        *            *        *       -
+bn/mnb/00/mnb_0010   0    9               a     DT          (NP(NP*          -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0   10            look     NN                *)       look  01    2   -        *            *         *      (V*)           *        *       -
+bn/mnb/00/mnb_0010   0   11              at     IN             (PP*          -    -    -   -        *            *         *   (ARG1*            *        *       -
+bn/mnb/00/mnb_0010   0   12             the     DT             (NP*          -    -    -   -        *            *         *        *            *        *      (1
+bn/mnb/00/mnb_0010   0   13            last     JJ            (NML*          -    -    -   -   (TIME*            *         *        *   (ARGM-TMP*        *       -
+bn/mnb/00/mnb_0010   0   14              -    HYPH                *          -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0   15          minute     NN                *)         -    -    -   -        *)           *         *        *            *)       *       -
+bn/mnb/00/mnb_0010   0   16          battle     NN                *      battle  01    3   -        *            *         *        *          (V*)       *       -
+bn/mnb/00/mnb_0010   0   17              to     TO           (S(VP*          -    -    -   -        *            *         *        *       (ARG2*        *       -
+bn/mnb/00/mnb_0010   0   18             win     VB             (VP*         win  01    2   -        *            *         *        *            *      (V*)      -
+bn/mnb/00/mnb_0010   0   19               a     DT          (NP(NP*          -    -    -   -        *            *         *        *            *   (ARG1*      (3
+bn/mnb/00/mnb_0010   0   20         crucial     JJ                *          -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0   21           swing     NN                *       swing   -   11   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0   22           state     NN                *)         -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0   23               ,      ,                *          -    -    -   -        *            *         *        *            *        *       -
+bn/mnb/00/mnb_0010   0   24         Florida    NNP   (NP*)))))))))))         -    -    -   -     (GPE)           *)        *        *)           *)       *)   3)|1)
+bn/mnb/00/mnb_0010   0   25               .      .               *))         -    -    -   -        *            *         *        *            *        *       -
+
+bn/mnb/00/mnb_0010   0   0          25     CD  (TOP(NP*      -   -   -   -    (CARDINAL)  (20
+bn/mnb/00/mnb_0010   0   1    electoral    JJ         *      -   -   -   -            *     -
+bn/mnb/00/mnb_0010   0   2        votes   NNS         *    vote  -   4   -            *     -
+bn/mnb/00/mnb_0010   0   3            .     .        *))     -   -   -   -            *    20)
+
+bn/mnb/00/mnb_0010   0   0        It   PRP   (TOP(S(NP*)      -    -   -   -   *      *             *    (3)
+bn/mnb/00/mnb_0010   0   1        's   VBZ         (VP*       -    -   -   -   *      *             *     -
+bn/mnb/00/mnb_0010   0   2     being   VBG         (VP*       be  03   -   -   *    (V*)            *     -
+bn/mnb/00/mnb_0010   0   3    fought   VBN         (VP*    fight  01   1   -   *      *           (V*)   (1)
+bn/mnb/00/mnb_0010   0   4      over    IN         (PP*)      -    -   -   -   *      *        (ARG2*)    -
+bn/mnb/00/mnb_0010   0   5      hard    RB    (ADVP*))))      -    -   -   -   *      *    (ARGM-MNR*)    -
+bn/mnb/00/mnb_0010   0   6         .     .           *))      -    -   -   -   *      *             *     -
+
+bn/mnb/00/mnb_0010   0    0             With    IN   (TOP(SINV(PP*      -    -      -   -          *        *      *             *      *         -
+bn/mnb/00/mnb_0010   0    1                a    DT         (NP(NP*      -    -      -   -          *        *      *             *      *         -
+bn/mnb/00/mnb_0010   0    2             look    NN               *)   look  01      2   -          *      (V*)     *             *      *         -
+bn/mnb/00/mnb_0010   0    3               at    IN            (PP*      -    -      -   -          *   (ARG1*      *             *      *         -
+bn/mnb/00/mnb_0010   0    4              how   WRB   (SBAR(WHADVP*)     -    -      -   -          *        *      *    (ARGM-MNR*)     *         -
+bn/mnb/00/mnb_0010   0    5              the    DT          (S(NP*      -    -      -   -          *        *      *        (ARG0*      *       (14
+bn/mnb/00/mnb_0010   0    6       candidates   NNS               *)     -    -      -   -          *        *      *             *)     *        14)
+bn/mnb/00/mnb_0010   0    7              are   VBP            (VP*      be  03      -   -          *        *    (V*)            *      *         -
+bn/mnb/00/mnb_0010   0    8          getting   VBG            (VP*     get  05   11.2   -          *        *      *           (V*)     *         -
+bn/mnb/00/mnb_0010   0    9              out    RP           (PRT*)     -    -      -   -          *        *      *        (ARG2*)     *         -
+bn/mnb/00/mnb_0010   0   10              the    DT            (NP*      -    -      -   -          *        *      *        (ARG1*      *         -
+bn/mnb/00/mnb_0010   0   11             vote    NN               *)   vote  01      1   -          *        *      *             *)   (V*)        -
+bn/mnb/00/mnb_0010   0   12            there    RB   (ADVP*))))))))     -    -      -   -          *        *)     *    (ARGM-LOC*)     *         -
+bn/mnb/00/mnb_0010   0   13                ,     ,               *      -    -      -   -          *        *      *             *      *         -
+bn/mnb/00/mnb_0010   0   14             here    RB          (ADVP*)     -    -      -   -          *        *      *             *      *         -
+bn/mnb/00/mnb_0010   0   15               's   VBZ            (VP*)     be   -      4   -          *        *      *             *      *         -
+bn/mnb/00/mnb_0010   0   16              NBC   NNP     (NP(NP(NML*      -    -      -   -      (ORG*        *      *             *      *   (11|(17
+bn/mnb/00/mnb_0010   0   17             News   NNP               *)     -    -      -   -          *)       *      *             *      *        11)
+bn/mnb/00/mnb_0010   0   18    correspondent    NN               *)     -    -      -   -          *        *      *             *      *         -
+bn/mnb/00/mnb_0010   0   19            Kerry   NNP            (NP*      -    -      -   -   (PERSON*        *      *             *      *         -
+bn/mnb/00/mnb_0010   0   20          Sanders   NNP              *))     -    -      -   -          *)       *      *             *      *        17)
+bn/mnb/00/mnb_0010   0   21                .     .              *))     -    -      -   -          *        *      *             *      *         -
+
+bn/mnb/00/mnb_0010   0   0        The    DT  (TOP(NP(NP(NP*       -   -   -   -       *     -
+bn/mnb/00/mnb_0010   0   1      image    NN               *)   image  -   3   -       *     -
+bn/mnb/00/mnb_0010   0   2         of    IN            (PP*       -   -   -   -       *     -
+bn/mnb/00/mnb_0010   0   3    Florida   NNP          (NP*)))      -   -   -   -    (GPE)   (3)
+bn/mnb/00/mnb_0010   0   4          ,     ,               *       -   -   -   -       *     -
+bn/mnb/00/mnb_0010   0   5       both    CC            (NP*       -   -   -   -       *     -
+bn/mnb/00/mnb_0010   0   6       fact    NN               *     fact  -   2   -       *     -
+bn/mnb/00/mnb_0010   0   7        and    CC               *       -   -   -   -       *     -
+bn/mnb/00/mnb_0010   0   8    fiction    NN               *)      -   -   -   -       *     -
+bn/mnb/00/mnb_0010   0   9          .     .              *))      -   -   -   -       *     -
+
+bn/mnb/00/mnb_0010   0    0           A    DT     (TOP(NP(NP*       -    -   -   -   *               *   (3
+bn/mnb/00/mnb_0010   0    1       great    JJ               *       -    -   -   -   *               *    -
+bn/mnb/00/mnb_0010   0    2     getaway    NN               *)      -    -   -   -   *               *    -
+bn/mnb/00/mnb_0010   0    3           ,     ,               *       -    -   -   -   *               *    -
+bn/mnb/00/mnb_0010   0    4           a    DT         (NP(NP*       -    -   -   -   *      (ARGM-LOC*    -
+bn/mnb/00/mnb_0010   0    5       state    NN               *)   state   -   2   -   *               *)   -
+bn/mnb/00/mnb_0010   0    6       where   WRB   (SBAR(WHADVP*)      -    -   -   -   *    (R-ARGM-LOC*)   -
+bn/mnb/00/mnb_0010   0    7           a    DT          (S(NP*       -    -   -   -   *          (ARG0*    -
+bn/mnb/00/mnb_0010   0    8       mouse    NN               *)      -    -   -   -   *               *)   -
+bn/mnb/00/mnb_0010   0    9      wields   VBZ            (VP*    wield  01   1   -   *             (V*)   -
+bn/mnb/00/mnb_0010   0   10        more   JJR         (NP(NP*       -    -   -   -   *          (ARG1*    -
+bn/mnb/00/mnb_0010   0   11       power    NN               *)   power   -   1   -   *               *    -
+bn/mnb/00/mnb_0010   0   12        than    IN            (PP*       -    -   -   -   *               *    -
+bn/mnb/00/mnb_0010   0   13           a    DT            (NP*       -    -   -   -   *               *    -
+bn/mnb/00/mnb_0010   0   14    tropical    JJ               *       -    -   -   -   *               *    -
+bn/mnb/00/mnb_0010   0   15    paradise    NN         *)))))))      -    -   -   -   *               *)   -
+bn/mnb/00/mnb_0010   0   16           .     .              *))      -    -   -   -   *               *    3)
+
+bn/mnb/00/mnb_0010   0    0          While    IN  (TOP(S(SBAR*            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0    1            the    DT        (S(NP*            -    -   -   -            *   (ARG0*      *            *         -
+bn/mnb/00/mnb_0010   0    2           mild    JJ             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0    3        winters   NNS             *)           -    -   -   -            *        *)     *            *         -
+bn/mnb/00/mnb_0010   0    4           make    VB          (VP*          make  02   7   -            *      (V*)     *            *         -
+bn/mnb/00/mnb_0010   0    5           this    DT        (S(NP*)           -    -   -   -            *   (ARG1*      *            *         -
+bn/mnb/00/mnb_0010   0    6    comfortable    JJ       (NP(NP*            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0    7         living    NN             *)           -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0    8            for    IN          (PP*            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0    9         almost    RB    (NP(NP(QP*            -    -   -   -   (CARDINAL*        *      *            *         -
+bn/mnb/00/mnb_0010   0   10          three    CD             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   11        million    CD             *)           -    -   -   -            *)       *      *            *         -
+bn/mnb/00/mnb_0010   0   12        seniors   NNS             *)           -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   13              ,     ,             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   14            the    DT       (NP(NP*            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   15        largest   JJS             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   16        elderly    JJ             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   17     population    NN             *)   population   -   1   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   18             in    IN          (PP*            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   19            the    DT          (NP*            -    -   -   -        (GPE*        *      *            *        (5
+bn/mnb/00/mnb_0010   0   20         United   NNP             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   21         States   NNP    *))))))))))           -    -   -   -            *)       *)     *            *         5)
+bn/mnb/00/mnb_0010   0   22              ,     ,             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   23           this    DT          (NP*            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   24           year    NN             *)           -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   25             it   PRP          (NP*)           -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   26             is   VBZ          (VP*            be  03   1   -            *        *    (V*)           *         -
+bn/mnb/00/mnb_0010   0   27            not    RB             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   28            the    DT       (NP(NP*            -    -   -   -            *        *      *       (ARG0*         -
+bn/mnb/00/mnb_0010   0   29        weather    NN             *)           -    -   -   -            *        *      *            *)        -
+bn/mnb/00/mnb_0010   0   30        drawing   VBG          (VP*          draw  01   2   -            *        *      *          (V*)        -
+bn/mnb/00/mnb_0010   0   31             Al   NNP       (NP(NP*            -    -   -   -     (PERSON*        *      *       (ARG1*    (6|(14
+bn/mnb/00/mnb_0010   0   32           Gore   NNP             *)           -    -   -   -            *)       *      *            *         6)
+bn/mnb/00/mnb_0010   0   33            and    CC             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   34         George   NNP          (NP*            -    -   -   -     (PERSON*        *      *            *       (19
+bn/mnb/00/mnb_0010   0   35             W.   NNP             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   36           Bush   NNP            *))           -    -   -   -            *)       *      *            *)   19)|14)
+bn/mnb/00/mnb_0010   0   37             to    IN          (PP*            -    -   -   -            *        *      *   (ARGM-DIR*         -
+bn/mnb/00/mnb_0010   0   38            the    DT          (NP*            -    -   -   -        (GPE*        *      *            *        (3
+bn/mnb/00/mnb_0010   0   39       Sunshine   NNP             *            -    -   -   -            *        *      *            *         -
+bn/mnb/00/mnb_0010   0   40          State   NNP         *)))))           -    -   -   -            *)       *      *            *)        3)
+bn/mnb/00/mnb_0010   0   41              .     .            *))           -    -   -   -            *        *      *            *         -
+
+bn/mnb/00/mnb_0010   0    0          Both    DT      (TOP(S(NP*        -    -   -   -            *   (ARG0*            *      *   (14
+bn/mnb/00/mnb_0010   0    1    candidates   NNS               *)       -    -   -   -            *        *)           *      *    14)
+bn/mnb/00/mnb_0010   0    2          list   VBP            (VP*      list  01   1   -            *      (V*)           *      *     -
+bn/mnb/00/mnb_0010   0    3           25     CD      (NP(NP(NP*        -    -   -   -    (CARDINAL)  (ARG1*   (ARGM-LOC*      *   (20
+bn/mnb/00/mnb_0010   0    4       reasons   NNS               *)   reason   -   1   -            *        *            *)     *     -
+bn/mnb/00/mnb_0010   0    5            to    TO     (SBAR(S(VP*        -    -   -   -            *        *            *      *     -
+bn/mnb/00/mnb_0010   0    6          keep    VB            (VP*      keep  02   1   -            *        *          (V*)     *     -
+bn/mnb/00/mnb_0010   0    7        coming   VBG          (S(VP*      come  01   1   -            *        *       (ARG1*    (V*)    -
+bn/mnb/00/mnb_0010   0    8          back    RB   (ADVP*))))))))       -    -   -   -            *        *            *)     *     -
+bn/mnb/00/mnb_0010   0    9             ,     ,               *        -    -   -   -            *        *            *      *     -
+bn/mnb/00/mnb_0010   0   10       Florida   NNP         (NP(NP*        -    -   -   -         (GPE)       *            *      *    (3
+bn/mnb/00/mnb_0010   0   11            's   POS               *)       -    -   -   -            *        *            *      *     3)
+bn/mnb/00/mnb_0010   0   12           25     CD               *        -    -   -   -    (CARDINAL)       *            *      *     -
+bn/mnb/00/mnb_0010   0   13     electoral    JJ               *        -    -   -   -            *        *            *      *     -
+bn/mnb/00/mnb_0010   0   14         votes   NNS             *)))     vote   -   4   -            *        *)           *      *    20)
+bn/mnb/00/mnb_0010   0   15             .     .              *))       -    -   -   -            *        *            *      *     -
+
+bn/mnb/00/mnb_0010   0   0      Polls   NNS    (TOP(S(NP*)     -    -   -   -       *    (ARG0*)            *     -
+bn/mnb/00/mnb_0010   0   1       show   VBP          (VP*    show  01   1   -       *       (V*)            *     -
+bn/mnb/00/mnb_0010   0   2    Florida   NNP   (SBAR(S(NP*)     -    -   -   -    (GPE)   (ARG1*        (ARG1*)   (3)
+bn/mnb/00/mnb_0010   0   3         is   VBZ          (VP*      be  01   1   -       *         *           (V*)    -
+bn/mnb/00/mnb_0010   0   4      still    RB        (ADVP*)     -    -   -   -       *         *    (ARGM-ADV*)    -
+bn/mnb/00/mnb_0010   0   5         up    IN          (PP*      -    -   -   -       *         *        (ARG2*     -
+bn/mnb/00/mnb_0010   0   6        for    IN          (PP*      -    -   -   -       *         *             *     -
+bn/mnb/00/mnb_0010   0   7      grabs   NNS    (NP*)))))))   grab   -   5   -       *         *)            *)    -
+bn/mnb/00/mnb_0010   0   8          .     .            *))     -    -   -   -       *         *             *     -
+
+bn/mnb/00/mnb_0010   0   0          Both    DT  (TOP(S(NP*      -    -   -   -   *      *       (ARG1*   (14
+bn/mnb/00/mnb_0010   0   1    candidates   NNS           *)     -    -   -   -   *      *            *)   14)
+bn/mnb/00/mnb_0010   0   2          have   VBP        (VP*    have  01   -   -   *    (V*)           *     -
+bn/mnb/00/mnb_0010   0   3          been   VBN        (VP*      be  01   4   -   *      *          (V*)    -
+bn/mnb/00/mnb_0010   0   4          here    RB      (ADVP*)     -    -   -   -   *      *       (ARG2*)    -
+bn/mnb/00/mnb_0010   0   5        almost    RB      (ADVP*      -    -   -   -   *      *   (ARGM-ADV*     -
+bn/mnb/00/mnb_0010   0   6       equally    RB         *)))     -    -   -   -   *      *            *)    -
+bn/mnb/00/mnb_0010   0   7             .     .          *))     -    -   -   -   *      *            *     -
+
+bn/mnb/00/mnb_0010   0    0          In    IN   (TOP(S(PP*      -    -   -   -   *         *   -
+bn/mnb/00/mnb_0010   0    1        fact    NN        (NP*))   fact   -   5   -   *         *   -
+bn/mnb/00/mnb_0010   0    2           ,     ,            *      -    -   -   -   *         *   -
+bn/mnb/00/mnb_0010   0    3          it   PRP         (NP*)     -    -   -   -   *         *   -
+bn/mnb/00/mnb_0010   0    4          's   VBZ         (VP*      be   -   1   -   *         *   -
+bn/mnb/00/mnb_0010   0    5      almost    RB         (NP*      -    -   -   -   *         *   -
+bn/mnb/00/mnb_0010   0    6           I   PRP   (NML(S(NP*)     -    -   -   -   *    (ARG0*)  -
+bn/mnb/00/mnb_0010   0    7        dare   VBP         (VP*    dare  01   -   -   *       (V*)  -
+bn/mnb/00/mnb_0010   0    8         you   PRP      (NP*))))     -    -   -   -   *    (ARG1*)  -
+bn/mnb/00/mnb_0010   0    9    politics   NNS           *))     -    -   -   -   *         *   -
+bn/mnb/00/mnb_0010   0   10           .     .           *))     -    -   -   -   *         *   -
+
+bn/mnb/00/mnb_0010   0    0      Each     DT   (TOP(S(NP(NP*)       -    -   -   -   *   (ARG0*            *      *        (13
+bn/mnb/00/mnb_0010   0    1        of     IN            (PP*        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0    2      them    PRP          (NP*)))       -    -   -   -   *        *)           *      *    (14)|13)
+bn/mnb/00/mnb_0010   0    3     dares    VBZ            (VP*      dare  01   2   -   *      (V*)           *      *          -
+bn/mnb/00/mnb_0010   0    4       the     DT            (NP*        -    -   -   -   *   (ARG1*       (ARG0*      *         (9
+bn/mnb/00/mnb_0010   0    5     other     JJ               *        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0    6       one     NN               *)      one   -   2   -   *        *)           *)     *          9)
+bn/mnb/00/mnb_0010   0    7        to     TO          (S(VP*        -    -   -   -   *   (ARG2*            *      *          -
+bn/mnb/00/mnb_0010   0    8     spend     VB            (VP*     spend  02   3   -   *        *          (V*)     *          -
+bn/mnb/00/mnb_0010   0    9      less    JJR         (NP(NP*        -    -   -   -   *        *       (ARG1*      *          -
+bn/mnb/00/mnb_0010   0   10      time     NN               *      time   -   3   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   11         ,      ,               *        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   12     money     NN               *     money   -   2   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   13         ,      ,               *        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   14       and     CC               *        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   15    energy     NN               *)   energy   -   2   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   16      than     IN          (SBAR*        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   17      they    PRP          (S(NP*)       -    -   -   -   *        *            *      *        (13)
+bn/mnb/00/mnb_0010   0   18       are    VBP         (VP*))))       be  03   1   -   *        *            *)   (V*)         -
+bn/mnb/00/mnb_0010   0   19        at     IN            (PP*        -    -   -   -   *        *   (ARGM-MNR*      *          -
+bn/mnb/00/mnb_0010   0   20     their   PRP$            (NP*        -    -   -   -   *        *            *      *         (9)
+bn/mnb/00/mnb_0010   0   21       own     JJ               *        -    -   -   -   *        *            *      *          -
+bn/mnb/00/mnb_0010   0   22     peril     NN          *))))))    peril   -   2   -   *        *)           *)     *          -
+bn/mnb/00/mnb_0010   0   23         .      .              *))       -    -   -   -   *        *            *      *          -
+
+bn/mnb/00/mnb_0010   0    0      Elderly    JJ  (TOP(NP(NP(NP*       -    -   -   -       *             *    (4
+bn/mnb/00/mnb_0010   0    1       voters   NNS               *)      -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    2         once    RB          (ADVP*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    3        again    RB               *)      -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    4           in    IN            (PP*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    5      Florida   NNP          (NP*)))      -    -   -   -    (GPE)            *    (3)
+bn/mnb/00/mnb_0010   0    6            ,     ,               *       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    7          the    DT         (NP(NP*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    8         most   RBS          (ADJP*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0    9    important    JJ               *)      -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   10       voting    NN               *       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   11         bloc    NN               *)      -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   12      because    IN          (SBAR*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   13         they   PRP          (S(NP*)      -    -   -   -       *        (ARG0*)   (4)
+bn/mnb/00/mnb_0010   0   14     actually    RB          (ADVP*)      -    -   -   -       *    (ARGM-ADV*)    -
+bn/mnb/00/mnb_0010   0   15         vote   VBP            (VP*     vote  01   1   -       *           (V*)    -
+bn/mnb/00/mnb_0010   0   16         more   RBR     (ADVP(ADVP*)      -    -   -   -       *    (ARGM-ADV*     -
+bn/mnb/00/mnb_0010   0   17         than    IN            (PP*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   18          any    DT            (NP*       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   19        other    JJ               *       -    -   -   -       *             *     -
+bn/mnb/00/mnb_0010   0   20        group    NN         *)))))))   group   -   1   -       *             *)    -
+bn/mnb/00/mnb_0010   0   21            .     .              *))      -    -   -   -       *             *     4)
+
+bn/mnb/00/mnb_0010   0    0          In    IN     (TOP(S(PP*          -    -   -   -           *         *      *   (ARGM-LOC*        *     -
+bn/mnb/00/mnb_0010   0    1        this    DT           (NP*          -    -   -   -           *         *      *            *        *   (10
+bn/mnb/00/mnb_0010   0    2    election    NN             *))   election   -   1   -           *         *      *            *)       *    10)
+bn/mnb/00/mnb_0010   0    3           ,     ,              *          -    -   -   -           *         *      *            *        *     -
+bn/mnb/00/mnb_0010   0    4         45     CD        (NP(NP*          -    -   -   -   (PERCENT*         *      *            *   (ARG1*     -
+bn/mnb/00/mnb_0010   0    5           %    NN              *)         -    -   -   -           *)        *      *            *        *     -
+bn/mnb/00/mnb_0010   0    6          of    IN           (PP*          -    -   -   -           *         *      *            *        *     -
+bn/mnb/00/mnb_0010   0    7       those    DT        (NP(NP*)         -    -   -   -           *    (ARG0*)     *            *        *     -
+bn/mnb/00/mnb_0010   0    8       going   VBG           (VP*          go  02   1   -           *       (V*)     *            *        *     -
+bn/mnb/00/mnb_0010   0    9          to    IN           (PP*          -    -   -   -           *    (ARG4*      *            *        *     -
+bn/mnb/00/mnb_0010   0   10         the    DT           (NP*          -    -   -   -           *         *      *            *        *     -
+bn/mnb/00/mnb_0010   0   11      voting    NN              *          -    -   -   -           *         *      *            *        *     -
+bn/mnb/00/mnb_0010   0   12       booth    NN         *))))))         -    -   -   -           *         *)     *            *        *)    -
+bn/mnb/00/mnb_0010   0   13         are   VBP           (VP*          be  03   -   -           *         *    (V*)           *        *     -
+bn/mnb/00/mnb_0010   0   14    expected   VBN           (VP*      expect  01   1   -           *         *      *          (V*)       *     -
+bn/mnb/00/mnb_0010   0   15          to    TO         (S(VP*          -    -   -   -           *         *      *       (ARG1*        *     -
+bn/mnb/00/mnb_0010   0   16          be    VB           (VP*          be  01   1   -           *         *      *            *      (V*)    -
+bn/mnb/00/mnb_0010   0   17        over    IN           (PP*          -    -   -   -           *         *      *            *   (ARG2*     -
+bn/mnb/00/mnb_0010   0   18         the    DT        (NP(NP*          -    -   -   -      (DATE*         *      *            *        *     -
+bn/mnb/00/mnb_0010   0   19         age    NN              *)        age   -   1   -           *         *      *            *        *     -
+bn/mnb/00/mnb_0010   0   20          of    IN           (PP*          -    -   -   -           *         *      *            *        *     -
+bn/mnb/00/mnb_0010   0   21         65     CD   (NP*)))))))))         -    -   -   -           *)        *      *            *)       *)    -
+bn/mnb/00/mnb_0010   0   22           .     .             *))         -    -   -   -           *         *      *            *        *     -
+
+bn/mnb/00/mnb_0010   0   0          The    DT  (TOP(FRAG(NP(NP*       -   -   -   -       *       (18
+bn/mnb/00/mnb_0010   0   1        issue    NN                 *)   issue  -   1   -       *         -
+bn/mnb/00/mnb_0010   0   2         most   RBS            (ADJP*       -   -   -   -       *         -
+bn/mnb/00/mnb_0010   0   3    important    JJ                 *       -   -   -   -       *         -
+bn/mnb/00/mnb_0010   0   4           to    IN              (PP*       -   -   -   -       *         -
+bn/mnb/00/mnb_0010   0   5         them   PRP           (NP*))))      -   -   -   -       *    (4)|18)
+bn/mnb/00/mnb_0010   0   6            ,     ,                 *       -   -   -   -       *         -
+bn/mnb/00/mnb_0010   0   7       Social   NNP              (NP*       -   -   -   -   (ORG*       (18
+bn/mnb/00/mnb_0010   0   8     Security   NNP                 *)      -   -   -   -       *)       18)
+bn/mnb/00/mnb_0010   0   9            .     .                *))      -   -   -   -       *         -
+
+bn/mnb/00/mnb_0010   0    0            Pay     VB  (TOP(S(VP(VP*            pay  06   1   -       *      (V*)       *        *        *     -
+bn/mnb/00/mnb_0010   0    1           down     RP          (PRT*)            -    -   -   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0    2            the     DT        (NP(NP*             -    -   -   -       *   (ARG1*        *        *        *    (5
+bn/mnb/00/mnb_0010   0    3         nation     NN              *         nation   -   1   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0    4             's    POS              *)            -    -   -   -       *        *        *        *        *     5)
+bn/mnb/00/mnb_0010   0    5           debt     NN             *))          debt   -   2   -       *        *)       *        *        *     -
+bn/mnb/00/mnb_0010   0    6              ,      ,              *             -    -   -   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0    7     strengthen     VB           (VP*     strengthen  01   1   -       *        *      (V*)       *        *     -
+bn/mnb/00/mnb_0010   0    8         Social    NNP           (NP*             -    -   -   -   (ORG*        *   (ARG1*        *        *   (18
+bn/mnb/00/mnb_0010   0    9       Security    NNP             *))            -    -   -   -       *)       *        *)       *        *    18)
+bn/mnb/00/mnb_0010   0   10              ,      ,              *             -    -   -   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0   11            cut     VB           (VP*            cut  02   2   -       *        *        *      (V*)       *     -
+bn/mnb/00/mnb_0010   0   12          taxes    NNS        (NP(NP*)           tax   -   1   -       *        *        *   (ARG1*        *     -
+bn/mnb/00/mnb_0010   0   13            for     IN           (PP*             -    -   -   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0   14         middle     JJ       (NP(NML*             -    -   -   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0   15          class     NN              *)         class   -   1   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0   16         family     NN           *))))        family   -   1   -       *        *        *        *)       *     -
+bn/mnb/00/mnb_0010   0   17              ,      ,              *             -    -   -   -       *        *        *        *        *     -
+bn/mnb/00/mnb_0010   0   18           save     VB           (VP*           save  02   1   -       *        *        *        *      (V*)    -
+bn/mnb/00/mnb_0010   0   19            our   PRP$           (NP*             -    -   -   -       *        *        *        *   (ARG1*     -
+bn/mnb/00/mnb_0010   0   20    environment     NN            *)))   environment   -   1   -       *        *        *        *        *)    -
+bn/mnb/00/mnb_0010   0   21              .      .             *))            -    -   -   -       *        *        *        *        *     -
+
+bn/mnb/00/mnb_0010   0   0    Experience   NN  (TOP(NP*    experience  -   1   -   *   -
+bn/mnb/00/mnb_0010   0   1             .    .        *))           -   -   -   -   *   -
+
+bn/mnb/00/mnb_0010   0   0    Vision   NN  (TOP(NP*   -   -   -   -   *   -
+bn/mnb/00/mnb_0010   0   1         .    .        *))  -   -   -   -   *   -
+
+bn/mnb/00/mnb_0010   0   0    Values   NNS  (TOP(NP*   -   -   -   -   *   -
+bn/mnb/00/mnb_0010   0   1         .     .        *))  -   -   -   -   *   -
+
+bn/mnb/00/mnb_0010   0   0      Al   NNP  (TOP(NP*   -   -   -   -   (PERSON*   (6
+bn/mnb/00/mnb_0010   0   1    Gore   NNP         *   -   -   -   -          *    -
+bn/mnb/00/mnb_0010   0   2       .     .        *))  -   -   -   -          *)   6)
+
+bn/mnb/00/mnb_0010   0    0        Why   WRB   (TOP(SBARQ(WHADVP*)      -    -   -   -          *      *    (ARGM-PRP*)            *    -
+bn/mnb/00/mnb_0010   0    1       does   VBZ                 (SQ*       do  01   -   -          *    (V*)            *             *    -
+bn/mnb/00/mnb_0010   0    2         Al   NNP                 (NP*       -    -   -   -   (PERSON*      *        (ARG0*             *   (6
+bn/mnb/00/mnb_0010   0    3       Gore   NNP                    *)      -    -   -   -          *)     *             *)            *    6)
+bn/mnb/00/mnb_0010   0    4        say    VB                 (VP*      say  01   1   -          *      *           (V*)            *    -
+bn/mnb/00/mnb_0010   0    5        one    CD                 (NP*       -    -   -   -          *      *        (ARG1*             *    -
+bn/mnb/00/mnb_0010   0    6      thing    NN                    *)   thing   -   1   -          *      *             *)            *    -
+bn/mnb/00/mnb_0010   0    7       when   WRB        (SBAR(WHADVP*)      -    -   -   -          *      *    (ARGM-TMP*    (ARGM-TMP*)   -
+bn/mnb/00/mnb_0010   0    8        the    DT               (S(NP*       -    -   -   -          *      *             *        (ARG1*    -
+bn/mnb/00/mnb_0010   0    9      truth    NN                    *)   truth   -   2   -          *      *             *             *)   -
+bn/mnb/00/mnb_0010   0   10         is   VBZ                 (VP*       be  01   2   -          *      *             *           (V*)   -
+bn/mnb/00/mnb_0010   0   11    another    DT            (NP*))))))      -    -   -   -          *      *             *)       (ARG2*)   -
+bn/mnb/00/mnb_0010   0   12          ?     .                   *))      -    -   -   -          *      *             *             *    -
+
+bn/mnb/00/mnb_0010   0    0              His   PRP$  (TOP(FRAG(NP(NP*      -   -   -   -          *       (6)
+bn/mnb/00/mnb_0010   0    1          attacks    NNS                 *)     -   -   -   -          *        -
+bn/mnb/00/mnb_0010   0    2               on     IN              (PP*      -   -   -   -          *        -
+bn/mnb/00/mnb_0010   0    3           George    NNP           (NP(NP*      -   -   -   -   (PERSON*   (8|(19
+bn/mnb/00/mnb_0010   0    4             Bush    NNP                 *      -   -   -   -          *        -
+bn/mnb/00/mnb_0010   0    5               's    POS                 *)     -   -   -   -          *)      19)
+bn/mnb/00/mnb_0010   0    6           Social    NNP             (NML*      -   -   -   -      (ORG*      (18
+bn/mnb/00/mnb_0010   0    7         Security    NNP                 *)     -   -   -   -          *)      18)
+bn/mnb/00/mnb_0010   0    8             plan     NN               *)))   plan  -   2   -          *        8)
+bn/mnb/00/mnb_0010   0    9                ,      ,                 *      -   -   -   -          *        -
+bn/mnb/00/mnb_0010   0   10    exaggerations    NNS              (NP*)     -   -   -   -          *        -
+bn/mnb/00/mnb_0010   0   11                .      .                *))     -   -   -   -          *        -
+
+bn/mnb/00/mnb_0010   0    0            The    DT     (TOP(NP(NP*            -    -   -   -          *             *        *         *        *        -
+bn/mnb/00/mnb_0010   0    1          truth    NN               *)        truth   -   2   -          *             *        *         *        *        -
+bn/mnb/00/mnb_0010   0    2              ,     ,               *            -    -   -   -          *             *        *         *        *        -
+bn/mnb/00/mnb_0010   0    3    nonpartisan    JJ          (S(NP*            -    -   -   -          *    (ARGM-MNR*)  (ARG0*         *        *        -
+bn/mnb/00/mnb_0010   0    4       analysis    NN               *)     analysis  01   1   -          *           (V*)       *)        *        *        -
+bn/mnb/00/mnb_0010   0    5       confirms   VBZ            (VP*       confirm  01   1   -          *             *      (V*)        *        *        -
+bn/mnb/00/mnb_0010   0    6         George   NNP  (SBAR(S(NP(NP*            -    -   -   -   (PERSON*             *   (ARG1*    (ARG0*        *   (8|(19
+bn/mnb/00/mnb_0010   0    7           Bush   NNP               *            -    -   -   -          *             *        *         *        *        -
+bn/mnb/00/mnb_0010   0    8             's   POS               *)           -    -   -   -          *)            *        *         *        *       19)
+bn/mnb/00/mnb_0010   0    9           plan    NN               *)         plan   -   2   -          *             *        *         *)       *        8)
+bn/mnb/00/mnb_0010   0   10           sets   VBZ            (VP*           set  01   1   -          *             *        *       (V*)       *        -
+bn/mnb/00/mnb_0010   0   11          aside    RB          (ADVP*)           -    -   -   -          *             *        *    (ARG2*)       *        -
+bn/mnb/00/mnb_0010   0   12              $     $      (NP(NP(QP*            -    -   -   -    (MONEY*             *        *    (ARG1*        *        -
+bn/mnb/00/mnb_0010   0   13           2.4     CD               *            -    -   -   -          *             *        *         *        *        -
+bn/mnb/00/mnb_0010   0   14       trillion    CD              *))           -    -   -   -          *)            *        *         *        *        -
+bn/mnb/00/mnb_0010   0   15             to    TO          (S(VP*            -    -   -   -          *             *        *         *        *        -
+bn/mnb/00/mnb_0010   0   16     strengthen    VB            (VP*    strengthen  01   1   -          *             *        *         *      (V*)       -
+bn/mnb/00/mnb_0010   0   17         Social   NNP            (NP*            -    -   -   -      (ORG*             *        *         *   (ARG1*      (18
+bn/mnb/00/mnb_0010   0   18       Security   NNP      *))))))))))           -    -   -   -          *)            *        *)        *)       *)      18)
+bn/mnb/00/mnb_0010   0   19              .     .              *))           -    -   -   -          *             *        *         *        *        -
+
+bn/mnb/00/mnb_0010   0    0          Both    DT  (TOP(S(FRAG(NP*          -    -   -   -            *        (ARG0*             *            *            *   (14
+bn/mnb/00/mnb_0010   0    1    candidates   NNS                *)         -    -   -   -            *             *)            *            *            *    14)
+bn/mnb/00/mnb_0010   0    2    repeatedly    RB           (ADVP*)         -    -   -   -            *    (ARGM-MNR*)            *            *            *     -
+bn/mnb/00/mnb_0010   0    3       talking   VBG             (VP*        talk  01   1   -            *           (V*)            *            *            *     -
+bn/mnb/00/mnb_0010   0    4         about    IN             (PP*          -    -   -   -            *        (ARG1*             *            *            *     -
+bn/mnb/00/mnb_0010   0    5          that    DT             (NP*          -    -   -   -            *             *             *            *            *   (18
+bn/mnb/00/mnb_0010   0    6           one    CD                *          -    -   -   -    (CARDINAL)            *             *            *            *     -
+bn/mnb/00/mnb_0010   0    7         issue    NN             *))))      issue   -   1   -            *             *)            *            *            *    18)
+bn/mnb/00/mnb_0010   0    8             ,     ,                *          -    -   -   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0    9           but    CC                *          -    -   -   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0   10            in    IN           (S(PP*          -    -   -   -            *             *             *            *   (ARGM-LOC*     -
+bn/mnb/00/mnb_0010   0   11       Florida   NNP          (NP(NP*)         -    -   -   -         (GPE)            *             *            *            *    (3
+bn/mnb/00/mnb_0010   0   12         where   WRB    (SBAR(WHADVP*)         -    -   -   -            *             *    (ARGM-LOC*)           *            *     -
+bn/mnb/00/mnb_0010   0   13         there    EX           (S(NP*)         -    -   -   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0   14           are   VBP             (VP*          be  02   3   -            *             *           (V*)           *            *     -
+bn/mnb/00/mnb_0010   0   15          more   JJR       (NP(NP(QP*          -    -   -   -   (CARDINAL*             *        (ARG1*       (ARG1*            *     -
+bn/mnb/00/mnb_0010   0   16          than    IN                *          -    -   -   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0   17          550     CD                *)         -    -   -   -            *)            *             *            *            *     -
+bn/mnb/00/mnb_0010   0   18      children   NNS                *)      child   -   2   -            *             *             *            *)           *     -
+bn/mnb/00/mnb_0010   0   19          born   VBN             (VP*        bear  02   -   -            *             *             *          (V*)           *     -
+bn/mnb/00/mnb_0010   0   20         every    DT             (NP*          -    -   -   -       (DATE*             *             *   (ARGM-TMP*            *     -
+bn/mnb/00/mnb_0010   0   21           day    NN         *))))))))        day   -   2   -            *)            *             *)           *)           *)    3)
+bn/mnb/00/mnb_0010   0   22             ,     ,                *          -    -   -   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0   23      families   NNS             (NP*)     family   -   1   -            *             *             *            *       (ARG0*)    -
+bn/mnb/00/mnb_0010   0   24         drive   VBP             (VP*       drive  01   2   -            *             *             *            *          (V*)    -
+bn/mnb/00/mnb_0010   0   25           the    DT             (NP*          -    -   -   -            *             *             *            *       (ARG1*     -
+bn/mnb/00/mnb_0010   0   26         other    JJ                *          -    -   -   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0   27      campaign    NN                *    campaign   -   1   -            *             *             *            *            *     -
+bn/mnb/00/mnb_0010   0   28        issues   NNS              *)))      issue   -   1   -            *             *             *            *            *)    -
+bn/mnb/00/mnb_0010   0   29             .     .               *))         -    -   -   -            *             *             *            *            *     -
+
+bn/mnb/00/mnb_0010   0    0          Polls   NNS       (TOP(S(NP*)            -    -   -   -   *    (ARG0*)     *             *         *   -
+bn/mnb/00/mnb_0010   0    1           show   VBP             (VP*           show  01   1   -   *       (V*)     *             *         *   -
+bn/mnb/00/mnb_0010   0    2      education    NN   (SBAR(S(NP(NP*)     education  01   1   -   *    (ARG1*    (V*)       (ARG0*         *   -
+bn/mnb/00/mnb_0010   0    3              ,     ,                *             -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0    4            the    DT             (NP*             -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0    5    environment    NN                *)   environment   -   1   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0    6              ,     ,                *             -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0    7            and    CC                *             -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0    8            the    DT          (NP(NP*             -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0    9      candidate    NN                *             -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0   10             's   POS                *)            -    -   -   -   *         *      *             *         *   -
+bn/mnb/00/mnb_0010   0   11      character    NN               *))            -    -   -   -   *         *      *             *)        *   -
+bn/mnb/00/mnb_0010   0   12           will    MD             (VP*             -    -   -   -   *         *      *    (ARGM-MOD*)        *   -
+bn/mnb/00/mnb_0010   0   13      influence    VB             (VP*      influence  01   1   -   *         *      *           (V*)        *   -
+bn/mnb/00/mnb_0010   0   14            who    WP      (SBAR(WHNP*)            -    -   -   -   *         *      *        (ARG1*    (ARG1*)  -
+bn/mnb/00/mnb_0010   0   15         voters   NNS           (S(NP*)            -    -   -   -   *         *      *             *    (ARG0*)  -
+bn/mnb/00/mnb_0010   0   16         choose   VBP      (VP*))))))))        choose  01   1   -   *         *)     *             *)      (V*)  -
+bn/mnb/00/mnb_0010   0   17              .     .               *))            -    -   -   -   *         *      *             *         *   -
+
+bn/mnb/00/mnb_0010   0    0           And     CC  (TOP(FRAG*            -    -   -   -           *    (ARGM-DIS*)        *             *       -
+bn/mnb/00/mnb_0010   0    1            in     IN        (PP*            -    -   -   -           *    (ARGM-LOC*         *             *       -
+bn/mnb/00/mnb_0010   0    2          this     DT     (NP(NP*            -    -   -   -           *             *         *             *      (3
+bn/mnb/00/mnb_0010   0    3       diverse     JJ           *            -    -   -   -           *             *         *             *       -
+bn/mnb/00/mnb_0010   0    4         state     NN           *)        state   -   2   -           *             *         *             *       -
+bn/mnb/00/mnb_0010   0    5          with     IN        (PP*            -    -   -   -           *             *         *             *       -
+bn/mnb/00/mnb_0010   0    6             a     DT        (NP*            -    -   -   -           *             *         *             *      (7
+bn/mnb/00/mnb_0010   0    7           15      CD       (NML*            -    -   -   -   (PERCENT*             *         *             *       -
+bn/mnb/00/mnb_0010   0    8             %     NN           *)           -    -   -   -           *)            *         *             *       -
+bn/mnb/00/mnb_0010   0    9      Hispanic     JJ           *            -    -   -   -       (NORP)            *         *             *       -
+bn/mnb/00/mnb_0010   0   10    population     NN        *))))   population   -   1   -           *             *)        *             *    7)|3)
+bn/mnb/00/mnb_0010   0   11             ,      ,           *            -    -   -   -           *             *         *             *       -
+bn/mnb/00/mnb_0010   0   12          both     DT        (NP*            -    -   -   -           *        (ARG0*         *             *     (14
+bn/mnb/00/mnb_0010   0   13    candidates    NNS           *)           -    -   -   -           *             *)        *             *      14)
+bn/mnb/00/mnb_0010   0   14      courting    VBG        (VP*         court  01   1   -           *           (V*)        *             *       -
+bn/mnb/00/mnb_0010   0   15         their   PRP$        (NP*            -    -   -   -           *        (ARG1*    (ARG0*)            *      (7)
+bn/mnb/00/mnb_0010   0   16         votes    NNS           *)         vote  01   1   -           *             *)      (V*)            *       -
+bn/mnb/00/mnb_0010   0   17            in     IN        (PP*            -    -   -   -           *    (ARGM-MNR*         *             *       -
+bn/mnb/00/mnb_0010   0   18          ways    NNS     (NP(NP*)          way   -   2   -           *             *         *        (ARG1*)      -
+bn/mnb/00/mnb_0010   0   19           not     RB        (VP*            -    -   -   -           *             *         *    (ARGM-NEG*)      -
+bn/mnb/00/mnb_0010   0   20          seen    VBN           *           see  01   3   -           *             *         *           (V*)      -
+bn/mnb/00/mnb_0010   0   21            in     IN        (PP*            -    -   -   -           *             *         *    (ARGM-LOC*       -
+bn/mnb/00/mnb_0010   0   22           any     DT        (NP*            -    -   -   -           *             *         *             *       -
+bn/mnb/00/mnb_0010   0   23      previous     JJ           *            -    -   -   -           *             *         *             *       -
+bn/mnb/00/mnb_0010   0   24      election     NN      *))))))     election   -   1   -           *             *)        *             *)      -
+bn/mnb/00/mnb_0010   0   25             .      .          *))           -    -   -   -           *             *         *             *       -
+
+bn/mnb/00/mnb_0010   0    0      Following    VBG  (TOP(S(S(VP*        follow  01   2   -           *      (V*)  (R-ARG0*             *          -
+bn/mnb/00/mnb_0010   0    1           both     DT          (NP*            -    -   -   -           *   (ARG2*          *             *          -
+bn/mnb/00/mnb_0010   0    2    conventions    NNS           *)))   convention   -   1   -           *        *)         *)            *          -
+bn/mnb/00/mnb_0010   0    3              ,      ,             *            -    -   -   -           *        *          *             *          -
+bn/mnb/00/mnb_0010   0    4           Gore    NNP          (NP*            -    -   -   -     (PERSON)  (ARG1*     (ARG0*             *     (14|(6)
+bn/mnb/00/mnb_0010   0    5            and     CC             *            -    -   -   -           *        *          *             *          -
+bn/mnb/00/mnb_0010   0    6           Bush    NNP             *)           -    -   -   -     (PERSON)       *)         *)            *    (19)|14)
+bn/mnb/00/mnb_0010   0    7        granted    VBD          (VP*         grant  01   1   -           *        *        (V*)            *          -
+bn/mnb/00/mnb_0010   0    8          their   PRP$          (NP*            -    -   -   -           *        *     (ARG1*        (ARG1*)       (14)
+bn/mnb/00/mnb_0010   0    9          first     JJ             *            -    -   -   -    (ORDINAL)       *          *    (ARGM-TMP*)         -
+bn/mnb/00/mnb_0010   0   10           live     JJ             *            -    -   -   -           *        *          *    (ARGM-MNR*)         -
+bn/mnb/00/mnb_0010   0   11             TV     NN             *            tv   -   1   -           *        *          *    (ARGM-LOC*)         -
+bn/mnb/00/mnb_0010   0   12     interviews    NNS             *)    interview  01   1   -           *        *          *)          (V*)         -
+bn/mnb/00/mnb_0010   0   13             to     IN          (PP*            -    -   -   -           *        *     (ARG2*             *          -
+bn/mnb/00/mnb_0010   0   14           this     DT          (NP*            -    -   -   -           *        *          *             *         (0
+bn/mnb/00/mnb_0010   0   15            man     NN           *)))          man   -   2   -           *        *          *)            *          0)
+bn/mnb/00/mnb_0010   0   16              .      .            *))           -    -   -   -           *        *          *             *          -
+
+bn/mnb/00/mnb_0010   0    0         His   PRP$  (TOP(FRAG(NP*      -   -   -   -            *    (0)
+bn/mnb/00/mnb_0010   0    1        name     NN              *)   name  -   1   -            *     -
+bn/mnb/00/mnb_0010   0    2           ,      ,              *      -   -   -   -            *     -
+bn/mnb/00/mnb_0010   0    3       Jorge    NNP        (NP(NP*      -   -   -   -     (PERSON*     -
+bn/mnb/00/mnb_0010   0    4       Ramos    NNP              *)     -   -   -   -            *)    -
+bn/mnb/00/mnb_0010   0    5           ,      ,              *      -   -   -   -            *     -
+bn/mnb/00/mnb_0010   0    6         the     DT        (NP(NP*      -   -   -   -     (PERSON*     -
+bn/mnb/00/mnb_0010   0    7         Tom    NNP              *      -   -   -   -            *     -
+bn/mnb/00/mnb_0010   0    8      Brokaw    NNP              *)     -   -   -   -            *)    -
+bn/mnb/00/mnb_0010   0    9          of     IN           (PP*      -   -   -   -            *     -
+bn/mnb/00/mnb_0010   0   10     Spanish     JJ       (NP(NML*      -   -   -   -    (LANGUAGE)    -
+bn/mnb/00/mnb_0010   0   11    language     NN              *)     -   -   -   -            *     -
+bn/mnb/00/mnb_0010   0   12        news     NN           *))))   news  -   1   -            *     -
+bn/mnb/00/mnb_0010   0   13           .      .             *))     -   -   -   -            *     -
+
+bn/mnb/00/mnb_0010   0    0         The    DT  (TOP(S(S(NP*          -    -   -   -       *      *   (ARG1*        *         *             *     -
+bn/mnb/00/mnb_0010   0    1        race    NN             *)       race  01   1   -       *    (V*)       *)       *         *             *     -
+bn/mnb/00/mnb_0010   0    2        gets   VBZ          (VP*         get  03   3   -       *      *      (V*)       *         *             *     -
+bn/mnb/00/mnb_0010   0    3      really    RB        (ADJP*          -    -   -   -       *      *   (ARG2*        *         *             *     -
+bn/mnb/00/mnb_0010   0    4           ,     ,             *          -    -   -   -       *      *        *        *         *             *     -
+bn/mnb/00/mnb_0010   0    5      really    RB             *          -    -   -   -       *      *        *        *         *             *     -
+bn/mnb/00/mnb_0010   0    6       close    JJ           *)))         -    -   -   -       *      *        *)       *         *             *     -
+bn/mnb/00/mnb_0010   0    7           ,     ,             *          -    -   -   -       *      *        *        *         *             *     -
+bn/mnb/00/mnb_0010   0    8         and    CC             *          -    -   -   -       *      *        *        *         *             *     -
+bn/mnb/00/mnb_0010   0    9         let    VB        (S(VP*         let  01   1   -       *      *        *      (V*)        *             *     -
+bn/mnb/00/mnb_0010   0   10          's   PRP        (S(NP*)         -    -   -   -       *      *        *   (ARG1*    (ARG0*)            *     -
+bn/mnb/00/mnb_0010   0   11     suppose    VB          (VP*     suppose  01   1   -       *      *        *        *       (V*)            *     -
+bn/mnb/00/mnb_0010   0   12        that    IN        (SBAR*          -    -   -   -       *      *        *        *    (ARG1*             *     -
+bn/mnb/00/mnb_0010   0   13      states   NNS     (S(NP(NP*)      state   -   2   -       *      *        *        *         *        (ARG0*     -
+bn/mnb/00/mnb_0010   0   14        like    IN          (PP*          -    -   -   -       *      *        *        *         *             *     -
+bn/mnb/00/mnb_0010   0   15     Florida   NNP          (NP*          -    -   -   -    (GPE)     *        *        *         *             *    (3)
+bn/mnb/00/mnb_0010   0   16         and    CC             *          -    -   -   -       *      *        *        *         *             *     -
+bn/mnb/00/mnb_0010   0   17    Illinois   NNP           *)))         -    -   -   -    (GPE)     *        *        *         *             *)    -
+bn/mnb/00/mnb_0010   0   18       might    MD          (VP*          -    -   -   -       *      *        *        *         *    (ARGM-MOD*)    -
+bn/mnb/00/mnb_0010   0   19      decide    VB          (VP*      decide  01   2   -       *      *        *        *         *           (V*)    -
+bn/mnb/00/mnb_0010   0   20         the    DT          (NP*          -    -   -   -       *      *        *        *         *        (ARG1*   (10
+bn/mnb/00/mnb_0010   0   21    election    NN     *)))))))))   election   -   1   -       *      *        *        *)        *)            *)   10)
+bn/mnb/00/mnb_0010   0   22           .     .            *))         -    -   -   -       *      *        *        *         *             *     -
+
+bn/mnb/00/mnb_0010   0    0        maybe    RB   (TOP(S(ADVP*)       -    -   -   -        *    (ARGM-ADV*)            *    -
+bn/mnb/00/mnb_0010   0    1            ,     ,              *        -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0    2        maybe    RB         (ADVP*)       -    -   -   -        *    (ARGM-ADV*)            *    -
+bn/mnb/00/mnb_0010   0    3     Hispanic    JJ           (NP*        -    -   -   -    (NORP)       (ARG0*             *    -
+bn/mnb/00/mnb_0010   0    4        votes   NNS              *)     vote   -   5   -        *             *)            *    -
+bn/mnb/00/mnb_0010   0    5        might    MD           (VP*        -    -   -   -        *    (ARGM-MOD*)            *    -
+bn/mnb/00/mnb_0010   0    6       decide    VB           (VP*    decide  01   2   -        *           (V*)            *    -
+bn/mnb/00/mnb_0010   0    7            ,     ,              *        -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0    8          too    RB         (ADVP*)       -    -   -   -        *    (ARGM-DIS*)            *    -
+bn/mnb/00/mnb_0010   0    9            ,     ,              *        -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0   10          who    WP    (SBAR(WHNP*)       -    -   -   -        *        (ARG1*        (ARG1*)   -
+bn/mnb/00/mnb_0010   0   11        would    MD         (S(VP*        -    -   -   -        *             *    (ARGM-MOD*)   -
+bn/mnb/00/mnb_0010   0   12           be    VB           (VP*        be  01   1   -        *             *           (V*)   -
+bn/mnb/00/mnb_0010   0   13          the    DT        (NP(NP*        -    -   -   -        *             *        (ARG2*    -
+bn/mnb/00/mnb_0010   0   14         next    JJ              *        -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0   15    President   NNP              *)       -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0   16           of    IN           (PP*        -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0   17          the    DT           (NP*        -    -   -   -    (GPE*             *             *   (5
+bn/mnb/00/mnb_0010   0   18       United   NNP              *        -    -   -   -        *             *             *    -
+bn/mnb/00/mnb_0010   0   19       States   NNP      *)))))))))       -    -   -   -        *)            *)            *)   5)
+bn/mnb/00/mnb_0010   0   20            .     .             *))       -    -   -   -        *             *             *    -
+
+bn/mnb/00/mnb_0010   0    0           The    DT  (TOP(FRAG(NP(NP*       -    -   -   -        *      *      *         *       (16
+bn/mnb/00/mnb_0010   0    1       largest   JJS                 *       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0    2      Hispanic    JJ                 *       -    -   -   -    (NORP)     *      *         *         -
+bn/mnb/00/mnb_0010   0    3        voting    NN                 *       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0    4          bloc    NN                 *)      -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0    5            of    IN              (PP*       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0    6       Florida   NNP            (NP*)))      -    -   -   -     (GPE)     *      *         *    (3)|16)
+bn/mnb/00/mnb_0010   0    7             ,     ,                 *       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0    8    Republican    JJ           (NP(NP*       -    -   -   -    (NORP)     *      *         *       (16
+bn/mnb/00/mnb_0010   0    9        voters   NNS                 *)      -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0   10           who    WP       (SBAR(WHNP*)      -    -   -   -        *      *      *    (ARG0*)        -
+bn/mnb/00/mnb_0010   0   11            do   VBP            (S(VP*       do  01   -   -        *    (V*)     *         *         -
+bn/mnb/00/mnb_0010   0   12           not    RB                 *       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0   13          seem    VB              (VP*       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0   14            to    TO            (S(VP*       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0   15            be    VB              (VP*       be  03   -   -        *      *    (V*)        *         -
+bn/mnb/00/mnb_0010   0   16      crossing   VBG              (VP*    cross  02   1   -        *      *      *       (V*)        -
+bn/mnb/00/mnb_0010   0   17           the    DT              (NP*       -    -   -   -        *      *      *    (ARG1*         -
+bn/mnb/00/mnb_0010   0   18         party    NN                 *       -    -   -   -        *      *      *         *         -
+bn/mnb/00/mnb_0010   0   19          line    NN        *))))))))))    line   -   6   -        *      *      *         *)       16)
+bn/mnb/00/mnb_0010   0   20             .     .                *))      -    -   -   -        *      *      *         *         -
+
+bn/mnb/00/mnb_0010   0    0        Gore   NNP   (TOP(S(NP*)        -    -   -   -    (PERSON)   (ARG0*)           *    (6)
+bn/mnb/00/mnb_0010   0    1      wanted   VBD         (VP*       want  01   1   -          *       (V*)           *     -
+bn/mnb/00/mnb_0010   0    2         the    DT    (S(NP(NP*         -    -   -   -          *    (ARG1*       (ARG1*     -
+bn/mnb/00/mnb_0010   0    3       young    JJ            *         -    -   -   -          *         *            *     -
+bn/mnb/00/mnb_0010   0    4       Cuban    JJ            *         -    -   -   -      (NORP)        *            *     -
+bn/mnb/00/mnb_0010   0    5         boy    NN            *)        -    -   -   -          *         *            *     -
+bn/mnb/00/mnb_0010   0    6           ,     ,            *         -    -   -   -          *         *            *     -
+bn/mnb/00/mnb_0010   0    7       Elian   NNP         (NP*         -    -   -   -   (PERSON*         *            *     -
+bn/mnb/00/mnb_0010   0    8    Gonzalez   NNP           *))        -    -   -   -          *)        *            *)    -
+bn/mnb/00/mnb_0010   0    9          to    TO         (VP*         -    -   -   -          *         *            *     -
+bn/mnb/00/mnb_0010   0   10        stay    VB         (VP*       stay  01   1   -          *         *          (V*)    -
+bn/mnb/00/mnb_0010   0   11          in    IN         (PP*         -    -   -   -          *         *   (ARGM-LOC*     -
+bn/mnb/00/mnb_0010   0   12        this    DT         (NP*         -    -   -   -          *         *            *    (5
+bn/mnb/00/mnb_0010   0   13     country    NN       *))))))   country   -   3   -          *         *)           *)    5)
+bn/mnb/00/mnb_0010   0   14           .     .           *))        -    -   -   -          *         *            *     -
+
+bn/mnb/00/mnb_0010   0    0          Joe   NNP      (TOP(S(NP*         -    -   -   -   (PERSON*    (ARG0*            *      *             *     -
+bn/mnb/00/mnb_0010   0    1    Lieberman   NNP               *)        -    -   -   -          *)        *)           *      *             *     -
+bn/mnb/00/mnb_0010   0    2       brings   VBZ            (VP*      bring  01   2   -          *       (V*)           *      *             *     -
+bn/mnb/00/mnb_0010   0    3         Gore   NNP            (NP*)        -    -   -   -    (PERSON)   (ARG2*)           *      *             *    (6)
+bn/mnb/00/mnb_0010   0    4      support    NN         (NP(NP*)   support  01   7   -          *    (ARG1*          (V*)     *        (ARG1*)   (2
+bn/mnb/00/mnb_0010   0    5           he   PRP     (SBAR(S(NP*)        -    -   -   -          *         *   (ARGM-ADJ*      *        (ARG0*)   (6)
+bn/mnb/00/mnb_0010   0    6     probably    RB          (ADVP*)        -    -   -   -          *         *            *      *    (ARGM-ADV*)    -
+bn/mnb/00/mnb_0010   0    7        would    MD            (VP*         -    -   -   -          *         *            *      *    (ARGM-MOD*)    -
+bn/mnb/00/mnb_0010   0    8         have    VB            (VP*       have  01   -   -          *         *            *    (V*)            *     -
+bn/mnb/00/mnb_0010   0    9       gotten   VBN            (VP*        get  05   1   -          *         *            *      *           (V*)    -
+bn/mnb/00/mnb_0010   0   10         here    RB          (ADVP*)        -    -   -   -          *         *            *      *    (ARGM-LOC*)    -
+bn/mnb/00/mnb_0010   0   11       anyway    RB   (ADVP*))))))))        -    -   -   -          *         *)           *)     *    (ARGM-ADV*)    2)
+bn/mnb/00/mnb_0010   0   12            .     .              *))        -    -   -   -          *         *            *      *             *     -
+
+bn/mnb/00/mnb_0010   0   0     Sizable     JJ      (TOP(NP*   -   -   -   -        *   (2
+bn/mnb/00/mnb_0010   0   1      Jewish     JJ   (ADJP(ADJP*)  -   -   -   -    (NORP)   -
+bn/mnb/00/mnb_0010   0   2         and     CC             *   -   -   -   -        *    -
+bn/mnb/00/mnb_0010   0   3     African     JJ        (ADJP*   -   -   -   -   (NORP*    -
+bn/mnb/00/mnb_0010   0   4          -    HYPH             *   -   -   -   -        *    -
+bn/mnb/00/mnb_0010   0   5    American     JJ            *))  -   -   -   -        *)   -
+bn/mnb/00/mnb_0010   0   6      voting     NN             *   -   -   -   -        *    -
+bn/mnb/00/mnb_0010   0   7       blocs    NNS             *   -   -   -   -        *    -
+bn/mnb/00/mnb_0010   0   8           .      .            *))  -   -   -   -        *    2)
+
+bn/mnb/00/mnb_0010   0    0            Of    IN  (TOP(S(PP*       -    -   -   -            *   (ARGM-PRD*     -
+bn/mnb/00/mnb_0010   0    1           the    DT        (NP*       -    -   -   -            *            *     -
+bn/mnb/00/mnb_0010   0    2           10     CD           *       -    -   -   -    (CARDINAL)           *     -
+bn/mnb/00/mnb_0010   0    3       largest   JJS           *       -    -   -   -            *            *     -
+bn/mnb/00/mnb_0010   0    4        states   NNS          *))   state   -   2   -            *            *)    -
+bn/mnb/00/mnb_0010   0    5             ,     ,           *       -    -   -   -            *            *     -
+bn/mnb/00/mnb_0010   0    6       Florida   NNP        (NP*)      -    -   -   -         (GPE)      (ARG1*)   (3)
+bn/mnb/00/mnb_0010   0    7            is   VBZ        (VP*       be  01   1   -            *          (V*)    -
+bn/mnb/00/mnb_0010   0    8           the    DT     (NP(NP*       -    -   -   -            *       (ARG2*     -
+bn/mnb/00/mnb_0010   0    9          most   RBS      (ADJP*       -    -   -   -            *            *     -
+bn/mnb/00/mnb_0010   0   10    Republican    JJ        *))))      -    -   -   -        (NORP)           *)    -
+bn/mnb/00/mnb_0010   0   11             .     .          *))      -    -   -   -            *            *     -
+
+bn/mnb/00/mnb_0010   0    0           The     DT  (TOP(S(NP(NP(NP*         -    -   -   -          *      *             *   (ARG0*        (15
+bn/mnb/00/mnb_0010   0    1    Republican     JJ                 *         -    -   -   -      (NORP)     *             *        *          -
+bn/mnb/00/mnb_0010   0    2      governor     NN                 *)        -    -   -   -          *      *             *        *          -
+bn/mnb/00/mnb_0010   0    3          here     RB           (ADVP*))        -    -   -   -          *      *             *        *          -
+bn/mnb/00/mnb_0010   0    4             ,      ,                 *         -    -   -   -          *      *             *        *          -
+bn/mnb/00/mnb_0010   0    5           Jeb    NNP              (NP*         -    -   -   -   (PERSON*      *             *        *          -
+bn/mnb/00/mnb_0010   0    6          Bush    NNP                *))        -    -   -   -          *)     *             *        *)        15)
+bn/mnb/00/mnb_0010   0    7           was    VBD              (VP*         be  03   -   -          *    (V*)            *        *          -
+bn/mnb/00/mnb_0010   0    8          once     RB            (ADVP*)        -    -   -   -          *      *    (ARGM-TMP*)       *          -
+bn/mnb/00/mnb_0010   0    9      expected    VBN              (VP*     expect  01   1   -          *      *           (V*)       *          -
+bn/mnb/00/mnb_0010   0   10            to     TO            (S(VP*         -    -   -   -          *      *        (ARG1*        *          -
+bn/mnb/00/mnb_0010   0   11       deliver     VB              (VP*    deliver  01   2   -          *      *             *      (V*)         -
+bn/mnb/00/mnb_0010   0   12           his   PRP$              (NP*         -    -   -   -          *      *             *   (ARG2*    (19|(15)
+bn/mnb/00/mnb_0010   0   13       brother     NN                 *)        -    -   -   -          *      *             *        *)        19)
+bn/mnb/00/mnb_0010   0   14          this     DT              (NP*         -    -   -   -          *      *             *   (ARG1*         (3
+bn/mnb/00/mnb_0010   0   15         state     NN            *))))))     state   -   2   -          *      *             *)       *)         3)
+bn/mnb/00/mnb_0010   0   16             .      .                *))        -    -   -   -          *      *             *        *          -
+
+bn/mnb/00/mnb_0010   0    0           The    DT  (TOP(FRAG(NP(NP*           -    -    -   -   *       (ARG0*      *             *         *   -
+bn/mnb/00/mnb_0010   0    1      managers   NNS                 *)     manager   -    1   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0    2            of    IN              (PP*           -    -    -   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0    3          both    DT              (NP*           -    -    -   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0    4     campaigns   NNS               *)))    campaign   -    1   -   *            *)     *             *         *   -
+bn/mnb/00/mnb_0010   0    5        saying   VBG              (VP*          say  01    1   -   *          (V*)     *             *         *   -
+bn/mnb/00/mnb_0010   0    6            in    IN              (PP*           -    -    -   -   *   (ARGM-TMP*      *             *         *   -
+bn/mnb/00/mnb_0010   0    7           the    DT              (NP*           -    -    -   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0    8           end    NN                *))         end   -   10   -   *            *)     *             *         *   -
+bn/mnb/00/mnb_0010   0    9             ,     ,                 *           -    -    -   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0   10           the    DT       (SBAR(S(NP*           -    -    -   -   *       (ARG1*      *        (ARG1*         *   -
+bn/mnb/00/mnb_0010   0   11        wipper    NN                 *)          -    -    -   -   *            *      *             *)        *   -
+bn/mnb/00/mnb_0010   0   12           may    MD              (VP*           -    -    -   -   *            *      *    (ARGM-MOD*)        *   -
+bn/mnb/00/mnb_0010   0   13        simply    RB            (ADVP*)          -    -    -   -   *            *      *    (ARGM-ADV*)        *   -
+bn/mnb/00/mnb_0010   0   14            be    VB              (VP*           be  03    -   -   *            *    (V*)            *         *   -
+bn/mnb/00/mnb_0010   0   15    determined   VBN              (VP*    determine  01    2   -   *            *      *           (V*)        *   -
+bn/mnb/00/mnb_0010   0   16            by    IN              (PP*           -    -    -   -   *            *      *        (ARG2*         *   -
+bn/mnb/00/mnb_0010   0   17           who    WP       (SBAR(WHNP*)          -    -    -   -   *            *      *             *    (ARG0*)  -
+bn/mnb/00/mnb_0010   0   18          gets   VBZ            (S(VP*          get  05    3   -   *            *      *             *       (V*)  -
+bn/mnb/00/mnb_0010   0   19          more   JJR              (NP*           -    -    -   -   *            *      *             *    (ARG1*   -
+bn/mnb/00/mnb_0010   0   20        people   NNS                 *)      people   -    1   -   *            *      *             *         *)  -
+bn/mnb/00/mnb_0010   0   21            to    IN              (PP*           -    -    -   -   *            *      *             *    (ARG2*   -
+bn/mnb/00/mnb_0010   0   22           the    DT              (NP*           -    -    -   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0   23        voting    NN                 *           -    -    -   -   *            *      *             *         *   -
+bn/mnb/00/mnb_0010   0   24         booth    NN      *))))))))))))          -    -    -   -   *            *)     *             *)        *)  -
+bn/mnb/00/mnb_0010   0   25             .     .                *))          -    -    -   -   *            *      *             *         *   -
+
+bn/mnb/00/mnb_0010   0   0      Kerry   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*   (17
+bn/mnb/00/mnb_0010   0   1    Sanders   NNP              *)  -   -   -   -          *)   17)
+bn/mnb/00/mnb_0010   0   2          ,     ,              *   -   -   -   -          *     -
+bn/mnb/00/mnb_0010   0   3        NBC   NNP           (NP*   -   -   -   -      (ORG*   (11
+bn/mnb/00/mnb_0010   0   4       News   NNP              *)  -   -   -   -          *)   11)
+bn/mnb/00/mnb_0010   0   5          ,     ,              *   -   -   -   -          *     -
+bn/mnb/00/mnb_0010   0   6    Anaheim   NNP           (NP*)  -   -   -   -       (GPE)    -
+bn/mnb/00/mnb_0010   0   7          .     .             *))  -   -   -   -          *     -
+
+#end document

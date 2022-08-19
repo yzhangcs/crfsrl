@@ -1,0 +1,642 @@
+#begin document (nw/wsj/16/wsj_1649); part 000
+nw/wsj/16/wsj_1649   0    0      Raymond   NNP  (TOP(S(NP*        -    -   -   -   (PERSON*        *       (ARG0*   -
+nw/wsj/16/wsj_1649   0    1     Chandler   NNP           *)       -    -   -   -          *)       *            *)  -
+nw/wsj/16/wsj_1649   0    2            ,     ,           *        -    -   -   -          *        *            *   -
+nw/wsj/16/wsj_1649   0    3           in    IN        (PP*        -    -   -   -          *        *   (ARGM-LOC*   -
+nw/wsj/16/wsj_1649   0    4            a    DT     (NP(NP*        -    -   -   -          *   (ARG0*            *   -
+nw/wsj/16/wsj_1649   0    5        1950     CD           *        -    -   -   -      (DATE)       *            *   -
+nw/wsj/16/wsj_1649   0    6       letter    NN           *)       -    -   -   -          *        *)           *   -
+nw/wsj/16/wsj_1649   0    7    defending   VBG        (VP*    defend  01   -   -          *      (V*)           *   -
+nw/wsj/16/wsj_1649   0    8            a    DT        (NP*        -    -   -   -          *   (ARG1*            *   -
+nw/wsj/16/wsj_1649   0    9         weak    JJ           *        -    -   -   -          *        *            *   -
+nw/wsj/16/wsj_1649   0   10    Hemingway   NNP           *        -    -   -   -    (PERSON)       *            *   -
+nw/wsj/16/wsj_1649   0   11         book    NN        *))))       -    -   -   -          *        *)           *)  -
+nw/wsj/16/wsj_1649   0   12            ,     ,           *        -    -   -   -          *        *            *   -
+nw/wsj/16/wsj_1649   0   13      likened   VBD        (VP*     liken  01   -   -          *        *          (V*)  -
+nw/wsj/16/wsj_1649   0   14            a    DT        (NP*        -    -   -   -          *        *       (ARG1*   -
+nw/wsj/16/wsj_1649   0   15     champion    NN           *        -    -   -   -          *        *            *   -
+nw/wsj/16/wsj_1649   0   16       writer    NN           *)       -    -   -   -          *        *            *)  -
+nw/wsj/16/wsj_1649   0   17           to    IN        (PP*        -    -   -   -          *        *       (ARG2*   -
+nw/wsj/16/wsj_1649   0   18            a    DT        (NP*        -    -   -   -          *        *            *   -
+nw/wsj/16/wsj_1649   0   19     baseball    NN           *        -    -   -   -          *        *            *   -
+nw/wsj/16/wsj_1649   0   20      pitcher    NN         *)))       -    -   -   -          *        *            *)  -
+nw/wsj/16/wsj_1649   0   21            .     .          *))       -    -   -   -          *        *            *   -
+
+nw/wsj/16/wsj_1649   0    0        When    WRB   (TOP(S(SBAR(WHADVP*)      -    -   -   -   *    (ARGM-TMP*)            *    (ARGM-TMP*   -
+nw/wsj/16/wsj_1649   0    1         the     DT                (S(NP*       -    -   -   -   *        (ARG0*             *             *   -
+nw/wsj/16/wsj_1649   0    2       champ     NN                     *)      -    -   -   -   *             *)            *             *   -
+nw/wsj/16/wsj_1649   0    3         has    VBZ                  (VP*       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0    4        lost    VBN                  (VP*     lose  02   -   -   *           (V*)            *             *   -
+nw/wsj/16/wsj_1649   0    5         his   PRP$                  (NP*       -    -   -   -   *        (ARG1*             *             *   -
+nw/wsj/16/wsj_1649   0    6       stuff     NN                 *)))))      -    -   -   -   *             *)            *             *)  -
+nw/wsj/16/wsj_1649   0    7           ,      ,                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0    8         the     DT            (PRN(S(NP*       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0    9       great     JJ                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   10     mystery     NN                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   11    novelist     NN                     *)      -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   12       wrote    VBD                 (VP*))      -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   13           ,      ,                     *)      -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   14          ``     ``                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   15        when    WRB         (SBAR(WHADVP*)      -    -   -   -   *             *    (ARGM-TMP*)   (ARGM-TMP*   -
+nw/wsj/16/wsj_1649   0   16          he    PRP                (S(NP*)      -    -   -   -   *             *        (ARG0*)            *   -
+nw/wsj/16/wsj_1649   0   17         can     MD                  (VP*       -    -   -   -   *             *    (ARGM-MOD*)            *   -
+nw/wsj/16/wsj_1649   0   18          no     RB                (ADVP*       -    -   -   -   *             *    (ARGM-NEG*             *   -
+nw/wsj/16/wsj_1649   0   19      longer     RB                     *)      -    -   -   -   *             *             *)            *   -
+nw/wsj/16/wsj_1649   0   20       throw     VB                  (VP*    throw  01   -   -   *             *           (V*)            *   -
+nw/wsj/16/wsj_1649   0   21         the     DT                  (NP*       -    -   -   -   *             *        (ARG1*             *   -
+nw/wsj/16/wsj_1649   0   22        high     JJ                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   23        hard     JJ                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   24         one     CD                 *)))))      -    -   -   -   *             *             *)            *)  -
+nw/wsj/16/wsj_1649   0   25           ,      ,                     *       -    -   -   -   *             *             *             *   -
+nw/wsj/16/wsj_1649   0   26          he    PRP                  (NP*)      -    -   -   -   *             *             *        (ARG0*)  -
+nw/wsj/16/wsj_1649   0   27      throws    VBZ                  (VP*    throw  01   -   -   *             *             *           (V*)  -
+nw/wsj/16/wsj_1649   0   28         his   PRP$                  (NP*       -    -   -   -   *             *             *        (ARG1*   -
+nw/wsj/16/wsj_1649   0   29       heart     NN                     *)      -    -   -   -   *             *             *             *)  -
+nw/wsj/16/wsj_1649   0   30     instead     RB               (ADVP*))      -    -   -   -   *             *             *    (ARGM-ADV*)  -
+nw/wsj/16/wsj_1649   0   31           .      .                    *))      -    -   -   -   *             *             *             *   -
+
+nw/wsj/16/wsj_1649   0   0           He   PRP   (TOP(S(NP*)      -    -   -   -   *    (ARG0*)  -
+nw/wsj/16/wsj_1649   0   1       throws   VBZ         (VP*    throw  01   -   -   *       (V*)  -
+nw/wsj/16/wsj_1649   0   2    something    NN        (NP*))      -    -   -   -   *    (ARG1*)  -
+nw/wsj/16/wsj_1649   0   3            .     .           *))      -    -   -   -   *         *   -
+
+nw/wsj/16/wsj_1649   0    0       He   PRP   (TOP(S(NP*)     -    -   -   -   *        (ARG0*)  -
+nw/wsj/16/wsj_1649   0    1     does   VBZ         (VP*      -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0    2      n't    RB            *      -    -   -   -   *    (ARGM-NEG*)  -
+nw/wsj/16/wsj_1649   0    3     just    RB       (ADVP*)     -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/16/wsj_1649   0    4     walk    VB      (VP(VP*    walk  01   -   -   *           (V*)  -
+nw/wsj/16/wsj_1649   0    5      off    IN         (PP*      -    -   -   -   *    (ARGM-DIR*   -
+nw/wsj/16/wsj_1649   0    6      the    DT         (NP*      -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0    7    mound    NN          *)))     -    -   -   -   *             *)  -
+nw/wsj/16/wsj_1649   0    8      and    CC            *      -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0    9     weep    NN       (VP*)))     -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0   10        .     .            *      -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0   11       ''    ''           *))     -    -   -   -   *             *   -
+
+nw/wsj/16/wsj_1649   0    0      Chandler    NNP   (TOP(S(NP*)        -    -   -   -    (PERSON)       (ARG0*)  -
+nw/wsj/16/wsj_1649   0    1         might     MD         (VP*         -    -   -   -          *    (ARGM-MOD*)  -
+nw/wsj/16/wsj_1649   0    2          have     VB         (VP*         -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    3          been    VBN         (VP*         -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    4    predicting    VBG         (VP*    predict  01   1   -          *           (V*)  -
+nw/wsj/16/wsj_1649   0    5           the     DT      (NP(NP*         -    -   -   -          *        (ARG1*   -
+nw/wsj/16/wsj_1649   0    6        course     NN            *)    course   -   2   -          *             *   -
+nw/wsj/16/wsj_1649   0    7            of     IN         (PP*         -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    8           his   PRP$         (NP*         -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    9           own     JJ            *         -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   10        career     NN      *)))))))        -    -   -   -          *             *)  -
+nw/wsj/16/wsj_1649   0   11             .      .           *))        -    -   -   -          *             *   -
+
+nw/wsj/16/wsj_1649   0    0          His    PRP$  (TOP(S(NP(NP(NP*         -    -   -   -               *         *   (ARG0*        (ARG1*   -
+nw/wsj/16/wsj_1649   0    1         last      JJ                 *         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0    2    published     VBN                 *    publish  01   1   -               *       (V*)       *             *   -
+nw/wsj/16/wsj_1649   0    3        novel      NN                 *)        -    -   -   -               *    (ARG1*)       *)            *   -
+nw/wsj/16/wsj_1649   0    4    featuring     VBG              (VP*    feature  01   1   -               *         *      (V*)            *   -
+nw/wsj/16/wsj_1649   0    5      private      JJ          (NP(NML*         -    -   -   -               *         *   (ARG1*             *   -
+nw/wsj/16/wsj_1649   0    6    detective      NN                 *)        -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0    7       Philip     NNP                 *         -    -   -   -        (PERSON*         *        *             *   -
+nw/wsj/16/wsj_1649   0    8      Marlowe     NNP               *)))        -    -   -   -               *)        *        *)            *   -
+nw/wsj/16/wsj_1649   0    9            ,       ,                 *         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   10          the      DT           (NP(NP*         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   11     inferior      JJ                 *         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   12           ``      ``                 *         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   13     Playback     NNP             (NML*)        -    -   -   -    (WORK_OF_ART)        *        *             *   -
+nw/wsj/16/wsj_1649   0   14           ''      ''                 *)        -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   15       -LRB-   -LRB-                  *         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   16        1958       CD              (NP*)        -    -   -   -           (DATE)        *        *             *   -
+nw/wsj/16/wsj_1649   0   17       -RRB-   -RRB-                  *)        -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   18            ,       ,                 *)        -    -   -   -               *         *        *             *)  -
+nw/wsj/16/wsj_1649   0   19           at      IN              (PP*         -    -   -   -               *         *        *    (ARGM-TMP*   -
+nw/wsj/16/wsj_1649   0   20        times     NNS             (NP*))        -    -   -   -               *         *        *             *)  -
+nw/wsj/16/wsj_1649   0   21         read     VBD              (VP*       read  01   -   -               *         *        *           (V*)  -
+nw/wsj/16/wsj_1649   0   22       almost      RB            (ADVP*)        -    -   -   -               *         *        *    (ARGM-ADV*)  -
+nw/wsj/16/wsj_1649   0   23         like      IN              (PP*         -    -   -   -               *         *        *    (ARGM-MNR*   -
+nw/wsj/16/wsj_1649   0   24            a      DT           (NP(NP*         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   25       parody      NN                 *)        -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   26           of      IN              (PP*         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   27          his    PRP$              (NP*         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   28     previous      JJ                 *         -    -   -   -               *         *        *             *   -
+nw/wsj/16/wsj_1649   0   29         work      NN             *)))))        -    -   -   -               *         *        *             *)  -
+nw/wsj/16/wsj_1649   0   30            .       .                *))        -    -   -   -               *         *        *             *   -
+
+nw/wsj/16/wsj_1649   0    0         When   WRB   (TOP(S(SBAR(WHADVP*)      -    -   -   -               *    (ARGM-TMP*)   (ARGM-TMP*           *         *   -
+nw/wsj/16/wsj_1649   0    1           he   PRP                (S(NP*)      -    -   -   -               *        (ARG1*)            *           *         *   -
+nw/wsj/16/wsj_1649   0    2         died   VBD                  (VP*      die  01   -   -               *           (V*)            *           *         *   -
+nw/wsj/16/wsj_1649   0    3           in    IN                  (PP*       -    -   -   -               *    (ARGM-TMP*             *           *         *   -
+nw/wsj/16/wsj_1649   0    4        1959     CD              (NP*)))))      -    -   -   -           (DATE)            *)            *)          *         *   -
+nw/wsj/16/wsj_1649   0    5            ,     ,                     *       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0    6     Chandler   NNP                  (NP*)      -    -   -   -         (PERSON)            *        (ARG0*)          *         *   -
+nw/wsj/16/wsj_1649   0    7         left   VBD                  (VP*    leave  02   -   -               *             *           (V*)          *         *   -
+nw/wsj/16/wsj_1649   0    8       behind    RP                 (PRT*)      -    -   -   -               *             *    (ARGM-LOC*)          *         *   -
+nw/wsj/16/wsj_1649   0    9         four    CD               (NP(NP*       -    -   -   -       (CARDINAL)            *        (ARG1*           *         *   -
+nw/wsj/16/wsj_1649   0   10     chapters   NNS                     *)      -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   11           of    IN                  (PP*       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   12          yet    RB            (NP(NP(NP*       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   13      another    DT                     *       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   14      Marlowe   NNP                     *       -    -   -   -         (PERSON)            *             *           *         *   -
+nw/wsj/16/wsj_1649   0   15         book    NN                     *)      -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   16            ,     ,                     *       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   17           ``    ``                     *       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   18          The    DT                  (NP*       -    -   -   -   (WORK_OF_ART*             *             *      (ARG1*         *   -
+nw/wsj/16/wsj_1649   0   19       Poodle   NNP                 (NML*       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   20      Springs   NNP                     *)      -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   21        Story   NNP                    *))      -    -   -   -               *)            *             *           *)        *   -
+nw/wsj/16/wsj_1649   0   22            ,     ,                     *       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   23           ''    ''                     *       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   24        which   WDT           (SBAR(WHNP*)      -    -   -   -               *             *             *    (C-ARG1*)   (ARG1*)  -
+nw/wsj/16/wsj_1649   0   25       seemed   VBD                (S(VP*     seem  01   1   -               *             *             *         (V*)        *   -
+nw/wsj/16/wsj_1649   0   26           to    TO                (S(VP*       -    -   -   -               *             *             *    (C-ARG1*         *   -
+nw/wsj/16/wsj_1649   0   27           go    VB                  (VP*       go  01   -   -               *             *             *           *       (V*)  -
+nw/wsj/16/wsj_1649   0   28       beyond    IN               (PP(PP*       -    -   -   -               *             *             *           *    (ARG4*   -
+nw/wsj/16/wsj_1649   0   29       parody    NN                 (NP*))      -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   30         into    IN                  (PP*       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   31    something    NN               (NP(NP*)      -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   32         like    IN                  (PP*       -    -   -   -               *             *             *           *         *   -
+nw/wsj/16/wsj_1649   0   33    burlesque    JJ    (NP*)))))))))))))))      -    -   -   -               *             *             *)          *)        *)  -
+nw/wsj/16/wsj_1649   0   34            .     .                    *))      -    -   -   -               *             *             *           *         *   -
+
+nw/wsj/16/wsj_1649   0    0            ``    ``   (TOP(S(NP*    -    -   -   -               *   (ARG1*   -
+nw/wsj/16/wsj_1649   0    1         Champ   NNP         (NP*)   -    -   -   -    (WORK_OF_ART)       *   -
+nw/wsj/16/wsj_1649   0    2            ''    ''            *    -    -   -   -               *        *   -
+nw/wsj/16/wsj_1649   0    3      Chandler   NNP  (RRC(NP(NP*    -    -   -   -         (PERSON)       *   -
+nw/wsj/16/wsj_1649   0    4            's   POS            *)   -    -   -   -               *        *   -
+nw/wsj/16/wsj_1649   0    5          last    JJ            *    -    -   -   -               *        *   -
+nw/wsj/16/wsj_1649   0    6         pitch    NN            *)   -    -   -   -               *        *   -
+nw/wsj/16/wsj_1649   0    7             ,     ,            *    -    -   -   -               *        *   -
+nw/wsj/16/wsj_1649   0    8    apparently    RB      (ADVP*))   -    -   -   -               *        *   -
+nw/wsj/16/wsj_1649   0    9             ,     ,            *)   -    -   -   -               *        *)  -
+nw/wsj/16/wsj_1649   0   10           was   VBD         (VP*    be  01   -   -               *      (V*)  -
+nw/wsj/16/wsj_1649   0   11             a    DT         (NP*    -    -   -   -               *   (ARG2*   -
+nw/wsj/16/wsj_1649   0   12     screwball    NN           *))   -    -   -   -               *        *)  -
+nw/wsj/16/wsj_1649   0   13             .     .           *))   -    -   -   -               *        *   -
+
+nw/wsj/16/wsj_1649   0    0             Now    RB   (TOP(S(ADVP*)         -    -   -   -               *        *    (ARGM-TMP*)       *   -
+nw/wsj/16/wsj_1649   0    1          Robert   NNP        (NP(NP*          -    -   -   -        (PERSON*        *        (ARG1*   (ARG0*   -
+nw/wsj/16/wsj_1649   0    2          Parker   NNP              *)         -    -   -   -               *)       *             *        *   -
+nw/wsj/16/wsj_1649   0    3               ,     ,              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0    4          author    NN        (NP(NP*)         -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0    5              of    IN           (PP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0    6         several    JJ        (NP(NP*          -    -   -   -               *   (ARG0*             *        *   -
+nw/wsj/16/wsj_1649   0    7            best   JJS              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0    8         sellers   NNS              *)         -    -   -   -               *        *)            *        *   -
+nw/wsj/16/wsj_1649   0    9       featuring   VBG           (VP*     feature  01   1   -               *      (V*)            *        *   -
+nw/wsj/16/wsj_1649   0   10         Spenser   NNP        (NP(NP*)         -    -   -   -         (PERSON)  (ARG1*             *        *   -
+nw/wsj/16/wsj_1649   0   11               ,     ,              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   12               a    DT        (NP(NP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   13    contemporary    JJ              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   14         private    JJ              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   15             eye    NN              *)        eye   -   5   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   16              in    IN           (PP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   17             the    DT           (NP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   18         Marlowe   NNP              *          -    -   -   -         (PERSON)       *             *        *   -
+nw/wsj/16/wsj_1649   0   19            mold    NN            *)))         -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   20               ,     ,         *))))))         -    -   -   -               *        *)            *)       *)  -
+nw/wsj/16/wsj_1649   0   21             has   VBZ           (VP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   22            with    IN           (PP*          -    -   -   -               *        *    (ARGM-MNR*        *   -
+nw/wsj/16/wsj_1649   0   23             the    DT        (NP(NP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   24       blessings   NNS              *)         -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   25              of    IN           (PP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   26             the    DT           (NP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   27        Chandler   NNP              *          -    -   -   -         (PERSON)       *             *        *   -
+nw/wsj/16/wsj_1649   0   28          estate    NN           *))))         -    -   -   -               *        *             *)       *   -
+nw/wsj/16/wsj_1649   0   29            been   VBN           (VP*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   30           hired   VBN           (VP*        hire  01   -   -               *        *           (V*)       *   -
+nw/wsj/16/wsj_1649   0   31              to    TO         (S(VP*          -    -   -   -               *        *        (ARG2*        *   -
+nw/wsj/16/wsj_1649   0   32        complete    VB           (VP*    complete  01   -   -               *        *             *      (V*)  -
+nw/wsj/16/wsj_1649   0   33              ``    ``              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   34             The    DT           (NP*          -    -   -   -   (WORK_OF_ART*        *             *   (ARG1*   -
+nw/wsj/16/wsj_1649   0   35          Poodle   NNP          (NML*          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   36         Springs   NNP              *)         -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   37           Story   NNP        *)))))))         -    -   -   -               *)       *             *)       *)  -
+nw/wsj/16/wsj_1649   0   38               .     .              *          -    -   -   -               *        *             *        *   -
+nw/wsj/16/wsj_1649   0   39              ''    ''             *))         -    -   -   -               *        *             *        *   -
+
+nw/wsj/16/wsj_1649   0    0             The      DT  (TOP(S(NP(NP*      -    -   -   -               *   (ARG1*   (ARG1*   -
+nw/wsj/16/wsj_1649   0    1          result      NN              *)     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0    2               ,       ,              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0    3              ``      ``           (NP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0    4          Poodle     NNP           (NP*      -    -   -   -   (WORK_OF_ART*        *        *   -
+nw/wsj/16/wsj_1649   0    5         Springs     NNP              *)     -    -   -   -               *)       *        *   -
+nw/wsj/16/wsj_1649   0    6              ''      ''              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0    7          -LRB-   -LRB-               *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0    8          Putnam     NNP        (NP(NP*      -    -   -   -           (ORG*        *        *   -
+nw/wsj/16/wsj_1649   0    9              's     POS              *)     -    -   -   -               *)       *        *   -
+nw/wsj/16/wsj_1649   0   10               ,       ,              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   11            288       CD           (NP*      -    -   -   -       (CARDINAL)       *        *   -
+nw/wsj/16/wsj_1649   0   12           pages     NNS              *)     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   13               ,       ,              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   14               $       $           (NP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   15          18.95       CD             *))     -    -   -   -          (MONEY)       *        *   -
+nw/wsj/16/wsj_1649   0   16          -RRB-   -RRB-              *))     -    -   -   -               *        *)       *)  -
+nw/wsj/16/wsj_1649   0   17              is     VBZ           (VP*      be  01   -   -               *      (V*)       *   -
+nw/wsj/16/wsj_1649   0   18              an      DT        (NP(NP*      -    -   -   -               *   (ARG2*        *   -
+nw/wsj/16/wsj_1649   0   19    entertaining      JJ    (ADJP(ADJP*)     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   20               ,       ,              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   21            easy      JJ         (ADJP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   22              to      TO    (SBAR(S(VP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   23            read      VB       (VP*)))))   read  01   -   -               *        *      (V*)  -
+nw/wsj/16/wsj_1649   0   24             and      CC              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   25          fairly      RB         (ADJP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   26        graceful      JJ             *))     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   27       extension      NN              *)     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   28              of      IN           (PP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   29             the      DT           (NP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   30         Marlowe     NNP              *      -    -   -   -         (PERSON)       *        *   -
+nw/wsj/16/wsj_1649   0   31       chronicle      NN             *))     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   32               ,       ,              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   33            full      JJ         (ADJP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   34              of      IN           (PP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   35            hard      JJ   (NP(NP(ADJP*      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   36              -     HYPH              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   37          boiled      JJ              *)     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   38      wisecracks     NNS              *)     -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   39             and      CC              *      -    -   -   -               *        *        *   -
+nw/wsj/16/wsj_1649   0   40      California     NNP           (NP*      -    -   -   -            (GPE)       *        *   -
+nw/wsj/16/wsj_1649   0   41           color      NN         *))))))     -    -   -   -               *        *)       *   -
+nw/wsj/16/wsj_1649   0   42               .       .             *))     -    -   -   -               *        *        *   -
+
+nw/wsj/16/wsj_1649   0    0          If    IN  (TOP(SINV(SBAR*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    1          it   PRP           (S(NP*)     -    -   -   -          *        (ARG0*)  -
+nw/wsj/16/wsj_1649   0    2        does   VBZ             (VP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    3         not    RB                *      -    -   -   -          *    (ARGM-NEG*)  -
+nw/wsj/16/wsj_1649   0    4       quite    RB           (ADVP*)     -    -   -   -          *    (ARGM-ADV*)  -
+nw/wsj/16/wsj_1649   0    5        have    VB             (VP*    have  03   -   -          *           (V*)  -
+nw/wsj/16/wsj_1649   0    6    Chandler   NNP          (NP(NP*      -    -   -   -    (PERSON)       (ARG1*   -
+nw/wsj/16/wsj_1649   0    7          's   POS                *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    8     special    JJ                *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    9       magic    NN            *)))))     -    -   -   -          *             *)  -
+nw/wsj/16/wsj_1649   0   10         --      :                *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   11        well    RB           (INTJ*)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   12           ,     ,                *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   13          at    IN             (PP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   14         the    DT             (NP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   15         end    NN               *))     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   16           ,     ,                *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   17     neither    CC                *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   18         did   VBD                *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   19    Chandler   NNP             (NP*)     -    -   -   -    (PERSON)            *   -
+nw/wsj/16/wsj_1649   0   20           .     .               *))     -    -   -   -          *             *   -
+
+nw/wsj/16/wsj_1649   0    0           As      IN  (TOP(S(SBAR*       -    -   -   -           *        *             *   (ARGM-TMP*   -
+nw/wsj/16/wsj_1649   0    1          the      DT        (S(NP*       -    -   -   -           *   (ARG1*             *            *   -
+nw/wsj/16/wsj_1649   0    2         book      NN             *)      -    -   -   -           *        *)            *            *   -
+nw/wsj/16/wsj_1649   0    3       begins     VBZ        (VP*)))   begin  01   -   -           *      (V*)            *            *)  -
+nw/wsj/16/wsj_1649   0    4            ,       ,             *       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0    5            a      DT          (NP*       -    -   -   -           *        *             *       (ARG0*   -
+nw/wsj/16/wsj_1649   0    6        newly      RB        (ADJP*       -    -   -   -           *        *    (ARGM-TMP*)           *   -
+nw/wsj/16/wsj_1649   0    7          wed     VBN             *)     wed  01   -   -           *        *           (V*)           *   -
+nw/wsj/16/wsj_1649   0    8      Marlowe     NNP             *)      -    -   -   -     (PERSON)       *        (ARG1*)           *)  -
+nw/wsj/16/wsj_1649   0    9        roars     VBZ          (VP*     roar  02   2   -           *        *             *          (V*)  -
+nw/wsj/16/wsj_1649   0   10         into      IN          (PP*       -    -   -   -           *        *             *       (ARG1*   -
+nw/wsj/16/wsj_1649   0   11          the      DT       (NP(NP*       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   12       desert      NN             *       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   13       resort      NN             *)      -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   14           of      IN          (PP*       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   15       Poodle     NNP       (NP(NP*)      -    -   -   -       (GPE*        *             *            *   -
+nw/wsj/16/wsj_1649   0   16       -LRB-   -LRB-           (NP*       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   17        a.k.a      JJ             *       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   18            .       .             *       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   19         Palm     NNP             *       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   20       -RRB-   -RRB-              *       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   21      Springs     NNP         *)))))      -    -   -   -           *)       *             *            *)  -
+nw/wsj/16/wsj_1649   0   22           at      IN          (PP*       -    -   -   -           *        *             *   (ARGM-LOC*   -
+nw/wsj/16/wsj_1649   0   23          the      DT       (NP(NP*       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   24        wheel      NN             *)      -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   25           of      IN          (PP*       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   26            a      DT          (NP*       -    -   -   -           *        *             *            *   -
+nw/wsj/16/wsj_1649   0   27     Cadillac     NNP             *       -    -   -   -        (ORG)       *             *            *   -
+nw/wsj/16/wsj_1649   0   28    Fleetwood     NNP         *)))))      -    -   -   -    (PRODUCT)       *             *            *)  -
+nw/wsj/16/wsj_1649   0   29            .       .            *))      -    -   -   -           *        *             *            *   -
+
+nw/wsj/16/wsj_1649   0    0          His   PRP$       (TOP(S(NP*        -    -   -   -               *   (ARG1*             *   -
+nw/wsj/16/wsj_1649   0    1        bride     NN                *)       -    -   -   -               *        *)            *   -
+nw/wsj/16/wsj_1649   0    2           is    VBZ             (VP*        be  01   -   -               *      (V*)            *   -
+nw/wsj/16/wsj_1649   0    3          the     DT          (NP(NP*        -    -   -   -               *   (ARG2*             *   -
+nw/wsj/16/wsj_1649   0    4         rich     JJ           (ADJP*        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0    5          and     CC                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0    6    beautiful     JJ                *)       -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0    7        Linda    NNP                *        -    -   -   -        (PERSON*        *             *   -
+nw/wsj/16/wsj_1649   0    8       Loring    NNP                *)       -    -   -   -               *)       *             *   -
+nw/wsj/16/wsj_1649   0    9            ,      ,                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   10            a     DT          (NP(NP*        -    -   -   -               *        *        (ARG1*   -
+nw/wsj/16/wsj_1649   0   11    character     NN                *)       -    -   -   -               *        *             *)  -
+nw/wsj/16/wsj_1649   0   12          who     WP      (SBAR(WHNP*)       -    -   -   -               *        *      (R-ARG1*)  -
+nw/wsj/16/wsj_1649   0   13         also     RB         (S(ADVP*)       -    -   -   -               *        *    (ARGM-ADV*)  -
+nw/wsj/16/wsj_1649   0   14     appeared    VBD             (VP*    appear  01   -   -               *        *           (V*)  -
+nw/wsj/16/wsj_1649   0   15           in     IN             (PP*        -    -   -   -               *        *    (ARGM-LOC*   -
+nw/wsj/16/wsj_1649   0   16     Chandler    NNP          (NP(NP*        -    -   -   -         (PERSON)       *             *   -
+nw/wsj/16/wsj_1649   0   17           's    POS                *)       -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   18           ``     ``            (NML*        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   19          The     DT            (NML*        -    -   -   -   (WORK_OF_ART*        *             *   -
+nw/wsj/16/wsj_1649   0   20         Long    NNP                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   21      Goodbye    NNP                *)       -    -   -   -               *)       *             *   -
+nw/wsj/16/wsj_1649   0   22           ''     ''                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   23          and     CC                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   24           ``     ``                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   25     Playback    NNP   (NML*))))))))))       -    -   -   -    (WORK_OF_ART)       *)            *)  -
+nw/wsj/16/wsj_1649   0   26            .      .                *        -    -   -   -               *        *             *   -
+nw/wsj/16/wsj_1649   0   27           ''     ''               *))       -    -   -   -               *        *             *   -
+
+nw/wsj/16/wsj_1649   0    0      Philip    NNP  (TOP(S(NP*      -    -   -   -    (PERSON)  (ARG1*        (ARG0*   -
+nw/wsj/16/wsj_1649   0    1         and     CC           *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    2       Linda    NNP           *)     -    -   -   -    (PERSON)       *)            *)  -
+nw/wsj/16/wsj_1649   0    3        move    VBP     (VP(VP*    move  01   -   -          *      (V*)            *   -
+nw/wsj/16/wsj_1649   0    4        into     IN        (PP*      -    -   -   -          *   (ARG2*             *   -
+nw/wsj/16/wsj_1649   0    5         her   PRP$        (NP*      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    6     mansion     NN         *)))     -    -   -   -          *        *)            *   -
+nw/wsj/16/wsj_1649   0    7         and     CC           *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    8          ca     MD        (VP*      -    -   -   -          *        *    (ARGM-MOD*)  -
+nw/wsj/16/wsj_1649   0    9         n't     RB           *      -    -   -   -          *        *    (ARGM-NEG*)  -
+nw/wsj/16/wsj_1649   0   10        keep     VB        (VP*    keep  04   -   -          *        *           (V*)  -
+nw/wsj/16/wsj_1649   0   11       their   PRP$        (NP*      -    -   -   -          *        *        (ARG1*   -
+nw/wsj/16/wsj_1649   0   12       hands    NNS           *)     -    -   -   -          *        *             *)  -
+nw/wsj/16/wsj_1649   0   13         off     IN        (PP*      -    -   -   -          *        *        (ARG2*   -
+nw/wsj/16/wsj_1649   0   14        each     DT        (NP*      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   15       other     JJ        *))))     -    -   -   -          *        *             *)  -
+nw/wsj/16/wsj_1649   0   16           ,      ,           *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   17        even     RB   (PP(ADVP*)     -    -   -   -          *        *    (ARGM-LOC*   -
+nw/wsj/16/wsj_1649   0   18          in     IN           *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   19       front     NN     (NP(NP*)     -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   20          of     IN        (PP*      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   21         the     DT        (NP*      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   22    Hawaiian     JJ      (ADJP*      -    -   -   -      (NORP)       *             *   -
+nw/wsj/16/wsj_1649   0   23           /    SYM           *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   24    Japanese     JJ           *)     -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   25    houseman     NN       *)))))     -    -   -   -          *        *             *)  -
+nw/wsj/16/wsj_1649   0   26           .      .          *))     -    -   -   -          *        *             *   -
+
+nw/wsj/16/wsj_1649   0   0          But    CC  (TOP(S*      -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/16/wsj_1649   0   1          the    DT     (NP*      -    -   -   -   *        (ARG0*   -
+nw/wsj/16/wsj_1649   0   2    lovebirds   NNS        *)     -    -   -   -   *             *)  -
+nw/wsj/16/wsj_1649   0   3         have   VBP     (VP*    have  03   -   -   *           (V*)  -
+nw/wsj/16/wsj_1649   0   4            a    DT     (NP*      -    -   -   -   *        (ARG1*   -
+nw/wsj/16/wsj_1649   0   5     conflict    NN       *))     -    -   -   -   *             *)  -
+nw/wsj/16/wsj_1649   0   6            .     .       *))     -    -   -   -   *             *   -
+
+nw/wsj/16/wsj_1649   0    0          He    PRP       (TOP(S(S(NP*)         -    -   -   -         *    (ARG0*)   (ARG0*)   (ARG1*)        *            *         *   -
+nw/wsj/16/wsj_1649   0    1       wants    VBZ               (VP*        want  01   -   -         *       (V*)        *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0    2          to     TO             (S(VP*          -    -   -   -         *    (ARG1*         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0    3    continue     VB               (VP*    continue  01   -   -         *         *       (V*)        *         *            *         *   -
+nw/wsj/16/wsj_1649   0    4       being    VBG             (S(VP*          be  01   -   -         *         *    (ARG1*       (V*)        *            *         *   -
+nw/wsj/16/wsj_1649   0    5           a     DT               (NP*          -    -   -   -         *         *         *    (ARG2*         *            *         *   -
+nw/wsj/16/wsj_1649   0    6         low     RB             (ADJP*          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0    7          -    HYPH                  *          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0    8        paid    VBN                  *)         -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0    9     private     JJ                  *          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0   10         eye     NN           *))))))))        eye   -   5   -         *         *)        *)        *)        *            *         *   -
+nw/wsj/16/wsj_1649   0   11           ,      ,                  *          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0   12         and     CC                  *          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0   13         she    PRP             (S(NP*)         -    -   -   -         *         *         *         *    (ARG0*)           *         *   -
+nw/wsj/16/wsj_1649   0   14       wants    VBZ               (VP*        want  01   -   -         *         *         *         *       (V*)           *         *   -
+nw/wsj/16/wsj_1649   0   15         him    PRP             (S(NP*)         -    -   -   -         *         *         *         *    (ARG1*       (ARG0*)        *   -
+nw/wsj/16/wsj_1649   0   16          to     TO               (VP*          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0   17        live     VB               (VP*        live  01   -   -         *         *         *         *         *          (V*)        *   -
+nw/wsj/16/wsj_1649   0   18         off     RP               (PP*          -    -   -   -         *         *         *         *         *   (ARGM-MNR*         *   -
+nw/wsj/16/wsj_1649   0   19         the     DT            (NP(NP*          -    -   -   -   (MONEY*         *         *         *         *            *    (ARG1*   -
+nw/wsj/16/wsj_1649   0   20     million     CD                  *          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0   21     dollars    NNS                  *)         -    -   -   -         *)        *         *         *         *            *         *)  -
+nw/wsj/16/wsj_1649   0   22         she    PRP        (SBAR(S(NP*)         -    -   -   -         *         *         *         *         *            *    (ARG0*)  -
+nw/wsj/16/wsj_1649   0   23          's    VBZ               (VP*          -    -   -   -         *         *         *         *         *            *         *   -
+nw/wsj/16/wsj_1649   0   24     settled    VBN               (VP*      settle  03   -   -         *         *         *         *         *            *       (V*)  -
+nw/wsj/16/wsj_1649   0   25          on     IN               (PP*          -    -   -   -         *         *         *         *         *            *    (ARG4*   -
+nw/wsj/16/wsj_1649   0   26         him    PRP   (NP*)))))))))))))         -    -   -   -         *         *         *         *         *)           *)        *)  -
+nw/wsj/16/wsj_1649   0   27           .      .                 *))         -    -   -   -         *         *         *         *         *            *         *   -
+
+nw/wsj/16/wsj_1649   0   0        That    DT   (TOP(S(NP*)   -    -   -   -          *    (ARG1*)  -
+nw/wsj/16/wsj_1649   0   1          's   VBZ         (VP*    be  01   -   -          *       (V*)  -
+nw/wsj/16/wsj_1649   0   2    Chandler   NNP      (NP(NP*    -    -   -   -    (PERSON)   (ARG2*   -
+nw/wsj/16/wsj_1649   0   3          's   POS            *)   -    -   -   -          *         *   -
+nw/wsj/16/wsj_1649   0   4       setup    NN           *))   -    -   -   -          *         *)  -
+nw/wsj/16/wsj_1649   0   5           .     .           *))   -    -   -   -          *         *   -
+
+nw/wsj/16/wsj_1649   0    0           Mr.    NNP    (TOP(S(NP*         -    -   -   -          *    (ARG0*        *            *   -
+nw/wsj/16/wsj_1649   0    1        Parker    NNP             *)        -    -   -   -    (PERSON)        *)       *            *   -
+nw/wsj/16/wsj_1649   0    2         spins    VBZ          (VP*       spin  04   1   -          *       (V*)       *            *   -
+nw/wsj/16/wsj_1649   0    3            it    PRP          (NP*)        -    -   -   -          *    (ARG2*)       *            *   -
+nw/wsj/16/wsj_1649   0    4          into     IN          (PP*         -    -   -   -          *    (ARG1*        *            *   -
+nw/wsj/16/wsj_1649   0    5             a     DT       (NP(NP*         -    -   -   -          *         *   (ARG2*            *   -
+nw/wsj/16/wsj_1649   0    6        pretty     RB        (ADJP*         -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0    7    satisfying     JJ             *)        -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0    8          tale     NN             *)        -    -   -   -          *         *        *)           *   -
+nw/wsj/16/wsj_1649   0    9     involving    VBG          (VP*    involve  01   -   -          *         *      (V*)           *   -
+nw/wsj/16/wsj_1649   0   10        Poodle    NNP   (NP(NP(NML*         -    -   -   -      (GPE*         *   (ARG1*            *   -
+nw/wsj/16/wsj_1649   0   11       Springs    NNP             *)        -    -   -   -          *)        *        *            *   -
+nw/wsj/16/wsj_1649   0   12          high     JJ             *         -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   13          life     NN             *)        -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   14             ,      ,             *         -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   15     Hollywood    NNP          (NP*         -    -   -   -       (GPE)        *        *            *   -
+nw/wsj/16/wsj_1649   0   16           low     JJ             *         -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   17          life     NN             *)        -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   18           and     CC             *         -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   19       various     JJ       (NP(NP*         -    -   -   -          *         *        *       (ARG0*   -
+nw/wsj/16/wsj_1649   0   20          folk     NN             *)        -    -   -   -          *         *        *            *)  -
+nw/wsj/16/wsj_1649   0   21           who     WP   (SBAR(WHNP*)        -    -   -   -          *         *        *     (R-ARG0*)  -
+nw/wsj/16/wsj_1649   0   22          hang    VBP        (S(VP*       hang  01   1   -          *         *        *          (V*)  -
+nw/wsj/16/wsj_1649   0   23         their   PRP$          (NP*         -    -   -   -          *         *        *       (ARG1*   -
+nw/wsj/16/wsj_1649   0   24          hats    NNS             *)        -    -   -   -          *         *        *            *)  -
+nw/wsj/16/wsj_1649   0   25            in     IN          (PP*         -    -   -   -          *         *        *   (ARGM-LOC*   -
+nw/wsj/16/wsj_1649   0   26          both     DT          (NP*         -    -   -   -          *         *        *            *   -
+nw/wsj/16/wsj_1649   0   27        worlds    NNS   *)))))))))))        -    -   -   -          *         *)       *)           *)  -
+nw/wsj/16/wsj_1649   0   28             .      .            *))        -    -   -   -          *         *        *            *   -
+
+nw/wsj/16/wsj_1649   0    0           The     DT     (TOP(S(S(NP*          -    -   -   -          *    (ARG1*         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    1    supporting     JJ                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    2        lineup     NN                *)         -    -   -   -          *         *)        *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    3            is    VBZ             (VP*          be  01   -   -          *       (V*)        *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    4         solid     JJ         (ADJP*)))         -    -   -   -          *    (ARG2*)        *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    5             ,      ,                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    6           the     DT           (S(NP*          -    -   -   -          *         *    (ARG1*        *             *           *             *   -
+nw/wsj/16/wsj_1649   0    7        patter     NN                *)         -    -   -   -          *         *         *)       *             *           *             *   -
+nw/wsj/16/wsj_1649   0    8            is    VBZ             (VP*          be  01   -   -          *         *       (V*)       *             *           *             *   -
+nw/wsj/16/wsj_1649   0    9       amusing     JJ         (ADJP*)))         -    -   -   -          *         *    (ARG2*)       *             *           *             *   -
+nw/wsj/16/wsj_1649   0   10           and     CC                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   11         there     EX           (S(NP*)         -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   12            's    VBZ             (VP*          be  02   -   -          *         *         *      (V*)            *           *             *   -
+nw/wsj/16/wsj_1649   0   13          even     RB          (NP(NP*          -    -   -   -          *         *         *   (ARG1*             *           *             *   -
+nw/wsj/16/wsj_1649   0   14             a     DT                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   15         cameo     NN                *)         -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   16            by     IN             (PP*          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   17        Bernie    NNP          (NP(NP*          -    -   -   -   (PERSON*         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   18          Ohls    NNP                *)         -    -   -   -          *)        *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   19             ,      ,                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   20           the     DT       (NP(NP(NP*          -    -   -   -          *         *         *        *        (ARG0*      (ARG0*             *   -
+nw/wsj/16/wsj_1649   0   21            ``     ``                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   22          good     JJ                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   23           cop     NN                *          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   24            ''     ''                *)         -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   25            of     IN             (PP*          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   26      previous     JJ             (NP*          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   27      Chandler    NNP                *          -    -   -   -    (PERSON)        *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   28         books    NNS              *)))         -    -   -   -          *         *         *        *             *)          *)            *   -
+nw/wsj/16/wsj_1649   0   29           who     WP      (SBAR(WHNP*)         -    -   -   -          *         *         *        *      (R-ARG0*)   (R-ARG0*)            *   -
+nw/wsj/16/wsj_1649   0   30         still     RB         (S(ADVP*)         -    -   -   -          *         *         *        *    (ARGM-TMP*)          *             *   -
+nw/wsj/16/wsj_1649   0   31          does    VBZ             (VP*          -    -   -   -          *         *         *        *             *           *             *   -
+nw/wsj/16/wsj_1649   0   32           n't     RB                *          -    -   -   -          *         *         *        *    (ARGM-NEG*)          *             *   -
+nw/wsj/16/wsj_1649   0   33      hesitate     VB             (VP*    hesitate  01   1   -          *         *         *        *           (V*)          *             *   -
+nw/wsj/16/wsj_1649   0   34            to     TO           (S(VP*          -    -   -   -          *         *         *        *        (ARG1*           *             *   -
+nw/wsj/16/wsj_1649   0   35          have     VB             (VP*        have  04   -   -          *         *         *        *             *         (V*)            *   -
+nw/wsj/16/wsj_1649   0   36       Marlowe    NNP           (S(NP*)         -    -   -   -    (PERSON)        *         *        *             *      (ARG1*             *   -
+nw/wsj/16/wsj_1649   0   37        jailed    VBN         (VP*)))))       jail   -   1   -          *         *         *        *             *)          *)            *   -
+nw/wsj/16/wsj_1649   0   38          when    WRB    (SBAR(WHADVP*)         -    -   -   -          *         *         *        *    (ARGM-TMP*           *    (ARGM-TMP*)  -
+nw/wsj/16/wsj_1649   0   39            it    PRP           (S(NP*)         -    -   -   -          *         *         *        *             *           *        (ARG1*)  -
+nw/wsj/16/wsj_1649   0   40         suits    VBZ             (VP*        suit  01   1   -          *         *         *        *             *           *           (V*)  -
+nw/wsj/16/wsj_1649   0   41           his   PRP$             (NP*          -    -   -   -          *         *         *        *             *           *        (ARG2*   -
+nw/wsj/16/wsj_1649   0   42      purposes    NNS   *))))))))))))))         -    -   -   -          *         *         *        *)            *)          *             *)  -
+nw/wsj/16/wsj_1649   0   43             .      .               *))         -    -   -   -          *         *         *        *             *           *             *   -
+
+nw/wsj/16/wsj_1649   0    0            The     DT     (TOP(S(NP*      -    -   -   -          *   (ARG0*             *   -
+nw/wsj/16/wsj_1649   0    1          style     NN              *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    2     throughout     IN              *)     -    -   -   -          *        *)            *   -
+nw/wsj/16/wsj_1649   0    3          bears    VBZ           (VP*    bear  01   -   -          *      (V*)            *   -
+nw/wsj/16/wsj_1649   0    4              a     DT        (NP(NP*      -    -   -   -          *   (ARG1*             *   -
+nw/wsj/16/wsj_1649   0    5         strong     JJ              *      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    6    resemblance     NN              *)     -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    7             to     IN           (PP*      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0    8       Chandler    NNP     (NP(NP(NP*      -    -   -   -    (PERSON)       *             *   -
+nw/wsj/16/wsj_1649   0    9             's    POS              *)     -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   10          prose     NN              *)     -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   11             at     IN           (PP*      -    -   -   -          *        *             *   -
+nw/wsj/16/wsj_1649   0   12            its   PRP$           (NP*      -    -   -   -          *        *        (ARG1*)  -
+nw/wsj/16/wsj_1649   0   13           most    RBS         (ADJP*      -    -   -   -          *        *    (ARGM-EXT*)  -
+nw/wsj/16/wsj_1649   0   14          pared    VBN              *    pare  03   -   -          *        *           (V*)  -
+nw/wsj/16/wsj_1649   0   15           down     RP   (PRT*))))))))     -    -   -   -          *        *)            *   -
+nw/wsj/16/wsj_1649   0   16              .      .             *))     -    -   -   -          *        *             *   -
+
+nw/wsj/16/wsj_1649   0    0          All    DT     (TOP(S(S(NP*)       -    -   -   -          *    (ARG1*)  (ARGM-ADV*        *             *         *   -
+nw/wsj/16/wsj_1649   0    1         told   VBD            (VP*))     tell  01   -   -          *       (V*)           *)       *             *         *   -
+nw/wsj/16/wsj_1649   0    2            ,     ,                *        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0    3          Mr.   NNP             (NP*        -    -   -   -          *         *       (ARG0*   (ARG0*             *         *   -
+nw/wsj/16/wsj_1649   0    4       Parker   NNP                *)       -    -   -   -    (PERSON)        *            *)       *)            *         *   -
+nw/wsj/16/wsj_1649   0    5         does   VBZ             (VP*        do  02   -   -          *         *          (V*)       *             *         *   -
+nw/wsj/16/wsj_1649   0    6            a    DT       (NP(NP(NP*        -    -   -   -          *         *       (ARG1*        *             *         *   -
+nw/wsj/16/wsj_1649   0    7       better   JJR                *        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0    8          job    NN                *)       -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0    9           of    IN             (PP*        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   10       making   VBG           (S(VP*      make  01   -   -          *         *            *      (V*)            *         *   -
+nw/wsj/16/wsj_1649   0   11            a    DT             (NP*        -    -   -   -          *         *            *   (ARG1*             *         *   -
+nw/wsj/16/wsj_1649   0   12        novel    NN                *)       -    -   -   -          *         *            *        *)            *         *   -
+nw/wsj/16/wsj_1649   0   13          out    IN             (PP*        -    -   -   -          *         *            *   (ARG2*             *         *   -
+nw/wsj/16/wsj_1649   0   14           of    IN             (PP*        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   15         this    DT             (NP*        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   16    abandoned    JJ                *        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   17     fragment    NN          *)))))))       -    -   -   -          *         *            *        *)            *         *   -
+nw/wsj/16/wsj_1649   0   18         than    IN           (SBAR*        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   19       anyone    NN           (S(NP*)       -    -   -   -          *         *            *        *        (ARG0*)   (ARG0*)  -
+nw/wsj/16/wsj_1649   0   20        might    MD             (VP*        -    -   -   -          *         *            *        *    (ARGM-MOD*)        *   -
+nw/wsj/16/wsj_1649   0   21         have    VB             (VP*        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   22          had   VBD             (VP*      have  03   -   -          *         *            *        *           (V*)        *   -
+nw/wsj/16/wsj_1649   0   23            a    DT             (NP*        -    -   -   -          *         *            *        *        (ARG1*         *   -
+nw/wsj/16/wsj_1649   0   24        right    NN                *        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   25           to    TO           (S(VP*        -    -   -   -          *         *            *        *             *         *   -
+nw/wsj/16/wsj_1649   0   26       expect    VB   (VP*)))))))))))   expect  01   -   -          *         *            *)       *             *)      (V*)  -
+nw/wsj/16/wsj_1649   0   27            .     .               *))       -    -   -   -          *         *            *        *             *         *   -
+
+nw/wsj/16/wsj_1649   0   0          But    CC   (TOP(S*    -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/16/wsj_1649   0   1        there    EX      (NP*)   -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0   2          are   VBP      (VP*    be  02   -   -   *           (V*)  -
+nw/wsj/16/wsj_1649   0   3      grounds   NNS   (NP(NP*)   -    -   -   -   *        (ARG1*   -
+nw/wsj/16/wsj_1649   0   4          for    IN      (PP*    -    -   -   -   *             *   -
+nw/wsj/16/wsj_1649   0   5    complaint    NN   (NP*))))   -    -   -   -   *             *)  -
+nw/wsj/16/wsj_1649   0   6            .     .        *))   -    -   -   -   *             *   -
+
+nw/wsj/16/wsj_1649   0    0          At    IN  (TOP(S(S(PP*         -    -   -   -            *   (ARGM-TMP*        *         *         *   -
+nw/wsj/16/wsj_1649   0    1         one    CD          (NP*         -    -   -   -    (CARDINAL)           *        *         *         *   -
+nw/wsj/16/wsj_1649   0    2       point    NN            *))        -    -   -   -            *            *)       *         *         *   -
+nw/wsj/16/wsj_1649   0    3           ,     ,             *         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0    4         the    DT          (NP*         -    -   -   -            *       (ARG1*        *         *         *   -
+nw/wsj/16/wsj_1649   0    5      reader    NN             *)        -    -   -   -            *            *)       *         *         *   -
+nw/wsj/16/wsj_1649   0    6          is   VBZ          (VP*         be  01   -   -            *          (V*)       *         *         *   -
+nw/wsj/16/wsj_1649   0    7         two    CD     (ADVP(NP*         -    -   -   -    (CARDINAL)      (ARG2*        *         *         *   -
+nw/wsj/16/wsj_1649   0    8       steps   NNS             *)        -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0    9       ahead    RB             *         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   10          of    IN          (PP*         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   11     Marlowe   NNP        (NP*)))        -    -   -   -      (PERSON)           *)       *         *         *   -
+nw/wsj/16/wsj_1649   0   12          in    IN          (PP*         -    -   -   -            *   (ARGM-LOC*        *         *         *   -
+nw/wsj/16/wsj_1649   0   13    catching   VBG        (S(VP*      catch  06   -   -            *            *      (V*)        *         *   -
+nw/wsj/16/wsj_1649   0   14          on    RP         (PRT*)        -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   15          to    IN          (PP*         -    -   -   -            *            *   (ARG1*         *         *   -
+nw/wsj/16/wsj_1649   0   16           a    DT          (NP*         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   17      double    JJ             *         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   18    identity    NN             *         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   19        scam    NN       *)))))))        -    -   -   -            *            *)       *)        *         *   -
+nw/wsj/16/wsj_1649   0   20         --      :             *         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   21         and    CC             *         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   22     Marlowe   NNP        (S(NP*)        -    -   -   -      (PERSON)           *        *    (ARG1*)   (ARG1*)  -
+nw/wsj/16/wsj_1649   0   23          is   VBZ          (VP*         -    -   -   -            *            *        *         *         *   -
+nw/wsj/16/wsj_1649   0   24    supposed   VBN          (VP*    suppose  02   -   -            *            *        *       (V*)        *   -
+nw/wsj/16/wsj_1649   0   25          to    TO        (S(VP*         -    -   -   -            *            *        *    (ARG2*         *   -
+nw/wsj/16/wsj_1649   0   26          be    VB          (VP*         be  01   -   -            *            *        *         *       (V*)  -
+nw/wsj/16/wsj_1649   0   27         the    DT          (NP*         -    -   -   -            *            *        *         *    (ARG2*   -
+nw/wsj/16/wsj_1649   0   28         pro    NN       *)))))))        -    -   -   -            *            *        *         *)        *)  -
+nw/wsj/16/wsj_1649   0   29           .     .            *))        -    -   -   -            *            *        *         *         *   -
+
+nw/wsj/16/wsj_1649   0   0            More   RBR  (TOP(S(ADVP*    -    -   -   -   *   (ARGM-ADV*   -
+nw/wsj/16/wsj_1649   0   1      bothersome    JJ             *)   -    -   -   -   *            *)  -
+nw/wsj/16/wsj_1649   0   2               ,     ,             *    -    -   -   -   *            *   -
+nw/wsj/16/wsj_1649   0   3           there    EX          (NP*)   -    -   -   -   *            *   -
+nw/wsj/16/wsj_1649   0   4             are   VBP          (VP*    be  02   -   -   *          (V*)  -
+nw/wsj/16/wsj_1649   0   5         several    JJ          (NP*    -    -   -   -   *       (ARG1*   -
+nw/wsj/16/wsj_1649   0   6        apparent    JJ             *    -    -   -   -   *            *   -
+nw/wsj/16/wsj_1649   0   7    anachronisms   NNS            *))   -    -   -   -   *            *)  -
+nw/wsj/16/wsj_1649   0   8               .     .            *))   -    -   -   -   *            *   -
+
+nw/wsj/16/wsj_1649   0    0        Contact    NN  (TOP(S(NP(NP(NP*      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0    1         lenses   NNS                 *)     -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0    2              ,     ,                 *      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0    3           tank    NN              (NP*      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0    4           tops   NNS                 *)     -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0    5              ,     ,                 *      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0    6    prostitutes   NNS           (NP(NP*)     -    -   -   -        *        (ARG0*)           *   -
+nw/wsj/16/wsj_1649   0    7         openly    RB         (VP(ADVP*)     -    -   -   -        *    (ARGM-MNR*)           *   -
+nw/wsj/16/wsj_1649   0    8        working   VBG                 *    work  01   -   -        *           (V*)           *   -
+nw/wsj/16/wsj_1649   0    9            the    DT           (NP(NP*      -    -   -   -        *        (ARG1*            *   -
+nw/wsj/16/wsj_1649   0   10        streets   NNS                 *)     -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   11             of    IN              (PP*      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   12      Hollywood   NNP          (NP*)))))     -    -   -   -     (GPE)            *)           *   -
+nw/wsj/16/wsj_1649   0   13            and    CC                 *      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   14            the    DT              (NP*      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   15        Tequila   NNP             (NML*      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   16        Sunrise   NNP                 *)     -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   17       cocktail    NN                *))     -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   18            all    DT             (NP*))     -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   19           seem   VBP              (VP*    seem  01   1   -        *             *          (V*)  -
+nw/wsj/16/wsj_1649   0   20            out    IN            (S(PP*      -    -   -   -        *             *       (ARG1*   -
+nw/wsj/16/wsj_1649   0   21             of    IN              (PP*      -    -   -   -        *             *            *   -
+nw/wsj/16/wsj_1649   0   22          place    NN           (NP*))))     -    -   -   -        *             *            *)  -
+nw/wsj/16/wsj_1649   0   23             in    IN              (PP*      -    -   -   -        *             *   (ARGM-TMP*   -
+nw/wsj/16/wsj_1649   0   24            the    DT              (NP*      -    -   -   -   (DATE*             *            *   -
+nw/wsj/16/wsj_1649   0   25          1950s    CD               *)))     -    -   -   -        *)            *            *)  -
+nw/wsj/16/wsj_1649   0   26              .     .                *))     -    -   -   -        *             *            *   -
+
+nw/wsj/16/wsj_1649   0    0              A    DT  (TOP(S(NP(NP(ADJP(NP*      -    -   -   -          *        (ARG0*   -
+nw/wsj/16/wsj_1649   0    1         little    JJ                      *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    2           more   JJR                      *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    3           care    NN                      *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    4             in    IN                   (PP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    5    re-creating    NN                 (S(VP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    6        Marlowe   NNP                (NP(NP*      -    -   -   -    (PERSON)            *   -
+nw/wsj/16/wsj_1649   0    7             's   POS                      *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0    8       universe    NN                  *)))))     -    -   -   -          *             *)  -
+nw/wsj/16/wsj_1649   0    9          would    MD                   (VP*      -    -   -   -          *    (ARGM-MOD*)  -
+nw/wsj/16/wsj_1649   0   10           have    VB                   (VP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   11           made   VBN                   (VP*    make  02   -   -          *           (V*)  -
+nw/wsj/16/wsj_1649   0   12            the    DT                 (S(NP*      -    -   -   -          *        (ARG1*   -
+nw/wsj/16/wsj_1649   0   13           book    NN                      *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   14           that    RB            (ADJP(ADVP*      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   15           much    RB                      *)     -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   16           more   RBR                      *      -    -   -   -          *             *   -
+nw/wsj/16/wsj_1649   0   17      enjoyable    JJ                  *)))))     -    -   -   -          *             *)  -
+nw/wsj/16/wsj_1649   0   18              .     .                     *))     -    -   -   -          *             *   -
+
+nw/wsj/16/wsj_1649   0    0             Mr.   NNP  (TOP(S(NP*            -    -   -   -          *   (ARG1*         *   -
+nw/wsj/16/wsj_1649   0    1           Nolan   NNP           *)           -    -   -   -    (PERSON)       *)        *   -
+nw/wsj/16/wsj_1649   0    2              is   VBZ        (VP*            be  01   -   -          *      (V*)        *   -
+nw/wsj/16/wsj_1649   0    3               a    DT     (NP(NP*            -    -   -   -          *   (ARG2*         *   -
+nw/wsj/16/wsj_1649   0    4    contributing   VBG           *    contribute  01   -   -          *        *       (V*)  -
+nw/wsj/16/wsj_1649   0    5          editor    NN           *)           -    -   -   -          *        *    (ARG0*)  -
+nw/wsj/16/wsj_1649   0    6              at    IN        (PP*            -    -   -   -          *        *         *   -
+nw/wsj/16/wsj_1649   0    7             Los   NNP    (NP(NML*            -    -   -   -      (ORG*        *         *   -
+nw/wsj/16/wsj_1649   0    8         Angeles   NNP           *)           -    -   -   -          *        *         *   -
+nw/wsj/16/wsj_1649   0    9        Magazine   NNP        *))))           -    -   -   -          *)       *)        *   -
+nw/wsj/16/wsj_1649   0   10               .     .          *))           -    -   -   -          *        *         *   -
+
+#end document

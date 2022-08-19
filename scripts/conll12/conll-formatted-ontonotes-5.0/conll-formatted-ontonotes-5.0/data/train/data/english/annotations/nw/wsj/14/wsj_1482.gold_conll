@@ -1,0 +1,549 @@
+#begin document (nw/wsj/14/wsj_1482); part 000
+nw/wsj/14/wsj_1482   0    0            The     DT   (TOP(S(NP*          -    -   -   -         *            *        (ARG1*   -
+nw/wsj/14/wsj_1482   0    1      following    VBG            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0    2           U.S.    NNP        (NML*          -    -   -   -      (GPE)      (ARG0*             *   -
+nw/wsj/14/wsj_1482   0    3       Treasury    NNP            *)         -    -   -   -      (ORG)           *)            *   -
+nw/wsj/14/wsj_1482   0    4              ,      ,            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0    5      corporate     JJ       (ADJP*          -    -   -   -         *   (ARGM-ADJ*             *   -
+nw/wsj/14/wsj_1482   0    6            and     CC            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0    7      municipal     JJ            *)         -    -   -   -         *            *)            *   -
+nw/wsj/14/wsj_1482   0    8      offerings    NNS            *)   offering  01   1   -         *          (V*)            *)  -
+nw/wsj/14/wsj_1482   0    9            are    VBP         (VP*          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   10    tentatively     RB       (ADVP*)         -    -   -   -         *            *    (ARGM-MNR*)  -
+nw/wsj/14/wsj_1482   0   11      scheduled    VBN         (VP*    schedule  01   1   -         *            *           (V*)  -
+nw/wsj/14/wsj_1482   0   12            for     IN         (PP*          -    -   -   -         *            *        (ARG2*   -
+nw/wsj/14/wsj_1482   0   13           sale     NN        (NP*))       sale   -   2   -         *            *             *)  -
+nw/wsj/14/wsj_1482   0   14           this     DT         (NP*          -    -   -   -    (DATE*            *        (ARG3*   -
+nw/wsj/14/wsj_1482   0   15           week     NN            *)         -    -   -   -         *)           *             *)  -
+nw/wsj/14/wsj_1482   0   16              ,      ,            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   17      according    VBG         (PP*          -    -   -   -         *            *    (ARGM-ADV*   -
+nw/wsj/14/wsj_1482   0   18             to     IN         (PP*          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   19            Dow    NNP     (NP(NML*          -    -   -   -     (ORG*            *             *   -
+nw/wsj/14/wsj_1482   0   20          Jones    NNP            *)         -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   21        Capital    NNP        (NML*          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   22        Markets   NNPS            *)         -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   23         Report    NNP          *)))         -    -   -   -         *)           *             *)  -
+nw/wsj/14/wsj_1482   0   24              :      :            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   25              $      $  (NP(NML(QP*          -    -   -   -   (MONEY*            *             *   -
+nw/wsj/14/wsj_1482   0   26          15.6      CD            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   27        billion     CD           *))         -    -   -   -         *)           *             *   -
+nw/wsj/14/wsj_1482   0   28          three     CD    (NML(NML*          -    -   -   -    (DATE*            *             *   -
+nw/wsj/14/wsj_1482   0   29             -    HYPH            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   30          month     NN            *)         -    -   -   -         *)           *             *   -
+nw/wsj/14/wsj_1482   0   31            and     CC            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   32            six     CD        (NML*          -    -   -   -    (DATE*            *             *   -
+nw/wsj/14/wsj_1482   0   33             -    HYPH            *          -    -   -   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   34          month     NN           *))         -    -   -   -         *)           *             *   -
+nw/wsj/14/wsj_1482   0   35          bills    NNS          *)))       bill   -   5   -         *            *             *   -
+nw/wsj/14/wsj_1482   0   36              .      .           *))         -    -   -   -         *            *             *   -
+
+nw/wsj/14/wsj_1482   0   0          $      $  (TOP(NP(NP(QP*      -   -   -   -   (MONEY*   -
+nw/wsj/14/wsj_1482   0   1        10      CD               *      -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   2    billion     CD              *))     -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0   3         of     IN            (PP*      -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   4        two     CD        (NP(NML*      -   -   -   -    (DATE*   -
+nw/wsj/14/wsj_1482   0   5         -    HYPH               *      -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   6       year     NN               *)     -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0   7      notes    NNS              *))   note  -   3   -         *   -
+nw/wsj/14/wsj_1482   0   8          .      .              *))     -   -   -   -         *   -
+
+nw/wsj/14/wsj_1482   0    0    Resolution    NNP  (TOP(NP(NP*      -    -   -   -     (ORG*   (ARG0*   -
+nw/wsj/14/wsj_1482   0    1       Funding    NNP            *      -    -   -   -         *        *   -
+nw/wsj/14/wsj_1482   0    2         Corp.    NNP            *)     -    -   -   -         *)       *)  -
+nw/wsj/14/wsj_1482   0    3            to     TO  (SBAR(S(VP*      -    -   -   -         *        *   -
+nw/wsj/14/wsj_1482   0    4          sell     VB         (VP*    sell  01   1   -         *      (V*)  -
+nw/wsj/14/wsj_1482   0    5             $      $  (NP(NML(QP*      -    -   -   -   (MONEY*   (ARG1*   -
+nw/wsj/14/wsj_1482   0    6          4.5      CD            *      -    -   -   -         *        *   -
+nw/wsj/14/wsj_1482   0    7       billion     CD           *))     -    -   -   -         *)       *   -
+nw/wsj/14/wsj_1482   0    8           30      CD        (NML*      -    -   -   -    (DATE*        *   -
+nw/wsj/14/wsj_1482   0    9            -    HYPH            *      -    -   -   -         *        *   -
+nw/wsj/14/wsj_1482   0   10          year     NN            *)     -    -   -   -         *)       *   -
+nw/wsj/14/wsj_1482   0   11         bonds    NNS        *)))))   bond   -   3   -         *        *)  -
+nw/wsj/14/wsj_1482   0   12             .      .           *))     -    -   -   -         *        *   -
+
+nw/wsj/14/wsj_1482   0    0            Aim   NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1          Prime   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2           Rate   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    3           Plus   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4           Fund   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    5           Inc.   NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    6            --      :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7            10     CD      (NP(QP*       -   -   -   -   (CARDINAL*    -
+nw/wsj/14/wsj_1482   0    8        million    CD            *       -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    9         common    JJ            *)      -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10         shares   NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0   11              ,     ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12            via    IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   13    PaineWebber   NNP         (NP*       -   -   -   -        (ORG*   (3
+nw/wsj/14/wsj_1482   0   14            Inc   NNP           *))      -   -   -   -            *)   3)
+nw/wsj/14/wsj_1482   0   15              .     .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0       Allied   NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1      Capital   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2        Corp.   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    3           II   NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    4          --      :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    5   6,500,000     CD         (NP*       -   -   -   -    (CARDINAL)   -
+nw/wsj/14/wsj_1482   0    6       common    JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7       shares   NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    8            ,     ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    9          via    IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10     Shearson   NNP         (NP*       -   -   -   -        (ORG*   (6
+nw/wsj/14/wsj_1482   0   11       Lehman   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12       Hutton   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   13          Inc   NNP           *))      -   -   -   -            *)   6)
+nw/wsj/14/wsj_1482   0   14            .     .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0     American    NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1     Cyanamid    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2          Co.    NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    3          --       :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4   1,250,000      CD         (NP*       -   -   -   -    (CARDINAL)   -
+nw/wsj/14/wsj_1482   0    5       common     JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    6       shares    NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    7            ,      ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    8          via     IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    9      Merrill    NNP     (NP(NML*       -   -   -   -        (ORG*   (1
+nw/wsj/14/wsj_1482   0   10        Lynch    NNP            *)      -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   11      Capital    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12      Markets   NNPS           *))      -   -   -   -            *)   1)
+nw/wsj/14/wsj_1482   0   13            .      .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0    Associated   NNP  (TOP(NP(NP*       -   -   -   -        (ORG*   -
+nw/wsj/14/wsj_1482   0    1       Natural   NNP            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0    2           Gas   NNP            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0    3         Corp.   NNP            *)      -   -   -   -            *)  -
+nw/wsj/14/wsj_1482   0    4           --      :            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0    5    1,400,000     CD         (NP*       -   -   -   -    (CARDINAL)  -
+nw/wsj/14/wsj_1482   0    6        common    JJ            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0    7        shares   NNS            *)   share  -   2   -            *   -
+nw/wsj/14/wsj_1482   0    8             ,     ,            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0    9           via    IN         (PP*       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0   10        Dillon   NNP         (NP*       -   -   -   -        (ORG*   -
+nw/wsj/14/wsj_1482   0   11          Read   NNP            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0   12             &    CC            *       -   -   -   -            *   -
+nw/wsj/14/wsj_1482   0   13            Co   NNP           *))      -   -   -   -            *)  -
+nw/wsj/14/wsj_1482   0   14             .     .           *))      -   -   -   -            *   -
+
+nw/wsj/14/wsj_1482   0    0           B    NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1           &     CC            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2           H    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    3       Crude    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4    Carriers   NNPS            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    5        Ltd.    NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    6         --       :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7        Four     CD      (NP(QP*       -   -   -   -   (CARDINAL*    -
+nw/wsj/14/wsj_1482   0    8     million     CD            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    9      common     JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10      shares    NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0   11           ,      ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12         via     IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   13     Salomon    NNP         (NP*       -   -   -   -        (ORG*   (4
+nw/wsj/14/wsj_1482   0   14    Brothers   NNPS            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   15         Inc    NNP           *))      -   -   -   -            *)   4)
+nw/wsj/14/wsj_1482   0   16           .      .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0       Baldwin   NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1    Technology   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2           Co.   NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    3           --      :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4    2,600,000     CD         (NP*       -   -   -   -    (CARDINAL)   -
+nw/wsj/14/wsj_1482   0    5         Class    NN        (NML*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    6             A    NN            *)      -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7        shares   NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    8             ,     ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    9           via    IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10         Smith   NNP         (NP*       -   -   -   -        (ORG*   (2
+nw/wsj/14/wsj_1482   0   11        Barney   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12             ,     ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   13        Harris   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   14         Upham   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   15             &    CC            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   16            Co   NNP           *))      -   -   -   -            *)   2)
+nw/wsj/14/wsj_1482   0   17             .     .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0      Blockbuster     NNP      (TOP(NP(NP*        -   -   -   -     (ORG*    -
+nw/wsj/14/wsj_1482   0    1    Entertainment     NNP                *        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    2            Corp.     NNP                *)       -   -   -   -         *)   -
+nw/wsj/14/wsj_1482   0    3              --        :                *        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    4                $       $  (NP(NML(NML(QP*        -   -   -   -   (MONEY*    -
+nw/wsj/14/wsj_1482   0    5             250       CD                *        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    6          million      CD               *))       -   -   -   -         *)   -
+nw/wsj/14/wsj_1482   0    7           -LRB-   -LRB-             (NML*        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    8             face      NN                *      face  -   5   -         *    -
+nw/wsj/14/wsj_1482   0    9           amount      NN                *    amount  -   3   -         *    -
+nw/wsj/14/wsj_1482   0   10           -RRB-   -RRB-                *))       -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   11           Liquid      NN            (NML*        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   12            Yield      NN                *     yield  -   2   -         *    -
+nw/wsj/14/wsj_1482   0   13           Option      NN                *)   option  -   1   -         *    -
+nw/wsj/14/wsj_1482   0   14            Notes     NNS                *)     note  -   3   -         *    -
+nw/wsj/14/wsj_1482   0   15                ,       ,                *        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   16              via      IN             (PP*        -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   17          Merrill     NNP             (NP*        -   -   -   -     (ORG*   (1
+nw/wsj/14/wsj_1482   0   18            Lynch     NNP               *))       -   -   -   -         *)   1)
+nw/wsj/14/wsj_1482   0   19                .       .               *))       -   -   -   -         *    -
+
+nw/wsj/14/wsj_1482   0   0             Chemex    NNP  (TOP(NP(NP*      -   -   -   -        (ORG*     -
+nw/wsj/14/wsj_1482   0   1    Pharmaceuticals   NNPS            *      -   -   -   -            *     -
+nw/wsj/14/wsj_1482   0   2               Inc.    NNP            *)     -   -   -   -            *)    -
+nw/wsj/14/wsj_1482   0   3                --       :            *      -   -   -   -            *     -
+nw/wsj/14/wsj_1482   0   4         1,200,000      CD         (NP*      -   -   -   -    (CARDINAL)    -
+nw/wsj/14/wsj_1482   0   5              units    NNS            *)   unit  -   1   -            *     -
+nw/wsj/14/wsj_1482   0   6                  ,      ,            *      -   -   -   -            *     -
+nw/wsj/14/wsj_1482   0   7                via     IN         (PP*      -   -   -   -            *     -
+nw/wsj/14/wsj_1482   0   8        PaineWebber    NNP        (NP*))     -   -   -   -            *    (3)
+nw/wsj/14/wsj_1482   0   9                  .      .           *))     -   -   -   -            *     -
+
+nw/wsj/14/wsj_1482   0    0      Immune   NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1    Response   NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2       Corp.   NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    3         --      :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4       Three    CD      (NP(QP*       -   -   -   -   (CARDINAL*    -
+nw/wsj/14/wsj_1482   0    5     million    CD            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    6      common    JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7      shares   NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    8           ,     ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    9         via    IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10     Merrill   NNP         (NP*       -   -   -   -        (ORG*   (1
+nw/wsj/14/wsj_1482   0   11       Lynch   NNP           *))      -   -   -   -            *)   1)
+nw/wsj/14/wsj_1482   0   12           .     .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0             Marsam    NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1    Pharmaceuticals   NNPS            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2               Inc.    NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    3                --       :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4         1,300,000      CD         (NP*       -   -   -   -    (CARDINAL)   -
+nw/wsj/14/wsj_1482   0    5             common     JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    6             shares    NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    7                  ,      ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    8                via     IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    9              Smith    NNP         (NP*       -   -   -   -        (ORG*   (2
+nw/wsj/14/wsj_1482   0   10             Barney    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   11                  ,      ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12             Harris    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   13              Upham    NNP           *))      -   -   -   -            *)   2)
+nw/wsj/14/wsj_1482   0   14                  .      .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0         RMI    NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1    Titanium    NNP            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    2         Co.    NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    3         --       :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    4         15      CD      (NP(QP*       -   -   -   -   (CARDINAL*    -
+nw/wsj/14/wsj_1482   0    5     million     CD            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    6      common     JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7      shares    NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    8           ,      ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    9         via     IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10     Salomon    NNP         (NP*       -   -   -   -        (ORG*   (4
+nw/wsj/14/wsj_1482   0   11    Brothers   NNPS            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   12         Inc    NNP           *))      -   -   -   -            *)   4)
+nw/wsj/14/wsj_1482   0   13           .      .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0    Tidewater    NNP  (TOP(NP(NP*       -   -   -   -        (ORG*    -
+nw/wsj/14/wsj_1482   0    1         Inc.    NNP            *)      -   -   -   -            *)   -
+nw/wsj/14/wsj_1482   0    2          --       :            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    3   4,631,400      CD         (NP*       -   -   -   -    (CARDINAL)   -
+nw/wsj/14/wsj_1482   0    4       common     JJ            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    5       shares    NNS            *)   share  -   2   -            *    -
+nw/wsj/14/wsj_1482   0    6            ,      ,            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    7          via     IN         (PP*       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0    8      Salomon    NNP         (NP*       -   -   -   -        (ORG*   (4
+nw/wsj/14/wsj_1482   0    9     Brothers   NNPS            *       -   -   -   -            *    -
+nw/wsj/14/wsj_1482   0   10          Inc    NNP           *))      -   -   -   -            *)   4)
+nw/wsj/14/wsj_1482   0   11            .      .           *))      -   -   -   -            *    -
+
+nw/wsj/14/wsj_1482   0    0    Massachusetts   NNP   (TOP(NP(NP*)     -    -   -   -      (GPE)            *     -
+nw/wsj/14/wsj_1482   0    1              --      :             *      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0    2    Approximately    RB    (NP(NP(QP*      -    -   -   -   (MONEY*             *     -
+nw/wsj/14/wsj_1482   0    3                $     $             *      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0    4             230     CD             *      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0    5          million    CD            *))     -    -   -   -         *)            *     -
+nw/wsj/14/wsj_1482   0    6               of    IN          (PP*      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0    7          general    JJ       (NP(NP*      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0    8            bonds   NNS             *)   bond   -   3   -         *             *     -
+nw/wsj/14/wsj_1482   0    9                ,     ,             *      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   10     consolidated    JJ    (NP(NP(NP*      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   11             loan    NN             *)   loan   -   1   -         *             *     -
+nw/wsj/14/wsj_1482   0   12               of    IN          (PP*      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   13            1989     CD        (NP*)))     -    -   -   -     (DATE)            *    (5)
+nw/wsj/14/wsj_1482   0   14                ,     ,             *      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   15           Series    NN          (NP*      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   16                D   NNP         *)))))     -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   17                ,     ,             *      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   18              via    IN          (PP*      -    -   -   -         *             *     -
+nw/wsj/14/wsj_1482   0   19      competitive    JJ          (NP*      -    -   -   -         *    (ARGM-MNR*)    -
+nw/wsj/14/wsj_1482   0   20              bid    NN            *))    bid  01   1   -         *           (V*)    -
+nw/wsj/14/wsj_1482   0   21                .     .            *))     -    -   -   -         *             *     -
+
+nw/wsj/14/wsj_1482   0    0      Montgomery   NNP  (TOP(NP(NP(NP*             -    -   -   -     (GPE*             *             *     -
+nw/wsj/14/wsj_1482   0    1          County   NNP               *)            -    -   -   -         *)            *             *     -
+nw/wsj/14/wsj_1482   0    2               ,     ,               *             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0    3        Maryland   NNP           (NP*))            -    -   -   -      (GPE)            *             *     -
+nw/wsj/14/wsj_1482   0    4             --      :               *             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0    5               $     $      (NP(NP(QP*             -    -   -   -   (MONEY*             *             *     -
+nw/wsj/14/wsj_1482   0    6             75     CD               *             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0    7         million    CD              *))            -    -   -   -         *)            *             *     -
+nw/wsj/14/wsj_1482   0    8              of    IN            (PP*             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0    9         general    JJ      (NP(NP(NP*             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   10    consolidated    JJ               *             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   11          public    JJ           (NML*             -    -   -   -         *    (ARGM-GOL*)            *     -
+nw/wsj/14/wsj_1482   0   12     improvement    NN               *)   improvement  01   1   -         *           (V*)            *     -
+nw/wsj/14/wsj_1482   0   13           bonds   NNS               *)          bond   -   3   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   14              of    IN            (PP*             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   15           1989     CD          (NP*)))            -    -   -   -     (DATE)            *             *    (5)
+nw/wsj/14/wsj_1482   0   16               ,     ,               *             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   17          Series    NN            (NP*             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   18               B   NNP            *))))            -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   19               ,     ,               *             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   20             via    IN            (PP*             -    -   -   -         *             *             *     -
+nw/wsj/14/wsj_1482   0   21     competitive    JJ            (NP*             -    -   -   -         *             *    (ARGM-MNR*)    -
+nw/wsj/14/wsj_1482   0   22             bid    NN              *))           bid  01   1   -         *             *           (V*)    -
+nw/wsj/14/wsj_1482   0   23               .     .              *))            -    -   -   -         *             *             *     -
+
+nw/wsj/14/wsj_1482   0    0        Trinity   NNP   (TOP(NP(NP(NP(NML*             -    -   -   -     (ORG*        *             *     -
+nw/wsj/14/wsj_1482   0    1          River   NNP                    *)            -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0    2      Authority   NNP                    *)            -    -   -   -         *)       *             *     -
+nw/wsj/14/wsj_1482   0    3              ,     ,                    *             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0    4          Texas   NNP                (NP*))            -    -   -   -      (GPE)       *             *    (0)
+nw/wsj/14/wsj_1482   0    5            --      :                    *             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0    6              $     $              (NP(NP*             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0    7   134,750,000     CD                    *)            -    -   -   -    (MONEY)       *             *     -
+nw/wsj/14/wsj_1482   0    8             of    IN                 (PP*             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0    9       regional    JJ  (NP(NP(NML(NML(NML*             -    -   -   -         *   (ARG1*             *     -
+nw/wsj/14/wsj_1482   0   10     wastewater    NN                    *             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   11         system    NN                    *)        system   -   2   -         *        *)            *     -
+nw/wsj/14/wsj_1482   0   12    improvement    NN                    *)   improvement  01   1   -         *      (V*)            *     -
+nw/wsj/14/wsj_1482   0   13        revenue    NN                    *)       revenue   -   1   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   14          bonds   NNS                    *)          bond   -   3   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   15              ,     ,                    *             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   16         Series    NN                 (NP*         series   -   2   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   17          1989     CD                    *)            -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   18              ,     ,                  *)))            -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   19            via    IN                 (PP*             -    -   -   -         *        *             *     -
+nw/wsj/14/wsj_1482   0   20    competitive    JJ                 (NP*             -    -   -   -         *        *    (ARGM-MNR*)    -
+nw/wsj/14/wsj_1482   0   21            bid    NN                   *))           bid  01   1   -         *        *           (V*)    -
+nw/wsj/14/wsj_1482   0   22              .     .                   *))            -    -   -   -         *        *             *     -
+
+nw/wsj/14/wsj_1482   0    0           City   NNP  (TOP(NP(NP(NP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0    1            and    CC               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0    2         County   NNP               *)     -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0    3             of    IN            (PP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0    4       Honolulu   NNP         (NP(NP*)     -    -   -   -      (GPE)            *   -
+nw/wsj/14/wsj_1482   0    5              ,     ,               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0    6         Hawaii   NNP         (NP*))))     -    -   -   -      (GPE)            *   -
+nw/wsj/14/wsj_1482   0    7            --      :               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0    8              $     $      (NP(NP(QP*      -    -   -   -   (MONEY*             *   -
+nw/wsj/14/wsj_1482   0    9            75     CD               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   10        million    CD              *))     -    -   -   -         *)            *   -
+nw/wsj/14/wsj_1482   0   11             of    IN            (PP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   12     obligation    NN      (NP(NP(NP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   13          bonds   NNS               *)   bond   -   3   -         *             *   -
+nw/wsj/14/wsj_1482   0   14              ,     ,               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   15          1989     CD            (NP*      -    -   -   -     (DATE)            *   -
+nw/wsj/14/wsj_1482   0   16         Series    NN               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   17              B   NNP              *))     -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   18              ,     ,               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   19            due    JJ          (ADJP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   20          1993     CD         (NP(NP*)     -    -   -   -    (DATE*             *   -
+nw/wsj/14/wsj_1482   0   21             -    SYM            (PP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   22          2009     CD      (NP*)))))))     -    -   -   -         *)            *   -
+nw/wsj/14/wsj_1482   0   23              ,     ,               *      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   24            via    IN            (PP*      -    -   -   -         *             *   -
+nw/wsj/14/wsj_1482   0   25    competitive    JJ            (NP*      -    -   -   -         *    (ARGM-MNR*)  -
+nw/wsj/14/wsj_1482   0   26            bid    NN              *))    bid  01   1   -         *           (V*)  -
+nw/wsj/14/wsj_1482   0   27              .     .              *))     -    -   -   -         *             *   -
+
+nw/wsj/14/wsj_1482   0    0          Beverly    NNP         (TOP(NP(NP*               -   -   -   -     (GPE*   -
+nw/wsj/14/wsj_1482   0    1            Hills   NNPS                   *)              -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0    2              --       :                   *               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    3                $      $          (NP(NP(QP*               -   -   -   -   (MONEY*   -
+nw/wsj/14/wsj_1482   0    4             110      CD                   *               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    5          million     CD                  *))              -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0    6               of     IN                (PP*               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    7            civic     JJ  (NP(NP(NP(NML(NML*               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    8           center     NN                   *)          center  -   2   -         *   -
+nw/wsj/14/wsj_1482   0    9          project     NN                   *)         project  -   1   -         *   -
+nw/wsj/14/wsj_1482   0   10     certificates    NNS                   *)              -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   11               of     IN                (PP*               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   12    participation     NN              (NP*)))   participation  -   1   -         *   -
+nw/wsj/14/wsj_1482   0   13                ,      ,                   *               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   14           Series     NN                (NP*           series  -   2   -         *   -
+nw/wsj/14/wsj_1482   0   15            1989      CD                   *)              -   -   -   -     (DATE)  -
+nw/wsj/14/wsj_1482   0   16                ,      ,                 *)))              -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   17              via     IN                (PP*               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   18                a     DT                (NP*               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   19          Goldman    NNP               (NML*               -   -   -   -     (ORG*   -
+nw/wsj/14/wsj_1482   0   20                ,      ,                   *               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   21            Sachs    NNP                   *               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   22                &     CC                   *               -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   23              Co.    NNP                   *)              -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0   24            group     NN                  *))           group  -   1   -         *   -
+nw/wsj/14/wsj_1482   0   25                .      .                  *))              -   -   -   -         *   -
+
+nw/wsj/14/wsj_1482   0    0     Broward   NNP  (TOP(NP(NP(NP(NML*      -   -   -   -     (ORG*    -
+nw/wsj/14/wsj_1482   0    1      County   NNP                   *)     -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    2      School   NNP                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    3    District   NNP                   *)     -   -   -   -         *)   -
+nw/wsj/14/wsj_1482   0    4           ,     ,                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    5     Florida   NNP               (NP*))     -   -   -   -      (GPE)   -
+nw/wsj/14/wsj_1482   0    6         --      :                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    7           $     $          (NP(NP(QP*      -   -   -   -   (MONEY*    -
+nw/wsj/14/wsj_1482   0    8        185     CD                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0    9     million    CD                  *))     -   -   -   -         *)   -
+nw/wsj/14/wsj_1482   0   10          of    IN                (PP*      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   11      school    NN            (NP(NML*      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   12    district    NN                   *)     -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   13     general    JJ                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   14       bonds   NNS                 *)))   bond  -   3   -         *    -
+nw/wsj/14/wsj_1482   0   15           ,     ,                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   16         via    IN                (PP*      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   17           a    DT                (NP*      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   18       First   NNP               (NML*      -   -   -   -     (ORG*   (7
+nw/wsj/14/wsj_1482   0   19      Boston   NNP                   *      -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   20       Corp.   NNP                   *)     -   -   -   -         *)   7)
+nw/wsj/14/wsj_1482   0   21       group    NN                  *))     -   -   -   -         *    -
+nw/wsj/14/wsj_1482   0   22           .     .                  *))     -   -   -   -         *    -
+
+nw/wsj/14/wsj_1482   0    0    Connecticut     NNP      (TOP(NP(NP*         -   -   -   -     (ORG*     -
+nw/wsj/14/wsj_1482   0    1        Housing     NNP            (NML*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    2        Finance     NNP                *)        -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    3      Authority     NNP                *)        -   -   -   -         *)    -
+nw/wsj/14/wsj_1482   0    4            --        :                *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    5              $       $          (NP(NP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    6   132,620,000       CD                *)        -   -   -   -    (MONEY)    -
+nw/wsj/14/wsj_1482   0    7             of      IN             (PP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    8        housing      NN  (NP(NP(NML(NML*    housing  -   1   -         *     -
+nw/wsj/14/wsj_1482   0    9       mortgage      NN                *)        -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   10        revenue      NN                *)   revenue  -   1   -         *     -
+nw/wsj/14/wsj_1482   0   11         -LRB-   -LRB-                 *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   12            AMT     NNP            (UCP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   13            and      CC                *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   14        non-AMT      JJ                *)        -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   15         -RRB-   -RRB-                 *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   16          bonds     NNS             *))))      bond  -   3   -         *     -
+nw/wsj/14/wsj_1482   0   17              ,       ,                *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   18            via      IN             (PP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   19              a      DT             (NP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   20    PaineWebber     NNP                *         -   -   -   -      (ORG)   (3)
+nw/wsj/14/wsj_1482   0   21          group      NN               *))     group  -   1   -         *     -
+nw/wsj/14/wsj_1482   0   22              .       .               *))        -   -   -   -         *     -
+
+nw/wsj/14/wsj_1482   0    0       Maryland     NNP          (TOP(NP(NP*          -   -   -   -     (ORG*   -
+nw/wsj/14/wsj_1482   0    1        Stadium     NNP                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    2      Authority     NNP                    *)         -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0    3            --        :                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    4              $       $              (NP(NP*          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    5   137,550,000       CD                    *)         -   -   -   -    (MONEY)  -
+nw/wsj/14/wsj_1482   0    6             of      IN                 (PP*          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0    7         sports     NNS  (NP(NP(NML(NML(NML*       sport  -   1   -         *   -
+nw/wsj/14/wsj_1482   0    8     facilities     NNS                    *)   facility  -   1   -         *   -
+nw/wsj/14/wsj_1482   0    9          lease      NN                    *)         -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   10        revenue      NN                    *)    revenue  -   1   -         *   -
+nw/wsj/14/wsj_1482   0   11    Alternative     NNP            (NML(NML*          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   12        Minimum     NNP                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   13            Tax     NNP                    *)         -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   14         -LRB-   -LRB-                     *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   15            AMT     NNP                (NML*)         -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   16         -RRB-   -RRB-                     *)         -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   17          bonds     NNS                    *)       bond  -   3   -         *   -
+nw/wsj/14/wsj_1482   0   18              ,       ,                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   19         Series      NN                 (NP*      series  -   2   -         *   -
+nw/wsj/14/wsj_1482   0   20          1989       CD                    *          -   -   -   -     (DATE)  -
+nw/wsj/14/wsj_1482   0   21              D     NNP                 *))))         -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   22              ,       ,                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   23            via      IN                 (PP*          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   24              a      DT                 (NP*          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   25         Morgan     NNP                (NML*          -   -   -   -     (ORG*   -
+nw/wsj/14/wsj_1482   0   26        Stanley     NNP                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   27              &      CC                    *          -   -   -   -         *   -
+nw/wsj/14/wsj_1482   0   28            Co.     NNP                    *)         -   -   -   -         *)  -
+nw/wsj/14/wsj_1482   0   29          group      NN                   *))      group  -   1   -         *   -
+nw/wsj/14/wsj_1482   0   30              .       .                   *))         -   -   -   -         *   -
+
+nw/wsj/14/wsj_1482   0    0         Michigan   NNP    (TOP(NP(NP*)           -    -   -   -      (GPE)       *    -
+nw/wsj/14/wsj_1482   0    1              --      :              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0    2                $     $     (NP(NP(QP*            -    -   -   -   (MONEY*   (ARG2*    -
+nw/wsj/14/wsj_1482   0    3              80     CD              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0    4          million    CD             *))           -    -   -   -         *)       *    -
+nw/wsj/14/wsj_1482   0    5               of    IN           (PP*            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0    6         Michigan   NNP       (NP(NML*            -    -   -   -     (ORG*        *    -
+nw/wsj/14/wsj_1482   0    7            First   NNP              *)           -    -   -   -         *)       *    -
+nw/wsj/14/wsj_1482   0    8          general    JJ              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0    9            bonds   NNS             *))         bond   -   3   -         *        *)   -
+nw/wsj/14/wsj_1482   0   10                ,     ,              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   11        including   VBG           (PP*       include  01   1   -         *      (V*)   -
+nw/wsj/14/wsj_1482   0   12                $     $  (NP(NP(NP(QP*            -    -   -   -   (MONEY*   (ARG1*    -
+nw/wsj/14/wsj_1482   0   13              70     CD              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   14          million    CD             *))           -    -   -   -         *)       *    -
+nw/wsj/14/wsj_1482   0   15               of    IN           (PP*            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   16    environmental    JJ   (NP(NML(NML*            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   17       protection    NN              *)           -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   18          project    NN              *)           -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   19            bonds   NNS            *)))         bond   -   3   -         *        *    -
+nw/wsj/14/wsj_1482   0   20              and    CC              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   21                $     $     (NP(NP(QP*            -    -   -   -   (MONEY*        *    -
+nw/wsj/14/wsj_1482   0   22              10     CD              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   23          million    CD             *))           -    -   -   -         *)       *    -
+nw/wsj/14/wsj_1482   0   24               of    IN           (PP*            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   25       recreation    NN       (NP(NML*    recreation   -   1   -         *        *    -
+nw/wsj/14/wsj_1482   0   26          project    NN              *)      project   -   1   -         *        *    -
+nw/wsj/14/wsj_1482   0   27            bonds   NNS         *))))))         bond   -   3   -         *        *)   -
+nw/wsj/14/wsj_1482   0   28                ,     ,              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   29              via    IN           (PP*            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   30                a    DT           (NP*            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   31         Shearson   NNP          (NML*            -    -   -   -     (ORG*        *   (6
+nw/wsj/14/wsj_1482   0   32           Lehman   NNP              *            -    -   -   -         *        *    -
+nw/wsj/14/wsj_1482   0   33           Hutton   NNP              *)           -    -   -   -         *)       *    6)
+nw/wsj/14/wsj_1482   0   34            group    NN             *))        group   -   1   -         *        *    -
+nw/wsj/14/wsj_1482   0   35                .     .             *))           -    -   -   -         *        *    -
+
+nw/wsj/14/wsj_1482   0    0           West    NNP  (TOP(NP(NP(NML(NML*         -   -   -   -     (ORG*     -
+nw/wsj/14/wsj_1482   0    1       Virginia    NNP                    *)        -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    2       Parkways   NNPS                    *)        -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    3       Economic    NNP                (NML*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    4    Development    NNP                    *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    5            and     CC                    *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    6        Tourism    NNP                    *)        -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    7      Authority    NNP                    *)        -   -   -   -         *)    -
+nw/wsj/14/wsj_1482   0    8            --       :                    *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0    9              $      $           (NP(NP(QP*         -   -   -   -   (MONEY*     -
+nw/wsj/14/wsj_1482   0   10           143      CD                    *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   11        million     CD                   *))        -   -   -   -         *)    -
+nw/wsj/14/wsj_1482   0   12             of     IN                 (PP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   13        parkway     NN          (NP(NP(NML*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   14        revenue     NN                    *)   revenue  -   1   -         *     -
+nw/wsj/14/wsj_1482   0   15          bonds    NNS                    *)      bond  -   3   -         *     -
+nw/wsj/14/wsj_1482   0   16              ,      ,                    *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   17         Series     NN                 (NP*     series  -   2   -         *     -
+nw/wsj/14/wsj_1482   0   18          1989      CD                 *))))        -   -   -   -     (DATE)    -
+nw/wsj/14/wsj_1482   0   19              ,      ,                    *         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   20            via     IN                 (PP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   21              a     DT                 (NP*         -   -   -   -         *     -
+nw/wsj/14/wsj_1482   0   22    PaineWebber    NNP                    *         -   -   -   -      (ORG)   (3)
+nw/wsj/14/wsj_1482   0   23          group     NN                   *))     group  -   1   -         *     -
+nw/wsj/14/wsj_1482   0   24              .      .                   *))        -   -   -   -         *     -
+
+nw/wsj/14/wsj_1482   0    0          San   NNP    (TOP(NP(NP(NP*         -    -   -   -     (GPE*         *     -
+nw/wsj/14/wsj_1482   0    1      Antonio   NNP                 *)        -    -   -   -         *)        *     -
+nw/wsj/14/wsj_1482   0    2            ,     ,                 *         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0    3        Texas   NNP             (NP*))        -    -   -   -      (GPE)        *    (0)
+nw/wsj/14/wsj_1482   0    4          --      :                 *         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0    5            $     $        (NP(NP(QP*         -    -   -   -   (MONEY*         *     -
+nw/wsj/14/wsj_1482   0    6         640     CD                 *         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0    7      million    CD                *))        -    -   -   -         *)        *     -
+nw/wsj/14/wsj_1482   0    8           of    IN              (PP*         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0    9          gas    NN  (NP(NML(NML(UCP*        gas   -   4   -         *    (ARG3*     -
+nw/wsj/14/wsj_1482   0   10          and    CC                 *         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0   11     electric    JJ                 *)        -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0   12      revenue    NN                 *)   revenue   -   1   -         *         *)    -
+nw/wsj/14/wsj_1482   0   13    refunding    NN                 *)    refund  01   -   -         *       (V*)    -
+nw/wsj/14/wsj_1482   0   14        bonds   NNS               *)))      bond   -   3   -         *    (ARG0*)    -
+nw/wsj/14/wsj_1482   0   15            ,     ,                 *         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0   16          via    IN              (PP*         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0   17            a    DT              (NP*         -    -   -   -         *         *     -
+nw/wsj/14/wsj_1482   0   18        First   NNP             (NML*         -    -   -   -     (ORG*         *    (7
+nw/wsj/14/wsj_1482   0   19       Boston   NNP                 *)        -    -   -   -         *)        *     7)
+nw/wsj/14/wsj_1482   0   20        group    NN                *))     group   -   1   -         *         *     -
+nw/wsj/14/wsj_1482   0   21            .     .                *))        -    -   -   -         *         *     -
+
+#end document

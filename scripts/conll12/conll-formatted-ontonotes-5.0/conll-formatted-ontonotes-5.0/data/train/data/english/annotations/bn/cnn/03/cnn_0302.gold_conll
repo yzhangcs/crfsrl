@@ -1,0 +1,196 @@
+#begin document (bn/cnn/03/cnn_0302); part 000
+bn/cnn/03/cnn_0302   0    0       American   NNP  (TOP(S(NP*            -    -   -   -   (ORG*        (ARG0*   (1
+bn/cnn/03/cnn_0302   0    1       Airlines   NNP           *)           -    -   -   -       *)            *)   1)
+bn/cnn/03/cnn_0302   0    2            may    MD        (VP*            -    -   -   -       *    (ARGM-MOD*)   -
+bn/cnn/03/cnn_0302   0    3           soon    RB      (ADVP*)           -    -   -   -       *    (ARGM-TMP*)   -
+bn/cnn/03/cnn_0302   0    4           have    VB        (VP*          have  03   2   -       *           (V*)   -
+bn/cnn/03/cnn_0302   0    5              a    DT     (NP(NP*            -    -   -   -       *        (ARG1*    -
+bn/cnn/03/cnn_0302   0    6            new    JJ           *            -    -   -   -       *             *    -
+bn/cnn/03/cnn_0302   0    7    destination    NN          *))           -    -   -   -       *             *)   -
+bn/cnn/03/cnn_0302   0    8             as    RB      (ADVP*            -    -   -   -       *    (ARGM-DIS*    -
+bn/cnn/03/cnn_0302   0    9           well    RB           *)           -    -   -   -       *             *)   -
+bn/cnn/03/cnn_0302   0   10              ,     ,           *            -    -   -   -       *             *    -
+bn/cnn/03/cnn_0302   0   11     bankruptcy    NN        (NP*    bankruptcy   -   3   -       *      (C-ARG1*    -
+bn/cnn/03/cnn_0302   0   12          court    NN         *)))           -    -   -   -       *             *)   -
+bn/cnn/03/cnn_0302   0   13              .     .          *))           -    -   -   -       *             *    -
+
+bn/cnn/03/cnn_0302   0    0             The    DT  (TOP(S(NP(NP*              -    -   -   -         *      *       (ARG0*             *         *   (1
+bn/cnn/03/cnn_0302   0    1         airline   NNS              *         airline   -   1   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0    2              's   POS              *)             -    -   -   -         *      *            *             *         *    1)
+bn/cnn/03/cnn_0302   0    3          flight    NN          (NML*          flight   -   2   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0    4      attendants   NNS              *)             -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0    5           union    NN              *)          union   -   1   -         *      *            *)            *         *    -
+bn/cnn/03/cnn_0302   0    6              is   VBZ           (VP*              be  03   -   -         *    (V*)           *             *         *    -
+bn/cnn/03/cnn_0302   0    7         calling   VBG           (VP*            call  03   3   -         *      *          (V*)            *         *    -
+bn/cnn/03/cnn_0302   0    8             for    IN           (PP*              -    -   -   -         *      *       (ARG1*             *         *    -
+bn/cnn/03/cnn_0302   0    9               a    DT        (NP(NP*              -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   10             new    JJ              *              -    -   -   -         *      *            *    (ARGM-ADJ*)        *    -
+bn/cnn/03/cnn_0302   0   11            vote    NN              *)           vote  01   1   -         *      *            *           (V*)        *    -
+bn/cnn/03/cnn_0302   0   12              on    IN           (PP*              -    -   -   -         *      *            *        (ARG1*         *    -
+bn/cnn/03/cnn_0302   0   13               $     $     (NP(NP(QP*              -    -   -   -   (MONEY*      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   14            340     CD              *              -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   15         million    CD             *))             -    -   -   -         *)     *            *             *         *    -
+bn/cnn/03/cnn_0302   0   16              in    IN           (PP*              -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   17            wage    NN           (NP*              -    -   -   -         *      *            *             *         *   (3
+bn/cnn/03/cnn_0302   0   18     concessions   NNS         *))))))             -    -   -   -         *      *            *)            *)        *    3)
+bn/cnn/03/cnn_0302   0   19           after    IN           (PP*              -    -   -   -         *      *   (ARGM-TMP*             *         *    -
+bn/cnn/03/cnn_0302   0   20             the    DT        (NP(NP*              -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   21      disclosure    NN              *)             -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   22            last    JJ           (NP*              -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   23            year    NN              *)             -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   24              of    IN           (PP*              -    -   -   -         *      *            *             *         *    -
+bn/cnn/03/cnn_0302   0   25              an    DT           (NP*              -    -   -   -         *      *            *             *         *   (0
+bn/cnn/03/cnn_0302   0   26       executive    NN          (NML*              -    -   -   -         *      *            *             *    (ARG2*)   -
+bn/cnn/03/cnn_0302   0   27    compensation    NN              *)   compensation  01   1   -         *      *            *             *       (V*)   -
+bn/cnn/03/cnn_0302   0   28            plan    NN         *))))))             -    -   -   -         *      *            *)            *         *    0)
+bn/cnn/03/cnn_0302   0   29               .     .             *))             -    -   -   -         *      *            *             *         *    -
+
+bn/cnn/03/cnn_0302   0    0            The    DT  (TOP(S(NP(NP*            -    -   -   -   *       (ARG0*   (ARG0*   (1
+bn/cnn/03/cnn_0302   0    1          world    NN              *         world   -   1   -   *            *        *    -
+bn/cnn/03/cnn_0302   0    2             's   POS              *)           -    -   -   -   *            *        *    -
+bn/cnn/03/cnn_0302   0    3        largest   JJS              *            -    -   -   -   *            *        *    -
+bn/cnn/03/cnn_0302   0    4        airline    NN              *)      airline   -   1   -   *            *)       *)   1)
+bn/cnn/03/cnn_0302   0    5          needs   VBZ           (VP*          need  01   1   -   *          (V*)       *    -
+bn/cnn/03/cnn_0302   0    6            the    DT           (NP*            -    -   -   -   *       (ARG1*        *   (3
+bn/cnn/03/cnn_0302   0    7    concessions   NNS              *)           -    -   -   -   *            *)       *    3)
+bn/cnn/03/cnn_0302   0    8             to    TO         (S(VP*            -    -   -   -   *   (ARGM-PRP*        *    -
+bn/cnn/03/cnn_0302   0    9          avoid    VB           (VP*         avoid  01   1   -   *            *      (V*)   -
+bn/cnn/03/cnn_0302   0   10              a    DT           (NP*            -    -   -   -   *            *   (ARG1*    -
+bn/cnn/03/cnn_0302   0   11     bankruptcy    NN              *    bankruptcy   -   3   -   *            *        *    -
+bn/cnn/03/cnn_0302   0   12         filing    NN          *)))))           -    -   -   -   *            *)       *)   -
+bn/cnn/03/cnn_0302   0   13              .     .             *))           -    -   -   -   *            *        *    -
+
+bn/cnn/03/cnn_0302   0    0           AMR   NNP   (TOP(S(S(NP(NP*)          -    -   -   -       (ORG)  (ARG0*        *    -
+bn/cnn/03/cnn_0302   0    1             ,     ,                 *           -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0    2           the    DT           (NP(NP*           -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0    3        parent    NN                 *)          -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0    4            of    IN              (PP*           -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0    5      American   NNP              (NP*           -    -   -   -      (ORG*        *        *   (1
+bn/cnn/03/cnn_0302   0    6      Airlines   NNP              *))))          -    -   -   -          *)       *)       *    1)
+bn/cnn/03/cnn_0302   0    7             ,     ,                 *           -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0    8     cancelled   VBD              (VP*       cancel  01   2   -          *      (V*)       *    -
+bn/cnn/03/cnn_0302   0    9           the    DT              (NP*           -    -   -   -          *   (ARG1*        *   (0
+bn/cnn/03/cnn_0302   0   10         bonus    NN                 *           -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0   11       program    NN               *)))          -    -   -   -          *        *)       *    0)
+bn/cnn/03/cnn_0302   0   12           and    CC                 *           -    -   -   -          *        *        *    -
+bn/cnn/03/cnn_0302   0   13           CEO   NNP            (S(NP*           -    -   -   -          *        *   (ARG0*    -
+bn/cnn/03/cnn_0302   0   14        Donald   NNP                 *           -    -   -   -   (PERSON*        *        *    -
+bn/cnn/03/cnn_0302   0   15         Carty   NNP                 *)          -    -   -   -          *)       *        *)   -
+bn/cnn/03/cnn_0302   0   16    apologized   VBD              (VP*    apologize  01   1   -          *        *      (V*)   -
+bn/cnn/03/cnn_0302   0   17            to    IN              (PP*           -    -   -   -          *        *   (ARG2*    -
+bn/cnn/03/cnn_0302   0   18     employees   NNS           (NP*))))          -    -   -   -          *        *        *)   -
+bn/cnn/03/cnn_0302   0   19             .     .                *))          -    -   -   -          *        *        *    -
+
+bn/cnn/03/cnn_0302   0   0         The    DT  (TOP(FRAG(NP*        -    -   -   -           *       (ARG1*    -
+bn/cnn/03/cnn_0302   0   1       share    NN              *)    share   -   2   -           *            *)   -
+bn/cnn/03/cnn_0302   0   2    plunging   VBG           (VP*    plunge  01   2   -           *          (V*)   -
+bn/cnn/03/cnn_0302   0   3         40     CD           (NP*        -    -   -   -   (PERCENT*       (ARG2*    -
+bn/cnn/03/cnn_0302   0   4           %    NN              *)       -    -   -   -           *)           *)   -
+bn/cnn/03/cnn_0302   0   5        here    RB         (ADVP*        -    -   -   -           *   (ARGM-LOC*    -
+bn/cnn/03/cnn_0302   0   6          at    IN           (PP*        -    -   -   -           *            *    -
+bn/cnn/03/cnn_0302   0   7         the    DT           (NP*        -    -   -   -           *            *   (2
+bn/cnn/03/cnn_0302   0   8        NYSE   NNP           *))))       -    -   -   -        (ORG)           *)   2)
+bn/cnn/03/cnn_0302   0   9           .     .             *))       -    -   -   -           *            *    -
+
+bn/cnn/03/cnn_0302   0   0        The   DT  (TOP(FRAG(NP*         -    -   -   -   *            *   -
+bn/cnn/03/cnn_0302   0   1    overall   JJ              *         -    -   -   -   *            *   -
+bn/cnn/03/cnn_0302   0   2     market   NN              *)    market   -   4   -   *            *   -
+bn/cnn/03/cnn_0302   0   3          a   DT           (NP*         -    -   -   -   *            *   -
+bn/cnn/03/cnn_0302   0   4     fairly   RB         (ADJP*         -    -   -   -   *   (ARGM-MNR*   -
+bn/cnn/03/cnn_0302   0   5      quiet   JJ              *)        -    -   -   -   *            *)  -
+bn/cnn/03/cnn_0302   0   6    session   NN              *)   session  01   2   -   *          (V*)  -
+bn/cnn/03/cnn_0302   0   7          .    .             *))        -    -   -   -   *            *   -
+
+bn/cnn/03/cnn_0302   0    0      Volume    NN   (TOP(S(NP*)   volume   -   2   -        *       (ARG1*)       *   -
+bn/cnn/03/cnn_0302   0    1          is   VBZ         (VP*        be  01   1   -        *          (V*)       *   -
+bn/cnn/03/cnn_0302   0    2        thin    JJ       (ADJP*)       -    -   -   -        *       (ARG2*)       *   -
+bn/cnn/03/cnn_0302   0    3          as    IN       (SBAR*        -    -   -   -        *   (ARGM-TMP*        *   -
+bn/cnn/03/cnn_0302   0    4        some    DT       (S(NP*        -    -   -   -        *            *   (ARG0*   -
+bn/cnn/03/cnn_0302   0    5     traders   NNS            *)       -    -   -   -        *            *        *)  -
+bn/cnn/03/cnn_0302   0    6        take   VBP         (VP*      take  01   5   -        *            *      (V*)  -
+bn/cnn/03/cnn_0302   0    7          an    DT         (NP*        -    -   -   -   (DATE*            *   (ARG1*   -
+bn/cnn/03/cnn_0302   0    8    extended    JJ            *        -    -   -   -        *            *        *   -
+bn/cnn/03/cnn_0302   0    9     holiday    NN            *        -    -   -   -        *            *        *   -
+bn/cnn/03/cnn_0302   0   10     weekend    NN        *)))))       -    -   -   -        *)           *)       *)  -
+bn/cnn/03/cnn_0302   0   11           .     .           *))       -    -   -   -        *            *        *   -
+
+bn/cnn/03/cnn_0302   0    0        Over    IN  (TOP(S(PP*          -    -   -   -        *    (ARGM-TMP*         *   -
+bn/cnn/03/cnn_0302   0    1         the    DT     (NP(NP*          -    -   -   -   (DATE*             *         *   -
+bn/cnn/03/cnn_0302   0    2        next    JJ           *          -    -   -   -        *             *         *   -
+bn/cnn/03/cnn_0302   0    3      couple    NN           *)     couple   -   1   -        *             *         *   -
+bn/cnn/03/cnn_0302   0    4          of    IN        (PP*          -    -   -   -        *             *         *   -
+bn/cnn/03/cnn_0302   0    5        days   NNS     (NP*))))        day   -   4   -        *)            *)        *   -
+bn/cnn/03/cnn_0302   0    6          we   PRP        (NP*)         -    -   -   -        *        (ARG0*)   (ARG0*)  -
+bn/cnn/03/cnn_0302   0    7         'll    MD        (VP*          -    -   -   -        *    (ARGM-MOD*)        *   -
+bn/cnn/03/cnn_0302   0    8    continue    VB        (VP*    continue  01   1   -        *           (V*)        *   -
+bn/cnn/03/cnn_0302   0    9          to    TO      (S(VP*          -    -   -   -        *        (ARG1*         *   -
+bn/cnn/03/cnn_0302   0   10         get    VB        (VP*         get  01   1   -        *             *       (V*)  -
+bn/cnn/03/cnn_0302   0   11    earnings   NNS        (NP*    earnings   -   1   -        *             *    (ARG1*   -
+bn/cnn/03/cnn_0302   0   12     reports   NNS      *))))))     report   -   1   -        *             *)        *)  -
+bn/cnn/03/cnn_0302   0   13           .     .          *))         -    -   -   -        *             *         *   -
+
+bn/cnn/03/cnn_0302   0    0        Today    NN   (TOP(FRAG(NP*)    today   -   2   -    (DATE)       *   -
+bn/cnn/03/cnn_0302   0    1         only    RB   (NP(NP(NP(QP*        -    -   -   -        *   (ARG0*   -
+bn/cnn/03/cnn_0302   0    2            a    DT               *        -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0    3          few    JJ               *)       -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0    4    corporate    JJ               *        -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0    5      reports   NNS               *)   report   -   1   -        *        *   -
+bn/cnn/03/cnn_0302   0    6          and    CC               *        -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0    7       little    JJ            (NP*        -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0    8     economic    JJ               *        -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0    9         news    NN              *))     news   -   1   -        *        *)  -
+bn/cnn/03/cnn_0302   0   10           to    TO     (SBAR(S(VP*        -    -   -   -        *        *   -
+bn/cnn/03/cnn_0302   0   11         move    VB            (VP*      move  01   1   -        *      (V*)  -
+bn/cnn/03/cnn_0302   0   12          the    DT            (NP*        -    -   -   -        *   (ARG1*   -
+bn/cnn/03/cnn_0302   0   13       market    NN          *))))))   market   -   4   -        *        *)  -
+bn/cnn/03/cnn_0302   0   14            .     .              *))       -    -   -   -        *        *   -
+
+bn/cnn/03/cnn_0302   0    0        It   PRP      (TOP(S(NP*)      -    -   -   -   *      *             *         *   -
+bn/cnn/03/cnn_0302   0    1        's   VBZ            (VP*       be   -   1   -   *      *             *         *   -
+bn/cnn/03/cnn_0302   0    2       why   WRB   (SBAR(WHADVP*)      -    -   -   -   *      *    (ARGM-CAU*)        *   -
+bn/cnn/03/cnn_0302   0    3       the    DT          (S(NP*       -    -   -   -   *      *        (ARG1*         *   -
+bn/cnn/03/cnn_0302   0    4       Dow   NNP               *)      -    -   -   -   *      *             *)        *   -
+bn/cnn/03/cnn_0302   0    5       has   VBZ            (VP*     have  01   -   -   *    (V*)            *         *   -
+bn/cnn/03/cnn_0302   0    6      been   VBN            (VP*       be  01   1   -   *      *           (V*)        *   -
+bn/cnn/03/cnn_0302   0    7    fairly    RB          (ADJP*       -    -   -   -   *      *        (ARG2*         *   -
+bn/cnn/03/cnn_0302   0    8     range    NN               *    range   -   1   -   *      *             *    (ARG2*)  -
+bn/cnn/03/cnn_0302   0    9     bound   VBN          *))))))    bind  01   -   -   *      *             *)      (V*)  -
+bn/cnn/03/cnn_0302   0   10         .     .              *))      -    -   -   -   *      *             *         *   -
+
+bn/cnn/03/cnn_0302   0   0        The    DT  (TOP(FRAG(NP*       -   -   -   -   *   -
+bn/cnn/03/cnn_0302   0   1     Nasdaq   NNP              *)      -   -   -   -   *   -
+bn/cnn/03/cnn_0302   0   2         at    IN           (PP*       -   -   -   -   *   -
+bn/cnn/03/cnn_0302   0   3       this    DT           (NP*       -   -   -   -   *   -
+bn/cnn/03/cnn_0302   0   4      point    NN             *))   point  -   5   -   *   -
+bn/cnn/03/cnn_0302   0   5     little    JJ      (ADJP(NP*)      -   -   -   -   *   -
+bn/cnn/03/cnn_0302   0   6    changed    JJ              *)      -   -   -   -   *   -
+bn/cnn/03/cnn_0302   0   7          .     .             *))      -   -   -   -   *   -
+
+bn/cnn/03/cnn_0302   0    0        That    DT   (TOP(S(NP*)   -    -   -   -       *    (ARG1*)   -
+bn/cnn/03/cnn_0302   0    1          is   VBZ         (VP*    be  01   1   -       *       (V*)   -
+bn/cnn/03/cnn_0302   0    2         the    DT      (NP(NP*    -    -   -   -       *    (ARG2*    -
+bn/cnn/03/cnn_0302   0    3      latest   JJS            *)   -    -   -   -       *         *    -
+bn/cnn/03/cnn_0302   0    4        from    IN         (PP*    -    -   -   -       *         *    -
+bn/cnn/03/cnn_0302   0    5         the    DT         (NP*    -    -   -   -   (ORG*         *   (2
+bn/cnn/03/cnn_0302   0    6         New   NNP        (NML*    -    -   -   -       *         *    -
+bn/cnn/03/cnn_0302   0    7        York   NNP            *)   -    -   -   -       *         *    -
+bn/cnn/03/cnn_0302   0    8       Stock   NNP            *    -    -   -   -       *         *    -
+bn/cnn/03/cnn_0302   0    9    Exchange   NNP         *))))   -    -   -   -       *)        *)   2)
+bn/cnn/03/cnn_0302   0   10           .     .           *))   -    -   -   -       *         *    -
+
+bn/cnn/03/cnn_0302   0    0     There    EX        (TOP(S(NP*)      -    -   -   -               *        *            *      *   -
+bn/cnn/03/cnn_0302   0    1        is   VBZ              (VP*       be  02   3   -               *      (V*)           *      *   -
+bn/cnn/03/cnn_0302   0    2      lots   NNS   (NP(NP(ADJP(NP*)     lot   -   1   -               *   (ARG1*       (ARG1*      *   -
+bn/cnn/03/cnn_0302   0    3      more   JJR                 *)      -    -   -   -               *        *            *      *   -
+bn/cnn/03/cnn_0302   0    4        ``    ``            (ADJP*       -    -   -   -   (WORK_OF_ART*        *            *      *   -
+bn/cnn/03/cnn_0302   0    5      Live    JJ                 *       -    -   -   -               *        *            *      *   -
+bn/cnn/03/cnn_0302   0    6      From    IN              (PP*)      -    -   -   -               *        *            *      *   -
+bn/cnn/03/cnn_0302   0    7        ''    ''                *))      -    -   -   -               *)       *            *)     *   -
+bn/cnn/03/cnn_0302   0    8    coming   VBG              (VP*     come  11   2   -               *        *          (V*)     *   -
+bn/cnn/03/cnn_0302   0    9        up    RP             (PRT*)      -    -   -   -               *        *            *      *   -
+bn/cnn/03/cnn_0302   0   10     after    IN              (PP*       -    -   -   -               *        *   (ARGM-TMP*      *   -
+bn/cnn/03/cnn_0302   0   11       the    DT              (NP*       -    -   -   -               *        *            *      *   -
+bn/cnn/03/cnn_0302   0   12     break    NN             *)))))   break  02   1   -               *        *)           *)   (V*)  -
+bn/cnn/03/cnn_0302   0   13         .     .                *))      -    -   -   -               *        *            *      *   -
+
+#end document

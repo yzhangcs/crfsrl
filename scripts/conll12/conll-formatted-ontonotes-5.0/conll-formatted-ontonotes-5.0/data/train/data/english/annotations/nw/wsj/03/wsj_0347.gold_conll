@@ -1,0 +1,864 @@
+#begin document (nw/wsj/03/wsj_0347); part 000
+nw/wsj/03/wsj_0347   0    0         BUSH   NNP  (TOP(S(NP*       -    -   -   -    (PERSON)       (ARG0*             *   (19
+nw/wsj/03/wsj_0347   0    1          AND    CC           *       -    -   -   -          *             *             *     -
+nw/wsj/03/wsj_0347   0    2    GORBACHEV   NNP           *)      -    -   -   -    (PERSON)            *)            *    19)
+nw/wsj/03/wsj_0347   0    3         WILL    MD        (VP*       -    -   -   -          *    (ARGM-MOD*)            *     -
+nw/wsj/03/wsj_0347   0    4         HOLD    VB        (VP*     hold  04   8   -          *           (V*)            *     -
+nw/wsj/03/wsj_0347   0    5          two    CD     (NP(NP*       -    -   -   -     (DATE*        (ARG1*             *     -
+nw/wsj/03/wsj_0347   0    6         days   NNS           *)     day   -   3   -          *)            *             *     -
+nw/wsj/03/wsj_0347   0    7           of    IN        (PP*       -    -   -   -          *             *             *     -
+nw/wsj/03/wsj_0347   0    8     informal    JJ        (NP*       -    -   -   -          *             *    (ARGM-MNR*)    -
+nw/wsj/03/wsj_0347   0    9        talks   NNS         *)))    talk  01   3   -          *             *)          (V*)    -
+nw/wsj/03/wsj_0347   0   10         next    JJ        (NP*       -    -   -   -     (DATE*    (ARGM-TMP*             *     -
+nw/wsj/03/wsj_0347   0   11        month    NN         *)))   month   -   2   -          *)            *)            *     -
+nw/wsj/03/wsj_0347   0   12            .     .          *))      -    -   -   -          *             *             *     -
+
+nw/wsj/03/wsj_0347   0    0              The    DT   (TOP(S(NP*           -    -   -   -        *   (ARG0*             *            *        (11
+nw/wsj/03/wsj_0347   0    1        president    NN            *)   president   -   3   -        *        *)            *            *         11)
+nw/wsj/03/wsj_0347   0    2             said   VBD         (VP*          say  01   1   -        *      (V*)            *            *          -
+nw/wsj/03/wsj_0347   0    3             that    IN       (SBAR*           -    -   -   -        *   (ARG1*             *            *          -
+nw/wsj/03/wsj_0347   0    4               he   PRP    (S(NP(NP*)          -    -   -   -        *        *        (ARG0*       (ARG0*    (19|(11)
+nw/wsj/03/wsj_0347   0    5              and    CC            *           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0    6              the    DT         (NP*           -    -   -   -        *        *             *            *         (4
+nw/wsj/03/wsj_0347   0    7          Kremlin   NNP            *           -    -   -   -     (ORG)       *             *            *          -
+nw/wsj/03/wsj_0347   0    8           leader    NN           *))          -    -   -   -        *        *             *)           *)     19)|4)
+nw/wsj/03/wsj_0347   0    9            would    MD         (VP*           -    -   -   -        *        *    (ARGM-MOD*)           *          -
+nw/wsj/03/wsj_0347   0   10             meet    VB         (VP*         meet  03   2   -        *        *           (V*)           *        (12)
+nw/wsj/03/wsj_0347   0   11             Dec.   NNP      (NP(NP*           -    -   -   -   (DATE*        *    (ARGM-TMP*            *          -
+nw/wsj/03/wsj_0347   0   12               2     CD            *)          -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   13               -    SYM         (PP*           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   14               3     CD       (NP*)))          -    -   -   -        *)       *             *)           *          -
+nw/wsj/03/wsj_0347   0   15           aboard    IN         (PP*           -    -   -   -        *        *    (ARGM-LOC*            *          -
+nw/wsj/03/wsj_0347   0   16             U.S.   NNP  (NP(NP(UCP*           -    -   -   -     (GPE)       *             *            *          -
+nw/wsj/03/wsj_0347   0   17              and    CC            *           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   18           Soviet   NNP            *)          -    -   -   -    (NORP)       *             *            *          -
+nw/wsj/03/wsj_0347   0   19            naval    JJ            *           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   20          vessels   NNS            *)          -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   21               in    IN         (PP*           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   22              the    DT         (NP*           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   23    Mediterranean   NNP         *))))          -    -   -   -     (LOC)       *             *)           *          -
+nw/wsj/03/wsj_0347   0   24               to    TO       (S(VP*           -    -   -   -        *        *    (ARGM-PNC*            *          -
+nw/wsj/03/wsj_0347   0   25          discuss    VB         (VP*      discuss  01   1   -        *        *             *          (V*)         -
+nw/wsj/03/wsj_0347   0   26                a    DT      (NP(NP*           -    -   -   -        *        *             *       (ARG1*          -
+nw/wsj/03/wsj_0347   0   27             wide    JJ            *           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   28            range    NN            *)       range   -   6   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   29               of    IN         (PP*           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   30           issues   NNS       (NP*)))       issue   -   1   -        *        *             *            *)         -
+nw/wsj/03/wsj_0347   0   31          without    IN         (PP*           -    -   -   -        *        *             *   (ARGM-MNR*          -
+nw/wsj/03/wsj_0347   0   32                a    DT         (NP*           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   33           formal    JJ            *           -    -   -   -        *        *             *            *          -
+nw/wsj/03/wsj_0347   0   34           agenda    NN   *))))))))))          -    -   -   -        *        *)            *)           *)         -
+nw/wsj/03/wsj_0347   0   35                .     .           *))          -    -   -   -        *        *             *            *          -
+
+nw/wsj/03/wsj_0347   0   0               A    DT  (TOP(S(NP*              -    -   -   -       *             *      -
+nw/wsj/03/wsj_0347   0   1    simultaneous    JJ           *              -    -   -   -       *    (ARGM-TMP*)     -
+nw/wsj/03/wsj_0347   0   2    announcement    NN           *)   announcement  01   1   -       *           (V*)     -
+nw/wsj/03/wsj_0347   0   3             was   VBD        (VP*              -    -   -   -       *             *      -
+nw/wsj/03/wsj_0347   0   4            made   VBN        (VP*            make   -   1   -       *    (ARGM-LVB*)     -
+nw/wsj/03/wsj_0347   0   5              in    IN        (PP*              -    -   -   -       *    (ARGM-LOC*      -
+nw/wsj/03/wsj_0347   0   6          Moscow   NNP     (NP*))))             -    -   -   -    (GPE)            *)   (18)
+nw/wsj/03/wsj_0347   0   7               .     .          *))             -    -   -   -       *             *      -
+
+nw/wsj/03/wsj_0347   0    0           Bush   NNP   (TOP(S(NP*)          -    -   -   -    (PERSON)   (ARG0*)       *             *    (11)
+nw/wsj/03/wsj_0347   0    1           said   VBD         (VP*          say  01   1   -          *       (V*)       *             *      -
+nw/wsj/03/wsj_0347   0    2           that    IN       (SBAR*           -    -   -   -          *    (ARG1*        *             *      -
+nw/wsj/03/wsj_0347   0    3        neither    CC       (S(NP*           -    -   -   -          *         *   (ARG0*             *      -
+nw/wsj/03/wsj_0347   0    4             he   PRP            *           -    -   -   -          *         *        *             *      -
+nw/wsj/03/wsj_0347   0    5            nor    CC            *           -    -   -   -          *         *        *             *      -
+nw/wsj/03/wsj_0347   0    6      Gorbachev   NNP            *)          -    -   -   -    (PERSON)        *        *)            *      -
+nw/wsj/03/wsj_0347   0    7       expected   VBD         (VP*       expect  01   1   -          *         *      (V*)            *      -
+nw/wsj/03/wsj_0347   0    8            any    DT         (NP*           -    -   -   -          *         *   (ARG1*             *      -
+nw/wsj/03/wsj_0347   0    9             ``    ``            *           -    -   -   -          *         *        *             *      -
+nw/wsj/03/wsj_0347   0   10    substantial    JJ            *           -    -   -   -          *         *        *    (ARGM-ADJ*)     -
+nw/wsj/03/wsj_0347   0   11      decisions   NNS            *     decision  01   1   -          *         *        *           (V*)     -
+nw/wsj/03/wsj_0347   0   12             or    CC            *           -    -   -   -          *         *        *             *      -
+nw/wsj/03/wsj_0347   0   13     agreements   NNS        *)))))   agreement   -   1   -          *         *)       *)            *      -
+nw/wsj/03/wsj_0347   0   14              .     .            *           -    -   -   -          *         *        *             *      -
+nw/wsj/03/wsj_0347   0   15             ''    ''           *))          -    -   -   -          *         *        *             *      -
+
+nw/wsj/03/wsj_0347   0    0          The     DT         (TOP(S(NP*          -    -   -   -        *        (ARG0*             *        *        *   (12
+nw/wsj/03/wsj_0347   0    1     seaborne     JJ                  *          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0    2     meetings    NNS                  *)    meeting   -   1   -        *             *)            *        *        *    12)
+nw/wsj/03/wsj_0347   0    3           wo     MD               (VP*          -    -   -   -        *    (ARGM-MOD*)            *        *        *     -
+nw/wsj/03/wsj_0347   0    4          n't     RB                  *          -    -   -   -        *    (ARGM-NEG*)            *        *        *     -
+nw/wsj/03/wsj_0347   0    5      disrupt     VB               (VP*     disrupt  01   1   -        *           (V*)            *        *        *     -
+nw/wsj/03/wsj_0347   0    6        plans    NNS            (NP(NP*)       plan   -   1   -        *        (ARG1*             *        *        *     -
+nw/wsj/03/wsj_0347   0    7          for     IN               (PP*          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0    8            a     DT            (NP(NP*          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0    9       formal     JJ                  *          -    -   -   -        *             *    (ARGM-MNR*)       *        *     -
+nw/wsj/03/wsj_0347   0   10       summit     NN                  *)     summit  01   3   -        *             *           (V*)       *        *     -
+nw/wsj/03/wsj_0347   0   11         next     JJ               (NP*          -    -   -   -   (DATE*             *    (ARGM-TMP*        *        *     -
+nw/wsj/03/wsj_0347   0   12       spring     NN                  *      spring   -   1   -        *)            *             *        *        *     -
+nw/wsj/03/wsj_0347   0   13           or     CC                  *          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   14       summer     NN                  *)         -    -   -   -    (DATE)            *             *)       *        *     -
+nw/wsj/03/wsj_0347   0   15            ,      ,                  *          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   16           at     IN        (SBAR(WHPP*          -    -   -   -        *             *    (ARGM-ADJ*        *        *     -
+nw/wsj/03/wsj_0347   0   17        which    WDT            (WHNP*))         -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   18           an     DT             (S(NP*          -    -   -   -        *             *             *   (ARG1*   (ARG1*     -
+nw/wsj/03/wsj_0347   0   19         arms    NNS              (NML*          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   20           -    HYPH                  *          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   21      control     NN                  *)         -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   22       treaty     NN                  *)         -    -   -   -        *             *             *        *)       *)    -
+nw/wsj/03/wsj_0347   0   23           is    VBZ               (VP*          be  01   1   -        *             *             *      (V*)       *     -
+nw/wsj/03/wsj_0347   0   24       likely     JJ             (ADJP*          -    -   -   -        *             *             *   (ARG2*        *     -
+nw/wsj/03/wsj_0347   0   25           to     TO             (S(VP*          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   26           be     VB               (VP*          -    -   -   -        *             *             *        *        *     -
+nw/wsj/03/wsj_0347   0   27    completed    VBN   (VP*)))))))))))))   complete  01   1   -        *             *)            *)       *)     (V*)    -
+nw/wsj/03/wsj_0347   0   28            .      .                 *))         -    -   -   -        *             *             *        *        *     -
+
+nw/wsj/03/wsj_0347   0    0            The     DT   (TOP(S(NP*             -    -   -   -            *     (ARG1*   (ARG0*         *         *   (19
+nw/wsj/03/wsj_0347   0    1            two     CD            *             -    -   -   -    (CARDINAL)         *        *         *         *     -
+nw/wsj/03/wsj_0347   0    2        leaders    NNS            *)        leader   -   1   -            *          *)       *)        *         *    19)
+nw/wsj/03/wsj_0347   0    3            are    VBP         (VP*             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0    4       expected    VBN         (VP*         expect  01   1   -            *        (V*)       *         *         *     -
+nw/wsj/03/wsj_0347   0    5             to     TO       (S(VP*             -    -   -   -            *   (C-ARG1*        *         *         *     -
+nw/wsj/03/wsj_0347   0    6        discuss     VB         (VP*        discuss  01   1   -            *          *      (V*)        *         *     -
+nw/wsj/03/wsj_0347   0    7        changes    NNS   (NP(NP(NP*)        change   -   1   -            *          *   (ARG1*    (ARG1*)        *     -
+nw/wsj/03/wsj_0347   0    8       sweeping    VBG         (VP*          sweep  02   1   -            *          *        *       (V*)        *     -
+nw/wsj/03/wsj_0347   0    9            the     DT         (NP*             -    -   -   -            *          *        *    (ARG2*         *     -
+nw/wsj/03/wsj_0347   0   10           East     JJ            *             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   11           bloc     NN          *)))          bloc   -   1   -            *          *        *         *)        *     -
+nw/wsj/03/wsj_0347   0   12             as     RB      (CONJP*             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   13           well     RB            *             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   14             as     IN            *)            -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   15          human     JJ  (NP(NP(NML*             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   16             -    HYPH            *             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   17         rights    NNS            *)            -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   18         issues    NNS            *)         issue   -   1   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   19              ,      ,            *             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   20       regional     JJ         (NP*             -    -   -   -            *          *        *         *    (ARG0*)    -
+nw/wsj/03/wsj_0347   0   21       disputes    NNS            *)       dispute  01   1   -            *          *        *         *       (V*)    -
+nw/wsj/03/wsj_0347   0   22            and     CC            *             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   23       economic     JJ         (NP*             -    -   -   -            *          *        *         *         *     -
+nw/wsj/03/wsj_0347   0   24    cooperation     NN     *))))))))   cooperation   -   2   -            *          *)       *)        *         *     -
+nw/wsj/03/wsj_0347   0   25              .      .           *))            -    -   -   -            *          *        *         *         *     -
+
+nw/wsj/03/wsj_0347   0    0         Israel    NNP  (TOP(S(NP(NP*          -    -   -   -     (GPE)      (ARG0*   (ARG0*            *        *   -
+nw/wsj/03/wsj_0347   0    1             's    POS              *)         -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0    2           army     NN              *)         -    -   -   -        *            *)       *)           *        *   -
+nw/wsj/03/wsj_0347   0    3         lifted    VBD           (VP*        lift  02   3   -        *          (V*)       *            *        *   -
+nw/wsj/03/wsj_0347   0    4              a     DT        (NP(NP*          -    -   -   -        *       (ARG1*        *            *        *   -
+nw/wsj/03/wsj_0347   0    5       blockade     NN              *)         -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0    6         around     IN           (PP*          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0    7              a     DT        (NP(NP*          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0    8    Palestinian     JJ              *          -    -   -   -    (NORP)           *        *            *        *   -
+nw/wsj/03/wsj_0347   0    9           town     NN              *)       town   -   1   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   10             in     IN           (PP*          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   11            the     DT           (NP*          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   12       occupied     JJ              *          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   13           West    NNP              *          -    -   -   -    (LOC*            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   14           Bank    NNP          *)))))         -    -   -   -        *)           *)       *            *        *   -
+nw/wsj/03/wsj_0347   0   15              ,      ,              *          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   16         ending    VBG         (S(VP*         end  01   2   -        *   (ARGM-ADV*      (V*)           *        *   -
+nw/wsj/03/wsj_0347   0   17              a     DT        (NP(NP*          -    -   -   -        *            *   (ARG1*            *        *   -
+nw/wsj/03/wsj_0347   0   18            42      CD          (NML*          -    -   -   -   (DATE*            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   19             -    HYPH              *          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   20            day     NN              *)         -    -   -   -        *)           *        *            *        *   -
+nw/wsj/03/wsj_0347   0   21       campaign     NN              *)   campaign   -   3   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   22             of     IN           (PP*          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   23        seizing    VBG         (S(VP*       seize  01   3   -        *            *        *          (V*)       *   -
+nw/wsj/03/wsj_0347   0   24           cars    NNS        (NP(NP*)        car   -   2   -        *            *        *       (ARG1*        *   -
+nw/wsj/03/wsj_0347   0   25              ,      ,              *          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   26      furniture     NN           (NP*)         -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   27            and     CC              *          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   28          other     JJ           (NP*          -    -   -   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   29          goods    NNS             *))       good   -   3   -        *            *        *            *)       *   -
+nw/wsj/03/wsj_0347   0   30             to     TO         (S(VP*          -    -   -   -        *            *        *   (ARGM-PNC*        *   -
+nw/wsj/03/wsj_0347   0   31          crush     VB           (VP*       crush  01   2   -        *            *        *            *      (V*)  -
+nw/wsj/03/wsj_0347   0   32              a     DT           (NP*          -    -   -   -        *            *        *            *   (ARG1*   -
+nw/wsj/03/wsj_0347   0   33            tax     NN              *         tax   -   1   -        *            *        *            *        *   -
+nw/wsj/03/wsj_0347   0   34        boycott     NN    *)))))))))))         -    -   -   -        *            *)       *)           *)       *)  -
+nw/wsj/03/wsj_0347   0   35              .      .             *))         -    -   -   -        *            *        *            *        *   -
+
+nw/wsj/03/wsj_0347   0    0          While    IN     (TOP(S(SBAR*            -    -    -   -         *         *   (ARGM-TMP*         *        *     -
+nw/wsj/03/wsj_0347   0    1      residents   NNS           (S(NP*)           -    -    -   -         *    (ARG0*)           *         *        *     -
+nw/wsj/03/wsj_0347   0    2        claimed   VBD             (VP*         claim  01    2   -         *       (V*)           *         *        *     -
+nw/wsj/03/wsj_0347   0    3              a    DT             (NP*            -    -    -   -         *    (ARG1*            *         *        *     -
+nw/wsj/03/wsj_0347   0    4        victory    NN             *))))           -    -    -   -         *         *)           *)        *        *     -
+nw/wsj/03/wsj_0347   0    5              ,     ,                *            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0    6       military    JJ             (NP*            -    -    -   -         *         *       (ARG0*         *        *    (9
+nw/wsj/03/wsj_0347   0    7    authorities   NNS                *)    authority   -    3   -         *         *            *)        *        *     9)
+nw/wsj/03/wsj_0347   0    8           said   VBD             (VP*           say  01    1   -         *         *          (V*)        *        *     -
+nw/wsj/03/wsj_0347   0    9           they   PRP      (SBAR(S(NP*)           -    -    -   -         *         *       (ARG1*    (ARG0*)       *    (9)
+nw/wsj/03/wsj_0347   0   10            had   VBD             (VP*            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   11    confiscated   VBN             (VP*    confiscate  01    1   -         *         *            *       (V*)       *     -
+nw/wsj/03/wsj_0347   0   12            the    DT          (NP(NP*            -    -    -   -         *         *            *    (ARG1*        *     -
+nw/wsj/03/wsj_0347   0   13     equivalent    NN                *)   equivalent   -    1   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   14             of    IN             (PP*            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   15           more   JJR       (NP(NP(QP*            -    -    -   -   (MONEY*         *            *         *   (ARG2*     -
+nw/wsj/03/wsj_0347   0   16           than    IN                *            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   17              $     $                *            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   18           1.5     CD                *            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   19        million    CD               *))           -    -    -   -         *)        *            *         *        *)    -
+nw/wsj/03/wsj_0347   0   20             to    TO      (SBAR(S(VP*            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   21           make    VB             (VP*          make  16   16   -         *         *            *         *      (V*)    -
+nw/wsj/03/wsj_0347   0   22             up    RP            (PRT*)           -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   23            for    IN             (PP*            -    -    -   -         *         *            *         *   (ARG1*     -
+nw/wsj/03/wsj_0347   0   24            the    DT             (NP*            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   25         unpaid    JJ                *            -    -    -   -         *         *            *         *        *     -
+nw/wsj/03/wsj_0347   0   26          taxes   NNS   *))))))))))))))          tax   -    1   -         *         *            *)        *)       *)    -
+nw/wsj/03/wsj_0347   0   27              .     .               *))           -    -    -   -         *         *            *         *        *     -
+
+nw/wsj/03/wsj_0347   0    0             East    JJ  (TOP(S(NP(ADJP*          -    -   -   -     (NORP*       (ARG1*             *      -
+nw/wsj/03/wsj_0347   0    1           German    JJ                *)         -    -   -   -          *)           *             *      -
+nw/wsj/03/wsj_0347   0    2           leader    NN                *      leader   -   1   -          *            *             *      -
+nw/wsj/03/wsj_0347   0    3            Krenz   NNP                *)         -    -   -   -    (PERSON)           *)            *      -
+nw/wsj/03/wsj_0347   0    4          arrived   VBD             (VP*      arrive  01   1   -          *          (V*)            *      -
+nw/wsj/03/wsj_0347   0    5               in    IN             (PP*          -    -   -   -          *       (ARG4*             *      -
+nw/wsj/03/wsj_0347   0    6           Moscow   NNP            (NP*))         -    -   -   -       (GPE)           *)            *    (18)
+nw/wsj/03/wsj_0347   0    7              for    IN             (PP*          -    -   -   -          *   (ARGM-PNC*             *      -
+nw/wsj/03/wsj_0347   0    8            talks   NNS          (NP(NP*)       talk  01   3   -          *            *           (V*)     -
+nw/wsj/03/wsj_0347   0    9            today    NN             (NP*)      today   -   2   -      (DATE)           *    (ARGM-TMP*)     -
+nw/wsj/03/wsj_0347   0   10             with    IN             (PP*          -    -   -   -          *            *        (ARG2*      -
+nw/wsj/03/wsj_0347   0   11        Gorbachev   NNP            (NP*))         -    -   -   -    (PERSON)           *             *)    (4)
+nw/wsj/03/wsj_0347   0   12               on    IN             (PP*          -    -   -   -          *            *        (ARG1*      -
+nw/wsj/03/wsj_0347   0   13    restructuring    NN             (NP*          -    -   -   -          *            *             *      -
+nw/wsj/03/wsj_0347   0   14        proposals   NNS            *)))))   proposal   -   1   -          *            *)            *)     -
+nw/wsj/03/wsj_0347   0   15                .     .               *))         -    -   -   -          *            *             *      -
+
+nw/wsj/03/wsj_0347   0    0               In    IN   (TOP(S(PP*          -    -   -   -            *   (ARGM-LOC*        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    1             East   NNP         (NP*          -    -   -   -        (GPE*            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    2           Berlin   NNP           *))         -    -   -   -            *)           *)       *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    3                ,     ,            *          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    4        Communist   NNP     (NP(NML*          -    -   -   -        (ORG*       (ARG0*   (ARG0*            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    5            Party   NNP            *)         -    -   -   -            *)           *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    6        officials   NNS            *)   official   -   1   -            *            *)       *)           *      *        *        *   -
+nw/wsj/03/wsj_0347   0    7       considered   VBD         (VP*    consider  01   2   -            *          (V*)       *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0    8       legalizing   VBG       (S(VP*    legalize  01   -   -            *       (ARG1*      (V*)           *      *        *        *   -
+nw/wsj/03/wsj_0347   0    9              New   NNP      (NP(NP*          -    -   -   -        (ORG*            *   (ARG1*            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   10            Forum   NNP            *)         -    -   -   -            *)           *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   11                ,     ,            *          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   12              the    DT      (NP(NP*          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   13          country    NN            *     country   -   3   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   14               's   POS            *)         -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   15          largest   JJS            *          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   16       opposition    NN            *          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   17         alliance    NN         *))))         -    -   -   -            *            *)       *)           *      *        *        *   -
+nw/wsj/03/wsj_0347   0   18                ,     ,            *          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   19               as    IN       (SBAR*          -    -   -   -            *   (ARGM-TMP*        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   20            about    RB    (S(NP(QP*          -    -   -   -   (CARDINAL*            *        *       (ARG0*      *   (ARG0*        *   -
+nw/wsj/03/wsj_0347   0   21          20,000     CD            *)         -    -   -   -            *)           *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   22    demonstrators   NNS            *)         -    -   -   -            *            *        *            *)     *        *)       *   -
+nw/wsj/03/wsj_0347   0   23           staged   VBD         (VP*       stage  01   2   -            *            *        *          (V*)     *        *        *   -
+nw/wsj/03/wsj_0347   0   24         protests   NNS         (NP*)    protest  01   2   -            *            *        *       (ARG1*)   (V*)       *        *   -
+nw/wsj/03/wsj_0347   0   25               in    IN         (PP*          -    -   -   -            *            *        *   (ARGM-LOC*      *        *        *   -
+nw/wsj/03/wsj_0347   0   26            three    CD         (NP*          -    -   -   -    (CARDINAL)           *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   27           cities   NNS           *))       city   -   1   -            *            *        *            *)     *        *        *   -
+nw/wsj/03/wsj_0347   0   28               to    TO       (S(VP*          -    -   -   -            *            *        *   (ARGM-PNC*      *        *        *   -
+nw/wsj/03/wsj_0347   0   29            press    VB         (VP*       press  01   5   -            *            *        *            *      *      (V*)       *   -
+nw/wsj/03/wsj_0347   0   30          demands   NNS      (NP(NP*)     demand  01   2   -            *            *        *            *      *   (ARG1*      (V*)  -
+nw/wsj/03/wsj_0347   0   31              for    IN         (PP*          -    -   -   -            *            *        *            *      *        *   (ARG1*   -
+nw/wsj/03/wsj_0347   0   32       democratic    JJ         (NP*          -    -   -   -            *            *        *            *      *        *        *   -
+nw/wsj/03/wsj_0347   0   33         freedoms   NNS   *))))))))))    freedom   -   1   -            *            *)       *            *)     *        *)       *)  -
+nw/wsj/03/wsj_0347   0   34                .     .           *))         -    -   -   -            *            *        *            *      *        *        *   -
+
+nw/wsj/03/wsj_0347   0    0               The    DT        (TOP(S(NP*          -    -   -   -         *   (ARG0*             *   (8
+nw/wsj/03/wsj_0347   0    1             House   NNP                 *)         -    -   -   -      (ORG)       *)            *    8)
+nw/wsj/03/wsj_0347   0    2          approved   VBD              (VP*     approve  01   1   -         *      (V*)            *    -
+nw/wsj/03/wsj_0347   0    3                 a    DT           (NP(NP*          -    -   -   -         *   (ARG1*             *    -
+nw/wsj/03/wsj_0347   0    4         permanent    JJ                 *          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0    5           smoking    NN                 *          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0    6               ban    NN                 *)        ban   -   1   -         *        *             *    -
+nw/wsj/03/wsj_0347   0    7                on    IN              (PP*          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0    8            nearly    RB           (NP(QP*          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0    9               all    DT                 *)         -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   10          domestic    JJ             (NML*          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   11           airline    NN                 *)    airline   -   1   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   12            routes   NNS               *)))      route   -   2   -         *        *)            *    -
+nw/wsj/03/wsj_0347   0   13                as    IN              (PP*          -    -   -   -         *   (ARG2*             *    -
+nw/wsj/03/wsj_0347   0   14              part    NN           (NP(NP*)       part   -   1   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   15                of    IN              (PP*          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   16                 a    DT           (NP(NP*          -    -   -   -         *        *        (ARG0*    -
+nw/wsj/03/wsj_0347   0   17                 $     $          (NML(QP*          -    -   -   -   (MONEY*        *             *    -
+nw/wsj/03/wsj_0347   0   18             27.1     CD                 *          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   19           billion    CD                *))         -    -   -   -         *)       *             *    -
+nw/wsj/03/wsj_0347   0   20    transportation    NN                 *          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   21              bill    NN                 *)         -    -   -   -         *        *             *)   -
+nw/wsj/03/wsj_0347   0   22              that   WDT       (SBAR(WHNP*)         -    -   -   -         *        *      (R-ARG0*)   -
+nw/wsj/03/wsj_0347   0   23              must    MD            (S(VP*          -    -   -   -         *        *    (ARGM-MOD*)   -
+nw/wsj/03/wsj_0347   0   24             still    RB            (ADVP*)         -    -   -   -         *        *    (ARGM-TMP*)   -
+nw/wsj/03/wsj_0347   0   25          overcome    VB              (VP*    overcome  01   1   -         *        *           (V*)   -
+nw/wsj/03/wsj_0347   0   26            budget    NN           (NP(NP*      budget   -   2   -         *        *        (ARG1*    -
+nw/wsj/03/wsj_0347   0   27         obstacles   NNS                 *)         -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   28                in    IN              (PP*          -    -   -   -         *        *             *    -
+nw/wsj/03/wsj_0347   0   29          Congress   NNP   (NP*))))))))))))         -    -   -   -      (ORG)       *)            *)   -
+nw/wsj/03/wsj_0347   0   30                 .     .                *))         -    -   -   -         *        *             *    -
+
+nw/wsj/03/wsj_0347   0    0             The    DT    (TOP(S(NP*              -    -   -   -           *        (ARG0*           *     (8
+nw/wsj/03/wsj_0347   0    1         chamber    NN             *)        chamber   -   3   -           *             *)          *      8)
+nw/wsj/03/wsj_0347   0    2            also    RB        (ADVP*)             -    -   -   -           *    (ARGM-DIS*)          *      -
+nw/wsj/03/wsj_0347   0    3            sent   VBD          (VP*            send  01   1   -           *           (V*)          *      -
+nw/wsj/03/wsj_0347   0    4              to    IN          (PP*              -    -   -   -           *        (ARG2*           *      -
+nw/wsj/03/wsj_0347   0    5            Bush   NNP         (NP*))             -    -   -   -     (PERSON)            *)          *    (11)
+nw/wsj/03/wsj_0347   0    6               a    DT       (NP(NP*              -    -   -   -           *        (ARG1*      (ARG2*      -
+nw/wsj/03/wsj_0347   0    7          nearly    RB      (NML(QP*              -    -   -   -           *             *           *      -
+nw/wsj/03/wsj_0347   0    8               $     $             *              -    -   -   -     (MONEY*             *           *      -
+nw/wsj/03/wsj_0347   0    9             67     CD             *              -    -   -   -           *             *           *      -
+nw/wsj/03/wsj_0347   0   10         billion    CD            *))             -    -   -   -           *)            *           *      -
+nw/wsj/03/wsj_0347   0   11          fiscal    JJ         (NML*              -    -   -   -      (DATE*             *           *      -
+nw/wsj/03/wsj_0347   0   12           1990     CD             *)             -    -   -   -           *)            *           *      -
+nw/wsj/03/wsj_0347   0   13         measure    NN             *)        measure   -   5   -           *             *           *)     -
+nw/wsj/03/wsj_0347   0   14            that   WDT   (SBAR(WHNP*)             -    -   -   -           *             *    (R-ARG2*)     -
+nw/wsj/03/wsj_0347   0   15        includes   VBZ        (S(VP*         include  01   1   -           *             *         (V*)     -
+nw/wsj/03/wsj_0347   0   16             the    DT       (NP(NP*              -    -   -   -           *             *      (ARG1*      -
+nw/wsj/03/wsj_0347   0   17           first    JJ             *              -    -   -   -    (ORDINAL)            *           *      -
+nw/wsj/03/wsj_0347   0   18    construction    NN             *    construction   -   1   -           *             *           *      -
+nw/wsj/03/wsj_0347   0   19           funds   NNS             *)           fund   -   1   -           *             *           *      -
+nw/wsj/03/wsj_0347   0   20             for    IN          (PP*              -    -   -   -           *             *           *      -
+nw/wsj/03/wsj_0347   0   21               a    DT          (NP*              -    -   -   -           *             *           *      -
+nw/wsj/03/wsj_0347   0   22           space    NN             *           space   -   1   -           *             *           *      -
+nw/wsj/03/wsj_0347   0   23         station    NN      *))))))))        station   -   1   -           *             *)          *)     -
+nw/wsj/03/wsj_0347   0   24               .     .            *))             -    -   -   -           *             *           *      -
+
+nw/wsj/03/wsj_0347   0    0    Nicaragua    NNP  (TOP(S(NP(NP*          -    -   -   -       (GPE)  (ARG0*        *   (ARG0*        *      (16
+nw/wsj/03/wsj_0347   0    1           's    POS              *)         -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0    2       Ortega    NNP              *)         -    -   -   -    (PERSON)       *)       *        *)       *       16)
+nw/wsj/03/wsj_0347   0    3    postponed    VBD           (VP*    postpone  01   1   -          *      (V*)       *        *        *        -
+nw/wsj/03/wsj_0347   0    4        until     IN           (PP*          -    -   -   -          *   (ARG4*        *        *        *        -
+nw/wsj/03/wsj_0347   0    5        today     NN          (NP*))      today   -   2   -      (DATE)       *)       *        *        *        -
+nw/wsj/03/wsj_0347   0    6            a     DT        (NP(NP*          -    -   -   -          *   (ARG1*        *        *        *        -
+nw/wsj/03/wsj_0347   0    7     decision     NN              *)   decision  01   1   -          *        *      (V*)       *        *        -
+nw/wsj/03/wsj_0347   0    8           on     IN           (PP*          -    -   -   -          *        *   (ARG3*        *        *        -
+nw/wsj/03/wsj_0347   0    9      whether     IN         (SBAR*          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   10           to     TO         (S(VP*          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   11          end     VB           (VP*         end  01   2   -          *        *        *      (V*)       *        -
+nw/wsj/03/wsj_0347   0   12            a     DT        (NP(NP*          -    -   -   -          *        *        *   (ARG1*        *      (15
+nw/wsj/03/wsj_0347   0   13          19      CD     (ADJP(NML*          -    -   -   -     (DATE*        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   14           -    HYPH              *          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   15        month     NN              *)         -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   16           -    HYPH              *          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   17          old     JJ              *)         -    -   -   -          *)       *        *        *        *        -
+nw/wsj/03/wsj_0347   0   18        cease     NN              *          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   19           -    HYPH              *          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   20         fire     NN              *)         -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   21           in     IN           (PP*          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   22          the     DT        (NP(NP*          -    -   -   -          *        *        *        *        *        -
+nw/wsj/03/wsj_0347   0   23     conflict     NN              *)   conflict  01   1   -          *        *        *        *      (V*)       -
+nw/wsj/03/wsj_0347   0   24         with     IN           (PP*          -    -   -   -          *        *        *        *   (ARG1*        -
+nw/wsj/03/wsj_0347   0   25          the     DT           (NP*          -    -   -   -          *        *        *        *        *       (1
+nw/wsj/03/wsj_0347   0   26       Contra    NNP              *          -    -   -   -       (ORG)       *        *        *        *        -
+nw/wsj/03/wsj_0347   0   27       rebels    NNS   *))))))))))))         -    -   -   -          *        *)       *)       *)       *)   15)|1)
+nw/wsj/03/wsj_0347   0   28            .      .             *))         -    -   -   -          *        *        *        *        *        -
+
+nw/wsj/03/wsj_0347   0    0             In    IN        (TOP(S(PP*             -    -   -   -          *   (ARGM-LOC*        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    1     Washington   NNP             (NP*))            -    -   -   -       (GPE)           *)       *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    2              ,     ,                 *             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    3            the    DT            (S(NP*             -    -   -   -          *       (ARG0*   (ARG0*        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    4         Senate   NNP                 *)            -    -   -   -       (ORG)           *)       *)       *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    5          voted   VBD              (VP*           vote  01   1   -          *          (V*)       *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    6             to    TO            (S(VP*             -    -   -   -          *       (ARG1*        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    7        condemn    VB              (VP*        condemn  01   1   -          *            *      (V*)       *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0    8         Ortega   NNP           (NP(NP*             -    -   -   -    (PERSON)           *   (ARG1*   (ARG0*         *             *        *        *         *    (16
+nw/wsj/03/wsj_0347   0    9             's   POS                 *)            -    -   -   -          *            *        *        *)        *             *        *        *         *     16)
+nw/wsj/03/wsj_0347   0   10         threat    NN                 *         threat   -   3   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   11             to    TO            (S(VP*             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   12         cancel    VB              (VP*         cancel  01   2   -          *            *        *      (V*)        *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   13            the    DT              (NP*             -    -   -   -          *            *        *   (ARG1*         *             *        *        *         *    (15
+nw/wsj/03/wsj_0347   0   14          truce    NN        *))))))))))            -    -   -   -          *            *)       *)       *)        *             *        *        *         *     15)
+nw/wsj/03/wsj_0347   0   15              ,     ,                 *             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   16            and    CC                 *             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   17           Bush   NNP            (S(NP*)            -    -   -   -    (PERSON)           *        *        *    (ARG0*)            *        *        *         *    (11)
+nw/wsj/03/wsj_0347   0   18           said   VBD              (VP*            say  01   1   -          *            *        *        *       (V*)            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   19             he   PRP       (SBAR(S(NP*)            -    -   -   -          *            *        *        *    (ARG1*        (ARG0*)       *        *         *    (11)
+nw/wsj/03/wsj_0347   0   20          would    MD              (VP*             -    -   -   -          *            *        *        *         *    (ARGM-MOD*)       *        *         *      -
+nw/wsj/03/wsj_0347   0   21         review    VB              (VP*         review  01   1   -          *            *        *        *         *           (V*)       *        *         *      -
+nw/wsj/03/wsj_0347   0   22           U.S.   NNP           (NP(NP*             -    -   -   -       (GPE)           *        *        *         *        (ARG1*   (ARG2*        *         *      -
+nw/wsj/03/wsj_0347   0   23         policy    NN                 *)        policy   -   1   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   24         toward    IN              (PP*             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   25        Managua   NNP             (NP*))            -    -   -   -       (GPE)           *        *        *         *             *        *)       *         *      -
+nw/wsj/03/wsj_0347   0   26              ,     ,                 *             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   27      including   VBG              (PP*        include  01   1   -          *            *        *        *         *             *      (V*)       *         *      -
+nw/wsj/03/wsj_0347   0   28            the    DT           (NP(NP*             -    -   -   -          *            *        *        *         *             *   (ARG1*        *         *      -
+nw/wsj/03/wsj_0347   0   29    possibility    NN                 *)   possibility   -   2   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   30             of    IN              (PP*             -    -   -   -          *            *        *        *         *             *        *        *         *      -
+nw/wsj/03/wsj_0347   0   31       renewing   VBG            (S(VP*          renew  01   1   -          *            *        *        *         *             *        *      (V*)        *      -
+nw/wsj/03/wsj_0347   0   32       military    JJ           (NP(NP*             -    -   -   -          *            *        *        *         *             *        *   (ARG1*    (ARG1*)     -
+nw/wsj/03/wsj_0347   0   33            aid    NN                 *)           aid  01   3   -          *            *        *        *         *             *        *        *       (V*)     -
+nw/wsj/03/wsj_0347   0   34             to    IN              (PP*             -    -   -   -          *            *        *        *         *             *        *        *    (ARG2*      -
+nw/wsj/03/wsj_0347   0   35            the    DT              (NP*             -    -   -   -          *            *        *        *         *             *        *        *         *     (1
+nw/wsj/03/wsj_0347   0   36         rebels   NNS   *)))))))))))))))            -    -   -   -          *            *        *        *         *)            *)       *)       *)        *)     1)
+nw/wsj/03/wsj_0347   0   37              .     .                *))            -    -   -   -          *            *        *        *         *             *        *        *         *      -
+
+nw/wsj/03/wsj_0347   0    0                 Chinese    JJ  (TOP(S(NP(NML*         -    -   -   -      (NORP)  (ARG0*             *            *     -
+nw/wsj/03/wsj_0347   0    1                  leader    NN               *)    leader   -   1   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0    2                    Deng   NNP               *)        -    -   -   -    (PERSON)       *)            *            *     -
+nw/wsj/03/wsj_0347   0    3                    told   VBD            (VP*       tell  01   1   -          *      (V*)            *            *     -
+nw/wsj/03/wsj_0347   0    4                  former    JJ        (NP(NML*         -    -   -   -          *   (ARG2*             *            *   (14
+nw/wsj/03/wsj_0347   0    5               President   NNP               *)        -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0    6                   Nixon   NNP               *)        -    -   -   -    (PERSON)       *)            *            *    14)
+nw/wsj/03/wsj_0347   0    7                    that    IN          (SBAR*         -    -   -   -          *   (ARG1*             *            *     -
+nw/wsj/03/wsj_0347   0    8                     the    DT          (S(NP*         -    -   -   -          *        *        (ARG1*            *     -
+nw/wsj/03/wsj_0347   0    9                    U.S.   NNP               *)        -    -   -   -       (GPE)       *             *)           *     -
+nw/wsj/03/wsj_0347   0   10                     was   VBD            (VP*         -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0   11                  deeply    RB          (ADVP*)        -    -   -   -          *        *    (ARGM-MNR*)           *     -
+nw/wsj/03/wsj_0347   0   12                involved   VBN            (VP*    involve  01   1   -          *        *           (V*)           *     -
+nw/wsj/03/wsj_0347   0   13                      in    IN            (PP*         -    -   -   -          *        *        (ARG2*            *     -
+nw/wsj/03/wsj_0347   0   14                      ``    ``         (NP(NP*         -    -   -   -          *        *             *       (ARG0*     -
+nw/wsj/03/wsj_0347   0   15                     the    DT               *         -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0   16                 turmoil    NN       (NML(NML*)        -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0   17                     and    CC               *         -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0   18    counterrevolutionary    JJ           (NML*         -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0   19               rebellion    NN              *))        -    -   -   -          *        *             *            *     -
+nw/wsj/03/wsj_0347   0   20                      ''    ''               *)        -    -   -   -          *        *             *            *)    -
+nw/wsj/03/wsj_0347   0   21                    that   WDT     (SBAR(WHNP*)        -    -   -   -          *        *             *     (R-ARG0*)    -
+nw/wsj/03/wsj_0347   0   22                 gripped   VBD          (S(VP*       grip  01   2   -          *        *             *          (V*)    -
+nw/wsj/03/wsj_0347   0   23                 Beijing   NNP            (NP*)        -    -   -   -       (GPE)       *             *       (ARG1*)    -
+nw/wsj/03/wsj_0347   0   24                    last    JJ            (NP*         -    -   -   -     (DATE*        *             *   (ARGM-TMP*     -
+nw/wsj/03/wsj_0347   0   25                  spring    NN     *)))))))))))    spring   -   1   -          *)       *)            *)           *)    -
+nw/wsj/03/wsj_0347   0   26                       .     .              *))        -    -   -   -          *        *             *            *     -
+
+nw/wsj/03/wsj_0347   0    0        Nixon    NNP   (TOP(S(NP*)          -    -   -   -    (PERSON)      (ARG0*)       *        *    (ARG0*)   (14)
+nw/wsj/03/wsj_0347   0    1            ,      ,            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0    2           on     IN         (PP*           -    -   -   -          *   (ARGM-TMP*        *        *         *      -
+nw/wsj/03/wsj_0347   0    3          the     DT      (NP(NP*           -    -   -   -     (DATE*            *        *        *         *      -
+nw/wsj/03/wsj_0347   0    4       fourth     JJ            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0    5          day     NN            *)         day   -   2   -          *)           *        *        *         *      -
+nw/wsj/03/wsj_0347   0    6           of     IN         (PP*           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0    7            a     DT      (NP(NP*           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0    8      private     JJ            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0    9        visit     NN            *)       visit   -   2   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   10           to     IN         (PP*           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   11        China    NNP    (NP*))))))          -    -   -   -       (GPE)           *)       *        *         *      -
+nw/wsj/03/wsj_0347   0   12            ,      ,            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   13         said    VBD         (VP*          say  01   1   -          *          (V*)       *        *         *      -
+nw/wsj/03/wsj_0347   0   14         that     IN       (SBAR*           -    -   -   -          *       (ARG1*        *        *         *      -
+nw/wsj/03/wsj_0347   0   15       damage     NN    (S(NP(NP*)      damage   -   1   -          *            *        *   (ARG1*         *      -
+nw/wsj/03/wsj_0347   0   16           to     IN         (PP*           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   17         Sino     JJ     (NP(UCP*           -    -   -   -      (NORP)           *   (ARG0*        *         *      -
+nw/wsj/03/wsj_0347   0   18           -    HYPH            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   19         U.S.    NNP            *)          -    -   -   -          *            *        *)       *         *      -
+nw/wsj/03/wsj_0347   0   20    relations    NNS          *)))    relation  01   3   -          *            *      (V*)       *)        *      -
+nw/wsj/03/wsj_0347   0   21          was    VBD         (VP*           be  01   1   -          *            *        *      (V*)        *      -
+nw/wsj/03/wsj_0347   0   22           ``     ``       (ADJP*           -    -   -   -          *            *        *   (ARG2*         *      -
+nw/wsj/03/wsj_0347   0   23         very     RB            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   24        great     JJ            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   25            ,      ,            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   26           ''     ''         *))))          -    -   -   -          *            *)       *        *)        *      -
+nw/wsj/03/wsj_0347   0   27      calling    VBG       (S(VP*         call  01   5   -          *   (ARGM-ADV*        *        *       (V*)     -
+nw/wsj/03/wsj_0347   0   28          the     DT         (NP*           -    -   -   -          *            *        *        *    (ARG1*      -
+nw/wsj/03/wsj_0347   0   29    situation     NN            *)   situation   -   1   -          *            *        *        *         *)     -
+nw/wsj/03/wsj_0347   0   30           ``     ``    (S(NP(NP*           -    -   -   -          *            *        *        *    (ARG2*      -
+nw/wsj/03/wsj_0347   0   31          the     DT            *           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   32         most    RBS       (ADJP*           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   33      serious     JJ            *)          -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   34           ''     ''            *)          -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   35        since     IN         (PP*           -    -   -   -          *            *        *        *         *      -
+nw/wsj/03/wsj_0347   0   36        1972      CD   (NP*)))))))          -    -   -   -      (DATE)           *)       *        *         *)     -
+nw/wsj/03/wsj_0347   0   37            .      .           *))          -    -   -   -          *            *        *        *         *      -
+
+nw/wsj/03/wsj_0347   0    0    Afghanistan   NNP  (TOP(S(NP(NP*       -    -      -   -    (GPE)      (ARG0*        *         *            *     -
+nw/wsj/03/wsj_0347   0    1             's   POS              *)      -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0    2         troops   NNS              *)      -    -      -   -       *            *)       *         *            *     -
+nw/wsj/03/wsj_0347   0    3          broke   VBD           (VP*    break  01   16.5   -       *          (V*)       *         *            *     -
+nw/wsj/03/wsj_0347   0    4        through    IN           (PP*       -    -      -   -       *       (ARG1*        *         *            *     -
+nw/wsj/03/wsj_0347   0    5              a    DT        (NP(NP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0    6      guerrilla    NN              *       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0    7       blockade    NN              *)      -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0    8             on    IN           (PP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0    9            the    DT           (NP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   10      strategic    JJ              *       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   11         Salang   NNP              *       -    -      -   -   (FAC*            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   12        Highway   NNP           *))))      -    -      -   -       *)           *)       *         *            *     -
+nw/wsj/03/wsj_0347   0   13              ,     ,              *       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   14       allowing   VBG         (S(VP*    allow  01      1   -       *   (ARGM-ADV*      (V*)        *            *     -
+nw/wsj/03/wsj_0347   0   15         trucks   NNS      (S(NP(NP*)   truck   -      1   -       *            *   (ARG1*    (ARG0*)      (ARG0*     -
+nw/wsj/03/wsj_0347   0   16       carrying   VBG           (VP*    carry  01      2   -       *            *        *       (V*)           *     -
+nw/wsj/03/wsj_0347   0   17           food    NN        (NP(NP*)    food   -      1   -       *            *        *    (ARG1*            *     -
+nw/wsj/03/wsj_0347   0   18            and    CC              *       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   19          other    JJ           (NP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   20    necessities   NNS           *))))      -    -      -   -       *            *        *         *)           *)    -
+nw/wsj/03/wsj_0347   0   21             to    TO           (VP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   22          reach    VB           (VP*    reach  01      1   -       *            *        *         *          (V*)    -
+nw/wsj/03/wsj_0347   0   23          Kabul   NNP           (NP*)      -    -      -   -    (GPE)           *        *         *       (ARG1*)   (0)
+nw/wsj/03/wsj_0347   0   24          after    IN           (PP*       -    -      -   -       *            *        *         *   (ARGM-TMP*     -
+nw/wsj/03/wsj_0347   0   25              a    DT        (NP(NP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   26        missile    NN              *       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   27         attack    NN              *)      -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   28             on    IN           (PP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   29          rebel    NN           (NP*       -    -      -   -       *            *        *         *            *     -
+nw/wsj/03/wsj_0347   0   30    strongholds   NNS     *))))))))))      -    -      -   -       *            *)       *)        *            *)    -
+nw/wsj/03/wsj_0347   0   31              .     .             *))      -    -      -   -       *            *        *         *            *     -
+
+nw/wsj/03/wsj_0347   0    0           The    DT  (TOP(S(NP(NP*          -    -   -   -            *   (ARG1*             *    -
+nw/wsj/03/wsj_0347   0    1        convoy    NN              *)         -    -   -   -            *        *             *    -
+nw/wsj/03/wsj_0347   0    2            of    IN           (PP*          -    -   -   -            *        *             *    -
+nw/wsj/03/wsj_0347   0    3         about    RB        (NP(QP*          -    -   -   -   (CARDINAL*        *             *    -
+nw/wsj/03/wsj_0347   0    4          100     CD              *)         -    -   -   -            *)       *             *    -
+nw/wsj/03/wsj_0347   0    5      vehicles   NNS            *)))    vehicle   -   1   -            *        *)            *    -
+nw/wsj/03/wsj_0347   0    6           was   VBD           (VP*          be  01   2   -            *      (V*)            *    -
+nw/wsj/03/wsj_0347   0    7           the    DT        (NP(NP*          -    -   -   -            *   (ARG2*        (ARG0*    -
+nw/wsj/03/wsj_0347   0    8         first    JJ              *)         -    -   -   -     (ORDINAL)       *             *)   -
+nw/wsj/03/wsj_0347   0    9            to    TO    (SBAR(S(VP*          -    -   -   -            *        *             *    -
+nw/wsj/03/wsj_0347   0   10          make    VB           (VP*        make   -   1   -            *        *    (ARGM-LVB*)   -
+nw/wsj/03/wsj_0347   0   11    deliveries   NNS           (NP*)   delivery  01   1   -            *        *           (V*)   -
+nw/wsj/03/wsj_0347   0   12            to    IN           (PP*          -    -   -   -            *        *    (ARGM-GOL*    -
+nw/wsj/03/wsj_0347   0   13           the    DT           (NP*          -    -   -   -            *        *             *   (0
+nw/wsj/03/wsj_0347   0   14       capital    NN             *))    capital   -   2   -            *        *             *)   0)
+nw/wsj/03/wsj_0347   0   15            in    IN           (PP*          -    -   -   -            *        *    (ARGM-TMP*    -
+nw/wsj/03/wsj_0347   0   16         about    RB        (NP(QP*          -    -   -   -       (DATE*        *             *    -
+nw/wsj/03/wsj_0347   0   17           10     CD              *)         -    -   -   -            *        *             *    -
+nw/wsj/03/wsj_0347   0   18          days   NNS       *))))))))        day   -   2   -            *)       *)            *)   -
+nw/wsj/03/wsj_0347   0   19             .     .             *))         -    -   -   -            *        *             *    -
+
+nw/wsj/03/wsj_0347   0    0         Turkey   NNP     (TOP(S(NP(NP*            -    -   -   -        (GPE)      (ARG0*   (ARG0*             *     (7
+nw/wsj/03/wsj_0347   0    1             's   POS                 *)           -    -   -   -           *            *        *             *      7)
+nw/wsj/03/wsj_0347   0    2    legislature    NN                 *)           -    -   -   -           *            *)       *)            *      -
+nw/wsj/03/wsj_0347   0    3        elected   VBD              (VP*         elect  01   1   -           *          (V*)       *             *      -
+nw/wsj/03/wsj_0347   0    4          Prime   NNP          (NP(NML*            -    -   -   -           *       (ARG1*        *             *    (20
+nw/wsj/03/wsj_0347   0    5       Minister   NNP                 *)           -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0    6           Ozal   NNP                 *)           -    -   -   -     (PERSON)           *)       *             *     20)
+nw/wsj/03/wsj_0347   0    7             as    IN              (PP*            -    -   -   -           *       (ARG2*        *             *      -
+nw/wsj/03/wsj_0347   0    8            the    DT        (NP(NP(NP*            -    -   -   -           *            *        *             *     (7
+nw/wsj/03/wsj_0347   0    9        country    NN                 *       country   -   3   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   10             's   POS                 *)           -    -   -   -           *            *        *             *      7)
+nw/wsj/03/wsj_0347   0   11          first    JJ                 *            -    -   -   -    (ORDINAL)           *        *             *      -
+nw/wsj/03/wsj_0347   0   12       civilian    JJ                 *            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   13      president    NN                 *)    president   -   2   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   14          since    IN              (PP*            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   15          1960     CD           (NP*))))           -    -   -   -       (DATE)           *)       *             *      -
+nw/wsj/03/wsj_0347   0   16              ,     ,                 *            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   17        opening   VBG            (S(VP*          open  01   1   -           *   (ARGM-ADV*      (V*)            *      -
+nw/wsj/03/wsj_0347   0   18            the    DT           (NP(NP*            -    -   -   -           *            *   (ARG1*             *      -
+nw/wsj/03/wsj_0347   0   19            way    NN                 *)          way   -   2   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   20            for    IN              (PP*            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   21              a    DT           (NP(NP*            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   22         change    NN                 *)       change   -   1   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   23             of    IN              (PP*            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   24     government    NN             (NP*))   government   -   1   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   25          under    IN              (PP*            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   26              a    DT           (NP(NP*            -    -   -   -           *            *        *        (ARG1*      -
+nw/wsj/03/wsj_0347   0   27            new    JJ                 *            -    -   -   -           *            *        *             *      -
+nw/wsj/03/wsj_0347   0   28        premier    NN                 *)           -    -   -   -           *            *        *             *)     -
+nw/wsj/03/wsj_0347   0   29             he   PRP       (SBAR(S(NP*)           -    -   -   -           *            *        *        (ARG0*)   (20)
+nw/wsj/03/wsj_0347   0   30           will    MD              (VP*            -    -   -   -           *            *        *    (ARGM-MOD*)     -
+nw/wsj/03/wsj_0347   0   31         select    VB   (VP*))))))))))))       select  01   1   -           *            *)       *)          (V*)     -
+nw/wsj/03/wsj_0347   0   32              .     .                *))           -    -   -   -           *            *        *             *      -
+
+nw/wsj/03/wsj_0347   0    0            The    DT    (TOP(S(NP(NP*            -    -   -   -          *            *   (ARG1*           *         *      -
+nw/wsj/03/wsj_0347   0    1           vote    NN                *)         vote  01   1   -          *          (V*)       *           *         *      -
+nw/wsj/03/wsj_0347   0    2             in    IN             (PP*            -    -   -   -          *   (ARGM-LOC*        *           *         *      -
+nw/wsj/03/wsj_0347   0    3         Ankara   NNP           (NP*)))           -    -   -   -       (GPE)           *)       *)          *         *      -
+nw/wsj/03/wsj_0347   0    4            was   VBD             (VP*            -    -   -   -          *            *        *           *         *      -
+nw/wsj/03/wsj_0347   0    5      boycotted   VBN             (VP*       boycott  01   -   -          *            *      (V*)          *         *      -
+nw/wsj/03/wsj_0347   0    6             by    IN             (PP*            -    -   -   -          *            *   (ARG0*           *         *      -
+nw/wsj/03/wsj_0347   0    7     opposition    NN          (NP(NP*    opposition   -   4   -          *            *        *      (ARG0*         *      -
+nw/wsj/03/wsj_0347   0    8    politicians   NNS                *)           -    -   -   -          *            *        *           *)        *      -
+nw/wsj/03/wsj_0347   0    9              ,     ,                *            -    -   -   -          *            *        *           *         *      -
+nw/wsj/03/wsj_0347   0   10            who    WP      (SBAR(WHNP*)           -    -   -   -          *            *        *    (R-ARG0*)   (ARG0*)     -
+nw/wsj/03/wsj_0347   0   11          vowed   VBD           (S(VP*           vow  01   1   -          *            *        *         (V*)        *      -
+nw/wsj/03/wsj_0347   0   12             to    TO           (S(VP*            -    -   -   -          *            *        *      (ARG1*         *      -
+nw/wsj/03/wsj_0347   0   13           oust    VB             (VP*          oust  01   1   -          *            *        *           *       (V*)     -
+nw/wsj/03/wsj_0347   0   14           Ozal   NNP   (NP*)))))))))))           -    -   -   -    (PERSON)           *        *)          *)   (ARG1*)   (20)
+nw/wsj/03/wsj_0347   0   15              .     .               *))           -    -   -   -          *            *        *           *         *      -
+
+nw/wsj/03/wsj_0347   0    0            He    PRP   (TOP(S(NP*)        -    -   -   -          *       (ARG0*)   (ARG0*)   (20)
+nw/wsj/03/wsj_0347   0    1        begins    VBZ         (VP*      begin  01   2   -          *          (V*)        *      -
+nw/wsj/03/wsj_0347   0    2           his   PRP$         (NP*         -    -   -   -          *       (ARG1*         *    (20)
+nw/wsj/03/wsj_0347   0    3         seven     CD        (NML*         -    -   -   -     (DATE*            *         *      -
+nw/wsj/03/wsj_0347   0    4            -    HYPH            *         -    -   -   -          *            *         *      -
+nw/wsj/03/wsj_0347   0    5          year     NN            *)        -    -   -   -          *)           *         *      -
+nw/wsj/03/wsj_0347   0    6          term     NN            *)      term   -   2   -          *            *)        *      -
+nw/wsj/03/wsj_0347   0    7          Nov.    NNP         (NP*         -    -   -   -     (DATE*   (ARGM-TMP*         *      -
+nw/wsj/03/wsj_0347   0    8            9      CD            *)        -    -   -   -          *)           *)        *      -
+nw/wsj/03/wsj_0347   0    9             ,      ,            *         -    -   -   -          *            *         *      -
+nw/wsj/03/wsj_0347   0   10    succeeding    VBG       (S(VP*    succeed  02   2   -          *   (ARGM-ADV*       (V*)     -
+nw/wsj/03/wsj_0347   0   11         Kenan    NNP         (NP*         -    -   -   -   (PERSON*            *    (ARG1*      -
+nw/wsj/03/wsj_0347   0   12         Evren    NNP         *))))        -    -   -   -          *)           *)        *)     -
+nw/wsj/03/wsj_0347   0   13             .      .           *))        -    -   -   -          *            *         *      -
+
+nw/wsj/03/wsj_0347   0    0            South    NNP  (TOP(S(NP(NP*            -    -   -   -   (GPE*   (ARG0*        *             *   (5|(13
+nw/wsj/03/wsj_0347   0    1           Africa    NNP              *            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0    2               's    POS              *)           -    -   -   -       *)       *        *             *        5)
+nw/wsj/03/wsj_0347   0    3       government     NN              *)   government   -   1   -       *        *)       *             *       13)
+nw/wsj/03/wsj_0347   0    4        dismissed    VBD           (VP*       dismiss  01   1   -       *      (V*)       *             *        -
+nw/wsj/03/wsj_0347   0    5          demands    NNS        (NP(NP*)       demand  01   2   -       *   (ARG1*      (V*)            *        -
+nw/wsj/03/wsj_0347   0    6               by     IN           (PP*            -    -   -   -       *        *   (ARG0*             *        -
+nw/wsj/03/wsj_0347   0    7            right     JJ   (NP(NP(ADJP*            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0    8               -    HYPH              *            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0    9             wing     NN              *)           -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   10    Conservatives   NNPS              *)           -    -   -   -    (ORG)       *        *             *        -
+nw/wsj/03/wsj_0347   0   11                ,      ,              *            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   12              the     DT        (NP(NP*            -    -   -   -       *        *        *             *       (5
+nw/wsj/03/wsj_0347   0   13           nation     NN              *        nation   -   1   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   14               's    POS              *)           -    -   -   -       *        *        *             *        5)
+nw/wsj/03/wsj_0347   0   15             main     JJ              *            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   16       opposition     NN              *            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   17            party     NN              *)           -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   18                ,      ,             *))           -    -   -   -       *        *        *)            *        -
+nw/wsj/03/wsj_0347   0   19              for     IN           (PP*            -    -   -   -       *        *   (ARG1*             *        -
+nw/wsj/03/wsj_0347   0   20        emergency     NN        (NP(NP*     emergency   -   1   -       *        *        *    (ARGM-ADJ*)       -
+nw/wsj/03/wsj_0347   0   21            talks    NNS              *)         talk  01   3   -       *        *        *           (V*)       -
+nw/wsj/03/wsj_0347   0   22               on     IN           (PP*            -    -   -   -       *        *        *        (ARG1*        -
+nw/wsj/03/wsj_0347   0   23         Pretoria    NNP     (NP(NP(NP*            -    -   -   -    (GPE)       *        *             *        -
+nw/wsj/03/wsj_0347   0   24               's    POS              *)           -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   25           recent     JJ              *            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   26        tolerance     NN              *)           -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   27               of     IN           (PP*            -    -   -   -       *        *        *             *        -
+nw/wsj/03/wsj_0347   0   28          dissent     NN    (NP*))))))))      dissent   -   3   -       *        *)       *)            *)       -
+nw/wsj/03/wsj_0347   0   29                .      .             *))           -    -   -   -       *        *        *             *        -
+
+nw/wsj/03/wsj_0347   0    0               The    DT          (TOP(S(NP*            -    -   -   -        *        (ARG0*         *             *             *   (13
+nw/wsj/03/wsj_0347   0    1        government    NN                   *)   government   -   1   -        *             *)        *             *             *    13)
+nw/wsj/03/wsj_0347   0    2              also    RB              (ADVP*)           -    -   -   -        *    (ARGM-DIS*)        *             *             *     -
+nw/wsj/03/wsj_0347   0    3             urged   VBD                (VP*          urge  01   1   -        *           (V*)        *             *             *     -
+nw/wsj/03/wsj_0347   0    4            whites   NNS                (NP*)           -    -   -   -        *        (ARG1*)   (ARG0*)            *             *     -
+nw/wsj/03/wsj_0347   0    5                to    TO              (S(VP*            -    -   -   -        *        (ARG2*         *             *             *     -
+nw/wsj/03/wsj_0347   0    6           refrain    VB                (VP*       refrain  01   1   -        *             *       (V*)            *             *     -
+nw/wsj/03/wsj_0347   0    7              from    IN                (PP*            -    -   -   -        *             *    (ARG1*             *             *     -
+nw/wsj/03/wsj_0347   0    8             panic    NN             (NP(NP*)           -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0    9              over    IN                (PP*            -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   10           growing    JJ             (NP(NP*            -    -   -   -        *             *         *    (ARGM-ADJ*)            *     -
+nw/wsj/03/wsj_0347   0   11             black    JJ                   *            -    -   -   -        *             *         *        (ARG0*)            *     -
+nw/wsj/03/wsj_0347   0   12          protests   NNS                   *)      protest  01   2   -        *             *         *           (V*)            *     -
+nw/wsj/03/wsj_0347   0   13                 ,     ,                   *            -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   14              such    JJ                (PP*            -    -   -   -        *             *         *        (ARG1*             *     -
+nw/wsj/03/wsj_0347   0   15                as    IN                   *            -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   16               the    DT             (NP(NP*            -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   17           massive    JJ                   *            -    -   -   -        *             *         *             *    (ARGM-EXT*)    -
+nw/wsj/03/wsj_0347   0   18    anti-apartheid    JJ                   *            -    -   -   -        *             *         *             *        (ARG2*)    -
+nw/wsj/03/wsj_0347   0   19             rally    NN                   *)        rally  01   1   -        *             *         *             *           (V*)    -
+nw/wsj/03/wsj_0347   0   20            Sunday   NNP                (NP*)           -    -   -   -    (DATE)            *         *             *    (ARGM-TMP*)    -
+nw/wsj/03/wsj_0347   0   21                on    IN                (PP*            -    -   -   -        *             *         *             *    (ARGM-LOC*     -
+nw/wsj/03/wsj_0347   0   22               the    DT             (NP(NP*            -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   23         outskirts   NNS                   *)           -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   24                of    IN                (PP*            -    -   -   -        *             *         *             *             *     -
+nw/wsj/03/wsj_0347   0   25            Soweto   NNP   (NP*))))))))))))))           -    -   -   -     (GPE)            *)        *)            *)            *)    -
+nw/wsj/03/wsj_0347   0   26                 .     .                  *))           -    -   -   -        *             *         *             *             *     -
+
+nw/wsj/03/wsj_0347   0    0    Researchers   NNP     (TOP(S(NP(NP*)            -    -   -   -       *   (ARG0*         *        *    (6
+nw/wsj/03/wsj_0347   0    1             in    IN              (PP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0    2        Belgium   NNP            (NP*)))            -    -   -   -    (GPE)       *)        *        *     6)
+nw/wsj/03/wsj_0347   0    3           said   VBD              (VP*            say  01   1   -       *      (V*)        *        *     -
+nw/wsj/03/wsj_0347   0    4           they   PRP       (SBAR(S(NP*)            -    -   -   -       *   (ARG1*    (ARG0*)       *    (6)
+nw/wsj/03/wsj_0347   0    5           have   VBP              (VP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0    6      developed   VBN              (VP*        develop  02   1   -       *        *       (V*)       *     -
+nw/wsj/03/wsj_0347   0    7              a    DT           (NP(NP*             -    -   -   -       *        *    (ARG1*        *     -
+nw/wsj/03/wsj_0347   0    8        genetic    JJ             (NML*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0    9    engineering    NN                 *)   engineering   -   2   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   10      technique    NN                 *)     technique   -   3   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   11            for    IN              (PP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   12       creating   VBG            (S(VP*         create  01   1   -       *        *         *      (V*)    -
+nw/wsj/03/wsj_0347   0   13         hybrid    JJ              (NP*             -    -   -   -       *        *         *   (ARG1*     -
+nw/wsj/03/wsj_0347   0   14         plants   NNS                 *)         plant   -   1   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   15            for    IN              (PP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   16              a    DT           (NP(NP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   17         number    NN                 *)        number   -   1   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   18             of    IN              (PP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   19          crops   NNS           (NP(NP*)          crop   -   2   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   20              ,     ,                 *             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   21           such    JJ              (PP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   22             as    IN                 *             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   23         cotton    NN              (NP*             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   24              ,     ,                 *             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   25       soybeans   NNS                 *             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   26            and    CC                 *             -    -   -   -       *        *         *        *     -
+nw/wsj/03/wsj_0347   0   27           rice    NN   *)))))))))))))))            -    -   -   -       *        *)        *)       *)    -
+nw/wsj/03/wsj_0347   0   28              .     .                *))            -    -   -   -       *        *         *        *     -
+
+nw/wsj/03/wsj_0347   0    0           The     DT  (TOP(S(NP(NP*            -    -   -   -       *   (ARG0*             *         *   (6
+nw/wsj/03/wsj_0347   0    1    scientists    NNS              *)           -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0    2            at     IN           (PP*            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0    3         Plant    NNP           (NP*            -    -   -   -   (ORG*        *             *         *    -
+nw/wsj/03/wsj_0347   0    4       Genetic    NNP              *            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0    5       Systems    NNP              *            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0    6          N.V.    NNP            *)))           -    -   -   -       *)       *)            *         *    6)
+nw/wsj/03/wsj_0347   0    7      isolated    VBD           (VP*       isolate  01   2   -       *      (V*)            *         *    -
+nw/wsj/03/wsj_0347   0    8             a     DT        (NP(NP*            -    -   -   -       *   (ARG1*        (ARG0*         *    -
+nw/wsj/03/wsj_0347   0    9          gene     NN              *)           -    -   -   -       *        *             *)        *    -
+nw/wsj/03/wsj_0347   0   10          that    WDT    (SBAR(WHNP*)           -    -   -   -       *        *      (R-ARG0*)        *    -
+nw/wsj/03/wsj_0347   0   11         could     MD         (S(VP*            -    -   -   -       *        *    (ARGM-MOD*)        *    -
+nw/wsj/03/wsj_0347   0   12          lead     VB           (VP*          lead  03   1   -       *        *           (V*)        *    -
+nw/wsj/03/wsj_0347   0   13            to     IN           (PP*            -    -   -   -       *        *        (ARG2*         *    -
+nw/wsj/03/wsj_0347   0   14             a     DT        (NP(NP*            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0   15    generation     NN              *)   generation   -   4   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0   16            of     IN           (PP*            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0   17        plants    NNS        (NP(NP*)        plant   -   2   -       *        *             *    (ARG0*)   -
+nw/wsj/03/wsj_0347   0   18    possessing    VBG           (VP*       possess  01   1   -       *        *             *       (V*)   -
+nw/wsj/03/wsj_0347   0   19             a     DT           (NP*            -    -   -   -       *        *             *    (ARG1*    -
+nw/wsj/03/wsj_0347   0   20          high     JJ          (NML*            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0   21            -    HYPH              *            -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0   22    production     NN              *)           -    -   -   -       *        *             *         *    -
+nw/wsj/03/wsj_0347   0   23         trait     NN   *))))))))))))           -    -   -   -       *        *)            *)        *)   -
+nw/wsj/03/wsj_0347   0   24             .      .             *))           -    -   -   -       *        *             *         *    -
+
+nw/wsj/03/wsj_0347   0    0              A     DT  (TOP(S(S(NP*           -    -   -   -            *       (ARG1*   (ARG0*   (ARG0*        *    (ARG1*     -
+nw/wsj/03/wsj_0347   0    1           bomb     NN             *)          -    -   -   -            *            *)       *)       *)       *         *     -
+nw/wsj/03/wsj_0347   0    2       exploded    VBD          (VP*      explode  01   1   -            *          (V*)       *        *        *         *    (2)
+nw/wsj/03/wsj_0347   0    3             at     IN          (PP*           -    -   -   -            *   (ARGM-LOC*        *        *        *         *     -
+nw/wsj/03/wsj_0347   0    4              a     DT       (NP(NP*           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0    5        leftist     JJ             *           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0    6          union     NN             *           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0    7           hall     NN             *)          -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0    8             in     IN          (PP*           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0    9            San    NNP          (NP*           -    -   -   -        (GPE*            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   10       Salvador    NNP          *))))          -    -   -   -            *)           *)       *        *        *         *     -
+nw/wsj/03/wsj_0347   0   11              ,      ,             *           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   12        killing    VBG     (S(VP(VP*         kill  01   1   -            *   (ARGM-ADV*      (V*)       *        *         *     -
+nw/wsj/03/wsj_0347   0   13             at     RB  (NP(QP(ADVP*           -    -   -   -   (CARDINAL*            *   (ARG1*        *        *         *     -
+nw/wsj/03/wsj_0347   0   14          least    RBS             *)          -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   15          eight     CD             *)          -    -   -   -            *)           *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   16         people    NNS            *))      people   -   1   -            *            *        *)       *        *         *     -
+nw/wsj/03/wsj_0347   0   17            and     CC             *           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   18       injuring    VBG          (VP*       injure  01   1   -            *            *        *      (V*)       *         *     -
+nw/wsj/03/wsj_0347   0   19          about     RB    (NP(NP(QP*           -    -   -   -   (CARDINAL*            *        *   (ARG1*   (ARG2*         *     -
+nw/wsj/03/wsj_0347   0   20            30      CD             *)          -    -   -   -            *)           *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   21         others    NNS             *)          -    -   -   -            *            *        *        *        *)        *     -
+nw/wsj/03/wsj_0347   0   22              ,      ,             *           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   23      including    VBG          (PP*      include  01   1   -            *            *        *        *      (V*)        *     -
+nw/wsj/03/wsj_0347   0   24            two     CD          (NP*           -    -   -   -    (CARDINAL)           *        *        *   (ARG1*         *     -
+nw/wsj/03/wsj_0347   0   25      Americans   NNPS      *))))))))          -    -   -   -        (NORP)           *)       *        *)       *)        *)    -
+nw/wsj/03/wsj_0347   0   26              ,      ,             *           -    -   -   -            *            *        *        *        *         *     -
+nw/wsj/03/wsj_0347   0   27    authorities    NNS          (NP*)   authority   -   3   -            *            *        *        *        *    (ARG0*)    -
+nw/wsj/03/wsj_0347   0   28           said    VBD          (VP*)         say  01   1   -            *            *        *        *        *       (V*)    -
+nw/wsj/03/wsj_0347   0   29              .      .            *))          -    -   -   -            *            *        *        *        *         *     -
+
+nw/wsj/03/wsj_0347   0    0           The     DT  (TOP(S(NP(NP*            -    -   -   -        *            *      (ARG0*   (ARG1*             *   (2
+nw/wsj/03/wsj_0347   0    1         blast     NN              *)        blast  03   4   -        *          (V*)          *)       *             *    -
+nw/wsj/03/wsj_0347   0    2             ,      ,              *            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0    3         which    WDT    (SBAR(WHNP*)           -    -   -   -        *   (ARGM-ADJ*    (R-ARG0*)       *             *    -
+nw/wsj/03/wsj_0347   0    4       wrecked    VBD         (S(VP*         wreck  01   1   -        *            *         (V*)       *             *    -
+nw/wsj/03/wsj_0347   0    5           the     DT        (NP(NP*            -    -   -   -        *            *      (ARG1*        *             *    -
+nw/wsj/03/wsj_0347   0    6    opposition     NN              *    opposition   -   3   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0    7         labor     NN              *         labor   -   3   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0    8         group     NN              *         group   -   1   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0    9            's    POS              *)           -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   10       offices    NNS           *))))       office   -   1   -        *            *)          *)       *             *    -
+nw/wsj/03/wsj_0347   0   11             ,      ,              *)           -    -   -   -        *            *           *        *)            *    2)
+nw/wsj/03/wsj_0347   0   12           was    VBD           (VP*            be  01   2   -        *            *           *      (V*)            *    -
+nw/wsj/03/wsj_0347   0   13           the     DT        (NP(NP*            -    -   -   -        *            *           *   (ARG2*             *    -
+nw/wsj/03/wsj_0347   0   14        latest    JJS              *)           -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   15            in     IN           (PP*            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   16             a     DT        (NP(NP*            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   17        series     NN              *)       series   -   1   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   18            of     IN           (PP*            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   19       attacks    NNS        (NP*))))           -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   20            in     IN           (PP*            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   21            El    NNP        (NP(NP*            -    -   -   -    (GPE*            *           *        *        (ARG0*    -
+nw/wsj/03/wsj_0347   0   22      Salvador    NNP              *            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   23            's    POS              *)           -    -   -   -        *)           *           *        *             *)   -
+nw/wsj/03/wsj_0347   0   24           10      CD     (ADJP(NML*            -    -   -   -   (DATE*            *           *        *    (ARGM-TMP*    -
+nw/wsj/03/wsj_0347   0   25            -    HYPH              *            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   26          year     NN              *)           -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   27            -    HYPH              *            -    -   -   -        *            *           *        *             *    -
+nw/wsj/03/wsj_0347   0   28           old     JJ              *)           -    -   -   -        *)           *           *        *             *)   -
+nw/wsj/03/wsj_0347   0   29         civil     JJ              *            -    -   -   -        *            *           *        *    (ARGM-MNR*)   -
+nw/wsj/03/wsj_0347   0   30           war     NN           *))))          war  01   1   -        *            *           *        *)          (V*)   -
+nw/wsj/03/wsj_0347   0   31             .      .             *))           -    -   -   -        *            *           *        *             *    -
+
+nw/wsj/03/wsj_0347   0    0       Hungary   NNP       (TOP(S(NP(NP*           -    -   -   -    (GPE)  (ARG0*   (ARG0*            *        -
+nw/wsj/03/wsj_0347   0    1            's   POS                   *)          -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0    2    Parliament   NNP                   *)          -    -   -   -    (ORG)       *)       *)           *        -
+nw/wsj/03/wsj_0347   0    3         voted   VBD                (VP*         vote  01   1   -       *      (V*)       *            *        -
+nw/wsj/03/wsj_0347   0    4            to    TO              (S(VP*           -    -   -   -       *   (ARG1*        *            *        -
+nw/wsj/03/wsj_0347   0    5          hold    VB                (VP*         hold  04   8   -       *        *      (V*)           *        -
+nw/wsj/03/wsj_0347   0    6             a    DT             (NP(NP*           -    -   -   -       *        *   (ARG1*            *      (10
+nw/wsj/03/wsj_0347   0    7      national    JJ                   *           -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0    8    referendum    NN                   *)          -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0    9            on    IN                (PP*           -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0   10            an    DT             (NP(NP*           -    -   -   -       *        *        *   (ARGM-ADV*        -
+nw/wsj/03/wsj_0347   0   11      election    NN                   *)    election   -   1   -       *        *        *            *)       -
+nw/wsj/03/wsj_0347   0   12            to    TO         (SBAR(S(VP*           -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0   13          fill    VB                (VP*         fill  01   2   -       *        *        *          (V*)       -
+nw/wsj/03/wsj_0347   0   14           the    DT             (NP(NP*           -    -   -   -       *        *        *       (ARG1*       (3
+nw/wsj/03/wsj_0347   0   15           new    JJ                   *           -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0   16          post    NN                   *)        post   -   3   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0   17            of    IN                (PP*           -    -   -   -       *        *        *            *        -
+nw/wsj/03/wsj_0347   0   18     president    NN   (NP*))))))))))))))   president   -   2   -       *        *)       *)           *)   10)|3)
+nw/wsj/03/wsj_0347   0   19             .     .                  *))          -    -   -   -       *        *        *            *        -
+
+nw/wsj/03/wsj_0347   0    0           The     DT  (TOP(S(NP(NP*            -    -   -   -        *        *            *            *        *         *   (ARG1*       (ARG1*      (10
+nw/wsj/03/wsj_0347   0    1     balloting     NN              *)           -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    2            to     TO    (SBAR(S(VP*            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    3        decide     VB           (VP*        decide  01   1   -        *      (V*)           *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    4          when    WRB  (SBAR(WHADVP*            -    -   -   -        *   (ARG1*   (ARGM-MNR*            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    5           and     CC              *            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    6           how    WRB              *)           -    -   -   -        *        *            *)           *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    7            to     TO         (S(VP*            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    8          fill     VB           (VP*          fill  01   2   -        *        *          (V*)           *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0    9           the     DT        (NP(NP*            -    -   -   -        *        *       (ARG1*       (ARG2*        *         *        *            *       (3
+nw/wsj/03/wsj_0347   0   10      position     NN              *)     position   -   5   -        *        *            *            *)       *         *        *            *        -
+nw/wsj/03/wsj_0347   0   11             ,      ,              *            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   12         which    WDT    (SBAR(WHNP*)           -    -   -   -        *        *            *     (R-ARG2*)       *         *        *            *        -
+nw/wsj/03/wsj_0347   0   13      replaces    VBZ         (S(VP*       replace  01   1   -        *        *            *          (V*)       *         *        *            *        -
+nw/wsj/03/wsj_0347   0   14             a     DT           (NP*            -    -   -   -        *        *            *       (ARG1*        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   15    collective     JJ              *            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   16    presidency     NN              *)           -    -   -   -        *        *            *            *)       *         *        *            *        -
+nw/wsj/03/wsj_0347   0   17         under     IN           (PP*            -    -   -   -        *        *            *   (ARGM-LOC*        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   18             a     DT        (NP(NP*            -    -   -   -        *        *            *            *   (ARG1*         *        *            *        -
+nw/wsj/03/wsj_0347   0   19          pact     NN              *)           -    -   -   -        *        *            *            *        *)        *        *            *        -
+nw/wsj/03/wsj_0347   0   20        signed    VBN           (VP*          sign  02   1   -        *        *            *            *      (V*)        *        *            *        -
+nw/wsj/03/wsj_0347   0   21            by     IN           (PP*            -    -   -   -        *        *            *            *   (ARG0*         *        *            *        -
+nw/wsj/03/wsj_0347   0   22           the     DT        (NP(NP*            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   23        ruling    VBG              *          rule  03   -   -        *        *            *            *        *       (V*)       *            *        -
+nw/wsj/03/wsj_0347   0   24    Socialists   NNPS              *)           -    -   -   -     (ORG)       *            *            *        *    (ARG0*)       *            *        -
+nw/wsj/03/wsj_0347   0   25           and     CC              *            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   26    opposition     NN           (NP*    opposition   -   3   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   27        groups    NNS      *)))))))))        group   -   1   -        *        *            *            *)       *)        *        *            *        -
+nw/wsj/03/wsj_0347   0   28             ,      ,     *))))))))))           -    -   -   -        *        *)           *)           *        *         *        *)           *)   10)|3)
+nw/wsj/03/wsj_0347   0   29            is    VBZ           (VP*            be  01   9   -        *        *            *            *        *         *      (V*)           *        -
+nw/wsj/03/wsj_0347   0   30            to     TO         (S(VP*            -    -   -   -        *        *            *            *        *         *   (ARG2*            *        -
+nw/wsj/03/wsj_0347   0   31            be     VB           (VP*            -    -   -   -        *        *            *            *        *         *        *            *        -
+nw/wsj/03/wsj_0347   0   32          held    VBN           (VP*          hold  04   8   -        *        *            *            *        *         *        *          (V*)       -
+nw/wsj/03/wsj_0347   0   33           Nov    NNP           (NP*            -    -   -   -    (DATE)       *            *            *        *         *        *   (ARGM-TMP*        -
+nw/wsj/03/wsj_0347   0   34             .      .       *))))))))           -    -   -   -        *        *            *            *        *         *        *)           *)       -
+
+nw/wsj/03/wsj_0347   0    0           The     DT      (TOP(S(NP*         -    -   -   -    (ORG*    (ARG0*            *            *     -
+nw/wsj/03/wsj_0347   0    1         State    NNP               *         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0    2    Department    NNP               *)        -    -   -   -        *)        *)           *            *     -
+nw/wsj/03/wsj_0347   0    3        denied    VBD            (VP*       deny  01   2   -        *       (V*)           *            *     -
+nw/wsj/03/wsj_0347   0    4        asylum     NN            (NP*)    asylum   -   1   -        *    (ARG1*)           *            *     -
+nw/wsj/03/wsj_0347   0    5            to     IN            (PP*         -    -   -   -        *    (ARG2*            *            *     -
+nw/wsj/03/wsj_0347   0    6             a     DT         (NP(NP*         -    -   -   -        *         *       (ARG0*            *   (17
+nw/wsj/03/wsj_0347   0    7    Vietnamese     JJ               *         -    -   -   -    (NORP)        *            *            *     -
+nw/wsj/03/wsj_0347   0    8           man     NN               *)       man   -   2   -        *         *            *)           *     -
+nw/wsj/03/wsj_0347   0    9           who     WP     (SBAR(WHNP*)        -    -   -   -        *         *     (R-ARG0*)      (ARG0*)    -
+nw/wsj/03/wsj_0347   0   10       escaped    VBD          (S(VP*     escape  01   2   -        *         *          (V*)           *     -
+nw/wsj/03/wsj_0347   0   11          from     IN            (PP*         -    -   -   -        *         *       (ARG1*            *     -
+nw/wsj/03/wsj_0347   0   12           his   PRP$            (NP*         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   13      homeland     NN              *))        -    -   -   -        *         *            *)           *     -
+nw/wsj/03/wsj_0347   0   14            by     IN            (PP*         -    -   -   -        *         *   (ARGM-MNR*            *     -
+nw/wsj/03/wsj_0347   0   15       lashing    VBG          (S(VP*       lash  01   3   -        *         *            *          (V*)    -
+nw/wsj/03/wsj_0347   0   16       himself    PRP            (NP*)        -    -   -   -        *         *            *       (ARG1*)    -
+nw/wsj/03/wsj_0347   0   17            to     IN            (PP*         -    -   -   -        *         *            *       (ARG2*     -
+nw/wsj/03/wsj_0347   0   18           the     DT         (NP(NP*         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   19        rudder     NN               *         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   20       housing     NN               *)   housing   -   2   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   21            of     IN            (PP*         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   22             a     DT            (NP*         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   23        tanker     NN            *))))        -    -   -   -        *         *            *            *)    -
+nw/wsj/03/wsj_0347   0   24           for     IN            (PP*         -    -   -   -        *         *            *   (ARGM-TMP*     -
+nw/wsj/03/wsj_0347   0   25           two     CD         (NP(NP*         -    -   -   -   (DATE*         *            *            *     -
+nw/wsj/03/wsj_0347   0   26          days    NNS               *)       day   -   2   -        *)        *            *            *     -
+nw/wsj/03/wsj_0347   0   27            in     IN            (PP*         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   28       monsoon     NN            (NP*         -    -   -   -        *         *            *            *     -
+nw/wsj/03/wsj_0347   0   29          seas    NNS   *)))))))))))))        -    -   -   -        *         *)           *)           *)   17)
+nw/wsj/03/wsj_0347   0   30             .      .              *))        -    -   -   -        *         *            *            *     -
+
+nw/wsj/03/wsj_0347   0    0                 A    DT  (TOP(S(NP(NP*         -    -   -   -          *        (ARG0*             *        *     -
+nw/wsj/03/wsj_0347   0    1         spokesman    NN              *)        -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0    2               for    IN           (PP*         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0    3        Democratic    JJ        (NP(NP*         -    -   -   -      (NORP)            *             *        *     -
+nw/wsj/03/wsj_0347   0    4              Sen.   NNP              *         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0    5              Pell   NNP              *)        -    -   -   -    (PERSON)            *             *        *     -
+nw/wsj/03/wsj_0347   0    6                of    IN           (PP*         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0    7             Rhode   NNP           (NP*         -    -   -   -      (GPE*             *             *        *     -
+nw/wsj/03/wsj_0347   0    8            Island   NNP          *)))))        -    -   -   -          *)            *)            *        *     -
+nw/wsj/03/wsj_0347   0    9              said   VBD           (VP*        say  01   1   -          *           (V*)            *        *     -
+nw/wsj/03/wsj_0347   0   10                 ,     ,              *         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0   11           however    RB         (ADVP*)        -    -   -   -          *    (ARGM-DIS*)            *        *     -
+nw/wsj/03/wsj_0347   0   12                 ,     ,              *         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0   13              that    IN         (SBAR*         -    -   -   -          *        (ARG1*             *        *     -
+nw/wsj/03/wsj_0347   0   14               the    DT         (S(NP*         -    -   -   -      (ORG*             *        (ARG0*        *     -
+nw/wsj/03/wsj_0347   0   15       Immigration   NNP          (NML*         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0   16               and    CC              *         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0   17    Naturalization   NNP              *)        -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0   18           Service   NNP              *)        -    -   -   -          *)            *             *)       *     -
+nw/wsj/03/wsj_0347   0   19             would    MD           (VP*         -    -   -   -          *             *    (ARGM-MOD*)       *     -
+nw/wsj/03/wsj_0347   0   20            review    VB           (VP*     review  01   1   -          *             *           (V*)       *     -
+nw/wsj/03/wsj_0347   0   21               the    DT        (NP(NP*         -    -   -   -          *             *        (ARG1*   (ARG0*   (17
+nw/wsj/03/wsj_0347   0   22          stowaway    NN              *         -    -   -   -          *             *             *        *     -
+nw/wsj/03/wsj_0347   0   23                's   POS              *)        -    -   -   -          *             *             *        *)   17)
+nw/wsj/03/wsj_0347   0   24           request    NN         *))))))   request  01   1   -          *             *)            *)     (V*)    -
+nw/wsj/03/wsj_0347   0   25                 .     .             *))        -    -   -   -          *             *             *        *     -
+
+#end document

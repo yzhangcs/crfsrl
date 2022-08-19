@@ -1,0 +1,75 @@
+#begin document (nw/wsj/10/wsj_1082); part 000
+nw/wsj/10/wsj_1082   0    0           Bob    NNP   (TOP(S(NP*           -    -   -   -        (ORG*   (ARG0*        *        *       (0
+nw/wsj/10/wsj_1082   0    1         Evans    NNP            *           -    -   -   -            *        *        *        *        -
+nw/wsj/10/wsj_1082   0    2          Inc.    NNP            *)          -    -   -   -            *)       *)       *        *        0)
+nw/wsj/10/wsj_1082   0    3          said    VBD         (VP*          say  01   1   -            *      (V*)       *        *        -
+nw/wsj/10/wsj_1082   0    4           its   PRP$  (SBAR(S(NP*           -    -   -   -            *   (ARG1*   (ARG0*        *       (0)
+nw/wsj/10/wsj_1082   0    5         board     NN            *)       board   -   4   -            *        *        *)       *        -
+nw/wsj/10/wsj_1082   0    6    authorized    VBD         (VP*    authorize  01   1   -            *        *      (V*)       *        -
+nw/wsj/10/wsj_1082   0    7           the     DT      (NP(NP*           -    -   -   -            *        *   (ARG1*        *       (1
+nw/wsj/10/wsj_1082   0    8      purchase     NN            *)    purchase  01   1   -            *        *        *      (V*)       -
+nw/wsj/10/wsj_1082   0    9            of     IN         (PP*           -    -   -   -            *        *        *   (ARG1*        -
+nw/wsj/10/wsj_1082   0   10            as     RB   (NP(NP(QP*           -    -   -   -   (CARDINAL*        *        *        *        -
+nw/wsj/10/wsj_1082   0   11          many     JJ            *           -    -   -   -            *        *        *        *        -
+nw/wsj/10/wsj_1082   0   12            as     IN            *           -    -   -   -            *        *        *        *        -
+nw/wsj/10/wsj_1082   0   13      500,000      CD            *)          -    -   -   -            *)       *        *        *        -
+nw/wsj/10/wsj_1082   0   14        shares    NNS            *)       share   -   2   -            *        *        *        *        -
+nw/wsj/10/wsj_1082   0   15            of     IN         (PP*           -    -   -   -            *        *        *        *        -
+nw/wsj/10/wsj_1082   0   16           its   PRP$         (NP*           -    -   -   -            *        *        *        *    (2|(0)
+nw/wsj/10/wsj_1082   0   17        common     JJ    *)))))))))          -    -   -   -            *        *)       *)       *)    2)|1)
+nw/wsj/10/wsj_1082   0   18             .      .           *))          -    -   -   -            *        *        *        *        -
+
+nw/wsj/10/wsj_1082   0    0             The    DT  (TOP(S(NP(NP*             -    -   -   -   *       (ARG1*             *            *        (ARG1*   (2
+nw/wsj/10/wsj_1082   0    1           stock    NN              *)         stock   -   1   -   *            *)            *            *             *    -
+nw/wsj/10/wsj_1082   0    2               ,     ,              *             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0    3              to    TO    (SBAR(S(VP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0    4              be    VB           (VP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0    5       purchased   VBN           (VP*       purchase  01   1   -   *          (V*)            *            *             *    -
+nw/wsj/10/wsj_1082   0    6              on    IN        (PP(PP*             -    -   -   -   *   (ARGM-MNR*             *            *             *    -
+nw/wsj/10/wsj_1082   0    7             the    DT           (NP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0    8            open    JJ              *             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0    9          market    NN             *))        market   -   1   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   10              or    CC              *             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   11         through    IN           (PP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   12       privately    RB      (NP(ADJP*             -    -   -   -   *            *    (ARGM-MNR*)  (ARGM-MNR*             *    -
+nw/wsj/10/wsj_1082   0   13      negotiated   VBN              *)     negotiate  01   -   -   *            *           (V*)           *)            *    -
+nw/wsj/10/wsj_1082   0   14    transactions   NNS       *))))))))   transaction  01   1   -   *            *)       (ARG2*)         (V*)            *    -
+nw/wsj/10/wsj_1082   0   15               ,     ,              *)            -    -   -   -   *            *             *            *             *)   2)
+nw/wsj/10/wsj_1082   0   16            will    MD           (VP*             -    -   -   -   *            *             *            *    (ARGM-MOD*)   -
+nw/wsj/10/wsj_1082   0   17              be    VB           (VP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   18            held   VBN           (VP*           hold  01   5   -   *            *             *            *           (V*)   -
+nw/wsj/10/wsj_1082   0   19              as    IN           (PP*             -    -   -   -   *            *             *            *        (ARG3*    -
+nw/wsj/10/wsj_1082   0   20        treasury    NN        (NP(NP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   21          shares   NNS              *)         share   -   2   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   22             for    IN           (PP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   23           stock    NN        (NP(NP*          stock   -   1   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   24         options   NNS              *)        option   -   1   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   25              or    CC              *             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   26           other    JJ           (NP*             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   27         general    JJ              *             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   28       corporate    JJ              *             -    -   -   -   *            *             *            *             *    -
+nw/wsj/10/wsj_1082   0   29        purposes   NNS       *))))))))       purpose   -   2   -   *            *             *            *             *)   -
+nw/wsj/10/wsj_1082   0   30               .     .             *))            -    -   -   -   *            *             *            *             *    -
+
+nw/wsj/10/wsj_1082   0   0        The    DT  (TOP(S(NP*         -    -   -   -        *       (ARG1*   (1
+nw/wsj/10/wsj_1082   0   1    program    NN           *)   program   -   1   -        *            *)   1)
+nw/wsj/10/wsj_1082   0   2    expires   VBZ        (VP*     expire  01   1   -        *          (V*)   -
+nw/wsj/10/wsj_1082   0   3      April   NNP        (NP*         -    -   -   -   (DATE*   (ARGM-TMP*    -
+nw/wsj/10/wsj_1082   0   4        27     CD          *))        -    -   -   -        *)           *)   -
+nw/wsj/10/wsj_1082   0   5          .     .          *))        -    -   -   -        *            *    -
+
+nw/wsj/10/wsj_1082   0    0            The    DT  (TOP(S(NP*       -    -   -   -            *       (ARG0*   (0
+nw/wsj/10/wsj_1082   0    1     restaurant    NN           *       -    -   -   -            *            *    -
+nw/wsj/10/wsj_1082   0    2       operator    NN           *)      -    -   -   -            *            *)   0)
+nw/wsj/10/wsj_1082   0    3            had   VBD        (VP*     have  03   1   -            *          (V*)   -
+nw/wsj/10/wsj_1082   0    4          32.2     CD  (NP(NP(QP*       -    -   -   -   (CARDINAL*       (ARG1*    -
+nw/wsj/10/wsj_1082   0    5        million    CD           *)      -    -   -   -            *)           *    -
+nw/wsj/10/wsj_1082   0    6         shares   NNS           *)   share   -   2   -            *            *    -
+nw/wsj/10/wsj_1082   0    7    outstanding    JJ     (ADJP*))      -    -   -   -            *            *)   -
+nw/wsj/10/wsj_1082   0    8             as    IN        (PP*       -    -   -   -            *   (ARGM-TMP*    -
+nw/wsj/10/wsj_1082   0    9             of    IN        (PP*       -    -   -   -            *            *    -
+nw/wsj/10/wsj_1082   0   10          Sept.   NNP        (NP*       -    -   -   -       (DATE*            *    -
+nw/wsj/10/wsj_1082   0   11            29     CD        *))))      -    -   -   -            *)           *)   -
+nw/wsj/10/wsj_1082   0   12              .     .          *))      -    -   -   -            *            *    -
+
+#end document

@@ -1,0 +1,656 @@
+#begin document (nw/wsj/05/wsj_0556); part 000
+nw/wsj/05/wsj_0556   0    0          R.H.    NNP  (TOP(S(NP(NP*      -    -   -   -       (ORG*             *        (ARG0*            *            *   -
+nw/wsj/05/wsj_0556   0    1          Macy    NNP              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0    2             &     CC              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0    3           Co.    NNP              *)     -    -   -   -           *)            *             *            *            *   -
+nw/wsj/05/wsj_0556   0    4             ,      ,              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0    5           the     DT           (NP*      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0    6       closely     RB         (ADJP*      -    -   -   -           *    (ARGM-MNR*)            *            *            *   -
+nw/wsj/05/wsj_0556   0    7          held    VBN              *)   hold  01   -   -           *           (V*)            *            *            *   -
+nw/wsj/05/wsj_0556   0    8    department     NN          (NML*      -    -   -   -           *        (ARG1*             *            *            *   -
+nw/wsj/05/wsj_0556   0    9         store     NN              *)     -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   10         chain     NN              *)     -    -   -   -           *             *)            *            *            *   -
+nw/wsj/05/wsj_0556   0   11             ,      ,              *)     -    -   -   -           *             *             *)           *            *   -
+nw/wsj/05/wsj_0556   0   12          said    VBD           (VP*     say  01   -   -           *             *           (V*)           *            *   -
+nw/wsj/05/wsj_0556   0   13            in     IN           (PP*      -    -   -   -           *             *    (ARGM-LOC*            *            *   -
+nw/wsj/05/wsj_0556   0   14             a     DT           (NP*      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   15     financial     JJ              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   16        filing     NN             *))     -    -   -   -           *             *             *)           *            *   -
+nw/wsj/05/wsj_0556   0   17        Friday    NNP           (NP*)     -    -   -   -       (DATE)            *    (ARGM-TMP*)           *            *   -
+nw/wsj/05/wsj_0556   0   18          that     IN         (SBAR*      -    -   -   -           *             *        (ARG1*            *            *   -
+nw/wsj/05/wsj_0556   0   19           its   PRP$      (S(NP(NP*      -    -   -   -           *             *             *            *       (ARG1*   -
+nw/wsj/05/wsj_0556   0   20         sales    NNS              *)     -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   21           for     IN           (PP*      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   22           the     DT        (NP(NP*      -    -   -   -      (DATE*             *             *       (ARG1*            *   -
+nw/wsj/05/wsj_0556   0   23        fiscal     JJ              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   24        fourth     JJ              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   25       quarter     NN              *)     -    -   -   -           *             *             *            *)           *   -
+nw/wsj/05/wsj_0556   0   26         ended    VBD           (VP*     end  01   -   -           *             *             *          (V*)           *   -
+nw/wsj/05/wsj_0556   0   27          July    NNP           (NP*      -    -   -   -           *             *             *   (ARGM-TMP*            *   -
+nw/wsj/05/wsj_0556   0   28           29      CD          *)))))     -    -   -   -           *)            *             *            *)           *)  -
+nw/wsj/05/wsj_0556   0   29          were    VBD           (VP*      be  01   -   -           *             *             *            *          (V*)  -
+nw/wsj/05/wsj_0556   0   30            up     RB         (ADVP*      -    -   -   -           *             *             *            *       (ARG2*   -
+nw/wsj/05/wsj_0556   0   31           10      CD           (NP*      -    -   -   -   (PERCENT*             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   32             %     NN              *)     -    -   -   -           *)            *             *            *            *   -
+nw/wsj/05/wsj_0556   0   33            to     IN           (PP*      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   34             $      $        (NP(QP*      -    -   -   -     (MONEY*             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   35         1.59      CD              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   36       billion     CD           *))))     -    -   -   -           *)            *             *            *            *)  -
+nw/wsj/05/wsj_0556   0   37       against     IN           (PP*      -    -   -   -           *             *             *            *   (ARGM-PRD*   -
+nw/wsj/05/wsj_0556   0   38             $      $     (NP(NP(QP*      -    -   -   -     (MONEY*             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   39         1.44      CD              *      -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   40       billion     CD             *))     -    -   -   -           *)            *             *            *            *   -
+nw/wsj/05/wsj_0556   0   41             a     DT      (ADVP(NP*      -    -   -   -      (DATE*             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   42          year     NN              *)     -    -   -   -           *             *             *            *            *   -
+nw/wsj/05/wsj_0556   0   43       earlier    RBR        *)))))))     -    -   -   -           *)            *             *)           *            *)  -
+nw/wsj/05/wsj_0556   0   44             .      .             *))     -    -   -   -           *             *             *            *            *   -
+
+nw/wsj/05/wsj_0556   0    0    Comparable    JJ  (TOP(S(NP(NP*    -    -   -   -           *   (ARG1*   -
+nw/wsj/05/wsj_0556   0    1         store    NN              *    -    -   -   -           *        *   -
+nw/wsj/05/wsj_0556   0    2         sales   NNS              *)   -    -   -   -           *        *   -
+nw/wsj/05/wsj_0556   0    3           for    IN           (PP*    -    -   -   -           *        *   -
+nw/wsj/05/wsj_0556   0    4           the    DT           (NP*    -    -   -   -      (DATE*        *   -
+nw/wsj/05/wsj_0556   0    5       quarter    NN            *)))   -    -   -   -           *)       *)  -
+nw/wsj/05/wsj_0556   0    6          were   VBD           (VP*    be  01   -   -           *      (V*)  -
+nw/wsj/05/wsj_0556   0    7            up    RB         (ADVP*    -    -   -   -           *   (ARG2*   -
+nw/wsj/05/wsj_0556   0    8          7.3     CD           (NP*    -    -   -   -   (PERCENT*        *   -
+nw/wsj/05/wsj_0556   0    9             %    NN            *)))   -    -   -   -           *)       *)  -
+nw/wsj/05/wsj_0556   0   10             .     .             *))   -    -   -   -           *        *   -
+
+nw/wsj/05/wsj_0556   0    0        The     DT  (TOP(S(NP(NP*    -    -   -   -         *       (ARG1*   -
+nw/wsj/05/wsj_0556   0    1        net     JJ              *    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0    2       loss     NN              *)   -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0    3        for     IN           (PP*    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0    4        the     DT           (NP*    -    -   -   -    (DATE*            *   -
+nw/wsj/05/wsj_0556   0    5    quarter     NN            *)))   -    -   -   -         *)           *)  -
+nw/wsj/05/wsj_0556   0    6        was    VBD           (VP*    be  01   -   -         *          (V*)  -
+nw/wsj/05/wsj_0556   0    7          $      $        (NP(QP*    -    -   -   -   (MONEY*       (ARG2*   -
+nw/wsj/05/wsj_0556   0    8      43.1      CD              *    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0    9    million     CD             *))   -    -   -   -         *)           *)  -
+nw/wsj/05/wsj_0556   0   10    against     IN           (PP*    -    -   -   -         *   (ARGM-PRD*   -
+nw/wsj/05/wsj_0556   0   11          a     DT        (NP(NP*    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0   12       year     NN         (ADJP*    -    -   -   -    (DATE*            *   -
+nw/wsj/05/wsj_0556   0   13         -    HYPH              *    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0   14    earlier    JJR              *)   -    -   -   -         *)           *   -
+nw/wsj/05/wsj_0556   0   15       loss     NN              *)   -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0   16         of     IN           (PP*    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0   17          $      $        (NP(QP*    -    -   -   -   (MONEY*            *   -
+nw/wsj/05/wsj_0556   0   18       106      CD              *    -    -   -   -         *            *   -
+nw/wsj/05/wsj_0556   0   19    million     CD         *))))))   -    -   -   -         *)           *)  -
+nw/wsj/05/wsj_0556   0   20          .      .             *))   -    -   -   -         *            *   -
+
+nw/wsj/05/wsj_0556   0    0              The     DT  (TOP(S(NP(NP*         -    -   -   -        *       (ARG2*   -
+nw/wsj/05/wsj_0556   0    1             loss     NN              *)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0    2               in     IN           (PP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0    3              the     DT        (NP(NP*         -    -   -   -   (DATE*            *   -
+nw/wsj/05/wsj_0556   0    4           fourth     JJ              *         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0    5          quarter     NN              *)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0    6               of     IN           (PP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0    7            1988      CD       (NP*)))))        -    -   -   -        *)           *)  -
+nw/wsj/05/wsj_0556   0    8        reflected    VBN           (VP*    reflect  01   -   -        *          (V*)  -
+nw/wsj/05/wsj_0556   0    9               in     IN           (PP*         -    -   -   -        *   (ARGM-DIS*   -
+nw/wsj/05/wsj_0556   0   10             part     NN          (NP*))        -    -   -   -        *            *)  -
+nw/wsj/05/wsj_0556   0   11         expenses    NNS     (NP(NP(NP*)        -    -   -   -        *       (ARG1*   -
+nw/wsj/05/wsj_0556   0   12              for     IN           (PP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   13               an     DT        (NP(NP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   14     unsuccessful     JJ              *         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   15              bid     NN              *)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   16              for     IN           (PP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   17        Federated    NNP           (NP*         -    -   -   -    (ORG*            *   -
+nw/wsj/05/wsj_0556   0   18       Department    NNP              *         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   19           Stores   NNPS              *         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   20             Inc.    NNP          *)))))        -    -   -   -        *)           *   -
+nw/wsj/05/wsj_0556   0   21                ,      ,              *         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   22               as     RB        (CONJP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   23             well     RB              *         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   24               as     IN              *)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   25              the     DT        (NP(NP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   26    restructuring     NN              *)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   27               of     IN           (PP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   28             some     DT        (NP(NP*)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   29               of     IN           (PP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   30              its   PRP$           (NP*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   31       department     NN          (NML*         -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   32            store     NN              *)        -    -   -   -        *            *   -
+nw/wsj/05/wsj_0556   0   33       operations    NNS        *)))))))        -    -   -   -        *            *)  -
+nw/wsj/05/wsj_0556   0   34                .      .             *))        -    -   -   -        *            *   -
+
+nw/wsj/05/wsj_0556   0    0         For    IN  (TOP(S(PP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0    1         the    DT        (NP*   -   -   -   -      (DATE*   -
+nw/wsj/05/wsj_0556   0    2        year    NN          *))  -   -   -   -           *)  -
+nw/wsj/05/wsj_0556   0    3           ,     ,           *   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0    4       sales   NNS        (NP*)  -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0    5        were   VBD        (VP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0    6          up    RB      (ADVP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0    7        5.6     CD        (NP*   -   -   -   -   (PERCENT*   -
+nw/wsj/05/wsj_0556   0    8           %    NN           *)  -   -   -   -           *)  -
+nw/wsj/05/wsj_0556   0    9          to    IN        (PP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0   10           $     $     (NP(QP*   -   -   -   -     (MONEY*   -
+nw/wsj/05/wsj_0556   0   11       6.97     CD           *   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0   12     billion    CD        *))))  -   -   -   -           *)  -
+nw/wsj/05/wsj_0556   0   13    compared   VBN        (PP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0   14        with    IN        (PP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0   15           $     $  (NP(NP(QP*   -   -   -   -     (MONEY*   -
+nw/wsj/05/wsj_0556   0   16       6.61     CD           *   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0   17     billion    CD          *))  -   -   -   -           *)  -
+nw/wsj/05/wsj_0556   0   18          in    IN        (PP*   -   -   -   -           *   -
+nw/wsj/05/wsj_0556   0   19      fiscal    JJ        (NP*   -   -   -   -      (DATE*   -
+nw/wsj/05/wsj_0556   0   20       1988     CD      *))))))  -   -   -   -           *)  -
+nw/wsj/05/wsj_0556   0   21           .     .          *))  -   -   -   -           *   -
+
+nw/wsj/05/wsj_0556   0    0           Sales    NNS   (TOP(S(NP(NP*)        -    -   -   -        *   (ARG2*   -
+nw/wsj/05/wsj_0556   0    1             for     IN            (PP*         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0    2            both     DT            (NP*         -    -   -   -   (DATE*        *   -
+nw/wsj/05/wsj_0556   0    3           years    NNS             *)))        -    -   -   -        *)       *)  -
+nw/wsj/05/wsj_0556   0    4         reflect    VBP            (VP*    reflect  01   -   -        *      (V*)  -
+nw/wsj/05/wsj_0556   0    5             12      CD     (NP(NP(NML*         -    -   -   -   (DATE*   (ARG1*   -
+nw/wsj/05/wsj_0556   0    6              -    HYPH               *         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0    7           month     NN               *)        -    -   -   -        *)       *   -
+nw/wsj/05/wsj_0556   0    8    performances    NNS               *)        -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0    9             for     IN            (PP*         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0   10            each     DT         (NP(NP*         -    -   -   -   (DATE*        *   -
+nw/wsj/05/wsj_0556   0   11            year     NN               *)        -    -   -   -        *)       *   -
+nw/wsj/05/wsj_0556   0   12              of     IN            (PP*         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0   13              I.    NNP         (NP(NP*         -    -   -   -    (ORG*        *   -
+nw/wsj/05/wsj_0556   0   14          Magnin    NNP               *)        -    -   -   -        *)       *   -
+nw/wsj/05/wsj_0556   0   15               ,      ,               *         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0   16         Bullock    NNP            (NP*         -    -   -   -    (ORG*        *   -
+nw/wsj/05/wsj_0556   0   17              's    POS               *)        -    -   -   -        *)       *   -
+nw/wsj/05/wsj_0556   0   18               ,      ,               *         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0   19             and     CC               *         -    -   -   -        *        *   -
+nw/wsj/05/wsj_0556   0   20        Bullocks    NNP            (NP*         -    -   -   -    (ORG*        *   -
+nw/wsj/05/wsj_0556   0   21        Wilshire    NNP         *)))))))        -    -   -   -        *)       *)  -
+nw/wsj/05/wsj_0556   0   22               .      .              *))        -    -   -   -        *        *   -
+
+nw/wsj/05/wsj_0556   0   0          Macy   NNP   (TOP(S(NP*)        -    -   -   -         (ORG)      (ARG0*)  -
+nw/wsj/05/wsj_0556   0   1      acquired   VBD         (VP*    acquire  01   -   -            *          (V*)  -
+nw/wsj/05/wsj_0556   0   2         those    DT         (NP*         -    -   -   -            *       (ARG1*   -
+nw/wsj/05/wsj_0556   0   3         three    CD            *         -    -   -   -    (CARDINAL)           *   -
+nw/wsj/05/wsj_0556   0   4    businesses   NNS            *)        -    -   -   -            *            *)  -
+nw/wsj/05/wsj_0556   0   5            in    IN         (PP*         -    -   -   -            *   (ARGM-TMP*   -
+nw/wsj/05/wsj_0556   0   6           May   NNP         (NP*         -    -   -   -       (DATE*            *   -
+nw/wsj/05/wsj_0556   0   7         1988     CD          *)))        -    -   -   -            *)           *)  -
+nw/wsj/05/wsj_0556   0   8             .     .           *))        -    -   -   -            *            *   -
+
+nw/wsj/05/wsj_0556   0    0              On    IN  (TOP(S(PP*         -    -   -   -           *        *   (ARGM-ADV*   -
+nw/wsj/05/wsj_0556   0    1               a    DT        (NP*         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0    2      comparable    JJ       (NML*         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0    3           store    NN           *)        -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0    4           basis    NN          *))        -    -   -   -           *        *            *)  -
+nw/wsj/05/wsj_0556   0    5               ,     ,           *         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0    6       including   VBG        (PP*    include  01   -   -           *      (V*)  (ARGM-ADV*   -
+nw/wsj/05/wsj_0556   0    7             the    DT     (NP(NP*         -    -   -   -           *   (ARG1*            *   -
+nw/wsj/05/wsj_0556   0    8             new    JJ           *         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0    9    acquisitions   NNS           *)        -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0   10             for    IN        (PP*         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0   11            both    DT        (NP*         -    -   -   -      (DATE*        *            *   -
+nw/wsj/05/wsj_0556   0   12           years   NNS        *))))        -    -   -   -           *)       *)           *)  -
+nw/wsj/05/wsj_0556   0   13               ,     ,           *         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0   14           sales   NNS     (NP(NP*)        -    -   -   -           *        *       (ARG1*   -
+nw/wsj/05/wsj_0556   0   15             for    IN        (PP*         -    -   -   -           *        *            *   -
+nw/wsj/05/wsj_0556   0   16          fiscal    JJ        (NP*         -    -   -   -      (DATE*        *            *   -
+nw/wsj/05/wsj_0556   0   17           1989     CD         *)))        -    -   -   -           *)       *            *)  -
+nw/wsj/05/wsj_0556   0   18            were   VBD        (VP*         be  01   -   -           *        *          (V*)  -
+nw/wsj/05/wsj_0556   0   19              up    RB      (ADVP*         -    -   -   -           *        *       (ARG2*   -
+nw/wsj/05/wsj_0556   0   20            1.9     CD        (NP*         -    -   -   -   (PERCENT*        *            *   -
+nw/wsj/05/wsj_0556   0   21               %    NN         *)))        -    -   -   -           *)       *            *)  -
+nw/wsj/05/wsj_0556   0   22               .     .          *))        -    -   -   -           *        *            *   -
+
+nw/wsj/05/wsj_0556   0    0        Macy   NNP   (TOP(S(NP*)       -    -   -   -      (ORG)   (ARG0*)  -
+nw/wsj/05/wsj_0556   0    1    reported   VBD         (VP*    report  01   -   -         *       (V*)  -
+nw/wsj/05/wsj_0556   0    2           a    DT      (NP(NP*        -    -   -   -         *    (ARG1*   -
+nw/wsj/05/wsj_0556   0    3         net    JJ            *        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    4        loss    NN            *)       -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    5         for    IN         (PP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    6      fiscal    JJ         (NP*        -    -   -   -    (DATE*         *   -
+nw/wsj/05/wsj_0556   0    7       1989     CD           *))       -    -   -   -         *)        *   -
+nw/wsj/05/wsj_0556   0    8          of    IN         (PP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    9           $     $      (NP(QP*        -    -   -   -   (MONEY*         *   -
+nw/wsj/05/wsj_0556   0   10       53.7     CD            *        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   11     million    CD          *)))       -    -   -   -         *)        *   -
+nw/wsj/05/wsj_0556   0   12    compared   VBN         (PP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   13        with    IN         (PP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   14           a    DT      (NP(NP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   15         net    JJ            *        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   16        loss    NN            *)       -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   17          of    IN         (PP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   18           $     $   (NP(NP(QP*        -    -   -   -   (MONEY*         *   -
+nw/wsj/05/wsj_0556   0   19      188.2     CD            *        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   20     million    CD           *))       -    -   -   -         *)        *   -
+nw/wsj/05/wsj_0556   0   21         for    IN         (PP*        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   22      fiscal    JJ         (NP*        -    -   -   -    (DATE*         *   -
+nw/wsj/05/wsj_0556   0   23       1988     CD    *)))))))))       -    -   -   -         *)        *)  -
+nw/wsj/05/wsj_0556   0   24           .     .           *))       -    -   -   -         *         *   -
+
+nw/wsj/05/wsj_0556   0    0             The     DT  (TOP(S(NP(NP(NP(NP*          -    -   -   -           *      (ARG1*        *         *       (ARG1*   -
+nw/wsj/05/wsj_0556   0    1         company     NN                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    2              's    POS                    *)         -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    3        earnings    NNS                    *)         -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    4          before     IN                 (PP*          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    5        interest     NN                 (NP*          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    6               ,      ,                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    7           taxes    NNS                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    8             and     CC                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0    9    depreciation     NN                  *)))         -    -   -   -           *           *)       *         *            *   -
+nw/wsj/05/wsj_0556   0   10               ,      ,                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   11           which    WDT          (SBAR(WHNP*)         -    -   -   -           *    (R-ARG1*)       *         *            *   -
+nw/wsj/05/wsj_0556   0   12     bondholders    NNS               (S(NP*)         -    -   -   -           *      (ARG0*)       *         *            *   -
+nw/wsj/05/wsj_0556   0   13             use    VBP               (VP*)))        use  01   -   -           *         (V*)       *         *            *   -
+nw/wsj/05/wsj_0556   0   14               a     DT              (NP(NP*          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   15     measurement     NN                    *)         -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   16              of     IN                 (PP*          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   17             the     DT              (NP(NP*          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   18           chain     NN                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   19              's    POS                    *)         -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   20         ability     NN                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   21              to     TO               (S(VP*          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   22             pay     VB                 (VP*         pay  01   -   -           *           *      (V*)        *            *   -
+nw/wsj/05/wsj_0556   0   23             its   PRP$                 (NP*          -    -   -   -           *           *   (ARG3*         *            *   -
+nw/wsj/05/wsj_0556   0   24        existing    VBG                    *       exist  01   -   -           *           *        *       (V*)           *   -
+nw/wsj/05/wsj_0556   0   25            debt     NN              *)))))))         -    -   -   -           *           *        *)   (ARG1*)           *   -
+nw/wsj/05/wsj_0556   0   26               ,      ,                    *)         -    -   -   -           *           *        *         *            *)  -
+nw/wsj/05/wsj_0556   0   27       increased    VBD                 (VP*    increase  01   1   -           *           *        *         *          (V*)  -
+nw/wsj/05/wsj_0556   0   28             11      CD                 (NP*          -    -   -   -   (PERCENT*           *        *         *       (ARG2*   -
+nw/wsj/05/wsj_0556   0   29               %     NN                    *)         -    -   -   -           *)          *        *         *            *)  -
+nw/wsj/05/wsj_0556   0   30              in     IN                 (PP*          -    -   -   -           *           *        *         *   (ARGM-TMP*   -
+nw/wsj/05/wsj_0556   0   31          fiscal     JJ                 (NP*          -    -   -   -      (DATE*           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   32           1989      CD                   *))         -    -   -   -           *)          *        *         *            *)  -
+nw/wsj/05/wsj_0556   0   33              to     IN                 (PP*          -    -   -   -           *           *        *         *       (ARG4*   -
+nw/wsj/05/wsj_0556   0   34               $      $              (NP(QP*          -    -   -   -     (MONEY*           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   35          926.1      CD                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   36         million     CD                  *)))         -    -   -   -           *)          *        *         *            *)  -
+nw/wsj/05/wsj_0556   0   37            from     IN                 (PP*          -    -   -   -           *           *        *         *       (ARG3*   -
+nw/wsj/05/wsj_0556   0   38               $      $              (NP(QP*          -    -   -   -     (MONEY*           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   39          833.6      CD                    *          -    -   -   -           *           *        *         *            *   -
+nw/wsj/05/wsj_0556   0   40         million     CD                 *))))         -    -   -   -           *)          *        *         *            *)  -
+nw/wsj/05/wsj_0556   0   41               .      .                   *))         -    -   -   -           *           *        *         *            *   -
+
+nw/wsj/05/wsj_0556   0   0             The    DT  (TOP(S(NP*         -    -   -   -         *   (ARG2*   -
+nw/wsj/05/wsj_0556   0   1               $     $    (NML(QP*         -    -   -   -   (MONEY*        *   -
+nw/wsj/05/wsj_0556   0   2          833.6     CD           *         -    -   -   -         *        *   -
+nw/wsj/05/wsj_0556   0   3         million    CD          *))        -    -   -   -         *)       *   -
+nw/wsj/05/wsj_0556   0   4         figures   NNS           *)        -    -   -   -         *        *)  -
+nw/wsj/05/wsj_0556   0   5        includes   VBZ        (VP*    include  01   -   -         *      (V*)  -
+nw/wsj/05/wsj_0556   0   6             the    DT        (NP*         -    -   -   -         *   (ARG1*   -
+nw/wsj/05/wsj_0556   0   7             new    JJ           *         -    -   -   -         *        *   -
+nw/wsj/05/wsj_0556   0   8    acquisitions   NNS          *))        -    -   -   -         *        *)  -
+nw/wsj/05/wsj_0556   0   9               .     .          *))        -    -   -   -         *        *   -
+
+nw/wsj/05/wsj_0556   0    0       Excluding   VBG  (TOP(S(PP*    exclude  01   1   -         *      (V*)   (ARGM-ADV*   -
+nw/wsj/05/wsj_0556   0    1           those    DT        (NP*         -    -   -   -         *   (ARG1*             *   -
+nw/wsj/05/wsj_0556   0    2      businesses   NNS          *))        -    -   -   -         *        *)            *)  -
+nw/wsj/05/wsj_0556   0    3               ,     ,           *         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0    4        earnings   NNS     (NP(NP*)        -    -   -   -         *        *        (ARG1*   -
+nw/wsj/05/wsj_0556   0    5          before    IN        (PP*         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0    6        interest    NN        (NP*         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0    7               ,     ,           *         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0    8           taxes   NNS           *         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0    9             and    CC           *         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0   10    depreciation    NN          *))        -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0   11             for    IN        (PP*         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0   12           1988     CD      (NP*)))        -    -   -   -     (DATE)       *             *)  -
+nw/wsj/05/wsj_0556   0   13           would    MD        (VP*         -    -   -   -         *        *    (ARGM-MOD*)  -
+nw/wsj/05/wsj_0556   0   14            have    VB        (VP*         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0   15            been   VBN        (VP*         be  01   -   -         *        *           (V*)  -
+nw/wsj/05/wsj_0556   0   16               $     $     (NP(QP*         -    -   -   -   (MONEY*        *        (ARG2*   -
+nw/wsj/05/wsj_0556   0   17          728.5     CD           *         -    -   -   -         *        *             *   -
+nw/wsj/05/wsj_0556   0   18         million    CD       *)))))        -    -   -   -         *)       *             *)  -
+nw/wsj/05/wsj_0556   0   19               .     .          *))        -    -   -   -         *        *             *   -
+
+nw/wsj/05/wsj_0556   0    0          As    IN  (TOP(S(PP*         -    -   -   -        *    (ARGM-TMP*   -
+nw/wsj/05/wsj_0556   0    1          of    IN        (PP*         -    -   -   -        *             *   -
+nw/wsj/05/wsj_0556   0    2        Feb.   NNP        (NP*         -    -   -   -   (DATE*             *   -
+nw/wsj/05/wsj_0556   0    3          1     CD           *         -    -   -   -        *             *   -
+nw/wsj/05/wsj_0556   0    4           ,     ,           *         -    -   -   -        *             *   -
+nw/wsj/05/wsj_0556   0    5       1990     CD         *)))        -    -   -   -        *)            *)  -
+nw/wsj/05/wsj_0556   0    6           ,     ,           *         -    -   -   -        *             *   -
+nw/wsj/05/wsj_0556   0    7         the    DT        (NP*         -    -   -   -        *        (ARG1*   -
+nw/wsj/05/wsj_0556   0    8    Bullocks   NNP       (NML*         -    -   -   -    (ORG*             *   -
+nw/wsj/05/wsj_0556   0    9    Wilshire   NNP           *)        -    -   -   -        *)            *   -
+nw/wsj/05/wsj_0556   0   10      stores   NNS           *)        -    -   -   -        *             *)  -
+nw/wsj/05/wsj_0556   0   11        will    MD        (VP*         -    -   -   -        *    (ARGM-MOD*)  -
+nw/wsj/05/wsj_0556   0   12     operate    VB        (VP*    operate  01   -   -        *           (V*)  -
+nw/wsj/05/wsj_0556   0   13          as    IN        (PP*         -    -   -   -        *        (ARG3*   -
+nw/wsj/05/wsj_0556   0   14          I.   NNP    (NP(NML*         -    -   -   -    (ORG*             *   -
+nw/wsj/05/wsj_0556   0   15      Magnin   NNP           *)        -    -   -   -        *)            *   -
+nw/wsj/05/wsj_0556   0   16      stores   NNS        *))))        -    -   -   -        *             *)  -
+nw/wsj/05/wsj_0556   0   17           .     .          *))        -    -   -   -        *             *   -
+
+nw/wsj/05/wsj_0556   0    0      Altogether     RB   (TOP(S(ADVP*)      -    -   -   -            *    (ARGM-ADV*)   (ARGM-ADV*)  -
+nw/wsj/05/wsj_0556   0    1               ,      ,              *       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0    2            Macy    NNP        (NP(NP*)      -    -   -   -         (ORG)       (ARG0*        (ARG0*   -
+nw/wsj/05/wsj_0556   0    3             and     CC              *       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0    4             its   PRP$           (NP*       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0    5    subsidiaries    NNS             *))      -    -   -   -            *             *)            *)  -
+nw/wsj/05/wsj_0556   0    6             own    VBP           (VP*      own  01   -   -            *           (V*)            *   -
+nw/wsj/05/wsj_0556   0    7              or     CC              *       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0    8           lease    VBP              *    lease  01   1   -            *             *           (V*)  -
+nw/wsj/05/wsj_0556   0    9            149      CD        (NP(NP*       -    -   -   -    (CARDINAL)       (ARG1*        (ARG1*   -
+nw/wsj/05/wsj_0556   0   10      department     NN              *       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0   11          stores    NNS              *)      -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0   12             and     CC              *       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0   13             61      CD           (NP*       -    -   -   -    (CARDINAL)            *             *   -
+nw/wsj/05/wsj_0556   0   14       specialty     NN              *       -    -   -   -            *             *             *   -
+nw/wsj/05/wsj_0556   0   15          stores    NNS             *))      -    -   -   -            *             *)            *)  -
+nw/wsj/05/wsj_0556   0   16      nationwide     JJ        (ADVP*))      -    -   -   -            *             *    (ARGM-LOC*)  -
+nw/wsj/05/wsj_0556   0   17               .      .             *))      -    -   -   -            *             *             *   -
+
+nw/wsj/05/wsj_0556   0    0      Although     IN  (TOP(S(SBAR*       -    -   -   -        *            *    (ARGM-ADV*             *   -
+nw/wsj/05/wsj_0556   0    1    management     NN        (S(NP*)      -    -   -   -        *       (ARG0*)            *             *   -
+nw/wsj/05/wsj_0556   0    2           led    VBD          (VP*     lead  02   -   -        *          (V*)            *             *   -
+nw/wsj/05/wsj_0556   0    3             a     DT       (NP(NP*       -    -   -   -        *       (ARG1*             *             *   -
+nw/wsj/05/wsj_0556   0    4     leveraged    VBN             *       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0    5           buy     NN             *       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0    6            -    HYPH             *       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0    7           out     NN             *)      -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0    8            of     IN          (PP*       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0    9          R.H.    NNP          (NP*       -    -   -   -    (ORG*            *             *             *   -
+nw/wsj/05/wsj_0556   0   10          Macy    NNP           *)))      -    -   -   -        *)           *)            *             *   -
+nw/wsj/05/wsj_0556   0   11            in     IN          (PP*       -    -   -   -        *   (ARGM-TMP*             *             *   -
+nw/wsj/05/wsj_0556   0   12          July    NNP          (NP*       -    -   -   -   (DATE*            *             *             *   -
+nw/wsj/05/wsj_0556   0   13         1986      CD         *)))))      -    -   -   -        *)           *)            *)            *   -
+nw/wsj/05/wsj_0556   0   14             ,      ,             *       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0   15           the     DT          (NP*       -    -   -   -        *            *        (ARG0*             *   -
+nw/wsj/05/wsj_0556   0   16       company     NN             *)      -    -   -   -        *            *             *)            *   -
+nw/wsj/05/wsj_0556   0   17         still     RB        (ADVP*)      -    -   -   -        *            *    (ARGM-TMP*)            *   -
+nw/wsj/05/wsj_0556   0   18         makes    VBZ          (VP*     make  01   -   -        *            *           (V*)            *   -
+nw/wsj/05/wsj_0556   0   19     financial     JJ          (NP*       -    -   -   -        *            *        (ARG1*             *   -
+nw/wsj/05/wsj_0556   0   20       filings    NNS             *)      -    -   -   -        *            *             *)            *   -
+nw/wsj/05/wsj_0556   0   21       because     IN          (PP*       -    -   -   -        *            *    (ARGM-CAU*             *   -
+nw/wsj/05/wsj_0556   0   22            of     IN             *       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0   23           its   PRP$          (NP*       -    -   -   -        *            *             *             *   -
+nw/wsj/05/wsj_0556   0   24      publicly     RB        (ADJP*       -    -   -   -        *            *             *    (ARGM-MNR*)  -
+nw/wsj/05/wsj_0556   0   25        traded    VBN             *)   trade  01   -   -        *            *             *           (V*)  -
+nw/wsj/05/wsj_0556   0   26          debt     NN           *)))      -    -   -   -        *            *             *)       (ARG1*)  -
+nw/wsj/05/wsj_0556   0   27             .      .            *))      -    -   -   -        *            *             *             *   -
+
+nw/wsj/05/wsj_0556   0    0          The     DT  (TOP(S(NP*          -    -   -   -         *   (ARG0*   -
+nw/wsj/05/wsj_0556   0    1      company     NN           *)         -    -   -   -         *        *)  -
+nw/wsj/05/wsj_0556   0    2    estimates    VBZ        (VP*    estimate  01   1   -         *      (V*)  -
+nw/wsj/05/wsj_0556   0    3          its   PRP$        (NP*          -    -   -   -         *   (ARG1*   -
+nw/wsj/05/wsj_0556   0    4        total     JJ           *          -    -   -   -         *        *   -
+nw/wsj/05/wsj_0556   0    5         debt     NN           *)         -    -   -   -         *        *)  -
+nw/wsj/05/wsj_0556   0    6           at     IN        (PP*          -    -   -   -         *   (ARG2*   -
+nw/wsj/05/wsj_0556   0    7        about     IN     (NP(QP*          -    -   -   -   (MONEY*        *   -
+nw/wsj/05/wsj_0556   0    8            $      $           *          -    -   -   -         *        *   -
+nw/wsj/05/wsj_0556   0    9         5.2      CD           *          -    -   -   -         *        *   -
+nw/wsj/05/wsj_0556   0   10      billion     CD        *))))         -    -   -   -         *)       *)  -
+nw/wsj/05/wsj_0556   0   11            .      .          *))         -    -   -   -         *        *   -
+
+nw/wsj/05/wsj_0556   0    0        This     DT     (TOP(S(NP*)        -    -   -   -         *    (ARG2*)  -
+nw/wsj/05/wsj_0556   0    1    includes    VBZ           (VP*    include  01   -   -         *       (V*)  -
+nw/wsj/05/wsj_0556   0    2           $      $  (NP(NP(NP(QP*         -    -   -   -   (MONEY*    (ARG1*   -
+nw/wsj/05/wsj_0556   0    3        4.6      CD              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    4     billion     CD             *))        -    -   -   -         *)        *   -
+nw/wsj/05/wsj_0556   0    5          of     IN           (PP*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    6        long     JJ       (NP(NML*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    7          -    HYPH              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    8        term     NN              *)        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0    9        debt     NN            *)))        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   10           ,      ,              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   11           $      $     (NP(NP(QP*         -    -   -   -   (MONEY*         *   -
+nw/wsj/05/wsj_0556   0   12      457.5      CD              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   13     million     CD             *))        -    -   -   -         *)        *   -
+nw/wsj/05/wsj_0556   0   14          in     IN           (PP*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   15       short     JJ       (NP(NML*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   16          -    HYPH              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   17        term     NN              *)        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   18        debt     NN            *)))        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   19           ,      ,              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   20         and     CC              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   21           $      $     (NP(NP(QP*         -    -   -   -   (MONEY*         *   -
+nw/wsj/05/wsj_0556   0   22       95.7      CD              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   23     million     CD             *))        -    -   -   -         *)        *   -
+nw/wsj/05/wsj_0556   0   24          of     IN           (PP*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   25         the     DT        (NP(NP*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   26     current     JJ              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   27     portion     NN              *)        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   28          of     IN           (PP*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   29        long     JJ       (NP(NML*         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   30          -    HYPH              *         -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   31        term     NN              *)        -    -   -   -         *         *   -
+nw/wsj/05/wsj_0556   0   32        debt     NN        *)))))))        -    -   -   -         *         *)  -
+nw/wsj/05/wsj_0556   0   33           .      .             *))        -    -   -   -         *         *   -
+
+nw/wsj/05/wsj_0556   0    0             In     IN       (TOP(S(PP*         -    -   -   -          *   (ARGM-LOC*         *        *        *   -
+nw/wsj/05/wsj_0556   0    1              a     DT          (NP(NP*         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0    2         letter     NN                *)        -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0    3             to     IN             (PP*         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0    4      investors    NNS          (NP*))))        -    -   -   -          *            *)        *        *        *   -
+nw/wsj/05/wsj_0556   0    5              ,      ,                *         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0    6       Chairman    NNP             (NP*         -    -   -   -          *       (ARG0*         *        *        *   -
+nw/wsj/05/wsj_0556   0    7         Edward    NNP                *         -    -   -   -   (PERSON*            *         *        *        *   -
+nw/wsj/05/wsj_0556   0    8             S.    NNP                *         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0    9    Finkelstein    NNP                *)        -    -   -   -          *)           *)        *        *        *   -
+nw/wsj/05/wsj_0556   0   10          wrote    VBD             (VP*      write  01   -   -          *          (V*)        *        *        *   -
+nw/wsj/05/wsj_0556   0   11           that     IN           (SBAR*         -    -   -   -          *       (ARG1*         *        *        *   -
+nw/wsj/05/wsj_0556   0   12             he    PRP           (S(NP*)        -    -   -   -          *            *    (ARG0*)       *        *   -
+nw/wsj/05/wsj_0556   0   13        expects    VBZ             (VP*     expect  01   -   -          *            *       (V*)       *        *   -
+nw/wsj/05/wsj_0556   0   14            the     DT           (S(NP*         -    -   -   -          *            *    (ARG1*   (ARG1*        *   -
+nw/wsj/05/wsj_0556   0   15        company     NN                *)        -    -   -   -          *            *         *        *)       *   -
+nw/wsj/05/wsj_0556   0   16             to     TO             (VP*         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0   17             ``     ``                *         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0   18        benefit     VB             (VP*    benefit  01   -   -          *            *         *      (V*)       *   -
+nw/wsj/05/wsj_0556   0   19           from     IN             (PP*         -    -   -   -          *            *         *   (ARG0*        *   -
+nw/wsj/05/wsj_0556   0   20           some     DT          (NP(NP*)        -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0   21             of     IN             (PP*         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0   22            the     DT          (NP(NP*         -    -   -   -          *            *         *        *   (ARG1*   -
+nw/wsj/05/wsj_0556   0   23     disruption     NN                *)        -    -   -   -          *            *         *        *        *)  -
+nw/wsj/05/wsj_0556   0   24          faced    VBN             (VP*       face  01   -   -          *            *         *        *      (V*)  -
+nw/wsj/05/wsj_0556   0   25             by     IN             (PP*         -    -   -   -          *            *         *        *   (ARG0*   -
+nw/wsj/05/wsj_0556   0   26            our   PRP$             (NP*         -    -   -   -          *            *         *        *        *   -
+nw/wsj/05/wsj_0556   0   27    competitors    NNS   *))))))))))))))        -    -   -   -          *            *)        *)       *)       *)  -
+nw/wsj/05/wsj_0556   0   28              .      .               *))        -    -   -   -          *            *         *        *        *   -
+
+nw/wsj/05/wsj_0556   0    0            While     IN  (TOP(S(SBAR*             -    -   -   -   *        *    (ARGM-ADV*         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    1              our   PRP$        (S(NP*             -    -   -   -   *   (ARG1*             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    2      competitors    NNS             *)            -    -   -   -   *        *)            *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    3              are    VBP          (VP*             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    4        concerned    VBN          (VP*        concern  01   -   -   *      (V*)            *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    5             with     IN          (PP*             -    -   -   -   *   (ARG0*             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    6            their   PRP$       (NP(NP*             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    7        financial     JJ             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    8        viability     NN             *)            -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0    9              and     CC             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   10         possible     JJ          (NP*             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   11        ownership     NN             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   12          changes    NNS       *)))))))            -    -   -   -   *        *)            *)        *         *         *         *   -
+nw/wsj/05/wsj_0556   0   13                ,      ,             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   14               we    PRP          (NP*)            -    -   -   -   *        *        (ARG0*)   (ARG0*)   (ARG0*)        *         *   -
+nw/wsj/05/wsj_0556   0   15             will     MD          (VP*             -    -   -   -   *        *    (ARGM-MOD*)        *         *         *         *   -
+nw/wsj/05/wsj_0556   0   16               be     VB          (VP*             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   17    concentrating    VBG          (VP*    concentrate  01   1   -   *        *           (V*)        *         *         *         *   -
+nw/wsj/05/wsj_0556   0   18               on     IN          (PP*             -    -   -   -   *        *        (ARG1*         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   19           buying    VBG        (S(VP*            buy  01   -   -   *        *             *       (V*)        *         *         *   -
+nw/wsj/05/wsj_0556   0   20              and     CC             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   21          selling    VBG             *           sell  01   -   -   *        *             *         *       (V*)        *         *   -
+nw/wsj/05/wsj_0556   0   22      merchandise     NN       (NP(NP*)            -    -   -   -   *        *             *    (ARG1*    (ARG1*    (ARG1*)   (ARG1*)  -
+nw/wsj/05/wsj_0556   0   23              our   PRP$   (SBAR(S(NP*             -    -   -   -   *        *             *         *         *    (ARG0*    (ARG0*   -
+nw/wsj/05/wsj_0556   0   24        customers    NNS             *)            -    -   -   -   *        *             *         *         *         *)        *)  -
+nw/wsj/05/wsj_0556   0   25             need    VBP          (VP*           need  01   -   -   *        *             *         *         *       (V*)        *   -
+nw/wsj/05/wsj_0556   0   26              and     CC             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   27             want    VBP    *))))))))))          want  01   -   -   *        *             *)        *)        *)        *       (V*)  -
+nw/wsj/05/wsj_0556   0   28                .      .             *             -    -   -   -   *        *             *         *         *         *         *   -
+nw/wsj/05/wsj_0556   0   29               ''     ''            *))            -    -   -   -   *        *             *         *         *         *         *   -
+
+nw/wsj/05/wsj_0556   0    0            Mr.   NNP     (TOP(S(NP*       -    -   -   -            *        (ARG0*             *        *   -
+nw/wsj/05/wsj_0556   0    1    Finkelstein   NNP              *)      -    -   -   -      (PERSON)            *)            *        *   -
+nw/wsj/05/wsj_0556   0    2             is   VBZ           (VP*       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0    3     apparently    RB         (ADVP*)      -    -   -   -            *    (ARGM-ADV*)            *        *   -
+nw/wsj/05/wsj_0556   0    4      referring   VBG           (VP*    refer  01   -   -            *           (V*)            *        *   -
+nw/wsj/05/wsj_0556   0    5             to    IN           (PP*       -    -   -   -            *        (ARG1*             *        *   -
+nw/wsj/05/wsj_0556   0    6             B.   NNP  (NP(NP(NP(NP*       -    -   -   -        (ORG*             *             *        *   -
+nw/wsj/05/wsj_0556   0    7         Altman   NNP              *)      -    -   -   -            *)            *             *        *   -
+nw/wsj/05/wsj_0556   0    8            and    CC              *       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0    9         Bonwit   NNP           (NP*       -    -   -   -        (ORG*             *             *        *   -
+nw/wsj/05/wsj_0556   0   10         Teller   NNP             *))      -    -   -   -            *)            *             *        *   -
+nw/wsj/05/wsj_0556   0   11              ,     ,              *       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   12            two    CD        (NP(NP*       -    -   -   -    (CARDINAL)            *        (ARG0*        *   -
+nw/wsj/05/wsj_0556   0   13            New   NNP          (NML*       -    -   -   -        (GPE*             *             *        *   -
+nw/wsj/05/wsj_0556   0   14           York   NNP              *)      -    -   -   -            *)            *             *        *   -
+nw/wsj/05/wsj_0556   0   15      retailers   NNS              *)      -    -   -   -            *             *             *)       *   -
+nw/wsj/05/wsj_0556   0   16           that   WDT    (SBAR(WHNP*)      -    -   -   -            *             *      (R-ARG0*)       *   -
+nw/wsj/05/wsj_0556   0   17           have   VBP         (S(VP*       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   18       recently    RB         (ADVP*)      -    -   -   -            *             *    (ARGM-TMP*)       *   -
+nw/wsj/05/wsj_0556   0   19          filed   VBN           (VP*     file  02   -   -            *             *           (V*)       *   -
+nw/wsj/05/wsj_0556   0   20            for    IN           (PP*       -    -   -   -            *             *        (ARG1*        *   -
+nw/wsj/05/wsj_0556   0   21        Chapter    NN   (NP(NML(NML*       -    -   -   -        (LAW*             *             *        *   -
+nw/wsj/05/wsj_0556   0   22            11     CD              *)      -    -   -   -            *)            *             *        *   -
+nw/wsj/05/wsj_0556   0   23     bankruptcy    NN              *)      -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   24     protection    NN       *))))))))      -    -   -   -            *             *             *)       *   -
+nw/wsj/05/wsj_0556   0   25              ,     ,              *       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   26             as    RB        (CONJP*       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   27           well    RB              *       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   28             as    IN              *)      -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   29            the    DT        (NP(NP*       -    -   -   -            *             *             *   (ARG1*   -
+nw/wsj/05/wsj_0556   0   30         retail    JJ              *       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   31         chains   NNS              *)      -    -   -   -            *             *             *        *)  -
+nw/wsj/05/wsj_0556   0   32          owned   VBN           (VP*      own  01   -   -            *             *             *      (V*)  -
+nw/wsj/05/wsj_0556   0   33             by    IN           (PP*       -    -   -   -            *             *             *   (ARG0*   -
+nw/wsj/05/wsj_0556   0   34    financially    RB      (NP(ADJP*       -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   35       troubled    JJ              *)      -    -   -   -            *             *             *        *   -
+nw/wsj/05/wsj_0556   0   36        Campeau   NNP              *       -    -   -   -        (ORG*             *             *        *   -
+nw/wsj/05/wsj_0556   0   37           Corp   NNP       *))))))))      -    -   -   -            *)            *)            *        *)  -
+nw/wsj/05/wsj_0556   0   38              .     .             *))      -    -   -   -            *             *             *        *   -
+
+nw/wsj/05/wsj_0556   0    0           Those    DT     (TOP(S(NP*         -    -   -   -       *   (ARG2*             *             *   -
+nw/wsj/05/wsj_0556   0    1          chains   NNS              *)        -    -   -   -       *        *)            *             *   -
+nw/wsj/05/wsj_0556   0    2         include   VBP           (VP*    include  01   -   -       *      (V*)            *             *   -
+nw/wsj/05/wsj_0556   0    3    Bloomingdale   NNP        (NP(NP*         -    -   -   -   (ORG*   (ARG1*             *        (ARG1*   -
+nw/wsj/05/wsj_0556   0    4              's   POS              *)        -    -   -   -       *)       *             *             *)  -
+nw/wsj/05/wsj_0556   0    5               ,     ,              *         -    -   -   -       *        *             *             *   -
+nw/wsj/05/wsj_0556   0    6           which   WDT    (SBAR(WHNP*)        -    -   -   -       *        *             *      (R-ARG1*)  -
+nw/wsj/05/wsj_0556   0    7         Campeau   NNP         (S(NP*)        -    -   -   -    (ORG)       *        (ARG0*)            *   -
+nw/wsj/05/wsj_0556   0    8        recently    RB         (ADVP*)        -    -   -   -       *        *    (ARGM-TMP*)            *   -
+nw/wsj/05/wsj_0556   0    9            said   VBD           (VP*        say  01   -   -       *        *           (V*)            *   -
+nw/wsj/05/wsj_0556   0   10              it   PRP    (SBAR(S(NP*)        -    -   -   -       *        *        (ARG1*        (ARG0*)  -
+nw/wsj/05/wsj_0556   0   11            will    MD           (VP*         -    -   -   -       *        *             *    (ARGM-MOD*)  -
+nw/wsj/05/wsj_0556   0   12            sell    VB   (VP*)))))))))      sell  01   -   -       *        *)            *)          (V*)  -
+nw/wsj/05/wsj_0556   0   13               .     .             *))        -    -   -   -       *        *             *             *   -
+
+nw/wsj/05/wsj_0556   0    0           Other    JJ  (TOP(S(NP(NP*         -    -   -   -        *   (ARG2*             *   -
+nw/wsj/05/wsj_0556   0    1          retail    JJ              *         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0    2      properties   NNS              *)        -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0    3             for    IN           (PP*         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0    4            sale    NN         (NP*)))        -    -   -   -        *        *)            *   -
+nw/wsj/05/wsj_0556   0    5         include   VBP           (VP*    include  01   -   -        *      (V*)            *   -
+nw/wsj/05/wsj_0556   0    6            Saks   NNP     (NP(NP(NP*         -    -   -   -    (ORG*   (ARG1*             *   -
+nw/wsj/05/wsj_0556   0    7           Fifth   NNP              *         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0    8          Avenue   NNP              *)        -    -   -   -        *)       *             *   -
+nw/wsj/05/wsj_0556   0    9             and    CC              *         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0   10        Marshall   NNP           (NP*         -    -   -   -    (ORG*        *             *   -
+nw/wsj/05/wsj_0556   0   11           Field   NNP             *))        -    -   -   -        *)       *             *   -
+nw/wsj/05/wsj_0556   0   12               ,     ,              *         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0   13       retailers   NNS        (NP(NP*)        -    -   -   -        *        *        (ARG1*)  -
+nw/wsj/05/wsj_0556   0   14             now    RB      (VP(ADVP*)        -    -   -   -        *        *    (ARGM-TMP*)  -
+nw/wsj/05/wsj_0556   0   15           owned   VBN              *        own  01   -   -        *        *           (V*)  -
+nw/wsj/05/wsj_0556   0   16              by    IN           (PP*         -    -   -   -        *        *        (ARG0*   -
+nw/wsj/05/wsj_0556   0   17           B.A.T   NNP        (NP(NP*         -    -   -   -    (ORG*        *             *   -
+nw/wsj/05/wsj_0556   0   18             PLC   NNP              *)        -    -   -   -        *)       *             *   -
+nw/wsj/05/wsj_0556   0   19               ,     ,              *         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0   20             the    DT           (NP*         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0   21         British    JJ              *         -    -   -   -    (NORP)       *             *   -
+nw/wsj/05/wsj_0556   0   22         tobacco    NN              *         -    -   -   -        *        *             *   -
+nw/wsj/05/wsj_0556   0   23    conglomerate    NN        *)))))))        -    -   -   -        *        *)            *)  -
+nw/wsj/05/wsj_0556   0   24               .     .             *))        -    -   -   -        *        *             *   -
+
+nw/wsj/05/wsj_0556   0    0             In     IN  (TOP(S(PP*       -    -   -   -          *    (ARGM-LOC*   -
+nw/wsj/05/wsj_0556   0    1            his   PRP$        (NP*       -    -   -   -          *             *   -
+nw/wsj/05/wsj_0556   0    2         letter     NN          *))      -    -   -   -          *             *)  -
+nw/wsj/05/wsj_0556   0    3              ,      ,           *       -    -   -   -          *             *   -
+nw/wsj/05/wsj_0556   0    4            Mr.    NNP        (NP*       -    -   -   -          *        (ARG0*   -
+nw/wsj/05/wsj_0556   0    5    Finkelstein    NNP           *)      -    -   -   -    (PERSON)            *)  -
+nw/wsj/05/wsj_0556   0    6           also     RB      (ADVP*)      -    -   -   -          *    (ARGM-DIS*)  -
+nw/wsj/05/wsj_0556   0    7       referred    VBD        (VP*    refer  01   -   -          *           (V*)  -
+nw/wsj/05/wsj_0556   0    8             to     IN        (PP*       -    -   -   -          *        (ARG1*   -
+nw/wsj/05/wsj_0556   0    9            the     DT        (NP*       -    -   -   -          *             *   -
+nw/wsj/05/wsj_0556   0   10         recent     JJ           *       -    -   -   -          *             *   -
+nw/wsj/05/wsj_0556   0   11            San    NNP       (NML*       -    -   -   -      (GPE*             *   -
+nw/wsj/05/wsj_0556   0   12      Francisco    NNP           *)      -    -   -   -          *)            *   -
+nw/wsj/05/wsj_0556   0   13     earthquake     NN         *)))      -    -   -   -          *             *)  -
+nw/wsj/05/wsj_0556   0   14              .      .          *))      -    -   -   -          *             *   -
+
+nw/wsj/05/wsj_0556   0    0            Mr.    NNP     (TOP(S(NP*         -    -   -   -            *       (ARG1*   (ARG0*            *        *   -
+nw/wsj/05/wsj_0556   0    1    Finkelstein    NNP              *)        -    -   -   -      (PERSON)           *)       *)           *        *   -
+nw/wsj/05/wsj_0556   0    2           flew    VBD        (VP(VP*        fly  01   -   -            *          (V*)       *            *        *   -
+nw/wsj/05/wsj_0556   0    3             to     IN           (PP*         -    -   -   -            *   (ARGM-DIR*        *            *        *   -
+nw/wsj/05/wsj_0556   0    4            San    NNP           (NP*         -    -   -   -        (GPE*            *        *            *        *   -
+nw/wsj/05/wsj_0556   0    5      Francisco    NNP             *))        -    -   -   -            *)           *)       *            *        *   -
+nw/wsj/05/wsj_0556   0    6            the     DT        (NP(NP*         -    -   -   -       (DATE*   (ARGM-TMP*        *            *        *   -
+nw/wsj/05/wsj_0556   0    7            day     NN              *)        -    -   -   -            *)           *        *            *        *   -
+nw/wsj/05/wsj_0556   0    8          after     IN           (PP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0    9            the     DT           (NP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   10     earthquake     NN           *))))        -    -   -   -            *            *)       *            *        *   -
+nw/wsj/05/wsj_0556   0   11              ,      ,              *         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   12            and     CC              *         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   13          found    VBD           (VP*       find  01   -   -            *            *      (V*)           *        *   -
+nw/wsj/05/wsj_0556   0   14           that     IN         (SBAR*         -    -   -   -            *            *   (ARG1*            *        *   -
+nw/wsj/05/wsj_0556   0   15            10      CD   (S(NP(NP(QP*         -    -   -   -   (CARDINAL*            *        *       (ARG0*        *   -
+nw/wsj/05/wsj_0556   0   16             to     TO              *         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   17            12      CD             *))        -    -   -   -            *)           *        *            *        *   -
+nw/wsj/05/wsj_0556   0   18             of     IN           (PP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   19            his   PRP$        (NP(NP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   20        company     NN              *         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   21             's    POS              *)        -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   22         stores    NNS            *)))        -    -   -   -            *            *        *            *)       *   -
+nw/wsj/05/wsj_0556   0   23            had    VBD           (VP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   24      sustained    VBN           (VP*    sustain  02   2   -            *            *        *          (V*)       *   -
+nw/wsj/05/wsj_0556   0   25           some     DT           (NP*         -    -   -   -            *            *        *       (ARG1*   (ARG2*   -
+nw/wsj/05/wsj_0556   0   26         damage     NN              *)        -    -   -   -            *            *        *            *)       *)  -
+nw/wsj/05/wsj_0556   0   27              ,      ,              *         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   28      including    VBG           (PP*    include  01   -   -            *            *        *   (ARGM-ADV*      (V*)  -
+nw/wsj/05/wsj_0556   0   29            the     DT        (NP(NP*         -    -   -   -            *            *        *            *   (ARG1*   -
+nw/wsj/05/wsj_0556   0   30       breakage     NN              *)        -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   31             of     IN           (PP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   32           most    JJS           (NP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   33        windows    NNS             *))        -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   34             at     IN           (PP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   35            the     DT        (NP(NP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   36             I.    NNP          (NML*         -    -   -   -        (ORG*            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   37         Magnin    NNP              *)        -    -   -   -            *)           *        *            *        *   -
+nw/wsj/05/wsj_0556   0   38          store     NN              *)        -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   39             on     IN           (PP*         -    -   -   -            *            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   40          Union    NNP           (NP*         -    -   -   -        (FAC*            *        *            *        *   -
+nw/wsj/05/wsj_0556   0   41         Square    NNP   *))))))))))))        -    -   -   -            *)           *        *)           *)       *)  -
+nw/wsj/05/wsj_0556   0   42              .      .             *))        -    -   -   -            *            *        *            *        *   -
+
+nw/wsj/05/wsj_0556   0    0             ``     ``   (TOP(SINV*       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    1            The     DT  (S(S(NP(NP*       -    -   -   -          *        (ARG1*         *             *   (ARG1*   -
+nw/wsj/05/wsj_0556   0    2         volume     NN        (NML*       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    3            and     CC            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    4         profit     NN            *)      -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    5         impact     NN            *)      -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    6             on     IN         (PP*       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    7            our   PRP$         (NP*       -    -   -   -     (DATE*             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    8         fiscal     JJ            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0    9          first     JJ            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   10        quarter     NN          *)))      -    -   -   -          *)            *)        *             *        *   -
+nw/wsj/05/wsj_0556   0   11           will     MD         (VP*       -    -   -   -          *    (ARGM-MOD*)        *             *        *   -
+nw/wsj/05/wsj_0556   0   12            not     RB            *       -    -   -   -          *    (ARGM-NEG*)        *             *        *   -
+nw/wsj/05/wsj_0556   0   13             be     VB         (VP*       be  01   -   -          *           (V*)        *             *        *   -
+nw/wsj/05/wsj_0556   0   14       positive     JJ    (ADJP*))))      -    -   -   -          *        (ARG2*)        *             *        *   -
+nw/wsj/05/wsj_0556   0   15              ,      ,            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   16            but     CC            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   17        looking    VBG     (S(S(VP*     look  01   -   -          *             *       (V*)     (R-ARG0*        *   -
+nw/wsj/05/wsj_0556   0   18             at     IN         (PP*       -    -   -   -          *             *    (ARG1*             *        *   -
+nw/wsj/05/wsj_0556   0   19            the     DT         (NP*       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   20          whole     JJ            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   21         fiscal     JJ            *       -    -   -   -     (DATE*             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   22           year     NN         *))))      -    -   -   -          *)            *         *)            *)       *   -
+nw/wsj/05/wsj_0556   0   23              ,      ,            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   24             we    PRP         (NP*)      -    -   -   -          *             *    (ARG0*)       (ARG0*)       *   -
+nw/wsj/05/wsj_0556   0   25             do    VBP         (VP*       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   26            n't     RB            *       -    -   -   -          *             *         *    (ARGM-NEG*)       *   -
+nw/wsj/05/wsj_0556   0   27            see     VB         (VP*      see  01   -   -          *             *         *           (V*)       *   -
+nw/wsj/05/wsj_0556   0   28            the     DT         (NP*       -    -   -   -          *             *         *        (ARG1*        *   -
+nw/wsj/05/wsj_0556   0   29         effect     NN            *)      -    -   -   -          *             *         *             *)       *   -
+nw/wsj/05/wsj_0556   0   30             as     IN         (PP*       -    -   -   -          *             *         *        (ARG2*        *   -
+nw/wsj/05/wsj_0556   0   31       material     NN    (NP*))))))      -    -   -   -          *             *         *             *)       *)  -
+nw/wsj/05/wsj_0556   0   32              ,      ,            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   33             ''     ''            *       -    -   -   -          *             *         *             *        *   -
+nw/wsj/05/wsj_0556   0   34          wrote    VBD         (VP*)   write  01   -   -          *             *         *             *      (V*)  -
+nw/wsj/05/wsj_0556   0   35            Mr.    NNP         (NP*       -    -   -   -          *             *         *             *   (ARG0*   -
+nw/wsj/05/wsj_0556   0   36    Finkelstein    NNP            *)      -    -   -   -    (PERSON)            *         *             *        *)  -
+nw/wsj/05/wsj_0556   0   37              .      .           *))      -    -   -   -          *             *         *             *        *   -
+
+#end document

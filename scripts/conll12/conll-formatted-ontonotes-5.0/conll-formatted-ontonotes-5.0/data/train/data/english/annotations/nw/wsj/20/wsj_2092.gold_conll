@@ -1,0 +1,181 @@
+#begin document (nw/wsj/20/wsj_2092); part 000
+nw/wsj/20/wsj_2092   0    0         Control    NNP  (TOP(S(NP(NP*             -    -   -   -   (ORG*        *        *   -
+nw/wsj/20/wsj_2092   0    1            Data    NNP              *             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0    2           Corp.    NNP              *)            -    -   -   -       *)       *        *   -
+nw/wsj/20/wsj_2092   0    3               ,      ,              *             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0    4     Minneapolis    NNP           (NP*)            -    -   -   -    (GPE)       *        *   -
+nw/wsj/20/wsj_2092   0    5               ,      ,              *)            -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0    6          signed    VBD           (VP*             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0    7               a     DT        (NP(NP*             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0    8           joint     JJ              *             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0    9     development     NN              *             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   10       agreement     NN              *)            -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   11            with     IN           (PP*             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   12            MIPS    NNP           (NP*             -    -   -   -   (ORG*        *        *   -
+nw/wsj/20/wsj_2092   0   13        Computer    NNP              *             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   14         Systems   NNPS              *             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   15            Inc.    NNP             *))            -    -   -   -       *)       *        *   -
+nw/wsj/20/wsj_2092   0   16              to     TO         (S(VP*             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   17     incorporate     VB           (VP*    incorporate  02   1   -       *      (V*)       *   -
+nw/wsj/20/wsj_2092   0   18              an     DT           (NP*             -    -   -   -       *   (ARG1*        *   -
+nw/wsj/20/wsj_2092   0   19        emerging    VBG              *         emerge  01   -   -       *        *      (V*)  -
+nw/wsj/20/wsj_2092   0   20       computing    VBG              *        compute   -   1   -       *        *   (ARG0*   -
+nw/wsj/20/wsj_2092   0   21    architecture     NN              *)            -    -   -   -       *        *)       *)  -
+nw/wsj/20/wsj_2092   0   22              in     IN           (PP*             -    -   -   -       *   (ARG2*        *   -
+nw/wsj/20/wsj_2092   0   23          future     JJ           (NP*             -    -   -   -       *        *        *   -
+nw/wsj/20/wsj_2092   0   24        machines    NNS        *)))))))            -    -   -   -       *        *)       *   -
+nw/wsj/20/wsj_2092   0   25               .      .             *))            -    -   -   -       *        *        *   -
+
+nw/wsj/20/wsj_2092   0    0               MIPS    NNP       (TOP(S(NP*)        -    -   -   -    (ORG)   (ARG1*)        *        *   -
+nw/wsj/20/wsj_2092   0    1                 is    VBZ             (VP*         be  01   -   -       *       (V*)        *        *   -
+nw/wsj/20/wsj_2092   0    2                  a     DT          (NP(NP*         -    -   -   -       *    (ARG2*         *        *   -
+nw/wsj/20/wsj_2092   0    3             leader     NN                *)        -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0    4                 in     IN             (PP*         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0    5               what     WP      (SBAR(WHNP*)        -    -   -   -       *         *    (ARG1*)       *   -
+nw/wsj/20/wsj_2092   0    6                 is    VBZ           (S(VP*         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0    7              known    VBN             (VP*       know  01   2   -       *         *       (V*)       *   -
+nw/wsj/20/wsj_2092   0    8                 as     IN             (PP*         -    -   -   -       *         *    (ARG2*        *   -
+nw/wsj/20/wsj_2092   0    9            reduced    VBN      (NP(NP(NML*         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   10                 -    HYPH                *         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   11        instruction     NN                *)        -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   12                set     NN                *         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   13          computing     NN                *)        -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   14                  ,      ,                *         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   15                 or     CC                *         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   16               RISC    NNP          (NP(NP*)        -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   17                  ,      ,                *         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   18                  a     DT          (NP(NP*         -    -   -   -       *         *         *   (ARG0*   -
+nw/wsj/20/wsj_2092   0   19         technology     NN                *)        -    -   -   -       *         *         *        *)  -
+nw/wsj/20/wsj_2092   0   20          combining    VBG             (VP*    combine  01   -   -       *         *         *      (V*)  -
+nw/wsj/20/wsj_2092   0   21    microprocessors    NNS          (NP(NP*)        -    -   -   -       *         *         *   (ARG1*   -
+nw/wsj/20/wsj_2092   0   22                and     CC                *         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   23      sophisticated     JJ             (NP*         -    -   -   -       *         *         *        *   -
+nw/wsj/20/wsj_2092   0   24           software     NN   *))))))))))))))        -    -   -   -       *         *)        *)       *)  -
+nw/wsj/20/wsj_2092   0   25                  .      .               *))        -    -   -   -       *         *         *        *   -
+
+nw/wsj/20/wsj_2092   0    0             In    IN  (TOP(S(PP*         -    -   -   -       *         *   (ARGM-PRD*         *   -
+nw/wsj/20/wsj_2092   0    1        joining   VBG      (S(VP*       join  01   -   -       *       (V*)           *         *   -
+nw/wsj/20/wsj_2092   0    2           MIPS   NNP     (NP*))))        -    -   -   -    (ORG)   (ARG1*)           *)        *   -
+nw/wsj/20/wsj_2092   0    3              ,     ,           *         -    -   -   -       *         *            *         *   -
+nw/wsj/20/wsj_2092   0    4        Control   NNP        (NP*         -    -   -   -   (ORG*    (ARG0*       (ARG1*    (ARG0*   -
+nw/wsj/20/wsj_2092   0    5           Data   NNP           *)        -    -   -   -       *)        *)           *)        *)  -
+nw/wsj/20/wsj_2092   0    6        follows   VBZ        (VP*     follow  01   -   -       *         *          (V*)        *   -
+nw/wsj/20/wsj_2092   0    7        several    JJ        (NP*         -    -   -   -       *         *       (ARG2*         *   -
+nw/wsj/20/wsj_2092   0    8    competitors   NNS           *)        -    -   -   -       *         *            *)        *   -
+nw/wsj/20/wsj_2092   0    9             in    IN        (PP*         -    -   -   -       *         *   (ARGM-MNR*         *   -
+nw/wsj/20/wsj_2092   0   10      embracing   VBG      (S(VP*    embrace  01   1   -       *         *            *       (V*)  -
+nw/wsj/20/wsj_2092   0   11           RISC   NNP        (NP*)        -    -   -   -       *         *            *    (ARG1*)  -
+nw/wsj/20/wsj_2092   0   12             as    IN        (PP*         -    -   -   -       *         *            *    (ARG2*   -
+nw/wsj/20/wsj_2092   0   13              a    DT        (NP*         -    -   -   -       *         *            *         *   -
+nw/wsj/20/wsj_2092   0   14            new    JJ           *         -    -   -   -       *         *            *         *   -
+nw/wsj/20/wsj_2092   0   15         design    NN           *         -    -   -   -       *         *            *         *   -
+nw/wsj/20/wsj_2092   0   16       approach    NN      *))))))        -    -   -   -       *         *            *)        *)  -
+nw/wsj/20/wsj_2092   0   17              .     .          *))        -    -   -   -       *         *            *         *   -
+
+nw/wsj/20/wsj_2092   0    0         Digital    NNP  (TOP(S(NP(NP*      -    -   -   -   (ORG*   (ARG0*            *   -
+nw/wsj/20/wsj_2092   0    1       Equipment    NNP              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0    2           Corp.    NNP              *)     -    -   -   -       *)       *            *   -
+nw/wsj/20/wsj_2092   0    3               ,      ,              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0    4          Tandem    NNP           (NP*      -    -   -   -   (ORG*        *            *   -
+nw/wsj/20/wsj_2092   0    5       Computers   NNPS              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0    6            Inc.    NNP              *)     -    -   -   -       *)       *            *   -
+nw/wsj/20/wsj_2092   0    7               ,      ,              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0    8             NEC    NNP           (NP*      -    -   -   -   (ORG*        *            *   -
+nw/wsj/20/wsj_2092   0    9           Corp.    NNP              *)     -    -   -   -       *)       *            *   -
+nw/wsj/20/wsj_2092   0   10             and     CC              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   11           Group    NNP           (NP*      -    -   -   -   (ORG*        *            *   -
+nw/wsj/20/wsj_2092   0   12            Bull    NNP              *)     -    -   -   -       *)       *            *   -
+nw/wsj/20/wsj_2092   0   13               ,      ,              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   14           among     IN           (PP*      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   15          others    NNS          (NP*))     -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   16               ,      ,              *)     -    -   -   -       *        *)           *   -
+nw/wsj/20/wsj_2092   0   17            have    VBP           (VP*    have  03   -   -       *      (V*)           *   -
+nw/wsj/20/wsj_2092   0   18         similar     JJ           (NP*      -    -   -   -       *   (ARG1*            *   -
+nw/wsj/20/wsj_2092   0   19    arrangements    NNS              *)     -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   20            with     IN           (PP*      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   21            MIPs    NNP        (NP(NP*)     -    -   -   -    (ORG)       *       (ARG1*)  -
+nw/wsj/20/wsj_2092   0   22               ,      ,              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   23           based    VBN           (VP*    base  01   -   -       *        *          (V*)  -
+nw/wsj/20/wsj_2092   0   24              in     IN           (PP*      -    -   -   -       *        *   (ARGM-LOC*   -
+nw/wsj/20/wsj_2092   0   25       Sunnyvale    NNP        (NP(NP*)     -    -   -   -    (GPE)       *            *   -
+nw/wsj/20/wsj_2092   0   26               ,      ,              *      -    -   -   -       *        *            *   -
+nw/wsj/20/wsj_2092   0   27           Calif    NNP     (NP*)))))))     -    -   -   -    (GPE)       *)           *)  -
+nw/wsj/20/wsj_2092   0   28               .      .             *))     -    -   -   -       *        *            *   -
+
+nw/wsj/20/wsj_2092   0    0       Control    NNP    (TOP(S(NP*           -    -   -   -       (ORG*   (ARG0*            *            *   -
+nw/wsj/20/wsj_2092   0    1          Data    NNP             *)          -    -   -   -           *)       *)           *            *   -
+nw/wsj/20/wsj_2092   0    2          said    VBD          (VP*          say  01   -   -           *      (V*)           *            *   -
+nw/wsj/20/wsj_2092   0    3            it    PRP   (SBAR(S(NP*)          -    -   -   -           *   (ARG1*       (ARG0*)           *   -
+nw/wsj/20/wsj_2092   0    4       expects    VBZ          (VP*       expect  01   -   -           *        *          (V*)           *   -
+nw/wsj/20/wsj_2092   0    5           its   PRP$          (NP*           -    -   -   -           *        *       (ARG1*       (ARG1*   -
+nw/wsj/20/wsj_2092   0    6         first     JJ             *           -    -   -   -    (ORDINAL)       *            *            *   -
+nw/wsj/20/wsj_2092   0    7          RISC    NNP        (ADJP*           -    -   -   -           *        *            *            *   -
+nw/wsj/20/wsj_2092   0    8            -    HYPH             *           -    -   -   -           *        *            *            *   -
+nw/wsj/20/wsj_2092   0    9         based    VBN             *)          -    -   -   -           *        *            *            *   -
+nw/wsj/20/wsj_2092   0   10     mainframe     NN             *           -    -   -   -           *        *            *            *   -
+nw/wsj/20/wsj_2092   0   11       machine     NN             *)          -    -   -   -           *        *            *)           *)  -
+nw/wsj/20/wsj_2092   0   12            to     TO        (S(VP*           -    -   -   -           *        *   (ARGM-PRD*            *   -
+nw/wsj/20/wsj_2092   0   13            be     VB          (VP*           -    -   -   -           *        *            *            *   -
+nw/wsj/20/wsj_2092   0   14    introduced    VBN          (VP*    introduce  02   -   -           *        *            *          (V*)  -
+nw/wsj/20/wsj_2092   0   15          next     JJ          (NP*           -    -   -   -      (DATE*        *            *   (ARGM-TMP*   -
+nw/wsj/20/wsj_2092   0   16          year     NN     *)))))))))          -    -   -   -           *)       *)           *)           *)  -
+nw/wsj/20/wsj_2092   0   17             .      .            *))          -    -   -   -           *        *            *            *   -
+
+nw/wsj/20/wsj_2092   0    0          The     DT  (TOP(S(S(NP(NP*       -    -   -   -       *   (ARG0*        *   (ARG1*   -
+nw/wsj/20/wsj_2092   0    1       accord     NN                *)      -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0    2         with     IN             (PP*       -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0    3         MIPS    NNP           (NP*)))      -    -   -   -    (ORG)       *)       *        *   -
+nw/wsj/20/wsj_2092   0    4        calls    VBZ             (VP*     call  03   -   -       *      (V*)       *        *   -
+nw/wsj/20/wsj_2092   0    5          for     IN           (SBAR*       -    -   -   -       *   (ARG1*        *        *   -
+nw/wsj/20/wsj_2092   0    6      Control    NNP           (S(NP*       -    -   -   -   (ORG*        *   (ARG0*        *   -
+nw/wsj/20/wsj_2092   0    7         Data    NNP                *)      -    -   -   -       *)       *        *)       *   -
+nw/wsj/20/wsj_2092   0    8           to     TO             (VP*       -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0    9        share     VB             (VP*    share  01   -   -       *        *      (V*)       *   -
+nw/wsj/20/wsj_2092   0   10          its   PRP$          (NP(NP*       -    -   -   -       *        *   (ARG1*        *   -
+nw/wsj/20/wsj_2092   0   11    expertise     NN                *)      -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0   12           in     IN             (PP*       -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0   13         data    NNS             (NP*       -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0   14      storage     NN        *)))))))))      -    -   -   -       *        *)       *)       *)  -
+nw/wsj/20/wsj_2092   0   15            ,      ,                *       -    -   -   -       *        *        *        *   -
+nw/wsj/20/wsj_2092   0   16          the     DT             (NP*       -    -   -   -       *        *        *   (ARG0*   -
+nw/wsj/20/wsj_2092   0   17    companies    NNS                *)      -    -   -   -       *        *        *        *)  -
+nw/wsj/20/wsj_2092   0   18         said    VBD             (VP*)     say  01   -   -       *        *        *      (V*)  -
+nw/wsj/20/wsj_2092   0   19            .      .               *))      -    -   -   -       *        *        *        *   -
+
+nw/wsj/20/wsj_2092   0    0           Control    NNP         (TOP(S(NP*         -    -   -   -       (ORG*        (ARG0*         *         *        *   -
+nw/wsj/20/wsj_2092   0    1              Data    NNP                  *)        -    -   -   -           *)            *)        *         *        *   -
+nw/wsj/20/wsj_2092   0    2              also     RB             (ADVP*)        -    -   -   -           *    (ARGM-DIS*)        *         *        *   -
+nw/wsj/20/wsj_2092   0    3              said    VBD               (VP*        say  01   -   -           *           (V*)        *         *        *   -
+nw/wsj/20/wsj_2092   0    4                it    PRP        (SBAR(S(NP*)        -    -   -   -           *        (ARG1*    (ARG0*)        *        *   -
+nw/wsj/20/wsj_2092   0    5                is    VBZ               (VP*         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0    6        developing    VBG               (VP*    develop  02   -   -           *             *       (V*)        *        *   -
+nw/wsj/20/wsj_2092   0    7              what     WP        (SBAR(WHNP*)        -    -   -   -           *             *    (ARG1*    (ARG1*)       *   -
+nw/wsj/20/wsj_2092   0    8                it    PRP             (S(NP*)        -    -   -   -           *             *         *    (ARG0*)       *   -
+nw/wsj/20/wsj_2092   0    9            called    VBD               (VP*       call  01   -   -           *             *         *       (V*)       *   -
+nw/wsj/20/wsj_2092   0   10                 a     DT       (S(NP(NP(NP*         -    -   -   -           *             *         *    (ARG2*   (ARG2*   -
+nw/wsj/20/wsj_2092   0   11                ``     ``                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   12    supermainframe     NN                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   13                ''     ''                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   14          computer     NN                  *)        -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   15                 ,      ,                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   16               the     DT               (NP*         -    -   -   -   (PRODUCT*             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   17             Cyber    NNP                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   18             2000      CD                 *))        -    -   -   -           *)            *         *         *        *)  -
+nw/wsj/20/wsj_2092   0   19                 ,      ,                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   20          intended    VBN               (VP*     intend  01   -   -           *             *         *         *      (V*)  -
+nw/wsj/20/wsj_2092   0   21               for     IN               (PP*         -    -   -   -           *             *         *         *   (ARG1*   -
+nw/wsj/20/wsj_2092   0   22        scientists    NNS            (NP(NP*)        -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   23                 ,      ,                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   24         engineers    NNS               (NP*)        -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   25               and     CC                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   26             other     JJ            (NP(NP*         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   27             users    NNS                  *)        -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   28                of     IN               (PP*         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   29    generalpurpose     NN           (NP(NML*)        -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   30              high     JJ              (NML*         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   31                -    HYPH                  *         -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   32       performance     NN                  *)        -    -   -   -           *             *         *         *        *   -
+nw/wsj/20/wsj_2092   0   33         computers    NNS   *))))))))))))))))        -    -   -   -           *             *)        *)        *)       *)  -
+nw/wsj/20/wsj_2092   0   34                 .      .                 *))        -    -   -   -           *             *         *         *        *   -
+
+#end document

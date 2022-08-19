@@ -1,0 +1,633 @@
+#begin document (nw/wsj/04/wsj_0443); part 000
+nw/wsj/04/wsj_0443   0    0          The     DT  (TOP(S(NP(NP(NP*       -    -   -   -        (ORG*        (ARG0*             *   -
+nw/wsj/04/wsj_0443   0    1      Oakland    NNP                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0    2    Athletics    NNP                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0    3            '    POS                 *)      -    -   -   -            *)            *             *   -
+nw/wsj/04/wsj_0443   0    4         four     CD             (NML*       -    -   -   -    (CARDINAL)            *             *   -
+nw/wsj/04/wsj_0443   0    5           -    HYPH                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0    6         game     NN                 *)      -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0    7        sweep     NN                 *)      -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0    8         over     IN              (PP*       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0    9          the     DT              (NP*       -    -   -   -        (ORG*             *             *   -
+nw/wsj/04/wsj_0443   0   10          San    NNP             (NML*       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   11    Francisco    NNP                 *)      -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   12       Giants    NNP                *))      -    -   -   -            *)            *             *   -
+nw/wsj/04/wsj_0443   0   13           in     IN              (PP*       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   14          the     DT              (NP*       -    -   -   -      (EVENT*             *             *   -
+nw/wsj/04/wsj_0443   0   15        World    NNP                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   16       Series    NNP               *)))      -    -   -   -            *)            *)            *   -
+nw/wsj/04/wsj_0443   0   17          may     MD              (VP*       -    -   -   -            *    (ARGM-MOD*)            *   -
+nw/wsj/04/wsj_0443   0   18        widen     VB              (VP*    widen  01   1   -            *           (V*)            *   -
+nw/wsj/04/wsj_0443   0   19      already     RB      (NP(NP(ADJP*       -    -   -   -            *        (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0443   0   20           -    HYPH                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   21      sizable     JJ                 *)      -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   22       losses    NNS                 *)      -    -   -   -            *             *             *)  -
+nw/wsj/04/wsj_0443   0   23         that    WDT       (SBAR(WHNP*)      -    -   -   -            *             *      (R-ARG1*)  -
+nw/wsj/04/wsj_0443   0   24          the     DT            (S(NP*       -    -   -   -            *             *        (ARG0*   -
+nw/wsj/04/wsj_0443   0   25          ABC    NNP                 *       -    -   -   -         (ORG)            *             *   -
+nw/wsj/04/wsj_0443   0   26      network     NN                 *)      -    -   -   -            *             *             *)  -
+nw/wsj/04/wsj_0443   0   27         will     MD              (VP*       -    -   -   -            *             *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0443   0   28        incur     VB              (VP*    incur  01   1   -            *             *           (V*)  -
+nw/wsj/04/wsj_0443   0   29           on     IN              (PP*       -    -   -   -            *             *    (ARGM-TMP*   -
+nw/wsj/04/wsj_0443   0   30          the     DT           (NP(NP*       -    -   -   -       (DATE*             *             *   -
+nw/wsj/04/wsj_0443   0   31      current     JJ                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   32            ,      ,                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   33        final     JJ                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   34         year     NN                 *)      -    -   -   -            *)            *             *   -
+nw/wsj/04/wsj_0443   0   35           of     IN              (PP*       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   36          its   PRP$              (NP*       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   37     baseball     NN                 *       -    -   -   -            *             *             *   -
+nw/wsj/04/wsj_0443   0   38     contract     NN       *)))))))))))      -    -   -   -            *             *)            *)  -
+nw/wsj/04/wsj_0443   0   39            .      .                *))      -    -   -   -            *             *             *   -
+
+nw/wsj/04/wsj_0443   0    0            The     DT      (TOP(S(NP(NP*           -    -   -   -         *       (ARG1*         *       (ARG1*        *   (ARG1*   (ARG1*        *   -
+nw/wsj/04/wsj_0443   0    1          1989      CD                  *           -    -   -   -     (DATE)           *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    2         Series    NNP                  *)          -    -   -   -    (EVENT)           *)        *            *)       *        *        *        *   -
+nw/wsj/04/wsj_0443   0    3              ,      ,                  *           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    4      disrupted    VBN            (VP(VP*      disrupt  01   1   -         *          (V*)        *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    5             by     IN               (PP*           -    -   -   -         *       (ARG0*         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    6              a     DT               (NP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    7    devastating    VBG                  *    devastate  01   1   -         *            *       (V*)           *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    8     earthquake     NN                *)))          -    -   -   -         *            *)   (ARG0*)           *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0    9            and     CC                  *           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   10     diminished    VBN               (VP*     diminish  01   1   -         *            *         *          (V*)       *        *        *        *   -
+nw/wsj/04/wsj_0443   0   11             in     IN               (PP*           -    -   -   -         *            *         *   (ARGM-LOC*        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   12       national     JJ               (NP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   13       interest     NN                 *))          -    -   -   -         *            *         *            *)       *        *        *        *   -
+nw/wsj/04/wsj_0443   0   14        because     IN             (SBAR*           -    -   -   -         *   (ARGM-CAU*         *   (ARGM-CAU*        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   15           both     DT             (S(NP*           -    -   -   -         *            *         *            *   (ARG1*        *        *        *   -
+nw/wsj/04/wsj_0443   0   16          teams    NNS                  *)          -    -   -   -         *            *         *            *        *)       *        *        *   -
+nw/wsj/04/wsj_0443   0   17           came    VBD               (VP*         come  03   -   -         *            *         *            *      (V*)       *        *        *   -
+nw/wsj/04/wsj_0443   0   18           from     IN               (PP*           -    -   -   -         *            *         *            *   (ARG2*        *        *        *   -
+nw/wsj/04/wsj_0443   0   19            the     DT               (NP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   20            San    NNP          (NML(NML*           -    -   -   -     (LOC*            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   21      Francisco    NNP                  *)          -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   22            Bay    NNP                  *)          -    -   -   -         *)           *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   23           area     NN            *)))))))          -    -   -   -         *            *)        *            *)       *)       *        *        *   -
+nw/wsj/04/wsj_0443   0   24              ,      ,                  *)          -    -   -   -         *            *         *            *        *        *)       *)       *   -
+nw/wsj/04/wsj_0443   0   25             is    VBZ               (VP*           be  01   -   -         *            *         *            *        *      (V*)       *        *   -
+nw/wsj/04/wsj_0443   0   26         likely     JJ             (ADJP*           -    -   -   -         *            *         *            *        *   (ARG2*        *        *   -
+nw/wsj/04/wsj_0443   0   27             to     TO             (S(VP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   28            end     VB               (VP*          end  03   -   -         *            *         *            *        *        *      (V*)       *   -
+nw/wsj/04/wsj_0443   0   29             up     RP              (PRT*)          -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   30             as     IN               (PP*           -    -   -   -         *            *         *            *        *        *   (ARG2*        *   -
+nw/wsj/04/wsj_0443   0   31            the     DT            (NP(NP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   32         lowest    RBS             (ADJP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   33             -    HYPH                  *           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   34          rated    VBN                  *)          -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   35         Series    NNP                  *)          -    -   -   -    (EVENT)           *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   36             of     IN           (UCP(PP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   37           this     DT               (NP*           -    -   -   -    (DATE*            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   38         decade     NN                 *))          -    -   -   -         *)           *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   39            and     CC                  *           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   40       probably     RB             (ADVP*)          -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   41          since     IN             (SBAR*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   42            the     DT             (S(NP*           -    -   -   -         *            *         *            *        *        *        *   (ARG1*   -
+nw/wsj/04/wsj_0443   0   43          event     NN                  *)          -    -   -   -         *            *         *            *        *        *        *        *)  -
+nw/wsj/04/wsj_0443   0   44            has    VBZ               (VP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   45           been    VBN               (VP*           -    -   -   -         *            *         *            *        *        *        *        *   -
+nw/wsj/04/wsj_0443   0   46      broadcast    VBN   (VP*)))))))))))))   broadcast  01   1   -         *            *         *            *        *        *)       *)     (V*)  -
+nw/wsj/04/wsj_0443   0   47              .      .                 *))          -    -   -   -         *            *         *            *        *        *        *        *   -
+
+nw/wsj/04/wsj_0443   0    0        The    DT     (TOP(S(NP*     -    -   -   -            *   (ARG1*   -
+nw/wsj/04/wsj_0443   0    1      first    JJ              *     -    -   -   -     (ORDINAL)       *   -
+nw/wsj/04/wsj_0443   0    2      three    CD              *     -    -   -   -    (CARDINAL)       *   -
+nw/wsj/04/wsj_0443   0    3      games   NNS              *)    -    -   -   -            *        *)  -
+nw/wsj/04/wsj_0443   0    4       were   VBD           (VP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0    5       seen   VBN           (VP*    see  01   -   -            *      (V*)  -
+nw/wsj/04/wsj_0443   0    6         by    IN           (PP*     -    -   -   -            *   (ARG0*   -
+nw/wsj/04/wsj_0443   0    7         an    DT        (NP(NP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0    8    average    NN              *)    -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0    9         of    IN           (PP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   10       only    JJ  (NP(NP(NP(QP*     -    -   -   -    (PERCENT*        *   -
+nw/wsj/04/wsj_0443   0   11        17     CD              *)    -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   12          %    NN              *)    -    -   -   -            *)       *   -
+nw/wsj/04/wsj_0443   0   13         of    IN           (PP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   14       U.S.   NNP           (NP*     -    -   -   -         (GPE)       *   -
+nw/wsj/04/wsj_0443   0   15      homes   NNS            *)))    -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   16          ,     ,              *     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   17          a    DT        (NP(NP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   18      sharp    JJ              *     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   19    decline    NN              *)    -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   20       from    IN           (PP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   21        the    DT        (NP(NP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   22      23.7     CD          (NML*     -    -   -   -    (PERCENT*        *   -
+nw/wsj/04/wsj_0443   0   23          %    NN              *)    -    -   -   -            *)       *   -
+nw/wsj/04/wsj_0443   0   24     rating    NN              *)    -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   25        for    IN           (PP*     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   26       last    JJ        (NP(NP*     -    -   -   -       (DATE*        *   -
+nw/wsj/04/wsj_0443   0   27       year    NN              *     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   28         's   POS              *)    -    -   -   -            *)       *   -
+nw/wsj/04/wsj_0443   0   29     Series   NNP    *)))))))))))    -    -   -   -       (EVENT)       *)  -
+nw/wsj/04/wsj_0443   0   30          .     .             *))    -    -   -   -            *        *   -
+
+nw/wsj/04/wsj_0443   0    0          A    DT  (TOP(S(NP(NP*    -    -   -   -        *   (ARG1*   -
+nw/wsj/04/wsj_0443   0    1      final    JJ              *    -    -   -   -        *        *   -
+nw/wsj/04/wsj_0443   0    2    ratings   NNS              *    -    -   -   -        *        *   -
+nw/wsj/04/wsj_0443   0    3      tally    NN              *)   -    -   -   -        *        *   -
+nw/wsj/04/wsj_0443   0    4       from    IN           (PP*    -    -   -   -        *        *   -
+nw/wsj/04/wsj_0443   0    5       A.C.   NNP           (NP*    -    -   -   -    (ORG*        *   -
+nw/wsj/04/wsj_0443   0    6    Nielsen   NNP              *    -    -   -   -        *        *   -
+nw/wsj/04/wsj_0443   0    7        Co.   NNP            *)))   -    -   -   -        *)       *)  -
+nw/wsj/04/wsj_0443   0    8         is   VBZ           (VP*    be  01   -   -        *      (V*)  -
+nw/wsj/04/wsj_0443   0    9        due    JJ         (ADJP*    -    -   -   -        *   (ARG2*   -
+nw/wsj/04/wsj_0443   0   10      today    NN         (NP*)))   -    -   -   -    (DATE)       *)  -
+nw/wsj/04/wsj_0443   0   11          .     .             *))   -    -   -   -        *        *   -
+
+nw/wsj/04/wsj_0443   0    0          The     DT  (TOP(S(NP(NP*          -    -   -   -       *          *        (ARG0*        *   -
+nw/wsj/04/wsj_0443   0    1        sweep     NN              *)         -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0    2           by     IN           (PP*          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0    3          the     DT        (NP(NP*          -    -   -   -       *   (R-ARG0*             *        *   -
+nw/wsj/04/wsj_0443   0    4          A's    NNP              *)         -    -   -   -    (ORG)         *)            *        *   -
+nw/wsj/04/wsj_0443   0    5            ,      ,              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0    6        whose    WP$    (SBAR(WHNP*          -    -   -   -       *     (ARG0*             *        *   -
+nw/wsj/04/wsj_0443   0    7     pitchers    NNS      (NML(NML*)         -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0    8          and     CC              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0    9         home     NN      (NML(NML*          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   10           -    HYPH              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   11          run     NN              *)         -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   12      hitters    NNS            *)))         -    -   -   -       *          *)            *        *   -
+nw/wsj/04/wsj_0443   0   13    dominated    VBD         (S(VP*    dominate  01   1   -       *        (V*)            *        *   -
+nw/wsj/04/wsj_0443   0   14          the     DT           (NP*          -    -   -   -       *     (ARG1*             *        *   -
+nw/wsj/04/wsj_0443   0   15       injury     NN         (ADJP*          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   16           -    HYPH              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   17        prone     JJ              *)         -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   18       Giants    NNP           *))))         -    -   -   -    (ORG)         *)            *        *   -
+nw/wsj/04/wsj_0443   0   19            ,      ,            *)))         -    -   -   -       *          *             *)       *   -
+nw/wsj/04/wsj_0443   0   20         will     MD           (VP*          -    -   -   -       *          *    (ARGM-MOD*)       *   -
+nw/wsj/04/wsj_0443   0   21         only     RB         (ADVP*)         -    -   -   -       *          *    (ARGM-ADV*)       *   -
+nw/wsj/04/wsj_0443   0   22         make     VB           (VP*        make  02   -   -       *          *           (V*)       *   -
+nw/wsj/04/wsj_0443   0   23       things    NNS         (S(NP*)         -    -   -   -       *          *        (ARG1*        *   -
+nw/wsj/04/wsj_0443   0   24        worse    JJR         (ADJP*          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   25          for     IN           (PP*          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   26          ABC    NNP        (NP(NP*)         -    -   -   -    (ORG)         *             *        *   -
+nw/wsj/04/wsj_0443   0   27            ,      ,              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   28        owned    VBN           (VP*         own  01   -   -       *          *             *      (V*)  -
+nw/wsj/04/wsj_0443   0   29           by     IN           (PP*          -    -   -   -       *          *             *   (ARG0*   -
+nw/wsj/04/wsj_0443   0   30      Capital    NNP           (NP*          -    -   -   -   (ORG*          *             *        *   -
+nw/wsj/04/wsj_0443   0   31       Cities    NNP              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   32            /    SYM              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   33          ABC    NNP              *          -    -   -   -       *          *             *        *   -
+nw/wsj/04/wsj_0443   0   34          Inc    NNP      *)))))))))         -    -   -   -       *)         *             *)       *)  -
+nw/wsj/04/wsj_0443   0   35            .      .             *))         -    -   -   -       *          *             *        *   -
+
+nw/wsj/04/wsj_0443   0    0         The    DT  (TOP(S(NP*        -    -   -   -         *     (ARG1*       (ARG0*   -
+nw/wsj/04/wsj_0443   0    1     network    NN           *)       -    -   -   -         *          *)           *)  -
+nw/wsj/04/wsj_0443   0    2         had   VBD        (VP*        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0    3        been   VBN        (VP*        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0    4    expected   VBN        (VP*    expect  01   -   -         *        (V*)           *   -
+nw/wsj/04/wsj_0443   0    5          to    TO      (S(VP*        -    -   -   -         *   (C-ARG1*            *   -
+nw/wsj/04/wsj_0443   0    6        have    VB        (VP*      have  03   -   -         *          *          (V*)  -
+nw/wsj/04/wsj_0443   0    7      losses   NNS     (NP(NP*)       -    -   -   -         *          *       (ARG1*   -
+nw/wsj/04/wsj_0443   0    8          of    IN        (PP*        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0    9          as    RB     (NP(QP*        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0   10        much    JJ           *        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0   11          as    IN           *        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0   12           $     $           *        -    -   -   -   (MONEY*          *            *   -
+nw/wsj/04/wsj_0443   0   13         20     CD           *        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0   14     million    CD         *)))       -    -   -   -         *)         *            *   -
+nw/wsj/04/wsj_0443   0   15          on    IN        (PP*        -    -   -   -         *          *            *   -
+nw/wsj/04/wsj_0443   0   16    baseball    NN      (NP*)))       -    -   -   -         *          *            *)  -
+nw/wsj/04/wsj_0443   0   17        this    DT        (NP*        -    -   -   -         *          *   (ARGM-TMP*   -
+nw/wsj/04/wsj_0443   0   18        year    NN     *)))))))       -    -   -   -     (DATE)         *)           *)  -
+nw/wsj/04/wsj_0443   0   19           .     .          *))       -    -   -   -         *          *            *   -
+
+nw/wsj/04/wsj_0443   0    0         It   PRP   (TOP(S(NP(NP*))      -    -   -   -         *             *             *   -
+nw/wsj/04/wsj_0443   0    1         is   VBZ             (VP*       be  01   -   -         *           (V*)            *   -
+nw/wsj/04/wsj_0443   0    2        n't    RB                *       -    -   -   -         *    (ARGM-NEG*)            *   -
+nw/wsj/04/wsj_0443   0    3      clear    JJ           (ADJP*)      -    -   -   -         *        (ARG2*)            *   -
+nw/wsj/04/wsj_0443   0    4        how   WRB    (SBAR(WHADVP*       -    -   -   -         *        (ARG1*        (ARG2*   -
+nw/wsj/04/wsj_0443   0    5       much    RB                *)      -    -   -   -         *             *             *)  -
+nw/wsj/04/wsj_0443   0    6      those    DT           (S(NP*       -    -   -   -         *             *        (ARG1*   -
+nw/wsj/04/wsj_0443   0    7     losses   NNS                *)      -    -   -   -         *             *             *)  -
+nw/wsj/04/wsj_0443   0    8        may    MD             (VP*       -    -   -   -         *             *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0443   0    9      widen    VB             (VP*    widen  01   1   -         *             *           (V*)  -
+nw/wsj/04/wsj_0443   0   10    because    RB             (PP*       -    -   -   -         *             *    (ARGM-CAU*   -
+nw/wsj/04/wsj_0443   0   11         of    IN                *       -    -   -   -         *             *             *   -
+nw/wsj/04/wsj_0443   0   12        the    DT             (NP*       -    -   -   -         *             *             *   -
+nw/wsj/04/wsj_0443   0   13      short    JJ                *       -    -   -   -         *             *             *   -
+nw/wsj/04/wsj_0443   0   14     Series   NNP          *)))))))      -    -   -   -    (EVENT)            *)            *)  -
+nw/wsj/04/wsj_0443   0   15          .     .               *))      -    -   -   -         *             *             *   -
+
+nw/wsj/04/wsj_0443   0    0         Had    VBD  (TOP(S(SBAR(SINV*         -    -   -   -            *        *    (ARGM-ADV*             *   -
+nw/wsj/04/wsj_0443   0    1         the     DT               (NP*         -    -   -   -            *   (ARG1*             *             *   -
+nw/wsj/04/wsj_0443   0    2     contest     NN                  *)        -    -   -   -            *        *)            *             *   -
+nw/wsj/04/wsj_0443   0    3        gone    VBN               (VP*         go  06   -   -            *      (V*)            *             *   -
+nw/wsj/04/wsj_0443   0    4           a     DT               (NP*         -    -   -   -            *   (ARG2*             *             *   -
+nw/wsj/04/wsj_0443   0    5        full     JJ                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0    6       seven     CD                  *         -    -   -   -    (CARDINAL)       *             *             *   -
+nw/wsj/04/wsj_0443   0    7       games    NNS               *))))        -    -   -   -            *        *)            *)            *   -
+nw/wsj/04/wsj_0443   0    8           ,      ,                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0    9         ABC    NNP               (NP*)        -    -   -   -         (ORG)       *        (ARG0*)            *   -
+nw/wsj/04/wsj_0443   0   10       could     MD               (VP*         -    -   -   -            *        *    (ARGM-MOD*)            *   -
+nw/wsj/04/wsj_0443   0   11        have     VB               (VP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   12      reaped    VBN               (VP*       reap  01   2   -            *        *           (V*)            *   -
+nw/wsj/04/wsj_0443   0   13          an     DT            (NP(NP*         -    -   -   -            *        *        (ARG1*             *   -
+nw/wsj/04/wsj_0443   0   14       extra     JJ                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   15           $      $               (QP*         -    -   -   -      (MONEY*        *             *             *   -
+nw/wsj/04/wsj_0443   0   16         10      CD                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   17     million     CD                 *))        -    -   -   -            *)       *             *             *   -
+nw/wsj/04/wsj_0443   0   18          in     IN               (PP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   19          ad     NN               (NP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   20       sales    NNS                *)))        -    -   -   -            *        *             *)            *   -
+nw/wsj/04/wsj_0443   0   21          on     IN               (PP*         -    -   -   -            *        *        (ARG2*             *   -
+nw/wsj/04/wsj_0443   0   22         the     DT            (NP(NP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   23     seventh     JJ                  *         -    -   -   -     (ORDINAL)       *             *             *   -
+nw/wsj/04/wsj_0443   0   24        game     NN                  *)        -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   25       alone     RB           (ADVP*)))        -    -   -   -            *        *             *)            *   -
+nw/wsj/04/wsj_0443   0   26           ,      ,                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   27    compared    VBN               (PP*         -    -   -   -            *        *    (ARGM-ADV*             *   -
+nw/wsj/04/wsj_0443   0   28        with     IN               (PP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   29         the     DT            (NP(NP*         -    -   -   -            *        *             *        (ARG1*   -
+nw/wsj/04/wsj_0443   0   30          ad     NN                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   31        take     NN                  *)        -    -   -   -            *        *             *             *)  -
+nw/wsj/04/wsj_0443   0   32          it    PRP        (SBAR(S(NP*)        -    -   -   -            *        *             *        (ARG0*)  -
+nw/wsj/04/wsj_0443   0   33       would     MD               (VP*         -    -   -   -            *        *             *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0443   0   34        have     VB               (VP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   35    received    VBN               (VP*    receive  01   -   -            *        *             *           (V*)  -
+nw/wsj/04/wsj_0443   0   36         for     IN               (PP*         -    -   -   -            *        *             *        (ARG3*   -
+nw/wsj/04/wsj_0443   0   37     regular     JJ               (NP*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   38       prime     JJ              (NML*         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   39          -    HYPH                  *         -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   40        time     NN                  *)        -    -   -   -            *        *             *             *   -
+nw/wsj/04/wsj_0443   0   41       shows    NNS      *)))))))))))))        -    -   -   -            *        *             *)            *)  -
+nw/wsj/04/wsj_0443   0   42           .      .                 *))        -    -   -   -            *        *             *             *   -
+
+nw/wsj/04/wsj_0443   0    0         ABC    NNP   (TOP(S(NP*)     -    -   -   -         (ORG)   (ARG0*)  -
+nw/wsj/04/wsj_0443   0    1         had    VBD         (VP*      -    -   -   -            *         *   -
+nw/wsj/04/wsj_0443   0    2       based    VBN         (VP*    base  02   -   -            *       (V*)  -
+nw/wsj/04/wsj_0443   0    3         its   PRP$      (NP(NP*      -    -   -   -            *    (ARG1*   -
+nw/wsj/04/wsj_0443   0    4      budget     NN            *)     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0443   0    5         for     IN         (PP*      -    -   -   -            *         *   -
+nw/wsj/04/wsj_0443   0    6    baseball     NN       (NP*)))     -    -   -   -            *         *)  -
+nw/wsj/04/wsj_0443   0    7          on     IN         (PP*      -    -   -   -            *    (ARG2*   -
+nw/wsj/04/wsj_0443   0    8           a     DT         (NP*      -    -   -   -            *         *   -
+nw/wsj/04/wsj_0443   0    9         six     CD        (NML*      -    -   -   -    (CARDINAL)        *   -
+nw/wsj/04/wsj_0443   0   10          -    HYPH            *      -    -   -   -            *         *   -
+nw/wsj/04/wsj_0443   0   11        game     NN            *)     -    -   -   -            *         *   -
+nw/wsj/04/wsj_0443   0   12      Series    NNP         *))))     -    -   -   -       (EVENT)        *)  -
+nw/wsj/04/wsj_0443   0   13           .      .           *))     -    -   -   -            *         *   -
+
+nw/wsj/04/wsj_0443   0    0              A    DT  (TOP(S(S(NP*           -    -   -   -       *        (ARG0*        *        *   -
+nw/wsj/04/wsj_0443   0    1        network    NN             *           -    -   -   -       *             *        *        *   -
+nw/wsj/04/wsj_0443   0    2      spokesman    NN             *)          -    -   -   -       *             *)       *        *   -
+nw/wsj/04/wsj_0443   0    3          would    MD          (VP*           -    -   -   -       *    (ARGM-MOD*)       *        *   -
+nw/wsj/04/wsj_0443   0    4            n't    RB             *           -    -   -   -       *    (ARGM-NEG*)       *        *   -
+nw/wsj/04/wsj_0443   0    5        comment    VB        (VP*)))     comment  01   1   -       *           (V*)       *        *   -
+nw/wsj/04/wsj_0443   0    6              ,     ,             *           -    -   -   -       *             *        *        *   -
+nw/wsj/04/wsj_0443   0    7            and    CC             *           -    -   -   -       *             *        *        *   -
+nw/wsj/04/wsj_0443   0    8            ABC   NNP    (S(NP(NML*           -    -   -   -   (ORG*             *   (ARG0*   (ARG1*   -
+nw/wsj/04/wsj_0443   0    9         Sports   NNP             *)          -    -   -   -       *)            *        *        *   -
+nw/wsj/04/wsj_0443   0   10      officials   NNS             *)          -    -   -   -       *             *        *)       *)  -
+nw/wsj/04/wsj_0443   0   11       declined   VBD          (VP*      decline  02   -   -       *             *      (V*)       *   -
+nw/wsj/04/wsj_0443   0   12             to    TO        (S(VP*           -    -   -   -       *             *   (ARG1*        *   -
+nw/wsj/04/wsj_0443   0   13             be    VB          (VP*           -    -   -   -       *             *        *        *   -
+nw/wsj/04/wsj_0443   0   14    interviewed   VBN     (VP*))))))   interview  01   1   -       *             *        *)     (V*)  -
+nw/wsj/04/wsj_0443   0   15              .     .            *))          -    -   -   -       *             *        *        *   -
+
+nw/wsj/04/wsj_0443   0    0             But     CC         (TOP(S*              -    -   -   -            *    (ARGM-DIS*)           *         *            *   -
+nw/wsj/04/wsj_0443   0    1            some     DT            (NP*              -    -   -   -            *        (ARG0*            *         *            *   -
+nw/wsj/04/wsj_0443   0    2        industry     NN               *              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0    3      executives    NNS               *)             -    -   -   -            *             *)           *         *            *   -
+nw/wsj/04/wsj_0443   0    4            said    VBD            (VP*             say  01   -   -            *           (V*)           *         *            *   -
+nw/wsj/04/wsj_0443   0    5             ABC    NNP     (SBAR(S(NP*)             -    -   -   -         (ORG)       (ARG1*       (ARG0*)   (ARG0*)           *   -
+nw/wsj/04/wsj_0443   0    6               ,      ,               *              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0    7              in     IN            (PP*              -    -   -   -            *             *   (ARGM-PRP*         *            *   -
+nw/wsj/04/wsj_0443   0    8    anticipation     NN         (NP(NP*)   anticipation   -   1   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0    9              of     IN            (PP*              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   10               a     DT            (NP*              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   11            four     CD           (NML*              -    -   -   -    (CARDINAL)            *            *         *            *   -
+nw/wsj/04/wsj_0443   0   12              -    HYPH               *              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   13            game     NN               *)             -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   14           sweep     NN            *))))             -    -   -   -            *             *            *)        *            *   -
+nw/wsj/04/wsj_0443   0   15               ,      ,               *              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   16         limited    VBD            (VP*           limit  01   -   -            *             *          (V*)        *            *   -
+nw/wsj/04/wsj_0443   0   17             its   PRP$            (NP*              -    -   -   -            *             *       (ARG1*         *            *   -
+nw/wsj/04/wsj_0443   0   18          losses    NNS               *)             -    -   -   -            *             *            *)        *            *   -
+nw/wsj/04/wsj_0443   0   19              by     IN            (PP*              -    -   -   -            *             *   (ARGM-MNR*         *            *   -
+nw/wsj/04/wsj_0443   0   20         jacking    VBG          (S(VP*            jack  01   2   -            *             *            *       (V*)           *   -
+nw/wsj/04/wsj_0443   0   21              up     RP           (PRT*)             -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   22             the     DT      (NP(NP(NP*              -    -   -   -            *             *            *    (ARG1*       (ARG1*   -
+nw/wsj/04/wsj_0443   0   23          number     NN               *)             -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   24              of     IN            (PP*              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   25     commercials    NNS          (NP*)))             -    -   -   -            *             *            *         *            *)  -
+nw/wsj/04/wsj_0443   0   26              it    PRP     (SBAR(S(NP*)             -    -   -   -            *             *            *         *       (ARG0*)  -
+nw/wsj/04/wsj_0443   0   27           aired    VBD            (VP*             air  01   2   -            *             *            *         *          (V*)  -
+nw/wsj/04/wsj_0443   0   28              in     IN            (PP*              -    -   -   -            *             *            *         *   (ARGM-LOC*   -
+nw/wsj/04/wsj_0443   0   29             the     DT            (NP*              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   30           third     JJ          (ADJP*              -    -   -   -     (ORDINAL)            *            *         *            *   -
+nw/wsj/04/wsj_0443   0   31             and     CC               *              -    -   -   -            *             *            *         *            *   -
+nw/wsj/04/wsj_0443   0   32          fourth     JJ               *)             -    -   -   -     (ORDINAL)            *            *         *            *   -
+nw/wsj/04/wsj_0443   0   33           games    NNS   *)))))))))))))             -    -   -   -            *             *)           *)        *)           *)  -
+nw/wsj/04/wsj_0443   0   34               .      .              *))             -    -   -   -            *             *            *         *            *   -
+
+nw/wsj/04/wsj_0443   0    0              A     DT  (TOP(S(S(NP*          -    -   -   -            *        (ARG0*             *         *   -
+nw/wsj/04/wsj_0443   0    1          World    NNP         (NML*          -    -   -   -      (EVENT*             *             *         *   -
+nw/wsj/04/wsj_0443   0    2         Series    NNP             *)         -    -   -   -            *)            *             *         *   -
+nw/wsj/04/wsj_0443   0    3       telecast     NN             *)         -    -   -   -            *             *)            *         *   -
+nw/wsj/04/wsj_0443   0    4      typically     RB        (ADVP*)         -    -   -   -            *    (ARGM-ADV*)            *         *   -
+nw/wsj/04/wsj_0443   0    5        carries    VBZ          (VP*       carry  01   -   -            *           (V*)            *         *   -
+nw/wsj/04/wsj_0443   0    6            56      CD          (NP*          -    -   -   -    (CARDINAL)       (ARG1*             *         *   -
+nw/wsj/04/wsj_0443   0    7            30      CD         (NML*          -    -   -   -       (TIME*             *             *         *   -
+nw/wsj/04/wsj_0443   0    8             -    HYPH             *          -    -   -   -            *             *             *         *   -
+nw/wsj/04/wsj_0443   0    9         second     NN             *)         -    -   -   -            *)            *             *         *   -
+nw/wsj/04/wsj_0443   0   10    commercials    NNS           *)))         -    -   -   -            *             *)            *         *   -
+nw/wsj/04/wsj_0443   0   11              ,      ,             *          -    -   -   -            *             *             *         *   -
+nw/wsj/04/wsj_0443   0   12            but     CC             *          -    -   -   -            *             *             *         *   -
+nw/wsj/04/wsj_0443   0   13             by     IN        (S(PP*          -    -   -   -            *             *    (ARGM-TMP*         *   -
+nw/wsj/04/wsj_0443   0   14            the     DT          (NP*          -    -   -   -            *             *             *         *   -
+nw/wsj/04/wsj_0443   0   15         fourth     JJ             *          -    -   -   -     (ORDINAL)            *             *         *   -
+nw/wsj/04/wsj_0443   0   16           game     NN            *))         -    -   -   -            *             *             *)        *   -
+nw/wsj/04/wsj_0443   0   17            ABC    NNP          (NP*)         -    -   -   -         (ORG)            *        (ARG0*)   (ARG0*)  -
+nw/wsj/04/wsj_0443   0   18            was    VBD          (VP*          -    -   -   -            *             *             *         *   -
+nw/wsj/04/wsj_0443   0   19       cramming    VBG          (VP*        cram  01   1   -            *             *           (V*)        *   -
+nw/wsj/04/wsj_0443   0   20             in     RP         (PRT*)         -    -   -   -            *             *    (ARGM-DIR*)        *   -
+nw/wsj/04/wsj_0443   0   21            60      CD       (NP(QP*          -    -   -   -    (CARDINAL)            *        (ARG1*         *   -
+nw/wsj/04/wsj_0443   0   22             to     TO             *          -    -   -   -            *             *             *         *   -
+nw/wsj/04/wsj_0443   0   23            62      CD             *)         -    -   -   -    (CARDINAL)            *             *         *   -
+nw/wsj/04/wsj_0443   0   24            ads    NNS             *)         -    -   -   -            *             *             *)        *   -
+nw/wsj/04/wsj_0443   0   25             to     TO        (S(VP*          -    -   -   -            *             *    (ARGM-PRP*         *   -
+nw/wsj/04/wsj_0443   0   26       generate     VB          (VP*    generate  01   1   -            *             *             *       (V*)  -
+nw/wsj/04/wsj_0443   0   27          extra     JJ          (NP*          -    -   -   -            *             *             *    (ARG1*   -
+nw/wsj/04/wsj_0443   0   28        revenue     NN       *)))))))         -    -   -   -            *             *             *)        *)  -
+nw/wsj/04/wsj_0443   0   29              .      .            *))         -    -   -   -            *             *             *         *   -
+
+nw/wsj/04/wsj_0443   0    0             ABC    NNP     (TOP(S(NP(NP*           -    -   -   -      (ORG)       (ARG1*            *        *        *   -
+nw/wsj/04/wsj_0443   0    1              's    POS                 *)          -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0    2        baseball     NN                 *           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0    3      experience     NN                 *)          -    -   -   -         *             *)           *        *        *   -
+nw/wsj/04/wsj_0443   0    4             may     MD              (VP*           -    -   -   -         *    (ARGM-MOD*)           *        *        *   -
+nw/wsj/04/wsj_0443   0    5              be     VB              (VP*           be  01   -   -         *           (V*)           *        *        *   -
+nw/wsj/04/wsj_0443   0    6              of     IN              (PP*           -    -   -   -         *        (ARG2*            *        *        *   -
+nw/wsj/04/wsj_0443   0    7        interest     NN           (NP(NP*)          -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0    8              to     IN              (PP*           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0    9             CBS    NNP           (NP(NP*           -    -   -   -     (ORG*             *       (ARG0*        *        *   -
+nw/wsj/04/wsj_0443   0   10            Inc.    NNP                 *)          -    -   -   -         *)            *            *)       *        *   -
+nw/wsj/04/wsj_0443   0   11               ,      ,                 *           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   12           which    WDT       (SBAR(WHNP*)          -    -   -   -         *             *     (R-ARG0*)       *        *   -
+nw/wsj/04/wsj_0443   0   13            next     JJ            (S(NP*           -    -   -   -    (DATE*             *   (ARGM-TMP*        *        *   -
+nw/wsj/04/wsj_0443   0   14          season     NN                 *)          -    -   -   -         *)            *            *)       *        *   -
+nw/wsj/04/wsj_0443   0   15           takes    VBZ              (VP*         take  12   -   -         *             *          (V*)       *        *   -
+nw/wsj/04/wsj_0443   0   16            over     RP             (PRT*)          -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   17             the     DT           (NP(NP*           -    -   -   -         *             *       (ARG1*        *        *   -
+nw/wsj/04/wsj_0443   0   18    broadcasting     NN                 *)   broadcast  01   1   -         *             *            *      (V*)       *   -
+nw/wsj/04/wsj_0443   0   19              of     IN              (PP*           -    -   -   -         *             *            *   (ARG1*        *   -
+nw/wsj/04/wsj_0443   0   20             all     DT              (NP*           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   21        baseball     NN                 *           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   22        playoffs    NNS               *)))          -    -   -   -         *             *            *)       *)       *   -
+nw/wsj/04/wsj_0443   0   23              in     IN              (PP*           -    -   -   -         *             *   (ARGM-LOC*        *        *   -
+nw/wsj/04/wsj_0443   0   24               a     DT           (NP(NP*           -    -   -   -         *             *            *        *   (ARG1*   -
+nw/wsj/04/wsj_0443   0   25            four     CD             (NML*           -    -   -   -    (DATE*             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   26              -    HYPH                 *           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   27            year     NN                 *)          -    -   -   -         *)            *            *        *        *   -
+nw/wsj/04/wsj_0443   0   28      television     NN                 *           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   29        contract     NN                 *)          -    -   -   -         *             *            *        *        *)  -
+nw/wsj/04/wsj_0443   0   30          priced    VBN              (VP*        price  01   -   -         *             *            *        *      (V*)  -
+nw/wsj/04/wsj_0443   0   31              at     IN              (PP*           -    -   -   -         *             *            *        *   (ARG2*   -
+nw/wsj/04/wsj_0443   0   32               $      $           (NP(QP*           -    -   -   -   (MONEY*             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   33           1.06      CD                 *           -    -   -   -         *             *            *        *        *   -
+nw/wsj/04/wsj_0443   0   34         billion     CD   *)))))))))))))))          -    -   -   -         *)            *)           *)       *        *)  -
+nw/wsj/04/wsj_0443   0   35               .      .                *))          -    -   -   -         *             *            *        *        *   -
+
+nw/wsj/04/wsj_0443   0    0          CBS   NNP  (TOP(S(NP(NML(NML*         -    -   -   -      (ORG*   (ARG0*             *   -
+nw/wsj/04/wsj_0443   0    1       Sports   NNP                   *)        -    -   -   -          *)       *             *   -
+nw/wsj/04/wsj_0443   0    2    President   NNP                   *)        -    -   -   -          *        *             *   -
+nw/wsj/04/wsj_0443   0    3         Neal   NNP                   *         -    -   -   -   (PERSON*        *             *   -
+nw/wsj/04/wsj_0443   0    4       Pilson   NNP                   *)        -    -   -   -          *)       *)            *   -
+nw/wsj/04/wsj_0443   0    5          has   VBZ                (VP*         -    -   -   -          *        *             *   -
+nw/wsj/04/wsj_0443   0    6     conceded   VBN                (VP*    concede  01   1   -          *      (V*)            *   -
+nw/wsj/04/wsj_0443   0    7         only    RB         (SBAR(ADVP*)        -    -   -   -          *   (ARG1*             *   -
+nw/wsj/04/wsj_0443   0    8         that    IN                   *         -    -   -   -          *        *             *   -
+nw/wsj/04/wsj_0443   0    9          CBS   NNP              (S(NP*)        -    -   -   -       (ORG)       *        (ARG0*)  -
+nw/wsj/04/wsj_0443   0   10         will    MD                (VP*         -    -   -   -          *        *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0443   0   11         have    VB                (VP*       have  03   -   -          *        *           (V*)  -
+nw/wsj/04/wsj_0443   0   12            a    DT                (NP*         -    -   -   -          *        *        (ARG1*   -
+nw/wsj/04/wsj_0443   0   13         loss    NN                   *)        -    -   -   -          *        *             *)  -
+nw/wsj/04/wsj_0443   0   14           in    IN                (PP*         -    -   -   -          *        *    (ARGM-TMP*   -
+nw/wsj/04/wsj_0443   0   15          the    DT                (NP*         -    -   -   -     (DATE*        *             *   -
+nw/wsj/04/wsj_0443   0   16        first    JJ                   *         -    -   -   -          *        *             *   -
+nw/wsj/04/wsj_0443   0   17         year    NN            *))))))))        -    -   -   -          *)       *)            *)  -
+nw/wsj/04/wsj_0443   0   18            .     .                  *))        -    -   -   -          *        *             *   -
+
+nw/wsj/04/wsj_0443   0    0           But     CC       (TOP(S*         -    -   -   -            *    (ARGM-DIS*)            *             *        *   -
+nw/wsj/04/wsj_0443   0    1         other     JJ          (NP*         -    -   -   -            *        (ARG0*             *             *        *   -
+nw/wsj/04/wsj_0443   0    2      industry     NN             *         -    -   -   -            *             *             *             *        *   -
+nw/wsj/04/wsj_0443   0    3    executives    NNS             *)        -    -   -   -            *             *)            *             *        *   -
+nw/wsj/04/wsj_0443   0    4       contend    VBP          (VP*    contend  01   1   -            *           (V*)            *             *        *   -
+nw/wsj/04/wsj_0443   0    5           the     DT   (SBAR(S(NP*         -    -   -   -            *        (ARG1*        (ARG0*        (ARG1*        *   -
+nw/wsj/04/wsj_0443   0    6        losses    NNS             *)        -    -   -   -            *             *             *)            *)       *   -
+nw/wsj/04/wsj_0443   0    7         could     MD       (VP(VP*         -    -   -   -            *             *    (ARGM-MOD*)            *        *   -
+nw/wsj/04/wsj_0443   0    8         reach     VB          (VP*      reach  01   -   -            *             *           (V*)            *        *   -
+nw/wsj/04/wsj_0443   0    9             $      $    (NP(NP(QP*         -    -   -   -      (MONEY*             *        (ARG1*             *        *   -
+nw/wsj/04/wsj_0443   0   10          250      CD             *         -    -   -   -            *             *             *             *        *   -
+nw/wsj/04/wsj_0443   0   11       million     CD            *))        -    -   -   -            *)            *             *)            *        *   -
+nw/wsj/04/wsj_0443   0   12          over     IN          (PP*         -    -   -   -            *             *    (ARGM-TMP*             *        *   -
+nw/wsj/04/wsj_0443   0   13          four     CD          (NP*         -    -   -   -       (DATE*             *             *             *        *   -
+nw/wsj/04/wsj_0443   0   14         years    NNS         *)))))        -    -   -   -            *)            *             *)            *        *   -
+nw/wsj/04/wsj_0443   0   15           and     CC             *         -    -   -   -            *             *             *             *        *   -
+nw/wsj/04/wsj_0443   0   16         could     MD          (VP*         -    -   -   -            *             *             *    (ARGM-MOD*)       *   -
+nw/wsj/04/wsj_0443   0   17            go     VB          (VP*         go  01   -   -            *             *             *           (V*)       *   -
+nw/wsj/04/wsj_0443   0   18          even     RB        (ADVP*         -    -   -   -            *             *             *    (ARGM-DIR*        *   -
+nw/wsj/04/wsj_0443   0   19        higher    RBR             *)        -    -   -   -            *             *             *             *)       *   -
+nw/wsj/04/wsj_0443   0   20            if     IN        (SBAR*         -    -   -   -            *             *             *    (ARGM-ADV*        *   -
+nw/wsj/04/wsj_0443   0   21           the     DT        (S(NP*         -    -   -   -      (EVENT*             *             *             *   (ARG1*   -
+nw/wsj/04/wsj_0443   0   22         World    NNP             *         -    -   -   -            *             *             *             *        *   -
+nw/wsj/04/wsj_0443   0   23        Series    NNP             *)        -    -   -   -            *)            *             *             *        *)  -
+nw/wsj/04/wsj_0443   0   24           end    VBP          (VP*        end  01   -   -            *             *             *             *      (V*)  -
+nw/wsj/04/wsj_0443   0   25            in     IN          (PP*         -    -   -   -            *             *             *             *   (ARG2*   -
+nw/wsj/04/wsj_0443   0   26          four     CD      (NP(NML*         -    -   -   -    (CARDINAL)            *             *             *        *   -
+nw/wsj/04/wsj_0443   0   27            -    HYPH             *         -    -   -   -            *             *             *             *        *   -
+nw/wsj/04/wsj_0443   0   28          game     NN             *)        -    -   -   -            *             *             *             *        *   -
+nw/wsj/04/wsj_0443   0   29         romps    NNS   *)))))))))))        -    -   -   -            *             *)            *             *)       *)  -
+nw/wsj/04/wsj_0443   0   30             .      .            *))        -    -   -   -            *             *             *             *        *   -
+
+nw/wsj/04/wsj_0443   0    0           The     DT  (TOP(S(NP*    -    -   -   -         *        (ARG1*   -
+nw/wsj/04/wsj_0443   0    1        Series    NNP           *)   -    -   -   -    (EVENT)            *)  -
+nw/wsj/04/wsj_0443   0    2     typically     RB      (ADVP*)   -    -   -   -         *    (ARGM-ADV*)  -
+nw/wsj/04/wsj_0443   0    3            is    VBZ        (VP*    be  01   -   -         *           (V*)  -
+nw/wsj/04/wsj_0443   0    4         among     IN        (PP*    -    -   -   -         *        (ARG2*   -
+nw/wsj/04/wsj_0443   0    5           the     DT     (NP(NP*    -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0    6       highest    RBS      (ADJP*    -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0    7            -    HYPH           *    -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0    8         rated    VBN           *)   -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0    9        sports    NNS           *    -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0   10        events    NNS           *)   -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0   11            on     IN        (PP*    -    -   -   -         *             *   -
+nw/wsj/04/wsj_0443   0   12    television     NN    (NP*)))))   -    -   -   -         *             *)  -
+nw/wsj/04/wsj_0443   0   13             .      .          *))   -    -   -   -         *             *   -
+
+nw/wsj/04/wsj_0443   0    0         Last     JJ  (TOP(S(S(NP(NP(NP*           -    -   -   -    (DATE*   (ARG1*   (ARG1*        *            *   -
+nw/wsj/04/wsj_0443   0    1         year     NN                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0    2           's    POS                   *)          -    -   -   -         *)       *        *        *            *   -
+nw/wsj/04/wsj_0443   0    3       series     NN                   *)          -    -   -   -    (EVENT)       *)       *        *            *   -
+nw/wsj/04/wsj_0443   0    4            ,      ,                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0    5    broadcast    VBN                (VP*    broadcast  01   1   -         *      (V*)       *        *            *   -
+nw/wsj/04/wsj_0443   0    6           by     IN                (PP*           -    -   -   -         *   (ARG0*        *        *            *   -
+nw/wsj/04/wsj_0443   0    7      General    NNP             (NP(NP*           -    -   -   -     (ORG*        *        *        *            *   -
+nw/wsj/04/wsj_0443   0    8     Electric    NNP                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0    9          Co.    NNP                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   10           's    POS                   *)          -    -   -   -         *)       *        *        *            *   -
+nw/wsj/04/wsj_0443   0   11          NBC    NNP                 *)))          -    -   -   -      (ORG)       *)       *        *            *   -
+nw/wsj/04/wsj_0443   0   12            ,      ,                   *)          -    -   -   -         *        *        *)       *            *   -
+nw/wsj/04/wsj_0443   0   13          was    VBD                (VP*           be  01   -   -         *        *      (V*)       *            *   -
+nw/wsj/04/wsj_0443   0   14          the     DT             (NP(NP*           -    -   -   -         *        *   (ARG2*        *            *   -
+nw/wsj/04/wsj_0443   0   15       lowest    RBS              (ADJP*           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   16           -    HYPH                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   17        rated    VBN                   *)          -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   18       Series    NNP                   *)          -    -   -   -    (EVENT)       *        *        *            *   -
+nw/wsj/04/wsj_0443   0   19           in     IN                (PP*           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   20         four     CD                (NP*           -    -   -   -    (DATE*        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   21        years    NNS               *)))))          -    -   -   -         *)       *        *)       *            *   -
+nw/wsj/04/wsj_0443   0   22            ;      :                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   23      instead     RB              (S(PP*           -    -   -   -         *        *        *        *   (ARGM-ADV*   -
+nw/wsj/04/wsj_0443   0   24           of     IN                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   25    featuring    VBG              (S(VP*      feature  01   1   -         *        *        *      (V*)           *   -
+nw/wsj/04/wsj_0443   0   26            a     DT             (NP(NP*           -    -   -   -         *        *        *   (ARG1*            *   -
+nw/wsj/04/wsj_0443   0   27        major     JJ                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   28         East    NNP               (NML*           -    -   -   -     (LOC*        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   29        Coast    NNP                   *)          -    -   -   -         *)       *        *        *            *   -
+nw/wsj/04/wsj_0443   0   30         team     NN                   *)          -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   31      against     IN                (PP*           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   32            a     DT                (NP*           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   33         West    NNP               (NML*           -    -   -   -     (LOC*        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   34        Coast    NNP                   *)          -    -   -   -         *)       *        *        *            *   -
+nw/wsj/04/wsj_0443   0   35         team     NN              *))))))          -    -   -   -         *        *        *        *)           *)  -
+nw/wsj/04/wsj_0443   0   36            ,      ,                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   37           it    PRP                (NP*)          -    -   -   -         *        *        *        *       (ARG0*)  -
+nw/wsj/04/wsj_0443   0   38       pitted    VBD                (VP*          pit  01   1   -         *        *        *        *          (V*)  -
+nw/wsj/04/wsj_0443   0   39          the     DT                (NP*           -    -   -   -     (ORG*        *        *        *       (ARG1*   -
+nw/wsj/04/wsj_0443   0   40          Los    NNP               (NML*           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   41      Angeles    NNP                   *)          -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   42      Dodgers    NNP                   *)          -    -   -   -         *)       *        *        *            *)  -
+nw/wsj/04/wsj_0443   0   43      against     IN                (PP*           -    -   -   -         *        *        *        *       (ARG2*   -
+nw/wsj/04/wsj_0443   0   44          the     DT                (NP*           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   45       losing     NN                   *           -    -   -   -         *        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   46      Oakland    NNP                   *           -    -   -   -     (ORG*        *        *        *            *   -
+nw/wsj/04/wsj_0443   0   47          A's    NNP                *))))          -    -   -   -         *)       *        *        *            *)  -
+nw/wsj/04/wsj_0443   0   48            .      .                  *))          -    -   -   -         *        *        *        *            *   -
+
+nw/wsj/04/wsj_0443   0    0       ABC   NNP  (TOP(S(NP(NP*    -    -   -   -         (ORG)      (ARG1*   -
+nw/wsj/04/wsj_0443   0    1        's   POS              *)   -    -   -   -            *            *   -
+nw/wsj/04/wsj_0443   0    2    hurdle    NN              *)   -    -   -   -            *            *)  -
+nw/wsj/04/wsj_0443   0    3       was   VBD           (VP*    be  01   -   -            *          (V*)  -
+nw/wsj/04/wsj_0443   0    4      even    RB         (ADJP*    -    -   -   -            *       (ARG2*   -
+nw/wsj/04/wsj_0443   0    5    higher   JJR              *)   -    -   -   -            *            *)  -
+nw/wsj/04/wsj_0443   0    6      this    DT           (NP*    -    -   -   -       (DATE*   (ARGM-TMP*   -
+nw/wsj/04/wsj_0443   0    7      year    NN              *)   -    -   -   -            *)           *)  -
+nw/wsj/04/wsj_0443   0    8      with    IN           (PP*    -    -   -   -            *   (ARGM-ADV*   -
+nw/wsj/04/wsj_0443   0    9       two    CD        (NP(NP*    -    -   -   -    (CARDINAL)           *   -
+nw/wsj/04/wsj_0443   0   10     teams   NNS              *)   -    -   -   -            *            *   -
+nw/wsj/04/wsj_0443   0   11      from    IN           (PP*    -    -   -   -            *            *   -
+nw/wsj/04/wsj_0443   0   12       the    DT           (NP*    -    -   -   -            *            *   -
+nw/wsj/04/wsj_0443   0   13      same    JJ              *    -    -   -   -            *            *   -
+nw/wsj/04/wsj_0443   0   14      area    NN          *)))))   -    -   -   -            *            *)  -
+nw/wsj/04/wsj_0443   0   15         .     .             *))   -    -   -   -            *            *   -
+
+nw/wsj/04/wsj_0443   0    0         The    DT  (TOP(S(S(NP*      -    -   -   -           *       (ARG1*            *   -
+nw/wsj/04/wsj_0443   0    1      Series   NNP             *)     -    -   -   -      (EVENT)           *)           *   -
+nw/wsj/04/wsj_0443   0    2         got   VBD          (VP*     get  11   -   -           *          (V*)           *   -
+nw/wsj/04/wsj_0443   0    3         off    IN          (PP*      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0    4          to    IN          (PP*      -    -   -   -           *       (ARG2*            *   -
+nw/wsj/04/wsj_0443   0    5           a    DT          (NP*      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0    6    lukewarm    JJ             *      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0    7       start    NN           *)))     -    -   -   -           *            *)           *   -
+nw/wsj/04/wsj_0443   0    8        Oct.   NNP          (NP*      -    -   -   -      (DATE*   (ARGM-TMP*            *   -
+nw/wsj/04/wsj_0443   0    9         14     CD             *)     -    -   -   -           *)           *)           *   -
+nw/wsj/04/wsj_0443   0   10        with    IN          (PP*      -    -   -   -           *   (ARGM-MNR*            *   -
+nw/wsj/04/wsj_0443   0   11           a    DT          (NP*      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0   12       16.2     CD         (NML*      -    -   -   -   (PERCENT*            *            *   -
+nw/wsj/04/wsj_0443   0   13           %    NN             *)     -    -   -   -           *)           *            *   -
+nw/wsj/04/wsj_0443   0   14      rating    NN          *))))     -    -   -   -           *            *)           *   -
+nw/wsj/04/wsj_0443   0   15           ;     :             *      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0   16         the    DT        (S(NP*      -    -   -   -           *            *   (ARGM-TMP*   -
+nw/wsj/04/wsj_0443   0   17        next    JJ             *      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0   18       night    NN             *)     -    -   -   -           *            *            *)  -
+nw/wsj/04/wsj_0443   0   19          it   PRP          (NP*)     -    -   -   -           *            *       (ARG0*)  -
+nw/wsj/04/wsj_0443   0   20        drew   VBD          (VP*    draw  02   -   -           *            *          (V*)  -
+nw/wsj/04/wsj_0443   0   21       17.4     CD       (NP(NP*      -    -   -   -   (PERCENT*            *       (ARG1*   -
+nw/wsj/04/wsj_0443   0   22           %    NN             *)     -    -   -   -           *)           *            *   -
+nw/wsj/04/wsj_0443   0   23          of    IN          (PP*      -    -   -   -           *            *            *   -
+nw/wsj/04/wsj_0443   0   24       homes   NNS      (NP*)))))     -    -   -   -           *            *            *)  -
+nw/wsj/04/wsj_0443   0   25           .     .            *))     -    -   -   -           *            *            *   -
+
+nw/wsj/04/wsj_0443   0    0          Then    RB   (TOP(SINV(ADVP*)     -    -   -   -        *    (ARGM-DIS*)  -
+nw/wsj/04/wsj_0443   0    1          came   VBD              (VP*)   come  01   -   -        *           (V*)  -
+nw/wsj/04/wsj_0443   0    2           the    DT           (NP(NP*      -    -   -   -        *        (ARG1*   -
+nw/wsj/04/wsj_0443   0    3    earthquake    NN                 *)     -    -   -   -        *             *   -
+nw/wsj/04/wsj_0443   0    4           and    CC                 *      -    -   -   -        *             *   -
+nw/wsj/04/wsj_0443   0    5             a    DT           (NP(NP*      -    -   -   -        *             *   -
+nw/wsj/04/wsj_0443   0    6      damaging    JJ                 *      -    -   -   -        *             *   -
+nw/wsj/04/wsj_0443   0    7         delay    NN                 *)     -    -   -   -        *             *   -
+nw/wsj/04/wsj_0443   0    8            of    IN              (PP*      -    -   -   -        *             *   -
+nw/wsj/04/wsj_0443   0    9           11     CD              (NP*      -    -   -   -   (DATE*             *   -
+nw/wsj/04/wsj_0443   0   10          days   NNS              *))))     -    -   -   -        *)            *)  -
+nw/wsj/04/wsj_0443   0   11             .     .                *))     -    -   -   -        *             *   -
+
+nw/wsj/04/wsj_0443   0    0          Some    DT      (TOP(S(NP*      -    -   -   -       *   (ARG0*             *   -
+nw/wsj/04/wsj_0443   0    1        people   NNS               *)     -    -   -   -       *        *)            *   -
+nw/wsj/04/wsj_0443   0    2           had   VBD            (VP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0    3         hoped   VBN            (VP*    hope  01   1   -       *      (V*)            *   -
+nw/wsj/04/wsj_0443   0    4           ABC   NNP  (SBAR(S(NP(NP*      -    -   -   -    (ORG)  (ARG1*        (ARG1*   -
+nw/wsj/04/wsj_0443   0    5            's   POS               *)     -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0    6       ratings   NNS               *)     -    -   -   -       *        *             *)  -
+nw/wsj/04/wsj_0443   0    7         would    MD            (VP*      -    -   -   -       *        *    (ARGM-MOD*)  -
+nw/wsj/04/wsj_0443   0    8            go    VB            (VP*      go  01   -   -       *        *           (V*)  -
+nw/wsj/04/wsj_0443   0    9            up    RB          (ADVP*)     -    -   -   -       *        *    (ARGM-DIR*)  -
+nw/wsj/04/wsj_0443   0   10       because    RB            (PP*      -    -   -   -       *        *    (ARGM-CAU*   -
+nw/wsj/04/wsj_0443   0   11            of    IN               *      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   12           the    DT         (NP(NP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   13       intense    JJ               *      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   14         focus    NN               *)     -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   15            on    IN            (PP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   16           the    DT            (NP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   17         event    NN              *))     -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   18            in    IN            (PP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   19           the    DT         (NP(NP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   20     aftermath    NN               *)     -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   21            of    IN            (PP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   22           the    DT            (NP*      -    -   -   -       *        *             *   -
+nw/wsj/04/wsj_0443   0   23    earthquake    NN    *))))))))))))     -    -   -   -       *        *)            *)  -
+nw/wsj/04/wsj_0443   0   24             .     .              *))     -    -   -   -       *        *             *   -
+
+nw/wsj/04/wsj_0443   0    0         An    DT  (TOP(S(NP(NP(NP*      -    -   -   -        *        (ARG0*            *   -
+nw/wsj/04/wsj_0443   0    1    analyst    NN                 *      -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0    2         's   POS                 *)     -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0    3    opinion    NN                 *)     -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0    4         to    IN              (PP*      -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0    5       that    DT              (NP*      -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0    6     effect    NN               *)))     -    -   -   -        *             *)           *   -
+nw/wsj/04/wsj_0443   0    7       even    RB            (ADVP*)     -    -   -   -        *    (ARGM-ADV*)           *   -
+nw/wsj/04/wsj_0443   0    8       sent   VBD              (VP*    send  02   -   -        *           (V*)           *   -
+nw/wsj/04/wsj_0443   0    9    Capital   NNP        (S(NP(NML*      -    -   -   -    (ORG*        (ARG1*       (ARG1*   -
+nw/wsj/04/wsj_0443   0   10     Cities   NNP                 *      -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0   11          /   SYM                 *      -    -   -   -        *             *            *   -
+nw/wsj/04/wsj_0443   0   12        ABC   NNP                 *)     -    -   -   -        *)            *            *   -
+nw/wsj/04/wsj_0443   0   13     shares   NNS                 *)     -    -   -   -        *             *)           *)  -
+nw/wsj/04/wsj_0443   0   14    soaring   VBG             (VP*))   soar  01   2   -        *        (ARG2*)         (V*)  -
+nw/wsj/04/wsj_0443   0   15        two    CD         (ADVP(NP*      -    -   -   -   (DATE*    (ARGM-TMP*   (ARGM-TMP*   -
+nw/wsj/04/wsj_0443   0   16      weeks   NNS                 *)     -    -   -   -        *)            *            *   -
+nw/wsj/04/wsj_0443   0   17        ago    RB                *))     -    -   -   -        *             *)           *)  -
+nw/wsj/04/wsj_0443   0   18          .     .                *))     -    -   -   -        *             *            *   -
+
+nw/wsj/04/wsj_0443   0   0          But    CC  (TOP(S*          -    -   -   -   *             *   -
+nw/wsj/04/wsj_0443   0   1     interest    NN     (NP*)         -    -   -   -   *        (ARG1*)  -
+nw/wsj/04/wsj_0443   0   2      instead    RB   (ADVP*)         -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/04/wsj_0443   0   3    decreased   VBD     (VP*)   decrease  01   1   -   *           (V*)  -
+nw/wsj/04/wsj_0443   0   4            .     .       *))         -    -   -   -   *             *   -
+
+nw/wsj/04/wsj_0443   0    0              The    DT  (TOP(S(NP(NP*      -    -   -   -            *   (ARG0*   -
+nw/wsj/04/wsj_0443   0    1            third    JJ              *      -    -   -   -     (ORDINAL)       *   -
+nw/wsj/04/wsj_0443   0    2             game    NN              *)     -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0    3                ,     ,              *      -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0    4             last    JJ           (NP*      -    -   -   -       (DATE*        *   -
+nw/wsj/04/wsj_0443   0    5           Friday   NNP              *      -    -   -   -            *)       *   -
+nw/wsj/04/wsj_0443   0    6            night    NN              *)     -    -   -   -        (TIME)       *   -
+nw/wsj/04/wsj_0443   0    7                ,     ,              *)     -    -   -   -            *        *)  -
+nw/wsj/04/wsj_0443   0    8             drew   VBD           (VP*    draw  02   -   -            *      (V*)  -
+nw/wsj/04/wsj_0443   0    9                a    DT           (NP*      -    -   -   -            *   (ARG1*   -
+nw/wsj/04/wsj_0443   0   10    disappointing    JJ              *      -    -   -   -            *        *   -
+nw/wsj/04/wsj_0443   0   11            17.5     CD              *      -    -   -   -    (CARDINAL)       *   -
+nw/wsj/04/wsj_0443   0   12           rating    NN             *))     -    -   -   -            *        *)  -
+nw/wsj/04/wsj_0443   0   13                .     .             *))     -    -   -   -            *        *   -
+
+#end document

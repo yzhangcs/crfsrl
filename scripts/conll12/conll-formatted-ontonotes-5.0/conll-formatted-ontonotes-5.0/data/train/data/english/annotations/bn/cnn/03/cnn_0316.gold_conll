@@ -1,0 +1,94 @@
+#begin document (bn/cnn/03/cnn_0316); part 000
+bn/cnn/03/cnn_0316   0    0       Another    DT  (TOP(S(NP(NP*          -    -   -   -            *      *        (ARG1*       (3
+bn/cnn/03/cnn_0316   0    1           six    CD              *          -    -   -   -    (CARDINAL)     *             *        -
+bn/cnn/03/cnn_0316   0    2    executives   NNS              *)         -    -   -   -            *      *             *        -
+bn/cnn/03/cnn_0316   0    3          from    IN           (PP*          -    -   -   -            *      *             *        -
+bn/cnn/03/cnn_0316   0    4         Enron   NNP         (NP*)))         -    -   -   -         (ORG)     *             *)   (0)|3)
+bn/cnn/03/cnn_0316   0    5         could    MD           (VP*          -    -   -   -            *      *    (ARGM-MOD*)       -
+bn/cnn/03/cnn_0316   0    6            be    VB           (VP*          be  03   -   -            *    (V*)            *        -
+bn/cnn/03/cnn_0316   0    7       charged   VBN           (VP*      charge  05   3   -            *      *           (V*)      (2)
+bn/cnn/03/cnn_0316   0    8          with    IN           (PP*          -    -   -   -            *      *        (ARG2*        -
+bn/cnn/03/cnn_0316   0    9    securities   NNS        (NP(NP*    security   -   1   -            *      *             *        -
+bn/cnn/03/cnn_0316   0   10         fraud    NN              *)         -    -   -   -            *      *             *        -
+bn/cnn/03/cnn_0316   0   11           and    CC              *          -    -   -   -            *      *             *        -
+bn/cnn/03/cnn_0316   0   12         other    JJ           (NP*          -    -   -   -            *      *             *        -
+bn/cnn/03/cnn_0316   0   13        crimes   NNS         *))))))      crime   -   1   -            *      *             *)       -
+bn/cnn/03/cnn_0316   0   14             .     .             *))         -    -   -   -            *      *             *        -
+
+bn/cnn/03/cnn_0316   0    0        Federal    JJ   (TOP(S(NP*        -    -   -   -        *   (ARG0*             *      *     -
+bn/cnn/03/cnn_0316   0    1    prosecutors   NNS            *)       -    -   -   -        *        *)            *      *     -
+bn/cnn/03/cnn_0316   0    2       notified   VBD         (VP*    notify  01   1   -        *      (V*)            *      *     -
+bn/cnn/03/cnn_0316   0    3            the    DT         (NP*        -    -   -   -        *   (ARG1*             *      *    (3
+bn/cnn/03/cnn_0316   0    4         former    JJ            *        -    -   -   -        *        *             *      *     -
+bn/cnn/03/cnn_0316   0    5      employees   NNS            *)       -    -   -   -        *        *)            *      *     3)
+bn/cnn/03/cnn_0316   0    6           that    IN       (SBAR*        -    -   -   -        *   (ARG2*             *      *     -
+bn/cnn/03/cnn_0316   0    7           they   PRP       (S(NP*)       -    -   -   -        *        *        (ARG0*)     *    (3)
+bn/cnn/03/cnn_0316   0    8          could    MD         (VP*        -    -   -   -        *        *    (ARGM-MOD*)     *     -
+bn/cnn/03/cnn_0316   0    9           face    VB         (VP*      face  01   1   -        *        *           (V*)     *     -
+bn/cnn/03/cnn_0316   0   10        charges   NNS         (NP*)   charge  03   3   -        *        *        (ARG1*)   (V*)   (2)
+bn/cnn/03/cnn_0316   0   11             as    RB  (ADVP(ADVP*        -    -   -   -        *        *    (ARGM-TMP*      *     -
+bn/cnn/03/cnn_0316   0   12          early    RB            *)       -    -   -   -        *        *             *      *     -
+bn/cnn/03/cnn_0316   0   13             as    IN         (PP*        -    -   -   -        *        *             *      *     -
+bn/cnn/03/cnn_0316   0   14           this    DT         (NP*        -    -   -   -   (DATE*        *             *      *     -
+bn/cnn/03/cnn_0316   0   15           week    NN     *))))))))       -    -   -   -        *)       *)            *)     *     -
+bn/cnn/03/cnn_0316   0   16              .     .           *))       -    -   -   -        *        *             *      *     -
+
+bn/cnn/03/cnn_0316   0   0          They   PRP   (TOP(S(NP*)       -    -   -   -            *        (ARG0*)            *    (3)
+bn/cnn/03/cnn_0316   0   1         would    MD         (VP*        -    -   -   -            *    (ARGM-MOD*)            *     -
+bn/cnn/03/cnn_0316   0   2          join    VB         (VP*      join  01   3   -            *           (V*)            *     -
+bn/cnn/03/cnn_0316   0   3         seven    CD      (NP(NP*        -    -   -   -    (CARDINAL)       (ARG1*             *    (4
+bn/cnn/03/cnn_0316   0   4         other    JJ            *        -    -   -   -            *             *             *     -
+bn/cnn/03/cnn_0316   0   5    executives   NNS            *)       -    -   -   -            *             *             *     -
+bn/cnn/03/cnn_0316   0   6       already    RB   (RRC(ADVP*)       -    -   -   -            *             *    (ARGM-TMP*)    -
+bn/cnn/03/cnn_0316   0   7       charged   VBN         *))))   charge  05   3   -            *             *)          (V*)    4)
+bn/cnn/03/cnn_0316   0   8             .     .           *))       -    -   -   -            *             *             *     -
+
+bn/cnn/03/cnn_0316   0    0           Abe    NNP   (TOP(S(NP*)       -    -   -   -            *    (ARGM-DIS*)            *         *        -
+bn/cnn/03/cnn_0316   0    1           our   PRP$         (NP*        -    -   -   -            *        (ARG0*             *         *        -
+bn/cnn/03/cnn_0316   0    2         Enron    NNP            *        -    -   -   -         (ORG)            *             *         *       (0)
+bn/cnn/03/cnn_0316   0    3     corporate     JJ        (NML*        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0    4       America    NNP            *)       -    -   -   -         (GPE)            *             *         *        -
+bn/cnn/03/cnn_0316   0    5         score     NN            *     score   -   4   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0    6         board     NN            *)    board   -   5   -            *             *)            *         *        -
+bn/cnn/03/cnn_0316   0    7          sets    VBZ         (VP*       set  01   3   -            *           (V*)            *         *        -
+bn/cnn/03/cnn_0316   0    8           50      CD    (S(NP(NP*        -    -   -   -    (CARDINAL)       (ARG1*        (ARG1*         *       (1
+bn/cnn/03/cnn_0316   0    9    executives    NNS           *))       -    -   -   -            *             *             *)        *        1)
+bn/cnn/03/cnn_0316   0   10           now     RB       (ADVP*)       -    -   -   -            *             *    (ARGM-TMP*)        *        -
+bn/cnn/03/cnn_0316   0   11       charged    VBN         (VP*    charge  05   3   -            *             *           (V*)        *        -
+bn/cnn/03/cnn_0316   0   12            in     IN         (PP*        -    -   -   -            *             *    (ARGM-LOC*         *        -
+bn/cnn/03/cnn_0316   0   13       America    NNP       (NP*)))       -    -   -   -         (GPE)            *             *)        *        -
+bn/cnn/03/cnn_0316   0   14             ,      ,            *        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0   15         seven     CD    (S(NP(NP*)       -    -   -   -    (CARDINAL)            *    (ARGM-PRD*         *       (4
+bn/cnn/03/cnn_0316   0   16            of     IN         (PP*        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0   17          them    PRP       (NP*)))       -    -   -   -            *             *             *         *    (1)|4)
+bn/cnn/03/cnn_0316   0   18             ,      ,            *        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0   19            as     IN       (SBAR*        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0   20             I    PRP       (S(NP*)       -    -   -   -            *             *             *    (ARG0*)       -
+bn/cnn/03/cnn_0316   0   21          said    VBD       (VP*)))      say  01   1   -            *             *             *       (V*)       -
+bn/cnn/03/cnn_0316   0   22             ,      ,            *        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0   23            at     IN         (PP*        -    -   -   -            *             *             *         *        -
+bn/cnn/03/cnn_0316   0   24         Enron    NNP     (NP*)))))       -    -   -   -         (ORG)            *)            *)        *       (0)
+bn/cnn/03/cnn_0316   0   25             .      .           *))       -    -   -   -            *             *             *         *        -
+
+bn/cnn/03/cnn_0316   0   0        No    DT  (TOP(S(NP(NP*      -    -   -   -   *      *   (ARG1*   -
+bn/cnn/03/cnn_0316   0   1       one    NN              *)    one   -   2   -   *      *        *   -
+bn/cnn/03/cnn_0316   0   2         ,     ,              *      -    -   -   -   *      *        *   -
+bn/cnn/03/cnn_0316   0   3        no    DT           (NP*      -    -   -   -   *      *        *   -
+bn/cnn/03/cnn_0316   0   4       one    NN             *))    one   -   2   -   *      *        *)  -
+bn/cnn/03/cnn_0316   0   5        is   VBZ           (VP*      be  03   -   -   *    (V*)       *   -
+bn/cnn/03/cnn_0316   0   6      sent   VBN           (VP*    send  03   2   -   *      *      (V*)  -
+bn/cnn/03/cnn_0316   0   7        to    IN           (PP*      -    -   -   -   *      *   (ARG2*   -
+bn/cnn/03/cnn_0316   0   8    prison    NN        (NP*))))     -    -   -   -   *      *        *)  -
+bn/cnn/03/cnn_0316   0   9         .     .             *))     -    -   -   -   *      *        *   -
+
+bn/cnn/03/cnn_0316   0   0            Been   VBN   (TOP(VP*            be  01   -   -        *      (V*)        *     -
+bn/cnn/03/cnn_0316   0   1            511     CD       (NP*            -    -   -   -   (DATE*   (ARG2*         *     -
+bn/cnn/03/cnn_0316   0   2            days   NNS          *)          day   -   2   -        *)       *)        *     -
+bn/cnn/03/cnn_0316   0   3           since    IN     (SBAR*            -    -   -   -        *   (ARG1*         *     -
+bn/cnn/03/cnn_0316   0   4           Enron   NNP     (S(NP*)           -    -   -   -     (ORG)       *    (ARG0*)   (0)
+bn/cnn/03/cnn_0316   0   5           filed   VBD       (VP*          file  01   1   -        *        *       (V*)    -
+bn/cnn/03/cnn_0316   0   6             for    IN       (PP*            -    -   -   -        *        *    (ARG4*     -
+bn/cnn/03/cnn_0316   0   7    bankruptcies   NNS   (NP*)))))   bankruptcy   -   3   -        *        *)        *)    -
+bn/cnn/03/cnn_0316   0   8               .     .         *))           -    -   -   -        *        *         *     -
+
+#end document

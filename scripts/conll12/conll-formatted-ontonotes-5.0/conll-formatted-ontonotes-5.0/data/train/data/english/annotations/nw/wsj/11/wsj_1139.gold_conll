@@ -1,0 +1,664 @@
+#begin document (nw/wsj/11/wsj_1139); part 000
+nw/wsj/11/wsj_1139   0    0            Sales    NNS   (TOP(S(NP(NP*)           sale  01   1   -           *      (V*)      (ARG1*        *      -
+nw/wsj/11/wsj_1139   0    1               of     IN            (PP*              -    -   -   -           *   (ARG1*            *        *      -
+nw/wsj/11/wsj_1139   0    2            North    NNP   (NP(ADJP(NML*              -    -   -   -      (NORP*        *            *        *      -
+nw/wsj/11/wsj_1139   0    3         American    NNP               *)             -    -   -   -           *)       *            *        *      -
+nw/wsj/11/wsj_1139   0    4               -    HYPH               *              -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0    5            built    VBN               *)             -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0    6             cars    NNS               *             car   -   2   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0    7              and     CC               *              -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0    8           trucks    NNS             *)))          truck   -   1   -           *        *)           *)       *      -
+nw/wsj/11/wsj_1139   0    9          plunged    VBD            (VP*          plunge  01   2   -           *        *          (V*)       *      -
+nw/wsj/11/wsj_1139   0   10            20.5      CD            (NP*              -    -   -   -   (PERCENT*        *       (ARG2*        *      -
+nw/wsj/11/wsj_1139   0   11                %     NN               *)             -    -   -   -           *)       *            *)       *      -
+nw/wsj/11/wsj_1139   0   12               in     IN            (PP*              -    -   -   -           *        *   (ARGM-TMP*        *      -
+nw/wsj/11/wsj_1139   0   13      mid-October    NNP           (NP*))             -    -   -   -       (DATE)       *            *)       *    (11)
+nw/wsj/11/wsj_1139   0   14             from     IN            (PP*              -    -   -   -           *        *       (ARG3*        *      -
+nw/wsj/11/wsj_1139   0   15                a     DT       (ADVP(NP*              -    -   -   -      (DATE*        *            *        *      -
+nw/wsj/11/wsj_1139   0   16             year     NN               *)             -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   17          earlier    RBR              *))             -    -   -   -           *)       *            *)       *      -
+nw/wsj/11/wsj_1139   0   18                ,      ,               *              -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   19               as     IN          (SBAR*              -    -   -   -           *        *   (ARGM-TMP*        *      -
+nw/wsj/11/wsj_1139   0   20         domestic     JJ          (S(NP*              -    -   -   -           *        *            *   (ARG0*      -
+nw/wsj/11/wsj_1139   0   21    manufacturers    NNS               *)   manufacturer   -   1   -           *        *            *        *)     -
+nw/wsj/11/wsj_1139   0   22             paid    VBD            (VP*             pay  01   1   -           *        *            *      (V*)     -
+nw/wsj/11/wsj_1139   0   23              the     DT         (NP(NP*              -    -   -   -           *        *            *   (ARG1*      -
+nw/wsj/11/wsj_1139   0   24            price     NN               *)          price   -   1   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   25              for     IN            (PP*              -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   26            heavy     JJ         (NP(NP*              -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   27       incentives    NNS               *)             -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   28          earlier    RBR       (NP(ADVP*)             -    -   -   -      (DATE*        *            *        *      -
+nw/wsj/11/wsj_1139   0   29             this     DT               *              -    -   -   -           *        *            *        *      -
+nw/wsj/11/wsj_1139   0   30             year     NN        *))))))))             -    -   -   -           *)       *            *)       *)     -
+nw/wsj/11/wsj_1139   0   31                .      .              *))             -    -   -   -           *        *            *        *      -
+
+nw/wsj/11/wsj_1139   0    0           ``      ``      (TOP(SINV*         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0    1       People     NNS          (S(NP*)    people   -   1   -          *    (ARG1*)  (ARG1*         *          *     -
+nw/wsj/11/wsj_1139   0    2          are     VBP            (VP*         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0    3      waiting     VBG            (VP*       wait  01   1   -          *       (V*)       *         *          *    (6)
+nw/wsj/11/wsj_1139   0    4          for      IN            (PP*         -    -   -   -          *    (ARG2*        *         *          *     -
+nw/wsj/11/wsj_1139   0    5       -LCB-   -LRB-             (NP*         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0    6          new      JJ               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0    7       -RCB-   -RRB-                *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0    8      factory      NN               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0    9    giveaways     NNS           *)))))        -    -   -   -          *         *)       *)        *          *     -
+nw/wsj/11/wsj_1139   0   10            ,       ,               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   11           ''      ''               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   12         said     VBD            (VP*)       say  01   1   -          *         *      (V*)        *          *     -
+nw/wsj/11/wsj_1139   0   13          Ben     NNP         (NP(NP*         -    -   -   -   (PERSON*         *   (ARG0*         *          *     -
+nw/wsj/11/wsj_1139   0   14         Kaye     NNP               *)        -    -   -   -          *)        *        *         *          *     -
+nw/wsj/11/wsj_1139   0   15            ,       ,               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   16        sales     NNS         (NP(NP*       sale   -   1   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   17      manager      NN               *)   manager   -   1   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   18           of      IN            (PP*         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   19          Bob     NNP  (NP(NP(NP(NML*         -    -   -   -      (ORG*         *        *         *     (ARG1*     -
+nw/wsj/11/wsj_1139   0   20        Brest     NNP               *)        -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   21         Auto     NNP               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   22        World     NNP               *)        -    -   -   -          *)        *        *         *          *     -
+nw/wsj/11/wsj_1139   0   23           in      IN            (PP*         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   24         Lynn     NNP         (NP(NP*)        -    -   -   -       (GPE)        *        *         *          *     -
+nw/wsj/11/wsj_1139   0   25            ,       ,               *         -    -   -   -          *         *        *         *          *     -
+nw/wsj/11/wsj_1139   0   26        Mass.     NNP            (NP*)        -    -   -   -       (GPE)        *        *         *          *     -
+nw/wsj/11/wsj_1139   0   27            ,       ,             *)))        -    -   -   -          *         *        *         *          *)    -
+nw/wsj/11/wsj_1139   0   28        whose     WP$     (SBAR(WHNP*         -    -   -   -          *         *        *    (ARG0*)  (R-ARG1*     -
+nw/wsj/11/wsj_1139   0   29        sales     NNS               *)      sale  01   1   -          *         *        *       (V*)         *)    -
+nw/wsj/11/wsj_1139   0   30          are     VBP          (S(VP*         be  01   1   -          *         *        *         *        (V*)    -
+nw/wsj/11/wsj_1139   0   31         slow      JJ   (ADJP*))))))))        -    -   -   -          *         *        *)        *     (ARG2*)    -
+nw/wsj/11/wsj_1139   0   32            .       .              *))        -    -   -   -          *         *        *         *          *     -
+
+nw/wsj/11/wsj_1139   0    0          This    DT       (TOP(S(NP*        -    -   -   -        *     (ARG1*       (ARG1*           *            *      *      (6
+nw/wsj/11/wsj_1139   0    1         trend    NN                *)    trend   -   2   -        *          *)           *)          *            *      *       6)
+nw/wsj/11/wsj_1139   0    2       appears   VBZ             (VP*    appear  02   1   -        *        (V*)           *           *            *      *       -
+nw/wsj/11/wsj_1139   0    3            to    TO           (S(VP*        -    -   -   -        *   (C-ARG1*            *           *            *      *       -
+nw/wsj/11/wsj_1139   0    4            be    VB             (VP*        be  01   1   -        *          *          (V*)          *            *      *       -
+nw/wsj/11/wsj_1139   0    5    especially    RB           (ADJP*        -    -   -   -        *          *       (ARG2*           *            *      *       -
+nw/wsj/11/wsj_1139   0    6          true    JJ                *)       -    -   -   -        *          *            *)          *            *      *       -
+nw/wsj/11/wsj_1139   0    7            at    IN             (PP*        -    -   -   -        *          *   (ARGM-LOC*           *            *      *       -
+nw/wsj/11/wsj_1139   0    8       General   NNP          (NP(NP*        -    -   -   -    (ORG*          *            *      (ARG0*            *      *      (5
+nw/wsj/11/wsj_1139   0    9        Motors   NNP                *        -    -   -   -        *          *            *           *            *      *       -
+nw/wsj/11/wsj_1139   0   10         Corp.   NNP                *)       -    -   -   -        *)         *            *           *)           *      *       -
+nw/wsj/11/wsj_1139   0   11             ,     ,                *        -    -   -   -        *          *            *           *            *      *       -
+nw/wsj/11/wsj_1139   0   12         which   WDT      (SBAR(WHNP*)       -    -   -   -        *          *            *    (R-ARG0*)      (ARG0*)     *       -
+nw/wsj/11/wsj_1139   0   13          used   VBD           (S(VP*       use  01   1   -        *          *            *         (V*)           *      *       -
+nw/wsj/11/wsj_1139   0   14          both    CC         (NP(NML*        -    -   -   -        *          *            *      (ARG1*            *      *       -
+nw/wsj/11/wsj_1139   0   15        dealer    NN                *    dealer   -   2   -        *          *            *           *            *      *       -
+nw/wsj/11/wsj_1139   0   16           and    CC                *        -    -   -   -        *          *            *           *            *      *       -
+nw/wsj/11/wsj_1139   0   17      consumer    NN                *)       -    -   -   -        *          *            *           *            *      *       -
+nw/wsj/11/wsj_1139   0   18    incentives   NNS                *)       -    -   -   -        *          *            *           *)           *      *       -
+nw/wsj/11/wsj_1139   0   19            to    TO           (S(VP*        -    -   -   -        *          *            *      (ARG2*            *      *       -
+nw/wsj/11/wsj_1139   0   20        ignite    VB             (VP*    ignite  01   2   -        *          *            *           *          (V*)     *       -
+nw/wsj/11/wsj_1139   0   21         sales   NNS             (NP*)     sale  01   1   -        *          *            *           *       (ARG1*)   (V*)      -
+nw/wsj/11/wsj_1139   0   22            in    IN             (PP*        -    -   -   -        *          *            *           *   (ARGM-TMP*      *       -
+nw/wsj/11/wsj_1139   0   23        August   NNP             (NP*        -    -   -   -    (DATE)         *            *           *            *      *      (2
+nw/wsj/11/wsj_1139   0   24           and    CC                *        -    -   -   -        *          *            *           *            *      *       -
+nw/wsj/11/wsj_1139   0   25     September   NNP   *))))))))))))))       -    -   -   -    (DATE)         *)           *)          *)           *)     *    5)|2)
+nw/wsj/11/wsj_1139   0   26             .     .               *))       -    -   -   -        *          *            *           *            *      *       -
+
+nw/wsj/11/wsj_1139   0   0         Since    IN  (TOP(S(PP*          -    -   -   -   *      *   (ARGM-TMP*     -
+nw/wsj/11/wsj_1139   0   1          then    RB     (ADVP*))         -    -   -   -   *      *            *)   (2)
+nw/wsj/11/wsj_1139   0   2             ,     ,           *          -    -   -   -   *      *            *     -
+nw/wsj/11/wsj_1139   0   3    deliveries   NNS        (NP*)   delivery  01   1   -   *    (V*)      (ARG1*)    -
+nw/wsj/11/wsj_1139   0   4          have   VBP        (VP*          -    -   -   -   *      *            *     -
+nw/wsj/11/wsj_1139   0   5       slumped   VBN       (VP*))      slump  01   2   -   *      *          (V*)    -
+nw/wsj/11/wsj_1139   0   6             .     .          *))         -    -   -   -   *      *            *     -
+
+nw/wsj/11/wsj_1139   0    0             GM   NNP  (TOP(S(NP(NP*       -    -   -   -         (ORG)   (ARG0*       (ARG1*         *        *     (5
+nw/wsj/11/wsj_1139   0    1             's   POS              *)      -    -   -   -            *         *)           *         *        *      5)
+nw/wsj/11/wsj_1139   0    2            car    NN              *      car   -   2   -            *    (ARG1*)           *         *        *      -
+nw/wsj/11/wsj_1139   0    3          sales   NNS              *)    sale  01   1   -            *       (V*)           *)        *        *      -
+nw/wsj/11/wsj_1139   0    4        dropped   VBD           (VP*     drop  01   2   -            *         *          (V*)        *        *      -
+nw/wsj/11/wsj_1139   0    5          24.8     CD           (NP*       -    -   -   -    (PERCENT*         *       (ARG2*         *        *      -
+nw/wsj/11/wsj_1139   0    6              %    NN              *)      -    -   -   -            *)        *            *)        *        *      -
+nw/wsj/11/wsj_1139   0    7             in    IN           (PP*       -    -   -   -            *         *   (ARGM-TMP*         *        *      -
+nw/wsj/11/wsj_1139   0    8    mid-October   NNP          (NP*))      -    -   -   -        (DATE)        *            *)        *        *    (11)
+nw/wsj/11/wsj_1139   0    9             to    IN           (PP*       -    -   -   -            *         *       (ARG4*         *        *      -
+nw/wsj/11/wsj_1139   0   10        69,980     CD          (NP*))      -    -   -   -    (CARDINAL)        *            *)        *        *      -
+nw/wsj/11/wsj_1139   0   11              ,     ,              *       -    -   -   -            *         *            *         *        *      -
+nw/wsj/11/wsj_1139   0   12          while    IN         (SBAR*       -    -   -   -            *         *   (ARGM-ADV*         *        *      -
+nw/wsj/11/wsj_1139   0   13          truck    NN         (S(NP*    truck   -   1   -            *         *            *    (ARG1*)  (ARG1*      -
+nw/wsj/11/wsj_1139   0   14          sales   NNS              *)    sale  01   1   -            *         *            *       (V*)       *)     -
+nw/wsj/11/wsj_1139   0   15           fell   VBD           (VP*     fall  01   1   -            *         *            *         *      (V*)     -
+nw/wsj/11/wsj_1139   0   16            26     CD           (NP*       -    -   -   -    (PERCENT*         *            *         *   (ARG2*      -
+nw/wsj/11/wsj_1139   0   17              %    NN              *)      -    -   -   -            *)        *            *         *        *)     -
+nw/wsj/11/wsj_1139   0   18             to    IN           (PP*       -    -   -   -            *         *            *         *   (ARG4*      -
+nw/wsj/11/wsj_1139   0   19        37,860     CD      (NP*))))))      -    -   -   -    (CARDINAL)        *            *)        *        *)     -
+nw/wsj/11/wsj_1139   0   20              .     .             *))      -    -   -   -            *         *            *         *        *      -
+
+nw/wsj/11/wsj_1139   0    0          GM   NNP   (TOP(S(NP*)       -    -   -   -     (ORG)       (ARG0*)       *    (5)
+nw/wsj/11/wsj_1139   0    1        also    RB       (ADVP*)       -    -   -   -        *    (ARGM-DIS*)       *     -
+nw/wsj/11/wsj_1139   0    2         had   VBD         (VP*      have  03   4   -        *           (V*)       *     -
+nw/wsj/11/wsj_1139   0    3      dismal    JJ         (NP*        -    -   -   -        *        (ARG1*        *     -
+nw/wsj/11/wsj_1139   0    4     results   NNS            *)   result   -   3   -        *             *)       *     -
+nw/wsj/11/wsj_1139   0    5          in    IN         (PP*        -    -   -   -        *    (ARGM-TMP*        *     -
+nw/wsj/11/wsj_1139   0    6         the    DT      (NP(NP*        -    -   -   -   (DATE*             *        *     -
+nw/wsj/11/wsj_1139   0    7       first    JJ            *        -    -   -   -        *             *        *     -
+nw/wsj/11/wsj_1139   0    8         10     CD            *        -    -   -   -        *             *        *     -
+nw/wsj/11/wsj_1139   0    9        days   NNS            *)      day   -   2   -        *             *        *     -
+nw/wsj/11/wsj_1139   0   10          of    IN         (PP*        -    -   -   -        *             *        *     -
+nw/wsj/11/wsj_1139   0   11         the    DT         (NP*        -    -   -   -        *             *        *     -
+nw/wsj/11/wsj_1139   0   12       month    NN         *))))    month   -   2   -        *)            *)       *     -
+nw/wsj/11/wsj_1139   0   13           ,     ,            *        -    -   -   -        *             *        *     -
+nw/wsj/11/wsj_1139   0   14       while    IN       (SBAR*        -    -   -   -        *    (ARGM-ADV*        *     -
+nw/wsj/11/wsj_1139   0   15       other    JJ       (S(NP*        -    -   -   -        *             *   (ARG0*     -
+nw/wsj/11/wsj_1139   0   16        auto    NN            *        -    -   -   -        *             *        *     -
+nw/wsj/11/wsj_1139   0   17      makers   NNS            *)    maker   -   1   -        *             *        *)    -
+nw/wsj/11/wsj_1139   0   18    reported   VBD         (VP*    report  01   1   -        *             *      (V*)    -
+nw/wsj/11/wsj_1139   0   19       mixed    JJ         (NP*        -    -   -   -        *             *   (ARG1*     -
+nw/wsj/11/wsj_1139   0   20     results   NNS        *)))))   result   -   3   -        *             *)       *)    -
+nw/wsj/11/wsj_1139   0   21           .     .           *))       -    -   -   -        *             *        *     -
+
+nw/wsj/11/wsj_1139   0    0             All     DT   (TOP(S(NP(NP*)        -    -   -   -            *        (ARG0*        *             *        *            *        *   (4
+nw/wsj/11/wsj_1139   0    1              of     IN            (PP*         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    2             the     DT            (NP*         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    3             Big    NNP               *         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    4           Three     CD             *)))        -    -   -   -    (CARDINAL)            *)       *             *        *            *        *    4)
+nw/wsj/11/wsj_1139   0    5        suffered    VBD            (VP*     suffer  01   2   -            *           (V*)       *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    6              in     IN            (PP*         -    -   -   -            *    (ARGM-TMP*        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    7             the     DT            (NP*         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    8            just     RB          (ADJP*         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0    9              -    HYPH               *         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   10           ended    VBN               *)        -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   11          period     NN              *))        -    -   -   -            *             *)       *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   12               ,      ,               *         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   13         however     RB          (ADVP*)        -    -   -   -            *    (ARGM-DIS*)       *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   14               ,      ,               *         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   15            with     IN            (PP*         -    -   -   -            *    (ARGM-MNR*        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   16           sales    NNS       (S(NP(NP*)      sale  01   1   -            *             *      (V*)            *        *            *   (ARG1*    -
+nw/wsj/11/wsj_1139   0   17              of     IN            (PP*         -    -   -   -            *             *   (ARG1*             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   18             all     DT         (NP(NP*         -    -   -   -            *             *        *             *   (ARG2*            *        *    -
+nw/wsj/11/wsj_1139   0   19    domestically     RB          (ADJP*         -    -   -   -            *             *        *    (ARGM-MNR*)       *            *        *    -
+nw/wsj/11/wsj_1139   0   20            made    VBN               *)      make  01   2   -            *             *        *           (V*)       *            *        *    -
+nw/wsj/11/wsj_1139   0   21            cars    NNS               *)       car   -   2   -            *             *        *        (ARG1*)       *)           *        *    -
+nw/wsj/11/wsj_1139   0   22               ,      ,               *         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   23       including    VBG            (PP*    include  01   1   -            *             *        *             *      (V*)           *        *    -
+nw/wsj/11/wsj_1139   0   24           those     DT         (NP(NP*)        -    -   -   -            *             *        *             *   (ARG1*       (ARG1*)       *    -
+nw/wsj/11/wsj_1139   0   25           built    VBN            (VP*      build  01   1   -            *             *        *             *        *          (V*)       *    -
+nw/wsj/11/wsj_1139   0   26              at     IN            (PP*         -    -   -   -            *             *        *             *        *   (ARGM-LOC*        *    -
+nw/wsj/11/wsj_1139   0   27        Japanese    NNP       (NP(ADJP*         -    -   -   -        (NORP)            *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   28              -    HYPH               *         -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   29         managed    VBN               *)        -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   30          plants    NNS           *)))))     plant   -   1   -            *             *        *             *        *)           *)       *    -
+nw/wsj/11/wsj_1139   0   31               ,      ,             *)))        -    -   -   -            *             *        *)            *        *            *        *)   -
+nw/wsj/11/wsj_1139   0   32         falling    VBG            (VP*       fall  01   1   -            *             *        *             *        *            *      (V*)   -
+nw/wsj/11/wsj_1139   0   33             19      CD            (NP*         -    -   -   -    (PERCENT*             *        *             *        *            *   (ARG2*    -
+nw/wsj/11/wsj_1139   0   34               %     NN               *)        -    -   -   -            *)            *        *             *        *            *        *)   -
+nw/wsj/11/wsj_1139   0   35              to     IN            (PP*         -    -   -   -            *             *        *             *        *            *   (ARG4*    -
+nw/wsj/11/wsj_1139   0   36        158,863      CD           (NP*))        -    -   -   -    (CARDINAL)            *        *             *        *            *        *)   -
+nw/wsj/11/wsj_1139   0   37            from     IN            (PP*         -    -   -   -            *             *        *             *        *            *   (ARG3*    -
+nw/wsj/11/wsj_1139   0   38               a     DT       (ADVP(NP*         -    -   -   -       (DATE*             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   39            year     NN               *)        -    -   -   -            *             *        *             *        *            *        *    -
+nw/wsj/11/wsj_1139   0   40         earlier    RBR          *))))))        -    -   -   -            *)            *)       *             *        *            *        *)   -
+nw/wsj/11/wsj_1139   0   41               .      .              *))        -    -   -   -            *             *        *             *        *            *        *    -
+
+nw/wsj/11/wsj_1139   0    0            The    DT  (TOP(S(NP*             -    -   -   -            *   (ARG1*         *         *   -
+nw/wsj/11/wsj_1139   0    1       seasonal    JJ           *             -    -   -   -        (DATE)       *         *         *   -
+nw/wsj/11/wsj_1139   0    2       adjusted    JJ           *             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0    3         annual    JJ           *             -    -   -   -        (DATE)       *         *         *   -
+nw/wsj/11/wsj_1139   0    4        selling    NN           *             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0    5           rate    NN           *)          rate   -   1   -            *        *)        *         *   -
+nw/wsj/11/wsj_1139   0    6            was   VBD        (VP*             be  01   2   -            *      (V*)        *         *   -
+nw/wsj/11/wsj_1139   0    7            six    CD  (NP(NP(QP*             -    -   -   -   (CARDINAL*   (ARG2*         *    (ARG4*   -
+nw/wsj/11/wsj_1139   0    8        million    CD           *)            -    -   -   -            *)       *         *         *   -
+nw/wsj/11/wsj_1139   0    9       vehicles   NNS           *)       vehicle   -   1   -            *        *         *         *)  -
+nw/wsj/11/wsj_1139   0   10              ,     ,           *             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   11              a    DT  (NP(NP(NP*             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   12          small    JJ           *             -    -   -   -            *        *    (ARG2*)        *   -
+nw/wsj/11/wsj_1139   0   13    improvement    NN           *)   improvement  01   2   -            *        *       (V*)        *   -
+nw/wsj/11/wsj_1139   0   14           from    IN        (PP*             -    -   -   -            *        *    (ARG3*         *   -
+nw/wsj/11/wsj_1139   0   15            the    DT     (NP(NP*             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   16           5.8     CD        (QP*             -    -   -   -   (CARDINAL*        *         *         *   -
+nw/wsj/11/wsj_1139   0   17        million    CD           *)            -    -   -   -            *)       *         *         *   -
+nw/wsj/11/wsj_1139   0   18           rate    NN           *)          rate   -   1   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   19             of    IN        (PP*             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   20          early    JJ        (NP*             -    -   -   -       (DATE*        *         *         *   -
+nw/wsj/11/wsj_1139   0   21        October   NNP       *)))))            -    -   -   -            *)       *         *)        *   -
+nw/wsj/11/wsj_1139   0   22              ,     ,           *             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   23            but    CC           *             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   24              a    DT     (NP(NP*             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   25            big    JJ           *             -    -   -   -            *        *         *    (ARG2*)  -
+nw/wsj/11/wsj_1139   0   26           drop    NN           *)          drop  01   5   -            *        *         *       (V*)  -
+nw/wsj/11/wsj_1139   0   27           from    IN        (PP*             -    -   -   -            *        *         *    (ARG3*   -
+nw/wsj/11/wsj_1139   0   28            the    DT     (NP(NP*             -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   29           7.1     CD        (QP*             -    -   -   -   (CARDINAL*        *         *         *   -
+nw/wsj/11/wsj_1139   0   30        million    CD           *)            -    -   -   -            *)       *         *         *   -
+nw/wsj/11/wsj_1139   0   31           rate    NN           *)          rate   -   1   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   32              a    DT   (ADVP(NP*             -    -   -   -       (DATE*        *         *         *   -
+nw/wsj/11/wsj_1139   0   33           year    NN           *)            -    -   -   -            *        *         *         *   -
+nw/wsj/11/wsj_1139   0   34            ago    RB     *)))))))            -    -   -   -            *)       *)        *         *)  -
+nw/wsj/11/wsj_1139   0   35              .     .          *))            -    -   -   -            *        *         *         *   -
+
+nw/wsj/11/wsj_1139   0    0           Sales   NNS   (TOP(S(NP(NP*)       sale  01   1   -            *      (V*)            *        (ARG1*       (ARG1*   (ARG1*      -
+nw/wsj/11/wsj_1139   0    1              of    IN            (PP*          -    -   -   -            *   (ARG1*             *             *            *        *      -
+nw/wsj/11/wsj_1139   0    2    domestically    RB       (NP(ADJP*          -    -   -   -            *        *    (ARGM-MNR*)            *            *        *      -
+nw/wsj/11/wsj_1139   0    3            made   VBN               *)       make  01   2   -            *        *           (V*)            *            *        *      -
+nw/wsj/11/wsj_1139   0    4          trucks   NNS             *)))      truck   -   1   -            *        *)       (ARG1*)            *)           *)       *)     -
+nw/wsj/11/wsj_1139   0    5            also    RB          (ADVP*)         -    -   -   -            *        *             *    (ARGM-DIS*)           *        *      -
+nw/wsj/11/wsj_1139   0    6       continued   VBD            (VP*    continue  01   1   -            *        *             *           (V*)           *        *      -
+nw/wsj/11/wsj_1139   0    7              to    TO          (S(VP*          -    -   -   -            *        *             *      (C-ARG1*            *        *      -
+nw/wsj/11/wsj_1139   0    8              be    VB            (VP*          be  01   1   -            *        *             *             *          (V*)       *      -
+nw/wsj/11/wsj_1139   0    9        sluggish    JJ          (ADJP*)         -    -   -   -            *        *             *             *       (ARG2*)       *      -
+nw/wsj/11/wsj_1139   0   10              in    IN            (PP*          -    -   -   -            *        *             *             *   (ARGM-TMP*        *      -
+nw/wsj/11/wsj_1139   0   11     mid-October   NNP           (NP*))         -    -   -   -        (DATE)       *             *             *            *)       *    (11)
+nw/wsj/11/wsj_1139   0   12               ,     ,               *          -    -   -   -            *        *             *             *            *        *      -
+nw/wsj/11/wsj_1139   0   13        dropping   VBG          (S(VP*        drop  01   2   -            *        *             *             *   (ARGM-ADV*      (V*)     -
+nw/wsj/11/wsj_1139   0   14           22.8     CD            (NP*          -    -   -   -    (PERCENT*        *             *             *            *   (ARG2*      -
+nw/wsj/11/wsj_1139   0   15               %    NN               *)         -    -   -   -            *)       *             *             *            *        *)     -
+nw/wsj/11/wsj_1139   0   16              to    IN            (PP*          -    -   -   -            *        *             *             *            *   (ARG4*      -
+nw/wsj/11/wsj_1139   0   17         94,543     CD           (NP*))         -    -   -   -    (CARDINAL)       *             *             *            *        *)     -
+nw/wsj/11/wsj_1139   0   18            from    IN            (PP*          -    -   -   -            *        *             *             *            *   (ARG3*      -
+nw/wsj/11/wsj_1139   0   19               a    DT       (ADVP(NP*          -    -   -   -       (DATE*        *             *             *            *        *      -
+nw/wsj/11/wsj_1139   0   20            year    NN               *)         -    -   -   -            *        *             *             *            *        *      -
+nw/wsj/11/wsj_1139   0   21             ago    RB        *))))))))         -    -   -   -            *)       *             *             *)           *)       *)     -
+nw/wsj/11/wsj_1139   0   22               .     .              *))         -    -   -   -            *        *             *             *            *        *      -
+
+nw/wsj/11/wsj_1139   0    0            The     DT     (TOP(S(S(NP*            -    -   -   -            *        (ARG0*             *            *            *      *             *    (4
+nw/wsj/11/wsj_1139   0    1            Big    NNP            (NML*            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0    2          Three     CD                *)           -    -   -   -    (CARDINAL)            *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0    3           auto     NN                *            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0    4         makers    NNS                *)        maker   -   1   -            *             *)            *            *            *      *             *     4)
+nw/wsj/11/wsj_1139   0    5        already     RB           (ADVP*)           -    -   -   -            *    (ARGM-TMP*)            *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0    6           have     VB             (VP*            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0    7        slashed    VBN             (VP*         slash  02   2   -            *           (V*)            *            *            *      *             *    (0)
+nw/wsj/11/wsj_1139   0    8         fourth     JJ         (NP(NML*            -    -   -   -       (DATE*        (ARG1*             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0    9             -    HYPH                *            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   10        quarter     NN                *)           -    -   -   -            *)            *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   11     production     NN                *    production   -   1   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   12          plans    NNS                *)         plan   -   1   -            *             *)            *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   13          10.4      CD          (PP(NP*            -    -   -   -    (PERCENT*        (ARG2*             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   14              %     NN                *)           -    -   -   -            *)            *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   15          below     IN                *            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   16           year     NN        (NP(ADJP*            -    -   -   -       (DATE*             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   17             -    HYPH                *            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   18            ago     JJ                *)           -    -   -   -            *)            *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   19         levels    NNS            *)))))        level   -   2   -            *             *)            *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   20              ,      ,                *            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   21            but     CC                *            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   22           that     DT           (S(NP*)           -    -   -   -            *             *        (ARG1*)           *            *      *             *    (0)
+nw/wsj/11/wsj_1139   0   23            may     MD             (VP*            -    -   -   -            *             *    (ARGM-MOD*)           *            *      *             *     -
+nw/wsj/11/wsj_1139   0   24            not     RB                *            -    -   -   -            *             *    (ARGM-NEG*)           *            *      *             *     -
+nw/wsj/11/wsj_1139   0   25             be     VB             (VP*            be  01   1   -            *             *           (V*)           *            *      *             *     -
+nw/wsj/11/wsj_1139   0   26         enough     NN             (NP*            -    -   -   -            *             *        (ARG2*            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   27             to     TO           (S(VP*            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   28        prevent     VB             (VP*       prevent  01   1   -            *             *             *          (V*)           *      *             *     -
+nw/wsj/11/wsj_1139   0   29    inventories    NNS             (NP*)           -    -   -   -            *             *             *       (ARG1*)      (ARG1*)     *             *     -
+nw/wsj/11/wsj_1139   0   30           from     IN             (PP*            -    -   -   -            *             *             *       (ARG2*            *      *             *     -
+nw/wsj/11/wsj_1139   0   31     ballooning    VBG            (NP*))      balloon  02   2   -            *             *             *            *)         (V*)     *             *     -
+nw/wsj/11/wsj_1139   0   32             if     IN           (SBAR*            -    -   -   -            *             *             *   (ARGM-ADV*   (ARGM-ADV*      *             *     -
+nw/wsj/11/wsj_1139   0   33          sales    NNS           (S(NP*)         sale  01   1   -            *             *             *            *            *    (V*)       (ARG1*)    -
+nw/wsj/11/wsj_1139   0   34             do    VBP             (VP*            -    -   -   -            *             *             *            *            *      *             *     -
+nw/wsj/11/wsj_1139   0   35            n't     RB                *            -    -   -   -            *             *             *            *            *      *    (ARGM-NEG*)    -
+nw/wsj/11/wsj_1139   0   36        improve     VB   (VP*)))))))))))      improve  01   1   -            *             *             *)           *)           *)     *           (V*)    -
+nw/wsj/11/wsj_1139   0   37              .      .               *))           -    -   -   -            *             *             *            *            *      *             *     -
+
+nw/wsj/11/wsj_1139   0    0     Industry     NN  (TOP(S(NP(NP(NML*           -    -   -   -            *   (ARG0*             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    1      analyst     NN                  *)          -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    2         John    NNP                  *           -    -   -   -     (PERSON*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    3           H.    NNP                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    4       Qualls    NNP                  *)          -    -   -   -            *)       *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    5            ,      ,                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    6            a     DT            (NP(NP*           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    7         vice     NN                  *         vice   -   4   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    8    president     NN                  *)   president   -   1   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    9         with     IN               (PP*           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   10         Hill    NNP            (NP(NP*           -    -   -   -        (ORG*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   11            &     CC                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   12     Knowlton    NNP                  *)          -    -   -   -            *)       *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   13           in     IN               (PP*           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   14          St.    NNP               (NP*           -    -   -   -        (GPE*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   15        Louis    NNP              *)))))          -    -   -   -            *)       *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   16            ,      ,                  *)          -    -   -   -            *        *)            *        *         *        *     -
+nw/wsj/11/wsj_1139   0   17    forecasts    VBZ               (VP*     forecast  01   1   -            *      (V*)            *        *         *        *     -
+nw/wsj/11/wsj_1139   0   18         that     IN             (SBAR*           -    -   -   -            *   (ARG1*             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   19     domestic     JJ             (S(NP*           -    -   -   -            *        *        (ARG0*        *         *        *     -
+nw/wsj/11/wsj_1139   0   20         auto     NN                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   21       makers    NNS                  *)       maker   -   1   -            *        *             *)       *         *        *     -
+nw/wsj/11/wsj_1139   0   22         will     MD               (VP*           -    -   -   -            *        *    (ARGM-MOD*)       *         *        *     -
+nw/wsj/11/wsj_1139   0   23         have     VB               (VP*         have  03   1   -            *        *           (V*)       *         *        *     -
+nw/wsj/11/wsj_1139   0   24            a     DT            (NP(NP*           -    -   -   -            *        *        (ARG1*        *         *        *     -
+nw/wsj/11/wsj_1139   0   25          93      CD              (NML*           -    -   -   -       (DATE*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   26           -    HYPH                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   27          day     NN                  *)          -    -   -   -            *)       *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   28       supply     NN                  *)      supply   -   1   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   29           of     IN               (PP*           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   30         cars    NNS             (NP*)))         car   -   2   -            *        *             *)       *         *        *     -
+nw/wsj/11/wsj_1139   0   31           at     IN               (PP*           -    -   -   -            *        *    (ARGM-TMP*        *         *        *     -
+nw/wsj/11/wsj_1139   0   32          the     DT            (NP(NP*           -    -   -   -       (DATE*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   33          end     NN                  *)         end  01   3   -            *        *             *      (V*)        *        *     -
+nw/wsj/11/wsj_1139   0   34           of     IN               (PP*           -    -   -   -            *        *             *   (ARG1*         *        *     -
+nw/wsj/11/wsj_1139   0   35          the     DT               (NP*           -    -   -   -            *        *             *        *         *        *   (13
+nw/wsj/11/wsj_1139   0   36         year     NN               *))))          -    -   -   -            *)       *             *)       *)        *        *    13)
+nw/wsj/11/wsj_1139   0   37            ,      ,                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   38         even     RB        (SBAR(ADVP*)          -    -   -   -            *        *    (ARGM-ADV*        *         *        *     -
+nw/wsj/11/wsj_1139   0   39           if     IN                  *           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   40          car     NN             (S(NP*          car   -   2   -            *        *             *        *    (ARG1*)  (ARG1*     -
+nw/wsj/11/wsj_1139   0   41        sales    NNS                  *)        sale  01   1   -            *        *             *        *       (V*)       *)    -
+nw/wsj/11/wsj_1139   0   42      improve    VBP               (VP*      improve  02   1   -            *        *             *        *         *      (V*)    -
+nw/wsj/11/wsj_1139   0   43           to     IN               (PP*           -    -   -   -            *        *             *        *         *   (ARG4*     -
+nw/wsj/11/wsj_1139   0   44            a     DT            (NP(NP*           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   45         6.5      CD           (NML(QP*           -    -   -   -   (CARDINAL*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   46      million     CD                  *)          -    -   -   -            *)       *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   47      vehicle     NN                  *)     vehicle   -   1   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   48         rate     NN                  *)        rate   -   1   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   49          for     IN               (PP*           -    -   -   -            *        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   50          the     DT               (NP*           -    -   -   -       (DATE*        *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   51      quarter     NN       *))))))))))))     quarter   -   7   -            *)       *)            *)       *         *        *)    -
+nw/wsj/11/wsj_1139   0   52            .      .                 *))          -    -   -   -            *        *             *        *         *        *     -
+
+nw/wsj/11/wsj_1139   0    0        Ford    NNP  (TOP(S(NP*        -    -   -   -        (ORG*   (ARG0*        *        *        *   (14
+nw/wsj/11/wsj_1139   0    1       Motor    NNP           *        -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0    2         Co.    NNP           *)       -    -   -   -            *)       *)       *        *        *    14)
+nw/wsj/11/wsj_1139   0    3    reported    VBD        (VP*    report  01   1   -            *      (V*)       *        *        *     -
+nw/wsj/11/wsj_1139   0    4           a     DT  (NP(NP(NP*        -    -   -   -            *   (ARG1*        *        *        *     -
+nw/wsj/11/wsj_1139   0    5       21.2      CD       (NML*        -    -   -   -    (PERCENT*        *   (ARG2*        *        *     -
+nw/wsj/11/wsj_1139   0    6           %     NN           *)       -    -   -   -            *)       *        *)       *        *     -
+nw/wsj/11/wsj_1139   0    7        drop     NN           *)     drop  01   5   -            *        *      (V*)       *        *     -
+nw/wsj/11/wsj_1139   0    8          in     IN        (PP*        -    -   -   -            *        *   (ARG1*        *        *     -
+nw/wsj/11/wsj_1139   0    9       sales    NNS     (NP(NP*)     sale  01   1   -            *        *        *      (V*)       *     -
+nw/wsj/11/wsj_1139   0   10          of     IN        (PP*        -    -   -   -            *        *        *   (ARG1*        *     -
+nw/wsj/11/wsj_1139   0   11    domestic     NN   (NP(ADJP*        -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0   12          -    HYPH           *        -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0   13        made    VBN           *)       -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0   14        cars    NNS        *))))      car   -   2   -            *        *        *)       *)       *     -
+nw/wsj/11/wsj_1139   0   15          to     IN        (PP*        -    -   -   -            *        *   (ARG4*        *        *     -
+nw/wsj/11/wsj_1139   0   16     46,995      CD      (NP*)))       -    -   -   -    (CARDINAL)       *        *)       *        *     -
+nw/wsj/11/wsj_1139   0   17         and     CC           *        -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0   18           a     DT     (NP(NP*        -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0   19       24.2      CD       (NML*        -    -   -   -    (PERCENT*        *        *        *   (ARG2*     -
+nw/wsj/11/wsj_1139   0   20           %     NN           *)       -    -   -   -            *)       *        *        *        *)    -
+nw/wsj/11/wsj_1139   0   21        drop     NN           *)     drop  01   5   -            *        *        *        *      (V*)    -
+nw/wsj/11/wsj_1139   0   22          in     IN        (PP*        -    -   -   -            *        *        *        *   (ARG1*     -
+nw/wsj/11/wsj_1139   0   23    domestic     JJ        (NP*        -    -   -   -            *        *        *        *        *     -
+nw/wsj/11/wsj_1139   0   24      trucks    NNS          *))    truck   -   1   -            *        *        *        *        *)    -
+nw/wsj/11/wsj_1139   0   25          to     IN        (PP*        -    -   -   -            *        *        *        *   (ARG4*     -
+nw/wsj/11/wsj_1139   0   26     31,143      CD    (NP*)))))       -    -   -   -    (CARDINAL)       *)       *        *        *)    -
+nw/wsj/11/wsj_1139   0   27           .      .          *))       -    -   -   -            *        *        *        *        *     -
+
+nw/wsj/11/wsj_1139   0    0         The    DT  (TOP(SINV(S(NP*         -    -   -   -          *      *    (ARG1*   (ARG1*      -
+nw/wsj/11/wsj_1139   0    1       sales   NNS                *)      sale  01   1   -          *    (V*)        *)       *      -
+nw/wsj/11/wsj_1139   0    2         are   VBP             (VP*         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0    3       being   VBG             (VP*         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0    4     dragged   VBD             (VP*       drag  01   6   -          *      *       (V*)       *      -
+nw/wsj/11/wsj_1139   0    5        down    RP            (PRT*)        -    -   -   -          *      *    (ARG2*)       *      -
+nw/wsj/11/wsj_1139   0    6          by    IN             (PP*         -    -   -   -          *      *    (ARG0*        *      -
+nw/wsj/11/wsj_1139   0    7           a    DT          (NP(NP*         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0    8        glut    NN                *)        -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0    9          of    IN             (PP*         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0   10       1989     CD             (NP*         -    -   -   -      (DATE)     *         *        *    (10)
+nw/wsj/11/wsj_1139   0   11    vehicles   NNS         *))))))))   vehicle   -   1   -          *      *         *)       *)     -
+nw/wsj/11/wsj_1139   0   12           ,     ,                *         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0   13        said   VBD             (VP*)       say  01   1   -          *      *         *      (V*)     -
+nw/wsj/11/wsj_1139   0   14        Joel   NNP          (NP(NP*         -    -   -   -   (PERSON*      *         *   (ARG0*      -
+nw/wsj/11/wsj_1139   0   15     Pitcoff   NNP                *)        -    -   -   -          *)     *         *        *      -
+nw/wsj/11/wsj_1139   0   16           ,     ,                *         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0   17           a    DT             (NP*         -    -   -   -          *      *         *        *      -
+nw/wsj/11/wsj_1139   0   18        Ford   NNP                *         -    -   -   -       (ORG)     *         *        *    (14)
+nw/wsj/11/wsj_1139   0   19     analyst    NN               *))   analyst   -   1   -          *      *         *        *)     -
+nw/wsj/11/wsj_1139   0   20           .     .               *))        -    -   -   -          *      *         *        *      -
+
+nw/wsj/11/wsj_1139   0    0           The     DT  (TOP(S(S(NP(NP*           -    -   -   -        *             *   (ARG0*    (ARG1*      -
+nw/wsj/11/wsj_1139   0    1       earlier    JJR                *           -    -   -   -        *    (ARGM-TMP*)       *         *      -
+nw/wsj/11/wsj_1139   0    2           use     NN                *)         use  01   1   -        *           (V*)       *         *      -
+nw/wsj/11/wsj_1139   0    3            of     IN             (PP*           -    -   -   -        *        (ARG1*        *         *      -
+nw/wsj/11/wsj_1139   0    4    incentives    NNS           (NP*)))          -    -   -   -        *             *)       *)        *      -
+nw/wsj/11/wsj_1139   0    5      depleted    VBD             (VP*      deplete  01   -   -        *             *      (V*)        *      -
+nw/wsj/11/wsj_1139   0    6           the     DT             (NP*           -    -   -   -        *             *   (ARG1*         *      -
+nw/wsj/11/wsj_1139   0    7        market     NN                *)      market   -   1   -        *             *        *)        *      -
+nw/wsj/11/wsj_1139   0    8            of     IN             (PP*           -    -   -   -        *             *   (ARG2*         *      -
+nw/wsj/11/wsj_1139   0    9            ``     ``          (NP(NP*           -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   10    scavengers    NNS                *    scavenger   -   1   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   11            ''     ''                *)          -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   12           for     IN             (PP*           -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   13       bargain     NN         (NP(NML*           -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   14            -    HYPH                *           -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   15      basement     NN                *)          -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   16         1989      CD                *           -    -   -   -    (DATE)            *        *         *    (10)
+nw/wsj/11/wsj_1139   0   17          cars    NNS           *))))))         car   -   2   -        *             *        *)        *)     -
+nw/wsj/11/wsj_1139   0   18             ,      ,                *           -    -   -   -        *             *        *         *      -
+nw/wsj/11/wsj_1139   0   19            he    PRP             (NP*)          -    -   -   -        *             *        *    (ARG0*)     -
+nw/wsj/11/wsj_1139   0   20          said    VBD             (VP*)         say  01   1   -        *             *        *       (V*)     -
+nw/wsj/11/wsj_1139   0   21             .      .               *))          -    -   -   -        *             *        *         *      -
+
+nw/wsj/11/wsj_1139   0    0         Town   NNP  (TOP(S(NP(NP(NML*       -    -   -   -        (ORG*        (ARG0*   (ARG0*      -
+nw/wsj/11/wsj_1139   0    1            &    CC                  *       -    -   -   -            *             *        *      -
+nw/wsj/11/wsj_1139   0    2      Country   NNP                  *)      -    -   -   -            *             *        *      -
+nw/wsj/11/wsj_1139   0    3         Ford   NNP                  *)      -    -   -   -            *)            *        *      -
+nw/wsj/11/wsj_1139   0    4           in    IN               (PP*       -    -   -   -            *             *        *      -
+nw/wsj/11/wsj_1139   0    5    Charlotte   NNP            (NP(NP*)      -    -   -   -         (GPE)            *        *    (12
+nw/wsj/11/wsj_1139   0    6            ,     ,                  *       -    -   -   -            *             *        *      -
+nw/wsj/11/wsj_1139   0    7         N.C.   NNP               (NP*)      -    -   -   -         (GPE)            *        *      -
+nw/wsj/11/wsj_1139   0    8            ,     ,                *)))      -    -   -   -            *             *)       *)    12)
+nw/wsj/11/wsj_1139   0    9        still    RB             (ADVP*)      -    -   -   -            *    (ARGM-TMP*)       *      -
+nw/wsj/11/wsj_1139   0   10        needs   VBZ               (VP*     need  01   2   -            *           (V*)       *      -
+nw/wsj/11/wsj_1139   0   11           to    TO             (S(VP*       -    -   -   -            *        (ARG1*        *      -
+nw/wsj/11/wsj_1139   0   12         move    VB               (VP*     move  01   5   -            *             *      (V*)     -
+nw/wsj/11/wsj_1139   0   13        about    RB            (NP(QP*       -    -   -   -   (CARDINAL*             *   (ARG1*      -
+nw/wsj/11/wsj_1139   0   14         850     CD                  *)      -    -   -   -            *)            *        *      -
+nw/wsj/11/wsj_1139   0   15        1989     CD                  *       -    -   -   -        (DATE)            *        *    (10)
+nw/wsj/11/wsj_1139   0   16         cars   NNS                  *      car   -   2   -            *             *        *      -
+nw/wsj/11/wsj_1139   0   17          and    CC                  *       -    -   -   -            *             *        *      -
+nw/wsj/11/wsj_1139   0   18       trucks   NNS              *)))))   truck   -   1   -            *             *)       *)     -
+nw/wsj/11/wsj_1139   0   19            .     .                 *))      -    -   -   -            *             *        *      -
+
+nw/wsj/11/wsj_1139   0    0     Business    NN   (TOP(S(NP*)   business   -   1   -         *       (ARG1*)       *        (ARG1*)    -
+nw/wsj/11/wsj_1139   0    1          had   VBD      (VP(VP*          -    -   -   -         *            *        *             *     -
+nw/wsj/11/wsj_1139   0    2         been   VBN         (VP*          be  01   1   -         *          (V*)       *             *     -
+nw/wsj/11/wsj_1139   0    3       fairly    RB       (ADJP*          -    -   -   -         *       (ARG2*        *             *     -
+nw/wsj/11/wsj_1139   0    4       strong    JJ            *)         -    -   -   -         *            *)       *             *     -
+nw/wsj/11/wsj_1139   0    5        until    IN       (SBAR*          -    -   -   -         *   (ARGM-TMP*        *             *     -
+nw/wsj/11/wsj_1139   0    6    Hurricane   NNP       (S(NP*          -    -   -   -   (EVENT*            *   (ARG0*             *     -
+nw/wsj/11/wsj_1139   0    7         Hugo   NNP            *)         -    -   -   -         *)           *        *)            *     -
+nw/wsj/11/wsj_1139   0    8          hit   VBD         (VP*         hit  01   2   -         *            *      (V*)            *     -
+nw/wsj/11/wsj_1139   0    9          the    DT         (NP*          -    -   -   -         *            *   (ARG1*             *   (12
+nw/wsj/11/wsj_1139   0   10         area    NN       *))))))       area   -   1   -         *            *)       *)            *    12)
+nw/wsj/11/wsj_1139   0   11            ,     ,            *          -    -   -   -         *            *        *             *     -
+nw/wsj/11/wsj_1139   0   12          but    CC            *          -    -   -   -         *            *        *             *     -
+nw/wsj/11/wsj_1139   0   13          has   VBZ         (VP*          -    -   -   -         *            *        *             *     -
+nw/wsj/11/wsj_1139   0   14         been   VBN         (VP*          be  01   1   -         *            *        *           (V*)    -
+nw/wsj/11/wsj_1139   0   15         down    RB       (ADVP*)         -    -   -   -         *            *        *        (ARG2*)    -
+nw/wsj/11/wsj_1139   0   16        since    RB    (ADVP*))))         -    -   -   -         *            *        *    (ARGM-TMP*)    -
+nw/wsj/11/wsj_1139   0   17            .     .           *))         -    -   -   -         *            *        *             *     -
+
+nw/wsj/11/wsj_1139   0   0       Chrysler   NNP  (TOP(S(NP*     -    -   -   -    (ORG*        (ARG0*     (9
+nw/wsj/11/wsj_1139   0   1          Corp.   NNP           *)    -    -   -   -        *)            *)     9)
+nw/wsj/11/wsj_1139   0   2           also    RB      (ADVP*)    -    -   -   -        *    (ARGM-DIS*)     -
+nw/wsj/11/wsj_1139   0   3            hit   VBD        (VP*    hit  01   3   -        *           (V*)    (7)
+nw/wsj/11/wsj_1139   0   4            the    DT        (NP*     -    -   -   -        *        (ARG1*      -
+nw/wsj/11/wsj_1139   0   5          rocks   NNS           *)    -    -   -   -        *             *)     -
+nw/wsj/11/wsj_1139   0   6             in    IN        (PP*     -    -   -   -        *    (ARGM-TMP*      -
+nw/wsj/11/wsj_1139   0   7    mid-October   NNP      (NP*)))    -    -   -   -    (DATE)            *)   (11)
+nw/wsj/11/wsj_1139   0   8              .     .          *))    -    -   -   -        *             *      -
+
+nw/wsj/11/wsj_1139   0    0         The     DT    (TOP(S(NP*         -    -   -   -            *         *            *           *    (9
+nw/wsj/11/wsj_1139   0    1         No.     NN         (NML*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0    2          3      CD             *)        -    -   -   -    (CARDINAL)        *            *           *     -
+nw/wsj/11/wsj_1139   0    3        U.S.    NNP             *         -    -   -   -         (GPE)        *            *           *     -
+nw/wsj/11/wsj_1139   0    4        auto     NN             *         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0    5       maker     NN             *)        -    -   -   -            *         *            *           *     9)
+nw/wsj/11/wsj_1139   0    6         had    VBD          (VP*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0    7           a     DT    (NP(NP(NP*         -    -   -   -            *         *            *           *    (7
+nw/wsj/11/wsj_1139   0    8       23.7      CD         (NML*         -    -   -   -    (PERCENT*         *            *           *     -
+nw/wsj/11/wsj_1139   0    9           %     NN             *)        -    -   -   -            *)        *            *           *     -
+nw/wsj/11/wsj_1139   0   10      plunge     NN             *)    plunge   -   2   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   11          in     IN          (PP*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   12         car     NN          (NP*        car   -   2   -            *    (ARG1*)           *           *     -
+nw/wsj/11/wsj_1139   0   13       sales    NNS            *))      sale  01   1   -            *       (V*)           *           *     -
+nw/wsj/11/wsj_1139   0   14          to     IN          (PP*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   15     22,336      CD        (NP*)))        -    -   -   -    (CARDINAL)        *            *           *     -
+nw/wsj/11/wsj_1139   0   16         and     CC             *         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   17           a     DT       (NP(NP*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   18       17.5      CD         (NML*         -    -   -   -    (PERCENT*         *            *           *     -
+nw/wsj/11/wsj_1139   0   19           %     NN             *)        -    -   -   -            *)        *            *           *     -
+nw/wsj/11/wsj_1139   0   20        drop     NN             *)        -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   21          in     IN          (PP*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   22       truck     NN       (NP(NP*      truck   -   1   -            *         *       (ARG1*)     (ARG2*     -
+nw/wsj/11/wsj_1139   0   23       sales    NNS           *)))      sale  01   1   -            *         *          (V*)          *)    -
+nw/wsj/11/wsj_1139   0   24          to     IN          (PP*         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   25     22,925      CD         (NP*))        -    -   -   -    (CARDINAL)        *            *           *     -
+nw/wsj/11/wsj_1139   0   26           ,      ,             *         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   27       which    WDT   (SBAR(WHNP*)        -    -   -   -            *         *   (ARGM-ADJ*    (R-ARG2*)    -
+nw/wsj/11/wsj_1139   0   28     include    VBP        (S(VP*    include  01   1   -            *         *            *         (V*)    -
+nw/wsj/11/wsj_1139   0   29         its   PRP$          (NP*         -    -   -   -            *         *            *      (ARG1*    (9)
+nw/wsj/11/wsj_1139   0   30    minivans    NNS             *         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   31         and     CC             *         -    -   -   -            *         *            *           *     -
+nw/wsj/11/wsj_1139   0   32       Jeeps    NNS       *)))))))        -    -   -   -     (PRODUCT)        *            *)          *)    7)
+nw/wsj/11/wsj_1139   0   33           .      .            *))        -    -   -   -            *         *            *           *     -
+
+nw/wsj/11/wsj_1139   0    0           Honda    NNP  (TOP(S(NP(NP*          -    -   -   -        (ORG*      (ARG1*      (ARG0*             *   (ARG0*         *        *    (1
+nw/wsj/11/wsj_1139   0    1           Motor    NNP              *          -    -   -   -            *           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    2             Co.    NNP              *)         -    -   -   -            *)          *)          *)            *        *         *        *     -
+nw/wsj/11/wsj_1139   0    3               ,      ,              *          -    -   -   -            *           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    4           which    WDT    (SBAR(WHNP*)         -    -   -   -            *    (C-ARG1*)   (R-ARG0*)            *        *         *        *     -
+nw/wsj/11/wsj_1139   0    5       continues    VBZ         (S(VP*    continue  01   1   -            *         (V*)          *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    6              to     TO         (S(VP*          -    -   -   -            *    (C-ARG1*           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    7            have     VB           (VP*        have  03   1   -            *           *         (V*)            *        *         *        *     -
+nw/wsj/11/wsj_1139   0    8           short     JJ        (NP(NP*          -    -   -   -            *           *      (ARG1*             *        *         *        *     -
+nw/wsj/11/wsj_1139   0    9        supplies    NNS              *)     supply   -   1   -            *           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   10              of     IN           (PP*          -    -   -   -            *           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   11    domestically     RB      (NP(ADJP*          -    -   -   -            *           *           *    (ARGM-MNR*)       *         *        *     -
+nw/wsj/11/wsj_1139   0   12            made    VBN              *)       make  01   2   -            *           *           *           (V*)       *         *        *     -
+nw/wsj/11/wsj_1139   0   13         Accords   NNPS      *)))))))))         -    -   -   -         (ORG)          *)          *)       (ARG1*)       *         *        *     -
+nw/wsj/11/wsj_1139   0   14               ,      ,              *)         -    -   -   -            *           *           *             *        *)        *        *     1)
+nw/wsj/11/wsj_1139   0   15             saw    VBD           (VP*         see  01   3   -            *           *           *             *      (V*)        *        *     -
+nw/wsj/11/wsj_1139   0   16             its   PRP$      (S(NP(NP*          -    -   -   -            *           *           *             *   (ARG1*    (ARG0*)  (ARG1*    (1)
+nw/wsj/11/wsj_1139   0   17           sales    NNS              *)       sale  01   1   -            *           *           *             *        *       (V*)       *     -
+nw/wsj/11/wsj_1139   0   18              of     IN           (PP*          -    -   -   -            *           *           *             *        *    (ARG1*        *     -
+nw/wsj/11/wsj_1139   0   19           North    NNP  (NP(ADJP(NML*          -    -   -   -       (NORP*           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   20        American    NNP              *)         -    -   -   -            *)          *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   21              -    HYPH              *          -    -   -   -            *           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   22           built    VBN              *)         -    -   -   -            *           *           *             *        *         *        *     -
+nw/wsj/11/wsj_1139   0   23            cars    NNS            *)))        car   -   2   -            *           *           *             *        *         *)       *)    -
+nw/wsj/11/wsj_1139   0   24            fall     VB           (VP*        fall  01   1   -            *           *           *             *        *         *      (V*)    -
+nw/wsj/11/wsj_1139   0   25           14.1      CD           (NP*          -    -   -   -    (PERCENT*           *           *             *        *         *   (ARG2*     -
+nw/wsj/11/wsj_1139   0   26               %     NN              *)         -    -   -   -            *)          *           *             *        *         *        *)    -
+nw/wsj/11/wsj_1139   0   27              to     IN           (PP*          -    -   -   -            *           *           *             *        *         *   (ARG4*     -
+nw/wsj/11/wsj_1139   0   28          8,355      CD       (NP*)))))         -    -   -   -    (CARDINAL)          *           *             *        *)        *        *)    -
+nw/wsj/11/wsj_1139   0   29               .      .             *))         -    -   -   -            *           *           *             *        *         *        *     -
+
+nw/wsj/11/wsj_1139   0    0         But    CC   (TOP(S*       -    -   -   -            *            *    (ARGM-DIS*)    -
+nw/wsj/11/wsj_1139   0    1       sales   NNS   (NP(NP*)    sale  01   1   -            *          (V*)       (ARG1*     -
+nw/wsj/11/wsj_1139   0    2          of    IN      (PP*       -    -   -   -            *       (ARG1*             *     -
+nw/wsj/11/wsj_1139   0    3    domestic    JJ      (NP*       -    -   -   -            *            *             *     -
+nw/wsj/11/wsj_1139   0    4        cars   NNS         *      car   -   2   -            *            *             *     -
+nw/wsj/11/wsj_1139   0    5         and    CC         *       -    -   -   -            *            *             *     -
+nw/wsj/11/wsj_1139   0    6      trucks   NNS        *))   truck   -   1   -            *            *)            *     -
+nw/wsj/11/wsj_1139   0    7          at    IN      (PP*       -    -   -   -            *   (ARGM-LOC*             *     -
+nw/wsj/11/wsj_1139   0    8      Nissan   NNP      (NP*       -    -   -   -        (ORG*            *             *    (3
+nw/wsj/11/wsj_1139   0    9       Motor   NNP         *       -    -   -   -            *            *             *     -
+nw/wsj/11/wsj_1139   0   10       Corp.   NNP       *)))      -    -   -   -            *)           *)            *)    3)
+nw/wsj/11/wsj_1139   0   11        rose   VBD      (VP*     rise  01   2   -            *            *           (V*)   (8)
+nw/wsj/11/wsj_1139   0   12       26.1     CD      (NP*       -    -   -   -    (PERCENT*            *        (ARG2*     -
+nw/wsj/11/wsj_1139   0   13           %    NN         *)      -    -   -   -            *)           *             *)    -
+nw/wsj/11/wsj_1139   0   14          to    IN      (PP*       -    -   -   -            *            *        (ARG4*     -
+nw/wsj/11/wsj_1139   0   15      5,651     CD    (NP*)))      -    -   -   -    (CARDINAL)           *             *)    -
+nw/wsj/11/wsj_1139   0   16           .     .        *))      -    -   -   -            *            *             *     -
+
+nw/wsj/11/wsj_1139   0    0             A    DT  (TOP(S(NP*           -    -   -   -        *   (ARG0*      *            *             *     -
+nw/wsj/11/wsj_1139   0    1        Nissan   NNP           *           -    -   -   -     (ORG)       *      *            *             *    (3)
+nw/wsj/11/wsj_1139   0    2     spokesman    NN           *)          -    -   -   -        *        *)     *            *             *     -
+nw/wsj/11/wsj_1139   0    3    attributed   VBD        (VP*    attribute  01   1   -        *      (V*)     *            *             *     -
+nw/wsj/11/wsj_1139   0    4           the    DT        (NP*           -    -   -   -        *   (ARG1*      *            *             *    (8
+nw/wsj/11/wsj_1139   0    5      increase    NN           *)    increase  01   1   -        *        *)   (V*)           *             *     8)
+nw/wsj/11/wsj_1139   0    6            to    IN     (PP(PP*           -    -   -   -        *   (ARG2*      *            *             *     -
+nw/wsj/11/wsj_1139   0    7           the    DT     (NP(NP*           -    -   -   -        *        *      *            *             *     -
+nw/wsj/11/wsj_1139   0    8           use    NN           *)         use  01   1   -        *        *      *          (V*)            *     -
+nw/wsj/11/wsj_1139   0    9            of    IN        (PP*           -    -   -   -        *        *      *       (ARG1*             *     -
+nw/wsj/11/wsj_1139   0   10    incentives   NNS       (NP*))          -    -   -   -        *        *      *            *)            *     -
+nw/wsj/11/wsj_1139   0   11          this    DT    (UCP(NP*           -    -   -   -   (DATE*        *      *   (ARGM-TMP*             *   (13
+nw/wsj/11/wsj_1139   0   12          year    NN           *)          -    -   -   -        *)       *      *            *             *    13)
+nw/wsj/11/wsj_1139   0   13           and    CC           *           -    -   -   -        *        *      *            *             *     -
+nw/wsj/11/wsj_1139   0   14           not    RB           *           -    -   -   -        *        *      *            *             *     -
+nw/wsj/11/wsj_1139   0   15             a    DT   (ADVP(NP*           -    -   -   -   (DATE*        *      *            *             *     -
+nw/wsj/11/wsj_1139   0   16          year    NN           *)          -    -   -   -        *        *      *            *             *     -
+nw/wsj/11/wsj_1139   0   17           ago    RB        *))))          -    -   -   -        *)       *)     *            *)            *     -
+nw/wsj/11/wsj_1139   0   18           and    CC           *           -    -   -   -        *        *      *            *             *     -
+nw/wsj/11/wsj_1139   0   19            to    IN        (PP*           -    -   -   -        *        *      *            *             *     -
+nw/wsj/11/wsj_1139   0   20        higher   JJR        (NP*           -    -   -   -        *        *      *            *    (ARGM-ADJ*)    -
+nw/wsj/11/wsj_1139   0   21         fleet    NN           *           -    -   -   -        *        *      *            *        (ARG1*)    -
+nw/wsj/11/wsj_1139   0   22         sales   NNS        *))))        sale  01   1   -        *        *      *            *           (V*)    -
+nw/wsj/11/wsj_1139   0   23             .     .          *))          -    -   -   -        *        *      *            *             *     -
+
+nw/wsj/11/wsj_1139   0    0        Toyota   NNP  (TOP(S(NP(NP*         -    -   -   -        (ORG*       (ARG0*   (ARG0*      *         *   -
+nw/wsj/11/wsj_1139   0    1         Motor   NNP              *         -    -   -   -            *            *        *      *         *   -
+nw/wsj/11/wsj_1139   0    2         Corp.   NNP              *)        -    -   -   -            *)           *)       *      *         *   -
+nw/wsj/11/wsj_1139   0    3             ,     ,              *         -    -   -   -            *            *        *      *         *   -
+nw/wsj/11/wsj_1139   0    4         which   WDT    (SBAR(WHNP*)        -    -   -   -            *     (R-ARG0*)       *      *         *   -
+nw/wsj/11/wsj_1139   0    5        opened   VBD         (S(VP*       open  01   2   -            *          (V*)       *      *         *   -
+nw/wsj/11/wsj_1139   0    6             a    DT           (NP*         -    -   -   -            *       (ARG1*        *      *         *   -
+nw/wsj/11/wsj_1139   0    7         plant    NN              *)     plant   -   1   -            *            *)       *      *         *   -
+nw/wsj/11/wsj_1139   0    8            in    IN           (PP*         -    -   -   -            *   (ARGM-LOC*        *      *         *   -
+nw/wsj/11/wsj_1139   0    9    Georgetown   NNP        (NP(NP*)        -    -   -   -         (GPE)           *        *      *         *   -
+nw/wsj/11/wsj_1139   0   10             ,     ,              *         -    -   -   -            *            *        *      *         *   -
+nw/wsj/11/wsj_1139   0   11           Ky.   NNP           (NP*)        -    -   -   -         (GPE)           *        *      *         *   -
+nw/wsj/11/wsj_1139   0   12             ,     ,             *))        -    -   -   -            *            *)       *      *         *   -
+nw/wsj/11/wsj_1139   0   13          last    JJ           (NP*         -    -   -   -       (DATE*   (ARGM-TMP*        *      *         *   -
+nw/wsj/11/wsj_1139   0   14          year    NN           *))))        -    -   -   -            *)           *)       *      *         *   -
+nw/wsj/11/wsj_1139   0   15             ,     ,              *)        -    -   -   -            *            *        *)     *         *   -
+nw/wsj/11/wsj_1139   0   16           saw   VBD           (VP*        see  01   3   -            *            *      (V*)     *         *   -
+nw/wsj/11/wsj_1139   0   17         sales   NNS         (S(NP*)      sale  01   1   -            *            *   (ARG1*    (V*)   (ARG1*)  -
+nw/wsj/11/wsj_1139   0   18        triple    VB           (VP*     triple  01   1   -            *            *        *      *       (V*)  -
+nw/wsj/11/wsj_1139   0   19            to    IN           (PP*         -    -   -   -            *            *        *      *    (ARG4*   -
+nw/wsj/11/wsj_1139   0   20        6,256     CD           (NP*         -    -   -   -    (CARDINAL)           *        *      *         *   -
+nw/wsj/11/wsj_1139   0   21      vehicles   NNS          *)))))   vehicle   -   1   -            *            *        *)     *         *)  -
+nw/wsj/11/wsj_1139   0   22             .     .             *))        -    -   -   -            *            *        *      *         *   -
+
+nw/wsj/11/wsj_1139   0    0           a    LS   (TOP(S(NP(LST*)        -    -   -   -   *   (ARG2*             *            *   -
+nw/wsj/11/wsj_1139   0    1          -      :                *         -    -   -   -   *        *             *            *   -
+nw/wsj/11/wsj_1139   0    2      Totals   NNS            (NP*))        -    -   -   -   *        *)            *            *   -
+nw/wsj/11/wsj_1139   0    3     include   VBP             (VP*    include  01   1   -   *      (V*)            *            *   -
+nw/wsj/11/wsj_1139   0    4        only    RB          (NP(NP*         -    -   -   -   *   (ARG1*    (ARGM-ADJ*)      (ARG1*   -
+nw/wsj/11/wsj_1139   0    5     vehicle    NN                *    vehicle   -   1   -   *        *        (ARG1*)           *   -
+nw/wsj/11/wsj_1139   0    6       sales   NNS                *)      sale  01   1   -   *        *           (V*)           *)  -
+nw/wsj/11/wsj_1139   0    7    reported   VBN             (VP*     report  01   1   -   *        *             *          (V*)  -
+nw/wsj/11/wsj_1139   0    8          in    IN             (PP*         -    -   -   -   *        *             *   (ARGM-TMP*   -
+nw/wsj/11/wsj_1139   0    9         the    DT             (NP*         -    -   -   -   *        *             *            *   -
+nw/wsj/11/wsj_1139   0   10      period    NN            *)))))        -    -   -   -   *        *)            *            *)  -
+nw/wsj/11/wsj_1139   0   11           .     .               *))        -    -   -   -   *        *             *            *   -
+
+nw/wsj/11/wsj_1139   0   0           c   LS   (TOP(NP(LST*)    -   -   -   -   *   -
+nw/wsj/11/wsj_1139   0   1          -     :              *     -   -   -   -   *   -
+nw/wsj/11/wsj_1139   0   2    Domestic   JJ           (NP*     -   -   -   -   *   -
+nw/wsj/11/wsj_1139   0   3         car   NN            *)))   car  -   2   -   *   -
+
+nw/wsj/11/wsj_1139   0   0          d    LS   (TOP(NP(NP(LST*)       -   -   -   -           *   -
+nw/wsj/11/wsj_1139   0   1         -      :                 *        -   -   -   -           *   -
+nw/wsj/11/wsj_1139   0   2    Percent    NN              (NP*        -   -   -   -           *   -
+nw/wsj/11/wsj_1139   0   3     change    NN                *))   change  -   1   -           *   -
+nw/wsj/11/wsj_1139   0   4    greater   JJR       (ADJP(ADJP*)       -   -   -   -   (PERCENT*   -
+nw/wsj/11/wsj_1139   0   5       than    IN              (PP*        -   -   -   -           *   -
+nw/wsj/11/wsj_1139   0   6       999     CD              (NP*        -   -   -   -           *   -
+nw/wsj/11/wsj_1139   0   7          %    NN               *)))       -   -   -   -           *)  -
+nw/wsj/11/wsj_1139   0   8          .     .                *))       -   -   -   -           *   -
+
+nw/wsj/11/wsj_1139   0    0          x    LS   (TOP(S(NP(LST*)    -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0    1         -      :                *     -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0    2      There    EX            (NP*))    -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0    3       were   VBD          (VP(VP*     be  02   5   -            *          (V*)  -
+nw/wsj/11/wsj_1139   0    4         9     CD             (NP*     -    -   -   -       (DATE*       (ARG1*   -
+nw/wsj/11/wsj_1139   0    5    selling    NN                *     -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0    6       days   NNS                *)   day   -   3   -            *)           *)  -
+nw/wsj/11/wsj_1139   0    7         in    IN             (PP*     -    -   -   -            *   (ARGM-TMP*   -
+nw/wsj/11/wsj_1139   0    8        the    DT             (NP*     -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0    9       most   RBS           (ADJP*     -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0   10     recent    JJ                *)    -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0   11     period    NN              *)))    -    -   -   -            *            *)  -
+nw/wsj/11/wsj_1139   0   12        and    CC                *     -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0   13         9     CD          (VP(NP*)    -    -   -   -    (CARDINAL)           *   -
+nw/wsj/11/wsj_1139   0   14          a    DT        (ADVP(NP*     -    -   -   -       (DATE*            *   -
+nw/wsj/11/wsj_1139   0   15       year    NN                *)    -    -   -   -            *            *   -
+nw/wsj/11/wsj_1139   0   16    earlier   RBR              *)))    -    -   -   -            *)           *   -
+nw/wsj/11/wsj_1139   0   17          .     .               *))    -    -   -   -            *            *   -
+
+nw/wsj/11/wsj_1139   0    0     Percentage    NN  (TOP(NP(NP*    percentage   -   1   -        *   (ARG1*   -
+nw/wsj/11/wsj_1139   0    1    differences   NNS            *)   difference   -   5   -        *        *)  -
+nw/wsj/11/wsj_1139   0    2          based   VBN         (PP*          base  02   1   -        *      (V*)  -
+nw/wsj/11/wsj_1139   0    3             on    IN         (PP*            -    -   -   -        *   (ARG2*   -
+nw/wsj/11/wsj_1139   0    4          daily    JJ      (NP(NP*            -    -   -   -    (DATE)       *   -
+nw/wsj/11/wsj_1139   0    5          sales   NNS            *          sale   -   1   -        *        *   -
+nw/wsj/11/wsj_1139   0    6           rate    NN            *)         rate   -   1   -        *        *   -
+nw/wsj/11/wsj_1139   0    7         rather    RB      (CONJP*            -    -   -   -        *        *   -
+nw/wsj/11/wsj_1139   0    8           than    IN            *)           -    -   -   -        *        *   -
+nw/wsj/11/wsj_1139   0    9          sales   NNS         (NP*            -    -   -   -        *        *   -
+nw/wsj/11/wsj_1139   0   10         volume    NN         *))))           -    -   -   -        *        *)  -
+nw/wsj/11/wsj_1139   0   11              .     .           *))           -    -   -   -        *        *   -
+
+#end document

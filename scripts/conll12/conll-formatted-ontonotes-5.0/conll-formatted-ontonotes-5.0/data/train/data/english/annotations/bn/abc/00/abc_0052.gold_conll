@@ -1,0 +1,425 @@
+#begin document (bn/abc/00/abc_0052); part 000
+bn/abc/00/abc_0052   0    0            The    DT  (TOP(S(NP*             -    -   -   -        (ORG*        (ARG0*     (1
+bn/abc/00/abc_0052   0    1    Bridgestone   NNP       (NML*             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0    2              /   SYM           *             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0    3      Firestone   NNP           *)            -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0    4        Company   NNP           *)            -    -   -   -            *)            *)     1)
+bn/abc/00/abc_0052   0    5          today    NN        (NP*)         today   -   2   -            *    (ARGM-TMP*)   (12)
+bn/abc/00/abc_0052   0    6         blamed   VBD        (VP*          blame  01   1   -            *           (V*)     -
+bn/abc/00/abc_0052   0    7              a    DT     (NP(NP*             -    -   -   -            *        (ARG1*      -
+bn/abc/00/abc_0052   0    8    combination    NN           *)   combination   -   1   -            *             *      -
+bn/abc/00/abc_0052   0    9             of    IN        (PP*             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   10        factors   NNS      (NP*)))        factor   -   1   -            *             *)     -
+bn/abc/00/abc_0052   0   11            for    IN        (PP*             -    -   -   -            *        (ARG2*      -
+bn/abc/00/abc_0052   0   12            the    DT     (NP(NP*             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   13         flawed    JJ           *             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   14          tires   NNS           *)            -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   15         linked   VBN        (VP*             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   16             to    IN        (PP*             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   17           more   JJR     (NP(QP*             -    -   -   -   (CARDINAL*             *      -
+bn/abc/00/abc_0052   0   18           than    IN           *             -    -   -   -            *             *      -
+bn/abc/00/abc_0052   0   19           150     CD           *)            -    -   -   -            *)            *      -
+bn/abc/00/abc_0052   0   20         deaths   NNS      *))))))         death   -   1   -            *             *)     -
+bn/abc/00/abc_0052   0   21              .     .          *))            -    -   -   -            *             *      -
+
+bn/abc/00/abc_0052   0   0    Firestone   NNP    (TOP(S(NP*)       -    -   -   -    (ORG)   (ARG0*)       *    (1)
+bn/abc/00/abc_0052   0   1         says   VBZ          (VP*       say  01   1   -       *       (V*)       *     -
+bn/abc/00/abc_0052   0   2        there    EX   (SBAR(S(NP*)       -    -   -   -       *    (ARG1*        *     -
+bn/abc/00/abc_0052   0   3          was   VBD          (VP*        be  02   3   -       *         *      (V*)    -
+bn/abc/00/abc_0052   0   4            a    DT          (NP*        -    -   -   -       *         *   (ARG1*     -
+bn/abc/00/abc_0052   0   5       design    NN             *    design   -   1   -       *         *        *     -
+bn/abc/00/abc_0052   0   6         flaw    NN         *)))))       -    -   -   -       *         *)       *)    -
+bn/abc/00/abc_0052   0   7            .     .            *))       -    -   -   -       *         *        *     -
+
+bn/abc/00/abc_0052   0    0         The    DT  (TOP(S(NP(NP*          -    -   -   -   *   (ARG1*   -
+bn/abc/00/abc_0052   0    1     pockets   NNS              *)         -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    2     between    IN           (PP*          -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    3         the    DT           (NP*          -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    4       tread    NN             *))         -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    5          on    IN           (PP*          -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    6         the    DT           (NP*          -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    7        tire    NN              *          -    -   -   -   *        *   -
+bn/abc/00/abc_0052   0    8    shoulder    NN            *)))   shoulder   -   4   -   *        *)  -
+bn/abc/00/abc_0052   0    9         are   VBP           (VP*          be  01   1   -   *      (V*)  -
+bn/abc/00/abc_0052   0   10         too    RB         (ADJP*          -    -   -   -   *   (ARG2*   -
+bn/abc/00/abc_0052   0   11       steep    JJ             *))         -    -   -   -   *        *)  -
+bn/abc/00/abc_0052   0   12           .     .             *))         -    -   -   -   *        *   -
+
+bn/abc/00/abc_0052   0    0              The     DT    (TOP(S(NP*              -    -   -   -            *        (ARG0*           *         *            *       (1
+bn/abc/00/abc_0052   0    1          company     NN             *)        company   -   1   -            *             *)          *         *            *        1)
+bn/abc/00/abc_0052   0    2             also     RB        (ADVP*)             -    -   -   -            *    (ARGM-DIS*)          *         *            *        -
+bn/abc/00/abc_0052   0    3           blamed    VBD       (VP(VP*           blame  01   1   -            *           (V*)          *         *            *        -
+bn/abc/00/abc_0052   0    4        consumers    NNS       (NP(NP*)             -    -   -   -            *        (ARG1*      (ARG0*)        *            *      (14
+bn/abc/00/abc_0052   0    5              who     WP   (SBAR(WHNP*)             -    -   -   -            *             *    (R-ARG0*)        *            *        -
+bn/abc/00/abc_0052   0    6     underinflate    VBP        (S(VP*    underinflate  01   -   -            *             *         (V*)        *            *        -
+bn/abc/00/abc_0052   0    7            their   PRP$          (NP*              -    -   -   -            *             *      (ARG1*         *            *      (14)
+bn/abc/00/abc_0052   0    8            tires    NNS        *))))))             -    -   -   -            *             *)          *)        *            *       14)
+bn/abc/00/abc_0052   0    9                ,      ,             *              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   10             Ford    NNP       (VP(NP*)             -    -   -   -         (ORG)            *           *    (ARG0*)           *        -
+bn/abc/00/abc_0052   0   11              --       :             *              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   12              for     IN          (PP*              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   13     recommending    VBG        (S(VP*       recommend  01   1   -            *             *           *       (V*)           *        -
+bn/abc/00/abc_0052   0   14                a     DT          (NP*              -    -   -   -            *             *           *    (ARG1*            *        -
+bn/abc/00/abc_0052   0   15              low     JJ             *              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   16             tire     NN             *              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   17         pressure     NN         *)))))       pressure   -   1   -            *             *           *         *)           *        -
+bn/abc/00/abc_0052   0   18              and     CC             *              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   19              the     DT    (VP(NP(NP*              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   20    manufacturing     NN             *              -    -   -   -            *             *           *         *       (ARG1*)       -
+bn/abc/00/abc_0052   0   21          process     NN             *)        process  01   1   -            *             *           *         *          (V*)       -
+bn/abc/00/abc_0052   0   22               at     IN          (PP*              -    -   -   -            *             *           *         *   (ARGM-LOC*        -
+bn/abc/00/abc_0052   0   23              one     CD       (NP(NP*              -    -   -   -    (CARDINAL)            *           *         *            *      (11
+bn/abc/00/abc_0052   0   24            plant     NN             *)          plant   -   1   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   25               in     IN          (PP*              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   26          Decatur    NNP       (NP(NP*)             -    -   -   -         (GPE)            *           *         *            *       (4
+bn/abc/00/abc_0052   0   27                ,      ,             *              -    -   -   -            *             *           *         *            *        -
+bn/abc/00/abc_0052   0   28         Illinois    NNP   (NP*))))))))             -    -   -   -         (GPE)            *           *         *            *)   11)|4)
+bn/abc/00/abc_0052   0   29                .      .            *))             -    -   -   -            *             *           *         *            *        -
+
+bn/abc/00/abc_0052   0   0         ABC   NNP  (TOP(S(NP(NP*    -    -   -   -       (ORG)       (ARG1*   (5|(8
+bn/abc/00/abc_0052   0   1          's   POS              *)   -    -   -   -          *             *       8)
+bn/abc/00/abc_0052   0   2         Bob   NNP              *    -    -   -   -   (PERSON*             *       -
+bn/abc/00/abc_0052   0   3    Jamieson   NNP              *)   -    -   -   -          *)            *)      5)
+bn/abc/00/abc_0052   0   4          is   VBZ           (VP*    be  01   4   -          *           (V*)      -
+bn/abc/00/abc_0052   0   5          in    IN           (PP*    -    -   -   -          *        (ARG2*       -
+bn/abc/00/abc_0052   0   6     Decatur   NNP          (NP*))   -    -   -   -       (GPE)            *)     (4)
+bn/abc/00/abc_0052   0   7     tonight    NN          (NP*))   -    -   -   -          *    (ARGM-TMP*)      -
+bn/abc/00/abc_0052   0   8           .     .             *))   -    -   -   -          *             *       -
+
+bn/abc/00/abc_0052   0    0          Few    JJ  (TOP(S(NP*         -    -   -   -        *        (ARG1*         *      *        *      -
+bn/abc/00/abc_0052   0    1      workers   NNS           *)    worker   -   1   -        *             *)        *      *        *      -
+bn/abc/00/abc_0052   0    2         were   VBD        (VP*         be  01   4   -        *           (V*)        *      *        *      -
+bn/abc/00/abc_0052   0    3       inside    IN        (PP*         -    -   -   -        *        (ARG2*         *      *        *      -
+bn/abc/00/abc_0052   0    4          the    DT        (NP*         -    -   -   -        *             *         *      *        *    (11
+bn/abc/00/abc_0052   0    5      Decatur   NNP           *         -    -   -   -     (GPE)            *         *      *        *     (4)
+bn/abc/00/abc_0052   0    6        plant    NN          *))     plant   -   1   -        *             *)        *      *        *     11)
+bn/abc/00/abc_0052   0    7        today    NN        (NP*)     today   -   2   -        *    (ARGM-TMP*)        *      *        *    (12)
+bn/abc/00/abc_0052   0    8            ,     ,           *         -    -   -   -        *             *         *      *        *      -
+bn/abc/00/abc_0052   0    9    virtually    RB    (S(ADJP*         -    -   -   -        *    (ARGM-ADV*         *      *        *      -
+bn/abc/00/abc_0052   0   10       closed    JJ           *)        -    -   -   -        *             *         *      *        *      -
+bn/abc/00/abc_0052   0   11          for    IN        (PP*         -    -   -   -        *             *         *      *        *      -
+bn/abc/00/abc_0052   0   12          the    DT        (NP*         -    -   -   -   (DATE*             *         *      *        *      -
+bn/abc/00/abc_0052   0   13         next    JJ           *         -    -   -   -        *             *         *      *        *      -
+bn/abc/00/abc_0052   0   14          two    CD           *         -    -   -   -        *             *         *      *        *      -
+bn/abc/00/abc_0052   0   15        weeks   NNS          *))        -    -   -   -        *)            *         *      *        *      -
+bn/abc/00/abc_0052   0   16      because    IN      (SBAR*         -    -   -   -        *             *         *      *        *      -
+bn/abc/00/abc_0052   0   17    Firestone   NNP      (S(NP*         -    -   -   -     (ORG)            *    (ARG1*)     *   (ARG1*     (1)
+bn/abc/00/abc_0052   0   18        sales   NNS           *)      sale  01   1   -        *             *       (V*)     *        *)     -
+bn/abc/00/abc_0052   0   19         have   VBP        (VP*       have  01   -   -        *             *         *    (V*)       *      -
+bn/abc/00/abc_0052   0   20    plummeted   VBN   (VP*))))))   plummet  01   1   -        *             *)        *      *      (V*)     -
+bn/abc/00/abc_0052   0   21            .     .          *))        -    -   -   -        *             *         *      *        *      -
+
+bn/abc/00/abc_0052   0    0      Firestone   NNP  (TOP(S(NP(NP*         -    -   -   -    (ORG)     *        *      *   (ARG0*      *    (1|(9
+bn/abc/00/abc_0052   0    1             's   POS              *)        -    -   -   -       *      *        *      *        *      *        1)
+bn/abc/00/abc_0052   0    2        finding    NN              *         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0    3           that    IN         (SBAR*         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0    4            the    DT      (S(NP(NP*         -    -   -   -       *      *   (ARG0*      *        *      *        -
+bn/abc/00/abc_0052   0    5        process    NN              *)   process  01   1   -       *    (V*)       *      *        *      *        -
+bn/abc/00/abc_0052   0    6              ,     ,              *         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0    7            not    RB              *         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0    8            the    DT        (NP(NP*         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0    9        quality    NN              *)   quality   -   1   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0   10             of    IN           (PP*         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0   11    workmanship    NN        (NP*))))        -    -   -   -       *      *        *)     *        *      *        -
+bn/abc/00/abc_0052   0   12           that    XX              *         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0   13        brought   VBD           (VP*      bring  05   2   -       *      *      (V*)     *        *      *        -
+bn/abc/00/abc_0052   0   14          about    RP          (PRT*)        -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0   15            the    DT           (NP*         -    -   -   -       *      *   (ARG1*      *        *      *      (10
+bn/abc/00/abc_0052   0   16       failures   NNS          *)))))   failure   -   1   -       *      *        *)     *        *)     *    10)|9)
+bn/abc/00/abc_0052   0   17            has   VBZ           (VP*       have  01   -   -       *      *        *    (V*)       *      *        -
+bn/abc/00/abc_0052   0   18        brought   VBN           (VP*      bring  01   2   -       *      *        *      *      (V*)     *        -
+bn/abc/00/abc_0052   0   19              a    DT        (NP(NP*         -    -   -   -       *      *        *      *   (ARG1*      *        -
+bn/abc/00/abc_0052   0   20          sense    NN              *)     sense   -   1   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0   21             of    IN           (PP*         -    -   -   -       *      *        *      *        *      *        -
+bn/abc/00/abc_0052   0   22         relief    NN       (NP*)))))    relief  01   1   -       *      *        *      *        *)   (V*)       -
+bn/abc/00/abc_0052   0   23              .     .             *))        -    -   -   -       *      *        *      *        *      *        -
+
+bn/abc/00/abc_0052   0    0         Many    JJ   (TOP(S(NP*)      -    -   -   -       *    (ARG0*)            *     -
+bn/abc/00/abc_0052   0    1       feared   VBD         (VP*     fear  01   2   -       *       (V*)            *     -
+bn/abc/00/abc_0052   0    2         that    IN       (SBAR*       -    -   -   -       *    (ARG1*             *     -
+bn/abc/00/abc_0052   0    3    Firestone   NNP       (S(NP*)      -    -   -   -    (ORG)        *        (ARG0*)   (1)
+bn/abc/00/abc_0052   0    4        would    MD         (VP*       -    -   -   -       *         *    (ARGM-MOD*)    -
+bn/abc/00/abc_0052   0    5        close    VB         (VP*    close  01   1   -       *         *           (V*)    -
+bn/abc/00/abc_0052   0    6          the    DT         (NP*       -    -   -   -       *         *        (ARG1*     -
+bn/abc/00/abc_0052   0    7       plants   NNS            *)   plant   -   1   -       *         *             *)    -
+bn/abc/00/abc_0052   0    8          for    IN         (PP*       -    -   -   -       *         *    (ARGM-PRP*     -
+bn/abc/00/abc_0052   0    9         work    NN   (NP*)))))))    work   -   3   -       *         *)            *)    -
+bn/abc/00/abc_0052   0   10            .     .           *))      -    -   -   -       *         *             *     -
+
+bn/abc/00/abc_0052   0    0         It   PRP   (TOP(S(NP(NP*))        -    -   -   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0    1         's   VBZ             (VP*         -    -   -   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0    2     always    RB           (ADVP*)        -    -   -   -   *    (ARGM-TMP*)     *         *        *   -
+bn/abc/00/abc_0052   0    3       been   VBN             (VP*         be  01   1   -   *           (V*)     *         *        *   -
+bn/abc/00/abc_0052   0    4          a    DT             (NP*         -    -   -   -   *        (ARG2*      *         *        *   -
+bn/abc/00/abc_0052   0    5    concern    NN                *)   concern   -   1   -   *             *)     *         *        *   -
+bn/abc/00/abc_0052   0    6          ,     ,                *         -    -   -   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0    7      being   VBG           (S(VP*         be  03   -   -   *        (ARG1*    (V*)        *        *   -
+bn/abc/00/abc_0052   0    8    pointed   VBN          (VP(VP*      point  01   1   -   *             *      *       (V*)       *   -
+bn/abc/00/abc_0052   0    9         to    IN            (PP*))        -    -   -   -   *             *      *    (ARG2*)       *   -
+bn/abc/00/abc_0052   0   10        and    CC                *         -    -   -   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0   11    singled   VBN             (VP*     single  01   -   -   *             *      *         *      (V*)  -
+bn/abc/00/abc_0052   0   12        out    RP            (PRT*)        -    -   -   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0   13         as    IN             (PP*         -    -   -   -   *             *      *         *   (ARG3*   -
+bn/abc/00/abc_0052   0   14          a    DT             (NP*         -    -   -   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0   15    problem    NN                *    problem   -   1   -   *             *      *         *        *   -
+bn/abc/00/abc_0052   0   16      plant    NN         *))))))))     plant   -   1   -   *             *)     *         *        *)  -
+bn/abc/00/abc_0052   0   17          .     .               *))        -    -   -   -   *             *      *         *        *   -
+
+bn/abc/00/abc_0052   0   0    Firestone    NNP   (TOP(S(NP*)   -    -   -   -        (ORG)   (ARG1*)   (1)
+bn/abc/00/abc_0052   0   1           is    VBZ         (VP*    be  01   2   -           *       (V*)    -
+bn/abc/00/abc_0052   0   2      Decatur    NNP      (NP(NP*    -    -   -   -        (GPE)   (ARG2*    (4
+bn/abc/00/abc_0052   0   3           's    POS            *)   -    -   -   -           *         *     4)
+bn/abc/00/abc_0052   0   4        third     RB       (ADJP*    -    -   -   -    (ORDINAL)        *     -
+bn/abc/00/abc_0052   0   5           -    HYPH            *    -    -   -   -           *         *     -
+bn/abc/00/abc_0052   0   6      largest    JJS            *)   -    -   -   -           *         *     -
+bn/abc/00/abc_0052   0   7     employer     NN           *))   -    -   -   -           *         *)    -
+bn/abc/00/abc_0052   0   8            .      .           *))   -    -   -   -           *         *     -
+
+bn/abc/00/abc_0052   0    0       Though     IN  (TOP(S(SBAR*        -    -     -   -            *      *        *    (ARGM-ADV*    -
+bn/abc/00/abc_0052   0    1          one     CD     (S(NP(NP*        -    -     -   -   (CARDINAL*      *   (ARG1*             *    -
+bn/abc/00/abc_0052   0    2           -    HYPH             *        -    -     -   -            *      *        *             *    -
+bn/abc/00/abc_0052   0    3       fourth     NN             *)       -    -     -   -            *)     *        *             *    -
+bn/abc/00/abc_0052   0    4           of     IN          (PP*        -    -     -   -            *      *        *             *    -
+bn/abc/00/abc_0052   0    5          the     DT          (NP*        -    -     -   -            *      *        *             *    -
+bn/abc/00/abc_0052   0    6      workers    NNS           *)))   worker   -     1   -            *      *        *)            *    -
+bn/abc/00/abc_0052   0    7         were    VBD          (VP*        be  03     -   -            *    (V*)       *             *    -
+bn/abc/00/abc_0052   0    8         laid    VBN          (VP*       lay  02   5.5   -            *      *      (V*)            *    -
+bn/abc/00/abc_0052   0    9          off     RP     (PRT*)))))       -    -     -   -            *      *        *             *)   -
+bn/abc/00/abc_0052   0   10            ,      ,             *        -    -     -   -            *      *        *             *    -
+bn/abc/00/abc_0052   0   11          the     DT          (NP*        -    -     -   -            *      *        *        (ARG0*   (1
+bn/abc/00/abc_0052   0   12    tiremaker     NN             *)       -    -     -   -            *      *        *             *)   1)
+bn/abc/00/abc_0052   0   13        still     RB        (ADVP*)       -    -     -   -            *      *        *    (ARGM-TMP*)   -
+bn/abc/00/abc_0052   0   14      employs    VBZ          (VP*    employ  01     1   -            *      *        *           (V*)   -
+bn/abc/00/abc_0052   0   15       1,400      CD         (NP*))       -    -     -   -    (CARDINAL)     *        *        (ARG1*)   -
+bn/abc/00/abc_0052   0   16            .      .            *))       -    -     -   -            *      *        *             *    -
+
+bn/abc/00/abc_0052   0   0      It   PRP   (TOP(S(NP*)     -   -   -   -   *    (9)
+bn/abc/00/abc_0052   0   1      's   VBZ         (VP*      be  -   1   -   *     -
+bn/abc/00/abc_0052   0   2    very    RB    (NP(ADJP*      -   -   -   -   *     -
+bn/abc/00/abc_0052   0   3    good    JJ            *)     -   -   -   -   *     -
+bn/abc/00/abc_0052   0   4    news    NN           *))   news  -   1   -   *     -
+bn/abc/00/abc_0052   0   5       .     .           *))     -   -   -   -   *     -
+
+bn/abc/00/abc_0052   0   0      It   PRP    (TOP(S(NP*)     -   -   -   -   *    (9)
+bn/abc/00/abc_0052   0   1      's   VBZ          (VP*      be  -   1   -   *     -
+bn/abc/00/abc_0052   0   2    very    RB  (NP(NP(ADJP*      -   -   -   -   *     -
+bn/abc/00/abc_0052   0   3    good    JJ             *)     -   -   -   -   *     -
+bn/abc/00/abc_0052   0   4    news    NN             *)   news  -   1   -   *     -
+bn/abc/00/abc_0052   0   5     for    IN          (PP*      -   -   -   -   *     -
+bn/abc/00/abc_0052   0   6      us   PRP       (NP*))))     -   -   -   -   *     -
+bn/abc/00/abc_0052   0   7       .     .            *))     -   -   -   -   *     -
+
+bn/abc/00/abc_0052   0    0       Economic   NNP  (TOP(S(NP(NML(NML*       -    -   -   -          *    (ARG0*         *     -
+bn/abc/00/abc_0052   0    1    Development   NNP                   *)      -    -   -   -          *         *         *     -
+bn/abc/00/abc_0052   0    2       Director   NNP                   *)      -    -   -   -          *         *         *     -
+bn/abc/00/abc_0052   0    3        Richard   NNP                   *       -    -   -   -   (PERSON*         *         *     -
+bn/abc/00/abc_0052   0    4         Eggars   NNP                   *)      -    -   -   -          *)        *)        *     -
+bn/abc/00/abc_0052   0    5        lobbied   VBD                (VP*    lobby  01   1   -          *       (V*)        *     -
+bn/abc/00/abc_0052   0    6      Firestone   NNP                (NP*)      -    -   -   -       (ORG)   (ARG2*)   (ARG0*)   (1)
+bn/abc/00/abc_0052   0    7             to    TO              (S(VP*       -    -   -   -          *    (ARG1*         *     -
+bn/abc/00/abc_0052   0    8           keep    VB                (VP*     keep  02   1   -          *         *       (V*)    -
+bn/abc/00/abc_0052   0    9            the    DT                (NP*       -    -   -   -          *         *    (ARG1*   (11
+bn/abc/00/abc_0052   0   10          plant    NN                   *)   plant   -   1   -          *         *         *    11)
+bn/abc/00/abc_0052   0   11           open    JJ       (S(ADJP*))))))      -    -   -   -          *         *)        *)    -
+bn/abc/00/abc_0052   0   12              .     .                  *))      -    -   -   -          *         *         *     -
+
+bn/abc/00/abc_0052   0    0               In    IN  (TOP(S(PP*         -    -   -   -         *             *   (ARGM-ADV*     -
+bn/abc/00/abc_0052   0    1            terms   NNS     (NP(NP*)      term   -   9   -         *             *            *     -
+bn/abc/00/abc_0052   0    2               of    IN        (PP*         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0    3          payroll    NN     (NP(NP*)        -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0    4              and    CC           *         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0    5        selective    JJ        (NP*         -    -   -   -         *    (ARGM-ADJ*)           *     -
+bn/abc/00/abc_0052   0    6         services   NNS       *)))))   service  01   1   -         *           (V*)           *)    -
+bn/abc/00/abc_0052   0    7                ,     ,           *         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0    8        Firestone   NNP        (NP*)        -    -   -   -      (ORG)            *       (ARG0*)   (1)
+bn/abc/00/abc_0052   0    9          infuses   VBZ        (VP*     infuse  01   1   -         *             *          (V*)    -
+bn/abc/00/abc_0052   0   10    approximately    RB  (NP(NP(QP*         -    -   -   -   (MONEY*             *       (ARG1*     -
+bn/abc/00/abc_0052   0   11                $     $           *         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0   12               5     CD           *         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0   13          million    CD          *))        -    -   -   -         *)            *            *     -
+bn/abc/00/abc_0052   0   14                a    DT        (NP*         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0   15            month    NN          *))     month   -   1   -         *             *            *)    -
+bn/abc/00/abc_0052   0   16             into    IN        (PP*         -    -   -   -         *             *       (ARG2*     -
+bn/abc/00/abc_0052   0   17              the    DT        (NP*         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0   18            local    JJ           *         -    -   -   -         *             *            *     -
+bn/abc/00/abc_0052   0   19          economy    NN         *)))   economy   -   2   -         *             *            *)    -
+bn/abc/00/abc_0052   0   20                .     .          *))        -    -   -   -         *             *            *     -
+
+bn/abc/00/abc_0052   0    0              But    CC         (TOP(S*        -    -   -   -       *             *      *      *    (ARGM-DIS*)    -
+bn/abc/00/abc_0052   0    1               in    IN            (PP*        -    -   -   -       *             *      *      *    (ARGM-LOC*     -
+bn/abc/00/abc_0052   0    2              the    DT         (NP(NP*        -    -   -   -       *             *      *      *             *     -
+bn/abc/00/abc_0052   0    3             tidy    JJ               *        -    -   -   -       *             *      *      *             *     -
+bn/abc/00/abc_0052   0    4                ,     ,               *        -    -   -   -       *             *      *      *             *     -
+bn/abc/00/abc_0052   0    5           modest    JJ               *        -    -   -   -       *             *      *      *             *     -
+bn/abc/00/abc_0052   0    6    neighborhoods   NNS               *)       -    -   -   -       *             *      *      *             *     -
+bn/abc/00/abc_0052   0    7            where   WRB   (SBAR(WHADVP*)       -    -   -   -       *    (ARGM-LOC*)     *      *             *     -
+bn/abc/00/abc_0052   0    8        Firestone   NNP          (S(NP*        -    -   -   -    (ORG)       (ARG0*      *      *             *    (1)
+bn/abc/00/abc_0052   0    9          workers   NNS               *)   worker   -   1   -       *             *)     *      *             *     -
+bn/abc/00/abc_0052   0   10             live   VBP        (VP*)))))     live  01   2   -       *           (V*)     *      *             *)    -
+bn/abc/00/abc_0052   0   11                ,     ,               *        -    -   -   -       *             *      *      *             *     -
+bn/abc/00/abc_0052   0   12              the    DT            (NP*        -    -   -   -       *             *      *      *        (ARG1*     -
+bn/abc/00/abc_0052   0   13           damage    NN               *)   damage   -   1   -       *             *      *      *             *)    -
+bn/abc/00/abc_0052   0   14              has   VBZ            (VP*      have  01   -   -       *             *    (V*)     *             *     -
+bn/abc/00/abc_0052   0   15          already    RB          (ADVP*)       -    -   -   -       *             *      *      *    (ARGM-TMP*)    -
+bn/abc/00/abc_0052   0   16             been   VBN            (VP*        be  03   -   -       *             *      *    (V*)            *     -
+bn/abc/00/abc_0052   0   17             done   VBN          (VP*)))       do  02   1   -       *             *      *      *           (V*)    -
+bn/abc/00/abc_0052   0   18                .     .              *))       -    -   -   -       *             *      *      *             *     -
+
+bn/abc/00/abc_0052   0    0            Until     IN  (TOP(S(PP*          -    -   -   -          *   (ARGM-TMP*     -
+bn/abc/00/abc_0052   0    1              the     DT        (NP*          -    -   -   -          *            *   (10
+bn/abc/00/abc_0052   0    2         problems    NNS          *))    problem   -   1   -          *            *)   10)
+bn/abc/00/abc_0052   0    3                ,      ,           *          -    -   -   -          *            *     -
+bn/abc/00/abc_0052   0    4        Firestone    NNP        (NP*)         -    -   -   -       (ORG)      (ARG1*)   (1)
+bn/abc/00/abc_0052   0    5              was    VBD        (VP*          be  01   1   -          *          (V*)    -
+bn/abc/00/abc_0052   0    6                a     DT     (NP(NP*          -    -   -   -          *       (ARG2*     -
+bn/abc/00/abc_0052   0    7           family     NN           *      family   -   1   -          *            *     -
+bn/abc/00/abc_0052   0    8         business     NN           *)   business   -   1   -          *            *     -
+bn/abc/00/abc_0052   0    9              for     IN        (PP*          -    -   -   -          *            *     -
+bn/abc/00/abc_0052   0   10              the     DT        (NP*          -    -   -   -          *            *   (13
+bn/abc/00/abc_0052   0   11    Coppenbargers   NNPS        *))))         -    -   -   -    (PERSON)           *)   13)
+bn/abc/00/abc_0052   0   12                .      .          *))         -    -   -   -          *            *     -
+
+bn/abc/00/abc_0052   0    0     Richard   NNP  (TOP(S(NP(NP*      -    -   -   -    (PERSON)  (ARG0*   (2
+bn/abc/00/abc_0052   0    1         and    CC              *      -    -   -   -          *        *    -
+bn/abc/00/abc_0052   0    2     Shirley   NNP              *)     -    -   -   -    (PERSON)       *    -
+bn/abc/00/abc_0052   0    3           ,     ,              *      -    -   -   -          *        *    -
+bn/abc/00/abc_0052   0    4    together    RB        (ADVP*))     -    -   -   -          *        *)   2)
+bn/abc/00/abc_0052   0    5           ,     ,              *      -    -   -   -          *        *    -
+bn/abc/00/abc_0052   0    6        have   VBP           (VP*    have  03   2   -          *      (V*)   -
+bn/abc/00/abc_0052   0    7      nearly    RB     (NP(NP(QP*      -    -   -   -     (DATE*   (ARG1*    -
+bn/abc/00/abc_0052   0    8         60     CD              *)     -    -   -   -          *        *    -
+bn/abc/00/abc_0052   0    9       years   NNS              *)     -    -   -   -          *)       *    -
+bn/abc/00/abc_0052   0   10          on    IN           (PP*      -    -   -   -          *        *    -
+bn/abc/00/abc_0052   0   11         the    DT           (NP*      -    -   -   -          *        *    -
+bn/abc/00/abc_0052   0   12         job    NN           *))))    job   -   3   -          *        *)   -
+bn/abc/00/abc_0052   0   13           .     .             *))     -    -   -   -          *        *    -
+
+bn/abc/00/abc_0052   0    0    Richard   NNP   (TOP(S(NP*       -    -     -   -        *       (ARG0*      *            *    (3
+bn/abc/00/abc_0052   0    1        Jr.   NNP            *)      -    -     -   -        *            *)     *            *     3)
+bn/abc/00/abc_0052   0    2        had   VBD         (VP*     have  03     2   -        *          (V*)     *            *     -
+bn/abc/00/abc_0052   0    3        14     CD         (NP*       -    -     -   -   (DATE*       (ARG1*      *            *     -
+bn/abc/00/abc_0052   0    4     months   NNS            *)   month   -     2   -        *)           *)     *            *     -
+bn/abc/00/abc_0052   0    5          ,     ,            *       -    -     -   -        *            *      *            *     -
+bn/abc/00/abc_0052   0    6     before    IN       (SBAR*       -    -     -   -        *   (ARGM-TMP*      *            *     -
+bn/abc/00/abc_0052   0    7         he   PRP       (S(NP*)      -    -     -   -        *            *      *       (ARG1*)   (3)
+bn/abc/00/abc_0052   0    8        was   VBD         (VP*       be  03     -   -        *            *    (V*)           *     -
+bn/abc/00/abc_0052   0    9       laid   VBN         (VP*      lay  02   5.5   -        *            *      *          (V*)    -
+bn/abc/00/abc_0052   0   10        off    RP        (PRT*)      -    -     -   -        *            *      *            *     -
+bn/abc/00/abc_0052   0   11         in    IN         (PP*       -    -     -   -        *            *      *   (ARGM-TMP*     -
+bn/abc/00/abc_0052   0   12    October   NNP   (NP*)))))))      -    -     -   -    (DATE)           *)     *            *)    -
+bn/abc/00/abc_0052   0   13          .     .           *))      -    -     -   -        *            *      *            *     -
+
+bn/abc/00/abc_0052   0    0          The     DT  (TOP(S(NP*         -    -   -   -   *      *             *       (6
+bn/abc/00/abc_0052   0    1          job     NN           *)       job   -   1   -   *      *             *        6)
+bn/abc/00/abc_0052   0    2          --       :           *         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0    3           it    PRP        (NP*)        -    -   -   -   *      *             *       (6)
+bn/abc/00/abc_0052   0    4           's    VBZ        (VP*         be   -   1   -   *      *             *        -
+bn/abc/00/abc_0052   0    5            a     DT     (NP(NP*         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0    6          big     JJ           *         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0    7      history     NN           *)   history   -   1   -   *      *             *        -
+bn/abc/00/abc_0052   0    8         here     RB      (ADVP*         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0    9           in     IN        (PP*         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0   10          the     DT        (NP*         -    -   -   -   *      *             *      (13
+bn/abc/00/abc_0052   0   11       family     NN        *))))    family   -   1   -   *      *             *       13)
+bn/abc/00/abc_0052   0   12            ,      ,           *         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0   13           so     RB    (S(ADVP*)        -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0   14           to     TO        (VP*         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0   15        speak     VB      (VP*)))     speak  01   7   -   *    (V*)            *        -
+bn/abc/00/abc_0052   0   16            ,      ,           *         -    -   -   -   *      *             *        -
+bn/abc/00/abc_0052   0   17    following    VBG      (S(VP*     follow  02   1   -   *      *           (V*)       -
+bn/abc/00/abc_0052   0   18           my   PRP$        (NP*         -    -   -   -   *      *        (ARG2*    (2|(3)
+bn/abc/00/abc_0052   0   19      parents    NNS           *)        -    -   -   -   *      *             *)       2)
+bn/abc/00/abc_0052   0   20         here     RB   (ADVP*))))        -    -   -   -   *      *    (ARGM-DIR*)       -
+bn/abc/00/abc_0052   0   21            .      .          *))        -    -   -   -   *      *             *        -
+
+bn/abc/00/abc_0052   0    0          My   PRP$  (TOP(S(NP*      -    -   -   -   *     (ARG0*    (3)
+bn/abc/00/abc_0052   0    1         job     NN           *)    job   -   1   -   *          *)    -
+bn/abc/00/abc_0052   0    2       meant    VBD        (VP*    mean  01   5   -   *        (V*)    -
+bn/abc/00/abc_0052   0    3        more    JJR    (NP(NP*))     -    -   -   -   *     (ARG1*)    -
+bn/abc/00/abc_0052   0    4          to     IN        (PP*      -    -   -   -   *     (ARG2*     -
+bn/abc/00/abc_0052   0    5          me    PRP       (NP*))     -    -   -   -   *          *)   (3)
+bn/abc/00/abc_0052   0    6        than     IN        (PP*      -    -   -   -   *   (C-ARG1*     -
+bn/abc/00/abc_0052   0    7        just     RB        (NP*      -    -   -   -   *          *     -
+bn/abc/00/abc_0052   0    8           a     DT           *      -    -   -   -   *          *     -
+bn/abc/00/abc_0052   0    9    paycheck     NN         *)))     -    -   -   -   *          *)    -
+bn/abc/00/abc_0052   0   10           .      .          *))     -    -   -   -   *          *     -
+
+bn/abc/00/abc_0052   0   0          I   PRP   (TOP(S(NP*)   -    -   -   -   *    (ARG1*)   (0)
+bn/abc/00/abc_0052   0   1         am   VBP         (VP*    be  01   1   -   *       (V*)    -
+bn/abc/00/abc_0052   0   2    worried    JJ      (ADJP*))   -    -   -   -   *    (ARG2*)    -
+bn/abc/00/abc_0052   0   3          .     .           *))   -    -   -   -   *         *     -
+
+bn/abc/00/abc_0052   0    0             I    PRP         (TOP(S(S(NP*)           -    -   -   -   *        (ARG0*)       (ARG0*)            *             *         *             *    (0)
+bn/abc/00/abc_0052   0    1            'd     MD                 (VP*            -    -   -   -   *    (ARGM-MOD*)            *             *             *         *             *     -
+bn/abc/00/abc_0052   0    2          like     VB                 (VP*          like  02   1   -   *           (V*)            *             *             *         *             *     -
+bn/abc/00/abc_0052   0    3            to     TO               (S(VP*            -    -   -   -   *        (ARG1*             *             *             *         *             *     -
+bn/abc/00/abc_0052   0    4        finish     VB                 (VP*        finish  01   1   -   *             *           (V*)            *             *         *             *     -
+bn/abc/00/abc_0052   0    5           out     RP                (PRT*)           -    -   -   -   *             *    (ARGM-PRD*)            *             *         *             *     -
+bn/abc/00/abc_0052   0    6         until     IN                 (PP*            -    -   -   -   *             *    (ARGM-TMP*             *             *         *             *     -
+bn/abc/00/abc_0052   0    7            my   PRP$              (NP(NP*            -    -   -   -   *             *             *        (ARG0*)            *         *             *    (0)
+bn/abc/00/abc_0052   0    8        actual     JJ                    *            -    -   -   -   *             *             *    (ARGM-ADJ*)            *         *             *     -
+bn/abc/00/abc_0052   0    9    retirement     NN                    *)   retirement  01   1   -   *             *             *           (V*)            *         *             *     -
+bn/abc/00/abc_0052   0   10             ,      ,                    *            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   11          when    WRB        (SBAR(WHADVP*)           -    -   -   -   *             *             *    (ARGM-TMP*    (ARGM-TMP*)        *             *     -
+bn/abc/00/abc_0052   0   12             I    PRP               (S(NP*)           -    -   -   -   *             *             *             *        (ARG1*)   (ARG0*)            *    (0)
+bn/abc/00/abc_0052   0   13           was    VBD                 (VP*            be  01   1   -   *             *             *             *           (V*)        *             *     -
+bn/abc/00/abc_0052   0   14        really     RB               (ADJP*            -    -   -   -   *             *             *             *        (ARG2*         *             *     -
+bn/abc/00/abc_0052   0   15         ready     JJ                    *            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   16            to     TO               (S(VP*            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   17          quit     VB   (VP*)))))))))))))))         quit  01   2   -   *             *)            *)            *)            *)      (V*)            *     -
+bn/abc/00/abc_0052   0   18             ,      ,                    *            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   19           but     CC                    *            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   20             ,      ,                  (S*            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   21          yeah     UH               (INTJ*)           -    -   -   -   *             *             *             *             *         *    (ARGM-DIS*)    -
+bn/abc/00/abc_0052   0   22             ,      ,                    *            -    -   -   -   *             *             *             *             *         *             *     -
+bn/abc/00/abc_0052   0   23             I    PRP                 (NP*)           -    -   -   -   *             *             *             *             *         *        (ARG0*)   (0)
+bn/abc/00/abc_0052   0   24          have    VBP                 (VP*          have  03   2   -   *             *             *             *             *         *           (V*)    -
+bn/abc/00/abc_0052   0   25          some     DT                 (NP*            -    -   -   -   *             *             *             *             *         *        (ARG1*     -
+bn/abc/00/abc_0052   0   26        doubts    NNS                  *)))        doubt   -   1   -   *             *             *             *             *         *             *)    -
+bn/abc/00/abc_0052   0   27             .      .                   *))           -    -   -   -   *             *             *             *             *         *             *     -
+
+bn/abc/00/abc_0052   0   0           It   PRP   (TOP(S(NP*)   -    -   -   -        *    (ARG1*)  -
+bn/abc/00/abc_0052   0   1           is   VBZ         (VP*    be  01   1   -        *       (V*)  -
+bn/abc/00/abc_0052   0   2           an    DT      (NP(NP*    -    -   -   -   (DATE*    (ARG2*   -
+bn/abc/00/abc_0052   0   3    uncertain    JJ            *    -    -   -   -        *         *   -
+bn/abc/00/abc_0052   0   4    Christmas   NNP            *)   -    -   -   -        *)        *   -
+bn/abc/00/abc_0052   0   5         here    RB     (ADVP*)))   -    -   -   -        *         *)  -
+bn/abc/00/abc_0052   0   6            .     .           *))   -    -   -   -        *         *   -
+
+bn/abc/00/abc_0052   0    0          The     DT  (TOP(S(S(NP*         -    -   -   -       *   (ARG0*         *             *         *         *    (9
+bn/abc/00/abc_0052   0    1       report     NN             *)    report   -   1   -       *        *)        *             *         *         *     9)
+bn/abc/00/abc_0052   0    2     absolves    VBZ          (VP*    absolve  01   -   -       *      (V*)        *             *         *         *     -
+bn/abc/00/abc_0052   0    3          the     DT          (NP*         -    -   -   -       *   (ARG1*         *             *         *         *    (7
+bn/abc/00/abc_0052   0    4      workers    NNS           *)))    worker   -   1   -       *        *)        *             *         *         *     7)
+bn/abc/00/abc_0052   0    5            ,      ,             *         -    -   -   -       *        *         *             *         *         *     -
+bn/abc/00/abc_0052   0    6         they    PRP        (S(NP*)        -    -   -   -       *        *    (ARG0*)            *         *         *    (7)
+bn/abc/00/abc_0052   0    7         know    VBP          (VP*       know  01   1   -       *        *       (V*)            *         *         *     -
+bn/abc/00/abc_0052   0    8        their   PRP$   (SBAR(S(NP*         -    -   -   -       *        *    (ARG1*        (ARG1*         *         *    (7)
+bn/abc/00/abc_0052   0    9         jobs    NNS             *)       job   -   1   -       *        *         *             *)        *         *     -
+bn/abc/00/abc_0052   0   10         will     MD          (VP*         -    -   -   -       *        *         *    (ARGM-MOD*)        *         *     -
+bn/abc/00/abc_0052   0   11         only     RB        (ADVP*)        -    -   -   -       *        *         *    (ARGM-ADV*)        *         *     -
+bn/abc/00/abc_0052   0   12           be     VB          (VP*         be  01   1   -       *        *         *           (V*)        *         *     -
+bn/abc/00/abc_0052   0   13         safe     JJ        (ADJP*)        -    -   -   -       *        *         *        (ARG2*)        *         *     -
+bn/abc/00/abc_0052   0   14           if     IN        (SBAR*         -    -   -   -       *        *         *    (ARGM-ADV*         *         *     -
+bn/abc/00/abc_0052   0   15    Firestone    NNP        (S(NP*)        -    -   -   -    (ORG)       *         *             *    (ARG0*)   (ARG0*)   (1)
+bn/abc/00/abc_0052   0   16     restores    VBZ       (VP(VP*    restore  01   1   -       *        *         *             *       (V*)        *     -
+bn/abc/00/abc_0052   0   17        faith     NN       (NP(NP*)        -    -   -   -       *        *         *             *    (ARG1*         *     -
+bn/abc/00/abc_0052   0   18           in     IN          (PP*         -    -   -   -       *        *         *             *         *         *     -
+bn/abc/00/abc_0052   0   19          its   PRP$          (NP*         -    -   -   -       *        *         *             *         *         *    (1)
+bn/abc/00/abc_0052   0   20     products    NNS          *))))   product   -   1   -       *        *         *             *         *)        *     -
+bn/abc/00/abc_0052   0   21          and     CC             *         -    -   -   -       *        *         *             *         *         *     -
+bn/abc/00/abc_0052   0   22        sells    VBZ          (VP*       sell  01   1   -       *        *         *             *         *       (V*)    -
+bn/abc/00/abc_0052   0   23         more    JJR          (NP*         -    -   -   -       *        *         *             *         *    (ARG1*     -
+bn/abc/00/abc_0052   0   24        tires    NNS   *)))))))))))        -    -   -   -       *        *         *)            *)        *         *)    -
+bn/abc/00/abc_0052   0   25            .      .            *))        -    -   -   -       *        *         *             *         *         *     -
+
+bn/abc/00/abc_0052   0   0         Bob   NNP  (TOP(FRAG(NP*   -   -   -   -   (PERSON*    (5
+bn/abc/00/abc_0052   0   1    Jamieson   NNP              *)  -   -   -   -          *)    5)
+bn/abc/00/abc_0052   0   2           ,     ,              *   -   -   -   -          *     -
+bn/abc/00/abc_0052   0   3         ABC   NNP           (NP*   -   -   -   -      (ORG*    (8
+bn/abc/00/abc_0052   0   4        News   NNP              *)  -   -   -   -          *)    8)
+bn/abc/00/abc_0052   0   5           ,     ,              *   -   -   -   -          *     -
+bn/abc/00/abc_0052   0   6     Decatur   NNP           (NP*)  -   -   -   -       (GPE)   (4)
+bn/abc/00/abc_0052   0   7           .     .             *))  -   -   -   -          *     -
+
+#end document

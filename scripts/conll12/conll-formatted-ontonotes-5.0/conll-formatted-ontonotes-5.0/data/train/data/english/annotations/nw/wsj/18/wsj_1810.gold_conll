@@ -1,0 +1,509 @@
+#begin document (nw/wsj/18/wsj_1810); part 000
+nw/wsj/18/wsj_1810   0    0         The    DT  (TOP(S(S(NP*       -    -   -   -   *   (ARG1*        *   -
+nw/wsj/18/wsj_1810   0    1    frenetic    JJ             *       -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0    2       stock    NN         (NML*       -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0    3         and    CC             *       -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0    4        bond    NN             *)      -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0    5     markets   NNS             *)      -    -   -   -   *        *)       *   -
+nw/wsj/18/wsj_1810   0    6      cooled   VBD          (VP*     cool  03   2   -   *      (V*)       *   -
+nw/wsj/18/wsj_1810   0    7         off    RB      (ADVP*)))      -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0    8           ,     ,             *       -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0    9         but    CC             *       -    -   -   -   *        *        *   -
+nw/wsj/18/wsj_1810   0   10         the    DT        (S(NP*       -    -   -   -   *        *   (ARG1*   -
+nw/wsj/18/wsj_1810   0   11      dollar    NN             *)      -    -   -   -   *        *        *)  -
+nw/wsj/18/wsj_1810   0   12     slumped   VBD         (VP*))   slump  01   2   -   *        *      (V*)  -
+nw/wsj/18/wsj_1810   0   13           .     .            *))      -    -   -   -   *        *        *   -
+
+nw/wsj/18/wsj_1810   0    0      Stocks   NNS   (TOP(S(NP*)     -    -   -   -        *       (ARG1*)       *   -
+nw/wsj/18/wsj_1810   0    1        rose   VBD         (VP*    rise  01   -   -        *          (V*)       *   -
+nw/wsj/18/wsj_1810   0    2    slightly    RB       (ADVP*)     -    -   -   -        *       (ARG2*)       *   -
+nw/wsj/18/wsj_1810   0    3          as    IN       (SBAR*      -    -   -   -        *   (ARGM-TMP*        *   -
+nw/wsj/18/wsj_1810   0    4     trading    NN       (S(NP*      -    -   -   -        *            *   (ARG1*   -
+nw/wsj/18/wsj_1810   0    5    activity    NN            *)     -    -   -   -        *            *        *)  -
+nw/wsj/18/wsj_1810   0    6      slowed   VBD         (VP*    slow  02   1   -        *            *      (V*)  -
+nw/wsj/18/wsj_1810   0    7        from    IN         (PP*      -    -   -   -        *            *   (ARG3*   -
+nw/wsj/18/wsj_1810   0    8         the    DT      (NP(NP*      -    -   -   -        *            *        *   -
+nw/wsj/18/wsj_1810   0    9    frenzied    JJ            *      -    -   -   -        *            *        *   -
+nw/wsj/18/wsj_1810   0   10        pace    NN            *)     -    -   -   -        *            *        *   -
+nw/wsj/18/wsj_1810   0   11     earlier   RBR    (NP(ADVP*)     -    -   -   -   (DATE*            *        *   -
+nw/wsj/18/wsj_1810   0   12        this    DT            *      -    -   -   -        *            *        *   -
+nw/wsj/18/wsj_1810   0   13        week    NN      *)))))))     -    -   -   -        *)           *)       *)  -
+nw/wsj/18/wsj_1810   0   14           .     .           *))     -    -   -   -        *            *        *   -
+
+nw/wsj/18/wsj_1810   0    0        Prices    NNS     (TOP(S(NP(NP*)       -    -   -   -        *       (ARG1*       (ARG1*        *             *   -
+nw/wsj/18/wsj_1810   0    1            of     IN              (PP*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0    2          long     JJ          (NP(NML*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0    3            -    HYPH                 *        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0    4          term     NN                 *)       -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0    5      Treasury    NNP                 *        -    -   -   -     (ORG)           *            *        *             *   -
+nw/wsj/18/wsj_1810   0    6         bonds    NNS               *)))       -    -   -   -        *            *)           *)       *             *   -
+nw/wsj/18/wsj_1810   0    7       hovered    VBD              (VP*     hover  01   2   -        *          (V*)           *        *             *   -
+nw/wsj/18/wsj_1810   0    8            in     IN              (PP*        -    -   -   -        *       (ARG2*            *        *             *   -
+nw/wsj/18/wsj_1810   0    9             a     DT              (NP*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   10        narrow     JJ                 *        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   11          band     NN                *))       -    -   -   -        *            *)           *        *             *   -
+nw/wsj/18/wsj_1810   0   12          most    JJS           (NP(NP*)       -    -   -   -        *   (ARGM-TMP*            *        *             *   -
+nw/wsj/18/wsj_1810   0   13            of     IN              (PP*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   14           the     DT              (NP*        -    -   -   -   (DATE*            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   15           day     NN               *)))       -    -   -   -        *)           *)           *        *             *   -
+nw/wsj/18/wsj_1810   0   16             ,      ,                 *        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   17     finishing    VBG            (S(VP*    finish  02   -   -        *   (ARGM-PRD*          (V*)       *             *   -
+nw/wsj/18/wsj_1810   0   18        little     RB          (S(ADJP*        -    -   -   -        *            *   (ARGM-MNR*        *             *   -
+nw/wsj/18/wsj_1810   0   19       changed     JJ                *))       -    -   -   -        *            *            *)       *             *   -
+nw/wsj/18/wsj_1810   0   20       despite     IN              (PP*        -    -   -   -        *            *   (ARGM-ADV*        *             *   -
+nw/wsj/18/wsj_1810   0   21           the     DT        (NP(NP(NP*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   22        dollar     NN                 *        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   23            's    POS                 *)       -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   24      weakness     NN                 *)       -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   25           and     CC                 *        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   26         fears    NNS           (NP(NP*)       -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   27         about     IN              (PP*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   28             a     DT         (S(NP(NP*        -    -   -   -        *            *            *        *        (ARG1*   -
+nw/wsj/18/wsj_1810   0   29          wave     NN                 *)     wave  01   2   -        *            *            *      (V*)            *   -
+nw/wsj/18/wsj_1810   0   30            of     IN              (PP*        -    -   -   -        *            *            *   (ARG1*             *   -
+nw/wsj/18/wsj_1810   0   31    government     NN              (NP*        -    -   -   -        *            *            *        *             *   -
+nw/wsj/18/wsj_1810   0   32     borrowing     NN               *)))       -    -   -   -        *            *            *        *)            *)  -
+nw/wsj/18/wsj_1810   0   33        coming    VBG              (VP*      come  01   -   -        *            *            *        *           (V*)  -
+nw/wsj/18/wsj_1810   0   34          soon     RB   (ADVP*))))))))))       -    -   -   -        *            *)           *)       *    (ARGM-TMP*)  -
+nw/wsj/18/wsj_1810   0   35             .      .                *))       -    -   -   -        *            *            *        *             *   -
+
+nw/wsj/18/wsj_1810   0    0        Helped    VBN  (TOP(S(S(VP*     help  01   -   -            *      (V*)  (ARGM-PRD*            *   -
+nw/wsj/18/wsj_1810   0    1            by     IN          (PP*       -    -   -   -            *   (ARG0*            *            *   -
+nw/wsj/18/wsj_1810   0    2       futures    NNS     (NP(ADJP*       -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0    3            -    HYPH             *       -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0    4       related    VBN             *)      -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0    5       program     NN             *       -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0    6        buying     NN          *))))      -    -   -   -            *        *)           *)           *   -
+nw/wsj/18/wsj_1810   0    7             ,      ,             *       -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0    8           the     DT          (NP*       -    -   -   -            *   (ARG2*       (ARG1*       (ARG1*   -
+nw/wsj/18/wsj_1810   0    9           Dow    NNP         (NML*       -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0   10         Jones    NNP             *)      -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0   11    Industrial    NNP             *       -    -   -   -            *        *            *            *   -
+nw/wsj/18/wsj_1810   0   12       Average    NNP             *)      -    -   -   -            *        *)           *)           *)  -
+nw/wsj/18/wsj_1810   0   13        gained    VBD          (VP*     gain  01   -   -            *        *          (V*)           *   -
+nw/wsj/18/wsj_1810   0   14         4.92      CD          (NP*       -    -   -   -    (CARDINAL)       *       (ARG2*            *   -
+nw/wsj/18/wsj_1810   0   15        points    NNS             *)      -    -   -   -            *        *            *)           *   -
+nw/wsj/18/wsj_1810   0   16            to     TO        (S(VP*       -    -   -   -            *        *       (ARG4*            *   -
+nw/wsj/18/wsj_1810   0   17         close     VB          (VP*    close  02   -   -            *        *            *          (V*)  -
+nw/wsj/18/wsj_1810   0   18            at     IN          (PP*       -    -   -   -            *        *            *   (ARGM-EXT*   -
+nw/wsj/18/wsj_1810   0   19      2643.65      CD     (NP*))))))      -    -   -   -    (CARDINAL)       *            *)           *)  -
+nw/wsj/18/wsj_1810   0   20             .      .            *))      -    -   -   -            *        *            *            *   -
+
+nw/wsj/18/wsj_1810   0    0               But     CC  (TOP(S*      -    -   -   -           *    (ARGM-DIS*)       *   -
+nw/wsj/18/wsj_1810   0    1               the     DT     (NP*      -    -   -   -           *        (ARG1*        *   -
+nw/wsj/18/wsj_1810   0    2               Dow    NNP    (NML*      -    -   -   -           *             *        *   -
+nw/wsj/18/wsj_1810   0    3             Jones    NNP        *)     -    -   -   -           *             *        *   -
+nw/wsj/18/wsj_1810   0    4    Transportation    NNP        *      -    -   -   -           *             *        *   -
+nw/wsj/18/wsj_1810   0    5           Average    NNP        *)     -    -   -   -           *             *)       *   -
+nw/wsj/18/wsj_1810   0    6              fell    VBD     (VP*    fall  01   -   -           *           (V*)       *   -
+nw/wsj/18/wsj_1810   0    7               for     IN     (PP*      -    -   -   -           *    (ARGM-TMP*        *   -
+nw/wsj/18/wsj_1810   0    8               the     DT     (NP*      -    -   -   -           *             *        *   -
+nw/wsj/18/wsj_1810   0    9           seventh     JJ        *      -    -   -   -    (ORDINAL)            *        *   -
+nw/wsj/18/wsj_1810   0   10                -    HYPH        *      -    -   -   -           *             *        *   -
+nw/wsj/18/wsj_1810   0   11       consecutive     JJ        *      -    -   -   -           *             *        *   -
+nw/wsj/18/wsj_1810   0   12           session     NN       *))     -    -   -   -           *             *)       *   -
+nw/wsj/18/wsj_1810   0   13                as     IN   (SBAR*      -    -   -   -           *    (ARGM-TMP*        *   -
+nw/wsj/18/wsj_1810   0   14              more    JJR   (S(NP*      -    -   -   -           *             *   (ARG0*   -
+nw/wsj/18/wsj_1810   0   15         investors    NNS        *)     -    -   -   -           *             *        *)  -
+nw/wsj/18/wsj_1810   0   16            dumped    VBD     (VP*    dump  01   2   -           *             *      (V*)  -
+nw/wsj/18/wsj_1810   0   17               UAL    NNP     (NP*      -    -   -   -        (ORG)            *   (ARG1*   -
+nw/wsj/18/wsj_1810   0   18            shares    NNS    *)))))     -    -   -   -           *             *)       *)  -
+nw/wsj/18/wsj_1810   0   19                 .      .       *))     -    -   -   -           *             *        *   -
+
+nw/wsj/18/wsj_1810   0    0          Bond     NN     (TOP(S(NP*          -    -   -   -        *       (ARG1*            *         *             *   -
+nw/wsj/18/wsj_1810   0    1        prices    NNS              *)         -    -   -   -        *            *)           *         *             *   -
+nw/wsj/18/wsj_1810   0    2       rallied    VBD           (VP*       rally  02   2   -        *          (V*)           *         *             *   -
+nw/wsj/18/wsj_1810   0    3         early     JJ           (NP*          -    -   -   -        *   (ARGM-TMP*            *         *             *   -
+nw/wsj/18/wsj_1810   0    4     yesterday     NN              *          -    -   -   -    (DATE)           *            *         *             *   -
+nw/wsj/18/wsj_1810   0    5       morning     NN              *)         -    -   -   -    (TIME)           *)           *         *             *   -
+nw/wsj/18/wsj_1810   0    6            as     IN         (SBAR*          -    -   -   -        *   (ARGM-TMP*            *         *             *   -
+nw/wsj/18/wsj_1810   0    7       traders    NNS         (S(NP*)         -    -   -   -        *            *       (ARG0*)   (ARG0*)            *   -
+nw/wsj/18/wsj_1810   0    8     scrambled    VBD           (VP*    scramble  01   1   -        *            *          (V*)        *             *   -
+nw/wsj/18/wsj_1810   0    9            to     TO         (S(VP*          -    -   -   -        *            *       (ARG1*         *             *   -
+nw/wsj/18/wsj_1810   0   10           buy     VB           (VP*         buy  01   -   -        *            *            *       (V*)            *   -
+nw/wsj/18/wsj_1810   0   11      Treasury    NNP           (NP*          -    -   -   -     (ORG)           *            *    (ARG1*             *   -
+nw/wsj/18/wsj_1810   0   12        issues    NNS           *))))         -    -   -   -        *            *            *)        *)            *   -
+nw/wsj/18/wsj_1810   0   13            on     IN           (PP*          -    -   -   -        *            *   (ARGM-CAU*         *             *   -
+nw/wsj/18/wsj_1810   0   14         fears    NNS           (NP*          -    -   -   -        *            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   15          that     IN         (SBAR*          -    -   -   -        *            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   16           the     DT         (S(NP*          -    -   -   -        *            *            *         *        (ARG0*   -
+nw/wsj/18/wsj_1810   0   17      Northern     JJ          (NML*          -    -   -   -    (LOC*            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   18    California    NNP              *)         -    -   -   -        *)           *            *         *             *   -
+nw/wsj/18/wsj_1810   0   19    earthquake     NN              *)         -    -   -   -        *            *            *         *             *)  -
+nw/wsj/18/wsj_1810   0   20         might     MD           (VP*          -    -   -   -        *            *            *         *    (ARGM-MOD*)  -
+nw/wsj/18/wsj_1810   0   21          lead     VB           (VP*        lead  03   -   -        *            *            *         *           (V*)  -
+nw/wsj/18/wsj_1810   0   22            to     IN           (PP*          -    -   -   -        *            *            *         *        (ARG2*   -
+nw/wsj/18/wsj_1810   0   23             a     DT           (NP*          -    -   -   -        *            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   24         stock     NN          (NML*          -    -   -   -        *            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   25            -    HYPH              *          -    -   -   -        *            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   26        market     NN              *)         -    -   -   -        *            *            *         *             *   -
+nw/wsj/18/wsj_1810   0   27       debacle     NN   *))))))))))))         -    -   -   -        *            *)           *)        *             *)  -
+nw/wsj/18/wsj_1810   0   28             .      .             *))         -    -   -   -        *            *            *         *             *   -
+
+nw/wsj/18/wsj_1810   0    0          But    CC         (TOP(S*         -    -   -   -       *             *    (ARGM-DIS*)  -
+nw/wsj/18/wsj_1810   0    1         when   WRB   (SBAR(WHADVP*)        -    -   -   -       *    (ARGM-TMP*)   (ARGM-TMP*   -
+nw/wsj/18/wsj_1810   0    2       stocks   NNS          (S(NP*)        -    -   -   -       *        (ARG1*)            *   -
+nw/wsj/18/wsj_1810   0    3         held   VBD            (VP*       hold  03   -   -       *           (V*)            *   -
+nw/wsj/18/wsj_1810   0    4       steady    JJ    (S(ADJP*)))))        -    -   -   -       *        (ARG2*)            *)  -
+nw/wsj/18/wsj_1810   0    5            ,     ,               *         -    -   -   -       *             *             *   -
+nw/wsj/18/wsj_1810   0    6     Treasury   NNP            (NP*         -    -   -   -    (ORG)            *        (ARG1*   -
+nw/wsj/18/wsj_1810   0    7        bonds   NNS               *)        -    -   -   -       *             *             *)  -
+nw/wsj/18/wsj_1810   0    8        later    RB          (ADVP*)        -    -   -   -       *             *    (ARGM-TMP*)  -
+nw/wsj/18/wsj_1810   0    9    retreated   VBD            (VP*)   retreat  02   5   -       *             *           (V*)  -
+nw/wsj/18/wsj_1810   0   10            .     .              *))        -    -   -   -       *             *             *   -
+
+nw/wsj/18/wsj_1810   0    0    Speculation    NN  (TOP(S(S(NP*       -    -   -   -        *             *         *   (ARG0*       (ARG0*    (ARG0*         *   -
+nw/wsj/18/wsj_1810   0    1           that    IN        (SBAR*       -    -   -   -        *             *         *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    2            the    DT        (S(NP*       -    -   -   -    (ORG*        (ARG0*         *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    3        Federal   NNP             *       -    -   -   -        *             *         *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    4        Reserve   NNP             *)      -    -   -   -        *)            *)        *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    5           will    MD          (VP*       -    -   -   -        *    (ARGM-MOD*)        *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    6          lower    VB          (VP*    lower  01   2   -        *           (V*)        *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    7       interest    NN          (NP*       -    -   -   -        *        (ARG1*         *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    8          rates   NNS             *)      -    -   -   -        *             *)        *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0    9             in    IN          (PP*       -    -   -   -        *    (ARGM-TMP*         *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0   10         coming   VBG          (NP*     come  01   -   -   (DATE*             *       (V*)       *            *         *         *   -
+nw/wsj/18/wsj_1810   0   11          weeks   NNS       *)))))))      -    -   -   -        *)            *)   (ARG1*)       *)           *)        *)        *   -
+nw/wsj/18/wsj_1810   0   12         helped   VBD          (VP*     help  01   -   -        *             *         *      (V*)           *         *         *   -
+nw/wsj/18/wsj_1810   0   13           push    VB          (VP*     push  01   -   -        *             *         *   (ARG1*          (V*)        *         *   -
+nw/wsj/18/wsj_1810   0   14            the    DT          (NP*       -    -   -   -        *             *         *        *       (ARG1*         *         *   -
+nw/wsj/18/wsj_1810   0   15         dollar    NN             *)      -    -   -   -        *             *         *        *            *)        *         *   -
+nw/wsj/18/wsj_1810   0   16           down    RB        (ADVP*)      -    -   -   -        *             *         *        *       (ARG2*)        *         *   -
+nw/wsj/18/wsj_1810   0   17          while    NN        (SBAR*       -    -   -   -        *             *         *        *   (ARGM-TMP*         *         *   -
+nw/wsj/18/wsj_1810   0   18       boosting   VBG        (S(VP*    boost  01   1   -        *             *         *        *            *       (V*)        *   -
+nw/wsj/18/wsj_1810   0   19         stocks   NNS    (NP*)))))))      -    -   -   -        *             *         *        *)           *)   (ARG1*)        *   -
+nw/wsj/18/wsj_1810   0   20              ,     ,             *       -    -   -   -        *             *         *        *            *         *         *   -
+nw/wsj/18/wsj_1810   0   21        traders   NNS          (NP*)      -    -   -   -        *             *         *        *            *         *    (ARG0*)  -
+nw/wsj/18/wsj_1810   0   22           said   VBD          (VP*)     say  01   -   -        *             *         *        *            *         *       (V*)  -
+nw/wsj/18/wsj_1810   0   23              .     .            *))      -    -   -   -        *             *         *        *            *         *         *   -
+
+nw/wsj/18/wsj_1810   0    0           But     CC          (TOP(S*          -    -   -   -   *    (ARGM-DIS*)        *         *             *        *   -
+nw/wsj/18/wsj_1810   0    1          many     JJ             (NP*          -    -   -   -   *        (ARG1*         *         *             *        *   -
+nw/wsj/18/wsj_1810   0    2     investors    NNS                *)         -    -   -   -   *             *)        *         *             *        *   -
+nw/wsj/18/wsj_1810   0    3        remain    VBP             (VP*      remain  01   -   -   *           (V*)        *         *             *        *   -
+nw/wsj/18/wsj_1810   0    4          wary     JJ           (ADJP*          -    -   -   -   *        (ARG3*         *         *             *        *   -
+nw/wsj/18/wsj_1810   0    5         about     IN             (PP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0    6        stocks    NNS           (NP*)))         -    -   -   -   *             *)        *         *             *        *   -
+nw/wsj/18/wsj_1810   0    7             ,      ,                *          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0    8        partly     RB      (SBAR(ADVP*)         -    -   -   -   *    (ARGM-CAU*         *         *             *        *   -
+nw/wsj/18/wsj_1810   0    9       because     IN                *          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   10          they    PRP           (S(NP*)         -    -   -   -   *             *    (ARG0*)        *             *        *   -
+nw/wsj/18/wsj_1810   0   11        expect    VBP             (VP*      expect  01   -   -   *             *       (V*)        *             *        *   -
+nw/wsj/18/wsj_1810   0   12     continued    VBN       (NP(NP(NP*    continue  01   -   -   *             *    (ARG1*       (V*)       (ARG0*        *   -
+nw/wsj/18/wsj_1810   0   13    turbulence     NN                *)         -    -   -   -   *             *         *    (ARG1*)            *        *   -
+nw/wsj/18/wsj_1810   0   14            in     IN             (PP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   15           the     DT             (NP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   16          junk     NN            (NML*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   17            -    HYPH                *          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   18          bond     NN                *)         -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   19        market     NN              *)))         -    -   -   -   *             *         *         *             *)       *   -
+nw/wsj/18/wsj_1810   0   20          that    WDT      (SBAR(WHNP*)         -    -   -   -   *             *         *         *      (R-ARG0*)       *   -
+nw/wsj/18/wsj_1810   0   21         would     MD           (S(VP*          -    -   -   -   *             *         *         *    (ARGM-MOD*)       *   -
+nw/wsj/18/wsj_1810   0   22          make     VB             (VP*        make  02   -   -   *             *         *         *           (V*)       *   -
+nw/wsj/18/wsj_1810   0   23            it    PRP       (S(NP(NP*))         -    -   -   -   *             *         *         *        (ARG1*        *   -
+nw/wsj/18/wsj_1810   0   24          more    RBR           (ADJP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   25     difficult     JJ                *)         -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   26            to     TO           (S(VP*          -    -   -   -   *             *         *         *             *        *   -
+nw/wsj/18/wsj_1810   0   27       finance     VB             (VP*     finance  01   1   -   *             *         *         *             *      (V*)  -
+nw/wsj/18/wsj_1810   0   28     corporate     JJ             (NP*          -    -   -   -   *             *         *         *             *   (ARG1*   -
+nw/wsj/18/wsj_1810   0   29     takeovers    NNS   *))))))))))))))         -    -   -   -   *             *)        *)        *             *)       *)  -
+nw/wsj/18/wsj_1810   0   30             .      .               *))         -    -   -   -   *             *         *         *             *        *   -
+
+nw/wsj/18/wsj_1810   0    0            ``    ``     (TOP(SINV*          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0    1             I   PRP         (S(NP*)         -    -   -   -          *    (ARG1*)            *   (ARG1*   -
+nw/wsj/18/wsj_1810   0    2            'm   VBP           (VP*          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0    3     surprised   VBN         (ADJP*    surprise  01   1   -          *       (V*)            *        *   -
+nw/wsj/18/wsj_1810   0    4            we   PRP    (SBAR(S(NP*)         -    -   -   -          *    (ARG0*        (ARG0*)       *   -
+nw/wsj/18/wsj_1810   0    5           did   VBD           (VP*          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0    6           n't    RB              *          -    -   -   -          *         *    (ARGM-NEG*)       *   -
+nw/wsj/18/wsj_1810   0    7           see    VB           (VP*         see  01   -   -          *         *           (V*)       *   -
+nw/wsj/18/wsj_1810   0    8          more   JJR           (NP*          -    -   -   -          *         *        (ARG1*        *   -
+nw/wsj/18/wsj_1810   0    9    volatility    NN              *)         -    -   -   -          *         *             *)       *   -
+nw/wsj/18/wsj_1810   0   10            ''    ''              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   11            in    IN           (PP*          -    -   -   -          *         *      (C-ARG1*        *   -
+nw/wsj/18/wsj_1810   0   12        stocks   NNS   (NP*)))))))))         -    -   -   -          *         *)            *)       *)  -
+nw/wsj/18/wsj_1810   0   13             ,     ,              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   14          said   VBD           (VP*)        say  01   -   -          *         *             *      (V*)  -
+nw/wsj/18/wsj_1810   0   15       Raymond   NNP        (NP(NP*          -    -   -   -   (PERSON*         *             *   (ARG0*   -
+nw/wsj/18/wsj_1810   0   16            F.   NNP              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   17         DeVoe   NNP              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   18           Jr.   NNP              *)         -    -   -   -          *)        *             *        *   -
+nw/wsj/18/wsj_1810   0   19             ,     ,              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   20        market    NN        (NP(NP*          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   21    strategist    NN              *)         -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   22            at    IN           (PP*          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   23          Legg   NNP           (NP*          -    -   -   -      (ORG*         *             *        *   -
+nw/wsj/18/wsj_1810   0   24         Mason   NNP              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   25          Wood   NNP              *          -    -   -   -          *         *             *        *   -
+nw/wsj/18/wsj_1810   0   26        Walker   NNP           *))))         -    -   -   -          *)        *             *        *)  -
+nw/wsj/18/wsj_1810   0   27             .     .             *))         -    -   -   -          *         *             *        *   -
+
+nw/wsj/18/wsj_1810   0    0            ``     ``         (TOP(S*       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0    1             I    PRP          (S(NP*)      -    -   -   -   *    (ARG0*)            *             *           *   -
+nw/wsj/18/wsj_1810   0    2         think    VBP            (VP*    think  01   -   -   *       (V*)            *             *           *   -
+nw/wsj/18/wsj_1810   0    3           the     DT  (SBAR(S(NP(NP*       -    -   -   -   *    (ARG1*        (ARG1*             *           *   -
+nw/wsj/18/wsj_1810   0    4      problems    NNS               *)      -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0    5            in     IN            (PP*       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0    6           the     DT            (NP*       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0    7          junk     NN           (NML*       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0    8            -    HYPH               *       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0    9          bond     NN               *)      -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0   10          area     NN             *)))      -    -   -   -   *         *             *)            *           *   -
+nw/wsj/18/wsj_1810   0   11           are    VBP            (VP*       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0   12          just     RB          (ADVP*)      -    -   -   -   *         *    (ARGM-ADV*)            *           *   -
+nw/wsj/18/wsj_1810   0   13     beginning    VBG       (VP*))))))   begin  01   -   -   *         *)          (V*)            *           *   -
+nw/wsj/18/wsj_1810   0   14             ,      ,               *       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0   15           and     CC               *       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0   16          this     DT          (S(NP*)      -    -   -   -   *         *             *        (ARG1*)          *   -
+nw/wsj/18/wsj_1810   0   17          will     MD            (VP*       -    -   -   -   *         *             *    (ARGM-MOD*)          *   -
+nw/wsj/18/wsj_1810   0   18            be     VB            (VP*       be  01   -   -   *         *             *           (V*)          *   -
+nw/wsj/18/wsj_1810   0   19          very     RB          (ADJP*       -    -   -   -   *         *             *        (ARG2*           *   -
+nw/wsj/18/wsj_1810   0   20    unsettling     JJ               *)      -    -   -   -   *         *             *             *)          *   -
+nw/wsj/18/wsj_1810   0   21           for     IN            (PP*       -    -   -   -   *         *             *    (ARGM-GOL*           *   -
+nw/wsj/18/wsj_1810   0   22     companies    NNS         (NP(NP*)      -    -   -   -   *         *             *             *      (ARG0*)  -
+nw/wsj/18/wsj_1810   0   23          that    WDT     (SBAR(WHNP*)      -    -   -   -   *         *             *             *    (R-ARG0*)  -
+nw/wsj/18/wsj_1810   0   24          have    VBP          (S(VP*       -    -   -   -   *         *             *             *           *   -
+nw/wsj/18/wsj_1810   0   25        issued    VBN            (VP*    issue  01   -   -   *         *             *             *         (V*)  -
+nw/wsj/18/wsj_1810   0   26          junk     NN            (NP*       -    -   -   -   *         *             *             *      (ARG1*   -
+nw/wsj/18/wsj_1810   0   27         bonds    NNS      *))))))))))      -    -   -   -   *         *             *             *)          *)  -
+nw/wsj/18/wsj_1810   0   28             .      .              *))      -    -   -   -   *         *             *             *           *   -
+
+nw/wsj/18/wsj_1810   0    0        In    IN  (TOP(S(S(PP*     -    -   -   -          *   (ARG1*   -
+nw/wsj/18/wsj_1810   0    1         a    DT          (NP*     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    2      bull    NN             *     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    3    market    NN            *))    -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    4         ,     ,             *     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    5    credit    NN          (NP*)    -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    6      does   VBZ          (VP*     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    7       not    RB             *     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0    8    matter    NN        (VP*)))    -    -   -   -          *        *)  -
+nw/wsj/18/wsj_1810   0    9         ,     ,             *     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0   10        ''    ''             *     -    -   -   -          *        *   -
+nw/wsj/18/wsj_1810   0   11       Mr.   NNP          (NP*     -    -   -   -          *   (ARG0*   -
+nw/wsj/18/wsj_1810   0   12     DeVoe   NNP             *)    -    -   -   -    (PERSON)       *)  -
+nw/wsj/18/wsj_1810   0   13     added   VBD          (VP*)   add  01   -   -          *      (V*)  -
+nw/wsj/18/wsj_1810   0   14         .     .            *))    -    -   -   -          *        *   -
+
+nw/wsj/18/wsj_1810   0    0         ``    ``         (TOP(S*    -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0    1        But    CC               *    -    -   -   -   *    (ARGM-DIS*)  -
+nw/wsj/18/wsj_1810   0    2       when   WRB   (SBAR(WHADVP*)   -    -   -   -   *    (ARGM-TMP*   -
+nw/wsj/18/wsj_1810   0    3         it   PRP          (S(NP*)   -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0    4       does   VBZ            (VP*    -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0    5     matter    NN         (VP*))))   -    -   -   -   *             *)  -
+nw/wsj/18/wsj_1810   0    6          ,     ,               *    -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0    7       then    RB               *    -    -   -   -   *    (ARGM-TMP*)  -
+nw/wsj/18/wsj_1810   0    8         it   PRP            (NP*)   -    -   -   -   *        (ARG1*)  -
+nw/wsj/18/wsj_1810   0    9         's   VBZ            (VP*    be  01   -   -   *           (V*)  -
+nw/wsj/18/wsj_1810   0   10        the    DT         (NP(NP*    -    -   -   -   *        (ARG2*   -
+nw/wsj/18/wsj_1810   0   11       only    JJ               *    -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0   12      thing    NN               *)   -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0   13       that   WDT     (SBAR(WHNP*)   -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0   14    matters   NNS      (S(VP*)))))   -    -   -   -   *             *)  -
+nw/wsj/18/wsj_1810   0   15          .     .               *    -    -   -   -   *             *   -
+nw/wsj/18/wsj_1810   0   16         ''    ''              *))   -    -   -   -   *             *   -
+
+nw/wsj/18/wsj_1810   0    0          However     RB   (TOP(SINV(S(ADVP*)      -    -   -   -          *        *   (ARG1*   -
+nw/wsj/18/wsj_1810   0    1                ,      ,                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0    2             many     JJ                (NP*       -    -   -   -          *   (ARG0*        *   -
+nw/wsj/18/wsj_1810   0    3    institutional     JJ                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0    4        investors    NNS                   *)      -    -   -   -          *        *)       *   -
+nw/wsj/18/wsj_1810   0    5              are    VBP                (VP*       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0    6         reacting    VBG                (VP*    react  01   1   -          *      (V*)       *   -
+nw/wsj/18/wsj_1810   0    7               to     IN                (PP*       -    -   -   -          *   (ARG1*        *   -
+nw/wsj/18/wsj_1810   0    8              the     DT             (NP(NP*       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0    9            stock     NN                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   10           market     NN                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   11               's    POS                   *)      -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   12           plunge     NN                  *))      -    -   -   -          *        *)       *   -
+nw/wsj/18/wsj_1810   0   13               as     IN                (PP*       -    -   -   -          *   (ARG2*        *   -
+nw/wsj/18/wsj_1810   0   14               ``     ``                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   15                a     DT                (NP*       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   16            great     JJ                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   17           buying     NN                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   18      opportunity     NN               *)))))      -    -   -   -          *        *)       *)  -
+nw/wsj/18/wsj_1810   0   19                ,      ,                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   20               ''     ''                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   21             said    VBD                (VP*)     say  01   -   -          *        *      (V*)  -
+nw/wsj/18/wsj_1810   0   22          Charles    NNP             (NP(NP*       -    -   -   -   (PERSON*        *   (ARG0*   -
+nw/wsj/18/wsj_1810   0   23               I.     NN                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   24           Clough    NNP                   *)      -    -   -   -          *)       *        *   -
+nw/wsj/18/wsj_1810   0   25                ,      ,                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   26            chief     JJ             (NP(NP*       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   27       investment     NN                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   28       strategist     NN                   *)      -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   29               at     IN                (PP*       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   30          Merrill    NNP                (NP*       -    -   -   -      (ORG*        *        *   -
+nw/wsj/18/wsj_1810   0   31            Lynch    NNP                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   32          Capital    NNP                   *       -    -   -   -          *        *        *   -
+nw/wsj/18/wsj_1810   0   33          Markets   NNPS                *))))      -    -   -   -          *)       *        *)  -
+nw/wsj/18/wsj_1810   0   34                .      .                  *))      -    -   -   -          *        *        *   -
+
+nw/wsj/18/wsj_1810   0   0           ``    ``       (TOP(S*        -    -   -   -   *          *         *   -
+nw/wsj/18/wsj_1810   0   1       Things   NNS          (NP*)       -    -   -   -   *     (ARG1*)   (ARG1*)  -
+nw/wsj/18/wsj_1810   0   2          are   VBP          (VP*        -    -   -   -   *          *         *   -
+nw/wsj/18/wsj_1810   0   3    beginning   VBG          (VP*     begin  01   -   -   *        (V*)        *   -
+nw/wsj/18/wsj_1810   0   4           to    TO        (S(VP*        -    -   -   -   *   (C-ARG1*         *   -
+nw/wsj/18/wsj_1810   0   5       settle    VB          (VP*    settle  04   -   -   *          *       (V*)  -
+nw/wsj/18/wsj_1810   0   6         down    RB   (ADVP*))))))       -    -   -   -   *          *)        *   -
+nw/wsj/18/wsj_1810   0   7            .     .            *))       -    -   -   -   *          *         *   -
+
+nw/wsj/18/wsj_1810   0   0          The    DT  (TOP(S(NP*        -    -   -   -   *   (ARG1*   -
+nw/wsj/18/wsj_1810   0   1      markets   NNS           *)       -    -   -   -   *        *)  -
+nw/wsj/18/wsj_1810   0   2          are   VBP        (VP*        -    -   -   -   *        *   -
+nw/wsj/18/wsj_1810   0   3    returning   VBG        (VP*    return  01   -   -   *      (V*)  -
+nw/wsj/18/wsj_1810   0   4           to    IN        (PP*        -    -   -   -   *   (ARG4*   -
+nw/wsj/18/wsj_1810   0   5     normalcy    NN     (NP*))))       -    -   -   -   *        *)  -
+nw/wsj/18/wsj_1810   0   6            .     .           *        -    -   -   -   *        *   -
+nw/wsj/18/wsj_1810   0   7           ''    ''          *))       -    -   -   -   *        *   -
+
+nw/wsj/18/wsj_1810   0    0           Oil    NN    (TOP(S(NP*         -    -   -   -       *        (ARG1*             *   -
+nw/wsj/18/wsj_1810   0    1        prices   NNS             *)        -    -   -   -       *             *)            *   -
+nw/wsj/18/wsj_1810   0    2     initially    RB        (ADVP*)        -    -   -   -       *    (ARGM-TMP*)            *   -
+nw/wsj/18/wsj_1810   0    3          rose   VBD          (VP*       rise  01   -   -       *           (V*)            *   -
+nw/wsj/18/wsj_1810   0    4            on    IN          (PP*         -    -   -   -       *    (ARGM-CAU*             *   -
+nw/wsj/18/wsj_1810   0    5         fears   NNS          (NP*         -    -   -   -       *             *             *   -
+nw/wsj/18/wsj_1810   0    6          that    IN        (SBAR*         -    -   -   -       *             *             *   -
+nw/wsj/18/wsj_1810   0    7           the    DT     (S(NP(NP*         -    -   -   -       *             *        (ARG0*   -
+nw/wsj/18/wsj_1810   0    8       massive    JJ             *         -    -   -   -       *             *             *   -
+nw/wsj/18/wsj_1810   0    9    earthquake    NN             *)        -    -   -   -       *             *             *   -
+nw/wsj/18/wsj_1810   0   10            in    IN          (PP*         -    -   -   -       *             *             *   -
+nw/wsj/18/wsj_1810   0   11      Northern    JJ          (NP*         -    -   -   -   (LOC*             *             *   -
+nw/wsj/18/wsj_1810   0   12    California   NNP           *)))        -    -   -   -       *)            *             *)  -
+nw/wsj/18/wsj_1810   0   13         would    MD          (VP*         -    -   -   -       *             *    (ARGM-MOD*)  -
+nw/wsj/18/wsj_1810   0   14       disrupt    VB          (VP*    disrupt  01   1   -       *             *           (V*)  -
+nw/wsj/18/wsj_1810   0   15    production    NN   (NP*))))))))        -    -   -   -       *             *)       (ARG1*)  -
+nw/wsj/18/wsj_1810   0   16             .     .            *))        -    -   -   -       *             *             *   -
+
+nw/wsj/18/wsj_1810   0    0          But    CC      (TOP(S*          -    -   -   -        *    (ARGM-DIS*)           *         *             *             *   -
+nw/wsj/18/wsj_1810   0    1       prices   NNS         (NP*)         -    -   -   -        *        (ARG0*)      (ARG1*)        *             *             *   -
+nw/wsj/18/wsj_1810   0    2        later    RB       (ADVP*)         -    -   -   -    (TIME)   (ARGM-TMP*)           *         *             *             *   -
+nw/wsj/18/wsj_1810   0    3     reversed   VBD         (VP*     reverse  01   1   -        *           (V*)           *         *             *             *   -
+nw/wsj/18/wsj_1810   0    4       course    NN         (NP*)     course   -   4   -        *        (ARG1*)           *         *             *             *   -
+nw/wsj/18/wsj_1810   0    5            ,     ,            *          -    -   -   -        *             *            *         *             *             *   -
+nw/wsj/18/wsj_1810   0    6    finishing   VBG       (S(VP*      finish  02   -   -        *    (ARGM-ADV*          (V*)        *             *             *   -
+nw/wsj/18/wsj_1810   0    7     slightly    RB     (S(ADJP*          -    -   -   -        *             *   (ARGM-MNR*         *             *             *   -
+nw/wsj/18/wsj_1810   0    8        lower   JJR         *))))         -    -   -   -        *             *)           *)        *             *             *   -
+nw/wsj/18/wsj_1810   0    9            ,     ,            *          -    -   -   -        *             *            *         *             *             *   -
+nw/wsj/18/wsj_1810   0   10           as    IN       (SBAR*          -    -   -   -        *    (ARGM-TMP*            *         *             *             *   -
+nw/wsj/18/wsj_1810   0   11    investors   NNS       (S(NP*)         -    -   -   -        *             *            *    (ARG0*)            *             *   -
+nw/wsj/18/wsj_1810   0   12    concluded   VBD         (VP*    conclude  01   -   -        *             *            *       (V*)            *             *   -
+nw/wsj/18/wsj_1810   0   13         that    IN  (SBAR(SBAR*          -    -   -   -        *             *            *    (ARG1*             *             *   -
+nw/wsj/18/wsj_1810   0   14          any    DT       (S(NP*          -    -   -   -        *             *            *         *        (ARG1*             *   -
+nw/wsj/18/wsj_1810   0   15         cuts   NNS            *)         -    -   -   -        *             *            *         *             *)            *   -
+nw/wsj/18/wsj_1810   0   16        would    MD         (VP*          -    -   -   -        *             *            *         *    (ARGM-MOD*)            *   -
+nw/wsj/18/wsj_1810   0   17          n't    RB            *          -    -   -   -        *             *            *         *    (ARGM-NEG*)            *   -
+nw/wsj/18/wsj_1810   0   18           be    VB         (VP*          be  01   -   -        *             *            *         *           (V*)            *   -
+nw/wsj/18/wsj_1810   0   19        large    JJ   (ADJP*)))))         -    -   -   -        *             *            *         *        (ARG2*)            *   -
+nw/wsj/18/wsj_1810   0   20          and    CC            *          -    -   -   -        *             *            *         *             *             *   -
+nw/wsj/18/wsj_1810   0   21         that    IN       (SBAR*          -    -   -   -        *             *            *         *             *             *   -
+nw/wsj/18/wsj_1810   0   22      foreign    JJ       (S(NP*          -    -   -   -        *             *            *         *             *        (ARG0*   -
+nw/wsj/18/wsj_1810   0   23          oil    NN            *          -    -   -   -        *             *            *         *             *             *   -
+nw/wsj/18/wsj_1810   0   24    producers   NNS            *)         -    -   -   -        *             *            *         *             *             *)  -
+nw/wsj/18/wsj_1810   0   25        would    MD         (VP*          -    -   -   -        *             *            *         *             *    (ARGM-MOD*)  -
+nw/wsj/18/wsj_1810   0   26      quickly    RB       (ADVP*)         -    -   -   -        *             *            *         *             *    (ARGM-MNR*)  -
+nw/wsj/18/wsj_1810   0   27         pick    VB         (VP*        pick  04   -   -        *             *            *         *             *           (V*)  -
+nw/wsj/18/wsj_1810   0   28           up    RP        (PRT*)         -    -   -   -        *             *            *         *             *             *   -
+nw/wsj/18/wsj_1810   0   29          the    DT         (NP*          -    -   -   -        *             *            *         *             *        (ARG1*   -
+nw/wsj/18/wsj_1810   0   30        slack    NN   *))))))))))         -    -   -   -        *             *)           *         *)            *             *)  -
+nw/wsj/18/wsj_1810   0   31            .     .           *))         -    -   -   -        *             *            *         *             *             *   -
+
+nw/wsj/18/wsj_1810   0   0          In   IN  (TOP(PP*   -   -   -   -   *   -
+nw/wsj/18/wsj_1810   0   1       major   JJ      (NP*   -   -   -   -   *   -
+nw/wsj/18/wsj_1810   0   2      market   NN         *   -   -   -   -   *   -
+nw/wsj/18/wsj_1810   0   3    activity   NN         *)  -   -   -   -   *   -
+nw/wsj/18/wsj_1810   0   4           :    :        *))  -   -   -   -   *   -
+
+nw/wsj/18/wsj_1810   0   0     Stock   NNP  (TOP(S(NP*      -    -   -   -   *   (ARG1*   -
+nw/wsj/18/wsj_1810   0   1    prices   NNS           *)     -    -   -   -   *        *)  -
+nw/wsj/18/wsj_1810   0   2      rose   VBD        (VP*)   rise  01   -   -   *      (V*)  -
+nw/wsj/18/wsj_1810   0   3         .     .          *))     -    -   -   -   *        *   -
+
+nw/wsj/18/wsj_1810   0    0         New   NNP  (TOP(S(NP(NML(NML*        -    -   -   -        (ORG*   (ARG1*   -
+nw/wsj/18/wsj_1810   0    1        York   NNP                   *)       -    -   -   -            *        *   -
+nw/wsj/18/wsj_1810   0    2       Stock   NNP                   *        -    -   -   -            *        *   -
+nw/wsj/18/wsj_1810   0    3    Exchange   NNP                   *)       -    -   -   -            *)       *   -
+nw/wsj/18/wsj_1810   0    4      volume    NN                   *)       -    -   -   -            *        *)  -
+nw/wsj/18/wsj_1810   0    5      shrank   VBD                (VP*    shrink  01   1   -            *      (V*)  -
+nw/wsj/18/wsj_1810   0    6          to    IN                (PP*        -    -   -   -            *   (ARG4*   -
+nw/wsj/18/wsj_1810   0    7      166.9     CD             (NP(QP*        -    -   -   -   (CARDINAL*        *   -
+nw/wsj/18/wsj_1810   0    8     million    CD                   *)       -    -   -   -            *)       *   -
+nw/wsj/18/wsj_1810   0    9      shares   NNS                  *))       -    -   -   -            *        *)  -
+nw/wsj/18/wsj_1810   0   10        from    IN                (PP*        -    -   -   -            *   (ARG3*   -
+nw/wsj/18/wsj_1810   0   11      224.1     CD             (NP(QP*        -    -   -   -   (CARDINAL*        *   -
+nw/wsj/18/wsj_1810   0   12     million    CD                  *))       -    -   -   -            *)       *   -
+nw/wsj/18/wsj_1810   0   13     Tuesday   NNP              (NP*)))       -    -   -   -        (DATE)       *)  -
+nw/wsj/18/wsj_1810   0   14           .     .                  *))       -    -   -   -            *        *   -
+
+nw/wsj/18/wsj_1810   0    0    Advancers   NNS   (TOP(S(NP*)        -    -   -   -            *    (ARG0*   -
+nw/wsj/18/wsj_1810   0    1           on    IN         (PP*         -    -   -   -            *         *   -
+nw/wsj/18/wsj_1810   0    2          the    DT         (NP*         -    -   -   -        (ORG*         *   -
+nw/wsj/18/wsj_1810   0    3          Big   NNP            *         -    -   -   -            *         *   -
+nw/wsj/18/wsj_1810   0    4        Board   NNP           *))        -    -   -   -            *)        *)  -
+nw/wsj/18/wsj_1810   0    5     outpaced   VBD         (VP*    outpace  01   1   -            *       (V*)  -
+nw/wsj/18/wsj_1810   0    6    decliners   NNS         (NP*)        -    -   -   -            *    (ARG1*)  -
+nw/wsj/18/wsj_1810   0    7           by    IN         (PP*         -    -   -   -            *    (ARG2*   -
+nw/wsj/18/wsj_1810   0    8         822     CD       (ADVP*         -    -   -   -    (CARDINAL)        *   -
+nw/wsj/18/wsj_1810   0    9           to    TO            *         -    -   -   -            *         *   -
+nw/wsj/18/wsj_1810   0   10         668     CD          *)))        -    -   -   -    (CARDINAL)        *)  -
+nw/wsj/18/wsj_1810   0   11            .     .           *))        -    -   -   -            *         *   -
+
+nw/wsj/18/wsj_1810   0   0        Bond    NN  (TOP(S(NP*    -    -   -   -   *       (ARG1*   -
+nw/wsj/18/wsj_1810   0   1      prices   NNS           *)   -    -   -   -   *            *)  -
+nw/wsj/18/wsj_1810   0   2        were   VBD        (VP*    be  01   -   -   *          (V*)  -
+nw/wsj/18/wsj_1810   0   3      little    RB      (ADJP*    -    -   -   -   *       (ARG2*   -
+nw/wsj/18/wsj_1810   0   4     changed    JJ           *)   -    -   -   -   *            *)  -
+nw/wsj/18/wsj_1810   0   5          in    IN        (PP*    -    -   -   -   *   (ARGM-LOC*   -
+nw/wsj/18/wsj_1810   0   6    sluggish    JJ        (NP*    -    -   -   -   *            *   -
+nw/wsj/18/wsj_1810   0   7    activity    NN         *)))   -    -   -   -   *            *)  -
+nw/wsj/18/wsj_1810   0   8           .     .          *))   -    -   -   -   *            *   -
+
+nw/wsj/18/wsj_1810   0    0         The     DT  (TOP(S(NP(NP*      -    -   -   -           *    (ARG1*   -
+nw/wsj/18/wsj_1810   0    1       yield     NN              *)     -    -   -   -           *         *   -
+nw/wsj/18/wsj_1810   0    2          on     IN           (PP*      -    -   -   -           *         *   -
+nw/wsj/18/wsj_1810   0    3         the     DT        (NP(NP*      -    -   -   -           *         *   -
+nw/wsj/18/wsj_1810   0    4    Treasury    NNP              *      -    -   -   -        (ORG)        *   -
+nw/wsj/18/wsj_1810   0    5          's    POS              *)     -    -   -   -           *         *   -
+nw/wsj/18/wsj_1810   0    6         30      CD          (NML*      -    -   -   -      (DATE*         *   -
+nw/wsj/18/wsj_1810   0    7          -    HYPH              *      -    -   -   -           *         *   -
+nw/wsj/18/wsj_1810   0    8        year     NN              *)     -    -   -   -           *)        *   -
+nw/wsj/18/wsj_1810   0    9       issue     NN            *)))     -    -   -   -           *         *)  -
+nw/wsj/18/wsj_1810   0   10        fell    VBD           (VP*    fall  01   -   -           *       (V*)  -
+nw/wsj/18/wsj_1810   0   11    slightly     RB         (ADVP*)     -    -   -   -           *    (ARG2*)  -
+nw/wsj/18/wsj_1810   0   12          to     IN           (PP*      -    -   -   -           *    (ARG4*   -
+nw/wsj/18/wsj_1810   0   13       8.03      CD           (NP*      -    -   -   -   (PERCENT*         *   -
+nw/wsj/18/wsj_1810   0   14           %     NN            *)))     -    -   -   -           *)        *)  -
+nw/wsj/18/wsj_1810   0   15           .      .             *))     -    -   -   -           *         *   -
+
+nw/wsj/18/wsj_1810   0   0        The    DT  (TOP(S(NP*      -    -   -   -   *   (ARG1*   -
+nw/wsj/18/wsj_1810   0   1     dollar    NN           *)     -    -   -   -   *        *)  -
+nw/wsj/18/wsj_1810   0   2    dropped   VBD        (VP*)   drop  01   -   -   *      (V*)  -
+nw/wsj/18/wsj_1810   0   3          .     .          *))     -    -   -   -   *        *   -
+
+nw/wsj/18/wsj_1810   0    0           In    IN  (TOP(S(PP*    -    -   -   -         *   (ARGM-LOC*   -
+nw/wsj/18/wsj_1810   0    1          New   NNP        (NP*    -    -   -   -     (GPE*            *   -
+nw/wsj/18/wsj_1810   0    2         York   NNP          *))   -    -   -   -         *)           *)  -
+nw/wsj/18/wsj_1810   0    3         late    JJ        (NP*    -    -   -   -    (DATE*   (ARGM-TMP*   -
+nw/wsj/18/wsj_1810   0    4    yesterday    NN           *)   -    -   -   -         *)           *)  -
+nw/wsj/18/wsj_1810   0    5            ,     ,           *    -    -   -   -         *            *   -
+nw/wsj/18/wsj_1810   0    6          the    DT        (NP*    -    -   -   -         *       (ARG1*   -
+nw/wsj/18/wsj_1810   0    7     currency    NN           *)   -    -   -   -         *            *)  -
+nw/wsj/18/wsj_1810   0    8          was   VBD        (VP*    be  01   -   -         *          (V*)  -
+nw/wsj/18/wsj_1810   0    9           at    IN        (PP*    -    -   -   -         *       (ARG2*   -
+nw/wsj/18/wsj_1810   0   10      141.45     CD     (NP(NP*    -    -   -   -   (MONEY*            *   -
+nw/wsj/18/wsj_1810   0   11          yen   NNS           *)   -    -   -   -         *)           *   -
+nw/wsj/18/wsj_1810   0   12          and    CC           *    -    -   -   -         *            *   -
+nw/wsj/18/wsj_1810   0   13      1.8485     CD        (NP*    -    -   -   -   (MONEY*            *   -
+nw/wsj/18/wsj_1810   0   14        marks   NNS         *)))   -    -   -   -         *)           *)  -
+nw/wsj/18/wsj_1810   0   15            ,     ,           *    -    -   -   -         *            *   -
+nw/wsj/18/wsj_1810   0   16         down    RB      (ADVP*    -    -   -   -         *   (ARGM-PRD*   -
+nw/wsj/18/wsj_1810   0   17         from    IN        (PP*    -    -   -   -         *            *   -
+nw/wsj/18/wsj_1810   0   18      142.75     CD     (NP(NP*    -    -   -   -   (MONEY*            *   -
+nw/wsj/18/wsj_1810   0   19          yen   NNS           *)   -    -   -   -         *)           *   -
+nw/wsj/18/wsj_1810   0   20          and    CC           *    -    -   -   -         *            *   -
+nw/wsj/18/wsj_1810   0   21      1.8667     CD        (NP*    -    -   -   -   (MONEY*            *   -
+nw/wsj/18/wsj_1810   0   22        marks   NNS          *))   -    -   -   -         *)           *   -
+nw/wsj/18/wsj_1810   0   23         late    JJ        (NP*    -    -   -   -    (DATE*            *   -
+nw/wsj/18/wsj_1810   0   24      Tuesday   NNP        *))))   -    -   -   -         *)           *)  -
+nw/wsj/18/wsj_1810   0   25            .     .          *))   -    -   -   -         *            *   -
+
+#end document

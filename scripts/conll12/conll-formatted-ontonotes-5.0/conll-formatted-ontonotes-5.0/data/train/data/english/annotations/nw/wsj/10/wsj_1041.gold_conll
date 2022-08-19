@@ -1,0 +1,941 @@
+#begin document (nw/wsj/10/wsj_1041); part 000
+nw/wsj/10/wsj_1041   0    0       Federal     JJ     (TOP(S(NP*          -    -   -   -        *     (ARG1*        (ARG0*        *            *        *         -
+nw/wsj/10/wsj_1041   0    1        health     NN              *      health   -   1   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0    2     officials    NNS              *)   official   -   1   -        *          *)            *)       *            *        *         -
+nw/wsj/10/wsj_1041   0    3           are    VBP           (VP*          -    -   -   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0    4      expected    VBN           (VP*      expect  01   1   -        *        (V*)            *        *            *        *         -
+nw/wsj/10/wsj_1041   0    5         today     NN         (S(NP*)      today   -   2   -    (DATE)  (C-ARG1*    (ARGM-TMP*)       *            *        *         -
+nw/wsj/10/wsj_1041   0    6            to     TO           (VP*          -    -   -   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0    7       approve     VB           (VP*     approve  01   1   -        *          *           (V*)       *            *        *       (17)
+nw/wsj/10/wsj_1041   0    8             a     DT        (NP(NP*          -    -   -   -        *          *        (ARG1*   (ARG0*            *        *         -
+nw/wsj/10/wsj_1041   0    9       program     NN              *)    program   -   3   -        *          *             *        *)           *        *         -
+nw/wsj/10/wsj_1041   0   10      granting    VBG           (VP*       grant  01   1   -        *          *             *      (V*)           *        *         -
+nw/wsj/10/wsj_1041   0   11          long     RB   (NP(NP(ADJP*          -    -   -   -        *          *             *   (ARG1*   (ARGM-ADJ*        *         -
+nw/wsj/10/wsj_1041   0   12            -    HYPH              *          -    -   -   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0   13      deferred    VBN              *)         -    -   -   -        *          *             *        *            *)       *         -
+nw/wsj/10/wsj_1041   0   14        access     NN              *)     access  01   2   -        *          *             *        *          (V*)       *         -
+nw/wsj/10/wsj_1041   0   15            to     IN           (PP*          -    -   -   -        *          *             *        *       (ARG1*        *         -
+nw/wsj/10/wsj_1041   0   16           the     DT        (NP(NP*          -    -   -   -        *          *             *        *            *        *       (13
+nw/wsj/10/wsj_1041   0   17          drug     NN              *)         -    -   -   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0   18           AZT    NNP         (NP*)))         -    -   -   -        *          *             *        *            *)       *        13)
+nw/wsj/10/wsj_1041   0   19           for     IN           (PP*          -    -   -   -        *          *             *        *       (ARG0*        *         -
+nw/wsj/10/wsj_1041   0   20      children    NNS        (NP(NP*)      child   -   1   -        *          *             *        *            *        *       (21
+nw/wsj/10/wsj_1041   0   21          with     IN           (PP*          -    -   -   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0   22      acquired    VBN       (NP(NML*     acquire  01   -   -        *          *             *        *            *      (V*)      (16
+nw/wsj/10/wsj_1041   0   23        immune     JJ              *          -    -   -   -        *          *             *        *            *   (ARG1*         -
+nw/wsj/10/wsj_1041   0   24    deficiency     NN              *)         -    -   -   -        *          *             *        *            *        *         -
+nw/wsj/10/wsj_1041   0   25      syndrome     NN   *))))))))))))         -    -   -   -        *          *)            *)       *)           *)       *)   21)|16)
+nw/wsj/10/wsj_1041   0   26             .      .             *))         -    -   -   -        *          *             *        *            *        *         -
+
+nw/wsj/10/wsj_1041   0    0    Announcement     NN   (TOP(S(NP(NP*)   announcement  01   1   -          *      (V*)     *     (ARG1*     -
+nw/wsj/10/wsj_1041   0    1              of     IN            (PP*              -    -   -   -          *   (ARG1*      *          *     -
+nw/wsj/10/wsj_1041   0    2             the     DT            (NP*              -    -   -   -          *        *      *          *   (17
+nw/wsj/10/wsj_1041   0    3        approval     NN             *)))       approval  01   1   -          *        *)   (V*)         *)   17)
+nw/wsj/10/wsj_1041   0    4              is    VBZ            (VP*              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0    5        expected    VBN            (VP*          expect  01   1   -          *        *      *        (V*)    -
+nw/wsj/10/wsj_1041   0    6              to     TO          (S(VP*              -    -   -   -          *        *      *   (C-ARG1*     -
+nw/wsj/10/wsj_1041   0    7              be     VB            (VP*              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0    8            made    VBN            (VP*            make   -   1   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0    9              by     IN            (PP*              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0   10           Louis    NNP         (NP(NP*              -    -   -   -   (PERSON*        *      *          *     -
+nw/wsj/10/wsj_1041   0   11        Sullivan    NNP               *)             -    -   -   -          *)       *      *          *     -
+nw/wsj/10/wsj_1041   0   12               ,      ,               *              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0   13       secretary     NN         (NP(NP*)      secretary   -   1   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0   14              of     IN            (PP*              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0   15          Health    NNP         (NP(NP*)             -    -   -   -      (ORG*        *      *          *     -
+nw/wsj/10/wsj_1041   0   16             and     CC               *              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0   17           Human    NNP            (NP*              -    -   -   -          *        *      *          *     -
+nw/wsj/10/wsj_1041   0   18        Services   NNPS    *))))))))))))             -    -   -   -          *)       *      *          *)    -
+nw/wsj/10/wsj_1041   0   19               .      .              *))             -    -   -   -          *        *      *          *     -
+
+nw/wsj/10/wsj_1041   0    0               The    DT  (TOP(S(NP(NP*           -    -   -   -        *        *       (ARG1*             *             *        *        (17
+nw/wsj/10/wsj_1041   0    1         clearance    NN              *)   clearance  01   2   -        *      (V*)           *             *             *        *          -
+nw/wsj/10/wsj_1041   0    2                by    IN           (PP*           -    -   -   -        *   (ARG0*            *             *             *        *          -
+nw/wsj/10/wsj_1041   0    3               the    DT           (NP*           -    -   -   -    (ORG*        *            *             *             *        *         (7
+nw/wsj/10/wsj_1041   0    4              Food   NNP          (NML*           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0    5               and    CC              *           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0    6              Drug   NNP              *)          -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0    7    Administration   NNP            *)))          -    -   -   -        *)       *)           *)            *             *        *      17)|7)
+nw/wsj/10/wsj_1041   0    8             comes   VBZ           (VP*         come  01   2   -        *        *          (V*)            *             *        *          -
+nw/wsj/10/wsj_1041   0    9             after    IN           (PP*           -    -   -   -        *        *   (ARGM-TMP*             *             *        *          -
+nw/wsj/10/wsj_1041   0   10               two    CD        (NP(NP*           -    -   -   -   (DATE*        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   11             years   NNS              *)          -    -   -   -        *)       *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   12                of    IN           (PP*           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   13        restricted    JJ        (NP(NP*           -    -   -   -        *        *            *    (ARGM-EXT*)            *        *          -
+nw/wsj/10/wsj_1041   0   14            access    NN              *)      access  01   2   -        *        *            *           (V*)            *        *          -
+nw/wsj/10/wsj_1041   0   15               for    IN           (PP*           -    -   -   -        *        *            *        (ARG0*             *        *          -
+nw/wsj/10/wsj_1041   0   16               the    DT        (NP(NP*           -    -   -   -        *        *            *             *             *        *        (21
+nw/wsj/10/wsj_1041   0   17          youngest   JJS              *           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   18           victims   NNS              *)      victim   -   1   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   19                of    IN           (PP*           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   20              AIDS   NNP        (NP*))))          -    -   -   -        *        *            *             *)            *        *    (16)|21)
+nw/wsj/10/wsj_1041   0   21                to    IN           (PP*           -    -   -   -        *        *            *        (ARG1*             *        *          -
+nw/wsj/10/wsj_1041   0   22               the    DT        (NP(NP*           -    -   -   -        *        *            *             *        (ARG1*   (ARG3*        (13
+nw/wsj/10/wsj_1041   0   23              only    JJ              *           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   24         antiviral    JJ              *           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   25              drug    NN              *)        drug   -   1   -        *        *            *             *             *)       *)         -
+nw/wsj/10/wsj_1041   0   26               yet    RB      (VP(ADVP*)          -    -   -   -        *        *            *             *    (ARGM-TMP*)       *          -
+nw/wsj/10/wsj_1041   0   27           cleared   VBN              *        clear  02   3   -        *        *            *             *           (V*)       *          -
+nw/wsj/10/wsj_1041   0   28                to    TO         (S(VP*           -    -   -   -        *        *            *             *      (C-ARG1*        *          -
+nw/wsj/10/wsj_1041   0   29             treat    VB           (VP*        treat  03   4   -        *        *            *             *             *      (V*)         -
+nw/wsj/10/wsj_1041   0   30               the    DT           (NP*           -    -   -   -        *        *            *             *             *   (ARG2*        (16
+nw/wsj/10/wsj_1041   0   31             fatal    JJ              *           -    -   -   -        *        *            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   32           disease    NN   *))))))))))))          -    -   -   -        *        *            *)            *)            *)       *)    16)|13)
+nw/wsj/10/wsj_1041   0   33                 .     .             *))          -    -   -   -        *        *            *             *             *        *          -
+
+nw/wsj/10/wsj_1041   0    0                The    DT    (TOP(S(NP*           -    -   -   -   *        (ARG2*        *           *         *             *   (13
+nw/wsj/10/wsj_1041   0    1               drug    NN             *)        drug   -   1   -   *             *)       *           *         *             *    13)
+nw/wsj/10/wsj_1041   0    2               will    MD          (VP*           -    -   -   -   *    (ARGM-MOD*)       *           *         *             *     -
+nw/wsj/10/wsj_1041   0    3                 be    VB          (VP*           -    -   -   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0    4              given   VBN          (VP*         give  01   3   -   *           (V*)       *           *         *             *    (4)
+nw/wsj/10/wsj_1041   0    5          treatment    NN  (NP(NP(ADJP*    treatment   -   1   -   *        (ARG1*        *           *         *             *    (0
+nw/wsj/10/wsj_1041   0    6    investigational    JJ             *)          -    -   -   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0    7                new    JJ         (NML*           -    -   -   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0    8               drug    NN             *)        drug   -   1   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0    9             status    NN             *)      status   -   2   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0   10                  ,     ,             *           -    -   -   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0   11                  a    DT       (NP(NP*           -    -   -   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0   12              label    NN             *)       label   -   1   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0   13           accorded   VBN          (VP*       accord  01   -   -   *             *      (V*)          *         *             *     -
+nw/wsj/10/wsj_1041   0   14                 to    IN          (PP*           -    -   -   -   *             *   (ARG2*           *         *             *     -
+nw/wsj/10/wsj_1041   0   15              drugs   NNS       (NP(NP*)        drug   -   1   -   *             *        *      (ARG1*)   (ARG0*)            *     -
+nw/wsj/10/wsj_1041   0   16           believed   VBN       (VP(VP*      believe  01   1   -   *             *        *         (V*)        *             *     -
+nw/wsj/10/wsj_1041   0   17          effective    JJ    (S(ADJP*)))          -    -   -   -   *             *        *    (C-ARG1*)        *             *     -
+nw/wsj/10/wsj_1041   0   18                but    CC             *           -    -   -   -   *             *        *           *         *             *     -
+nw/wsj/10/wsj_1041   0   19            lacking   VBG          (VP*         lack  01   1   -   *             *        *           *       (V*)            *     -
+nw/wsj/10/wsj_1041   0   20             formal    JJ          (NP*           -    -   -   -   *             *        *           *    (ARG1*    (ARGM-MNR*)    -
+nw/wsj/10/wsj_1041   0   21           approval    NN   *)))))))))))    approval  01   1   -   *             *)       *)          *         *)          (V*)    0)
+nw/wsj/10/wsj_1041   0   22                  .     .            *))          -    -   -   -   *             *        *           *         *             *     -
+
+nw/wsj/10/wsj_1041   0    0          The    DT    (TOP(S(NP*        -    -   -   -   *      *        (ARG0*      *    (4
+nw/wsj/10/wsj_1041   0    1         move    NN             *)     move  02   2   -   *    (V*)            *)     *     4)
+nw/wsj/10/wsj_1041   0    2         will    MD          (VP*        -    -   -   -   *      *    (ARGM-MOD*)     *     -
+nw/wsj/10/wsj_1041   0    3         make    VB          (VP*      make  02   3   -   *      *           (V*)     *     -
+nw/wsj/10/wsj_1041   0    4          the    DT        (S(NP*        -    -   -   -   *      *        (ARG1*      *   (13
+nw/wsj/10/wsj_1041   0    5         drug    NN             *)     drug   -   1   -   *      *             *      *    13)
+nw/wsj/10/wsj_1041   0    6    available    JJ        (ADJP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0    7         free    JJ        (ADVP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0    8           of    IN          (PP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0    9       charge    NN        (NP*)))   charge  01   2   -   *      *             *    (V*)    -
+nw/wsj/10/wsj_1041   0   10          for    IN          (PP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   11            a    DT          (NP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   12         time    NN            *))     time   -   2   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   13           to    IN          (PP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   14     children   NNS       (NP(NP*)    child   -   1   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   15         with    IN          (PP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   16          the    DT       (NP(NP*        -    -   -   -   *      *             *      *   (16
+nw/wsj/10/wsj_1041   0   17      disease    NN             *)       -    -   -   -   *      *             *      *    16)
+nw/wsj/10/wsj_1041   0   18          and    CC             *        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   19     symptoms   NNS       (NP(NP*)       -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   20           of    IN          (PP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   21     advanced    JJ          (NP*        -    -   -   -   *      *             *      *     -
+nw/wsj/10/wsj_1041   0   22    infection    NN   *)))))))))))       -    -   -   -   *      *             *)     *     -
+nw/wsj/10/wsj_1041   0   23            .     .            *))       -    -   -   -   *      *             *      *     -
+
+nw/wsj/10/wsj_1041   0    0      Adults   NNS   (TOP(S(NP(NP*)        -    -   -   -        *        *            *      -
+nw/wsj/10/wsj_1041   0    1        with    IN            (PP*         -    -   -   -        *        *            *      -
+nw/wsj/10/wsj_1041   0    2        AIDS   NNP          (NP*)))        -    -   -   -        *        *            *    (16)
+nw/wsj/10/wsj_1041   0    3        have   VBP            (VP*         -    -   -   -        *        *            *      -
+nw/wsj/10/wsj_1041   0    4         had   VBN            (VP*       have   -   2   -        *        *            *      -
+nw/wsj/10/wsj_1041   0    5      access    NN         (NP(NP*)    access  01   2   -        *      (V*)           *      -
+nw/wsj/10/wsj_1041   0    6          to    IN            (PP*         -    -   -   -        *   (ARG1*            *      -
+nw/wsj/10/wsj_1041   0    7         AZT   NNP          (NP*)))        -    -   -   -        *        *)           *    (13)
+nw/wsj/10/wsj_1041   0    8       since    IN          (SBAR*         -    -   -   -        *        *            *      -
+nw/wsj/10/wsj_1041   0    9         FDA   NNP          (S(NP*)        -    -   -   -     (ORG)       *       (ARG0*)    (7)
+nw/wsj/10/wsj_1041   0   10    approved   VBD            (VP*    approve  01   1   -        *        *          (V*)     -
+nw/wsj/10/wsj_1041   0   11         the    DT      (NP(NP(NP*         -    -   -   -        *        *       (ARG1*    (13
+nw/wsj/10/wsj_1041   0   12        drug    NN               *       drug   -   1   -        *        *            *      -
+nw/wsj/10/wsj_1041   0   13          's   POS               *)        -    -   -   -        *        *            *     13)
+nw/wsj/10/wsj_1041   0   14       usage    NN               *)        -    -   -   -        *        *            *      -
+nw/wsj/10/wsj_1041   0   15         for    IN            (PP*         -    -   -   -        *        *            *      -
+nw/wsj/10/wsj_1041   0   16      adults   NNS          (NP*)))        -    -   -   -        *        *            *)     -
+nw/wsj/10/wsj_1041   0   17          in    IN            (PP*         -    -   -   -        *        *   (ARGM-TMP*      -
+nw/wsj/10/wsj_1041   0   18       March   NNP            (NP*         -    -   -   -   (DATE*        *            *      -
+nw/wsj/10/wsj_1041   0   19       1987     CD         *)))))))        -    -   -   -        *)       *            *)     -
+nw/wsj/10/wsj_1041   0   20           .     .              *))        -    -   -   -        *        *            *      -
+
+nw/wsj/10/wsj_1041   0    0         But    CC          (TOP(S*          -    -   -   -        *         *             *    (ARGM-DIS*)        *        *      -
+nw/wsj/10/wsj_1041   0    1     despite    IN             (PP*          -    -   -   -        *         *             *    (ARGM-ADV*         *        *      -
+nw/wsj/10/wsj_1041   0    2        more   JJR       (NP(NP(QP*          -    -   -   -   (DATE*         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0    3        than    IN                *          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0    4         two    CD                *)         -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0    5       years   NNS                *)         -    -   -   -        *)        *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0    6          of    IN             (PP*          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0    7    research    NN          (NP(NP*)   research   -   1   -        *    (ARG0*)            *             *         *        *      -
+nw/wsj/10/wsj_1041   0    8     showing   VBG             (VP*        show  01   1   -        *       (V*)            *             *         *        *      -
+nw/wsj/10/wsj_1041   0    9         AZT   NNP      (SBAR(S(NP*)         -    -   -   -        *    (ARG1*        (ARG0*)            *         *        *    (13)
+nw/wsj/10/wsj_1041   0   10         can    MD             (VP*          -    -   -   -        *         *    (ARGM-MOD*)            *         *        *      -
+nw/wsj/10/wsj_1041   0   11     relieve    VB             (VP*     relieve  01   1   -        *         *           (V*)            *         *        *      -
+nw/wsj/10/wsj_1041   0   12    dementia    NN          (NP(NP*)         -    -   -   -        *         *        (ARG1*             *         *        *    (15)
+nw/wsj/10/wsj_1041   0   13         and    CC                *          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0   14       other    JJ             (NP*          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0   15    symptoms   NNS               *))         -    -   -   -        *         *             *)            *         *        *      -
+nw/wsj/10/wsj_1041   0   16          in    IN             (PP*          -    -   -   -        *         *    (ARGM-LOC*             *         *        *      -
+nw/wsj/10/wsj_1041   0   17    children   NNS   (NP*)))))))))))      child   -   1   -        *         *)            *)            *)        *        *      -
+nw/wsj/10/wsj_1041   0   18           ,     ,                *          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0   19         the    DT             (NP*          -    -   -   -        *         *             *        (ARG0*         *        *    (13
+nw/wsj/10/wsj_1041   0   20        drug    NN                *)       drug   -   1   -        *         *             *             *)        *        *     13)
+nw/wsj/10/wsj_1041   0   21       still    RB           (ADVP*)         -    -   -   -        *         *             *    (ARGM-TMP*)        *        *      -
+nw/wsj/10/wsj_1041   0   22       lacks   VBZ             (VP*        lack  01   1   -        *         *             *           (V*)        *        *      -
+nw/wsj/10/wsj_1041   0   23     federal    JJ          (NP(NP*          -    -   -   -        *         *             *        (ARG1*    (ARG0*)       *      -
+nw/wsj/10/wsj_1041   0   24    approval    NN                *)   approval  01   1   -        *         *             *             *       (V*)       *      -
+nw/wsj/10/wsj_1041   0   25         for    IN             (PP*          -    -   -   -        *         *             *             *    (ARG2*        *      -
+nw/wsj/10/wsj_1041   0   26         use    NN          (NP(NP*)        use  01   2   -        *         *             *             *         *      (V*)     -
+nw/wsj/10/wsj_1041   0   27          in    IN             (PP*          -    -   -   -        *         *             *             *         *   (ARG2*      -
+nw/wsj/10/wsj_1041   0   28         the    DT             (NP*          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0   29    youngest   JJS                *          -    -   -   -        *         *             *             *         *        *      -
+nw/wsj/10/wsj_1041   0   30    patients   NNS           *))))))         -    -   -   -        *         *             *             *)        *)       *)     -
+nw/wsj/10/wsj_1041   0   31           .     .               *))         -    -   -   -        *         *             *             *         *        *      -
+
+nw/wsj/10/wsj_1041   0    0            As     IN  (TOP(S(PP*           -    -   -   -         *        *        *    (ARGM-DIS*      -
+nw/wsj/10/wsj_1041   0    1             a     DT        (NP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0    2        result     NN          *))      result   -   1   -         *        *        *             *)     -
+nw/wsj/10/wsj_1041   0    3             ,      ,           *           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0    4          many     JJ      (S(NP*           -    -   -   -         *   (ARG1*   (ARG0*             *      -
+nw/wsj/10/wsj_1041   0    5    youngsters    NNS           *)          -    -   -   -         *        *)       *)            *      -
+nw/wsj/10/wsj_1041   0    6          have    VBP        (VP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0    7          been    VBN        (VP*           be  01   1   -         *      (V*)       *             *      -
+nw/wsj/10/wsj_1041   0    8        unable     JJ      (ADJP*           -    -   -   -         *   (ARG2*        *             *      -
+nw/wsj/10/wsj_1041   0    9            to     TO      (S(VP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   10        obtain     VB        (VP*       obtain  01   1   -         *        *      (V*)            *      -
+nw/wsj/10/wsj_1041   0   11           the     DT        (NP*           -    -   -   -         *        *   (ARG1*             *    (13
+nw/wsj/10/wsj_1041   0   12          drug     NN    *))))))))        drug   -   1   -         *        *)       *)            *     13)
+nw/wsj/10/wsj_1041   0   13           and     CC           *           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   14             ,      ,         (S*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   15           for     IN        (PP*           -    -   -   -         *        *        *    (ARGM-ADV*      -
+nw/wsj/10/wsj_1041   0   16           the     DT        (NP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   17           few     JJ           *           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   18    exceptions    NNS          *))          -    -   -   -         *        *        *             *)     -
+nw/wsj/10/wsj_1041   0   19             ,      ,           *           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   20     insurance     NN        (NP*    insurance   -   3   -         *        *        *        (ARG0*      -
+nw/wsj/10/wsj_1041   0   21      carriers    NNS           *)     carrier   -   7   -         *        *        *             *)     -
+nw/wsj/10/wsj_1041   0   22            wo     MD        (VP*           -    -   -   -         *        *        *    (ARGM-MOD*)     -
+nw/wsj/10/wsj_1041   0   23           n't     RB           *           -    -   -   -         *        *        *    (ARGM-NEG*)     -
+nw/wsj/10/wsj_1041   0   24         cover     VB        (VP*        cover  01   2   -         *        *        *           (V*)     -
+nw/wsj/10/wsj_1041   0   25           its   PRP$     (NP(NP*           -    -   -   -         *        *        *        (ARG1*    (13)
+nw/wsj/10/wsj_1041   0   26          cost     NN           *)        cost   -   1   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   27            of     IN        (PP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   28             $      $     (NP(NP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   29        6,400      CD           *)          -    -   -   -    (MONEY)       *        *             *      -
+nw/wsj/10/wsj_1041   0   30             a     DT        (NP*           -    -   -   -         *        *        *             *      -
+nw/wsj/10/wsj_1041   0   31          year     NN     *)))))))          -    -   -   -         *        *        *             *)     -
+nw/wsj/10/wsj_1041   0   32             .      .          *))          -    -   -   -         *        *        *             *      -
+
+nw/wsj/10/wsj_1041   0    0           So    RB    (TOP(S(ADVP*         -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0    1          far    RB               *)        -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0    2            ,     ,               *         -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0    3         AIDS   NNP            (NP*)        -    -   -   -            *          *            *    (16)
+nw/wsj/10/wsj_1041   0    4          has   VBZ            (VP*         -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0    5     stricken   VBN            (VP*     strike   -   1   -            *          *            *      -
+nw/wsj/10/wsj_1041   0    6       1,859     CD         (NP(NP*         -    -   -   -    (CARDINAL)         *            *    (10
+nw/wsj/10/wsj_1041   0    7     children   NNS               *)     child   -   1   -            *          *            *      -
+nw/wsj/10/wsj_1041   0    8        under    IN            (PP*         -    -   -   -       (DATE*          *            *      -
+nw/wsj/10/wsj_1041   0    9          age    NN            (NP*        age   -   1   -            *          *            *      -
+nw/wsj/10/wsj_1041   0   10          13     CD             *)))        -    -   -   -            *)         *            *     10)
+nw/wsj/10/wsj_1041   0   11            ,     ,               *         -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0   12         with    IN          (SBAR*         -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0   13         many    JJ       (S(NP(QP*         -    -   -   -            *     (ARG1*       (ARG0*      -
+nw/wsj/10/wsj_1041   0   14        times   NNS               *)      time   -   6   -            *          *            *      -
+nw/wsj/10/wsj_1041   0   15         that    IN               *         -    -   -   -            *          *            *      -
+nw/wsj/10/wsj_1041   0   16       number    NN               *)    number   -   1   -            *          *)           *)     -
+nw/wsj/10/wsj_1041   0   17     believed   VBN            (VP*    believe  01   1   -            *        (V*)           *      -
+nw/wsj/10/wsj_1041   0   18           to    TO          (S(VP*         -    -   -   -            *   (C-ARG1*            *      -
+nw/wsj/10/wsj_1041   0   19        carry    VB            (VP*      carry  01   2   -            *          *          (V*)     -
+nw/wsj/10/wsj_1041   0   20          the    DT            (NP*         -    -   -   -            *          *       (ARG1*    (16
+nw/wsj/10/wsj_1041   0   21    infection    NN               *)        -    -   -   -            *          *            *)    16)
+nw/wsj/10/wsj_1041   0   22      without    IN            (PP*         -    -   -   -            *          *   (ARGM-MNR*      -
+nw/wsj/10/wsj_1041   0   23     symptoms   NNS   (NP*))))))))))        -    -   -   -            *          *)           *)     -
+nw/wsj/10/wsj_1041   0   24            .     .              *))        -    -   -   -            *          *            *      -
+
+nw/wsj/10/wsj_1041   0    0           To     IN  (TOP(S(PP*       -    -   -   -            *   (ARGM-TMP*     -
+nw/wsj/10/wsj_1041   0    1         date     NN       (NP*))    date   -   5   -            *            *)    -
+nw/wsj/10/wsj_1041   0    2            ,      ,           *       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0    3       1,013      CD     (NP(NP*)      -    -   -   -    (CARDINAL)      (ARG1*     -
+nw/wsj/10/wsj_1041   0    4           of     IN        (PP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0    5        those     DT        (NP*       -    -   -   -            *            *   (10
+nw/wsj/10/wsj_1041   0    6     children    NNS         *)))   child   -   1   -            *            *)   10)
+nw/wsj/10/wsj_1041   0    7         have    VBP        (VP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0    8         died    VBN        (VP*      die  01   1   -            *          (V*)    -
+nw/wsj/10/wsj_1041   0    9            ,      ,           *       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   10    according    VBG        (PP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   11           to     IN        (PP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   12          the     DT     (NP(NP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   13      federal     JJ           *       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   14      Centers   NNPS           *)      -    -   -   -        (ORG*            *     -
+nw/wsj/10/wsj_1041   0   15          for     IN        (PP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   16      Disease    NNP        (NP*       -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0   17      Control    NNP     *)))))))      -    -   -   -            *)           *     -
+nw/wsj/10/wsj_1041   0   18            .      .          *))      -    -   -   -            *            *     -
+
+nw/wsj/10/wsj_1041   0   0         Mothers   NNS   (TOP(S(NP(NP*)             -    -   -   -   *   (ARG0*             *      -
+nw/wsj/10/wsj_1041   0   1              of    IN            (PP*              -    -   -   -   *        *             *      -
+nw/wsj/10/wsj_1041   0   2           young    JJ            (NP*              -    -   -   -   *        *             *      -
+nw/wsj/10/wsj_1041   0   3            AIDS   NNP               *              -    -   -   -   *        *             *    (16)
+nw/wsj/10/wsj_1041   0   4        patients   NNS             *)))             -    -   -   -   *        *)            *      -
+nw/wsj/10/wsj_1041   0   5       expressed   VBD            (VP*         express  01   1   -   *      (V*)            *      -
+nw/wsj/10/wsj_1041   0   6          somber    JJ            (NP*              -    -   -   -   *   (ARG1*    (ARGM-MNR*)     -
+nw/wsj/10/wsj_1041   0   7    satisfaction    NN              *))   satisfaction  01   2   -   *        *)          (V*)     -
+nw/wsj/10/wsj_1041   0   8               .     .              *))             -    -   -   -   *        *             *      -
+
+nw/wsj/10/wsj_1041   0   0           ``    ``       (TOP(S*        -    -   -   -   *         *      *         *      -
+nw/wsj/10/wsj_1041   0   1        Thank    VB          (VP*     thank  01   1   -   *       (V*)     *         *      -
+nw/wsj/10/wsj_1041   0   2     goodness    NN          (NP*)       -    -   -   -   *    (ARG1*)     *         *      -
+nw/wsj/10/wsj_1041   0   3           it   PRP   (SBAR(S(NP*)       -    -   -   -   *    (ARG2*      *    (ARG1*)   (17)
+nw/wsj/10/wsj_1041   0   4           's   VBZ          (VP*        be  03   -   -   *         *    (V*)        *      -
+nw/wsj/10/wsj_1041   0   5    happening   VBG      (VP*)))))   happen  01   1   -   *         *)     *       (V*)     -
+nw/wsj/10/wsj_1041   0   6            .     .            *))       -    -   -   -   *         *      *         *      -
+
+nw/wsj/10/wsj_1041   0    0             It    PRP   (TOP(SINV(S(NP*)         -    -   -   -            *        (ARG1*)  (ARG1*           *           *     (17)
+nw/wsj/10/wsj_1041   0    1         should     MD              (VP*          -    -   -   -            *    (ARGM-MOD*)       *           *           *       -
+nw/wsj/10/wsj_1041   0    2           have     VB              (VP*          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0    3       happened    VBD              (VP*      happen  01   1   -            *           (V*)       *           *           *       -
+nw/wsj/10/wsj_1041   0    4         sooner    RBR        (ADVP*)))))         -    -   -   -            *    (ARGM-TMP*)       *)          *           *       -
+nw/wsj/10/wsj_1041   0    5              ,      ,                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0    6             ''     ''                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0    7           said    VBD              (VP*)        say  01   1   -            *             *      (V*)          *           *       -
+nw/wsj/10/wsj_1041   0    8      Elizabeth    NNP           (NP(NP*          -    -   -   -     (PERSON*             *   (ARG0*           *           *      (5
+nw/wsj/10/wsj_1041   0    9         Glaser    NNP                 *)         -    -   -   -            *)            *        *           *           *       -
+nw/wsj/10/wsj_1041   0   10              ,      ,                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   11              a     DT           (NP(NP*          -    -   -   -            *             *        *      (ARG1*      (ARG0*       -
+nw/wsj/10/wsj_1041   0   12            Los    NNP                 *          -    -   -   -        (GPE*             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   13        Angeles    NNP                 *          -    -   -   -            *)            *        *           *           *       -
+nw/wsj/10/wsj_1041   0   14         mother     NN                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   15            and     CC                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   16       activist     NN                 *)         -    -   -   -            *             *        *           *)          *)      -
+nw/wsj/10/wsj_1041   0   17            who     WP       (SBAR(WHNP*)         -    -   -   -            *             *        *    (R-ARG1*)   (R-ARG0*)      -
+nw/wsj/10/wsj_1041   0   18     contracted    VBD         (S(VP(VP*    contract  04   4   -            *             *        *         (V*)          *       -
+nw/wsj/10/wsj_1041   0   19            the     DT              (NP*          -    -   -   -            *             *        *      (ARG2*           *     (20
+nw/wsj/10/wsj_1041   0   20           AIDS    NNP                 *          -    -   -   -            *             *        *           *           *     (16)
+nw/wsj/10/wsj_1041   0   21          virus     NN                 *)         -    -   -   -            *             *        *           *)          *      20)
+nw/wsj/10/wsj_1041   0   22        through     IN              (PP*          -    -   -   -            *             *        *      (ARG3*           *       -
+nw/wsj/10/wsj_1041   0   23              a     DT              (NP*          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   24          blood     NN                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   25    transfusion     NN               *)))         -    -   -   -            *             *        *           *)          *       -
+nw/wsj/10/wsj_1041   0   26              ,      ,                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   27            and     CC                 *          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   28    transmitted    VBD              (VP*    transmit  01   1   -            *             *        *           *         (V*)      -
+nw/wsj/10/wsj_1041   0   29             it    PRP              (NP*)         -    -   -   -            *             *        *           *      (ARG1*)    (20)
+nw/wsj/10/wsj_1041   0   30             to     IN              (PP*          -    -   -   -            *             *        *           *      (ARG2*       -
+nw/wsj/10/wsj_1041   0   31            two     CD           (NP(NP*)         -    -   -   -    (CARDINAL)            *        *           *           *      (2
+nw/wsj/10/wsj_1041   0   32             of     IN              (PP*          -    -   -   -            *             *        *           *           *       -
+nw/wsj/10/wsj_1041   0   33            her   PRP$              (NP*          -    -   -   -            *             *        *           *           *      (5)
+nw/wsj/10/wsj_1041   0   34       children    NNS        *))))))))))      child   -   2   -            *             *        *)          *           *)   5)|2)
+nw/wsj/10/wsj_1041   0   35              .      .                *))         -    -   -   -            *             *        *           *           *       -
+
+nw/wsj/10/wsj_1041   0    0               One     CD   (TOP(S(NP(NP(NP*)      -    -   -   -    (CARDINAL)      (ARG1*             *    (14
+nw/wsj/10/wsj_1041   0    1                of     IN               (PP*       -    -   -   -            *            *             *      -
+nw/wsj/10/wsj_1041   0    2              them    PRP             (NP*)))      -    -   -   -            *            *             *     (2)
+nw/wsj/10/wsj_1041   0    3                 ,      ,                  *       -    -   -   -            *            *             *      -
+nw/wsj/10/wsj_1041   0    4                 a     DT            (NP(NP*       -    -   -   -            *            *             *      -
+nw/wsj/10/wsj_1041   0    5          daughter     NN                  *)      -    -   -   -            *            *             *      -
+nw/wsj/10/wsj_1041   0    6             Ariel    NNP              (NP*))      -    -   -   -      (PERSON)           *             *      -
+nw/wsj/10/wsj_1041   0    7                 ,      ,                  *)      -    -   -   -            *            *)            *     14)
+nw/wsj/10/wsj_1041   0    8              died    VBD               (VP*      die  01   1   -            *          (V*)            *      -
+nw/wsj/10/wsj_1041   0    9                 a     DT          (ADVP(NP*       -    -   -   -       (DATE*   (ARGM-TMP*             *      -
+nw/wsj/10/wsj_1041   0   10              year     NN                  *)      -    -   -   -            *            *             *      -
+nw/wsj/10/wsj_1041   0   11               ago     RB                  *)      -    -   -   -            *)           *)            *      -
+nw/wsj/10/wsj_1041   0   12                at     IN               (PP*       -    -   -   -            *   (ARGM-TMP*             *      -
+nw/wsj/10/wsj_1041   0   13               age     NN               (NP*      age   -   1   -       (DATE*            *             *      -
+nw/wsj/10/wsj_1041   0   14             seven     CD                 *))      -    -   -   -            *)           *)            *      -
+nw/wsj/10/wsj_1041   0   15             after     IN             (SBAR*       -    -   -   -            *   (ARGM-TMP*             *      -
+nw/wsj/10/wsj_1041   0   16               her   PRP$             (S(NP*       -    -   -   -            *            *        (ARG0*    (14)
+nw/wsj/10/wsj_1041   0   17           parents    NNS                  *)      -    -   -   -            *            *             *)     -
+nw/wsj/10/wsj_1041   0   18    unsuccessfully     RB             (ADVP*)      -    -   -   -            *            *    (ARGM-MNR*)     -
+nw/wsj/10/wsj_1041   0   19           pleaded    VBD               (VP*    plead  01   4   -            *            *           (V*)     -
+nw/wsj/10/wsj_1041   0   20               for     IN               (PP*       -    -   -   -            *            *        (ARG2*      -
+nw/wsj/10/wsj_1041   0   21               the     DT               (NP*       -    -   -   -            *            *             *    (13
+nw/wsj/10/wsj_1041   0   22              drug     NN             *))))))    drug   -   1   -            *            *)            *)    13)
+nw/wsj/10/wsj_1041   0   23                 .      .                 *))      -    -   -   -            *            *             *      -
+
+nw/wsj/10/wsj_1041   0    0           ``     ``    (TOP(SINV*      -    -   -   -          *             *        *            *      -
+nw/wsj/10/wsj_1041   0    1            I    PRP        (S(NP*)     -    -   -   -          *        (ARG0*)  (ARG1*            *     (5)
+nw/wsj/10/wsj_1041   0    2        could     MD          (VP*      -    -   -   -          *    (ARGM-MOD*)       *            *      -
+nw/wsj/10/wsj_1041   0    3          get     VB          (VP*     get  01   1   -          *           (V*)       *            *      -
+nw/wsj/10/wsj_1041   0    4          AZT    NNP       (NP*))))     -    -   -   -          *        (ARG1*)       *)           *    (13)
+nw/wsj/10/wsj_1041   0    5            ,      ,             *      -    -   -   -          *             *        *            *      -
+nw/wsj/10/wsj_1041   0    6           ''     ''             *      -    -   -   -          *             *        *            *      -
+nw/wsj/10/wsj_1041   0    7         says    VBZ          (VP*)    say  01   1   -          *             *      (V*)           *      -
+nw/wsj/10/wsj_1041   0    8         Mrs.    NNP       (NP(NP*      -    -   -   -          *             *   (ARG0*       (ARG0*     (5
+nw/wsj/10/wsj_1041   0    9       Glaser    NNP             *)     -    -   -   -    (PERSON)            *        *            *)     -
+nw/wsj/10/wsj_1041   0   10            ,      ,             *      -    -   -   -          *             *        *            *      -
+nw/wsj/10/wsj_1041   0   11          who     WP   (SBAR(WHNP*)     -    -   -   -          *             *        *     (R-ARG0*)     -
+nw/wsj/10/wsj_1041   0   12        bears    VBZ        (S(VP*    bear  01   5   -          *             *        *          (V*)     -
+nw/wsj/10/wsj_1041   0   13          her   PRP$          (NP*      -    -   -   -          *             *        *       (ARG1*     (5)
+nw/wsj/10/wsj_1041   0   14    infection     NN             *)     -    -   -   -          *             *        *            *)     -
+nw/wsj/10/wsj_1041   0   15      without     IN          (PP*      -    -   -   -          *             *        *   (ARGM-MNR*      -
+nw/wsj/10/wsj_1041   0   16          any     DT          (NP*      -    -   -   -          *             *        *            *      -
+nw/wsj/10/wsj_1041   0   17     symptoms    NNS        *))))))     -    -   -   -          *             *        *)           *)     5)
+nw/wsj/10/wsj_1041   0   18            .      .            *))     -    -   -   -          *             *        *            *      -
+
+nw/wsj/10/wsj_1041   0    0          ``     ``        (TOP(S*      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0    1         But     CC              *      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0    2          my   PRP$           (NP*      -    -   -   -   *         *         *    (14|(5)
+nw/wsj/10/wsj_1041   0    3    daughter     NN              *)     -    -   -   -   *         *         *        14)
+nw/wsj/10/wsj_1041   0    4       could     MD           (VP*      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0    5         n't     RB              *      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0    6           ,      ,              *      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0    7       until     IN         (SBAR*      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0    8         she    PRP         (S(NP*)     -    -   -   -   *    (ARG1*)   (ARG0*)      (14)
+nw/wsj/10/wsj_1041   0    9         was    VBD           (VP*      be  01   1   -   *       (V*)        *         -
+nw/wsj/10/wsj_1041   0   10         too     RB         (ADJP*      -    -   -   -   *    (ARG2*         *         -
+nw/wsj/10/wsj_1041   0   11         ill     JJ              *      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0   12          to     TO         (S(VP*      -    -   -   -   *         *         *         -
+nw/wsj/10/wsj_1041   0   13        take     VB           (VP*    take  01   5   -   *         *       (V*)        -
+nw/wsj/10/wsj_1041   0   14          it    PRP   (NP*)))))))))     -    -   -   -   *         *)   (ARG1*)      (13)
+nw/wsj/10/wsj_1041   0   15           .      .             *))     -    -   -   -   *         *         *         -
+
+nw/wsj/10/wsj_1041   0    0            To     TO  (TOP(S(S(VP*            -    -   -   -   *        *   (ARG1*         *   -
+nw/wsj/10/wsj_1041   0    1         watch     VB          (VP*         watch  01   1   -   *      (V*)       *         *   -
+nw/wsj/10/wsj_1041   0    2          your   PRP$        (S(NP*            -    -   -   -   *   (ARG1*        *         *   -
+nw/wsj/10/wsj_1041   0    3         child     NN             *)        child   -   2   -   *        *        *         *   -
+nw/wsj/10/wsj_1041   0    4           die     NN      (VP*)))))           -    -   -   -   *        *)       *)        *   -
+nw/wsj/10/wsj_1041   0    5            is    VBZ          (VP*            be  01   1   -   *        *      (V*)        *   -
+nw/wsj/10/wsj_1041   0    6            an     DT          (NP*            -    -   -   -   *        *   (ARG2*         *   -
+nw/wsj/10/wsj_1041   0    7       inhuman     JJ             *            -    -   -   -   *        *        *    (ARG1*)  -
+nw/wsj/10/wsj_1041   0    8    experience     NN            *))   experience  01   2   -   *        *        *)      (V*)  -
+nw/wsj/10/wsj_1041   0    9             .      .             *            -    -   -   -   *        *        *         *   -
+nw/wsj/10/wsj_1041   0   10            ''     ''            *))           -    -   -   -   *        *        *         *   -
+
+nw/wsj/10/wsj_1041   0    0           Her   PRP$      (TOP(S(NP*      -    -   -   -   *        (ARG0*    (5)
+nw/wsj/10/wsj_1041   0    1           son     NN               *)     -    -   -   -   *             *)    -
+nw/wsj/10/wsj_1041   0    2             ,      ,               *      -    -   -   -   *             *     -
+nw/wsj/10/wsj_1041   0    3       healthy     JJ   (S(ADJP(ADJP*)     -    -   -   -   *    (ARGM-ADV*     -
+nw/wsj/10/wsj_1041   0    4           and     CC               *      -    -   -   -   *             *     -
+nw/wsj/10/wsj_1041   0    5       symptom     NN          (ADJP*      -    -   -   -   *             *     -
+nw/wsj/10/wsj_1041   0    6            -    HYPH               *      -    -   -   -   *             *     -
+nw/wsj/10/wsj_1041   0    7          free     JJ             *)))     -    -   -   -   *             *)    -
+nw/wsj/10/wsj_1041   0    8             ,      ,               *      -    -   -   -   *             *     -
+nw/wsj/10/wsj_1041   0    9     currently     RB          (ADVP*)     -    -   -   -   *    (ARGM-TMP*)    -
+nw/wsj/10/wsj_1041   0   10         takes    VBZ            (VP*    take  01   5   -   *           (V*)    -
+nw/wsj/10/wsj_1041   0   11            no     DT            (NP*      -    -   -   -   *        (ARG1*     -
+nw/wsj/10/wsj_1041   0   12    medication     NN              *))     -    -   -   -   *             *)    -
+nw/wsj/10/wsj_1041   0   13             .      .              *))     -    -   -   -   *             *     -
+
+nw/wsj/10/wsj_1041   0    0            The    DT  (TOP(S(NP(NP*             -    -   -   -   *        *         *   (ARG2*      -
+nw/wsj/10/wsj_1041   0    1          delay    NN              *)         delay  01   2   -   *      (V*)        *        *      -
+nw/wsj/10/wsj_1041   0    2             in    IN           (PP*             -    -   -   -   *   (ARG1*         *        *      -
+nw/wsj/10/wsj_1041   0    3        getting   VBG         (S(VP*            get  05   1   -   *        *       (V*)       *      -
+nw/wsj/10/wsj_1041   0    4            AZT   NNP           (NP*)            -    -   -   -   *        *    (ARG1*)       *    (13)
+nw/wsj/10/wsj_1041   0    5             to    IN           (PP*             -    -   -   -   *        *    (ARG2*        *      -
+nw/wsj/10/wsj_1041   0    6       children   NNS      (NP*))))))         child   -   1   -   *        *)        *)       *)     -
+nw/wsj/10/wsj_1041   0    7            has   VBZ           (VP*             -    -   -   -   *        *         *        *      -
+nw/wsj/10/wsj_1041   0    8           been   VBN           (VP*             -    -   -   -   *        *         *        *      -
+nw/wsj/10/wsj_1041   0    9         blamed   VBN           (VP*          blame  01   1   -   *        *         *      (V*)     -
+nw/wsj/10/wsj_1041   0   10             on    IN           (PP*             -    -   -   -   *        *         *   (ARG1*      -
+nw/wsj/10/wsj_1041   0   11              a    DT        (NP(NP*             -    -   -   -   *        *         *        *      -
+nw/wsj/10/wsj_1041   0   12    combination    NN              *)   combination   -   1   -   *        *         *        *      -
+nw/wsj/10/wsj_1041   0   13             of    IN           (PP*             -    -   -   -   *        *         *        *      -
+nw/wsj/10/wsj_1041   0   14        factors   NNS     (NP*)))))))        factor   -   1   -   *        *         *        *)     -
+nw/wsj/10/wsj_1041   0   15              .     .             *))            -    -   -   -   *        *         *        *      -
+
+nw/wsj/10/wsj_1041   0    0    Traditionally    RB   (TOP(S(ADVP*)              -    -   -   -        *    (ARGM-TMP*)       *         *   -
+nw/wsj/10/wsj_1041   0    1                ,     ,              *               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0    2              the    DT           (NP*               -    -   -   -        *        (ARG1*   (ARG0*         *   -
+nw/wsj/10/wsj_1041   0    3          medical    JJ              *               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0    4    establishment    NN              *)   establishment   -   2   -        *             *)       *)        *   -
+nw/wsj/10/wsj_1041   0    5              has   VBZ           (VP*               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0    6           waited   VBN           (VP*             wait  01   1   -        *           (V*)       *         *   -
+nw/wsj/10/wsj_1041   0    7              two    CD           (NP*               -    -   -   -   (DATE*    (ARGM-TMP*        *         *   -
+nw/wsj/10/wsj_1041   0    8            years   NNS              *)              -    -   -   -        *)            *)       *         *   -
+nw/wsj/10/wsj_1041   0    9               to    TO         (S(VP*               -    -   -   -        *        (ARG2*        *         *   -
+nw/wsj/10/wsj_1041   0   10          approve    VB           (VP*          approve  01   1   -        *             *      (V*)        *   -
+nw/wsj/10/wsj_1041   0   11            adult    NN           (NP*               -    -   -   -        *             *   (ARG1*         *   -
+nw/wsj/10/wsj_1041   0   12       treatments   NNS              *)       treatment   -   1   -        *             *        *)        *   -
+nw/wsj/10/wsj_1041   0   13              for    IN           (PP*               -    -   -   -        *             *   (ARG2*         *   -
+nw/wsj/10/wsj_1041   0   14        pediatric    JJ           (NP*               -    -   -   -        *             *        *    (ARG2*)  -
+nw/wsj/10/wsj_1041   0   15             uses   NNS          *)))))             use  01   1   -        *             *)       *)      (V*)  -
+nw/wsj/10/wsj_1041   0   16                ,     ,              *               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   17          because    IN           (PP*               -    -   -   -        *    (ARGM-CAU*        *         *   -
+nw/wsj/10/wsj_1041   0   18               of    IN              *               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   19                a    DT        (NP(NP*               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   20      combination    NN              *)     combination   -   1   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   21               of    IN           (PP*               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   22     conservative    JJ        (NP(NP*               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   23           safety    NN              *               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   24        standards   NNS              *)        standard   -   1   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   25              and    CC              *               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   26              red    JJ           (NP*               -    -   -   -        *             *        *         *   -
+nw/wsj/10/wsj_1041   0   27             tape    NN        *)))))))              -    -   -   -        *             *)       *         *   -
+nw/wsj/10/wsj_1041   0   28                .     .             *))              -    -   -   -        *             *        *         *   -
+
+nw/wsj/10/wsj_1041   0    0      Secondly    RB   (TOP(S(ADVP*)           -    -   -   -    (ORDINAL)   (ARGM-DIS*)        *        -
+nw/wsj/10/wsj_1041   0    1             ,     ,              *            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0    2       critics   NNS           (NP*)           -    -   -   -           *        (ARG0*)        *        -
+nw/wsj/10/wsj_1041   0    3          have   VBP           (VP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0    4       charged   VBN           (VP*        charge  05   3   -           *           (V*)        *        -
+nw/wsj/10/wsj_1041   0    5           AZT   NNP     (NP(NP(NP*            -    -   -   -           *        (ARG1*         *   (6|(13
+nw/wsj/10/wsj_1041   0    6            's   POS              *)           -    -   -   -           *             *         *       13)
+nw/wsj/10/wsj_1041   0    7         maker    NN              *)        maker   -   1   -           *             *         *        -
+nw/wsj/10/wsj_1041   0    8     Burroughs   NNP           (NP*            -    -   -   -       (ORG*             *         *        -
+nw/wsj/10/wsj_1041   0    9      Wellcome   NNP              *            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   10           Co.   NNP             *))           -    -   -   -           *)            *)        *        6)
+nw/wsj/10/wsj_1041   0   11          with    IN           (PP*            -    -   -   -           *        (ARG2*         *        -
+nw/wsj/10/wsj_1041   0   12     corporate    JJ        (NP(NP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   13       inertia    NN              *)           -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   14       because    IN         (SBAR*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   15      children   NNS         (S(NP*)        child   -   1   -           *             *    (ARG0*)       -
+nw/wsj/10/wsj_1041   0   16       account   VBP           (VP*       account  01   2   -           *             *       (V*)       -
+nw/wsj/10/wsj_1041   0   17           for    IN           (PP*            -    -   -   -           *             *    (ARG1*        -
+nw/wsj/10/wsj_1041   0   18          just    RB  (NP(NP(NP(QP*            -    -   -   -   (PERCENT*             *         *        -
+nw/wsj/10/wsj_1041   0   19            1     CD              *)           -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   20             %    NN              *)           -    -   -   -           *)            *         *        -
+nw/wsj/10/wsj_1041   0   21            of    IN           (PP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   22           the    DT           (NP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   23       patient    JJ              *            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   24    population    NN            *)))   population   -   1   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   25           and    CC              *            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   26         hence    RB         (ADVP*)           -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   27             a    DT        (NP(NP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   28         small    JJ              *            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   29          part    NN              *)         part   -   1   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   30            of    IN           (PP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   31           the    DT           (NP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   32         large    JJ         (ADJP*            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   33           and    CC              *            -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   34     lucrative    JJ              *)           -    -   -   -           *             *         *        -
+nw/wsj/10/wsj_1041   0   35        market    NN   *))))))))))))       market   -   1   -           *             *)        *)       -
+nw/wsj/10/wsj_1041   0   36             .     .             *))           -    -   -   -           *             *         *        -
+
+nw/wsj/10/wsj_1041   0    0      Wellcome   NNP        (TOP(S(NP*)        -    -   -   -    (ORG)   (ARG0*)            *         *        (ARG0*)   (ARG0*)        *    (6)
+nw/wsj/10/wsj_1041   0    1           has   VBZ              (VP*         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0    2       replied   VBN           (VP(VP*      reply  01   1   -       *       (V*)            *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0    3          that    IN            (SBAR*         -    -   -   -       *    (ARG2*             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0    4            it   PRP            (S(NP*)        -    -   -   -       *         *        (ARG0*)   (ARG0*)            *         *         *    (6)
+nw/wsj/10/wsj_1041   0    5            is   VBZ              (VP*         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0    6        moving   VBG              (VP*       move  01   2   -       *         *           (V*)        *             *         *         *     -
+nw/wsj/10/wsj_1041   0    7         ahead    RB            (ADVP*)        -    -   -   -       *         *    (ARGM-DIR*)        *             *         *         *     -
+nw/wsj/10/wsj_1041   0    8            to    TO            (S(VP*         -    -   -   -       *         *        (ARG1*         *             *         *         *     -
+nw/wsj/10/wsj_1041   0    9       compile    VB              (VP*    compile  01   1   -       *         *             *       (V*)            *         *         *     -
+nw/wsj/10/wsj_1041   0   10           the    DT              (NP*         -    -   -   -       *         *             *    (ARG1*             *         *         *     -
+nw/wsj/10/wsj_1041   0   11      relevant    JJ                 *         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   12          data    NN         *)))))))))        -    -   -   -       *         *)            *)        *)            *         *         *     -
+nw/wsj/10/wsj_1041   0   13             ,     ,                 *         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   14           and    CC                 *         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   15      recently    RB            (ADVP*)        -    -   -   -       *         *             *         *    (ARGM-TMP*)        *         *     -
+nw/wsj/10/wsj_1041   0   16      promised   VBD              (VP*    promise  01   1   -       *         *             *         *           (V*)        *         *     -
+nw/wsj/10/wsj_1041   0   17            to    TO            (S(VP*         -    -   -   -       *         *             *         *        (ARG2*         *         *     -
+nw/wsj/10/wsj_1041   0   18       develop    VB              (VP*    develop  02   1   -       *         *             *         *             *       (V*)        *     -
+nw/wsj/10/wsj_1041   0   19             a    DT           (NP(NP*         -    -   -   -       *         *             *         *             *    (ARG1*    (ARG1*     -
+nw/wsj/10/wsj_1041   0   20     pediatric    JJ                 *         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   21         syrup    NN                 *         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   22          form    NN                 *)      form   -   5   -       *         *             *         *             *         *         *)    -
+nw/wsj/10/wsj_1041   0   23        easier   JJR            (ADJP*         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   24           for    IN            (SBAR*         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   25    youngsters   NNS            (S(NP*)        -    -   -   -       *         *             *         *             *         *    (ARG0*)    -
+nw/wsj/10/wsj_1041   0   26            to    TO              (VP*         -    -   -   -       *         *             *         *             *         *         *     -
+nw/wsj/10/wsj_1041   0   27          take    VB   (VP*))))))))))))      take  01   5   -       *         *             *         *             *)        *)      (V*)    -
+nw/wsj/10/wsj_1041   0   28             .     .                *))        -    -   -   -       *         *             *         *             *         *         *     -
+
+nw/wsj/10/wsj_1041   0    0           Still    RB      (TOP(S(ADVP*)         -    -   -   -          *    (ARGM-TMP*)       *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    1               ,     ,                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    2             all    DT              (NP*          -    -   -   -          *        (ARG1*        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    3            this    DT                 *)         -    -   -   -          *             *)       *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    4           comes   VBZ              (VP*        come  01   2   -          *           (V*)       *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    5          nearly    RB      (SBAR(NP(QP*          -    -   -   -     (DATE*    (ARGM-TMP*        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    6               a    DT                 *)         -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    7            year    NN                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    8             and    CC              (QP*          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0    9               a    DT                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   10            half    NN                *))       half   -   1   -          *)            *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   11           after    IN                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   12          Philip   NNP         (S(NP(NP*          -    -   -   -   (PERSON*             *   (ARG0*             *             *             *        *         (8
+nw/wsj/10/wsj_1041   0   13           Pizzo   NNP                 *)         -    -   -   -          *)            *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   14              of    IN              (PP*          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   15             the    DT              (NP*          -    -   -   -      (ORG*             *        *             *             *             *        *        (12
+nw/wsj/10/wsj_1041   0   16        National   NNP                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   17          Cancer   NNP                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   18       Institute   NNP               *)))         -    -   -   -          *)            *        *)            *             *             *        *      12)|8)
+nw/wsj/10/wsj_1041   0   19         offered   VBD              (VP*       offer  01   1   -          *             *      (V*)            *             *             *        *          -
+nw/wsj/10/wsj_1041   0   20        evidence    NN              (NP*    evidence   -   1   -          *             *   (ARG1*             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   21            that    IN            (SBAR*          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   22             AZT   NNP            (S(NP*)         -    -   -   -          *             *        *        (ARG0*)       (ARG0*)            *        *        (13)
+nw/wsj/10/wsj_1041   0   23           could    MD              (VP*          -    -   -   -          *             *        *    (ARGM-MOD*)            *             *        *          -
+nw/wsj/10/wsj_1041   0   24         reverse    VB              (VP*     reverse  01   1   -          *             *        *           (V*)            *             *        *          -
+nw/wsj/10/wsj_1041   0   25             the    DT           (NP(NP*          -    -   -   -          *             *        *        (ARG1*             *             *        *          -
+nw/wsj/10/wsj_1041   0   26         ravages   NNS                 *)         -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   27              of    IN              (PP*          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   28            AIDS   NNP              (NP*          -    -   -   -          *             *        *             *             *             *        *    (15|(16)
+nw/wsj/10/wsj_1041   0   29        dementia    NN               *)))         -    -   -   -          *             *        *             *)            *             *        *         15)
+nw/wsj/10/wsj_1041   0   30               ,     ,                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   31       sometimes    RB          (S(ADVP*)         -    -   -   -          *             *        *    (ARGM-ADV*    (ARGM-TMP*)            *        *          -
+nw/wsj/10/wsj_1041   0   32       prompting   VBG              (VP*      prompt  01   1   -          *             *        *             *           (V*)            *        *          -
+nw/wsj/10/wsj_1041   0   33        dramatic    JJ        (NP(NP(NP*          -    -   -   -          *             *        *             *        (ARG1*    (ARGM-MNR*)       *          -
+nw/wsj/10/wsj_1041   0   34        recovery    NN                 *)   recovery  02   3   -          *             *        *             *             *           (V*)       *          -
+nw/wsj/10/wsj_1041   0   35              of    IN              (PP*          -    -   -   -          *             *        *             *             *        (ARG1*        *          -
+nw/wsj/10/wsj_1041   0   36              IQ   NNP              (NP*          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   37          levels   NNS               *)))      level   -   2   -          *             *        *             *             *             *)       *          -
+nw/wsj/10/wsj_1041   0   38             and    CC                 *          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   39    reappearance    NN           (NP(NP*)         -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   40              of    IN              (PP*          -    -   -   -          *             *        *             *             *             *        *          -
+nw/wsj/10/wsj_1041   0   41            lost   VBN              (NP*        lose  02   5   -          *             *        *             *             *             *      (V*)         -
+nw/wsj/10/wsj_1041   0   42           motor    NN                 *          -    -   -   -          *             *        *             *             *             *   (ARG1*          -
+nw/wsj/10/wsj_1041   0   43          skills   NNS   *)))))))))))))))         -    -   -   -          *             *)       *)            *)            *)            *        *)         -
+nw/wsj/10/wsj_1041   0   44               .     .                *))         -    -   -   -          *             *        *             *             *             *        *          -
+
+nw/wsj/10/wsj_1041   0    0        Since     IN  (TOP(S(PP*         -    -   -   -            *   (ARGM-TMP*     -
+nw/wsj/10/wsj_1041   0    1         then     RB     (ADVP*))        -    -   -   -            *            *)    -
+nw/wsj/10/wsj_1041   0    2            ,      ,           *         -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0    3      roughly     RB     (NP(QP*         -    -   -   -   (CARDINAL*       (ARG0*     -
+nw/wsj/10/wsj_1041   0    4          50      CD           *)        -    -   -   -            *)           *     -
+nw/wsj/10/wsj_1041   0    5    pediatric     JJ           *         -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0    6     patients    NNS           *)        -    -   -   -            *            *)    -
+nw/wsj/10/wsj_1041   0    7         have    VBP        (VP*         -    -   -   -            *            *     -
+nw/wsj/10/wsj_1041   0    8     received    VBN        (VP*    receive  01   1   -            *          (V*)    -
+nw/wsj/10/wsj_1041   0    9          the     DT        (NP*         -    -   -   -            *       (ARG1*   (13
+nw/wsj/10/wsj_1041   0   10         drug     NN           *)      drug   -   1   -            *            *)   13)
+nw/wsj/10/wsj_1041   0   11           in     IN        (PP*         -    -   -   -            *   (ARGM-LOC*     -
+nw/wsj/10/wsj_1041   0   12          his   PRP$        (NP*         -    -   -   -            *            *    (8)
+nw/wsj/10/wsj_1041   0   13      program     NN        *))))   program   -   3   -            *            *)    -
+nw/wsj/10/wsj_1041   0   14            .      .          *))        -    -   -   -            *            *     -
+
+nw/wsj/10/wsj_1041   0    0          To    IN    (TOP(S(PP*        -    -   -   -       *             *   (ARGM-ADV*             *     -
+nw/wsj/10/wsj_1041   0    1        some    DT          (NP*        -    -   -   -       *             *            *             *     -
+nw/wsj/10/wsj_1041   0    2     mothers   NNS            *))       -    -   -   -       *             *            *)            *     -
+nw/wsj/10/wsj_1041   0    3           ,     ,             *        -    -   -   -       *             *            *             *     -
+nw/wsj/10/wsj_1041   0    4         the    DT          (NP*        -    -   -   -       *             *       (ARG1*             *     -
+nw/wsj/10/wsj_1041   0    5    expected    JJ             *        -    -   -   -       *    (ARGM-ADJ*)           *             *     -
+nw/wsj/10/wsj_1041   0    6         FDA   NNP             *        -    -   -   -    (ORG)       (ARG0*)           *             *    (7)
+nw/wsj/10/wsj_1041   0    7      action    NN             *)   action  01   1   -       *           (V*)           *)            *     -
+nw/wsj/10/wsj_1041   0    8          is   VBZ          (VP*        be  01   1   -       *             *          (V*)            *     -
+nw/wsj/10/wsj_1041   0    9           a    DT       (NP(NP*        -    -   -   -       *             *       (ARG2*             *     -
+nw/wsj/10/wsj_1041   0   10    poignant    JJ             *        -    -   -   -       *             *            *             *     -
+nw/wsj/10/wsj_1041   0   11    reminder    NN             *)       -    -   -   -       *             *            *             *     -
+nw/wsj/10/wsj_1041   0   12          of    IN          (PP*        -    -   -   -       *             *            *             *     -
+nw/wsj/10/wsj_1041   0   13        what    WP   (SBAR(WHNP*)       -    -   -   -       *             *            *        (ARG1*)    -
+nw/wsj/10/wsj_1041   0   14       might    MD        (S(VP*        -    -   -   -       *             *            *    (ARGM-MOD*)    -
+nw/wsj/10/wsj_1041   0   15        have    VB          (VP*        -    -   -   -       *             *            *             *     -
+nw/wsj/10/wsj_1041   0   16        been   VBN   (VP*))))))))       be  02   3   -       *             *            *)          (V*)    -
+nw/wsj/10/wsj_1041   0   17           .     .            *))       -    -   -   -       *             *            *             *     -
+
+nw/wsj/10/wsj_1041   0    0            ``     ``         (TOP(S*            -    -   -   -   *             *        *             *      *             *      -
+nw/wsj/10/wsj_1041   0    1            My   PRP$            (NP*            -    -   -   -   *        (ARG0*)  (ARG1*             *      *             *     (3)
+nw/wsj/10/wsj_1041   0    2         first     JJ               *            -    -   -   -   *    (ARGM-TMP*)       *             *      *             *      -
+nw/wsj/10/wsj_1041   0    3      reaction     NN               *)     reaction  01   2   -   *           (V*)       *)            *      *             *      -
+nw/wsj/10/wsj_1041   0    4            is    VBZ            (VP*            be  01   2   -   *             *      (V*)            *      *             *      -
+nw/wsj/10/wsj_1041   0    5             I    PRP     (SBAR(S(NP*)           -    -   -   -   *             *   (ARG2*        (ARG0*)     *             *     (3)
+nw/wsj/10/wsj_1041   0    6            do    VBP            (VP*            -    -   -   -   *             *        *             *      *             *      -
+nw/wsj/10/wsj_1041   0    7           n't     RB               *            -    -   -   -   *             *        *    (ARGM-NEG*)     *             *      -
+nw/wsj/10/wsj_1041   0    8    understand     VB            (VP*    understand  01   1   -   *             *        *           (V*)     *             *      -
+nw/wsj/10/wsj_1041   0    9           why    WRB   (SBAR(WHADVP*)           -    -   -   -   *             *        *        (ARG1*      *    (ARGM-CAU*)     -
+nw/wsj/10/wsj_1041   0   10            it    PRP          (S(NP*)           -    -   -   -   *             *        *             *      *        (ARG0*)   (17)
+nw/wsj/10/wsj_1041   0   11            's    VBZ            (VP*            be  03   -   -   *             *        *             *    (V*)            *      -
+nw/wsj/10/wsj_1041   0   12         taken    VBN            (VP*          take  02   3   -   *             *        *             *      *           (V*)     -
+nw/wsj/10/wsj_1041   0   13            so     RB          (ADVP*            -    -   -   -   *             *        *             *      *        (ARG1*      -
+nw/wsj/10/wsj_1041   0   14          long     RB      *))))))))))           -    -   -   -   *             *        *)            *)     *             *)     -
+nw/wsj/10/wsj_1041   0   15             .      .              *))           -    -   -   -   *             *        *             *      *             *      -
+
+nw/wsj/10/wsj_1041   0    0            Why   WRB   (TOP(SINV(SBARQ(WHADVP*)           -    -   -   -          *    (ARGM-CAU*)        *        *   (ARG1*            *      -
+nw/wsj/10/wsj_1041   0    1            has   VBZ                      (SQ*            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0    2             it   PRP                  (NP(NP*))           -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0    3          taken   VBN                      (VP*          take  10   3   -          *           (V*)        *        *        *            *      -
+nw/wsj/10/wsj_1041   0    4         people   NNS                      (NP*)       people   -   1   -          *        (ARG2*)        *        *        *            *    (11)
+nw/wsj/10/wsj_1041   0    5             so    RB                    (ADVP*            -    -   -   -          *        (ARG1*         *        *        *            *      -
+nw/wsj/10/wsj_1041   0    6           long    RB                         *)           -    -   -   -          *             *)        *        *        *            *      -
+nw/wsj/10/wsj_1041   0    7            for    IN                    (SBAR*            -    -   -   -          *        (ARG0*         *        *        *            *      -
+nw/wsj/10/wsj_1041   0    8         people   NNS                    (S(NP*)       people   -   1   -          *             *    (ARG0*)       *        *            *    (11)
+nw/wsj/10/wsj_1041   0    9             to    TO                      (VP*            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   10     understand    VB                      (VP*    understand  01   1   -          *             *       (V*)       *        *            *      -
+nw/wsj/10/wsj_1041   0   11      pediatric    JJ               (SBAR(S(NP*            -    -   -   -          *             *    (ARG1*   (ARG1*        *            *    (22
+nw/wsj/10/wsj_1041   0   12           AIDS   NNP                         *)           -    -   -   -          *             *         *        *)       *            *     22)
+nw/wsj/10/wsj_1041   0   13             is   VBZ                      (VP*            be  01   1   -          *             *         *      (V*)       *            *      -
+nw/wsj/10/wsj_1041   0   14              a    DT                      (NP*            -    -   -   -          *             *         *   (ARG2*        *            *      -
+nw/wsj/10/wsj_1041   0   15          major    JJ                         *            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   16        problem    NN                *))))))))))      problem   -   1   -          *             *)        *)       *)       *            *      -
+nw/wsj/10/wsj_1041   0   17              ?     .                         *            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   18             ''    ''                         *)           -    -   -   -          *             *         *        *        *)           *      -
+nw/wsj/10/wsj_1041   0   19          asked   VBD                      (VP*)          ask  01   1   -          *             *         *        *      (V*)           *      -
+nw/wsj/10/wsj_1041   0   20          Helen   NNP                   (NP(NP*            -    -   -   -   (PERSON*             *         *        *   (ARG0*            *     (3
+nw/wsj/10/wsj_1041   0   21       Kushnick   NNP                         *)           -    -   -   -          *)            *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   22              ,     ,                         *            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   23          whose   WP$          (SBAR(WHNP(WHNP*            -    -   -   -          *             *         *        *        *       (ARG1*      -
+nw/wsj/10/wsj_1041   0   24            son    NN                         *)           -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   25         Samuel   NNP                     (NP*))           -    -   -   -    (PERSON)            *         *        *        *            *)     -
+nw/wsj/10/wsj_1041   0   26           died   VBD                    (S(VP*           die  01   1   -          *             *         *        *        *          (V*)     -
+nw/wsj/10/wsj_1041   0   27            six    CD                 (ADVP(NP*            -    -   -   -     (DATE*             *         *        *        *   (ARGM-TMP*      -
+nw/wsj/10/wsj_1041   0   28          years   NNS                         *)           -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   29            ago    RB                         *)           -    -   -   -          *)            *         *        *        *            *)     -
+nw/wsj/10/wsj_1041   0   30             at    IN                      (PP*            -    -   -   -          *             *         *        *        *   (ARGM-TMP*      -
+nw/wsj/10/wsj_1041   0   31            age    NN                      (NP*           age   -   1   -     (DATE*             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   32          three    CD                        *))           -    -   -   -          *)            *         *        *        *            *)     -
+nw/wsj/10/wsj_1041   0   33              ,     ,                         *            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   34         victim    NN                 (S(NP(NP*)       victim   -   1   -          *             *         *        *        *   (ARGM-PRD*      -
+nw/wsj/10/wsj_1041   0   35             of    IN                      (PP*            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   36              a    DT                      (NP*            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   37        tainted    JJ                         *            -    -   -   -          *             *         *        *        *            *      -
+nw/wsj/10/wsj_1041   0   38    transfusion    NN                  *))))))))           -    -   -   -          *             *         *        *        *)           *)     3)
+nw/wsj/10/wsj_1041   0   39              .     .                        *))           -    -   -   -          *             *         *        *        *            *      -
+
+nw/wsj/10/wsj_1041   0   0       Similar    JJ  (TOP(S(NP*       -    -   -   -       *       (ARG1*   -
+nw/wsj/10/wsj_1041   0   1    sentiments   NNS           *)      -    -   -   -       *            *)  -
+nw/wsj/10/wsj_1041   0   2          were   VBD        (VP*       -    -   -   -       *            *   -
+nw/wsj/10/wsj_1041   0   3        voiced   VBN        (VP*    voice  01   1   -       *          (V*)  -
+nw/wsj/10/wsj_1041   0   4            on    IN        (PP*       -    -   -   -       *   (ARGM-LOC*   -
+nw/wsj/10/wsj_1041   0   5       Capitol   NNP        (NP*       -    -   -   -   (ORG*            *   -
+nw/wsj/10/wsj_1041   0   6          Hill   NNP        *))))      -    -   -   -       *)           *)  -
+nw/wsj/10/wsj_1041   0   7             .     .          *))      -    -   -   -       *            *   -
+
+nw/wsj/10/wsj_1041   0    0           ``    ``      (TOP(SINV*         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0    1        While    IN        (S(SBAR*         -    -   -   -          *         *             *      *   (ARGM-ADV*        *   (ARG1*      -
+nw/wsj/10/wsj_1041   0    2            I   PRP          (S(NP*)        -    -   -   -          *    (ARG1*)            *      *            *        *        *    (18)
+nw/wsj/10/wsj_1041   0    3           'm   VBP            (VP*         be  01   1   -          *       (V*)            *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0    4      pleased    JJ          (ADJP*         -    -   -   -          *    (ARG2*             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0    5          the    DT     (SBAR(S(NP*         -    -   -   -          *         *        (ARG0*      *            *        *        *     (7
+nw/wsj/10/wsj_1041   0    6          FDA   NNP               *)        -    -   -   -       (ORG)        *             *)     *            *        *        *      7)
+nw/wsj/10/wsj_1041   0    7           is   VBZ            (VP*         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0    8      finally    RB          (ADVP*)        -    -   -   -          *         *    (ARGM-TMP*)     *            *        *        *      -
+nw/wsj/10/wsj_1041   0    9    releasing   VBG            (VP*    release  01   2   -          *         *           (V*)     *            *        *        *      -
+nw/wsj/10/wsj_1041   0   10          AZT   NNP            (NP*)        -    -   -   -          *         *        (ARG1*)     *            *        *        *    (13)
+nw/wsj/10/wsj_1041   0   11          for    IN            (PP*         -    -   -   -          *         *    (ARGM-PNC*      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   12     children   NNS   (NP*))))))))))     child   -   1   -          *         *)            *)     *            *)       *        *      -
+nw/wsj/10/wsj_1041   0   13            ,     ,               *         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   14           it   PRP        (NP(NP*))        -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   15           's   VBZ            (VP*         be  03   -   -          *         *             *    (V*)           *        *        *      -
+nw/wsj/10/wsj_1041   0   16        taken   VBN            (VP*       take  02   3   -          *         *             *      *          (V*)       *        *      -
+nw/wsj/10/wsj_1041   0   17         much    RB          (ADVP*         -    -   -   -          *         *             *      *       (ARG1*        *        *      -
+nw/wsj/10/wsj_1041   0   18          too    RB               *         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   19         long    JJ               *)        -    -   -   -          *         *             *      *            *)       *        *      -
+nw/wsj/10/wsj_1041   0   20           to    TO          (S(VP*         -    -   -   -          *         *             *      *       (ARG0*        *        *      -
+nw/wsj/10/wsj_1041   0   21          get    VB            (VP*        get  05   4   -          *         *             *      *            *      (V*)       *      -
+nw/wsj/10/wsj_1041   0   22           to    IN            (PP*         -    -   -   -          *         *             *      *            *   (ARG2*        *      -
+nw/wsj/10/wsj_1041   0   23         this    DT            (NP*         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   24        point    NN        *))))))))     point   -   5   -          *         *             *      *            *)       *)       *)     -
+nw/wsj/10/wsj_1041   0   25            ,     ,               *         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   26           ''    ''               *         -    -   -   -          *         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   27         said   VBD            (VP*)       say  01   1   -          *         *             *      *            *        *      (V*)     -
+nw/wsj/10/wsj_1041   0   28         Rep.   NNP            (NP*         -    -   -   -          *         *             *      *            *        *   (ARG0*    (18
+nw/wsj/10/wsj_1041   0   29          Ted   NNP               *         -    -   -   -   (PERSON*         *             *      *            *        *        *      -
+nw/wsj/10/wsj_1041   0   30        Weiss   NNP               *)        -    -   -   -          *)        *             *      *            *        *        *)    18)
+nw/wsj/10/wsj_1041   0   31            .     .              *))        -    -   -   -          *         *             *      *            *        *        *      -
+
+nw/wsj/10/wsj_1041   0    0                 ``    ``  (TOP(S(SBARQ*           -    -   -   -        *             *        *   (ARG1*     -
+nw/wsj/10/wsj_1041   0    1                Why   WRB       (WHADVP*)          -    -   -   -        *    (ARGM-CAU*)       *        *     -
+nw/wsj/10/wsj_1041   0    2                did   VBD           (SQ*           do   -   7   -        *             *        *        *     -
+nw/wsj/10/wsj_1041   0    3                 it   PRP       (NP(NP*))          -    -   -   -        *             *        *        *     -
+nw/wsj/10/wsj_1041   0    4               take    VB           (VP*         take  10   3   -        *           (V*)       *        *     -
+nw/wsj/10/wsj_1041   0    5          Burroughs   NNP           (NP*           -    -   -   -    (ORG*        (ARG2*   (ARG0*        *    (6
+nw/wsj/10/wsj_1041   0    6           Wellcome   NNP              *)          -    -   -   -        *)            *)       *)       *     6)
+nw/wsj/10/wsj_1041   0    7                 so    RB         (ADVP*           -    -   -   -        *        (ARG1*        *        *     -
+nw/wsj/10/wsj_1041   0    8               long    RB              *)          -    -   -   -        *             *)       *        *     -
+nw/wsj/10/wsj_1041   0    9                 to    TO         (S(VP*           -    -   -   -        *        (ARG0*        *        *     -
+nw/wsj/10/wsj_1041   0   10              apply    VB           (VP*        apply  01   3   -        *             *      (V*)       *     -
+nw/wsj/10/wsj_1041   0   11                 ''    ''              *           -    -   -   -        *             *        *        *     -
+nw/wsj/10/wsj_1041   0   12                for    IN           (PP*           -    -   -   -        *             *   (ARG1*        *     -
+nw/wsj/10/wsj_1041   0   13          treatment    NN      (NP(ADJP*    treatment   -   1   -        *             *        *        *    (0
+nw/wsj/10/wsj_1041   0   14    investigational    JJ              *)          -    -   -   -        *             *        *        *     -
+nw/wsj/10/wsj_1041   0   15                new    JJ          (NML*           -    -   -   -        *             *        *        *     -
+nw/wsj/10/wsj_1041   0   16               drug    NN              *)        drug   -   1   -        *             *        *        *     -
+nw/wsj/10/wsj_1041   0   17             status    NN        *)))))))      status   -   2   -        *             *)       *)       *     0)
+nw/wsj/10/wsj_1041   0   18                  ?     .              *)          -    -   -   -        *             *        *        *)    -
+nw/wsj/10/wsj_1041   0   19                the    DT           (NP*           -    -   -   -        *             *        *   (ARG0*   (18
+nw/wsj/10/wsj_1041   0   20                New   NNP          (NML*           -    -   -   -    (GPE*             *        *        *     -
+nw/wsj/10/wsj_1041   0   21               York   NNP              *)          -    -   -   -        *)            *        *        *     -
+nw/wsj/10/wsj_1041   0   22           Democrat   NNP              *)          -    -   -   -    (NORP)            *        *        *)   18)
+nw/wsj/10/wsj_1041   0   23              asked   VBD           (VP*)         ask  01   1   -        *             *        *      (V*)    -
+nw/wsj/10/wsj_1041   0   24                  .     .             *))          -    -   -   -        *             *        *        *     -
+
+nw/wsj/10/wsj_1041   0    0              ``    ``           (TOP(S*           -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0    1             Let    VB            (S(VP*          let  01   1   -          *      (V*)            *         *            *   (ARG1*     -
+nw/wsj/10/wsj_1041   0    2              's   PRP            (S(NP*)          -    -   -   -          *   (ARG1*        (ARG0*)        *            *        *     -
+nw/wsj/10/wsj_1041   0    3             not    RB                 *           -    -   -   -          *        *    (ARGM-NEG*)        *            *        *     -
+nw/wsj/10/wsj_1041   0    4          forget    VB              (VP*       forget  01   1   -          *        *           (V*)        *            *        *     -
+nw/wsj/10/wsj_1041   0    5            this    DT       (SBAR(S(NP*)          -    -   -   -          *        *        (ARG1*    (ARG1*)           *        *    (6)
+nw/wsj/10/wsj_1041   0    6              is   VBZ              (VP*           be  01   2   -          *        *             *       (V*)           *        *     -
+nw/wsj/10/wsj_1041   0    7             the    DT           (NP(NP*           -    -   -   -          *        *             *    (ARG2*       (ARG0*        *     -
+nw/wsj/10/wsj_1041   0    8            same    JJ                 *           -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0    9         company    NN                 *)     company   -   1   -          *        *             *         *            *)       *     -
+nw/wsj/10/wsj_1041   0   10            that   WDT       (SBAR(WHNP*)          -    -   -   -          *        *             *         *     (R-ARG0*)       *     -
+nw/wsj/10/wsj_1041   0   11             has   VBZ            (S(VP*           -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0   12            been   VBN              (VP*           -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0   13    profiteering   VBG              (VP*    profiteer  01   -   -          *        *             *         *          (V*)       *     -
+nw/wsj/10/wsj_1041   0   14            with    IN              (PP*           -    -   -   -          *        *             *         *   (ARGM-MNR*        *     -
+nw/wsj/10/wsj_1041   0   15            this    DT              (NP*           -    -   -   -          *        *             *         *            *        *   (13
+nw/wsj/10/wsj_1041   0   16            drug    NN                *))        drug   -   1   -          *        *             *         *            *)       *    13)
+nw/wsj/10/wsj_1041   0   17             for    IN              (PP*           -    -   -   -          *        *             *         *   (ARGM-TMP*        *     -
+nw/wsj/10/wsj_1041   0   18              2     CD           (NP(QP*           -    -   -   -     (DATE*        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0   19            1/2     CD                 *)          -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0   20           years   NNS   *)))))))))))))))          -    -   -   -          *)       *)            *)        *)           *)       *)    -
+nw/wsj/10/wsj_1041   0   21               ,     ,                 *           -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0   22              ''    ''                 *           -    -   -   -          *        *             *         *            *        *     -
+nw/wsj/10/wsj_1041   0   23             Mr.   NNP              (NP*           -    -   -   -          *        *             *         *            *   (ARG0*   (18
+nw/wsj/10/wsj_1041   0   24           Weiss   NNP                 *)          -    -   -   -    (PERSON)       *             *         *            *        *)   18)
+nw/wsj/10/wsj_1041   0   25           added   VBD              (VP*)         add  01   1   -          *        *             *         *            *      (V*)    -
+nw/wsj/10/wsj_1041   0   26               .     .                *))          -    -   -   -          *        *             *         *            *        *     -
+
+nw/wsj/10/wsj_1041   0    0            Mrs.    NNP  (TOP(S(NP(NP*         -    -   -   -          *      (ARG1*            *   (ARG0*   (5
+nw/wsj/10/wsj_1041   0    1          Glaser    NNP              *)        -    -   -   -    (PERSON)          *)           *        *    -
+nw/wsj/10/wsj_1041   0    2               ,      ,              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0    3             who     WP    (SBAR(WHNP*)        -    -   -   -          *    (R-ARG1*)           *        *    -
+nw/wsj/10/wsj_1041   0    4              is    VBZ         (S(VP*         be  01   1   -          *         (V*)           *        *    -
+nw/wsj/10/wsj_1041   0    5               a     DT        (NP(NP*         -    -   -   -          *      (ARG2*            *        *    -
+nw/wsj/10/wsj_1041   0    6      co-founder     NN              *)        -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0    7              of     IN           (PP*         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0    8             the     DT        (NP(NP*         -    -   -   -      (ORG*           *       (ARG1*        *    -
+nw/wsj/10/wsj_1041   0    9       Pediatric    NNP          (NML*         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   10            AIDS    NNP              *)        -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   11      Foundation    NNP              *)        -    -   -   -          *)          *            *)       *    -
+nw/wsj/10/wsj_1041   0   12               ,      ,              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   13           based    VBN           (VP*       base  01   3   -          *           *          (V*)       *    -
+nw/wsj/10/wsj_1041   0   14              in     IN           (PP*         -    -   -   -          *           *   (ARGM-LOC*        *    -
+nw/wsj/10/wsj_1041   0   15           Santa    NNP        (NP(NP*         -    -   -   -      (GPE*           *            *        *    -
+nw/wsj/10/wsj_1041   0   16          Monica    NNP              *)        -    -   -   -          *)          *            *        *    -
+nw/wsj/10/wsj_1041   0   17               ,      ,              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   18          Calif.    NNP           (NP*)        -    -   -   -       (GPE)          *            *        *    -
+nw/wsj/10/wsj_1041   0   19               ,      ,     *))))))))))        -    -   -   -          *           *)           *)       *)   5)
+nw/wsj/10/wsj_1041   0   20       condemned    VBD           (VP*    condemn  01   1   -          *           *            *      (V*)   -
+nw/wsj/10/wsj_1041   0   21         neither     CC      (NP(ADJP*         -    -   -   -          *           *            *   (ARG1*    -
+nw/wsj/10/wsj_1041   0   22    bureaucratic     JJ              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   23             nor     CC              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   24       corporate     JJ              *)        -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   25            foot     NN              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   26              -    HYPH              *         -    -   -   -          *           *            *        *    -
+nw/wsj/10/wsj_1041   0   27        dragging     NN             *))        -    -   -   -          *           *            *        *)   -
+nw/wsj/10/wsj_1041   0   28               .      .             *))        -    -   -   -          *           *            *        *    -
+
+nw/wsj/10/wsj_1041   0    0         ``    ``       (TOP(S*       -    -   -   -   *        *        *         *     -
+nw/wsj/10/wsj_1041   0    1      There    EX        (S(NP*)      -    -   -   -   *        *        *    (ARG1*     -
+nw/wsj/10/wsj_1041   0    2         's   VBZ          (VP*       be  02   3   -   *      (V*)       *         *     -
+nw/wsj/10/wsj_1041   0    3         no    DT       (NP(NP*       -    -   -   -   *   (ARG1*   (ARG1*         *     -
+nw/wsj/10/wsj_1041   0    4     finger    NN             *)      -    -   -   -   *        *        *)        *     -
+nw/wsj/10/wsj_1041   0    5         to    TO   (SBAR(S(VP*       -    -   -   -   *        *        *         *     -
+nw/wsj/10/wsj_1041   0    6         be    VB          (VP*       -    -   -   -   *        *        *         *     -
+nw/wsj/10/wsj_1041   0    7    pointed   VBN   (VP*))))))))   point  01   2   -   *        *)     (V*)        *)    -
+nw/wsj/10/wsj_1041   0    8          ,     ,             *       -    -   -   -   *        *        *         *     -
+nw/wsj/10/wsj_1041   0    9         ''    ''             *       -    -   -   -   *        *        *         *     -
+nw/wsj/10/wsj_1041   0   10        she   PRP          (NP*)      -    -   -   -   *        *        *    (ARG0*)   (5)
+nw/wsj/10/wsj_1041   0   11       said   VBD          (VP*)     say  01   1   -   *        *        *       (V*)    -
+nw/wsj/10/wsj_1041   0   12          .     .            *))      -    -   -   -   *        *        *         *     -
+
+nw/wsj/10/wsj_1041   0    0              ``     ``            (TOP(S*        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0    1             The     DT               (NP*        -    -   -   -       *   (ARG1*             *        *             *      -
+nw/wsj/10/wsj_1041   0    2         crucial     JJ                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0    3           thing     NN                  *)    thing   -   1   -       *        *)            *        *             *      -
+nw/wsj/10/wsj_1041   0    4              is    VBZ               (VP*        be  01   2   -       *      (V*)            *        *             *      -
+nw/wsj/10/wsj_1041   0    5            that     IN         (UCP(SBAR*        -    -   -   -       *   (ARG2*             *        *             *      -
+nw/wsj/10/wsj_1041   0    6              we    PRP             (S(NP*)       -    -   -   -       *        *        (ARG0*)       *             *     (1)
+nw/wsj/10/wsj_1041   0    7           learn    VBP               (VP*     learn  01   1   -       *        *           (V*)       *             *      -
+nw/wsj/10/wsj_1041   0    8             our   PRP$               (NP*        -    -   -   -       *        *        (ARG1*        *             *     (1)
+nw/wsj/10/wsj_1041   0    9          lesson     NN                  *)   lesson   -   4   -       *        *             *)       *             *      -
+nw/wsj/10/wsj_1041   0   10            well     RB          (ADVP*))))       -    -   -   -       *        *    (ARGM-MNR*)       *             *      -
+nw/wsj/10/wsj_1041   0   11               ,      ,                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   12             and     CC                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   13              to     TO             (S(VP*        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   14            make     VB               (VP*      make  02   3   -       *        *             *      (V*)            *      -
+nw/wsj/10/wsj_1041   0   15            sure     JJ           (S(ADJP*)       -    -   -   -       *        *             *   (ARG1*             *      -
+nw/wsj/10/wsj_1041   0   16           other     JJ     (SBAR(S(NP(NP*        -    -   -   -       *        *             *        *        (ARG0*      -
+nw/wsj/10/wsj_1041   0   17    experimental     JJ                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   18           drugs    NNS                  *)     drug   -   1   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   19               ,      ,                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   20            like     IN               (PP*        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   21         Bristol    NNP            (NP(NP*        -    -   -   -   (ORG*        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   22              -    HYPH                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   23           Myers    NNP                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   24             Co.    NNP                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   25              's    POS                  *)       -    -   -   -       *)       *             *        *             *      -
+nw/wsj/10/wsj_1041   0   26             DDI    NNP                 *))       -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   27               ,      ,                  *)       -    -   -   -       *        *             *        *             *)     -
+nw/wsj/10/wsj_1041   0   28              do    VBP               (VP*        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   29             n't     RB                  *        -    -   -   -       *        *             *        *    (ARGM-NEG*)     -
+nw/wsj/10/wsj_1041   0   30          follow     VB               (VP*    follow  02   1   -       *        *             *        *           (V*)     -
+nw/wsj/10/wsj_1041   0   31             the     DT            (NP(NP*        -    -   -   -       *        *             *        *        (ARG1*      -
+nw/wsj/10/wsj_1041   0   32            same     JJ                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   33     frustrating     JJ                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   34          course     NN                  *)   course   -   2   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   35              as     IN               (PP*        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   36             AZT    NNP   (NP*)))))))))))))       -    -   -   -       *        *)            *        *)            *)   (13)
+nw/wsj/10/wsj_1041   0   37               .      .                  *        -    -   -   -       *        *             *        *             *      -
+nw/wsj/10/wsj_1041   0   38              ''     ''                 *))       -    -   -   -       *        *             *        *             *      -
+
+nw/wsj/10/wsj_1041   0    0         AIDS   NNP  (TOP(S(NP(NP*         -    -   -   -   *        (ARG0*        *        *        *        (ARG1*    (15|(16)
+nw/wsj/10/wsj_1041   0    1     dementia    NN              *)        -    -   -   -   *             *)       *        *        *             *          -
+nw/wsj/10/wsj_1041   0    2          --      :              *         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0    3        which   WDT    (SBAR(WHNP*)        -    -   -   -   *      (R-ARG0*)       *        *        *             *          -
+nw/wsj/10/wsj_1041   0    4    gradually    RB       (S(ADVP*)        -    -   -   -   *    (ARGM-MNR*)       *        *        *             *          -
+nw/wsj/10/wsj_1041   0    5       steals   VBZ           (VP*      steal  01   1   -   *           (V*)       *        *        *             *          -
+nw/wsj/10/wsj_1041   0    6     children   NNS        (NP(NP*      child   -   1   -   *        (ARG1*   (ARG0*   (ARG0*   (ARG0*             *          -
+nw/wsj/10/wsj_1041   0    7           's   POS              *)        -    -   -   -   *             *        *)       *)       *)            *          -
+nw/wsj/10/wsj_1041   0    8      ability    NN              *    ability   -   1   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0    9           to    TO         (S(VP*         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   10        speak    VB           (VP*      speak  01   1   -   *             *      (V*)       *        *             *          -
+nw/wsj/10/wsj_1041   0   11            ,     ,              *         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   12         walk    VB              *       walk  01   1   -   *             *        *      (V*)       *             *          -
+nw/wsj/10/wsj_1041   0   13          and    CC              *         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   14        think    VB        *)))))))     think  01   2   -   *             *)       *        *      (V*)            *          -
+nw/wsj/10/wsj_1041   0   15          --      :              *)        -    -   -   -   *             *        *        *        *             *)        15)
+nw/wsj/10/wsj_1041   0   16           is   VBZ           (VP*         be  01   2   -   *             *        *        *        *           (V*)         -
+nw/wsj/10/wsj_1041   0   17        often    RB         (ADVP*)        -    -   -   -   *             *        *        *        *    (ARGM-TMP*)         -
+nw/wsj/10/wsj_1041   0   18          the    DT        (NP(NP*         -    -   -   -   *             *        *        *        *        (ARG2*          -
+nw/wsj/10/wsj_1041   0   19         most   RBS         (ADJP*         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   20     striking    JJ              *)        -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   21       aspect    NN              *)        -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   22           of    IN           (PP*         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   23          the    DT           (NP*         -    -   -   -   *             *        *        *        *             *        (22
+nw/wsj/10/wsj_1041   0   24    pediatric    JJ              *         -    -   -   -   *             *        *        *        *             *          -
+nw/wsj/10/wsj_1041   0   25     syndrome    NN           *))))        -    -   -   -   *             *        *        *        *             *)        22)
+nw/wsj/10/wsj_1041   0   26            .     .             *))        -    -   -   -   *             *        *        *        *             *          -
+
+nw/wsj/10/wsj_1041   0    0            For     IN   (TOP(S(PP*         -    -   -   -   *   (ARGM-ADV*        *         *            *      -
+nw/wsj/10/wsj_1041   0    1           some     DT         (NP*         -    -   -   -   *            *        *         *            *    (19
+nw/wsj/10/wsj_1041   0    2       patients    NNS           *))        -    -   -   -   *            *)       *         *            *     19)
+nw/wsj/10/wsj_1041   0    3              ,      ,            *         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0    4            AZT    NNP         (NP*)        -    -   -   -   *       (ARG0*)       *         *            *    (13)
+nw/wsj/10/wsj_1041   0    5            has    VBZ         (VP*         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0    6       restored    VBN         (VP*    restore  01   1   -   *          (V*)       *         *            *     (9)
+nw/wsj/10/wsj_1041   0    7            the     DT         (NP*         -    -   -   -   *       (ARG1*        *         *            *      -
+nw/wsj/10/wsj_1041   0    8        ability     NN            *    ability   -   1   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0    9             to     TO       (S(VP*         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   10           ride     VB      (VP(VP*       ride  01   1   -   *            *      (V*)        *            *      -
+nw/wsj/10/wsj_1041   0   11              a     DT         (NP*         -    -   -   -   *            *   (ARG1*         *            *      -
+nw/wsj/10/wsj_1041   0   12        bicycle     NN           *))        -    -   -   -   *            *        *)        *            *      -
+nw/wsj/10/wsj_1041   0   13             or     CC            *         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   14          solve     VB         (VP*      solve  01   1   -   *            *        *       (V*)           *      -
+nw/wsj/10/wsj_1041   0   15        puzzles    NNS    (NP*))))))        -    -   -   -   *            *)       *    (ARG1*)           *      -
+nw/wsj/10/wsj_1041   0   16              ,      ,            *         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   17         giving    VBG       (S(VP*       give  03   4   -   *   (ARGM-ADV*        *         *          (V*)     -
+nw/wsj/10/wsj_1041   0   18           back     RP        (PRT*)        -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   19              a     DT      (NP(NP*         -    -   -   -   *            *        *         *       (ARG1*      -
+nw/wsj/10/wsj_1041   0   20          piece     NN            *)     piece   -   1   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   21             of     IN         (PP*         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   22          their   PRP$         (NP*         -    -   -   -   *            *        *         *            *    (19)
+nw/wsj/10/wsj_1041   0   23      childhood     NN          *)))        -    -   -   -   *            *        *         *            *)     -
+nw/wsj/10/wsj_1041   0   24             if     IN       (SBAR*         -    -   -   -   *            *        *         *   (ARGM-TMP*      -
+nw/wsj/10/wsj_1041   0   25           only     RB  (FRAG(ADVP*         -    -   -   -   *            *        *         *            *      -
+nw/wsj/10/wsj_1041   0   26    temporarily     RB      *)))))))        -    -   -   -   *            *)       *         *            *)     -
+nw/wsj/10/wsj_1041   0   27              .      .           *))        -    -   -   -   *            *        *         *            *      -
+
+nw/wsj/10/wsj_1041   0    0            ``    ``    (TOP(SINV*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0    1            It   PRP    (S(NP(NP*))          -    -   -   -          *    (ARG1*)       *            *   (ARG1*      -
+nw/wsj/10/wsj_1041   0    2            's   VBZ          (VP*           be  01   1   -          *       (V*)       *            *        *      -
+nw/wsj/10/wsj_1041   0    3    impossible    JJ        (ADJP*)          -    -   -   -          *    (ARG2*)       *            *        *      -
+nw/wsj/10/wsj_1041   0    4            to    TO           (S*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0    5     overstate    VB          (VP*    overstate  01   1   -          *         *      (V*)           *        *      -
+nw/wsj/10/wsj_1041   0    6           how   WRB   (SBAR(WHNP*           -    -   -   -          *         *   (ARG1*       (ARG1*        *      -
+nw/wsj/10/wsj_1041   0    7          much    JJ             *)          -    -   -   -          *         *        *            *)       *      -
+nw/wsj/10/wsj_1041   0    8          this    DT        (S(NP*)          -    -   -   -          *         *        *       (ARG0*)       *     (9)
+nw/wsj/10/wsj_1041   0    9         means   VBZ          (VP*         mean  01   5   -          *         *        *          (V*)       *      -
+nw/wsj/10/wsj_1041   0   10            to    IN          (PP*           -    -   -   -          *         *        *   (ARGM-ADV*        *      -
+nw/wsj/10/wsj_1041   0   11           the    DT       (NP(NP*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   12      families   NNS             *)      family   -   1   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   13            of    IN          (PP*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   14         these    DT          (NP*           -    -   -   -          *         *        *            *        *    (19
+nw/wsj/10/wsj_1041   0   15      patients   NNS   *)))))))))))          -    -   -   -          *         *        *)           *)       *)    19)
+nw/wsj/10/wsj_1041   0   16             ,     ,             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   17            ''    ''             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   18          said   VBD          (VP*)         say  01   1   -          *         *        *            *      (V*)     -
+nw/wsj/10/wsj_1041   0   19        Samuel   NNP       (NP(NP*           -    -   -   -   (PERSON*         *        *            *   (ARG0*      -
+nw/wsj/10/wsj_1041   0   20        Broder   NNP             *)          -    -   -   -          *)        *        *            *        *      -
+nw/wsj/10/wsj_1041   0   21             ,     ,             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   22      director    NN    (NP(NP(NP*)    director   -   1   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   23            of    IN          (PP*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   24           the    DT          (NP*           -    -   -   -      (ORG*         *        *            *        *    (12
+nw/wsj/10/wsj_1041   0   25      National   NNP             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   26        Cancer   NNP             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   27     Institute   NNP           *)))          -    -   -   -          *)        *        *            *        *     12)
+nw/wsj/10/wsj_1041   0   28           and    CC             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   29             a    DT       (NP(NP*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   30          main    JJ             *           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   31     developer    NN             *)          -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   32            of    IN          (PP*           -    -   -   -          *         *        *            *        *      -
+nw/wsj/10/wsj_1041   0   33           AZT   NNP      (NP*)))))          -    -   -   -          *         *        *            *        *)   (13)
+nw/wsj/10/wsj_1041   0   34             .     .            *))          -    -   -   -          *         *        *            *        *      -
+
+#end document
