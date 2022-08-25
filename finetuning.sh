@@ -16,7 +16,7 @@ echo "dev:     ${dev:=$DATA/srl/conll05/dev.conllu}"
 echo "test:    ${test:=$DATA/srl/conll05/test.conllu}"
 echo "ood:     ${ood:=$DATA/srl/conll05/brown.conllu}"
 echo "bert:    ${config:=bert-large-cased}"
-echo "batch:   ${batch:=2000}"
+echo "batch:   ${batch:=1000}"
 echo "dropout: ${dropout:=0.1}"
 echo "epochs:  ${epochs:=25}"
 echo "nu:      ${nu:=0.9}"
@@ -25,7 +25,6 @@ echo "devices: ${devices:=4,5,6,7}"
 
 IFS=',' read -r -a device_arr <<< "$devices"
 n_devices=${#device_arr[@]}
-
 
 export TOKENIZERS_PARALLELISM=true
 train() {
@@ -46,7 +45,6 @@ train() {
         wait $pid
     done
 }
-
 
 evaluate() {
     # run processes and store pids in array
@@ -135,7 +133,6 @@ avg(){
     echo ${ps[@]} | awk '{sum = 0; for (i = 1; i <= NF; i++) sum += $i; sum /= NF; printf("%.2f ", sum)}'
     echo ${rs[@]} | awk '{sum = 0; for (i = 1; i <= NF; i++) sum += $i; sum /= NF; printf("%.2f ", sum)}'
     echo ${fs[@]} | awk '{sum = 0; for (i = 1; i <= NF; i++) sum += $i; sum /= NF; printf("%.2f ", sum)}'
-
     printf "\n\n"
     echo 'w/ gold predicate'
     for seed in {0..3}; do
@@ -149,6 +146,7 @@ avg(){
     echo ${ps[@]} | awk '{sum = 0; for (i = 1; i <= NF; i++) sum += $i; sum /= NF; printf("%.2f ", sum)}'
     echo ${rs[@]} | awk '{sum = 0; for (i = 1; i <= NF; i++) sum += $i; sum /= NF; printf("%.2f ", sum)}'
     echo ${fs[@]} | awk '{sum = 0; for (i = 1; i <= NF; i++) sum += $i; sum /= NF; printf("%.2f ", sum)}'
+    printf "\n\n"
 }
 
 collect() {
