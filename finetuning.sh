@@ -56,8 +56,8 @@ evaluate() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose &\n\n"
-            nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose &
+            printf "nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose &\n\n"
+            nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -73,8 +73,8 @@ evaluate() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose &\n\n"
-            nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose &
+            printf "nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose &\n\n"
+            nohup python -u crf.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -95,8 +95,8 @@ predict() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.predict.log.verbose &\n\n"
-            nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.predict.log.verbose &
+            printf "nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.predict.log.verbose &\n\n"
+            nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.predict.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -108,8 +108,8 @@ predict() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.predict.log.verbose &\n\n"
-            nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.predict.log.verbose &
+            printf "nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.predict.log.verbose &\n\n"
+            nohup python -u crf.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.predict.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
