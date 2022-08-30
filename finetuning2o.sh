@@ -19,6 +19,7 @@ echo "bert:    ${config:=bert-large-cased}"
 echo "batch:   ${batch:=1000}"
 echo "dropout: ${dropout:=0.1}"
 echo "epochs:  ${epochs:=25}"
+echo "rate:    ${rate:=20}"
 echo "nu:      ${nu:=0.9}"
 echo "eps:     ${eps:=1e-12}"
 echo "devices: ${devices:=4,5,6,7}"
@@ -35,8 +36,8 @@ train() {
             echo "wait ${pids[$device_id]} to be done"
             wait ${pids[$device_id]}
         fi
-        printf "nohup python -u crf2o.py train -b -c $config -s $seed -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed  --batch-size=$batch --mlp-dropout=$dropout --epochs=$epochs --train $train --dev $dev --test $test --encoder bert --bert $bert 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.train.log.verbose &\n\n"
-        nohup python -u crf2o.py train -b -c $config -s $seed -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --batch-size=$batch --mlp-dropout=$dropout --epochs=$epochs --train $train --dev $dev --test $test --encoder bert --bert $bert 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.train.log.verbose &
+        printf "nohup python -u crf2o.py train -b -c $config -s $seed -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed  --batch-size=$batch --mlp-dropout=$dropout --epochs=$epochs --lr-rate=$rate --train $train --dev $dev --test $test --encoder bert --bert $bert 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.train.log.verbose &\n\n"
+        nohup python -u crf2o.py train -b -c $config -s $seed -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --batch-size=$batch --mlp-dropout=$dropout --epochs=$epochs --lr-rate=$rate --train $train --dev $dev --test $test --encoder bert --bert $bert 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.train.log.verbose &
         pids[${i}]=$!
     done
 
@@ -56,8 +57,8 @@ evaluate() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose &\n\n"
-            nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose &
+            printf "nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.evaluate.log.verbose &\n\n"
+            nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.evaluate.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -73,8 +74,8 @@ evaluate() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose &\n\n"
-            nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose &
+            printf "nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.evaluate.log.verbose &\n\n"
+            nohup python -u crf2o.py evaluate -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.evaluate.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -95,8 +96,8 @@ predict() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.predict.log.verbose &\n\n"
-            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.predict.log.verbose &
+            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.predict.log.verbose &\n\n"
+            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.predict.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -108,8 +109,8 @@ predict() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.predict.log.verbose &\n\n"
-            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.predict.log.verbose &
+            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.predict.log.verbose &\n\n"
+            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.predict.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -122,8 +123,9 @@ predict() {
 }
 
 avg(){
+    git log -1
     for seed in {0..3}; do
-        line=$(tail -n 2 $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.evaluate.log.verbose | head -n 1)
+        line=$(tail -n 2 $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.evaluate.log.verbose | head -n 1)
         echo $line
         ps[$seed]=${line:0-26:5}
         rs[$seed]=${line:0-16:5}
@@ -136,7 +138,7 @@ avg(){
     printf "\n\n"
     echo 'w/ gold predicate'
     for seed in {0..3}; do
-        line=$(tail -n 2 $path/model.batch$batch.dropout$dropout.epochs$epochs.$seed.$dataset.prd.evaluate.log.verbose | head -n 1)
+        line=$(tail -n 2 $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.evaluate.log.verbose | head -n 1)
         echo $line
         ps[$seed]=${line:0-26:5}
         rs[$seed]=${line:0-16:5}
