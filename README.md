@@ -1,5 +1,7 @@
 # crfsrl
 
+![](https://img.shields.io/badge/SRL-yellowgreen) ![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fbea48441d74ad3c72e960de0b7208a673a6948d2%3Ffields%3DcitationCount)
+
 <p align="center"><img width="454" alt="image" src="https://user-images.githubusercontent.com/18402347/139386770-a1ca94a6-76c0-4d4c-8965-34a505d59ad4.png"></p>
 
 Yu Zhang, Qingrong Xia, Shilin Zhou, Yong Jiang, Zhenghua Li, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021. [[arxiv](http://arxiv.org/abs/2110.06865)]
