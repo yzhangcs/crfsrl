@@ -96,8 +96,8 @@ predict() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.predict.log.verbose &\n\n"
-            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.conllu >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.predict.log.verbose &
+            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.pred.conllu 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.predict.log.verbose &\n\n"
+            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.pred.conllu >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.predict.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -109,8 +109,8 @@ predict() {
                 echo "wait ${pids[$device_id]} to be done"
                 wait ${pids[$device_id]}
             fi
-            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.predict.log.verbose &\n\n"
-            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.$seed.pred.gold.conllu --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.predict.log.verbose &
+            printf "nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.pred.gold.conllu --prd 2>$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.predict.log.verbose &\n\n"
+            nohup python -u crf2o.py predict -c $config -d ${device_arr[$device_id]} -p $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed --bert=$bert --data ${!dataset} --pred $path/$dataset.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.pred.gold.conllu --prd >$path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.prd.predict.log.verbose &
             pids[${i}]=$!
             echo ${pids[*]}
         done
@@ -123,7 +123,7 @@ predict() {
 }
 
 avg(){
-    git log -1
+    git log -1 --oneline
     for seed in {0..3}; do
         line=$(tail -n 2 $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.evaluate.log.verbose | head -n 1)
         echo $line
@@ -154,8 +154,8 @@ avg(){
 collect() {
     echo $path/model.batch$batch.dropout$dropout
     for dataset in dev test ood; do
-        echo "All cmds for $dataset has been done!" | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.$dataset.avg.log
-        avg $dataset | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.$dataset.avg.log
+        echo "All cmds for $dataset has been done!" | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$dataset.avg.log
+        avg $dataset | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$dataset.avg.log
     done
     printf "\n"
 }

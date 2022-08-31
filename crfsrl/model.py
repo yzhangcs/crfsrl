@@ -129,13 +129,17 @@ class CRFSemanticRoleLabelingModel(Model):
                  **kwargs):
         super().__init__(**Config().update(locals()))
 
-        self.edge_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.edge_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.role_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
-        self.role_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
-
-        self.edge_attn = Biaffine(n_in=n_edge_mlp, bias_x=True, bias_y=False)
-        self.role_attn = Biaffine(n_in=n_role_mlp, n_out=n_roles,  bias_x=True, bias_y=True)
+        self.edge_attn = Biaffine(n_in=self.args.n_encoder_hidden,
+                                  n_proj=n_edge_mlp,
+                                  dropout=mlp_dropout,
+                                  bias_x=True,
+                                  bias_y=False)
+        self.role_attn = Biaffine(n_in=self.args.n_encoder_hidden,
+                                  n_out=n_roles,
+                                  n_proj=n_role_mlp,
+                                  dropout=mlp_dropout,
+                                  bias_x=True,
+                                  bias_y=True)
 
     def forward(self, words, feats=None):
         r"""
@@ -155,10 +159,8 @@ class CRFSemanticRoleLabelingModel(Model):
         """
 
         x = self.encode(words, feats)
-        edge_d, edge_h = self.edge_mlp_d(x), self.edge_mlp_h(x)
-        role_d, role_h = self.role_mlp_d(x), self.role_mlp_h(x)
-        s_edge = self.edge_attn(edge_d, edge_h)
-        s_role = self.role_attn(role_d, role_h).permute(0, 2, 3, 1)
+        s_edge = self.edge_attn(x, x)
+        s_role = self.role_attn(x, x).permute(0, 2, 3, 1)
         role_mask = s_role.new_ones(self.args.n_roles).gt(0)
         role_mask[[0, self.args.prd_index]] = 0
         s_role[..., 0, role_mask] = MIN
@@ -336,17 +338,22 @@ class CRF2oSemanticRoleLabelingModel(Model):
                  **kwargs):
         super().__init__(**Config().update(locals()))
 
-        self.edge_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.edge_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_edge_mlp, dropout=mlp_dropout)
-        self.sib_mlp_s = MLP(n_in=self.args.n_encoder_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
-        self.sib_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
-        self.sib_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_sib_mlp, dropout=mlp_dropout)
-        self.role_mlp_d = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
-        self.role_mlp_h = MLP(n_in=self.args.n_encoder_hidden, n_out=n_role_mlp, dropout=mlp_dropout)
-
-        self.edge_attn = Biaffine(n_in=n_edge_mlp, bias_x=True, bias_y=False)
-        self.sib_attn = Triaffine(n_in=n_sib_mlp, bias_x=True, bias_y=True)
-        self.role_attn = Biaffine(n_in=n_role_mlp, n_out=n_roles,  bias_x=True, bias_y=True)
+        self.edge_attn = Biaffine(n_in=self.args.n_encoder_hidden,
+                                  n_proj=n_edge_mlp,
+                                  dropout=mlp_dropout,
+                                  bias_x=True,
+                                  bias_y=False)
+        self.sib_attn = Triaffine(n_in=self.args.n_encoder_hidden,
+                                  n_proj=n_sib_mlp,
+                                  dropout=mlp_dropout,
+                                  bias_x=True,
+                                  bias_y=True)
+        self.role_attn = Biaffine(n_in=self.args.n_encoder_hidden,
+                                  n_out=n_roles,
+                                  n_proj=n_role_mlp,
+                                  dropout=mlp_dropout,
+                                  bias_x=True,
+                                  bias_y=True)
 
     def forward(self, words, feats=None):
         r"""
@@ -366,12 +373,9 @@ class CRF2oSemanticRoleLabelingModel(Model):
         """
 
         x = self.encode(words, feats)
-        edge_d, edge_h = self.edge_mlp_d(x), self.edge_mlp_h(x)
-        sib_s, sib_d, sib_h = self.sib_mlp_s(x), self.sib_mlp_d(x), self.sib_mlp_h(x)
-        role_d, role_h = self.role_mlp_d(x), self.role_mlp_h(x)
-        s_edge = self.edge_attn(edge_d, edge_h)
-        s_sib = self.sib_attn(sib_s, sib_d, sib_h).permute(0, 3, 1, 2)
-        s_role = self.role_attn(role_d, role_h).permute(0, 2, 3, 1)
+        s_edge = self.edge_attn(x, x)
+        s_sib = self.sib_attn(x, x, x).permute(0, 3, 1, 2)
+        s_role = self.role_attn(x, x).permute(0, 2, 3, 1)
         role_mask = s_role.new_ones(self.args.n_roles).gt(0)
         role_mask[[0, self.args.prd_index]] = 0
         s_role[..., 0, role_mask] = MIN
