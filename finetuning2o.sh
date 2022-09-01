@@ -123,7 +123,8 @@ predict() {
 }
 
 avg(){
-    git log -1 --oneline
+    printf "Current commits:\n$(git log -1 --oneline)\n3rd parties:\n"
+    cd 3rdparty/parser/ && printf "parser\n$(git log -1 --oneline)\n" && cd ../..
     for seed in {0..3}; do
         line=$(tail -n 2 $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$seed.$dataset.evaluate.log.verbose | head -n 1)
         echo $line
