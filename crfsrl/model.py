@@ -163,6 +163,7 @@ class CRFSemanticRoleLabelingModel(Model):
         s_role = self.role_attn(x, x).permute(0, 2, 3, 1)
         role_mask = s_role.new_ones(self.args.n_roles).gt(0)
         role_mask[[0, self.args.prd_index]] = 0
+        s_role[..., self.args.nul_index] = 0
         s_role[..., 0, role_mask] = MIN
         s_role[..., 1:, self.args.prd_index] = MIN
         return s_edge, s_role
@@ -378,6 +379,7 @@ class CRF2oSemanticRoleLabelingModel(Model):
         s_role = self.role_attn(x, x).permute(0, 2, 3, 1)
         role_mask = s_role.new_ones(self.args.n_roles).gt(0)
         role_mask[[0, self.args.prd_index]] = 0
+        s_role[..., self.args.nul_index] = 0
         s_role[..., 0, role_mask] = MIN
         s_role[..., 1:, self.args.prd_index] = MIN
         return s_edge, s_sib, s_role

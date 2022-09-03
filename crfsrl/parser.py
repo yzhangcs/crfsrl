@@ -252,7 +252,8 @@ class CRFSemanticRoleLabelingParser(Parser):
             'pad_index': WORD.pad_index,
             'unk_index': WORD.unk_index,
             'bos_index': WORD.bos_index,
-            'prd_index': ROLE.vocab['[prd]']
+            'prd_index': ROLE.vocab['[prd]'],
+            'nul_index': ROLE.vocab['O']
         })
         logger.info(f"{transform}")
         logger.info("Building the model")
@@ -518,7 +519,8 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
             'pad_index': WORD.pad_index,
             'unk_index': WORD.unk_index,
             'bos_index': WORD.bos_index,
-            'prd_index': ROLE.vocab['[prd]']
+            'prd_index': ROLE.vocab['[prd]'],
+            'nul_index': ROLE.vocab['O']
         })
         logger.info(f"{transform}")
         logger.info("Building the model")
