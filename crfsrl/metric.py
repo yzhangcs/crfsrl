@@ -6,6 +6,7 @@ import os
 import shutil
 import subprocess
 import tempfile
+from collections import defaultdict
 from typing import List, Optional, Tuple
 
 import torch
@@ -28,12 +29,13 @@ class SpanSRLMetric(Metric):
     ) -> SpanSRLMetric:
         super().__init__(eps=eps)
 
-        self.tp = 0.0
-        self.pred = 0.0
-        self.gold = 0.0
         self.prd_tp = 0
         self.prd_pred = 0
         self.prd_gold = 0
+        self.prd_cm = 0
+        self.tp = 0.0
+        self.pred = 0.0
+        self.gold = 0.0
 
         self.script = os.path.join(self.PATH, 'srlconll-1.1/bin/srl-eval.pl')
         if not os.path.exists(self.script):
@@ -44,7 +46,7 @@ class SpanSRLMetric(Metric):
 
     def __repr__(self):
         s = f"loss: {self.loss:.4f} - "
-        s += f"PRD: {self.prd_p:6.2%} {self.prd_r:6.2%} {self.prd_f:6.2%} P: {self.p:6.2%} R: {self.r:6.2%} F: {self.f:6.2%}"
+        s += f"PRD: {self.prd_f:6.2%} CM: {self.cm:6.2%} P: {self.p:6.2%} R: {self.r:6.2%} F: {self.f:6.2%}"
         return s
 
     def __call__(
@@ -74,10 +76,15 @@ class SpanSRLMetric(Metric):
         self.pred += int(p_out[3]) + int(p_out[1])
         self.gold += int(r_out[3]) + int(p_out[1])
         for pred, gold in zip(preds, golds):
-            prd_pred, prd_gold = {span[0] for span in pred}, {span[0] for span in gold}
-            self.prd_tp += len(prd_pred & prd_gold)
-            self.prd_pred += len(prd_pred)
-            self.prd_gold += len(prd_gold)
+            pred_props, gold_props = defaultdict(list), defaultdict(list)
+            for span in pred:
+                pred_props[span[0]].append(tuple(span[1:]))
+            for span in gold:
+                gold_props[span[0]].append(tuple(span[1:]))
+            self.prd_tp += len(pred_props.keys() & gold_props.keys())
+            self.prd_pred += len(pred_props)
+            self.prd_gold += len(gold_props)
+            self.prd_cm += sum(sorted(args) == sorted(pred_props[prd]) for prd, args in gold_props.items())
         return self
 
     def __add__(self, other: SpanSRLMetric) -> SpanSRLMetric:
@@ -86,12 +93,13 @@ class SpanSRLMetric(Metric):
         metric.count = self.count + other.count
         metric.total_loss = self.total_loss + other.total_loss
 
-        metric.tp = self.tp + other.tp
-        metric.pred = self.pred + other.pred
-        metric.gold = self.gold + other.gold
         metric.prd_tp = self.prd_tp + other.prd_tp
         metric.prd_pred = self.prd_pred + other.prd_pred
         metric.prd_gold = self.prd_gold + other.prd_gold
+        metric.prd_cm = self.prd_cm + other.prd_cm
+        metric.tp = self.tp + other.tp
+        metric.pred = self.pred + other.pred
+        metric.gold = self.gold + other.gold
         return metric
 
     @classmethod
@@ -112,6 +120,14 @@ class SpanSRLMetric(Metric):
         return self.f
 
     @property
+    def prd_f(self):
+        return 2 * self.prd_tp / (self.prd_pred + self.prd_gold + self.eps)
+
+    @property
+    def cm(self):
+        return self.prd_cm / (self.prd_gold + self.eps)
+
+    @property
     def p(self):
         return self.tp / (self.pred + self.eps)
 
@@ -122,15 +138,3 @@ class SpanSRLMetric(Metric):
     @property
     def f(self):
         return 2 * self.tp / (self.pred + self.gold + self.eps)
-
-    @property
-    def prd_p(self):
-        return self.prd_tp / (self.prd_pred + self.eps)
-
-    @property
-    def prd_r(self):
-        return self.prd_tp / (self.prd_gold + self.eps)
-
-    @property
-    def prd_f(self):
-        return 2 * self.prd_tp / (self.prd_pred + self.prd_gold + self.eps)
