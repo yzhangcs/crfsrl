@@ -6,8 +6,9 @@ import torch
 import torch.nn as nn
 from supar.parsers.parser import Parser
 from supar.utils import Config, Dataset, Embedding
-from supar.utils.common import BOS, PAD, UNK
+from supar.utils.common import BOS, MIN, PAD, UNK
 from supar.utils.field import ChartField, Field, RawField, SubwordField
+from supar.utils.fn import pad
 from supar.utils.logging import get_logger, progress_bar
 from supar.utils.parallel import parallel
 from supar.utils.tokenizer import TransformerTokenizer
@@ -169,6 +170,11 @@ class CRFSemanticRoleLabelingParser(Parser):
             lens = mask.sum(-1)
             with torch.autocast(self.device, enabled=self.args.amp):
                 s_edge, s_role = self.model(words, feats)
+            prd_mask = pad([word_mask.new_tensor([0]+['[prd]' in i for i in s.values[8]]) for s in batch.sentences])
+            if self.args.prd:
+                s_edge[:, 0].masked_fill_(~prd_mask, MIN)
+                s_role[..., 0, 0].masked_fill_(prd_mask, MIN)
+                s_role[..., 0, self.args.prd_index].masked_fill_(~prd_mask, MIN)
             role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s] for s in self.model.decode(s_edge, s_role, mask)]
             batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
             if self.args.prob:
@@ -418,6 +424,12 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
             lens = mask.sum(-1)
             with torch.autocast(self.device, enabled=self.args.amp):
                 s_edge, s_sib, s_role = self.model(words, feats)
+            from supar.utils.fn import pad
+            prd_mask = pad([word_mask.new_tensor([0]+['[prd]' in i for i in s.values[8]]) for s in batch.sentences])
+            if self.args.prd:
+                s_edge[:, 0].masked_fill_(~prd_mask, MIN)
+                s_role[..., 0, 0].masked_fill_(prd_mask, MIN)
+                s_role[..., 0, self.args.prd_index].masked_fill_(~prd_mask, MIN)
             role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s]
                           for s in self.model.decode(s_edge, s_sib, s_role, mask)]
             batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
