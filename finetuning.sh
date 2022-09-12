@@ -18,7 +18,7 @@ echo "ood:     ${ood:=$DATA/srl/conll05/brown.conllu}"
 echo "bert:    ${config:=bert-large-cased}"
 echo "batch:   ${batch:=1000}"
 echo "dropout: ${dropout:=0.1}"
-echo "epochs:  ${epochs:=25}"
+echo "epochs:  ${epochs:=20}"
 echo "rate:    ${rate:=20}"
 echo "nu:      ${nu:=0.9}"
 echo "eps:     ${eps:=1e-12}"
@@ -156,7 +156,7 @@ collect() {
     echo $path/model.batch$batch.dropout$dropout
     for dataset in dev test ood; do
         echo "All cmds for $dataset has been done!" | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$dataset.avg.log
-        avg $dataset | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.$dataset.rate$rate.avg.log
+        avg $dataset | tee -a $path/model.batch$batch.dropout$dropout.epochs$epochs.rate$rate.$dataset.avg.log
     done
     printf "\n"
 }
