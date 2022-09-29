@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 
 import os
+from typing import Iterable, Union
 
 import torch
-import torch.nn as nn
-from supar.parsers.parser import Parser
+from supar.parser import Parser
 from supar.utils import Config, Dataset, Embedding
 from supar.utils.common import BOS, MIN, PAD, UNK
 from supar.utils.field import ChartField, Field, RawField, SubwordField
 from supar.utils.fn import pad
-from supar.utils.logging import get_logger, progress_bar
-from supar.utils.parallel import parallel
+from supar.utils.logging import get_logger
 from supar.utils.tokenizer import TransformerTokenizer
+from supar.utils.transform import Batch
 
 from .metric import SpanSRLMetric
 from .model import CRF2oSemanticRoleLabelingModel, CRFSemanticRoleLabelingModel
@@ -35,152 +35,96 @@ class CRFSemanticRoleLabelingParser(Parser):
         self.TAG = self.transform.POS
         self.EDGE, self.ROLE, self.SPAN = self.transform.PHEAD
 
-    def train(self, train, dev, test, buckets=32, workers=0, batch_size=5000, update_steps=1, cache=False,
-              clip=5.0, epochs=5000, patience=100, verbose=True, **kwargs):
-        r"""
-        Args:
-            train/dev/test (str or Iterable):
-                Filenames of the train/dev/test datasets.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
-            workers (int):
-                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            update_steps (int):
-                Gradient accumulation steps. Default: 1.
-            cache (bool):
-                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding unconsumed arguments for updating training configs.
-        """
-
+    def train(
+        self,
+        train: Union[str, Iterable],
+        dev: Union[str, Iterable],
+        test: Union[str, Iterable],
+        epochs: int = 1000,
+        patience: int = 100,
+        batch_size: int = 5000,
+        update_steps: int = 1,
+        buckets: int = 32,
+        workers: int = 0,
+        amp: bool = False,
+        cache: bool = False,
+        verbose: bool = True,
+        **kwargs
+    ):
         return super().train(**Config().update(locals()))
 
-    def evaluate(self, data, buckets=8, workers=0, batch_size=5000, cache=False, verbose=True, **kwargs):
-        r"""
-        Args:
-            data (str or Iterable):
-                The data for evaluation. Both a filename and a list of instances are allowed.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 8.
-            workers (int):
-                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            cache (bool):
-                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding unconsumed arguments for updating evaluation configs.
-
-        Returns:
-            The loss scalar and evaluation results.
-        """
-
+    def evaluate(
+        self,
+        data: Union[str, Iterable],
+        batch_size: int = 5000,
+        buckets: int = 8,
+        workers: int = 0,
+        amp: bool = False,
+        cache: bool = False,
+        verbose: bool = True,
+        **kwargs
+    ):
         return super().evaluate(**Config().update(locals()))
 
-    def predict(self, data, pred=None, lang=None, buckets=8, workers=0, batch_size=5000, cache=False, prob=False,
-                verbose=True, **kwargs):
-        r"""
-        Args:
-            data (str or Iterable):
-                The data for prediction.
-                - a filename. If ends with `.txt`, the parser will seek to make predictions line by line from plain texts.
-                - a list of instances.
-            pred (str):
-                If specified, the predicted results will be saved to the file. Default: ``None``.
-            lang (str):
-                Language code (e.g., ``en``) or language name (e.g., ``English``) for the text to tokenize.
-                ``None`` if tokenization is not required.
-                Default: ``None``.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 8.
-            workers (int):
-                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            cache (bool):
-                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
-            prob (bool):
-                If ``True``, outputs the probabilities. Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding unconsumed arguments for updating prediction configs.
-
-        Returns:
-            A :class:`~supar.utils.Dataset` object containing all predictions if ``cache=False``, otherwise ``None``.
-        """
-
+    def predict(
+        self,
+        data: Union[str, Iterable],
+        pred: str = None,
+        lang: str = None,
+        prob: bool = False,
+        batch_size: int = 5000,
+        buckets: int = 8,
+        workers: int = 0,
+        amp: bool = False,
+        cache: bool = False,
+        verbose: bool = True,
+        **kwargs
+    ):
         return super().predict(**Config().update(locals()))
 
-    @parallel()
-    def _train(self, loader):
-        bar = progress_bar(loader)
+    def train_step(self, batch: Batch) -> torch.Tensor:
+        words, *feats, edges, roles, spans = batch.compose(self.transform)
+        word_mask = words.ne(self.args.pad_index)
+        mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
+        mask[:, 0] = 0
+        s_edge, s_role = self.model(words, feats)
+        loss = self.model.loss(s_edge, s_role, edges, roles, mask)
+        return loss
 
-        for i, batch in enumerate(bar, 1):
-            words, *feats, edges, roles, spans = batch.compose(self.transform)
-            word_mask = words.ne(self.args.pad_index)
-            mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
-            mask[:, 0] = 0
-            with torch.autocast(self.device, enabled=self.args.amp):
-                s_edge, s_role = self.model(words, feats)
-                loss = self.model.loss(s_edge, s_role, edges, roles, mask)
-                loss = loss / self.args.update_steps
-            loss.backward()
-            nn.utils.clip_grad_norm_(self.model.parameters(), self.args.clip)
-            if i % self.args.update_steps == 0:
-                self.optimizer.step()
-                self.scheduler.step()
-                self.optimizer.zero_grad()
-            bar.set_postfix_str(f"lr: {self.scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f}")
-        logger.info(f"{bar.postfix}")
+    @torch.no_grad()
+    def eval_step(self, batch: Batch) -> SpanSRLMetric:
+        words, *feats, edges, roles, spans = batch.compose(self.transform)
+        word_mask = words.ne(self.args.pad_index)
+        mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
+        mask[:, 0] = 0
+        s_edge, s_role = self.model(words, feats)
+        loss = self.model.loss(s_edge, s_role, edges, roles, mask)
+        role_preds = self.model.decode(s_edge, s_role, mask)
+        return SpanSRLMetric(
+            loss,
+            [[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
+            [[i for i in s if i[-1] != 'O'] for s in spans]
+        )
 
-    @parallel(training=False)
-    def _evaluate(self, loader):
-        metric = SpanSRLMetric()
-
-        for batch in loader:
-            words, *feats, edges, roles, spans = batch.compose(self.transform)
-            word_mask = words.ne(self.args.pad_index)
-            mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
-            mask[:, 0] = 0
-            with torch.autocast(self.device, enabled=self.args.amp):
-                s_edge, s_role = self.model(words, feats)
-                loss = self.model.loss(s_edge, s_role, edges, roles, mask)
-            role_preds = self.model.decode(s_edge, s_role, mask)
-            metric += SpanSRLMetric(
-                loss,
-                [[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
-                [[i for i in s if i[-1] != 'O'] for s in spans]
-            )
-        return metric
-
-    @parallel(training=False, op=None)
-    def _predict(self, loader):
-        for batch in progress_bar(loader):
-            words, *feats = batch.compose(self.transform)
-            word_mask = words.ne(self.args.pad_index)
-            mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
-            mask[:, 0] = 0
-            lens = mask.sum(-1)
-            with torch.autocast(self.device, enabled=self.args.amp):
-                s_edge, s_role = self.model(words, feats)
+    @torch.no_grad()
+    def pred_step(self, batch: Batch) -> Batch:
+        words, *feats = batch.compose(self.transform)
+        word_mask = words.ne(self.args.pad_index)
+        mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
+        mask[:, 0] = 0
+        lens = mask.sum(-1)
+        s_edge, s_role = self.model(words, feats)
+        if self.args.prd:
             prd_mask = pad([word_mask.new_tensor([0]+['[prd]' in i for i in s.values[8]]) for s in batch.sentences])
-            if self.args.prd:
-                s_edge[:, 0].masked_fill_(~prd_mask, MIN)
-                s_role[..., 0, 0].masked_fill_(prd_mask, MIN)
-                s_role[..., 0, self.args.prd_index].masked_fill_(~prd_mask, MIN)
-            role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s] for s in self.model.decode(s_edge, s_role, mask)]
-            batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
-            if self.args.prob:
-                scores = zip(*(s.cpu().unbind() for s in (s_edge, s_role)))
-                batch.probs = [(s[0][:i+1, :i+1], s[1][:i+1, :i+1]) for i, s in zip(lens.tolist(), scores)]
-            yield from batch.sentences
+            s_edge[:, 0].masked_fill_(~prd_mask, MIN)
+            s_role[..., 0, 0].masked_fill_(prd_mask, MIN)
+            s_role[..., 0, self.args.prd_index].masked_fill_(~prd_mask, MIN)
+        role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s] for s in self.model.decode(s_edge, s_role, mask)]
+        batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
+        if self.args.prob:
+            scores = zip(*(s.cpu().unbind() for s in (s_edge, s_role)))
+            batch.probs = [(s[0][:i+1, :i+1], s[1][:i+1, :i+1]) for i, s in zip(lens.tolist(), scores)]
+        return batch
 
     @classmethod
     def build(cls, path, min_freq=2, fix_len=20, **kwargs):
@@ -286,158 +230,51 @@ class CRF2oSemanticRoleLabelingParser(CRFSemanticRoleLabelingParser):
         self.TAG = self.transform.POS
         self.EDGE, self.ROLE, self.SPAN = self.transform.PHEAD
 
-    def train(self, train, dev, test, buckets=32, workers=0, batch_size=5000, update_steps=1, cache=False,
-              clip=5.0, epochs=5000, patience=100, verbose=True, **kwargs):
-        r"""
-        Args:
-            train/dev/test (str or Iterable):
-                Filenames of the train/dev/test datasets.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
-            workers (int):
-                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            update_steps (int):
-                Gradient accumulation steps. Default: 1.
-            cache (bool):
-                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding unconsumed arguments for updating training configs.
-        """
+    def train_step(self, batch: Batch) -> torch.Tensor:
+        words, *feats, edges, roles, spans = batch.compose(self.transform)
+        word_mask = words.ne(self.args.pad_index)
+        mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
+        mask[:, 0] = 0
+        s_edge, s_sib, s_role = self.model(words, feats)
+        loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
+        return loss
 
-        return super().train(**Config().update(locals()))
+    @torch.no_grad()
+    def eval_step(self, batch: Batch) -> SpanSRLMetric:
+        words, *feats, edges, roles, spans = batch.compose(self.transform)
+        word_mask = words.ne(self.args.pad_index)
+        mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
+        mask[:, 0] = 0
+        s_edge, s_sib, s_role = self.model(words, feats)
+        loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
+        role_preds = self.model.decode(s_edge, s_sib, s_role, mask)
+        return SpanSRLMetric(
+            loss,
+            [[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
+            [[i for i in s if i[-1] != 'O'] for s in spans]
+        )
 
-    def evaluate(self, data, buckets=8, workers=0, batch_size=5000, cache=False, verbose=True, **kwargs):
-        r"""
-        Args:
-            data (str or Iterable):
-                The data for evaluation. Both a filename and a list of instances are allowed.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 8.
-            workers (int):
-                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            cache (bool):
-                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding unconsumed arguments for updating evaluation configs.
-
-        Returns:
-            The loss scalar and evaluation results.
-        """
-
-        return super().evaluate(**Config().update(locals()))
-
-    def predict(self, data, pred=None, lang=None, buckets=8, workers=0, batch_size=5000, cache=False, prob=False,
-                verbose=True, **kwargs):
-        r"""
-        Args:
-            data (str or Iterable):
-                The data for prediction.
-                - a filename. If ends with `.txt`, the parser will seek to make predictions line by line from plain texts.
-                - a list of instances.
-            pred (str):
-                If specified, the predicted results will be saved to the file. Default: ``None``.
-            lang (str):
-                Language code (e.g., ``en``) or language name (e.g., ``English``) for the text to tokenize.
-                ``None`` if tokenization is not required.
-                Default: ``None``.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 8.
-            workers (int):
-                The number of subprocesses used for data loading. 0 means only the main process. Default: 0.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            cache (bool):
-                If ``True``, caches the data first, suggested for huge files (e.g., > 1M sentences). Default: ``False``.
-            prob (bool):
-                If ``True``, outputs the probabilities. Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding unconsumed arguments for updating prediction configs.
-
-        Returns:
-            A :class:`~supar.utils.Dataset` object containing all predictions if ``cache=False``, otherwise ``None``.
-        """
-
-        return super().predict(**Config().update(locals()))
-
-    @parallel()
-    def _train(self, loader):
-        self.model.train()
-
-        bar = progress_bar(loader)
-
-        for i, batch in enumerate(bar, 1):
-            words, *feats, edges, roles, spans = batch.compose(self.transform)
-            word_mask = words.ne(self.args.pad_index)
-            mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
-            mask[:, 0] = 0
-            with torch.autocast(self.device, enabled=self.args.amp):
-                s_edge, s_sib, s_role = self.model(words, feats)
-                loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
-                loss = loss / self.args.update_steps
-            loss.backward()
-            nn.utils.clip_grad_norm_(self.model.parameters(), self.args.clip)
-            if i % self.args.update_steps == 0:
-                self.optimizer.step()
-                self.scheduler.step()
-                self.optimizer.zero_grad()
-            bar.set_postfix_str(f"lr: {self.scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f}")
-        logger.info(f"{bar.postfix}")
-
-    @parallel(training=False)
-    def _evaluate(self, loader):
-        metric = SpanSRLMetric()
-
-        for batch in loader:
-            words, *feats, edges, roles, spans = batch.compose(self.transform)
-            word_mask = words.ne(self.args.pad_index)
-            mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
-            mask[:, 0] = 0
-            with torch.autocast(self.device, enabled=self.args.amp):
-                s_edge, s_sib, s_role = self.model(words, feats)
-                loss = self.model.loss(s_edge, s_sib, s_role, edges, roles, mask)
-            role_preds = self.model.decode(s_edge, s_sib, s_role, mask)
-            metric += SpanSRLMetric(
-                loss,
-                [[(i[0], *i[2:-1], self.ROLE.vocab[i[-1]]) for i in s if i[-1] != self.ROLE.unk_index] for s in role_preds],
-                [[i for i in s if i[-1] != 'O'] for s in spans]
-            )
-
-        return metric
-
-    @parallel(training=False, op=None)
-    def _predict(self, loader):
-        for batch in progress_bar(loader):
-            words, *feats = batch.compose(self.transform)
-            word_mask = words.ne(self.args.pad_index)
-            mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
-            mask[:, 0] = 0
-            lens = mask.sum(-1)
-            with torch.autocast(self.device, enabled=self.args.amp):
-                s_edge, s_sib, s_role = self.model(words, feats)
-            from supar.utils.fn import pad
+    @torch.no_grad()
+    def pred_step(self, batch: Batch) -> Batch:
+        words, *feats = batch.compose(self.transform)
+        word_mask = words.ne(self.args.pad_index)
+        mask = word_mask if len(words.shape) < 3 else word_mask.any(-1)
+        mask[:, 0] = 0
+        lens = mask.sum(-1)
+        s_edge, s_sib, s_role = self.model(words, feats)
+        if self.args.prd:
             prd_mask = pad([word_mask.new_tensor([0]+['[prd]' in i for i in s.values[8]]) for s in batch.sentences])
-            if self.args.prd:
-                s_edge[:, 0].masked_fill_(~prd_mask, MIN)
-                s_role[..., 0, 0].masked_fill_(prd_mask, MIN)
-                s_role[..., 0, self.args.prd_index].masked_fill_(~prd_mask, MIN)
-            role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s]
-                          for s in self.model.decode(s_edge, s_sib, s_role, mask)]
-            batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
-            if self.args.prob:
-                scores = zip(*(s.cpu().unbind() for s in (s_edge, s_sib, s_role)))
-                batch.probs = [(s[0][:i+1, :i+1], s[1][:i+1, :i+1, :i+1], s[2][:i+1, :i+1])
-                               for i, s in zip(lens.tolist(), scores)]
-            yield from batch.sentences
+            s_edge[:, 0].masked_fill_(~prd_mask, MIN)
+            s_role[..., 0, 0].masked_fill_(prd_mask, MIN)
+            s_role[..., 0, self.args.prd_index].masked_fill_(~prd_mask, MIN)
+        role_preds = [[(*i[:-1], self.ROLE.vocab[i[-1]]) for i in s]
+                      for s in self.model.decode(s_edge, s_sib, s_role, mask)]
+        batch.roles = [CoNLL.build_srl_roles(pred, length) for pred, length in zip(role_preds, lens.tolist())]
+        if self.args.prob:
+            scores = zip(*(s.cpu().unbind() for s in (s_edge, s_sib, s_role)))
+            batch.probs = [(s[0][:i+1, :i+1], s[1][:i+1, :i+1, :i+1], s[2][:i+1, :i+1])
+                           for i, s in zip(lens.tolist(), scores)]
+        return batch
 
     @classmethod
     def build(cls, path, min_freq=2, fix_len=20, **kwargs):

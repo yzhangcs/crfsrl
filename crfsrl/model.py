@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import torch
-from supar.models.model import Model
-from supar.modules import MLP, Biaffine, Triaffine
+from supar.model import Model
+from supar.modules import Biaffine, Triaffine
 from supar.utils import Config
 from supar.utils.common import MIN
 
