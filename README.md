@@ -1,15 +1,16 @@
 # crfsrl
 
-![task](https://img.shields.io/badge/SRL-brightgreen) 
 ![conf](https://img.shields.io/badge/COLING%202022-orange) 
-![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2Fbea48441d74ad3c72e960de0b7208a673a6948d2%3Ffields%3DcitationCount)
+![task](https://img.shields.io/badge/SRL-brightgreen) 
+[![arxiv](https://img.shields.io/badge/arXiv-2110.06865-f9f107.svg)](https://arxiv.org/abs/2110.06865)
+[![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F64332d61dfef5ac685500a238b8a79d75152c164%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Semantic-Role-Labeling-as-Dependency-Parsing%3A-Tree-Zhang-Xia/64332d61dfef5ac685500a238b8a79d75152c164)
 ![python](https://img.shields.io/pypi/pyversions/pybadges.svg?color=yellowgreen)
 
 <p align="center">
 <img width="540" alt="image" src="https://user-images.githubusercontent.com/18402347/191160039-2024f0d5-54c5-4cb7-81a5-ba90d3335dfe.png">
 </p>
 
-**Yu Zhang**, Qingrong Xia, Shilin Zhou, Yong Jiang, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021. [[arxiv](http://arxiv.org/abs/2110.06865)]
+**Yu Zhang**, Qingrong Xia, Shilin Zhou, Yong Jiang, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021.
 
 ## Setup
 
