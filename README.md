@@ -1,16 +1,37 @@
 # crfsrl
 
-![conf](https://img.shields.io/badge/COLING%202022-orange) 
-![task](https://img.shields.io/badge/SRL-brightgreen) 
-[![arxiv](https://img.shields.io/badge/arXiv-2110.06865-f9f107.svg)](https://arxiv.org/abs/2110.06865)
-[![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F64332d61dfef5ac685500a238b8a79d75152c164%3Ffields%3DcitationCount)](https://www.semanticscholar.org/paper/Semantic-Role-Labeling-as-Dependency-Parsing%3A-Tree-Zhang-Xia/64332d61dfef5ac685500a238b8a79d75152c164)
-![python](https://img.shields.io/pypi/pyversions/pybadges.svg?color=yellowgreen)
+[![conf](https://img.shields.io/badge/COLING%202022-orange?style=flat-square)](https://aclanthology.org/2022.coling-1.370/)
+[![arxiv](https://img.shields.io/badge/arXiv-2110.06865-f9f107.svg?style=flat-square)](https://arxiv.org/abs/2110.06865)
+[![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F64332d61dfef5ac685500a238b8a79d75152c164%3Ffields%3DcitationCount&style=flat-square)](https://www.semanticscholar.org/paper/Semantic-Role-Labeling-as-Dependency-Parsing%3A-Tree-Zhang-Xia/64332d61dfef5ac685500a238b8a79d75152c164)
+![python](https://img.shields.io/badge/python-%3E%3D%203.7-pybadges.svg?logo=python&style=flat-square)
+
 
 <p align="center">
 <img width="540" alt="image" src="https://user-images.githubusercontent.com/18402347/191160039-2024f0d5-54c5-4cb7-81a5-ba90d3335dfe.png">
 </p>
 
-**Yu Zhang**, Qingrong Xia, Shilin Zhou, Yong Jiang, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021.
+**Yu Zhang**, Qingrong Xia, Shilin Zhou, Yong Jiang, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021. 
+
+## Citation
+
+If you are interested in our work, please cite
+```bib
+@inproceedings{zhang-etal-2022-semantic,
+  title     = {Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures inside Arguments},
+  author    = {Zhang, Yu  and
+               Xia, Qingrong  and
+               Zhou, Shilin  and
+               Jiang, Yong  and
+               Fu, Guohong  and
+               Zhang, Min},
+  booktitle = {Proceedings of COLING},
+  year      = {2022},
+  url       = {https://aclanthology.org/2022.coling-1.370},
+  address   = {Gyeongju, Republic of Korea},
+  publisher = {International Committee on Computational Linguistics},
+  pages     = {4212--4227}
+}
+```
 
 ## Setup
 
