@@ -1,7 +1,7 @@
 # crfsrl
 
 [![conf](https://img.shields.io/badge/COLING%202022-orange?style=flat-square)](https://aclanthology.org/2022.coling-1.370/)
-[![arxiv](https://img.shields.io/badge/arXiv-2110.06865-f9f107.svg?style=flat-square)](https://arxiv.org/abs/2110.06865)
+[![arxiv](https://img.shields.io/badge/arXiv-2110.06865-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2110.06865)
 [![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F64332d61dfef5ac685500a238b8a79d75152c164%3Ffields%3DcitationCount&style=flat-square)](https://www.semanticscholar.org/paper/Semantic-Role-Labeling-as-Dependency-Parsing%3A-Tree-Zhang-Xia/64332d61dfef5ac685500a238b8a79d75152c164)
 ![python](https://img.shields.io/badge/python-%3E%3D%203.7-pybadges.svg?logo=python&style=flat-square)
 
