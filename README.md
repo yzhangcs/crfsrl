@@ -1,16 +1,34 @@
-# crfsrl
+<div align="center">
+
+# Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments
+
+<div>
+  <a href='https://yzhang.site/' target='_blank'><b>Yu Zhang</b></a><sup>1</sup>&emsp;
+  <a href='https://kirosummer.github.io/' target='_blank'>Qingrong Xia</a><sup>1,2</sup>&emsp;
+  <a href='https://github.com/zsLin177' target='_blank'>Shilin Zhou</a><sup>1</sup>&emsp;
+  <a href='https://jiangyong.site/' target='_blank'>Yong Jiang</b></a><sup>3</sup>&emsp;
+  <a href='https://web.suda.edu.cn/ghfu/' target='_blank'>Guohong Fu</a><sup>1</sup>&emsp;
+  <a href='https://zhangminsuda.github.io/' target='_blank'>Min Zhang</a><sup>1</sup>&emsp;
+</div>
+<div><sup>1</sup>Institute of Artificial Intelligence, School of Computer Science and Technology, Soochow University, Suzhou, China</div>
+<div><sup>2</sup>Huawei Cloud, China</div>
+<div><sup>3</sup>DAMO Academy, Alibaba Group, China</div>
+
+<div>
+<h4>
 
 [![conf](https://img.shields.io/badge/COLING%202022-orange?style=flat-square)](https://aclanthology.org/2022.coling-1.370/)
 [![arxiv](https://img.shields.io/badge/arXiv-2110.06865-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2110.06865)
 [![citation](https://img.shields.io/badge/dynamic/json?label=citation&query=citationCount&url=https%3A%2F%2Fapi.semanticscholar.org%2Fgraph%2Fv1%2Fpaper%2F64332d61dfef5ac685500a238b8a79d75152c164%3Ffields%3DcitationCount&style=flat-square)](https://www.semanticscholar.org/paper/Semantic-Role-Labeling-as-Dependency-Parsing%3A-Tree-Zhang-Xia/64332d61dfef5ac685500a238b8a79d75152c164)
 ![python](https://img.shields.io/badge/python-%3E%3D%203.7-pybadges.svg?logo=python&style=flat-square)
 
+</h4>
+</div>
 
 <p align="center">
-<img width="540" alt="image" src="https://user-images.githubusercontent.com/18402347/191160039-2024f0d5-54c5-4cb7-81a5-ba90d3335dfe.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/18402347/191160039-2024f0d5-54c5-4cb7-81a5-ba90d3335dfe.png">
 </p>
-
-**Yu Zhang**, Qingrong Xia, Shilin Zhou, Yong Jiang, Guohong Fu, Min Zhang. _Semantic Role Labeling as Dependency Parsing: Exploring Latent Tree Structures Inside Arguments_. 2021. 
+</div>
 
 ## Citation
 
