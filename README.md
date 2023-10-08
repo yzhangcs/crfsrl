@@ -10,7 +10,7 @@
   <a href='https://web.suda.edu.cn/ghfu/' target='_blank'>Guohong Fu</a><sup>1</sup>&emsp;
   <a href='https://zhangminsuda.github.io/' target='_blank'>Min Zhang</a><sup>1</sup>&emsp;
 </div>
-<div><sup>1</sup>Institute of Artificial Intelligence, School of Computer Science and Technology, Soochow University, Suzhou, China</div>
+<div><sup>1</sup>Soochow University, Suzhou, China</div>
 <div><sup>2</sup>Huawei Cloud, China</div>
 <div><sup>3</sup>DAMO Academy, Alibaba Group, China</div>
 
